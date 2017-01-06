@@ -1,0 +1,8 @@
+{% capture sharing-image %}
+  {% if page.sharing-image %}
+    {{ page.sharing-image }}
+  {% else %}
+    {{ site.sharing-image }}
+  {% endif %}
+{% endcapture %}
+<meta property="og:image" content="{{site.baseurl}}/assets/{{sharing-image}}"/>

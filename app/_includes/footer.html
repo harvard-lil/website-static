@@ -1,0 +1,18 @@
+<figure class="footer-logo">
+   {% capture footer-file %}lab-logo-footer-{% if page.custom-footer %}{{ page.short-name}}{% else %}home{% endif %}.png{% endcapture %}
+   <img srcset="{{site.baseurl}}/assets/thumbs/351x143r/{{footer-file}} 1x,
+                {{site.baseurl}}/assets/thumbs/702x286r/{{footer-file}} 2x"
+        alt="Library Innovation Lab"
+        class="img-full-width">
+</figure>
+<ul>
+  <li><a href="{{site.baseurl}}/">Home</a></li>
+  <li><a href="{{site.baseurl}}/about/">About</a></li>
+  <li><a href="{{site.baseurl}}/projects/">Projects</a></li>
+  <li><a href="{{site.baseurl}}/sketches/">Sketches</a></li>
+  <li><a href="http://librarylab.law.harvard.edu/blog/">Blog</a></li>
+</ul>
+<div class="footer-copyright">
+  <p>&copy;2016 The President and Fellows of Harvard University</p>
+  <p>The content on this site is covered under a Creative Commons Attribution-ShareAlike 3.0 Unported license unless otherwise noted.</p>
+</div>

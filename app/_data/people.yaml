@@ -1,0 +1,573 @@
+# Currently affiliated #
+
+anastasia-aizman:
+  name: Anastasia Aizman
+  sort_name: Aizman
+  role: Developer
+  bio: >
+    Anastasia is a developer and designer, and she just came here to say
+    that she's fairly certain everyone is mispronouncing the word
+    "academia".
+  email: aaizman@law.harvard.edu
+  website: http://iamanastasia.com
+  twitter_account_name:
+  github_account_name: anastasia
+  image: anastasia-aizman.png
+  affiliated: true
+
+samantha-bates:
+  name: Samantha Bates
+  sort_name: Bates
+  role: Research Associate
+  bio: >
+    Samantha works as a research associate for Professor Zittrain and
+    helps out with Lab projects. She previously worked in the legal
+    department at Google and enjoys running, baking bread, and reading
+    British literature.
+  email: sbates@cyber.law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: samantha-bates.jpg
+  affiliated: true
+
+stephen-chapman:
+  name: Stephen Chapman
+  sort_name: Chapman
+  role: Manager, Digital Strategies for Collections
+  bio: >
+    Steve is a librarian mad about digitization. Always ready for a road
+    trip, he loves national parks and used bookstores. Steve has worked
+    at Harvard since 1997.
+  email: schapman@law.harvard.edu
+  website:
+  twitter_account_name: schapman50
+  github_account_name:
+  image: stephen-chapman.jpg
+  affiliated: true
+
+rebecca-cremona:
+  name: Rebecca Cremona
+  sort_name: Cremona
+  role: Developer
+  bio: >
+    Becky is into the relationship between matter and meaning. She
+    presently spends most of her time inducing electrons to do her
+    bidding; in the past she’s studied liturgical gesture, tried to make
+    quantum cryptography work, and tended sheep.
+  email: rcremona@law.harvard.edu
+  website:
+  twitter_account_name: RebeccaCremona
+  github_account_name:
+  image: rebecca-cremona.jpg
+  affiliated: true
+
+jack-cushman:
+  name: Jack Cushman
+  sort_name: Cushman
+  role: Fellow
+  bio: >
+    Jack is an attorney, developer, and tinkerer. He once built a
+    working web server using only a Perl script, a paperclip, and a
+    pack of bubblegum.
+  email: jcushman@law.harvard.edu
+  website: http://jackcushman.org
+  twitter_account_name:
+  github_account_name:  jcushman
+  image: jack-cushman.jpg
+  affiliated: true
+
+paul-deschner:
+  name: Paul Deschner
+  sort_name: Deschner
+  role: Developer
+  bio: >
+    Paul swims, skis, speaks multiple languages, and likes Finnish
+    literature. He's worked at Harvard since 1990.
+  email: deschner@law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: paul-deschner.jpg
+  affiliated: true
+
+kim-dulin:
+  name: Kim Dulin
+  sort_name: Dulin
+  role: Library Innovation Lab Director
+  bio: >
+    Kim is the director of the Lab. She's a librarian, lawyer, and
+    former Iowan. She loves chocolate labs, summertime, and working
+    with the Library Innovation Lab team.
+  email: kdulin@law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: kim-dulin.jpg
+  affiliated: true
+
+jay-edwards:
+  name: Jay Edwards
+  sort_name: Edwards
+  role: Fellow
+  bio:
+  email: sbates@cyber.law.harvard.edu
+  website:
+  twitter_account_name: meangrape
+  github_account_name:
+  image: jay-edwards.jpg
+  affiliated: true
+
+kerri-fleming:
+  name: Kerri Fleming
+  sort_name: Fleming
+  role: Digital Projects Archivist
+  bio: >
+    Kerri is a history nerd who loves color-coding, ice cream and the
+    Backstreet Boys. In her spare time she is either giving her niece
+    horsie rides or teaching exercise classes at nursing homes.
+  email:  kfleming@law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: kerri-fleming.jpg
+  affiliated: true
+
+brett-johnson:
+  name: Brett Johnson
+  sort_name: Johnson
+  role: Outreach and Support
+  bio: >
+    Brett's a talker who likes to think he's a thinker. He makes film,
+    comedy and works with LIL on stuff like Perma and H2O.
+  email:  bjohnson@law.harvard.edu
+  website:  http://forrealdude.tumblr.com
+  twitter_account_name:
+  github_account_name:
+  image: brett-johnson.jpg
+  affiliated: true
+
+matt-phillips:
+  name: Matt Phillips
+  sort_name: Phillips
+  role: Product Lead
+  bio: >
+    Matt loves pedaling bicycles. He likes creating tools and thinking
+    of new ways to talk to the machine.
+  email: mphillips@law.harvard.edu
+  website: http://mattphillips.info
+  twitter_account_name: this_phillips
+  github_account_name:  phillipsm
+  image: matt-phillips.jpg
+  affiliated: true
+
+andy-silva:
+  name: Andy Silva
+  sort_name: Silva
+  role: Developer
+  bio: >
+    After learning to program as a kid on a Tandy TRS-80, Andy built a
+    career in technology. He naturally followed up his role as a
+    professional developer with a tour through culinary school. Chef
+    Andy got some sense knocked into him in the kitchen and now he's
+    back in the tech world.
+  email: asilva@law.harvard.edu
+  website:
+  twitter_account_name: SomeInterwebDev
+  github_account_name:
+  image: anastasia-aizman.png
+  affiliated: true
+
+ben-steinberg:
+  name: Ben Steinberg
+  sort_name: Steinberg
+  role: Developer
+  bio: >
+    Ben came to software development from his career as a public library
+    reference librarian by way of Perl. He likes making things,
+    including food and analog synths.
+  email:  bsteinberg@law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: ben-steinberg.jpg
+  affiliated: true
+
+jessamyn-west:
+  name: Jessamyn West
+  sort_name: West
+  role: Fellow
+  bio:
+  email: jessamyn@gmail.com
+  website: http://www.librarian.net/
+  twitter_account_name: jessamyn
+  github_account_name:
+  image: jessamyn-west.png
+  affiliated: true
+
+adam-ziegler:
+  name: Adam Ziegler
+  sort_name: Ziegler
+  role: Managing Director
+  bio: >
+    Adam is a lawyer and freethrow champion. He once made an opposing
+    lawyer cry during trial...in a good way. His favorite book is Clovis
+    Crawfish and His Friends.
+  email:  aziegler@law.harvard.edu
+  website:
+  twitter_account_name: abziegler
+  github_account_name:  abziegler
+  image: adam-ziegler.jpg
+  affiliated: true
+
+jonathan-zittrain:
+  name: Jonathan Zittrain
+  sort_name: Zittrain
+  role: Harvard Faculty and Law School Library Director
+  bio: >
+    JZ is a proud dog owner. Oh, and he directs the Law School Library,
+    co-created the Berkman Center, is an EFF board member, and is
+    faculty in the Law School, School of Engineering and Applies
+    Sciences, and the Kennedy School.
+  email: a2jz@law.harvard.edu
+  website: http://jz.org
+  twitter_account_name: zittrain
+  github_account_name:
+  image: jonathan-zittrain.jpg
+  affiliated: true
+
+
+
+
+# Friends, Former Staff, Former Fellows, etc.
+# (not currently officially affiliated) #
+
+lori-schulsinger:
+  name: Lori Schulsinger
+  sort_name: Schulsinger
+  role: Collection Development Coordinator
+  affiliated: false
+
+caroline-walters:
+  name: Caroline Walters
+  sort_name: Walters
+  role: Collection Development Librarian for U.S. Law
+  affiliated: false
+
+neel-agrawal:
+  name: Neel Agrawal
+  sort_name: Agrawal
+  role: Summer Fellow
+  website: http://neelagrawal.com
+  affiliated: false
+
+berkman:
+  name: Berkman Klein Center for Internet and Society
+  sort_name: Berkman
+  role: Cyberspace explorer
+  website: https://cyber.law.harvard.edu/ @berkmancenter
+  affiliated: false
+
+rachel-binx:
+  name: Rachel Binx
+  sort_name: Binx
+  website: http://rachelbinx.com/
+  affiliated: false
+
+zachary-bodnar:
+  name: Zachary Bodnar
+  sort_name: Bodnar
+  role: Digitization Specialist
+  affiliated: false
+
+tom-boone:
+  name: Tom Boone
+  sort_name: Boone
+  role: Faculty Services Librarian
+  affiliated: false
+
+annie-cain:
+  name: Annie Cain
+  sort_name: Cain
+  role: Developer
+  github_account_name: anniejocain
+  affiliated: false
+
+june-casey:
+  name: June Casey
+  sort_name: Casey
+  role: Librarian for Open Access Initiatives & Scholarly Communication
+  affiliated: false
+
+deborah-chase:
+  name: Deborah Chase
+  sort_name: Chase
+  role: Digitization Specialist
+  affiliated: false
+
+emma-cushman:
+  name: Emma Cushman
+  sort_name: Cushman
+  role: Contributing developer
+  affiliated: false
+
+claire-demarco:
+  name: Claire DeMarco
+  sort_name: DeMarco
+  role: Research Librarian
+  affiliated: false
+
+dpla:
+  name: Digital Public Library of America
+  sort_name: Digital
+  role: The Digital Public Library of America makes the riches of America’s libraries, archives, and museums freely available to the world.
+  website: http://dp.la/
+  twitter_account_name: dpla
+  affiliated: false
+
+lindsay-dumas:
+  name: Lindsay Dumas
+  sort_name: Dumas
+  role: former Digital Projects Archivist
+  affiliated: false
+
+frances-duncan:
+  name: Frances Duncan
+  sort_name: Duncan
+  role: Contributing designer
+  website: http://francesduncan.com
+  affiliated: false
+
+kate-edrington:
+  name: Kate Edrington
+  sort_name: Edrington
+  role: Digitization Specialist
+  affiliated: false
+
+antontio-fernandes:
+  name: Antonio Fernandes
+  sort_name: Fernandes
+  website: http://codeti.me/
+  twitter_account_name: afj176
+  affiliated: false
+
+sara-frug:
+  name: Sara Frug
+  sort_name: Frug
+  role: Summer Fellow
+  twitter_account_name: ssfrug
+  affiliated: false
+
+sarah-glassmeyer:
+  name: Sarah Glassmeyer
+  sort_name: Glassmeyer
+  role: Fellow
+  website: http://www.sarahglassmeyer.com
+  twitter_account_name: sglassmeyer
+  github_account_name: sglassmeyer
+  affiliated: false
+
+jeff-goldenson:
+  name: Jeff Goldenson
+  sort_name: Goldenson
+  role: Former LIL Designer
+  website: http://buildingways.com/
+  affiliated: false
+
+hans-christian-gregerson:
+  name: Hans Christian Gregerson
+  sort_name: Gregerson
+  role: LIL and Berkman Summer Intern
+  affiliated: false
+
+harvard-library-lab:
+  name: Harvard Library Lab
+  sort_name: Harvard
+  website: http://osc.hul.harvard.edu/liblab/
+  affiliated: false
+
+alison-head:
+  name: Alison Head
+  sort_name: Head
+  website: http://projectinfolit.org
+  twitter_account_name: alisonjhead
+  affiliated: false
+
+sha-hwang:
+  name: Sha Hwang
+  sort_name: Hwang
+  website: http://postarchitectural.com/
+  twitter_account_name: shashashasha
+  affiliated: false
+
+ilya-kreymer:
+  name: Ilya Kreymer
+  sort_name: Kreymer
+  role: Summer Fellow
+  website: https://webrecorder.io/
+  twitter_account_name: IlyaKreymer
+  github_account_name: ikreymer
+  affiliated: false
+
+erica-leeman:
+  name: Erica Leeman
+  sort_name: Leeman
+  role: former Digitization Specialist
+  affiliated: false
+
+greg-leppert:
+  name: Greg Leppert
+  sort_name: Leppert
+  role: Developer
+  website: http://leppert.me
+  twitter_account_name: leppert
+  github_account_name: leppert
+  affiliated: false
+
+dustin-lewis:
+  name: Dustin Lewis
+  sort_name: Lewis
+  role: former Project Manager (FTL, H2O) and now Senior Researcher at Harvard Law School's PILAC
+  website: http://pilac.law.harvard.edu/dustin-a-lewis
+  twitter_account_name: dustin_a_lewis
+  affiliated: false
+
+andrew-mactaggart:
+  name: Andrew MacTaggart
+  sort_name: MacTaggart
+  role: Senior Digitization Specialist
+  affiliated: false
+
+emily-magagnosc:
+  name: Emily Magagnosc
+  sort_name: Magagnosc
+  role: Digitization Specialist
+  affiliated: false
+
+petar-maymounkov:
+  name: Petar Maymounkov
+  sort_name: Maymounkov
+  website: http://www.maymounkov.org/
+  twitter_account_name: maymounkov
+  affiliated: false
+
+kate-mays:
+  name: Kate Mays
+  sort_name: Mays
+  role: LIL and Berkman Summer Intern
+  affiliated: false
+
+timothy-mcallister:
+  name: Timothy McAllister
+  sort_name: McAllister
+  role: Reference Librarian, Perma.cc
+  affiliated: false
+
+muira-mccammon:
+  name: Muira McCammon
+  sort_name: McCammon
+  role: Summer Fellow
+  twitter_account_name: muira_mccammon
+  affiliated: false
+
+metalab:
+  name: MetaLAB at Harvard
+  sort_name: MetaLAB
+  role: Exploring and expanding the frontiers of networked culture in the arts and humanities
+  website: http://metalab.harvard.edu/
+  twitter_account_name: metalabharvard
+  affiliated: false
+
+loren-newman:
+  name: Loren Newman
+  sort_name: Newman
+  role: Intern
+  affiliated: false
+
+alexander-nwala:
+  name: Alexander Nwala
+  sort_name: Nwala
+  role: Summer Fellow
+  website: http://www.cs.odu.edu/~anwala/
+  twitter_account_name: acnwala
+  github_account_name: anwala
+  affiliated: false
+
+tim-riser:
+  name: Tim Riser
+  sort_name: Riser
+  role: LIL and Berkman Summer Intern
+  affiliated: false
+
+carli-spina:
+  name: Carli Spina
+  sort_name: Spina
+  role: Emerging Technologies and Research Librarian
+  affiliated: false
+
+shailin-thomas:
+  name: Shailin Thomas
+  sort_name: Thomas
+  role: Affiliate, Berkman Center for Internet & Society
+  website: http://shailin.org
+  twitter_account_name: shailinthomas
+  affiliated: false
+
+caleb-troughton:
+  name: Caleb Troughton
+  sort_name: Troughton
+  website: http://imakewebthings.com/
+  twitter_account_name: foodgoesinmouth
+  affiliated: false
+
+tiff-tseng:
+  name: Tiff Tseng
+  sort_name: Tseng
+  role: Summer Fellow
+  website: http://spin.media.mit.edu
+  twitter_account_name: scientiffic
+  affiliated: false
+
+david-weinberger:
+  name: David Weinberger
+  sort_name: Weinberger
+  website: http://weinberger.org/
+  twitter_account_name: dweinberger
+  affiliated: false
+
+dano-williams:
+  name: Dano Williams
+  sort_name: Williams
+  role: Designer
+  website: http://texttile.net
+  twitter_account_name: thisisdano
+  github_account_name: thisisdano
+  affiliated: false
+
+suzanne-wones:
+  name: Suzanne Wones
+  sort_name: Wones
+  role: former Executive Director, Harvard Law School Library
+  twitter_account_name: onlywones
+  affiliated: false
+
+rosten-woo:
+  name: Rosten Woo
+  sort_name: Woo
+  website: http://www.rostenwoo.biz/
+  twitter_account_name: rstnrstn
+  affiliated: false
+
+yunhan-xu:
+  name: Yunhan Xu
+  sort_name: Xu
+  role: Contributing statistician
+  website: http://yunhanxu.com/
+  affiliated: false
+
+jessica-yurkofsky:
+  name: Jessica Yurkofsky
+  sort_name: Yurkofsky
+  website: http://www.jessyurko.com/
+  affiliated: false
+

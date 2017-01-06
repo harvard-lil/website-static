@@ -1,0 +1,99 @@
+---
+title: About
+short-name: about
+custom-footer: true
+layout: sectioned-page
+---
+
+<section>
+  <div class="sleeve">
+
+    <h1>About the Lab</h1>
+
+    <div class="slice">
+      <h3>What does the Library Innovation Lab do?</h3>
+      <div class="slice-body">
+        We build things in libraries.
+      </div>
+    </div>
+
+    <div class="slice">
+
+      <h3>How can I get in touch with the Lab?</h3>
+      <div class="slice-body">
+        <div class="contact-intro">
+          <p>Follow us on Twitter or shoot us an email if you’re interested in any of our projects or sketches. All of our code is open source. Send a pull request on GitHub if you want to collaborate.</p>
+        </div>
+
+        <h4>Contact us online</h4>
+        <ul id="about-specs">
+          <li>twitter: <a href="{{site.twitter_url}}">@{{site.twitter_account_name}}</a></li>
+          <li>github: <a href="{{site.github_url}}">{{site.github_account_name}}</a></li>
+          <li>email: <a href="mailto:{{site.email}}">{{site.email}}</a></li>
+        </ul>
+
+        <h4>Contact us in person</h4>
+        <ul id="about-address">
+          <li>{{site.address_name}}</li>
+          <li>{{site.address_street1}}</li>
+          <li>{{site.address_street2}} <span class="map"><a href="{{site.address_map_url}}">Map</a></span></li>
+          <li>{{site.address_city_state}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="project-hero">
+    <picture>
+      <source media="(min-width: 600px)"
+              srcset="{{site.baseurl}}/assets/thumbs/800x450r/lab-hero-wide.jpg 800w,
+                      {{site.baseurl}}/assets/thumbs/1200x675r/lab-hero-wide.jpg 1200w,
+                      {{site.baseurl}}/assets/thumbs/1600x900r/lab-hero-wide.jpg 1600w">
+      <source srcset="{{site.baseurl}}/assets/thumbs/400x400r/lab-hero-narrow.jpg 1x,
+                      {{site.baseurl}}/assets/thumbs/800x800r/lab-hero-narrow.jpg 2x">
+      <img srcset="{{site.baseurl}}/assets/thumbs/400x400r/lab-hero-narrow.jpg"
+           alt=""
+           class="img-full-width">
+    </picture>
+  </div>
+
+  <div class="sleeve">
+    <div class="slice">
+      <h3>What’s our story?</h3>
+      <div class="slice-body">
+        <p>We’re a dynamic group of thinkers and doers working to make libraries better by exploring the countless, dimly lit pathways that connect libraries to the larger world.</p>
+
+        <p>We focus our energy on a handful of large multi-year projects and a number of small projects we call sketches. Our large projects are ambitious undertakings that reflect our long-term mission and efforts. Sketches are experiments and provocations that are often driven by one or two folks in the Lab.</p>
+
+        <p>We’re stationed in the Harvard Law School Library and benefit greatly from the deep legal thinking and scholarship that surrounds us. We often approach library challenges using our law school library lens, but we work hard to make sure our local efforts have broad application. Libraries are universal.</p>
+
+        <p>Our group’s culture is freewheelin’ and open. We welcome new ideas and new collaborations. Let’s work together to make libraries better.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="people-affiliated">
+  <div class="sleeve">
+    <div class="heading-pair">
+      <h2>Who we are</h2>
+      <p>The people at the Library Lab.</p>
+    </div>
+      {% include about-people-affiliated.html %}
+  </div>
+</section>
+
+<section class="people-unaffiliated">
+  <div class="sleeve">
+    <div class="heading-pair">
+      <h2>Collaborators</h2>
+      <p>Friends and fellow travelers.</p>
+    </div>
+
+    <div class="list">
+      {% include about-people-unaffiliated.html %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+<div class="project-hero">
+  <picture>
+    <!-- 16:9 for wide widths -->
+    <source
+      media="(min-width: 600px)"
+      srcset="{{site.baseurl}}/assets/thumbs/800x450r/{{page.hero_image}} 800w,
+              {{site.baseurl}}/assets/thumbs/1200x675r/{{page.hero_image}} 1200w,
+              {{site.baseurl}}/assets/thumbs/1600x900r/{{page.hero_image}} 1600w,
+              {{site.baseurl}}/assets/thumbs/2100x1000r/{{page.hero_image}} 2100w"
+      sizes="100vw">
+
+    <!-- square for narrow widths -->
+    <source srcset="{{site.baseurl}}/assets/thumbs/400x400r/{{page.hero_image_square}} 1x,
+                    {{site.baseurl}}/assets/thumbs/800x800r/{{page.hero_image_square}} 2x">
+    <img srcset="{{site.baseurl}}/assets/thumbs/400x400r/{{page.hero_image_square}}"
+         alt=""
+         class="img-full-width">
+  </picture>
+</div>

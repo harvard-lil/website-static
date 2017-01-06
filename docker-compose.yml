@@ -1,0 +1,19 @@
+version: '2'
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: ./build-environment/Dockerfile
+    image: rcremona/lil-root:0.1
+    command: grunt
+    volumes:
+        - ./app:/usr/src/lil-website/app
+        - ./builds:/usr/src/lil-website/builds
+  apache:
+    image: httpd
+    ports:
+        - "8081:80"
+        # - "443:443"
+    volumes:
+        - ./builds/dev:/usr/local/apache2/htdocs/
+

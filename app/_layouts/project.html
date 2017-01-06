@@ -1,0 +1,100 @@
+---
+layout: sectioned-page
+---
+
+<section>
+
+  {% include project-nav.html %}
+
+  <div class="sleeve">
+
+    <h1><span>{{page.body-class | capitalize }}:</span> {{ page.name }}</h1>
+
+    {% if page.project_website %}
+      <div class="slice">
+        <h2>Where can I find {{ page.name }}?</h2>
+        <div class="slice-body">
+          <a class="link-project" href="{{ page.project_website }}">{{ page.project_website }}</a>
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="slice">
+      <h2>What does {{ page.name }} do?</h2>
+      <div class="slice-body">
+        {{ page.what_does_it_do | markdownify }}
+      </div>
+    </div>
+
+    {% if page.why_does_it_exist %}
+      <div class="slice">
+        <h2>Why does {{ page.name }} exist?</h2>
+        <div class="slice-body">
+          {{ page.why_does_it_exist | markdownify }}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if page.github_repo %}
+      <div class="slice github">
+        <a href="{{ page.github_repo }}" role="button" aria-label="{{ page.name }} on Github"><span>{{ page.name }} on Github</span></a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<section>
+
+  {% if page.hero_image %}
+    {% include project-hero.html %}
+  {% endif %}
+
+  {% if page.who_contributed %}
+    <div class="slice project-people">
+
+      <div class="sleeve">
+        <h2>Who contributed to {{ page.name }}?</h2>
+
+        <div class="slice-body">
+         {% include project-people.html %}
+        </div>
+      </div>
+
+    </div>
+  {% endif %}
+
+  {% assign news = site.data.news | where: "project", page.news_slug %}
+  {% if news.size > 0 %}
+    <div class="slice news">
+
+      <div class="sleeve">
+        <h2>What’s been written about {{ page.name }}?</h2>
+        <div class="slice-body">
+          {% for article in news %}
+            <a class="{{ article.type }}" href="{{ article.url }}">
+              <div class="category">{{ article.type | capitalize }}</div>
+              <strong class="title">{{ article.title }}</strong>
+              <span class="date">{{ article.date }}</span>
+              {% if article.publication %}
+                <span class="publication">{{ article.publication }}</span>
+              {% endif %}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  {% endif %}
+
+  <div class="slice contact">
+
+    <div class="sleeve">
+      <h2>How can I learn more?</h2>
+      <div class="slice-body">
+        <p>If you’re interested in using {{ page.name }} or contributing to the project,{% if page.github_repo  %} check out the project’s <a href="{{ page.github_repo }}">Github page</a> or{% endif %} contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>

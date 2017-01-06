@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<body class="{{page.body-class}} {{page.short-name}}">
+
+  {% include header.html %}
+
+  {{content}}
+
+  <footer>
+    <div class="sleeve">
+      {% include footer.html %}
+    </div>
+  </footer>
+
+  {% comment %}<script src="{{site.baseurl}}/assets/javascripts/main.js"></script>{% endcomment %}
+  {% include custom-scripts.html %}
+</body>

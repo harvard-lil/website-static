@@ -1,0 +1,10 @@
+---
+---
+Sitemap: {{ site.url }}/sitemap.xml
+
+User-agent: *
+Crawl-delay: 10
+
+# allow WAX crawler - not necessary?
+User-agent: hul-wax
+Disallow:

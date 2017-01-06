@@ -1,0 +1,19 @@
+{% if page.short-name == "home" %}
+  <header id="header-splash">
+    <div>
+      <figure>
+        <img srcset="{{base.url}}/assets/images/header-splash-logo-ani@1x.gif 1x,
+                     {{base.url}}/assets/images/header-splash-logo-ani@2x.gif 2x"
+            src="{{base.url}}/assets/images/header-splash-logo-ani%401x.gif"
+            alt="Library Innovation Lab"
+            class="img-full-width">
+      </figure>
+      <h1>We’re building things in libraries.</h1>
+    </div>
+    {% include nav.html %}
+  </header>
+{% else %}
+  <header>
+    {% include nav.html %}
+  </header>
+{% endif %}

@@ -1,0 +1,22 @@
+{% assign old_friends = site.data.people | where: "affiliated", false | sort: "sort_name" %}
+{% for person in old_friends %}
+  <div class="person-unaffiliated" id="{{ person.name| slugify }}">
+    <div class="basics">
+      <strong class="name">{{ person.name }}</strong>
+      <span class="role">{{ person.role }}</span>
+    </div>
+    {% if person.website or person.twitter_account_name or person.github_account_name %}
+      <ul class="social">
+        {% if person.website %}
+          <li class="website"><a href="{{ person.website}}">{{ person.website }}</a></li>
+        {% endif %}
+        {% if person.twitter_account_name %}
+          <li class="twitter"><a href="https://www.twitter.com/{{ person.twitter_account_name }}">{{ person.twitter_account_name }}</a></li>
+        {% endif %}
+        {% if person.github_account_name %}
+          <li class="github"><a href="https://www.github.com/{{ person.github_account_name}}">{{ person.github_account_name }}</a></li>
+        {% endif %}
+      </ul>
+    {% endif %}
+  </div>
+{% endfor %}

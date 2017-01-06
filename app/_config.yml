@@ -1,0 +1,63 @@
+# Build settings
+destination: ../builds/dev
+permalink: pretty
+markdown: kramdown
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+gems:
+  - jekyll-sitemap
+
+# Site settings
+title: The Library Innovation Lab at Harvard University
+description: >
+  Bringing the best of technology to the world of libraries and the best of libraries to the world of technology. And vice versa.
+baseurl: ""
+url: "http://lil.law.harvard.edu"
+
+# Contact
+email: lil@law.harvard.edu
+twitter_account_name: HarvardLIL
+twitter_url: https://twitter.com/harvardlil
+facebook_url: https://www.facebook.com/HarvardLibraryInnovationLab/
+github_account_name: harvard-lil
+github_url:  https://github.com/harvard-lil
+address_name: The Library Innovation Lab
+address_street1: Langdell Hall
+address_street2: 1545 Massachusetts Avenue
+address_map_url: https://www.google.com/maps/place/1545+Massachusetts+Ave,+Harvard+University,+Cambridge,+MA+02138/@42.377991,-71.1185105,17z/data=!3m1!4b1!4m2!3m1!1s0x89e37741a21295b9:0x22b97c31830fc93f
+address_city_state: Cambridge, MA 02138
+
+# Collections
+collections:
+  projects_active:
+    output: true
+    permalink: /projects/:path/
+  projects_retired:
+    output: false
+  sketches_active:
+    output: true
+    permalink: /sketches/:path/
+  sketches_retired:
+    output: false
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+      custom-footer: false
+      sharing-image: "thumbs/800x800r/2015-07/lab-hero-narrow.jpg"
+  - scope:
+      path: ""
+      type: projects_active
+    values:
+      layout: project
+      body-class: project
+  - scope:
+      path: ""
+      type: sketches_active
+    values:
+      layout: project
+      body-class: sketch

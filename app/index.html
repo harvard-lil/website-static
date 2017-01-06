@@ -1,0 +1,69 @@
+---
+layout: sectioned-page
+description: Home of Perma.cc, H2O, Awesome Box, and others. We're building things in libraries.
+title: We're building things in libraries.
+short-name: home
+custom-scripts: ['jquery-3.1.1.min.js', 'home.js', 'roundup.js']
+---
+
+<section class="about">
+  <div class="sleeve">
+
+    <h2>About</h2>
+
+    <div class="slice">
+      <h3>What’s the Library Innovation Lab?</h3>
+      <div class="slice-body">
+        <p>The Library Innovation Lab is a forward-looking group of thinkers and doers working at the intersection of libraries, technology, and law.</p>
+      </div>
+    </div>
+
+    <a href="{{ site.baseurl }}/about" role="button" aria-label="Learn more about who we are"><span>Learn more about who we are</span></a>
+
+  </div>
+</section>
+
+<section class="projects">
+
+  <div class="sleeve">
+
+    <h2>Projects</h2>
+
+    {% include active-project-gallery.html %}
+
+    <a href="{{ paths.root }}projects" role="button" aria-label="Browse all our active projects"><span>Browse all our projects</span></a>
+
+  </div>
+</section>
+
+<section class="sketches">
+  <div class="sleeve">
+
+    <h2>Sketches</h2>
+
+    <div class="slice">
+      <h3>OK, I've seen your projects. What’s a sketch?</h3>
+      <div class="slice-body">
+        <p>Before it’s a project it’s a sketch. Sketches are a way to get a handle on an idea and see where it goes. It’s what’s on our mind. Lend a hand if something here interests you, too.</p>
+      </div>
+    </div>
+
+    {% include active-sketch-gallery.html %}
+
+    <a href="{{ site.baseurl }}/sketches" role="button" aria-label="See everything we’re sketching"><span>See everything we’re sketching</span></a>
+
+  </div>
+</section>
+
+<section class="roundup">
+  <div class="sleeve">
+
+    <div class="heading-pair">
+      <h2 class="roundup-header">Roundup</h2>
+      <p>Interesting things we’ve found.</p>
+    </div>
+
+    <div id="hopper"></div>
+
+  </div>
+</section>

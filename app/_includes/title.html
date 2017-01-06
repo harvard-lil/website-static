@@ -1,0 +1,10 @@
+{% capture title %}
+  {% if page.title-tag %}
+    {{ page.title-tag | append: " | Library Innovation Lab" }}
+  {% elsif page.title %}
+    {{ page.title | append: " | Library Innovation Lab" }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+{% endcapture %}
+ <title>{{title}}</title>
