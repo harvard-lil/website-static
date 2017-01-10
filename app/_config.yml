@@ -13,6 +13,7 @@ description: >
   Bringing the best of technology to the world of libraries and the best of libraries to the world of technology. And vice versa.
 baseurl: ""
 url: "http://lil.law.harvard.edu"
+sharing-image: "thumbs/800x800r/lab-hero-narrow.jpg"
 
 # Contact
 email: lil@law.harvard.edu
@@ -48,7 +49,6 @@ defaults:
     values:
       layout: "page"
       custom-footer: false
-      sharing-image: "thumbs/800x800r/2015-07/lab-hero-narrow.jpg"
   - scope:
       path: ""
       type: projects_active

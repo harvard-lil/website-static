@@ -1,8 +1,12 @@
 {% capture sharing-image %}
-  {% if page.sharing-image %}
+  {% if page.body-class == "project" %}
+    thumbs/400x300r/{{ page.thumbnail_image }}
+  {% elsif page.body-class == "sketch" %}
+    thumbs/432x432r/{{ page.sketch_thumbnail_image }}
+  {% elsif page.sharing-image %}
     {{ page.sharing-image }}
   {% else %}
     {{ site.sharing-image }}
   {% endif %}
 {% endcapture %}
-<meta property="og:image" content="{{site.baseurl}}/assets/{{ sharing-image | strip }}"/>
+<meta property="og:image" content="{{site.baseurl}}/assets/{{ sharing-image | strip }}">
