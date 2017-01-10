@@ -1,7 +1,8 @@
+{% capture footer-file %}{% if page.custom-footer %}{% if page.body-class == "project" or page.body-class == "sketch" %}{{ page.name  | slugify }}{% else %}{{ page.short-name }}{% endif %}{% else %}home{% endif %}{% endcapture %}
+
 <figure class="footer-logo">
-   {% capture footer-file %}lab-logo-footer-{% if page.custom-footer %}{{ page.short-name}}{% else %}home{% endif %}.png{% endcapture %}
-   <img srcset="{{site.baseurl}}/assets/thumbs/351x143r/{{footer-file}} 1x,
-                {{site.baseurl}}/assets/thumbs/702x286r/{{footer-file}} 2x"
+   <img srcset="{{site.baseurl}}/assets/thumbs/351x143r/lab-logo-footer-{{footer-file}}.png 1x,
+                {{site.baseurl}}/assets/thumbs/702x286r/lab-logo-footer-{{footer-file}}.png 2x"
         alt="Library Innovation Lab"
         class="img-full-width">
 </figure>

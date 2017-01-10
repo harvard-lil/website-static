@@ -58,5 +58,6 @@ who_contributed:
   - rosten-woo
 
 ### Override Jekyll Defaults ###
+custom-footer: true
 
 ---

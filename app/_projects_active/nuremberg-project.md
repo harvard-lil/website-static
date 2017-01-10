@@ -57,5 +57,6 @@ who_contributed:
 
 ### Override Jekyll Defaults ###
 title-tag: The Nuremberg Project
+custom-footer: true
 
 ---

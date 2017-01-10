@@ -57,5 +57,6 @@ who_contributed:
   - berkman
 
 ### Override Jekyll Defaults ###
+custom-footer: true
 
 ---

@@ -81,5 +81,6 @@ who_contributed:
   - suzanne-wones
 
 ### Override Jekyll Defaults ###
+custom-footer: true
 
 ---

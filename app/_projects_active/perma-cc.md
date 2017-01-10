@@ -70,4 +70,6 @@ who_contributed:
 
 ### Override Jekyll Defaults ###
 title-tag: Perma.cc
+custom-footer: true
+
 ---
