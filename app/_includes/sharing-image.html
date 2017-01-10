@@ -5,4 +5,4 @@
     {{ site.sharing-image }}
   {% endif %}
 {% endcapture %}
-<meta property="og:image" content="{{site.baseurl}}/assets/{{sharing-image}}"/>
+<meta property="og:image" content="{{site.baseurl}}/assets/{{ sharing-image | strip }}"/>
