@@ -104,7 +104,7 @@ $half: $grid / 2;
 //  ex:
 //  @include respond(3) {[content]}
 //  sets a min-width meda query at element [3] in this variable (+ 1 px)
-$respond-breakpoints: 320px 375px 665px 1048px 1296px;
+$respond-breakpoints: 320px 375px 695px 1048px 1296px;
 
 ////////
 //  typography
@@ -517,6 +517,15 @@ a[role='button'] {
   &:active {
     span  { @include include-arrow-white; }
   }
+}
+
+a.small[role='button'] {
+    padding: 10px;
+    margin: 15px 0 0 0;
+  }
+
+a.small[role='button']:hover{
+  padding: 9px;
 }
 
 p a {
