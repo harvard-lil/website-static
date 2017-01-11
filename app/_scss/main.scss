@@ -282,6 +282,7 @@ $color-acidmint: #18F1C0;
 @mixin link-none($linkcolor){
   color: $linkcolor;
   text-decoration: none;
+  border: none;
   &:link { color: $linkcolor; }
   &:visited { color: $linkcolor}
   &:hover { color: $linkcolor; }
@@ -528,7 +529,7 @@ a.small[role='button']:hover{
   padding: 9px;
 }
 
-p a {
+p a, section a {
   @extend %link-inline;
 }
 
@@ -719,6 +720,7 @@ footer {
   }
 
   a {
+    border-bottom: none;
     @include link-highlight($color-black, $color-highlight);
     @extend %vcenter-child;
     width: 50%;
@@ -983,6 +985,10 @@ section, .container {
   }
 }
 
+a.gallery-item {
+  border-bottom: none;
+}
+
 .gallery-item-person {
   @extend %gallery-item;
   width: 49%;
@@ -1150,6 +1156,7 @@ section, .container {
 // Unaffiliated people list (used on About page and in Project pages)
 .person-unaffiliated {
   @extend %lined-list-item;
+  border-bottom: none;
   border-top-color: $color-black;
   font-size: $size-small;
   margin-top: 0;
@@ -1184,6 +1191,7 @@ section, .container {
         background-size: auto 24px;
         background-position-x: 0;
         background-repeat: no-repeat;
+        border-bottom: none;
         &:hover { background-position-x: -56px; }
         &:active { background-position-x: 0; }
       }
@@ -1229,6 +1237,7 @@ section, .container {
     margin-top: 6px;
 
     a {
+      border-bottom: none;
       @include underline-on-hover;
       @include include-arrow(1px);
       &:link { color: $color-highlight; }
@@ -1351,6 +1360,7 @@ section.sunset {
 }
 
 a.link-project {
+  border-bottom: none;
   @include include-arrow(1px);
   @include link-highlight($color-highlight, $color-blue);
 }
@@ -1439,6 +1449,7 @@ a.link-project {
   }
 
   a {
+    border-bottom: none;
     @extend %lined-list-item;
     border-color: $color-trans-lightgray;
 
@@ -1583,11 +1594,20 @@ a.link-project {
 }
 #about-specs {
   padding-top: 0;
-  a { @extend %link-arrow; }
+  a {
+    @include link-none($color-highlight);
+    @extend %link-arrow;
+  }
 }
 #about-address {
   padding-top: 0;
   margin-bottom: $grid * 2;
+}
+
+.map a {
+  @include link-none($color-highlight);
+  text-decoration: underline;
+  font-size: $size-small;
 }
 
 //  about page, spacing and separation of containers
