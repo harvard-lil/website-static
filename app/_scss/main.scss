@@ -501,6 +501,11 @@ body {
   position: relative;
 }
 
+// Prevent linked urls from breaking layouts
+a {
+  word-wrap: break-word !important;
+}
+
 a {
   color: $color-black;
   text-decoration: none;
@@ -714,6 +719,33 @@ footer {
   p {
     margin-top: $grid;
     margin-bottom: 0;
+  }
+}
+
+// Sticky footer
+html {
+  min-height: 100%;
+  background: $color-trans-whispergray;
+}
+body {
+  // Margin bottom equals footer height, set below
+  margin-bottom: 264px;
+  position: initial;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 264px;
+}
+
+@include respond(4) {
+  body {
+    // Margin bottom equals footer height, set below
+    margin-bottom: 209px;
+  }
+  footer {
+    height: 209px;
   }
 }
 
