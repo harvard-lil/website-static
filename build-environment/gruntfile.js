@@ -62,7 +62,9 @@ module.exports = function (grunt) {
         options: {
           removeComments: true,
           collapseWhitespace: true,
-          conservativeCollapse: true
+          conservativeCollapse: true,
+          removeEmptyAttributes: true,
+          customAttrCollapse: /(srcset)|(sizes)/,
         },
         files: [{
           expand: true,
