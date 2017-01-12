@@ -77,6 +77,12 @@ module.exports = function (grunt) {
     // Other Files to Move Around
     //////////
     copy: {
+      js: {
+        expand: true,
+        cwd: '<%= globalConfig.devBuild %>/assets/javascripts',
+        src: '*',
+        dest: '<%= globalConfig.prodBuild %>/assets/javascripts/'
+      },
       fonts: {
         expand: true,
         cwd: '<%= globalConfig.devBuild %>/assets/fonts',
@@ -213,6 +219,7 @@ module.exports = function (grunt) {
     'sass',
     'exec:cleanProdBuild',
     'htmlmin',
+    'copy:js',
     'copy:fonts',
     'copy:files',
     'copy:images',
