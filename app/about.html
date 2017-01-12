@@ -27,17 +27,17 @@ layout: sectioned-page
 
         <h4>Contact us online</h4>
         <ul id="about-specs">
-          <li>twitter: <a href="{{site.twitter_url}}">@{{site.twitter_account_name}}</a></li>
-          <li>github: <a href="{{site.github_url}}">{{site.github_account_name}}</a></li>
-          <li>email: <a href="mailto:{{site.email}}">{{site.email}}</a></li>
+          <li>twitter: <a href="{{ site.twitter_url }}">@{{  site.twitter_account_name }}</a></li>
+          <li>github: <a href="{{ site.github_url }}">{{ site.github_account_name }}</a></li>
+          <li>email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
 
         <h4>Contact us in person</h4>
         <ul id="about-address">
-          <li>{{site.address_name}}</li>
-          <li>{{site.address_street1}}</li>
-          <li>{{site.address_street2}} <span class="map"><a href="{{site.address_map_url}}">Map</a></span></li>
-          <li>{{site.address_city_state}}</li>
+          <li>{{ site.address_name }}</li>
+          <li>{{ site.address_street1 }}</li>
+          <li>{{ site.address_street2 }} <span class="map"><a href="{{ site.address_map_url }}">Map</a></span></li>
+          <li>{{ site.address_city_state }}</li>
         </ul>
       </div>
     </div>
@@ -48,13 +48,13 @@ layout: sectioned-page
   <div class="project-hero">
     <picture>
       <source media="(min-width: 600px)"
-              srcset="{{site.baseurl}}/assets/thumbs/800x450r/lab-hero-wide.jpg 800w,
-                      {{site.baseurl}}/assets/thumbs/1200x675r/lab-hero-wide.jpg 1200w,
-                      {{site.baseurl}}/assets/thumbs/1600x900r/lab-hero-wide.jpg 1600w"
+              srcset="{{ site.baseurl }}/assets/thumbs/800x450r/lab-hero-wide.jpg 800w,
+                      {{ site.baseurl }}/assets/thumbs/1200x675r/lab-hero-wide.jpg 1200w,
+                      {{ site.baseurl }}/assets/thumbs/1600x900r/lab-hero-wide.jpg 1600w"
               sizes="100vw">
-      <source srcset="{{site.baseurl}}/assets/thumbs/400x400r/lab-hero-narrow.jpg 1x,
-                      {{site.baseurl}}/assets/thumbs/800x800r/lab-hero-narrow.jpg 2x">
-      <img src="{{site.baseurl}}/assets/thumbs/400x400r/lab-hero-narrow.jpg"
+      <source srcset="{{ site.baseurl }}/assets/thumbs/400x400r/lab-hero-narrow.jpg 1x,
+                      {{ site.baseurl }}/assets/thumbs/800x800r/lab-hero-narrow.jpg 2x">
+      <img src="{{ site.baseurl }}/assets/thumbs/400x400r/lab-hero-narrow.jpg"
            alt=""
            class="img-full-width">
     </picture>

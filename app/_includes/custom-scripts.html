@@ -1,5 +1,5 @@
 {% if page.custom-scripts %}
   {% for file in page.custom-scripts %}
-    <script src="{{site.baseurl}}/assets/javascripts/{{file}}"></script>
+    <script src="{{ site.baseurl }}/assets/javascripts/{{ file | strip }}"></script>
   {% endfor %}
 {% endif %}

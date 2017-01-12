@@ -1,16 +1,16 @@
 <div class="gallery-crl">
-  {%comment%}
+  {% comment %}
     {% assign active_projects = site.sketches_active | sort: "start_date" | reverse %}
-  {%endcomment%}
+  {% endcomment %}
   {% assign active_projects = site.sketches_active | sort: "name" %}
 
   {% for project in active_projects %}
     <a class="gallery-item" href="{{ project.url }}">
       <figure>
-        <img src="{{site.baseurl}}/assets/thumbs/432x432r/{{ project.sketch_thumbnail_image }}"
-             srcset=" {{site.baseurl}}/assets/thumbs/216x216r/{{ project.sketch_thumbnail_image }} 216w,
-                      {{site.baseurl}}/assets/thumbs/432x432r/{{ project.sketch_thumbnail_image }} 432w,
-                      {{site.baseurl}}/assets/thumbs/648x648r/{{ project.sketch_thumbnail_image }} 648w"
+        <img src="{{ site.baseurl }}/assets/thumbs/432x432r/{{ project.sketch_thumbnail_image }}"
+             srcset=" {{ site.baseurl }}/assets/thumbs/216x216r/{{ project.sketch_thumbnail_image }} 216w,
+                      {{ site.baseurl }}/assets/thumbs/432x432r/{{ project.sketch_thumbnail_image }} 432w,
+                      {{ site.baseurl }}/assets/thumbs/648x648r/{{ project.sketch_thumbnail_image }} 648w"
               sizes=" (min-width:1049px) 268px,
                       (min-width:640px) 184px,
                        50vw"

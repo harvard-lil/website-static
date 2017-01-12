@@ -19,6 +19,6 @@
 {% endfor %}
 
 <nav class="prev-next">
-  <a class="intro-nav-previous" href="{% if previous %}{{ site.baseurl }}{{ previous.url }}{% else %}{{last.url}}{% endif %}">Previous {{ page.body-class }} <span class="name">{% if previous %}{{ previous.name }}{% else %}{{last.name}}{% endif %}</span></a>
-  <a class="intro-nav-next" href="{% if next %}{{ site.baseurl }}{{ next.url }}{% else %}{{first.url}}{% endif %}">Next {{ page.body-class }} <span class="name">{% if next %}{{next.name}}{% else %}{{first.name}}{% endif %}</span></a>
+  <a class="intro-nav-previous" href="{% if previous %}{{ site.baseurl }}{{ previous.url }}{% else %}{{ last.url }}{% endif %}">Previous {{ page.body-class }} <span class="name">{% if previous %}{{ previous.name }}{% else %}{{ last.name }}{% endif %}</span></a>
+  <a class="intro-nav-next" href="{% if next %}{{ site.baseurl }}{{ next.url }}{% else %}{{ first.url }}{% endif %}">Next {{ page.body-class }} <span class="name">{% if next %}{{ next.name }}{% else %}{{ first.name }}{% endif %}</span></a>
 </nav>

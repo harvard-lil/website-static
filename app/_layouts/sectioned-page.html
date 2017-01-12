@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<body class="{{page.body-class}} {{page.short-name}}">
+<body class="{{ page.body-class }} {{ page.short-name }}">
 
   {% include header.html %}
 
-  {{content}}
+  {{ content }}
 
   <footer>
     <div class="sleeve">
@@ -13,6 +13,6 @@ layout: default
     </div>
   </footer>
 
-  {% comment %}<script src="{{site.baseurl}}/assets/javascripts/main.js"></script>{% endcomment %}
+  {% comment %}<script src="{{ site.baseurl }}/assets/javascripts/main.js"></script>{% endcomment %}
   {% include custom-scripts.html %}
 </body>

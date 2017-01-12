@@ -7,11 +7,11 @@
     {% include title.html %}
     {% include description.html %}
     {% include sharing-image.html %}
-    <link rel="canonical" href="{{site.url}}{{site.baseurl}}{{ page.url | replace:'index.html',''}}">
-    <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/assets/images/favicon.png">
-    <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/images/apple-touch-icon.png">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
+    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     {% include custom-css.html %}
   </head>
-  {{content}}
+  {{ content }}
 </html>

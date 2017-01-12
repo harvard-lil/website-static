@@ -2,12 +2,12 @@
   {% for name in page.who_contributed %}
     {% assign person = site.data.people[name] %}
       {% if person.affiliated %}
-        <a class="gallery-item-person" href="{{site.baseurl}}/about#{{ person.name | slugify }}">
+        <a class="gallery-item-person" href="{{ site.baseurl }}/about#{{ person.name | slugify }}">
           <figure>
-            <img src="{{site.baseurl}}/assets/thumbs/432x432c/{{person.image}}"
-                 srcset="{{site.baseurl}}/assets/thumbs/216x216c/{{person.image}},
-                         {{site.baseurl}}/assets/thumbs/432x432c/{{person.image}} 2x,
-                         {{site.baseurl}}/assets/thumbs/648x648c/{{person.image}} 3x"
+            <img src="{{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image | strip }}"
+                 srcset="{{ site.baseurl }}/assets/thumbs/216x216c/{{ person.image | strip }},
+                         {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image | strip }} 2x,
+                         {{ site.baseurl }}/assets/thumbs/648x648c/{{ person.image | strip }} 3x"
                  alt="{{ contributor.name }}"
                  class="img-full-width">
           </figure>
@@ -22,7 +22,7 @@
     {% for name in page.who_contributed %}
       {% assign person = site.data.people[name] %}
         {% if person.affiliated == false %}
-          <a class="person-unaffiliated" href="{{site.baseurl}}/about#{{ person.name | slugify }}">
+          <a class="person-unaffiliated" href="{{ site.baseurl }}/about#{{ person.name | slugify }}">
             <strong class="name">{{ person.name }}</strong>
             <span class="role">{{ person.role }}</span>
           </a>
