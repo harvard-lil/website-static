@@ -7,44 +7,28 @@
 //
 //  (subsequently revised in 12/16 by other LIL developers)
 
+
+// See commentary around containers/sleeves/slices for
+// info on how the theme works
+
 ////////////////////////////////////////////////
-//  font loading
+//  fonts
 //  variables
-//    - grid
-//    - respond
-//    - typography
-//    - colors
 //  mixins
 //  placeholders
 //    - styles
 //    - modules
 //  normalize
 //  select bootstrap classes
-
-//  1.  general body
-//  2.  nav
-//    - intro-nav (for projects and sketches)
-//  3.  containers, slices, and sleeves
-//  4.  intro
-//  5.  gallery
-//    - circular
-//    - listing
-//  6.  forms
-//  7.  home
-//    - home splash
-//    - roundup
-//  8.  about
-//    - people
-//  9.  projects and sketches
-//    - former projects (sunset)
-//  10. project
-//    - contributor
-//    - news
-//    - contact
-//  11. sketch
-//    - sketch points
-//    - contact
-//  13. footer
+//  general body
+//  header
+//  footer
+//  project/sketch nav
+//  containers, slices, and sleeves
+//  galleries
+//  roundup
+//  project/sketch pages
+//  page specific overrides
 
 
 ////////////////////////////////////////////////
@@ -722,7 +706,10 @@ footer {
   }
 }
 
-// Sticky footer
+// All styles required for sticky footer:
+// if html content would normally be shorted than viewport,
+// this ensures that the footer is affixed to the bottom, while
+// maintaining normal behavior on longer pages
 html {
   min-height: 100%;
   background: $color-trans-whispergray;
