@@ -266,7 +266,8 @@ berkman:
   name: Berkman Klein Center for Internet and Society
   sort_name: Berkman
   role: Cyberspace explorer
-  website: https://cyber.law.harvard.edu/ @berkmancenter
+  website: https://cyber.law.harvard.edu/
+  twitter_account_name: berkmancenter
   affiliated: false
 
 rachel-binx:
