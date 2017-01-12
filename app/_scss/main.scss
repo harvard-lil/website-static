@@ -529,7 +529,7 @@ a.small-btn {
   }
 }
 
-p a, section a {
+p a, section a, main a {
   @extend %link-inline;
 }
 
@@ -559,6 +559,23 @@ h1 {
 
 h2 {
   @include heading-secondary;
+}
+
+/* via https://www.abeautifulsite.net/how-to-embed-youtubevimeo-videos-responsively */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 ////////////////////////////////////////////////
@@ -892,6 +909,16 @@ section, .container {
 .simple-section {
   p {
     @include body-text;
+  }
+
+  li {
+  line-height: 1.4;
+  // font-weight: 300;
+  // margin-top: 0;
+  // margin-bottom: 16px;
+  // @include respond(4){
+  //   font-size: $size-large;
+  // }
   }
 
   h3 {
@@ -1704,6 +1731,56 @@ section.people-unaffiliated .list {
       width: 300px;
     }
   }
+}
+
+// the fellows people cards
+.fellows .fellow {
+  margin-bottom: 24px;
+
+  .intro {
+    border-top: 1px solid $color-trans-lightgray;
+    border-bottom: 1px solid $color-trans-lightgray;
+    width: 100%;
+    padding: 16px 0;
+  }
+  img {
+    @extend %thumb-rounded;
+    display: inline-block;
+    width: 150px;
+    float: left;
+  }
+  .summary {
+    display: inline-block;
+    float: right;
+    overflow: visible;
+    width: calc(100% - 174px);
+    margin-left: 24px;
+    h2 {
+      margin-top: 16px;
+    }
+    p {
+      font-size: .8em;
+    }
+    @include respond(4){
+      max-width: 75%;
+      margin-right: calc(25% - 174px);
+      h2 {
+        margin-top: 24px;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+  .small-btn {
+    margin-bottom: 9px;
+  }
+}
+
+// the fellows video
+.fellows .embed-container {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 // Footer Colors

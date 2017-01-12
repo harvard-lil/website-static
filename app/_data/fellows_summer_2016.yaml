@@ -1,0 +1,178 @@
+- fellow: neel-agrawal
+
+  logline: |
+    Working with newly rediscovered African drumming laws to understand how and why the colonial government controlled and criminalized drumming in native African communities
+
+  overview: |
+    This is the first initiative worldwide to educate the public about the legacy of colonial laws in Africa regulating the customary practice and ritual of drumming, in jurisdictions such as Western and Northern Nigeria, Ghana, Uganda, Malawi, The Gambia, and Seychelles.
+
+    Organizing and mapping this large collection of drumming laws will help researchers understand more about their creation, purpose, scope, and impact. With Los Angeles-based designer and developer Gaurav Bhatnagar and a team of experts from Harvard and UCLA, we are developing an interactive online experience that traces patterns of African drumming laws in order to appropriately contextualize the colonial suppression of local culture.
+
+  work: |
+    This fellowship is integral to cultivating a historical narrative surrounding the colonial regulation of drumming in Africa, cutting across disciplines such as ethnomusicology, foreign and comparative law, critical legal studies, history, cartography, and anthropology.
+
+    Over the course of the fellowship, the array of primary and secondary sources from Harvard’s vast collections across campus have fostered a deeper understanding of the local governance structure and cultural environment.
+
+    We are particularly focused on presenting an online educational experience that traces the creation of nearly 100 drumming laws in District Councils throughout Western Nigeria in the 1960s and 1970s.
+
+    To that effect, we have sorted the data in the laws and developed a map of Western Nigeria that highlights the drums they regulate.
+
+  next_steps: |
+    Next steps involve integrating audio samples of the approximately 110 regulated drums contained in the control of drumming regulations in Western Nigeria. We will also incorporate video interviews of scholars and expert drummers in order to provide invaluable insight into the cultural, social, musical, and legal dimensions of this sensitive subject matter.
+
+  find_out_more:
+    - "[africandrumminglaws.org](http://www.africandrumminglaws.org/)"
+
+
+- fellow: jay-edwards
+
+  logline: |
+    Building a platform for the Caselaw Access Project to make data more accessible for non–computer programmers
+
+  overview: |
+    As a sub-component of the Caselaw Access Project, I’m building a platform to make the data more accessible for people that aren’t computer programmers.
+
+    The raw format of the files comprising the project are a massive amount of dense XML files. A substantial portion of the metadata is related to archival material and the digitization process. The data and metadata surrounding and comprising the actual case is both difficult to query and search.
+
+  work: |
+    My initial step was to validate the structure of the existing caselaw files against the expected structure. Following that, I converted to files to a columnar data store format (Parquet). Currently, I’m loading the newly formatted data into Apache Drill in order to provide SQL-like query capabilities.
+
+  next_steps: |
+    I plan to apply deep learning techniques to the CAP corpus and formalize the infrastructure architecture choices we're making into a template that can be easily cloned for future Lab projects.
+
+  find_out_more:
+    - "[lil.law.harvard.edu/projects/caselaw-access-project](http://lil.law.harvard.edu/projects/caselaw-access-project/)"
+
+
+- fellow: sara-frug
+
+  logline: |
+    Improving the accessibility of legal texts by developing a data model incorporating subject classifications from disparate vocabularies
+
+  blog_post: "https://blog.law.cornell.edu/tech/2016/09/14/what-i-did-on-my-summer-vacation-a-harvard-tale/"
+
+  blog_post_label: Read Sara's blog post
+
+  overview: |
+    Web texts are enriched and made valuable through contextual and explanatory links and glosses.
+
+    I am developing tools which will automate the process of generating useful links for case law, such as LIL's Caselaw Access Project, focusing on tying cases to the federal statutes and regulations which they either rely upon, prefigure or otherwise interact with.
+
+    Similar tools might be developed which would add context from history, from various academic disciplines, and many other places.
+
+  work: |
+    Different repositories of legal and other information are indexed in different ways. European law, for instance, is classified using the Eurovoc system and other subject categorizations; books and other academic texts are categorized using the Library of Congress Subject Headings and Classification systems and proprietary systems; federal statutes use CRS Legislative Subject Terms, and regulations use the Thesaurus of Indexing Terms.
+
+    I have worked this summer to develop a data model that enables application developers to take advantage of the information locked away in those many different systems without having to make authoritative claims about the exact ways in which the vocabularies align. (American white bread may not taste much like a French baguette, but the law governing the two should clearly be linked!)
+
+  next_steps: |
+    Data modeling is like nailing jelly to the wall: it's endless, draining and requires constant repair and engagement. There is more work to do in further refining the data model, and populating it so that it is of the most possible use to developers.
+
+  find_out_more:
+    - "[demo.law.cornell.edu/case-lod/](https://demo.law.cornell.edu/case-lod/)"
+
+
+- fellow: ilya-kreymer
+
+  logline: |
+    Creating open source tools to make web archiving more accessible for anyone using the web
+
+  overview: |
+    The focus of my work is to create open source tools to make web archiving more accessible for anyone using the web. Most of this effort has been put into the [Webrecorder project](https://webrecorder.io/) which I am leading as part of a two year grant with [rhizome.org](http://rhizome.org/).
+
+  work: |
+    Webrecorder is a free tool which allows users to create an interactive archive or 'recording' of any content that they browse simply by browsing these pages through the Webrecorder interface.
+
+    The summer has been spent finishing up features, tweaking user interface workflows and fixing bugs, which just culminated in the first public release of Webrecorder on August 9th.
+
+    Our release introduced many new features for managing recordings and creating web collections as well as added support for users to download full collections and upload their own web archives. In addition, we incorporated a variety of fidelity and security improvements.
+
+    Webrecorder is built using pywb, an open source web archive replay component that provides the replay for [Perma.cc.](https://perma.cc/) Alongside working on Webrecorder, I have fixed a few issues in pywb encountered by Perma.cc, and provide guidance on issues with pywb implementation, such as support for the Memento protocol.
+
+  next_steps: |
+    I plan to continue developing Webrecorder as both a service hosted on webrecorder.io and an open source project, which can be installed and operated by any user. One of the short term goals includes improving the documentation and processes around the open-source deployment. I will also continue to collaborate with the Perma.cc team to examine how we might integrate some of these new open source components from Webrecorder into Perma.cc, creating a more robust open source framework so that knowledge can be shared in the field.
+
+  find_out_more:
+    - "[webrecorder.io](https://webrecorder.io/)"
+
+
+- fellow: muira-mccammon
+
+  logline: |
+    Drafting a narrative nonfiction book about my GiTMO research, designing a tabletop wargame, and planning a GiTMO conference
+
+  overview: |
+    After writing my M.A. thesis on the history of the Guantanamo Bay Detainee Library, I headed to LIL to work on a few projects:
+
+      1. Drafting a narrative nonfiction book about my experiences studying GiTMO
+      2. Organizing a conference in NYC in February 2017 to mark the 15th anniversary of the opening of the detention camp
+      3. Designing a tabletop wargame to model interactions between lawyers, detainees, guards, and lawyers at GiTMO
+
+  work: |
+    This summer, I've investigated research questions related to GiTMO and other detainee libraries. Some unexpected highlights of this process have been: 1) working with the Harvard Law School Library to create a Twitter archive to house Miami Herald journalist Carol Rosenberg's 25K tweets, 2) tweeting with Camp X-Ray film director Peter Sattler, 3) filing FOIA requests with the help of MuckRock, and 4) examining how other U.S. military prison libraries work.
+
+    My daily work at LIL has involved interviewing researchers, artists, lawyers, journalists, and others tied to GiTMO and working with some of them to organize a gathering in 2017 that will focus on how we can archive, document, remember, and teach GiTMO in the next 50 years.
+
+    The chapters I’ve drafted focus on the Nuremberg Trials Project, the Department of Defense’s issues with link rot, the story of a relative of a 9/11 victim who decided to donate 71 books to the GiTMO Detainee Library, the Bagram Air Base Detainee Library, and the tale of Zablon Simintov and his stolen Torahs.
+
+  next_steps: |
+    I have GiTMO-related pieces coming out in Kill Screen and the Massachusetts Review in the next month. I am also pitching pieces to the New York Times, Atlas Obscura, Aeon, and the New Yorker.
+
+    I'm sending my book proposal to literary agents at the end of the month, starting to playtest the prototype of the boardgame, and also continuing to organize the 2017 gathering in NYC.
+
+
+- fellow: alexander-nwala
+
+  logline: |
+    Developing software that enables small communities build collections for local events
+
+  blog_post: "http://ws-dl.blogspot.com/2016/09/2016-09-09-summer-fellowship-at-harvard.html"
+
+  blog_post_label: "Read Alex's blog post"
+
+  overview: |
+    National news media has different priorities than local news media. If one seeks to build a collection about local events, national news media may be insufficient, with the exception of local news that "bubbles" up to the national news level.
+
+    Irrespective of the "bubbling" of some local news to the national surface, the perspective and reporting of national news differs from local news for the same events. Consequently, it is important to consult local sources affected by local events, thus supporting the need for a system that helps citizens build collections of web resources from local sources for local events.
+
+  work: |
+    I am currently developing three software services:
+
+    _Local Memory_: Given a zip code and a query (for a story or event), the Local Memory browser extension retrieves a collection of stories associated with the query from local media sources.
+
+    _Local Memory-Geo_: This service utilized by Local Memory is responsible for retrieving a sorted list of local newspapers and TV and radio stations in order of proximity to a user-supplied zip code.
+
+    _Local Memory-Geo_ (API interface): This service is similar to Local Memory-Geo, but is meant to serve machines. It returns a sorted machine readable dataset (JSON) of local newspapers, TV and radio stations in order of proximity to a user-supplied zip code.
+
+  next_steps: |
+    First, I plan to create a website for demonstrating the functionality of the browser extension. Second, I will develop a method to allow communities to build a single collection about an event. Third, I envision extending Local Memory to support other countries. The US is the only country supported currently.
+
+  find_out_more:
+    - "[localmemory.org](http://www.localmemory.org/)"
+
+
+- fellow: tiff-tseng
+
+  logline: |
+    Creating tools for sharing and community building in Makerspaces
+
+  overview: |
+    Libraries around the country are expanding their capacity to support digital literacy by establishing community makerspaces: public workshops that provide resources for patrons to engage in hands-on digital and physical creation.
+
+    One standing challenge with shared makerspaces is helping patrons learn about the different active projects, which provides opportunities for connecting with like-minded creators. To address this issue, I have been prototyping tools that bring visibility to the activities and projects within a makerspace in order to promote community building and skill sharing.
+
+  work: |
+    In collaboration with HATCH, a makerspace run by Watertown Public Library, I expanded upon Spin, a turntable system I created with which users can capture projects through playful GIFs.
+
+    We set up Spin at HATCH and combined it with a digital screen so that patrons can share what they are currently working on. To support this process, I developed tagging and slideshow features to consolidate animations created within the community, and I developed an Android app to improve access.
+
+    To further reduce the barriers to documenting, I have also begun prototyping an alternative system called PIx. Incorporating a $35 computer (a Raspberry-Pi), a camera module, and a networked printer, PIx is a one-button interface for photographing and printing project documentation that can be physically shared and rearranged in the space.
+
+    PIx is currently installed at HATCH along with a whiteboard for users to explore what others are currently interested in.
+
+  next_steps: |
+    There are many possibilities to expand the functionality of PIx to share content digitally as well as physically, thus providing more windows into understanding how people are using a makerspace. With both projects, I am also excited to imagine how networks of makerspaces can learn from one another through shared documentation.
+
+  find_out_more:
+    - "[spin.media.mit.edu](http://spin.media.mit.edu/)"
+    - "[github.com/ttseng/PIx](https://github.com/ttseng/PIx)"

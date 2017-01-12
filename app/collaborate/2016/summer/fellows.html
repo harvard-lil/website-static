@@ -1,0 +1,47 @@
+---
+title: Summer 2016 Fellows
+short-name: fellows
+---
+
+<h1>{{ page.title }}</h1>
+
+<p>The Fellows Program brought together 7 independent thinkers to pursue their research over the course of 12 weeks at Harvard Law School's Library, Langdell Hall. Their results range from book chapters to web applications to board games &mdash; and, ultimately, an immeasurable amount of inspiration that extends far beyond the walls of Langdell.</p>
+
+<div class="embed-container"><iframe allowfullscreen="" frameborder="0" height="360" mozallowfullscreen="" src="https://player.vimeo.com/video/182402655" webkitallowfullscreen="" width="640"></iframe></div>
+
+
+
+{% for fellow in site.data.fellows_summer_2016 %}
+  {% assign person_record = site.data.people[fellow.fellow] %}
+  <div class="fellow" id="{{ person_record.name | slugify }}">
+    <div class="intro">
+      <img src=" {{site.baseurl}}/assets/thumbs/150x150/{{person_record.image}}"
+           alt="{{person_record.name}}">
+      <div class="summary">
+        <h2>{{ person_record.name }}</h2>
+        {{ fellow.logline | strip | markdownify }}
+        {% if fellow.blog_post %}
+          <a href="fellow.blog_post" class="small-btn" role="button">{{fellow.blog_post_label}}</a>
+        {% endif %}
+      </div>
+    </div>
+
+    <h3> Overview </h3>
+    {{ fellow.overview | strip | markdownify }}
+
+    <h3> Work </h3>
+    {{ fellow.work | strip | markdownify }}
+
+    <h3> Next Steps </h3>
+    {{ fellow.next_steps | strip | markdownify }}
+
+    {% if fellow.find_out_more.size > 0 %}
+      <h3> Find Out More </h3>
+      <ul>
+        {% for link in fellow.find_out_more %}
+          <li>{{ link | strip | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+{% endfor %}

@@ -258,6 +258,7 @@ neel-agrawal:
   name: Neel Agrawal
   sort_name: Agrawal
   role: Summer Fellow
+  image: neel-agrawal.jpg
   website: http://neelagrawal.com
   affiliated: false
 
@@ -355,6 +356,7 @@ sara-frug:
   name: Sara Frug
   sort_name: Frug
   role: Summer Fellow
+  image: sara-frug.jpg
   twitter_account_name: ssfrug
   affiliated: false
 
@@ -404,6 +406,7 @@ ilya-kreymer:
   name: Ilya Kreymer
   sort_name: Kreymer
   role: Summer Fellow
+  image: ilya-kreymer.jpg
   website: https://webrecorder.io/
   twitter_account_name: IlyaKreymer
   github_account_name: ikreymer
@@ -467,6 +470,7 @@ muira-mccammon:
   name: Muira McCammon
   sort_name: McCammon
   role: Summer Fellow
+  image: muira-mccammon.jpg
   twitter_account_name: muira_mccammon
   affiliated: false
 
@@ -488,6 +492,7 @@ alexander-nwala:
   name: Alexander Nwala
   sort_name: Nwala
   role: Summer Fellow
+  image: alexander-nwala.jpg
   website: http://www.cs.odu.edu/~anwala/
   twitter_account_name: acnwala
   github_account_name: anwala
@@ -524,6 +529,7 @@ tiff-tseng:
   name: Tiff Tseng
   sort_name: Tseng
   role: Summer Fellow
+  image: tiffany-tseng.jpg
   website: http://spin.media.mit.edu
   twitter_account_name: scientiffic
   affiliated: false
