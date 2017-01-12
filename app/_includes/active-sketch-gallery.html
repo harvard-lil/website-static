@@ -19,7 +19,7 @@
       </figure>
       <strong class="title">{{ project.name }}</strong>
       <ul>
-        <li class="logline">{{ project.what_does_it_do }}</li>
+        <li class="logline">{{ project.what_does_it_do | strip }}</li>
         {% if project.start_date %}<li class="date">{{ project.start_date }}</li>{% endif %}
       </ul>
     </a>
