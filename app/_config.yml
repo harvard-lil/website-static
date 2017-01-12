@@ -6,6 +6,8 @@ kramdown:
     smart_quotes: ["apos", "apos", "quot", "quot"]
 gems:
   - jekyll-sitemap
+liquid:
+  error_mode: strict
 
 # Site settings
 title: The Library Innovation Lab at Harvard University
