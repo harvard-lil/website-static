@@ -15,7 +15,7 @@ module.exports = function (grunt) {
     watch: {
       app: {
         files: ['app/**/*'],
-        tasks: ['build']
+        tasks: ['build:dev']
       }
     },
 
@@ -24,8 +24,17 @@ module.exports = function (grunt) {
     /////////
 
     exec: {
-      jekyllBuild: {
+      jekyllBuildDev: {
         command: 'cd app; bundle exec jekyll build --incremental; cd ../',
+        stderr: false,
+        callback: function (error, stdout, stderr) {
+          if (stderr) {
+            grunt.warn(stderr)
+          }
+        }
+      },
+      jekyllBuildProd: {
+        command: 'cd app; bundle exec jekyll build; cd ../',
         stderr: false,
         callback: function (error, stdout, stderr) {
           if (stderr) {
@@ -192,20 +201,28 @@ module.exports = function (grunt) {
   });
 
   // Register the grunt tasks
-  grunt.registerTask('build', [
+  grunt.registerTask('build:dev', [
     'warn-fail',
-    'exec:jekyllBuild',
+    'exec:jekyllBuildDev',
+    'sass'
+  ]);
+
+  grunt.registerTask('build:prod', [
+    'warn-fail',
+    'exec:jekyllBuildProd',
     'sass',
     'exec:cleanProdBuild',
     'htmlmin',
     'copy:fonts',
     'copy:files',
+    'copy:images',
+    'copy:thumbs',
     'copy:serverconfig',
     'purifycss',
     'cssmin'
   ]);
 
   // Register the default task
-  grunt.registerTask('default', ['build', 'watch']);
+  grunt.registerTask('default', ['build:dev', 'watch']);
 
 };

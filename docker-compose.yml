@@ -4,8 +4,10 @@ services:
     build:
       context: .
       dockerfile: ./build-environment/Dockerfile
-    image: rcremona/lil-root:0.1
-    command: grunt
+    image: rcremona/lil-website:0.1
+    container_name: jekyll
+    command: bash
+    tty: true
     volumes:
         - ./app:/usr/src/lil-website/app
         - ./builds:/usr/src/lil-website/builds
@@ -16,5 +18,6 @@ services:
         # - "443:443"
     volumes:
         - ./builds/dev:/usr/local/apache2/htdocs/
+        # - ./builds/prod:/usr/local/apache2/htdocs/
         - ./build-environment/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
 
