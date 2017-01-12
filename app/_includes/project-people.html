@@ -4,7 +4,8 @@
       {% if person.affiliated %}
         <a class="gallery-item-person" href="{{site.baseurl}}/about#{{ person.name | slugify }}">
           <figure>
-            <img srcset="{{site.baseurl}}/assets/thumbs/216x216c/{{person.image}},
+            <img src="{{site.baseurl}}/assets/thumbs/432x432c/{{person.image}}"
+                 srcset="{{site.baseurl}}/assets/thumbs/216x216c/{{person.image}},
                          {{site.baseurl}}/assets/thumbs/432x432c/{{person.image}} 2x,
                          {{site.baseurl}}/assets/thumbs/648x648c/{{person.image}} 3x"
                  alt="{{ contributor.name }}"
