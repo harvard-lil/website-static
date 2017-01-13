@@ -106,7 +106,7 @@ module.exports = function (grunt) {
       thumbs: {
         expand: true,
         cwd: '<%= globalConfig.devBuild %>/assets/thumbs',
-        src: '*',
+        src: '**',
         dest: '<%= globalConfig.prodBuild %>/assets/thumbs/'
       },
       serverconfig: {
@@ -138,7 +138,7 @@ module.exports = function (grunt) {
     purifycss: {
       options: {},
       target: {
-        src: ['<%= globalConfig.devBuild %>/**/*.html', '<%= globalConfig.devBuild %>/assets/*.js'],
+        src: ['<%= globalConfig.devBuild %>/**/*.html', '<%= globalConfig.devBuild %>/assets/**/*.js'],
         css: ['<%= globalConfig.devBuild %>/assets/css/main.css'],
         dest: '<%= globalConfig.prodBuild %>/assets/css/main.css'
       }
