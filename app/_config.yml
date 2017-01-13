@@ -43,6 +43,13 @@ collections:
   sketches_retired:
     output: false
 
+# Plugins
+news_feed_for:
+  - projects_active
+  - projects_retired
+  - sketches_active
+  - sketches_retired
+
 # Defaults
 defaults:
   - scope:
