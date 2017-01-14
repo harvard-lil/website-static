@@ -110,6 +110,12 @@ module.exports = function (grunt) {
         src: '**',
         dest: '<%= globalConfig.prodBuild %>/assets/thumbs/'
       },
+      api: {
+        expand: true,
+        cwd: '<%= globalConfig.devBuild %>/api',
+        src: '**',
+        dest: '<%= globalConfig.prodBuild %>/api/'
+      },
       serverconfig: {
         expand: true,
         cwd: '<%= globalConfig.devBuild %>',
@@ -129,7 +135,7 @@ module.exports = function (grunt) {
           style: "expanded"
         },
         files: [{
-          src: 'app/_scss/main.scss',
+          src: 'app/assets/_scss/main.scss',
           dest: '<%= globalConfig.devBuild %>/assets/css/main.css'
         }]
       }
@@ -222,12 +228,7 @@ module.exports = function (grunt) {
     'sass',
     'exec:cleanProdBuild',
     'htmlmin',
-    'copy:js',
-    'copy:fonts',
-    'copy:files',
-    'copy:images',
-    'copy:thumbs',
-    'copy:serverconfig',
+    'copy',
     'purifycss',
     'cssmin'
   ]);
