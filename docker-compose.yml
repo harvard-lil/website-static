@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: ./build-environment/Dockerfile
-    image: rcremona/lil-website:0.1
+    image: rcremona/lil-website:0.2
     container_name: jekyll
     command: bash
     tty: true
@@ -17,7 +17,8 @@ services:
         - "8081:80"
         # - "443:443"
     volumes:
-        - ./builds/dev:/usr/local/apache2/htdocs/
-        # - ./builds/prod:/usr/local/apache2/htdocs/
+        # - ./builds/dev:/usr/local/apache2/htdocs/
+        - ./builds/prod:/usr/local/apache2/htdocs/
         - ./build-environment/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
+        - ./build-environment/apache/logs:/usr/local/apache2/logs
 
