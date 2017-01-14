@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Time Capsule Encryption
+title: Time Capsule Encryption
 
 # Optional
 project_website: http://www.toolsfortimetravel.org

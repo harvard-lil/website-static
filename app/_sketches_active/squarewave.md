@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: SquareWave
+title: SquareWave
 
 # Optional
 project_website:

@@ -1,5 +1,5 @@
 {% capture description %}
-  {% if page.body-class == "project" or page.body-class == "sketch" %}
+  {% if page.type == "project" or page.type == "sketch" %}
       {{ page.what_does_it_do }}
   {% elsif page.description %}
     {{ page.description }}

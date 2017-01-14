@@ -34,12 +34,12 @@ address_city_state: Cambridge, MA 02138
 collections:
   projects_active:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:slug/
   projects_retired:
     output: false
   sketches_active:
     output: true
-    permalink: /sketches/:path/
+    permalink: /sketches/:slug/
   sketches_retired:
     output: false
 
@@ -57,13 +57,13 @@ defaults:
       type: projects_active
     values:
       layout: project
-      body-class: project
+      type: project
   - scope:
       path: ""
       type: sketches_active
     values:
       layout: project
-      body-class: sketch
+      type: sketch
   - scope:
       path: ""
     values:

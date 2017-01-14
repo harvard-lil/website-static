@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Perma.cc
+title: Perma.cc
 
 # Optional
 project_website: http://perma.cc

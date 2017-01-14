@@ -1,6 +1,7 @@
 ---
 title: Experiment with Markup
-short-name: fellows
+slug: sample
+layout: simple-page
 ---
 
 # We're Hiring

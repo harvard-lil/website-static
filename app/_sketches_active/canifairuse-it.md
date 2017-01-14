@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: CanIFairUse.It
+title: CanIFairUse.It
 
 # Optional
 project_website: https://www.newschallenge.org/challenge/how-might-libraries-serve-21st-century-information-needs/submissions/canifairuseit-crowdsourcing-fair-use-knowledge

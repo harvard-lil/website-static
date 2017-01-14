@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Local Memory
+title: Local Memory
 
 # Optional
 project_website: http://www.localmemory.org/

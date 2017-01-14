@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: The Nuremberg Project
+title: The Nuremberg Project
 
 # Optional
 project_website: http://nuremberg.law.harvard.edu

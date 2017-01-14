@@ -7,11 +7,11 @@ layout: sectioned-page
 
   <div class="sleeve">
 
-    <h1><span>{{ page.body-class | capitalize }}:</span> {{ page.name }}</h1>
+    <h1><span>{{ page.type | capitalize }}:</span> {{ page.title }}</h1>
 
     {% if page.project_website %}
       <div class="slice">
-        <h2>Where can I find {{ page.name }}?</h2>
+        <h2>Where can I find {{ page.title }}?</h2>
         <div class="slice-body">
           <a class="link-project" href="{{ page.project_website }}">{{ page.project_website }}</a>
         </div>
@@ -19,7 +19,7 @@ layout: sectioned-page
     {% endif %}
 
     <div class="slice">
-      <h2>What does {{ page.name }} do?</h2>
+      <h2>What does {{ page.title }} do?</h2>
       <div class="slice-body">
         {{ page.what_does_it_do | markdownify }}
       </div>
@@ -27,7 +27,7 @@ layout: sectioned-page
 
     {% if page.why_does_it_exist %}
       <div class="slice">
-        <h2>Why does {{ page.name }} exist?</h2>
+        <h2>Why does {{ page.title }} exist?</h2>
         <div class="slice-body">
           {{ page.why_does_it_exist | markdownify }}
         </div>
@@ -36,7 +36,7 @@ layout: sectioned-page
 
     {% if page.github_repo %}
       <div class="slice github">
-        <a href="{{ page.github_repo }}" role="button" aria-label="{{ page.name }} on Github"><span>{{ page.name }} on Github</span></a>
+        <a href="{{ page.github_repo }}" role="button" aria-label="{{ page.title }} on Github"><span>{{ page.title }} on Github</span></a>
       </div>
     {% endif %}
   </div>
@@ -52,7 +52,7 @@ layout: sectioned-page
     <div class="slice project-people">
 
       <div class="sleeve">
-        <h2>Who contributed to {{ page.name }}?</h2>
+        <h2>Who contributed to {{ page.title }}?</h2>
 
         <div class="slice-body">
          {% include project-people.html %}
@@ -67,7 +67,7 @@ layout: sectioned-page
     <div class="slice news">
 
       <div class="sleeve">
-        <h2>What’s been written about {{ page.name }}?</h2>
+        <h2>What’s been written about {{ page.title }}?</h2>
         <div class="slice-body">
           {% for article in news %}
             <a class="{{ article.type }}" href="{{ article.url }}">
@@ -90,7 +90,7 @@ layout: sectioned-page
     <div class="sleeve">
       <h2>How can I learn more?</h2>
       <div class="slice-body">
-        <p>If you’re interested in using {{ page.name }} or contributing to the project,{% if page.github_repo  %} check out the project’s <a href="{{ page.github_repo }}">Github page</a> or{% endif %} contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+        <p>If you’re interested in using {{ page.title }} or contributing to the project,{% if page.github_repo  %} check out the project’s <a href="{{ page.github_repo }}">Github page</a> or{% endif %} contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
       </div>
     </div>
 

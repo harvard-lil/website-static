@@ -1,10 +1,6 @@
 {% capture footer-file %}
   {% if page.custom-footer %}
-    {% if page.body-class == "project" or page.body-class == "sketch" %}
-      {{ page.name  | slugify }}
-    {% else %}
-      {{ page.short-name }}
-    {% endif %}
+    {{ page.slug }}
   {% else %}
     home
   {% endif %}

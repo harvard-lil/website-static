@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Stack Life
+title: Stack Life
 
 # Optional
 project_website: http://stacklife.harvard.edu

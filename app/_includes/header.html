@@ -1,4 +1,4 @@
-{% if page.short-name == "home" %}
+{% if page.slug == "home" %}
   <header id="header-splash">
     <div>
       <figure>
@@ -8,7 +8,7 @@
              alt="Library Innovation Lab"
              class="img-full-width">
       </figure>
-      <h1>We’re building things in libraries.</h1>
+      <h1>{{ page.title }}</h1>
     </div>
     {% include nav.html %}
   </header>

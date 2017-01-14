@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Hovermarks
+title: Hovermarks
 
 # Optional
 project_website:

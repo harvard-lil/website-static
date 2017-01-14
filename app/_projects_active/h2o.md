@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: H2O
+title: H2O
 
 # Optional
 project_website: http://h2o.law.harvard.edu

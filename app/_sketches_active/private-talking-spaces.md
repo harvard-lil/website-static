@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Private Talking Spaces
+title: Private Talking Spaces
 
 # Optional
 project_website:

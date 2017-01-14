@@ -1,13 +1,13 @@
-{% if page.body-class == "project" %}
- {% assign project_list = site.projects_active | sort: "name" %}
-{% elsif page.body-class == "sketch" %}
- {% assign project_list = site.sketches_active | sort: "name" %}
+{% if page.type == "project" %}
+ {% assign project_list = site.projects_active | sort: "title" %}
+{% elsif page.type == "sketch" %}
+ {% assign project_list = site.sketches_active | sort: "title" %}
 {% endif %}
 
 {% assign first = project_list | first %}
 {% assign last = project_list | last %}
 {% for project in project_list %}
-  {% if project.name == page.name %}
+  {% if project.title == page.title %}
     {% unless forloop.last %}
       {% assign next = project_list[forloop.index] %}
     {% endunless %}
@@ -19,6 +19,6 @@
 {% endfor %}
 
 <nav class="prev-next">
-  <a class="intro-nav-previous" href="{% if previous %}{{ site.baseurl }}{{ previous.url }}{% else %}{{ last.url }}{% endif %}">Previous {{ page.body-class }} <span class="name">{% if previous %}{{ previous.name }}{% else %}{{ last.name }}{% endif %}</span></a>
-  <a class="intro-nav-next" href="{% if next %}{{ site.baseurl }}{{ next.url }}{% else %}{{ first.url }}{% endif %}">Next {{ page.body-class }} <span class="name">{% if next %}{{ next.name }}{% else %}{{ first.name }}{% endif %}</span></a>
+  <a class="intro-nav-previous" href="{% if previous %}{{ site.baseurl }}{{ previous.url }}{% else %}{{ last.url }}{% endif %}">Previous {{ page.type }} <span class="title">{% if previous %}{{ previous.title }}{% else %}{{ last.title }}{% endif %}</span></a>
+  <a class="intro-nav-next" href="{% if next %}{{ site.baseurl }}{{ next.url }}{% else %}{{ first.url }}{% endif %}">Next {{ page.type }} <span class="title">{% if next %}{{ next.title }}{% else %}{{ first.title }}{% endif %}</span></a>
 </nav>

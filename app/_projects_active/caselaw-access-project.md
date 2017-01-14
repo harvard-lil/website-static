@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Caselaw Access Project
+title: Caselaw Access Project
 
 # Optional
 project_website:

@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: FTL Topic Mapping
+title: FTL Topic Mapping
 
 # Optional
 project_website: http://ftl-topic-modeling.herokuapp.com/

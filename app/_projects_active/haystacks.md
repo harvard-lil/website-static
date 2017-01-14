@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Haystacks
+title: Haystacks
 
 # Optional
 project_website: http://haystacks.law.harvard.edu

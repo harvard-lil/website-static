@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-name: Awesome Box
+title: Awesome Box
 
 # Optional
 project_website: http://awesomebox.io
