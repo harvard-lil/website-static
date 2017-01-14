@@ -49,8 +49,6 @@ why_does_it_exist:
 
 who_contributed:
 
-what_has_been_written_about_it:
-
 ### Override Jekyll Defaults ###
 custom-footer: true
 

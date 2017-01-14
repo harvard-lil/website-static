@@ -2,42 +2,42 @@
 # List recent news above old news
 
 ### CAP ###
-- project: cap
+- project: caselaw-access-project
   type: blog
   title: Caselaw Access Project
   publication: Et Seq. - Harvard Law School Library
   date: August 08, 2016
   url: http://etseq.law.harvard.edu/2016/08/caselaw-access-project/
 
-- project: cap
+- project: caselaw-access-project
   type: press
   title: Harvard Launches "Free the Law" Digitization Project
   publiction: Library Journal
   date: December 21, 2015
   url: http://lj.libraryjournal.com/2015/12/oa/harvard-launches-free-the-law-digitization-project/#_
 
-- project: cap
+- project: caselaw-access-project
   type: press
   title: Harvard Law Launches Project To Put Every Court Decision Online For Free
   publication: Techdirt
   date: October 30, 2015
   url: https://www.techdirt.com/articles/20151029/17074832672/harvard-law-launches-project-to-put-every-court-decision-online-free.shtml
 
-- project: cap
+- project: caselaw-access-project
   type: blog
   title: Harvard Law School Launches “Free the Law” Project with Ravel Law To Digitize US Case Law, Provide Free Access
   publication: Harvard Law School Today
   date: October 29, 2015
   url: http://today.law.harvard.edu/harvard-law-school-launches-free-the-law-project-with-ravel-law-to-digitize-us-case-law-provide-free-access/
 
-- project: cap
+- project: caselaw-access-project
   type: blog
   title: Free the Law - Overview
   publication: Et Seq. - Harvard Law School Library
   date: October 29, 2015
   url: http://etseq.law.harvard.edu/2015/10/free-the-law-overview/
 
-- project: cap
+- project: caselaw-access-project
   type: press
   title: Harvard Law Library Readies Trove of Decisions for Digital Age
   publication: The New York Times
@@ -45,42 +45,42 @@
   url: http://www.nytimes.com/2015/10/29/us/harvard-law-library-sacrifices-a-trove-for-the-sake-of-a-free-database.html
 
 ### Perma ###
-- project: perma
+- project: perma-cc
   type: blog
   title: Cooking up a solution to link rot
   publication: Law Library of Congress Blog - In Custodia Legis
   date: August 14, 2015
   url: http://blogs.loc.gov/law/2015/08/cooking-up-a-solution-to-link-rot/?loclr=twlaw
 
-- project: perma
+- project: perma-cc
   type: press
   title: The Problem with URLs in Legal Marketing
   publication: BloombergBNA Big Law Business
   date: March 12, 2015
   url: https://bol.bna.com/the-problem-with-urls-in-legal-marketing/
 
-- project: perma
+- project: perma-cc
   type: press
   title: Can the Internet Be Archived?
   publication: The New Yorker
   date: January 26, 2015
   url: http://www.newyorker.com/magazine/2015/01/26/cobweb
 
-- project: perma
+- project: perma-cc
   type: press
   title: "Stopping Link Rot: Aiming to End a Virtual Epidemic"
   publication: NPR
   date: April 26, 2014
   url: http://www.npr.org/sections/alltechconsidered/2014/04/26/307041846/stopping-link-rot-aiming-to-end-a-virtual-epidemic
 
-- project: perma
+- project: perma-cc
   type: press
   title: "Death to “Link Rot”: Here's Where the Internet Goes to Live Forever"
   publication: Fast Company
   date: March 28, 2014
   url: http://www.fastcompany.com/3028321/whos-next/death-to-link-rot-heres-where-the-internet-goes-to-live-forever
 
-- project: perma
+- project: perma-cc
   type: press
   title: In Supreme Court Opinions, Web Links to Nowhere
   publication: The New York Times
@@ -88,7 +88,7 @@
   url: http://www.nytimes.com/2013/09/24/us/politics/in-supreme-court-opinions-clicks-that-lead-nowhere.html?_r=0
 
 # This story is not live on the perma page
-- project: perma
+- project: perma-cc
   type: press
   title: Site aiming to prevent link rot for 'legal researchers' wins 2015 Webby
   publication: ABA Journal
@@ -96,14 +96,14 @@
   url: http://www.abajournal.com/news/article/prevent_link_rot_for_legal_researchers_wins_2015_webby
 
 ### Time Capsule ###
-- project: time-capsule
+- project: time-capsule-encryption
   type: press
   title: "Note to future self: a bid to put encrypted data into a kind of time capsule gets a kick-start"
   publication: The Economist
   date: November 19, 2014
   url: http://www.economist.com/news/science-and-technology/21632426-bid-put-encrypted-data-kind-time-capsule-gets-kick-start-note-future-self
 
-- project: time-capsule
+- project: time-capsule-encryption
   type: blog
   title: Time capsule crypto can help us commit our secrets to history
   publication: futureoftheinternet.org

@@ -1,3 +1,3 @@
 ---
 ---
-{% assign news = site.data.news | where: "project", page.news_slug %}callback({"news": {{ news | jsonify }}, "date": "{{ site.time }}"})
+{% assign news = site.data.news | where: "project", page.slug %}news({"news": {{ news | jsonify }}, "date": "{{ site.time }}"})

@@ -7,7 +7,6 @@ name: Time Capsule Encryption
 project_website: http://www.toolsfortimetravel.org
 github_repo: https://github.com/harvard-lil/tce_server
 start_date:
-news_slug: time-capsule
 
 ### MEDIA ###
 # Required

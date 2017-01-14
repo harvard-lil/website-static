@@ -7,7 +7,6 @@ name: Caselaw Access Project
 project_website:
 github_repo:
 start_date:
-news_slug: cap
 
 ### MEDIA ###
 # Required

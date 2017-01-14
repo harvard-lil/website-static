@@ -62,7 +62,7 @@ layout: sectioned-page
     </div>
   {% endif %}
 
-  {% assign news = site.data.news | where: "project", page.news_slug %}
+  {% assign news = site.data.news | where: "project", page.slug %}
   {% if news.size > 0 %}
     <div class="slice news">
 

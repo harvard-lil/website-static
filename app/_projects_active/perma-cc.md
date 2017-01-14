@@ -7,7 +7,6 @@ name: Perma.cc
 project_website: http://perma.cc
 github_repo: https://github.com/harvard-lil/perma
 start_date:
-news_slug: perma
 
 ### MEDIA ###
 # Required

@@ -9,7 +9,7 @@ module Jekyll
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'project_news_feed.js')
-      self.data["news_slug"] = slug
+      self.data["slug"] = slug
 
     end
   end
@@ -23,10 +23,8 @@ module Jekyll
         collections = site.config['news_feed_for'] || []
         collections.each_entry do |collection|
           site.collections[collection].docs.each_entry do |project|
-            slug =  project.data["news_slug"]
-            if slug
+            slug =  project.data["slug"]
               site.pages << NewsAPIPage.new(site, site.source, File.join(dir, slug), slug)
-            end
           end
         end
       end

@@ -7,7 +7,6 @@ name: Awesome Box
 project_website: http://awesomebox.io
 github_repo: https://github.com/harvard-lil/awesome
 start_date:
-news_slug: awesome-box
 
 ### MEDIA ###
 # Required
