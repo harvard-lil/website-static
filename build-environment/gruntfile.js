@@ -6,16 +6,29 @@ module.exports = function (grunt) {
   var globalConfig = {
     devBuild: "builds/dev",
     prodBuild: "builds/prod",
+    assetsSrc: "assets/src",
+    assetsDist: "assets/dist",
+    assetsDestination: "assets"
   };
+
+  require('jit-grunt')(grunt);
 
   grunt.initConfig({
     // load global config
     globalConfig: globalConfig,
 
+    //////////
+    // Watch
+    /////////
+
     watch: {
-      app: {
-        files: ['app/**/*'],
-        tasks: ['build:dev']
+      all: {
+        files: ['app/**/*', '<%= globalConfig.assetsSrc %>/**/*'],
+        tasks: ['build:dev'],
+        options: {
+          interrupt: true,
+          interval: 1000
+        }
       }
     },
 
@@ -24,7 +37,7 @@ module.exports = function (grunt) {
     /////////
 
     exec: {
-      jekyllBuildDev: {
+      jekyllIncremental: {
         command: 'cd app; bundle exec jekyll build --incremental; cd ../',
         stderr: false,
         callback: function (error, stdout, stderr) {
@@ -33,7 +46,7 @@ module.exports = function (grunt) {
           }
         }
       },
-      jekyllBuildProd: {
+      jekyllFresh: {
         command: 'cd app; bundle exec jekyll build; cd ../',
         stderr: false,
         callback: function (error, stdout, stderr) {
@@ -42,8 +55,17 @@ module.exports = function (grunt) {
           }
         }
       },
-      cleanProdBuild: {
-        command: 'cd builds; rm -rf prod; cd ../',
+      cleanBuilds: {
+        command: 'cd builds; rm -rf *; cd ../',
+        stderr: false,
+        callback: function (error, stdout, stderr) {
+          if (stderr) {
+            grunt.warn(stderr)
+          }
+        }
+      },
+      cleanAssets: {
+        command: 'cd <%= globalConfig.assetsDist %>; rm -rf *; cd ../',
         stderr: false,
         callback: function (error, stdout, stderr) {
           if (stderr) {
@@ -77,66 +99,18 @@ module.exports = function (grunt) {
     },
 
     //////////
-    // Other Files to Move Around
-    //////////
-    copy: {
-      js: {
-        expand: true,
-        cwd: '<%= globalConfig.devBuild %>/assets/javascripts',
-        src: '*',
-        dest: '<%= globalConfig.prodBuild %>/assets/javascripts/'
-      },
-      fonts: {
-        expand: true,
-        cwd: '<%= globalConfig.devBuild %>/assets/fonts',
-        src: '*',
-        dest: '<%= globalConfig.prodBuild %>/assets/fonts/'
-      },
-      files: {
-        expand: true,
-        cwd: '<%= globalConfig.devBuild %>/assets/files',
-        src: '*',
-        dest: '<%= globalConfig.prodBuild %>/assets/files/'
-      },
-      images: {
-        expand: true,
-        cwd: '<%= globalConfig.devBuild %>/assets/images',
-        src: '*',
-        dest: '<%= globalConfig.prodBuild %>/assets/images/'
-      },
-      thumbs: {
-        expand: true,
-        cwd: '<%= globalConfig.devBuild %>/assets/thumbs',
-        src: '**',
-        dest: '<%= globalConfig.prodBuild %>/assets/thumbs/'
-      },
-      api: {
-        expand: true,
-        cwd: '<%= globalConfig.devBuild %>/api',
-        src: '**',
-        dest: '<%= globalConfig.prodBuild %>/api/'
-      },
-      serverconfig: {
-        expand: true,
-        cwd: '<%= globalConfig.devBuild %>',
-        src: ['.htaccess', 'robots.txt', 'sitemap.xml'],
-        dest: '<%= globalConfig.prodBuild %>/'
-      }
-    },
-
-    //////////
     // CSS
     //////////
 
     // sass (libsass) config
     sass: {
-      dev: {
+      main: {
         options: {
           style: "expanded"
         },
         files: [{
-          src: 'app/assets/_scss/main.scss',
-          dest: '<%= globalConfig.devBuild %>/assets/css/main.css'
+          src: '<%= globalConfig.assetsSrc %>/scss/main.scss',
+          dest: '<%= globalConfig.assetsDist %>/expanded/css/main.css'
         }]
       }
     },
@@ -145,9 +119,9 @@ module.exports = function (grunt) {
     purifycss: {
       options: {},
       target: {
-        src: ['<%= globalConfig.devBuild %>/**/*.html', '<%= globalConfig.devBuild %>/assets/**/*.js'],
-        css: ['<%= globalConfig.devBuild %>/assets/css/main.css'],
-        dest: '<%= globalConfig.prodBuild %>/assets/css/main.css'
+        src: ['<%= globalConfig.devBuild %>/**/*.html', '<%= globalConfig.assetsSrc %>/**/*.js'],
+        css: ['<%= globalConfig.assetsDist %>/compressed/css/main.css'],
+        dest: '<%= globalConfig.assetsDist %>/compressed/css/main.css'
       }
     },
 
@@ -155,9 +129,85 @@ module.exports = function (grunt) {
     cssmin: {
       target: {
         files: [{
-          src: '<%= globalConfig.prodBuild %>/assets/css/main.css',
-          dest: '<%= globalConfig.prodBuild %>/assets/css/main.css',
+          src: '<%= globalConfig.assetsDist %>/compressed/css/main.css',
+          dest: '<%= globalConfig.assetsDist %>/compressed/css/main.css',
         }]
+      }
+    },
+
+
+    //////////
+    // Other Files to Move Around
+    //////////
+
+    copy: {
+      // assets in src that are not otherwise processed, to dist/expanded
+      fonts: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.assetsSrc %>/fonts',
+        src: '*',
+        dest: '<%= globalConfig.assetsDist %>/expanded/fonts/'
+      },
+      images: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.assetsSrc %>/images',
+        src: '*',
+        dest: '<%= globalConfig.assetsDist %>/expanded/images/'
+      },
+      javascripts: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.assetsSrc %>/javascripts',
+        src: '*',
+        dest: '<%= globalConfig.assetsDist %>/expanded/javascripts/'
+      },
+      thumbs: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.assetsSrc %>/thumbs',
+        src: '**/*',
+        dest: '<%= globalConfig.assetsDist %>/expanded/thumbs/'
+      },
+      // prepared assets from dist/expanded to dist/compressed, prior to compression
+      expandedToCompressed: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.assetsDist %>/expanded',
+        src: '**/*',
+        dest: '<%= globalConfig.assetsDist %>/compressed/'
+      },
+      // prepared assets to dev build
+      toDevBuild: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.assetsDist %>/expanded',
+        src: '**/*',
+        dest: '<%= globalConfig.devBuild %>/<%= globalConfig.assetsDestination %>/'
+      },
+      // prepared assets to prod build
+      toProdBuild: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.assetsDist %>/compressed',
+        src: '**/*',
+        dest: '<%= globalConfig.prodBuild %>/<%= globalConfig.assetsDestination %>/'
+      },
+      // components of the jekyll-built site that are NOT transferred via htmlmin
+      api: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.devBuild %>/api',
+        src: '**/*',
+        dest: '<%= globalConfig.prodBuild %>/api/'
+      },
+      extras: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.devBuild %>',
+        src: ['.htaccess', 'robots.txt', 'sitemap.xml'],
+        dest: '<%= globalConfig.prodBuild %>/'
       }
     },
 
@@ -167,13 +217,14 @@ module.exports = function (grunt) {
 
     // html validation
     htmllint: {
-      all: ["<%= globalConfig.devBuild %>/**/*.html"]
+      dev: ["<%= globalConfig.devBuild %>/**/*.html"],
+      prod: ["<%= globalConfig.prodBuild %>/**/*.html"]
     },
 
     // broken links
     linkChecker: {
       options: {
-        initialProtocol: "https",
+        initialProtocol: "http",
         ignoreInvalidSSL: true,
         maxConcurrency: 20,
         callback: function (crawler) {
@@ -194,15 +245,8 @@ module.exports = function (grunt) {
 
   });
 
-
-  grunt.loadNpmTasks('grunt-exec');
-  grunt.loadNpmTasks('grunt-contrib-htmlmin');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-sass');
-  grunt.loadNpmTasks('grunt-purifycss');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-
+  ///////////////////////
+  // Private grunt tasks. Don't call directly from the command line.
 
   // Hack to stop contrib concat (and maybe other things) from failing silently
   // https://github.com/gruntjs/grunt-contrib-concat/issues/17
@@ -215,22 +259,44 @@ module.exports = function (grunt) {
     };
   });
 
-  // Register the grunt tasks
+  grunt.registerTask('assets:expanded', [
+    'warn-fail',
+    'sass',
+    'newer:copy:fonts',
+    'newer:copy:images',
+    'newer:copy:javascripts',
+    'newer:copy:thumbs',
+    'newer:copy:toDevBuild'
+  ]);
+
+  // Don't run this before building the site with jekyll;
+  // if you do, purify css will remove virtually all styles :-)
+  grunt.registerTask('assets:compressed', [
+    'warn-fail',
+    'copy:expandedToCompressed',
+    'purifycss',
+    'cssmin',
+    'copy:toProdBuild'
+  ]);
+
+  /////////////////////
+  // Public grunt tasks
   grunt.registerTask('build:dev', [
     'warn-fail',
-    'exec:jekyllBuildDev',
-    'sass'
+    'exec:jekyllIncremental',
+    'assets:expanded'
   ]);
 
   grunt.registerTask('build:prod', [
     'warn-fail',
-    'exec:jekyllBuildProd',
-    'sass',
-    'exec:cleanProdBuild',
+    'exec:cleanBuilds',
+    'exec:jekyllFresh',
+    'exec:cleanAssets',
+    'assets:expanded',
+    'assets:compressed',
     'htmlmin',
-    'copy',
-    'purifycss',
-    'cssmin'
+    'copy:api',
+    'copy:extras'
   ]);
 
   // Register the default task

@@ -1,5 +1,6 @@
 .DS_Store
 *~
 app/.jekyll-metadata
+assets/dist/
 builds/
 build-environment/apache/logs

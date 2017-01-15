@@ -729,10 +729,10 @@ footer {
 @include respond(4) {
   body {
     // Margin bottom equals footer height, set below
-    margin-bottom: 209px;
+    margin-bottom: 225px;
   }
   footer {
-    height: 209px;
+    height: 225px;
   }
 }
 
