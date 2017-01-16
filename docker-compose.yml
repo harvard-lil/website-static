@@ -16,11 +16,11 @@ services:
     image: httpd
     container_name: apache
     ports:
-        - "8081:80"
-        # - "443:443"
+        - "8080:8080"
+        - "8081:8081"
     volumes:
-        - ./builds/dev:/usr/local/apache2/htdocs/
-        # - ./builds/prod:/usr/local/apache2/htdocs/
+        - ./builds/dev:/usr/local/apache2/htdocs/dev
+        - ./builds/prod:/usr/local/apache2/htdocs/prod
         - ./build-environment/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
         - ./build-environment/apache/logs:/usr/local/apache2/logs
 
