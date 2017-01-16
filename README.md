@@ -3,17 +3,17 @@ Getting started
 Clone the repo and cd inside.
 
 Run ```docker-compose up -d``` to start two containers in the background:
-1) a container for building the site
-2) a webserver configured to serve up development and production builds of site
+1)  a container for building the site
+2)  a webserver configured to serve up development and production builds of site.
 
 To build the site, run one of the following three commands:
-- ```docker-compose exec jekyll grunt```. This will build the dev version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should take 2-7 seconds. To stop the process, press control + c.
-- ```docker-compose exec jekyll grunt build:dev``` will build the dev version of the site, and then return.
-- ```docker-compose exec jekyll grunt build:prod``` will build the production version of the site, and then return.
+- ```docker-compose exec jekyll grunt``` will build the dev (expanded) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should take 2-7 seconds. To stop the process, press control + c.
+- ```docker-compose exec jekyll grunt build:dev``` will build the dev (expanded) version of the site, and then return.
+- ```docker-compose exec jekyll grunt build:prod``` will build the production (compressed) version of the site, and then return.
 
 To view the current builds in your browser:
 - If you are running Docker for Mac, visit http://localhost:8080/ to see the dev build and http://localhost:8081 to see the prod build.
-- If you are running Docker Machine, run ```docker-machine ip`` to discover the IP address of your virtualbox. Then, vist http://#.#.#.#:8080 to see the dev build and http://#.#.#.#:8081 to see the prod build.
+- If you are running Docker Machine, run ```docker-machine ip``` to discover the IP address of your virtualbox. Then, vist http://#.#.#.#:8080 to see the dev build and http://#.#.#.#:8081 to see the prod build.
 
 To stop all running containers, run ```docker-compose stop```.
 
