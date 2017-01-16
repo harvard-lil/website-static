@@ -5,16 +5,14 @@ services:
       context: .
       dockerfile: ./build-environment/Dockerfile
     image: rcremona/lil-website:0.3
-    container_name: jekyll
     command: bash
     tty: true
     volumes:
         - ./app:/usr/src/lil-website/app
         - ./assets:/usr/src/lil-website/assets
         - ./builds:/usr/src/lil-website/builds
-  apache:
+  server:
     image: httpd
-    container_name: apache
     ports:
         - "8080:8080"
         - "8081:8081"
