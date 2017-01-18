@@ -18,6 +18,6 @@ Options -Indexes
 Redirect /favicon.ico /assets/images/favicon.png
 
 # redirect legacy urls
-Redirect /fellows /collaborate/2016/summer/fellows/
-Redirect /fellows/fellows-application-2017 /collaborate/2017/summer/fellows/apply/
-Redirect /projects/free-the-law /projects/case-law-access-project/
+Redirect "/fellows" "/collaborate/2016/summer/fellows/"
+Redirect "/fellows/fellows-application-2017" "/collaborate/2017/summer/fellows/apply/"
+Redirect "/projects/free-the-law" "/projects/case-law-access-project/"
