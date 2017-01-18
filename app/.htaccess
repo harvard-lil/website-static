@@ -32,3 +32,12 @@ Redirect permanent "/projects.html" "/projects/"
 Redirect permanent "/fellows" "/collaborate/2016/summer/fellows/"
 Redirect permanent "/fellows/fellows-application-2017" "/collaborate/2017/summer/fellows/apply/"
 Redirect permanent "/projects/free-the-law" "/projects/case-law-access-project/"
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # added per JC 2016-09-20 -- BRS
+  RewriteCond "%{HTTP_HOST}"   "^librarylab\.law\.harvard\.edu" [NC]
+  RewriteRule "^/?(.*)"        "http://lil.law.harvard.edu/$1" [L,R=301]
+
+</IfModule>
