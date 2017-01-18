@@ -1,3 +1,5 @@
+DirectoryIndex  index.html index.js index.php
+
 ErrorDocument 404 /404/index.html
 
 # compress text, html, javascript, css, xml:
@@ -14,10 +16,19 @@ AddOutputFilterByType DEFLATE application/x-javascript
 # don't show directory listings for URLs which map to a directory.
 Options -Indexes
 
+# Make sure MultiViews is disabled if available.
+<IfModule mod_negotiation.c>
+  Options -MultiViews
+</IfModule>
+
 # redirect for favicon
 Redirect /favicon.ico /assets/images/favicon.png
 
+# Pre-bolt redirects
+Redirect permanent "/about.html" "/about/"
+Redirect permanent "/projects.html" "/projects/"
+
 # redirect legacy urls
-Redirect "/fellows" "/collaborate/2016/summer/fellows/"
-Redirect "/fellows/fellows-application-2017" "/collaborate/2017/summer/fellows/apply/"
-Redirect "/projects/free-the-law" "/projects/case-law-access-project/"
+Redirect permanent "/fellows" "/collaborate/2016/summer/fellows/"
+Redirect permanent "/fellows/fellows-application-2017" "/collaborate/2017/summer/fellows/apply/"
+Redirect permanent "/projects/free-the-law" "/projects/case-law-access-project/"
