@@ -49,7 +49,6 @@ news_feed_for:
   - projects_active
   - projects_retired
   - sketches_active
-  - sketches_retired
 
 contributors_feed_for:
   - projects_active
