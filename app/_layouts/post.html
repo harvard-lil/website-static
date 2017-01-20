@@ -1,0 +1,31 @@
+---
+layout: sectioned-page
+custom-css: ['blog']
+---
+
+<section class="_posts">
+  <div class="sleeve">
+    <article id="post-{{ page.wordpress_id }}" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date: "%B %-d, %Y" }}</time>
+        <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+        <p class="post-author">Posted by <a href="#">{{ page.author }}</a></p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        {{ content }}
+      </div>
+
+{% comment %}
+      <footer>
+        {% for tag in page.tags %}
+          <p class="tags"><span class="tags-title">{{ tag }}</span></p>'
+        {% endfor %}
+
+      </footer> <!-- end article footer -->
+{% endcomment %}
+
+    </article> <!-- end article -->
+
+  </div>
+</section>

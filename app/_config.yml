@@ -70,5 +70,11 @@ defaults:
       type: sketch
   - scope:
       path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: blog/:year/:month/:day/:title/index.html
+  - scope:
+      path: ""
     values:
       custom-footer: false

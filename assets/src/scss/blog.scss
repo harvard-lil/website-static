@@ -1,0 +1,200 @@
+////////////////////////////////////////////////////////////////
+// Variables, Mixins, and Placeholders
+@import "variables-mixins-placeholders";
+
+////////////////////////////////////////////////
+//  blog
+
+article.post {
+  border-top: $double solid $color-black;
+  padding: $double  0;
+  margin-top: $double;
+    footer {
+      background-color: transparent;
+      padding: 0;
+    }
+    time { display: block; }
+}
+
+article.post + article.post { margin-top: $double * 3; }
+
+//.post-header {}
+//.post-date {}
+
+.post-author {
+  margin-top: 6px;
+  font-weight: 300;
+  line-height: 1.4;
+
+}
+
+.post-title {
+  margin-top: $grid;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.post-content {
+  margin-top: 0;
+  font-weight: 300;
+  p:first-of-type {
+    margin-top: 0;
+  }
+  ul, ol {
+    padding-left: 0;
+  }
+  p, ul, ol {
+    line-height: 1.4;
+  }
+  .row {
+    font-size: $size-body;
+    font-weight: 400;
+    padding-top: $grid;
+    margin-top: $double * 2;
+    border-top: 1px solid $color-highlight;
+    & + .row { margin-top: $double * 3; }
+  }
+  .roundup-title {}
+  .roundup-title a {
+    @include link-highlight($color-highlight, $color-black);
+    @include include-arrow(1px);
+    border-bottom: none;
+    &:hover { @include include-arrow-black; }
+    &:active {
+      color: $color-highlight;
+      @include include-arrow-highlight;
+    }
+  }
+  .screenshot {
+    margin: $double 0;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid $color-trans-lightgray;
+  }
+  .submitted-by {
+    font-weight: 300;
+    margin-top: $grid;
+    &:before {
+      content: '/';
+      color: $color-highlight;
+      padding-right: 2px;
+    }
+    }
+    img.size-full {
+      margin: $double 0;
+    }
+    & > p + p  {
+      margin-top: 1em;
+    }
+    & > ol, & > ul {
+      margin: $double 0;
+      li {
+        padding-left: .8em;
+        text-indent: -.8em;
+        + li {
+          margin-top: .75em;
+        }
+      }
+    }
+    & > p + a img {
+      margin-top: $double;
+    }
+    blockquote {
+      margin: $double 0;
+    border-left: 1px solid $color-trans-lightgray;
+    padding-left: $double;
+        p + p {
+        margin-top: 1em;
+      }
+      ul {
+        margin: 1em 0;
+        li + li {
+          margin-top: .75em;
+        }
+      }
+    }
+}
+
+.pagination {
+  ul { text-align: center; }
+  li {
+    display: none;
+    a {
+      padding: $grid;
+      display: inline-block;
+    }
+  }
+  li.prev, li.next {
+    display: table;
+    float: left;
+    width: 48%;
+    position: relative;
+    a {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      padding: $double;
+      width: 100%;
+      overflow: hidden;
+      text-indent: -1000px;
+      border-top: 1px solid $color-black;
+      background-color: transparent;
+      z-index: 10;
+      &:hover { border-color: $color-highlight; }
+    }
+    &:after {
+      content: 'Older Posts';
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding-top: $double;
+      z-index: 0;
+      font-size: $size-small;
+    }
+    &:hover::after { color: $color-highlight; }
+  }
+  li.disabled { display: none !important; }
+  li.next {
+    float: right;
+    &:after { content: 'Older posts'; }
+  }
+  li.prev { &:after { content: 'Newer posts'; } }
+}
+
+@include respond(3) {
+  .post-title {
+    font-size: 40px;
+  }
+  .post-author {
+    padding-bottom: $double;
+  }
+  .post-content {
+    p, ul, ol {
+      font-size: 22px;
+    }
+    .row p { font-size: $size-body; }
+    .roundup-title { font-weight: 400; }
+    .row + .row { margin-top: $double; }
+    .submitted-by { font-weight: 400; }
+    .screenshot {
+      float: left;
+      width: 30%;
+      margin-top: $grid * 3;
+    }
+  }
+  .text-frame { font-weight: 300; }
+  .metadata {
+    float: left;
+    width: 70%;
+    padding: $double;
+  }
+  article.post + article.post { margin-top: $double * 4; }
+}
+
+@include respond(4) {
+  article {
+    max-width: 596px;
+    margin: auto;
+  }
+  .post-content { & > p, & > ul, & > ol { font-size: $size-large; } }
+}

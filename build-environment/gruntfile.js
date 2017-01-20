@@ -111,6 +111,9 @@ module.exports = function (grunt) {
         files: [{
           src: '<%= globalConfig.assetsSrc %>/scss/main.scss',
           dest: '<%= globalConfig.assetsDist %>/expanded/css/main.css'
+        },{
+          src: '<%= globalConfig.assetsSrc %>/scss/blog.scss',
+          dest: '<%= globalConfig.assetsDist %>/expanded/css/blog.css'
         }]
       }
     },
@@ -131,6 +134,9 @@ module.exports = function (grunt) {
         files: [{
           src: '<%= globalConfig.assetsDist %>/compressed/css/main.css',
           dest: '<%= globalConfig.assetsDist %>/compressed/css/main.css',
+        },{
+          src: '<%= globalConfig.assetsDist %>/compressed/blog/main.css',
+          dest: '<%= globalConfig.assetsDist %>/compressed/blog/main.css',
         }]
       }
     },
