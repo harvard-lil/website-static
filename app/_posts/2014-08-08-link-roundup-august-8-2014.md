@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2014-08-08 19:12:55+00:00
 layout: post
@@ -33,7 +33,7 @@ Matt Phillips
 
 [![](/roundup/images/53dfa8eb97a40.png)](http://www.theatlantic.com/features/archive/2014/08/the-future-of-iced-coffee/375114/)
 
-Scale the right way. Avoid the devil poodle. Use the ideas of your people. Make it work.  
+Scale the right way. Avoid the devil poodle. Use the ideas of your people. Make it work.
 
 Annie
 

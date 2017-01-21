@@ -6,9 +6,12 @@ kramdown:
     smart_quotes: ["apos", "apos", "quot", "quot"]
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 liquid:
   error_mode: strict
 keep_files: ["assets"]
+paginate: 10
+paginate_path: "/blog/page/:num/"
 
 # Site settings
 title: The Library Innovation Lab at Harvard University
@@ -73,7 +76,8 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: blog/:year/:month/:day/:title/index.html
+      type: post
+      permalink: blog/:year/:month/:day/:title/
   - scope:
       path: ""
     values:

@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-04-17 17:10:37+00:00
 layout: post
@@ -25,7 +25,7 @@ Matt Phillips
 
 [![](http://librarylab.law.harvard.edu/roundup/images/552fc56150703.png)](http://www.trevorowens.org/2015/04/the-invention-dissemination-of-the-transparent-gif-traces-in-web-archives/)
 
-The diaspora of the 1x1 gif. 
+The diaspora of the 1x1 gif.
 
 Matt Phillips
 

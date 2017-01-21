@@ -1,5 +1,5 @@
 ---
-author: Matt Phillips
+author: matt-phillips
 comments: true
 date: 2011-10-14 21:24:27+00:00
 layout: post
@@ -23,21 +23,21 @@ While in the middle of working on some CSS3 transition effects, I just happened 
 
 Instead of writing this in my stylesheet
 
-    
-    
+
+
     -webkit-transition: margin .15s ;
     -moz-transition: margin .15s ;
     -o-transition: margin .15s ;
     transition: margin .15s ;
-    
+
 
 
 I just wrote this
 
-    
-    
+
+
     transition: margin .15 ;
-    
+
 
 
 

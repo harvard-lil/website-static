@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2014-10-17 21:23:29+00:00
 layout: post
@@ -49,6 +49,6 @@ Annie
 
 [![](/roundup/images/542ece5f16f80.png)](http://onpoint.wbur.org/2014/09/29/peter-thiel-technology-politics-libertarians)
 
-Awesome. 
+Awesome.
 
 jeff

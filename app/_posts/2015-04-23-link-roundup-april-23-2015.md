@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-04-23 15:24:37+00:00
 layout: post
@@ -51,6 +51,6 @@ Annie
 
 [![](http://librarylab.law.harvard.edu/roundup/images/55315e8607ba5.png)](http://www.ietf.org/id/draft-snell-search-method-00.txt)
 
-HTTP search. Maybe? Searching is so dang common. 
+HTTP search. Maybe? Searching is so dang common.
 
 Matt Phillips

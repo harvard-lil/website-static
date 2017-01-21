@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2014-09-17 17:01:16+00:00
 layout: post
@@ -11,7 +11,7 @@ categories:
 - roundup
 ---
 
-Looks like Matt's been spamming the roundup. 
+Looks like Matt's been spamming the roundup.
 
 [Stack independent magazine subscription service ](http://www.stackmagazines.com/)
 

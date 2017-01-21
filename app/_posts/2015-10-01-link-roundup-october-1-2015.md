@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: false
 date: 2015-10-01 13:23:09+00:00
 layout: post
@@ -49,6 +49,6 @@ Annie
 
 [![](http://librarylab.law.harvard.edu/roundup/images/55f82dc35eae7.png)](http://mentalfloss.com/article/68523/camera-refuses-take-pictures-over-photographed-locations)
 
-A camera that won't take pictures of popular locations. How about a scanner that won't check out popular items? 
+A camera that won't take pictures of popular locations. How about a scanner that won't check out popular items?
 
 Annie

@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2012-07-16 20:20:29+00:00
 layout: post
@@ -11,7 +11,7 @@ wordpress_id: 1286
 
 **Who are you, and what do you do?**
 
-I’m Annie Cain.  I was once a librarian and maybe still am.  Either way, I currently build web apps.  For libraries.  I also come up with ideas, help shape ideas and help execute & build non-web ideas.  
+I’m Annie Cain.  I was once a librarian and maybe still am.  Either way, I currently build web apps.  For libraries.  I also come up with ideas, help shape ideas and help execute & build non-web ideas.
 
 [![Setup Annie Cain](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/07/DSC_33592-1024x685.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/07/DSC_33592.jpg)
 
@@ -33,7 +33,7 @@ I constantly use [Exposé](http://support.apple.com/kb/HT2503) to find buried wi
 
 When working directly on the development server (which is all the time, scandalous!), I type code in [BBEdit](http://www.barebones.com/products/bbedit/) and push images up with [Transmit](http://panic.com/transmit/).  When I’m not feeling up to typing SQL in the Terminal (which is most of the time, scandalous!), I use [Sequel Pro](http://www.sequelpro.com/) to interact with MySQL.
 
-I use Firefox when web developing.  Firebug provides most of what I need to understand what’s going on.  [MeasureIt](https://addons.mozilla.org/en-US/firefox/addon/measureit/) and [JSONView](https://addons.mozilla.org/en-US/firefox/addon/jsonview/) also help.  Heck, I still use some features of the [Web Developer extension](https://addons.mozilla.org/en-US/firefox/addon/web-developer/).  For my general browsing and [Google Reader](http://www.google.com/reader/) perusing, I use Chrome.  I go to [Byliner](http://byliner.com/) if I need a longer reading break. 
+I use Firefox when web developing.  Firebug provides most of what I need to understand what’s going on.  [MeasureIt](https://addons.mozilla.org/en-US/firefox/addon/measureit/) and [JSONView](https://addons.mozilla.org/en-US/firefox/addon/jsonview/) also help.  Heck, I still use some features of the [Web Developer extension](https://addons.mozilla.org/en-US/firefox/addon/web-developer/).  For my general browsing and [Google Reader](http://www.google.com/reader/) perusing, I use Chrome.  I go to [Byliner](http://byliner.com/) if I need a longer reading break.
 
 Photoshop is the only one of the Suite that I know how to operate, so it’s the hammer for all of my graphics nails.
 

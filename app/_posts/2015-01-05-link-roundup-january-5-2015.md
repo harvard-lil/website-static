@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-01-05 19:42:40+00:00
 layout: post
@@ -49,6 +49,6 @@ Matt Phillips
 
 [![](/roundup/images/549711ff04b89.png)](http://www.npr.org/blogs/theprotojournalist/2014/12/20/371851621/before-google-who-knew)
 
-"Where can I rent a beagle for hunting? (1963)" and other gems to be posted on @NYPL blog. 
+"Where can I rent a beagle for hunting? (1963)" and other gems to be posted on @NYPL blog.
 
 Matt Phillips

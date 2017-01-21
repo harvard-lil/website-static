@@ -1,5 +1,5 @@
 ---
-author: akamdar
+guest-author: Adi Kamdar
 comments: false
 date: 2016-04-04 18:29:06+00:00
 layout: post
@@ -11,13 +11,16 @@ categories:
 - Free the Law
 ---
 
-![1c60deb](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/1c60deb.jpg)_**Adi Kamdar** is a 1L at Harvard Law School and our embedded reporter on the Free the Law project. In this first post, he tracks the progress of a casebook through our scanning process from start to finish._
+<div class="author-intro">
+  <img src="http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/1c60deb.jpg">
+  <p><span class="name">Adi Kamdar</span> is a 1L at Harvard Law School and our embedded reporter on the Free the Law project. In this first post, he tracks the progress of a casebook through our scanning process from start to finish.</p>
+</div>
 
 Harvard Law Library is one of the few collections with nearly every law reporter—roughly 40,000 books in total. The Free the Law project’s goal is to put the court decisions inside these volumes online, so anyone can access the precedents that shape the American legal system. Right now, the project is about halfway through, and within the next couple years they’ll have completed this monumental task.
 
 But how exactly does a book become a byte? And what happens to these physical texts after they’ve been digitized?
 
-**Harvard Depository**
+## Harvard Depository
 
 The project begins each week with a book order—a 600 book order, to be exact, for law reporters that chronicle U.S. legal history since the country’s inception.
 
@@ -27,74 +30,35 @@ But it turns out law reporters are the packing peanuts of the Harvard Depository
 
 Because of this tactic, law reporters are spread all throughout the Depository. Asking for, say, Michigan's volumes isn't as simple as pulling out a handful of boxes—it's a hunt.
 
-**Langdell Library**
+## Langdell Library
 
 Every Wednesday, the team receives the 600 volumes of case reporters. They line the hallway of the ground floor of Langdell, filling shelf after shelf. One by one, each book is examined before it can be taken apart. (Some books—for example, volumes with marginalia—are flagged for archival purposes.) Each volume is then catalogued and given a unique barcode so it can be tracked throughout the whole process.
 
-[![](http://i.imgur.com/o7hwfTX.jpg)](http://imgur.com/o7hwfTX) 
+[![](http://i.imgur.com/o7hwfTX.jpg)](http://imgur.com/o7hwfTX)
 
 The books are then taken to the Prep Room where, ironically, they’re repaired before they’re chopped up. Damaged pages are taped together, book bindings are cut off by hand, and the remaining sheets are taken over to a guillotine. Once aligned, the operator has to press two separate buttons underneath the cutting table at the same time to make sure her hands aren’t under the blade. The result? Cleanly cut pages.
 
+[![View post on imgur.com](http://i.imgur.com/ipa45yK.jpg)](http://imgur.com/ipa45yK)
 
-
-
-<blockquote>[View post on imgur.com](//imgur.com/ipa45yK)</blockquote>
-
-
-
-
-
-
-<blockquote>[View post on imgur.com](//imgur.com/9WCsJhP)</blockquote>
-
-
-
-
+[![View post on imgur.com](http://i.imgur.com/9WCsJhP.jpg)](http://imgur.com/9WCsJhP)
 
 Next, the bundle of pages is hauled over to the Scanning Room. Here, six employees work overlapping shifts to ensure that pages are being scanned every day, 14 hours a day. Roughly 200 documents per minute are fed through the machine, which has a camera on top and bottom to image both sides of the page.
 
+[![View post on imgur.com](http://i.imgur.com/OPEdH9y.jpg)](http://imgur.com/OPEdH9y)
 
+[![View post on imgur.com](http://i.imgur.com/2TgT2sr.jpg)](http://imgur.com/2TgT2sr)
 
-
-<blockquote>[View post on imgur.com](//imgur.com/OPEdH9y)</blockquote>
-
-
-
-
-
-
-<blockquote>[View post on imgur.com](//imgur.com/2TgT2sr)</blockquote>
-
-
-
-
-
-
-<blockquote>[View post on imgur.com](//imgur.com/COKw2x2)</blockquote>
-
+[![View post on imgur.com](http://i.imgur.com/COKw2x2.jpg)](http://imgur.com/COKw2x2)
 
 Now that the books are chopped and scanned, what happens to the physical pages? After all, the purpose of this project is to digitize the law. Plus, according to circulation records, very few people were reading the old reporters anyway. Rebinding them and keeping them in the library would be a waste of space, time, and money. But just in case anyone questions the authenticity of the scans, Harvard decided it would be valuable to have the physical copies accessible. So the project decided to vacuum seal the pages. Once the pages are jogged together (using a state-of-the-art paper-jogging machine) and placed back inside their book jacket, the volumes are taken over to one last room—where they will be put inside a meat packing device. Yes, it turns out that the meat industry unwittingly stumbled across the best way to preserve books. The machine shrink wraps the pages, maintaining the integrity of the volume while handily adding an extra layer of protection from mold, humidity, and bugs.
 
-
-
-
-<blockquote>[View post on imgur.com](//imgur.com/jAXte1p)</blockquote>
-
-
-
-
+[![View post on imgur.com](http://i.imgur.com/jAXte1p.jpg)](http://imgur.com/jAXte1p)
 
 The re-bound volumes are then re-shelved, where they await being shipped off to...
 
+[![View post on imgur.com](http://i.imgur.com/NGAgmeU.jpg)](http://imgur.com/NGAgmeU)
 
-
-
-<blockquote>[View post on imgur.com](//imgur.com/NGAgmeU)</blockquote>
-
-
-
-
-**Louisville, Kentucky**
+## Louisville, Kentucky
 
 Because of the Harvard Law Library’s limited shelf capacity, the newly packaged pages will soon be loaded onto trucks and shipped down to Louisville.
 

@@ -116,6 +116,16 @@ body {
   position: relative;
 }
 
+// allow us to override some of the arcane things above
+.no-ligatures {
+  font-variant-ligatures: none;
+}
+
+// normalize sets to "bolder", which is not available with our fonts
+b, strong {
+  font-weight: bold;
+}
+
 // Prevent linked urls from breaking layouts
 a {
   word-wrap: break-word !important;
@@ -153,8 +163,16 @@ p a, section a, main a {
   @extend %link-inline;
 }
 
+.image-link, .image-link a {
+  @include link-none($color-black);
+}
+
 li p {
   display: inline;
+}
+
+.lil-list {
+  font-size: $size-small;
 }
 
 ul {
@@ -189,7 +207,6 @@ h2 {
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
-  height: 0;
   overflow: hidden;
   max-width: 100%;
   height: auto;

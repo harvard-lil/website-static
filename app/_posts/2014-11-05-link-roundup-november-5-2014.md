@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2014-11-05 16:44:55+00:00
 layout: post
@@ -33,7 +33,7 @@ Annie
 
 [![](/roundup/images/544d1a1eab023.png)](http://www.nytimes.com/2014/10/23/garden/apple-picking-season-is-here-dont-you-want-more-than-a-macintosh.html?_r=0)
 
-THE book on apples is being publishes. I love that the author has been editing the same WordPerfect file since 1983. 
+THE book on apples is being publishes. I love that the author has been editing the same WordPerfect file since 1983.
 
 Matt Phillips
 

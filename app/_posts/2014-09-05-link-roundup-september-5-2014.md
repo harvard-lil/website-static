@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2014-09-05 17:36:21+00:00
 layout: post
@@ -17,7 +17,7 @@ This is the good stuff.
 
 [![](/roundup/images/5409f494bbd35.png)](http://photogrammar.yale.edu/)
 
-So nice, could even be taken further, I'd imagine they've got a lot of ideas in the works - 
+So nice, could even be taken further, I'd imagine they've got a lot of ideas in the works -
 
 jeff
 
@@ -25,7 +25,7 @@ jeff
 
 [![](/roundup/images/5409db78c85b3.png)](http://www.brookings.edu/research/reports2/2014/09/cyborg-future-law-policy-implications)
 
-Whoa, weird.  Our devices and us. 
+Whoa, weird.  Our devices and us.
 
 jeff
 

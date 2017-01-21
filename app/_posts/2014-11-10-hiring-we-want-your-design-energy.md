@@ -1,5 +1,5 @@
 ---
-author: Matt Phillips
+author: matt-phillips
 comments: false
 date: 2014-11-10 19:31:36+00:00
 layout: post
@@ -36,19 +36,19 @@ What you'll do
 
 
 
-	
+
   * - Work with our multi-disciplinary team to build elegant web tools
 
-	
+
   * - Contribute to our broad vision for the Internet, libraries, and society
 
-	
+
   * - Rely on your good design sense and user-centricity
 
-	
+
   * - Create beautiful graphics and use modern web technologies to share them
 
-	
+
   * - Have fun while producing meaningful work with fantastic folks
 
 

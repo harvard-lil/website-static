@@ -1,5 +1,5 @@
 ---
-author: Matt Phillips
+author: matt-phillips
 comments: true
 date: 2012-06-25 02:56:53+00:00
 layout: post
@@ -54,7 +54,7 @@ I have a whole bunch of different user accounts and API keys. I use [Keychain](h
 
 I manage myself using lists. Lately, I’ve been hot on [Trello](https://trello.com/).
 
-[Chrome](https://www.google.com/intl/en/chrome/browser/) is the browser I prefer. I’ve bolstered Chrome with the [JSONView plugin](https://chrome.google.com/webstore/detail/chklaanhfefbnpoihckbnefhakgolnmc), the [Google Screen Capture plugin](https://chrome.google.com/webstore/detail/cpngackimfmofbokmjmljamhdncknpmg), the [Readable bookmarklet](http://readable.tastefulwords.com/), the [AdBlock plugin](https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom), and the [Instapaper bookmarklet](http://www.instapaper.com/). 
+[Chrome](https://www.google.com/intl/en/chrome/browser/) is the browser I prefer. I’ve bolstered Chrome with the [JSONView plugin](https://chrome.google.com/webstore/detail/chklaanhfefbnpoihckbnefhakgolnmc), the [Google Screen Capture plugin](https://chrome.google.com/webstore/detail/cpngackimfmofbokmjmljamhdncknpmg), the [Readable bookmarklet](http://readable.tastefulwords.com/), the [AdBlock plugin](https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom), and the [Instapaper bookmarklet](http://www.instapaper.com/).
 
 I spend most of my development time in [PyDev](http://pydev.org/) (which is a [Python](http://www.python.org/) centric bundling of [Eclipse](http://eclipse.org/)).
 

@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-07-08 19:02:10+00:00
 layout: post
@@ -33,7 +33,7 @@ Matt Phillips
 
 [![](http://librarylab.law.harvard.edu/roundup/images/559be8bd66d47.png)](http://stuffin.space/)
 
-Very cool interactive map of all the space junk orbiting Earth. 
+Very cool interactive map of all the space junk orbiting Earth.
 
 Adam
 

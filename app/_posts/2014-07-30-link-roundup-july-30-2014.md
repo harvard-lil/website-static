@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2014-07-30 17:17:26+00:00
 layout: post
@@ -17,7 +17,7 @@ Libraries, the Web, the network. You know, the good stuff.
 
 [![](/roundup/web/images/thumb-wLmlYgro.png)](http://www.theatlantic.com/education/archive/2014/07/the-low-tech-appeal-of-little-free-libraries/375101/?utm_campaign=SocialFlow&utm_source=twitter.com&utm_medium=referral)
 
-The Little Free Library puts libraries on your walking path. 
+The Little Free Library puts libraries on your walking path.
 
 Matt Phillips
 

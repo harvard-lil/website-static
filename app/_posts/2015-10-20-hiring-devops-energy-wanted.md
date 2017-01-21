@@ -1,5 +1,5 @@
 ---
-author: Matt Phillips
+author: matt-phillips
 comments: false
 date: 2015-10-20 20:08:18+00:00
 layout: post

@@ -56,7 +56,7 @@ module.exports = function (grunt) {
         }
       },
       cleanBuilds: {
-        command: 'cd builds; rm -rf *; cd ../',
+        command: 'rm -rf builds/dev/*; rm -rf builds/prod/*',
         stderr: false,
         callback: function (error, stdout, stderr) {
           if (stderr) {

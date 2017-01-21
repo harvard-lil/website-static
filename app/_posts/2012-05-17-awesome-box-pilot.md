@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2012-05-17 15:35:52+00:00
 layout: post
@@ -27,13 +27,13 @@ We want users to understand the following without using too much text.
 
 
 
-	
+
   * What constitutes Awesome (helpful, mind-blowing, etc.)
 
-	
+
   * What happens when an item is Awesomed (it gets marked Awesome, shared with everyone)
 
-	
+
   * Placing an item in the Awesome Box actually returns it to the library
 
 

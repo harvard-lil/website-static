@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-01-17 17:37:01+00:00
 layout: post
@@ -11,7 +11,7 @@ categories:
 - roundup
 ---
 
-Legos. JavaScript. Photos. And request logs. Smart teams. What a range. 
+Legos. JavaScript. Photos. And request logs. Smart teams. What a range.
 
 [Why Some Teams Are Smarter Than Others](http://www.nytimes.com/2015/01/18/opinion/sunday/why-some-teams-are-smarter-than-others.html?action=click&pgtype=Homepage&version=Moth-Visible&module=inside-nyt-region&region=inside-nyt-region&WT.nav=inside-nyt-region&_r=0)
 

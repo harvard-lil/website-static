@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-02-13 20:04:18+00:00
 layout: post
@@ -17,7 +17,7 @@ Had to include some snow this time
 
 [![](http://librarylab.law.harvard.edu/roundup/images/54de58c22eb25.png)](https://www.behance.net/gallery/23308973/Snow-Script)
 
-Snow street art 
+Snow street art
 
 Annie
 
@@ -41,7 +41,7 @@ Annie
 
 [![](http://librarylab.law.harvard.edu/roundup/images/54cfb47a0f88b.png)](http://nautil.us/blog/a-photographer-who-tinkers-with-time)
 
-High speed camera + subway car = amazing images. 
+High speed camera + subway car = amazing images.
 
 Matt Phillips
 

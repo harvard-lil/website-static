@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-03-17 17:54:09+00:00
 layout: post
@@ -17,7 +17,7 @@ This is the good stuff.
 
 [![](http://librarylab.law.harvard.edu/roundup/images/55086a4105e8d.png)](http://www.betaboston.com/news/2015/02/09/mits-zipper-robots-could-dress-you-if-you-let-them/)
 
-Zipper bots. Want. Could be handy on the ski slopes or on the bike. 
+Zipper bots. Want. Could be handy on the ski slopes or on the bike.
 
 Matt Phillips
 

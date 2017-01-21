@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-07-28 16:48:08+00:00
 layout: post
@@ -11,7 +11,7 @@ categories:
 - roundup
 ---
 
-I see a theme here -- computers are entertainers, directors, performers. 
+I see a theme here -- computers are entertainers, directors, performers.
 
 [A Sort of Joy](https://medium.com/@blprnt/a-sort-of-joy-1d9d5ff02ac9)
 

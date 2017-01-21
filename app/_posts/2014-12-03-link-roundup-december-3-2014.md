@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2014-12-03 17:22:09+00:00
 layout: post
@@ -41,7 +41,7 @@ Matt Phillips
 
 [![](/roundup/images/547210822ca6f.png)](http://www.itsnicethat.com/articles/jean-jullien-film)
 
-Observational drawing. I feel like I could watch him draw for hours. 
+Observational drawing. I feel like I could watch him draw for hours.
 
 Matt Phillips
 

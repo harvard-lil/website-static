@@ -1,6 +1,7 @@
 ////////////////////////////////////////////////////////////////
 // Variables, Mixins, and Placeholders
 @import "variables-mixins-placeholders";
+@import "bootstrap-helpers";
 
 ////////////////////////////////////////////////
 //  blog
@@ -37,7 +38,7 @@ article.post + article.post { margin-top: $double * 3; }
 .post-content {
   margin-top: 0;
   font-weight: 300;
-  p:first-of-type {
+  p:first-child {
     margin-top: 0;
   }
   ul, ol {
@@ -45,24 +46,61 @@ article.post + article.post { margin-top: $double * 3; }
   }
   p, ul, ol {
     line-height: 1.4;
+    font-size: 17px;
   }
-  .row {
+  .embed-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  img {
+    @extend .img-responsive;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .author-intro {
+    img {
+      float: left;
+      width: 25%;
+      margin: 0px 1em 0px 0px;
+    }
+    p {
+      font-style: italic;
+      margin-top: 0;
+    }
+    .name {
+      font-weight: bold;
+    }
+
+    & + p {
+      margin-top: 8px;
+    }
+  }
+  .roundup-item {
     font-size: $size-body;
     font-weight: 400;
     padding-top: $grid;
     margin-top: $double * 2;
     border-top: 1px solid $color-highlight;
-    & + .row { margin-top: $double * 3; }
+    & + .roundup-item {
+      margin-top: $double * 3;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
   }
-  .roundup-title {}
-  .roundup-title a {
-    @include link-highlight($color-highlight, $color-black);
-    @include include-arrow(1px);
-    border-bottom: none;
-    &:hover { @include include-arrow-black; }
-    &:active {
-      color: $color-highlight;
-      @include include-arrow-highlight;
+  .roundup-title {
+    margin-bottom: 0;
+    a {
+      @include link-highlight($color-highlight, $color-black);
+      @include include-arrow(1px);
+      border-bottom: none;
+      &:hover { @include include-arrow-black; }
+      &:active {
+        color: $color-highlight;
+        @include include-arrow-highlight;
+      }
     }
   }
   .screenshot {
@@ -79,40 +117,40 @@ article.post + article.post { margin-top: $double * 3; }
       color: $color-highlight;
       padding-right: 2px;
     }
-    }
-    img.size-full {
-      margin: $double 0;
-    }
-    & > p + p  {
-      margin-top: 1em;
-    }
-    & > ol, & > ul {
-      margin: $double 0;
-      li {
-        padding-left: .8em;
-        text-indent: -.8em;
-        + li {
-          margin-top: .75em;
-        }
+  }
+  img.size-full {
+    margin: $double 0;
+  }
+  & > p + p  {
+    margin-top: 1em;
+  }
+  & > ol, & > ul {
+    margin: $double 0;
+    li {
+      padding-left: .8em;
+      text-indent: -.8em;
+      + li {
+        margin-top: .75em;
       }
     }
-    & > p + a img {
-      margin-top: $double;
-    }
-    blockquote {
-      margin: $double 0;
+  }
+  & > p + a img {
+    margin-top: $double;
+  }
+  blockquote {
+    margin: $double 0;
     border-left: 1px solid $color-trans-lightgray;
     padding-left: $double;
-        p + p {
-        margin-top: 1em;
-      }
-      ul {
-        margin: 1em 0;
-        li + li {
-          margin-top: .75em;
-        }
+      p + p {
+      margin-top: 1em;
+    }
+    ul {
+      margin: 1em 0;
+      li + li {
+        margin-top: .75em;
       }
     }
+  }
 }
 
 .pagination {
@@ -172,14 +210,13 @@ article.post + article.post { margin-top: $double * 3; }
     p, ul, ol {
       font-size: 22px;
     }
-    .row p { font-size: $size-body; }
+    .roundup-item p { font-size: $size-body; }
     .roundup-title { font-weight: 400; }
-    .row + .row { margin-top: $double; }
+    .roundup-item + .roundup-item { margin-top: $double; }
     .submitted-by { font-weight: 400; }
     .screenshot {
       float: left;
       width: 30%;
-      margin-top: $grid * 3;
     }
   }
   .text-frame { font-weight: 300; }
@@ -189,6 +226,9 @@ article.post + article.post { margin-top: $double * 3; }
     padding: $double;
   }
   article.post + article.post { margin-top: $double * 4; }
+  .embed-container:first-child {
+    margin-top: 4px;
+  }
 }
 
 @include respond(4) {
@@ -196,5 +236,12 @@ article.post + article.post { margin-top: $double * 3; }
     max-width: 596px;
     margin: auto;
   }
-  .post-content { & > p, & > ul, & > ol { font-size: $size-large; } }
+  .post-content {
+    & > p, & > ul, & > ol {
+      font-size: $size-large;
+    }
+    & .lil-list {
+      font-size: $size-body;
+    }
+  }
 }

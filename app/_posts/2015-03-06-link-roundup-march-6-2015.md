@@ -1,5 +1,5 @@
 ---
-author: acain
+author: annie-cain
 comments: true
 date: 2015-03-06 17:08:57+00:00
 layout: post
@@ -41,7 +41,7 @@ Annie
 
 [![](http://librarylab.law.harvard.edu/roundup/images/54f736c931442.png)](http://www.nytimes.com/2015/03/04/dining/even-composting-comes-with-sticker-shock.html?_r=0)
 
-Composting company has customers collect troublesome fruit stickers on a Bingo card to receive free compost. 
+Composting company has customers collect troublesome fruit stickers on a Bingo card to receive free compost.
 
 Annie
 
