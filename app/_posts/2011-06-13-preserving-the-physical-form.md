@@ -1,10 +1,6 @@
 ---
 author: matt-phillips
-comments: true
 date: 2011-06-13 21:47:28+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/06/13/preserving-the-physical-form/
-slug: preserving-the-physical-form
 title: Preserving the physical form
 wordpress_id: 692
 ---

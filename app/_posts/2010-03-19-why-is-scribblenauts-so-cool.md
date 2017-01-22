@@ -1,10 +1,7 @@
 ---
 author: annie-cain
-comments: true
 date: 2010-03-19 18:36:43+00:00
 layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/03/19/why-is-scribblenauts-so-cool/
-slug: why-is-scribblenauts-so-cool
 title: Why is Scribblenauts so cool?
 wordpress_id: 273
 ---

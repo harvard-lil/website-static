@@ -1,9 +1,6 @@
 ---
-author: Jeff
-comments: false
+author: jeff-goldenson
 date: 2013-08-30 14:21:29+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2013/08/30/library-machines-sxsw-gettin-out-the-vote/
 slug: library-machines-sxsw-gettin-out-the-vote
 title: 'Library Machines & SXSW: Gettin'' out the Vote!'
 wordpress_id: 1746

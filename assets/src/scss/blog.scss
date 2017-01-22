@@ -220,7 +220,7 @@ article.post + article.post { margin-top: $double * 3; }
     }
   }
   .text-frame { font-weight: 300; }
-  .metadata {
+  .roundup-item .metadata {
     float: left;
     width: 70%;
     padding: $double;

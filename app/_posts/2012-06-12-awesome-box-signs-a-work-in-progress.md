@@ -1,10 +1,6 @@
 ---
 author: matt-phillips
-comments: true
 date: 2012-06-12 01:34:11+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/06/12/awesome-box-signs-a-work-in-progress/
-slug: awesome-box-signs-a-work-in-progress
 title: Awesome Box signs, a work in progress
 wordpress_id: 1135
 categories:
@@ -24,6 +20,7 @@ How about a sign with lights? Yes, please.
 
 We've rigged up an Arduino with a photoresistor and wired that to a few LEDs. Those LEDs get routed into a sheet of plexiglass and then sandwiched between a couple of sheets of aluminum. Place a book inside, trip the sensor, and smile.
 
+<div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/43864998?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe></div>
 
 (The wires and the rest of the circuit will be cleaned up and hidden in the base of the Awesome Box.)
 

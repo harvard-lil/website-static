@@ -1,9 +1,6 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2009-12-11 18:53:26+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2009/12/11/legaldiagramming/
 slug: legaldiagramming
 title: Legal Diagramming
 wordpress_id: 108
@@ -14,8 +11,6 @@ Aza Raskin over at Mozilla had [a really interesting post](http://www.azarask.in
 It's amazing how much friendlier it is.
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2009/12/azaDiag11-300x272.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2009/12/azaDiag11.jpg)
-
-
 
 This is what is being visualized:
 

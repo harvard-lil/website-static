@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2010-09-21 14:07:43+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/09/21/staff-meeting-notes-sept-14-2010/
-slug: staff-meeting-notes-sept-14-2010
 title: Staff meeting notes - Sept. 14, 2010
 wordpress_id: 367
 categories:
@@ -15,13 +11,13 @@ tags:
 
 _Sorry. A week late with these staff meeting notes :( (Still not sure there's value in posting them, but that's not why there was a delay.)_
 
-We're going to look at the [Australian](http://trove.nla.gov.au/) national Trove system for metadata standards. 
+We're going to look at the [Australian](http://trove.nla.gov.au/) national Trove system for metadata standards.
 
 The new Web server is up.
 
 We are working on getting data from Cognos more directly and usefully.
 
-We are continuing to look for a contract developer to help with some legacy projects that are important but are distracting us from tasks more in line with Lil's mission. 
+We are continuing to look for a contract developer to help with some legacy projects that are important but are distracting us from tasks more in line with Lil's mission.
 
 We are working with the Harvard Coop to get a list of books ordered for courses.
 
@@ -29,8 +25,8 @@ We are pretty consistently working with Harvard information systems that were no
 
 We are beginning to investigate doing a book locator that shows books in physical maps of a library. This requires numbering the stacks physically. We talked about which library to start with.
 
-StackView is looking at how to visualize multiple subject neighborhoods. 
+StackView is looking at how to visualize multiple subject neighborhoods.
 
-We are continuing to investigate real time notification systems. 
+We are continuing to investigate real time notification systems.
 
 We reported on our meeting with Jim Neal, University Librarian of Columbia University, in which we talked about ShelfLife, LibraryCloud, and the possibilities of collaboration.

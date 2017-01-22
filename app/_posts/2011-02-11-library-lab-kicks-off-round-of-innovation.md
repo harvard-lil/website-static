@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-02-11 15:07:14+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/02/11/library-lab-kicks-off-round-of-innovation/
-slug: library-lab-kicks-off-round-of-innovation
 title: Library Lab kicks off round of innovation
 wordpress_id: 548
 categories:

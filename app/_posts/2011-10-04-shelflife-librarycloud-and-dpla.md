@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-10-04 13:25:18+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/10/04/shelflife-librarycloud-and-dpla/
-slug: shelflife-librarycloud-and-dpla
 title: ShelfLife, LibraryCloud, and DPLA
 wordpress_id: 804
 categories:
@@ -19,7 +15,7 @@ categories:
 
 We're really really really pleased that the [Digital Public Library of America](http://cyber.law.harvard.edu/research/dpla) has [chosen](http://cyber.law.harvard.edu/node/7115) two of our projects to be considered (at an Oct. 21 [open plenary](nhttp://cyber.law.harvard.edu/events/2011/10/dplaplenary) meeting) for implementation as part of the DPLA's [beta sprint](http://cyber.law.harvard.edu/newsroom/Digital_Public_Library_America_Beta_Sprint).  We worked insanely hard all summer to turn our prototypes for Harvard into services suitable for a national public library. We're proud of what we accomplished, and below is a link that will let you try out what we came up with.
 
-Upon the announcement of the beta sprint in May, we [partnered up](http://librarylab.law.harvard.edu/dpla/) with folks at thirteen other institutions...an amazing group of people. Our small team at Harvard , with generous internal support, built ShelfLife and LibraryCloud on top of the integrated catalogs of five libraries, public and university, with a combined count of almost 15 million items, plus circulation data. We also pulled in some choice items from the Web, including metadata about every TED talk, open courseware, and Wikipedia pages about books. (Finding all or even most of the Wikipedia pages about books required real ingenuity on the part of our team, and was a fun project that we're in the process of writing up.)
+Upon the announcement of the beta sprint in May, we [partnered up](http://librarylab.law.harvard.edu/dpla/) with folks at thirteen other institutions... an amazing group of people. Our small team at Harvard, with generous internal support, built ShelfLife and LibraryCloud on top of the integrated catalogs of five libraries, public and university, with a combined count of almost 15 million items, plus circulation data. We also pulled in some choice items from the Web, including metadata about every TED talk, open courseware, and Wikipedia pages about books. (Finding all or even most of the Wikipedia pages about books required real ingenuity on the part of our team, and was a fun project that we're in the process of writing up.)
 
 The metadata about those items goes into LibraryCloud, which collects and openly publishes that metadata via APIs and as linked open data. We're proposing LibraryCloud to DPLA as a metadata server for the data DPLA collects, so that people can write library analytics programs, integrate library item information into other sites and apps, build recommendation and navigation systems, etc. We see this as an important way what libraries know can become fully a part of the Web ecosystem.
 

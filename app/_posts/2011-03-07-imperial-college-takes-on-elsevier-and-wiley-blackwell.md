@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-03-07 23:11:30+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/03/07/imperial-college-takes-on-elsevier-and-wiley-blackwell/
-slug: imperial-college-takes-on-elsevier-and-wiley-blackwell
 title: Imperial College takes on Elsevier and Wiley Blackwell
 wordpress_id: 567
 categories:
@@ -12,7 +8,7 @@ categories:
 - open access
 ---
 
-Felix Online, the online news of [Imperial College](http://www3.imperial.ac.uk/) in the UK, [reports](http://www.felixonline.co.uk/?article=808) (in an article by Kadhim Shubber) that Deborah Shorley, Director of the Imperial College London Library, is threatening to end the library's subscriptions to journals published by [Elsevier](http://www.Elsevier.com) and [Wiley Blackwell](http://www.wiley.com/WileyCDA/Brand/id-35.html), two of the major publishers in the UK. Upset with 6% increases in annual subscription fees (well above inflation, and in the face of a growth in profits at Elsevier  from £1B to £1.6B from 2005 to 2009), she is demanding a 15% reduction in fees, as well as other concessions. 
+Felix Online, the online news of [Imperial College](http://www3.imperial.ac.uk/) in the UK, [reports](http://www.felixonline.co.uk/?article=808) (in an article by Kadhim Shubber) that Deborah Shorley, Director of the Imperial College London Library, is threatening to end the library's subscriptions to journals published by [Elsevier](http://www.Elsevier.com) and [Wiley Blackwell](http://www.wiley.com/WileyCDA/Brand/id-35.html), two of the major publishers in the UK. Upset with 6% increases in annual subscription fees (well above inflation, and in the face of a growth in profits at Elsevier  from £1B to £1.6B from 2005 to 2009), she is demanding a 15% reduction in fees, as well as other concessions.
 
 
 

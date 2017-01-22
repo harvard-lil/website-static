@@ -1,17 +1,13 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2010-12-06 16:04:12+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/12/06/interesting-twitter/
-slug: interesting-twitter
-title: 'Interesting Twitter '
+title: 'Interesting Twitter'
 wordpress_id: 451
 ---
 
 This is an olde post, that I'm coming back to, and adding onto.  Two interesting uses of twitter:
 
-**1)  Twitter as Subject Stream **-- Over on techcrunch there's a [post](http://techcrunch.com/2010/11/09/why-is-quora-mass-creating-twitter-accounts-on-mechanical-turk/) about how [Quora](http://www.quora.com/) is using Mechanical Turk to automate the creation of twitter accounts.  Quora is a mass  Q & A website for anything.  You ask a question: "Where's the best  place to crowdsource an icon?", and you get a response, for example from user alton  sun :"[99designs.com....](http://99designs.com/)".
+**1)  Twitter as Subject Stream**-- Over on techcrunch there's a [post](http://techcrunch.com/2010/11/09/why-is-quora-mass-creating-twitter-accounts-on-mechanical-turk/) about how [Quora](http://www.quora.com/) is using Mechanical Turk to automate the creation of twitter accounts.  Quora is a mass  Q & A website for anything.  You ask a question: "Where's the best  place to crowdsource an icon?", and you get a response, for example from user alton  sun :"[99designs.com....](http://99designs.com/)".
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/11/Picture-202.png)](http://techcrunch.com/2010/11/09/why-is-quora-mass-creating-twitter-accounts-on-mechanical-turk/)
 

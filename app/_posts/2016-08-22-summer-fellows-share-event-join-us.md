@@ -1,6 +1,5 @@
 ---
 author: matt-phillips
-comments: false
 date: 2016-08-22 16:36:43+00:00
 slug: summer-fellows-share-event-join-us
 title: Summer Fellows Share, Join Us

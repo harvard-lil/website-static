@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-12-10 20:24:46+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/12/10/shelflife-and-librarycloud-on-cbc/
-slug: shelflife-and-librarycloud-on-cbc
 title: ShelfLife and LibraryCloud on CBC
 wordpress_id: 962
 categories:

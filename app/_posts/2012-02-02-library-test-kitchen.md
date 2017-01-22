@@ -1,10 +1,6 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2012-02-02 22:08:45+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/02/02/library-test-kitchen/
-slug: library-test-kitchen
 title: Library Test Kitchen
 wordpress_id: 1026
 ---

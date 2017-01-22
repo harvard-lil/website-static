@@ -1,10 +1,6 @@
 ---
-author: Kim
-comments: true
+author: kim-dulin
 date: 2010-11-05 17:17:55+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/11/05/google-books-getting-circulation-data-from-partner-libraries/
-slug: google-books-getting-circulation-data-from-partner-libraries
 title: Google Books Getting Circulation Data from Partner Libraries
 wordpress_id: 443
 ---

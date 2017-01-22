@@ -1,10 +1,6 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2011-04-21 14:20:15+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/04/21/encyclopaedia-britannica-films-1947/
-slug: encyclopaedia-britannica-films-1947
 title: Encyclopaedia Britannica Films, 1947
 wordpress_id: 596
 categories:
@@ -13,4 +9,4 @@ tags:
 - video
 ---
 
-
+<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/hBztGX-2i1M" frameborder="0" allowfullscreen></iframe></div>

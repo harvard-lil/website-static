@@ -779,6 +779,10 @@ a.gallery-item {
   }
 }
 
+.gallery-thirds .gallery-item {
+  width: 32%
+}
+
 // The people gallery on the about page has a very fancy gallery:
 // a gallery of circles at desktop size, but a lined list at smaller
 // screen sizes

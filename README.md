@@ -35,3 +35,5 @@ Periodically, you might want to run ```docker images``` to see if you have accum
 - ```<some command> test``` will run the tests (not yet implemented)
 - ```<some command> deploy:staging``` will deploy the production build to our staging server (not yet implemented)
 - ```<some command> deploy:production``` will deploy the production build to our production server (not yet implemented)
+
+We're considering using a makefile as a convenient method for capturing these commands. Feedback welcome!

@@ -1,9 +1,6 @@
 ---
-author: Ben
-comments: true
+author: ben-gaucherin
 date: 2009-11-10 16:32:17+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2009/11/10/hello-world-2/
 slug: hello-world-2
 title: Hello world!
 wordpress_id: 1062

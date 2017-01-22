@@ -1,10 +1,6 @@
 ---
-author: Dan Jones
-comments: true
+author: dan-jones
 date: 2011-06-22 21:18:27+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/06/22/library-labthe-podcast-003-the-digital-citation/
-slug: library-labthe-podcast-003-the-digital-citation
 title: 'Library Lab/The Podcast 003: The Digital Citation'
 wordpress_id: 706
 categories:
@@ -14,6 +10,7 @@ tags:
 ---
 
 [**Listen: 27:09**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-06-20_dancohen.mp3)
+
 [**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-06-20_dancohen.ogg)
 
 ![](http://farm5.static.flickr.com/4070/5133979718_9ba39f8b38.jpg)
@@ -28,7 +25,8 @@ Zotero allows researchers to do much more than harness the power of the web to s
 
 [**Dan Cohen**](http://www.dancohen.org/bio/) is the director of the Center for History and New Media and one of the minds behind the project. The Harvard Library Innovation Lab’s very own David Weinberger caught up with Dan for this week’s podcast to talk about Zotero, open syllabi, and other tools and ideas for enhancing and sharing research.
 
-===========
+___
+
 Subscribe to the RSS of the LibraryLab podcast [**here**](http://librarylab.law.harvard.edu/blog/category/podcast/) to stay updated on upcoming episodes!
 
 Subscribe to us in [**iTunesU**](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=457060447)

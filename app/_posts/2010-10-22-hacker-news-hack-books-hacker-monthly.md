@@ -1,10 +1,6 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2010-10-22 23:21:33+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/10/22/hacker-news-hack-books-hacker-monthly/
-slug: hacker-news-hack-books-hacker-monthly
 title: Hacker News, Hack Monthly, Hacker Books
 wordpress_id: 413
 ---
@@ -17,7 +13,8 @@ The news is start-up, tech, or internet related (or otherwise compelling).  Goo
 
 In practice, what HN is is a large group (thousands) of really smart people, that become your extended curators/editors of all things web.  They crawl all the corners of its corners and post what they think the community would find interesting.  The thing that really sets it apart though is the quality - this is a really smart crowd.  What gets voted up, is worthy.  The comments are very good too.
 
-[caption id="attachment_414" align="alignleft" width="300" caption="Simple, information rich presentation"][![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM-300x284.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM.png)[/caption]
+[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM-300x284.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM.png)
+Simple, information rich presentation
 
 **Hacker Monthly**
 
@@ -29,16 +26,16 @@ Don't know if it's a business or what, but it's kinda profound:
 
 
 
-	
+
   1. A compelling magazine
 
-	
+
   2. crowd-edited
 
-	
+
   3. printed on-demand
 
-	
+
   4. [designed](http://hackermonthly.posterous.com/on-designing-hacker-monthly), "edited", put together by 1 person, the hatcher of the idea
 
 

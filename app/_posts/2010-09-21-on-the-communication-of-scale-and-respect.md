@@ -1,10 +1,6 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2010-09-21 19:53:28+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/09/21/on-the-communication-of-scale-and-respect/
-slug: on-the-communication-of-scale-and-respect
 title: On the communication of scale. (And respect)
 wordpress_id: 366
 ---

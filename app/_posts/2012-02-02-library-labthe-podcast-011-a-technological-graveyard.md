@@ -1,10 +1,6 @@
 ---
-author: Dan Jones
-comments: true
+author: dan-jones
 date: 2012-02-02 21:03:19+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/02/02/library-labthe-podcast-011-a-technological-graveyard/
-slug: library-labthe-podcast-011-a-technological-graveyard
 title: 'Library Lab/The Podcast 011: A Technological Graveyard?'
 wordpress_id: 1022
 categories:
@@ -15,6 +11,7 @@ tags:
 ---
 
 [**Listen: 23:07**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2012-02-02_marilynjohnson.mp3)
+
 ([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2012-02-02_marilynjohnson.ogg))
 
 "Your average citizen is not technologically savvy," says Marilyn Johnson, the author of [_This Book Is Overdue!: How Librarians and Cybrarians Can Save Us All_](http://www.marilynjohnson.net/_i_this_book_is_overdue___i__89022.htm)
@@ -26,8 +23,9 @@ Even as technology takes over more and more of our lives many of us are living i
 Johnson argues that this is a huge opportunity for libraries to revive their place as centers of the community, for librarians to exist not just as oracles of the reference book, but as guides to the technical world.
 
 She spoke with David Weinberger about exactly how this might happen.
-===========
-Subscribe to the RSS of the LibraryLab podcast [**here**](http://librarylab.law.harvard.edu/blog/category/podcast/) to stay updated on upcoming episodes!
 
+___
+
+Subscribe to the RSS of the LibraryLab podcast [**here**](http://librarylab.law.harvard.edu/blog/category/podcast/) to stay updated on upcoming episodes!
 
 Subscribe to us in **[iTunesU](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=457060447)**

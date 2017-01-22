@@ -1,10 +1,6 @@
 ---
 author: annie-cain
-comments: true
 date: 2012-07-16 20:20:29+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/07/16/the-setup-annie-cain/
-slug: the-setup-annie-cain
 title: The Setup – Annie Cain
 wordpress_id: 1286
 ---

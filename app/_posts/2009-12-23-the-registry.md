@@ -1,11 +1,7 @@
 ---
-author: Jeff
-comments: true
-date: 2009-12-23 21:54:35+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2009/12/23/the-registry/
 published: false
-slug: the-registry
+author: jeff-goldenson
+date: 2009-12-23 21:54:35+00:00
 title: The Registry
 wordpress_id: 138
 ---

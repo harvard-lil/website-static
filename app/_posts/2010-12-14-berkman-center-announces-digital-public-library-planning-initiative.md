@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
-date: 2010-12-14 01:48:25+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/12/13/berkman-center-announces-digital-public-library-planning-initiative/
-slug: berkman-center-announces-digital-public-library-planning-initiative
+author: david-weinberger
+date: 2010-12-13 01:48:25+00:00
 title: Berkman Center Announces Digital Public Library Planning Initiative
 wordpress_id: 475
 categories:

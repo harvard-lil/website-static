@@ -1,8 +1,6 @@
 ---
 author: jack-cushman
-comments: false
 date: 2016-04-12 23:33:42+00:00
-slug: lil-at-iipc-noticing-reykjavik
 title: 'LIL at IIPC: Noticing Reykjavik'
 wordpress_id: 2234
 ---

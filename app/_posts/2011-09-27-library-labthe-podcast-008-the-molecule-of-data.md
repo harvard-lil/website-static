@@ -1,10 +1,6 @@
 ---
-author: Dan Jones
-comments: true
+author: dan-jones
 date: 2011-09-27 17:48:11+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/09/27/library-labthe-podcast-008-the-molecule-of-data/
-slug: library-labthe-podcast-008-the-molecule-of-data
 title: 'Library Lab/The Podcast 008: The Molecule of Data'
 wordpress_id: 802
 categories:
@@ -14,11 +10,10 @@ tags:
 ---
 
 [**Listen: 20:46**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-09-27_karencoyle.mp3)
+
 ([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-09-27_karencoyle.ogg))
 
-
 ![](http://farm5.static.flickr.com/4019/4585779619_85ce3dd180_b.jpg)
-
 
 How can libraries use the power of metadata — those little molecules of information that help describe the greater work — to help users get more out of their search for resources?
 
@@ -28,7 +23,8 @@ How can libraries use the power of metadata — those little molecules of inform
 
 [**Karen Coyle**](http://kcoyle.net/) — herself a librarian — has spent decades helping to build an understanding of the incredible new powers unleashed by the digitization of libraries. She spoke with David Weinberger for this week's LibraryLab/ThePodcast.
 
-===========
+---
+
 Subscribe to the RSS of the LibraryLab podcast [**here**](http://librarylab.law.harvard.edu/blog/category/podcast/) to stay updated on upcoming episodes!
 
 

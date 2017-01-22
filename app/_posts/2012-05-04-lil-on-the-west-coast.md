@@ -1,10 +1,6 @@
 ---
 author: matt-phillips
-comments: true
 date: 2012-05-04 20:06:38+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/05/04/lil-on-the-west-coast/
-slug: lil-on-the-west-coast
 title: LIL on the West Coast
 wordpress_id: 1067
 categories:

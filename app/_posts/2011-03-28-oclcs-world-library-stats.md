@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-03-28 05:28:20+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/03/28/oclcs-world-library-stats/
-slug: oclcs-world-library-stats
 title: OCLC's world library stats
 wordpress_id: 580
 categories:

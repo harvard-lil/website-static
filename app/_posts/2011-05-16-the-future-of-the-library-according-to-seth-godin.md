@@ -1,10 +1,6 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2011-05-16 15:45:57+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/05/16/the-future-of-the-library-according-to-seth-godin/
-slug: the-future-of-the-library-according-to-seth-godin
 title: The Future of the Library, According to Seth Godin
 wordpress_id: 628
 ---

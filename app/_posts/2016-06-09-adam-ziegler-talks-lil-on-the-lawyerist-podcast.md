@@ -1,6 +1,5 @@
 ---
 author: brett-johnson
-comments: false
 date: 2016-06-09 16:40:23+00:00
 slug: adam-ziegler-talks-lil-on-the-lawyerist-podcast
 title: Adam talks LIL on the Lawyerist Podcast

@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-02-01 19:48:10+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/02/01/list-of-library-projects/
-slug: list-of-library-projects
 title: List of library projects
 wordpress_id: 535
 categories:

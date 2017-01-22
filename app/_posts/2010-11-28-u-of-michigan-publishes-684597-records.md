@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2010-11-28 15:58:55+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/11/28/u-of-michigan-publishes-684597-records/
-slug: u-of-michigan-publishes-684597-records
 title: U of Michigan publishes 684,597 records
 wordpress_id: 461
 categories:

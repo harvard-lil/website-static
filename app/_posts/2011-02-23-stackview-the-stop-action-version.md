@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-02-23 18:24:39+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/02/23/stackview-the-stop-action-version/
-slug: stackview-the-stop-action-version
 title: 'StackView: The Stop-Action Version'
 wordpress_id: 556
 categories:
@@ -13,6 +9,6 @@ categories:
 - StackView
 ---
 
-
+<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/cFnuP9niRUg" frameborder="0" allowfullscreen></iframe></div>
 
 (via Cory Doctorow at [BoingBoing](http://www.boingboing.net/2011/02/23/books-marching-aroun.html))

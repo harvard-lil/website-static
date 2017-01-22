@@ -1,6 +1,5 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-04-08 15:41:40+00:00
 layout: post
 link: http://librarylab.law.harvard.edu/blog/2011/04/08/how-to-guide-for-going-open-access/

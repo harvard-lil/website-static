@@ -1,8 +1,6 @@
 ---
 author: jack-cushman
-comments: false
 date: 2016-04-13 23:10:43+00:00
-slug: lil-at-iipc-the-story-so-far
 title: 'LIL at IIPC: The Story So Far'
 wordpress_id: 2257
 ---

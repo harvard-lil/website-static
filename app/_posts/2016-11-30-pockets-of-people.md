@@ -1,6 +1,5 @@
 ---
 author: matt-phillips
-comments: false
 date: 2016-11-30 21:23:26+00:00
 title: pockets of people
 wordpress_id: 2589

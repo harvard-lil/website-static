@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2012-02-13 15:33:26+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/02/13/bibsoup-beta/
-slug: bibsoup-beta
 title: BibSoup Beta!
 wordpress_id: 1057
 categories:

@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-05-26 23:13:03+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/05/26/a-declaration-of-metadata-openness/
-slug: a-declaration-of-metadata-openness
 title: A declaration of metadata openness
 wordpress_id: 651
 categories:
@@ -23,4 +19,4 @@ tags:
 
 
 
-It's a hard list to disagree with...especially if your team has been working on LibraryCloud as an open metadata server. 
+It's a hard list to disagree with...especially if your team has been working on LibraryCloud as an open metadata server.

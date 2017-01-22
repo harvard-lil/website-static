@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2010-10-27 20:49:29+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/10/27/dave-pattern-prestidigitator-of-metadata/
-slug: dave-pattern-prestidigitator-of-metadata
 title: 'Dave Pattern: Prestidigitator of metadata'
 wordpress_id: 441
 categories:

@@ -1,10 +1,6 @@
 ---
-author: Ben
-comments: true
+author: ben-gaucherin
 date: 2009-12-02 18:43:03+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2009/12/02/playing-with-mind-maps/
-slug: playing-with-mind-maps
 title: Playing with Mind Maps
 wordpress_id: 102
 categories:

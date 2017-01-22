@@ -1,16 +1,13 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2012-09-04 21:34:20+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/09/04/library-test-kitchen-fall-2012/
-slug: library-test-kitchen-fall-2012
 title: Library Test Kitchen, Fall 2012
 wordpress_id: 1397
 ---
 
 We had our first meeting of [GSD](http://www.gsd.harvard.edu/) Seminar 09125, Library Test Kitchen.
 
+<div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/48328285" frameborder="0" allowfullscreen></iframe></div>
 
 
 Video by Ben Brady

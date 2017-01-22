@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2010-12-31 16:54:25+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/12/31/happy-new-year-libraries/
-slug: happy-new-year-libraries
 title: Happy new year, libraries!
 wordpress_id: 477
 categories:

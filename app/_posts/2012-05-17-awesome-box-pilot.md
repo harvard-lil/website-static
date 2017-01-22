@@ -1,10 +1,6 @@
 ---
 author: annie-cain
-comments: true
 date: 2012-05-17 15:35:52+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/05/17/awesome-box-pilot/
-slug: awesome-box-pilot
 title: Awesome Box Pilot
 wordpress_id: 1099
 categories:
@@ -12,7 +8,6 @@ categories:
 ---
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/05/IMG_0176-300x225.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/05/IMG_0176.jpg)
-
 
 
 **UPDATE:** Awesome Box is now well beyond the pilot phase. Visit [awesomebox.io](http://awesomebox.io) to learn how to get one at your library.
@@ -24,9 +19,6 @@ Check out what's been Awesomed already at [http://librarylab.law.harvard.edu/awe
 This pilot phase is intended to help figure out how to make the boxes user friendly & intuitive and also how best to integrate the Awesome Box into library staff workflow. Getting the signage right is key to the first goal. It's been a challenge to perfect the balance between simple and informative.
 
 We want users to understand the following without using too much text.
-
-
-
 
   * What constitutes Awesome (helpful, mind-blowing, etc.)
 

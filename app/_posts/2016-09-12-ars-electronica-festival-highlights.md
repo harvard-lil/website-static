@@ -1,6 +1,5 @@
 ---
 author: matt-phillips
-comments: false
 date: 2016-09-12 00:00:23+00:00
 title: Ars Electronica Festival Highlights
 wordpress_id: 2412

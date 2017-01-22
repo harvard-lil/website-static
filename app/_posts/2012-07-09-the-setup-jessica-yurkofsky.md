@@ -1,10 +1,6 @@
 ---
-author: Jessica
-comments: true
+author: jessica-yurkofsky
 date: 2012-07-09 18:48:28+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/07/09/the-setup-jessica-yurkofsky/
-slug: the-setup-jessica-yurkofsky
 title: The Setup - Jessica Yurkofsky
 wordpress_id: 1269
 ---

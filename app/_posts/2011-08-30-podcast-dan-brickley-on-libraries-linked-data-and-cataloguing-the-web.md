@@ -1,6 +1,5 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-08-30 19:40:22+00:00
 layout: post
 link: http://librarylab.law.harvard.edu/blog/2011/08/30/podcast-dan-brickley-on-libraries-linked-data-and-cataloguing-the-web/

@@ -1,10 +1,6 @@
 ---
-author: Michael
-comments: true
+author: michael-jimenez
 date: 2010-10-26 18:27:30+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/10/26/to-app-or-not-to-app/
-slug: to-app-or-not-to-app
 title: To app or not to app
 wordpress_id: 427
 categories:
@@ -20,6 +16,9 @@ Apps are not here. I wonder what we're missing? Are apps a dead-end? of limited 
 Notes:
 
 [Android Market tops 100,000 applications](http://news.cnet.com/8301-30684_3-20020616-265.html), CNET, October 25, 2010.
+
 [App Makers Take Interest in Android](http://www.nytimes.com/2010/10/25/technology/25android.html), NY Times, October 24, 2010.
+
 [Apple Gives Sneak Peek of Mac OS X Lion](http://www.apple.com/macosx/lion/), Apple.com, October 20, 2010.
+
 [Blurring the Line Between Apps and Books](http://www.nytimes.com/2010/10/25/business/media/25link.html), NY Times, October 24, 2010.

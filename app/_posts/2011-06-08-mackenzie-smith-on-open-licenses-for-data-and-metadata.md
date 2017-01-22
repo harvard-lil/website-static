@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-06-08 17:04:46+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/06/08/mackenzie-smith-on-open-licenses-for-data-and-metadata/
-slug: mackenzie-smith-on-open-licenses-for-data-and-metadata
 title: MacKenzie Smith on open licenses for data and metadata
 wordpress_id: 689
 categories:
@@ -22,7 +18,7 @@ tags:
 
 MacKenzie Smith of MIT and Creative Commons talks about the new 4-star rating system for open licenses for metadata from cultural institutions:
 
-
+<div class="embed-container"><iframe width="320" height="240" src="<iframe width="460" height="295" src="https://www.youtube.com/embed/swQYX4oqfB4" frameborder="0" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe></div>
 
 The [draft is up on the LOD-LAM site](http://tinurl.com/4starlicense2).
 

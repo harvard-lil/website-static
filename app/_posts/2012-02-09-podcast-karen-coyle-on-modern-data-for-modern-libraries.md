@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2012-02-09 20:55:27+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/02/09/podcast-karen-coyle-on-modern-data-for-modern-libraries/
-slug: podcast-karen-coyle-on-modern-data-for-modern-libraries
 title: '[podcast] Karen Coyle on modern data for modern libraries'
 wordpress_id: 1040
 categories:

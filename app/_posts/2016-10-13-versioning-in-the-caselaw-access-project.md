@@ -1,8 +1,6 @@
 ---
 author: andy-silva
-comments: false
 date: 2016-10-13 22:33:09+00:00
-layout: post
 title: Versioning in the Caselaw Access Project
 wordpress_id: 2464
 categories:

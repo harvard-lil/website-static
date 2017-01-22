@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-10-26 20:48:40+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/10/26/royal-society-goes-open-access/
-slug: royal-society-goes-open-access
 title: Royal Society goes open access
 wordpress_id: 912
 categories:

@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2010-08-23 18:57:48+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/08/23/frr-with-a-scottish-burr-macbeth-frbrized/
-slug: frr-with-a-scottish-burr-macbeth-frbrized
 title: Frr with a Scottish Burr - MacBeth frbrized
 wordpress_id: 337
 categories:

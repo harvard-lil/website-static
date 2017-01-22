@@ -1,11 +1,7 @@
 ---
 guest-author: Adi Kamdar
-comments: false
 date: 2016-04-04 18:29:06+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2016/04/04/how-were-freeing-the-law-part-1-books/
-slug: how-were-freeing-the-law-part-1-books
-title: 'How We''re Freeing the Law, Part 1: Books'
+title: "How We're Freeing the Law, Part 1: Books"
 wordpress_id: 2194
 categories:
 - Free the Law

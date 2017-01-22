@@ -1,10 +1,6 @@
 ---
 author: annie-cain
-comments: true
 date: 2015-08-30 17:41:36+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2015/08/30/link-roundup-august-30-2015/
-slug: link-roundup-august-30-2015
 title: Link roundup August 30, 2015
 wordpress_id: 2122
 categories:
@@ -13,42 +9,42 @@ categories:
 
 This is the good stuff.
 
-[Rethinking Work](http://www.nytimes.com/2015/08/30/opinion/sunday/rethinking-work.html?_r=0)
+{% include roundup-item.html
+  link="http://www.nytimes.com/2015/08/30/opinion/sunday/rethinking-work.html?_r=0"
+  title="Rethinking Work"
+  screenshot="http://librarylab.law.harvard.edu/roundup/images/55e3405049a7f.png"
+  text="When employees negotiate, they negotiate for improved compensation, since nothing else is on the table."
+  by="Matt Phillips"
+%}
 
-[![](http://librarylab.law.harvard.edu/roundup/images/55e3405049a7f.png)](http://www.nytimes.com/2015/08/30/opinion/sunday/rethinking-work.html?_r=0)
+{% include roundup-item.html
+  link="http://www.technologyreview.com/review/539861/techs-enduring-great-man-myth/"
+  title="Putting Elon Musk and Steve Jobs on a Pedestal Misrepresents How Innovation Happens"
+  screenshot="http://librarylab.law.harvard.edu/roundup/images/55da87440f480.png"
+  text="Rather than placing tech leaders on a pedestal, we should put their successes"
+  by="Matt Phillips"
+%}
 
-When employees negotiate, they negotiate for improved compensation, since nothing else is on the table.
+{% include roundup-item.html
+  link="http://haikusalut.com/lamp-show/"
+  title="Lamp Shows | HAIKU SALUT"
+  screenshot="http://librarylab.law.harvard.edu/roundup/images/55d721f8e6eb0.png"
+  text="Synced lamps as part of a band's performance"
+  by="Annie"
+%}
 
-Matt Phillips
+{% include roundup-item.html
+  link="http://99percentinvisible.org/episode/lawn-order/"
+  title="Lawn Order | 99% Invisible"
+  screenshot="http://librarylab.law.harvard.edu/roundup/images/55d71915418d6.png"
+  text="Jail time for a brown lawn? A wonderfully weird dive into the moral implications of lawncare"
+  by="Adam Ziegler"
+%}
 
-[Putting Elon Musk and Steve Jobs on a Pedestal Misrepresents How Innovation Happens](http://www.technologyreview.com/review/539861/techs-enduring-great-man-myth/)
-
-[![](http://librarylab.law.harvard.edu/roundup/images/55da87440f480.png)](http://www.technologyreview.com/review/539861/techs-enduring-great-man-myth/)
-
-"Rather than placing tech leaders on a pedestal, we should put their successes"
-
-Matt Phillips
-
-[Lamp Shows | HAIKU SALUT](http://haikusalut.com/lamp-show/)
-
-[![](http://librarylab.law.harvard.edu/roundup/images/55d721f8e6eb0.png)](http://haikusalut.com/lamp-show/)
-
-Synced lamps as part of a band's performance
-
-Annie
-
-[Lawn Order | 99% Invisible](http://99percentinvisible.org/episode/lawn-order/)
-
-[![](http://librarylab.law.harvard.edu/roundup/images/55d71915418d6.png)](http://99percentinvisible.org/episode/lawn-order/)
-
-Jail time for a brown lawn? A wonderfully weird dive into the moral implications of lawncare
-
-Adam
-
-[Sky-high glass swimming pool created to connect south London apartment complex](http://www.itsnicethat.com/news/glass-swimming-pool-hal-architects)
-
-[![](http://librarylab.law.harvard.edu/roundup/images/55d5fa269b021.png)](http://www.itsnicethat.com/news/glass-swimming-pool-hal-architects)
-
-Swim through the air
-
-Matt Phillips
+{% include roundup-item.html
+  link="http://www.itsnicethat.com/news/glass-swimming-pool-hal-architects"
+  title="Sky-high glass swimming pool created to connect south London apartment complex"
+  screenshot="http://librarylab.law.harvard.edu/roundup/images/55d5fa269b021.png"
+  text="Swim through the air"
+  by="Matt Phillips"
+%}

@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-01-03 21:55:57+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/01/03/semantic-confetti/
-slug: semantic-confetti
 title: Semantic Confetti
 wordpress_id: 481
 categories:

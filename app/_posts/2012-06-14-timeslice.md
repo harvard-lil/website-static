@@ -1,10 +1,6 @@
 ---
-author: Jessica
-comments: true
+author: jessica-yurkofsky
 date: 2012-06-14 18:03:23+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/06/14/timeslice/
-slug: timeslice
 title: Time/Slice!
 wordpress_id: 1192
 ---
@@ -19,6 +15,7 @@ I started the project in the [Library Test Kitchen](http://librarytestkitchen.o
 
 There were a couple of problems with it that I'm working on fixing now: speed, storing images, navigability, and a whole lot of bugs. There are also issues around how much volume it can be expected to handle, and it needs to have an easy interface for whoever's in charge to edit content.
 
-[caption id="attachment_1194" align="alignnone" width="300" caption="current version as of this morning. not too pretty yet, eh?"][![current version screenshot](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/Screen-shot-2012-06-14-at-12.46.35-PM-300x220.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/Screen-shot-2012-06-14-at-12.46.35-PM.jpg)[/caption]
+[![current version screenshot](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/Screen-shot-2012-06-14-at-12.46.35-PM-300x220.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/Screen-shot-2012-06-14-at-12.46.35-PM.jpg)
+current version as of this morning. not too pretty yet, eh?
 
 I'll post a link to what I'm working on now when it's a little more stable.

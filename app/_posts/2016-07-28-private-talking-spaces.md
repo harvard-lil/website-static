@@ -1,6 +1,5 @@
 ---
 author: matt-phillips
-comments: false
 date: 2016-07-28 14:56:25+00:00
 title: private talking spaces
 wordpress_id: 2359

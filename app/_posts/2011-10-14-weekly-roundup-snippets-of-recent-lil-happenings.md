@@ -1,10 +1,6 @@
 ---
 author: matt-phillips
-comments: true
 date: 2011-10-14 21:24:27+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/10/14/weekly-roundup-snippets-of-recent-lil-happenings/
-slug: weekly-roundup-snippets-of-recent-lil-happenings
 title: 'Weekly Roundup: recent LIL happenings'
 wordpress_id: 822
 categories:
@@ -76,6 +72,6 @@ I was very pleased that Dan Brickley this week [blogged](http://danbri.org/words
 
 No need for silly text, checkout this video, part of a pitch to the [Harvard Library Lab](http://osc.hul.harvard.edu/liblab) fund:
 
-
+<div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/29977114" frameborder="0" allowfullscreen></iframe></div>
 
 [Living Library](http://vimeo.com/29977114) from [Harvard Library Innovation Lab](http://vimeo.com/user7144664) on [Vimeo](http://vimeo.com).

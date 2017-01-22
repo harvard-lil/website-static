@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-12-13 21:01:11+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/12/13/podcast-alison-head-on-what-students-do-in-libraries/
-slug: podcast-alison-head-on-what-students-do-in-libraries
 title: '[podcast] Alison Head on what students do in libraries'
 wordpress_id: 964
 categories:

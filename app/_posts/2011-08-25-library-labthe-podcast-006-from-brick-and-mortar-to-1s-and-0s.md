@@ -1,10 +1,6 @@
 ---
-author: Dan Jones
-comments: true
-date: 2011-08-25 02:26:28+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/08/24/library-labthe-podcast-006-from-brick-and-mortar-to-1s-and-0s/
-slug: library-labthe-podcast-006-from-brick-and-mortar-to-1s-and-0s
+author: dan-jones
+date: 2011-08-24 02:26:28+00:00
 title: 'Library Lab/The Podcast 006: From Brick and Mortar to 1s and 0s'
 wordpress_id: 782
 categories:
@@ -14,15 +10,12 @@ tags:
 ---
 
 [**Listen: 19:16**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-08-23_susan.mp3)
+
 ([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-08-23_susan.ogg))
 
 Some might assume that libraries and museums have outlived their purpose. When every book and archive can be recreated and reinterpreted digitally to create an incredible user experience, how is the physical and human infrastructure of the institution still necessary?
 
-
-
 ![](http://farm4.static.flickr.com/3593/4603316902_76443bea98_b.jpg)
-
-
 
 It's a challenging question, but libraries and museums aren't finding themselves replaced by the internet, as the cynical might assume. In fact, their roles as curators and archivists are becoming more important than ever.
 
@@ -30,7 +23,8 @@ It's a challenging question, but libraries and museums aren't finding themselves
 
 Susan recently got on the phone with Harvard Library Innovation Lab’s very own David Weinberger to talk about the role these brick and mortar institutions play in the digital age.
 
-===========
+---
+
 Subscribe to the RSS of the LibraryLab podcast [**here**](http://librarylab.law.harvard.edu/blog/category/podcast/) to stay updated on upcoming episodes!
 
 Subscribe to us in [**iTunesU**](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=457060447)

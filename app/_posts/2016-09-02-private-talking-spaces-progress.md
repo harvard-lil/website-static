@@ -1,6 +1,5 @@
 ---
 author: matt-phillips
-comments: false
 date: 2016-09-02 22:23:29+00:00
 title: Private Talking Spaces Progress
 wordpress_id: 2394

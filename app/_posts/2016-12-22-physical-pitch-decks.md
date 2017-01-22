@@ -1,6 +1,5 @@
 ---
 author: matt-phillips
-comments: false
 date: 2016-12-22 16:00:43+00:00
 title: Physical Pitch Decks
 wordpress_id: 2595

@@ -1,10 +1,6 @@
 ---
 author: annie-cain
-comments: false
 date: 2015-11-16 18:03:58+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2015/11/16/link-roundup-november-16-2015/
-slug: link-roundup-november-16-2015
 title: Link roundup November 16, 2015
 wordpress_id: 2167
 categories:

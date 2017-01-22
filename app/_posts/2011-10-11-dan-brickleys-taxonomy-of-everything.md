@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-10-11 22:06:57+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/10/11/dan-brickleys-taxonomy-of-everything/
-slug: dan-brickleys-taxonomy-of-everything
 title: Dan Brickley's Taxonomy of Everything
 wordpress_id: 819
 categories:

@@ -1,10 +1,6 @@
 ---
-author: Jeff
-comments: true
-date: 2010-10-05 02:49:49+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/10/04/the-words-library-and-evil-in-the-same-sentence/
-slug: the-words-library-and-evil-in-the-same-sentence
+author: jeff-goldenson
+date: 2010-10-04 02:49:49+00:00
 title: The words library and evil in the same sentence.
 wordpress_id: 394
 ---

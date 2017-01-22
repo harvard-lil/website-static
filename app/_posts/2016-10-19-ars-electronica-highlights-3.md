@@ -1,6 +1,5 @@
 ---
 author: matt-phillips
-comments: false
 date: 2016-10-19 14:59:13+00:00
 title: Ars Electronica Highlights 3
 wordpress_id: 2541

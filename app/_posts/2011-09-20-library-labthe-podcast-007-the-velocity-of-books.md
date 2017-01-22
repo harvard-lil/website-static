@@ -1,10 +1,6 @@
 ---
-author: Dan Jones
-comments: true
+author: dan-jones
 date: 2011-09-20 14:28:46+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/09/20/library-labthe-podcast-007-the-velocity-of-books/
-slug: library-labthe-podcast-007-the-velocity-of-books
 title: 'Library Lab/The Podcast 007: The Velocity of Books'
 wordpress_id: 796
 categories:
@@ -14,6 +10,7 @@ tags:
 ---
 
 [**Listen: 22:28**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-09-20_timspalding.mp3)
+
 ([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-09-20_timspalding.ogg))
 
 With the web, people are reading more than ever before you could say. But what are we reading? Likely it's all short form: blog posts, tweets, status updates. They're words, but it's not exactly _literature_.
@@ -31,8 +28,8 @@ David Weinberger spoke with LibraryThing founder Tim Spalding about what librari
 
 ![](http://www.librarything.com/press/tim_2_grande.jpg)
 
+---
 
-===========
 Subscribe to the RSS of the LibraryLab podcast [**here**](http://librarylab.law.harvard.edu/blog/category/podcast/) to stay updated on upcoming episodes!
 
 

@@ -1,9 +1,6 @@
 ---
-author: Dan Jones
-comments: true
+author: dan-jones
 date: 2011-05-11 18:23:56+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/05/11/concrete-digital/
 slug: concrete-digital
 title: 'Library Lab/The Podcast 001: Concrete Digital'
 wordpress_id: 606
@@ -14,8 +11,8 @@ tags:
 ---
 
 [**Listen: 23:59**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-05_james.mp3)
-[**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-05_james.ogg)
 
+[**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-05_james.ogg)
 
 There's a lot of talk about what the future of publishing looks like. Designers and innovators draw up these artistic visualizations of tablets, touchscreens, and interactive multimedia literature mashups to illustrate the possibilities.
 

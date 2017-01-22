@@ -1,6 +1,5 @@
 ---
 author: paul-deschner
-comments: false
 date: 2016-11-04 14:39:23+00:00
 title: Nuremberg Tribunals Project Launches New Website
 wordpress_id: 2561

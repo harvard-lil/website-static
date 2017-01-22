@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
-date: 2010-12-12 00:56:22+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/12/11/at-least-theyre-warning-us/
-slug: at-least-theyre-warning-us
+author: david-weinberger
+date: 2010-12-11 00:56:22+00:00
 title: At least they're warning us
 wordpress_id: 472
 categories:

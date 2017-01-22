@@ -1,10 +1,6 @@
 ---
-author: Dan Jones
-comments: true
+author: dan-jones
 date: 2011-06-02 15:11:56+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/06/02/library-labthe-podcast-002-free-knowledge/
-slug: library-labthe-podcast-002-free-knowledge
 title: 'Library Lab/The Podcast 002: Free Knowledge'
 wordpress_id: 660
 categories:
@@ -14,6 +10,7 @@ tags:
 ---
 
 [**Listen: 23:59**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-28_suber.mp3)
+
 [**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-28_suber.ogg)
 
 Scholarly journals were once enormously expensive. Because they were pricey to produce — it took a lot of money to coordinate the peer review, and to edit, print, bind, and distribute all those volumes — access was pricey as well.

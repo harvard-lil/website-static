@@ -1,6 +1,5 @@
 ---
 author: matt-phillips
-comments: false
 date: 2016-06-10 16:04:30+00:00
 title: Announcing Summer Fellows
 wordpress_id: 2337

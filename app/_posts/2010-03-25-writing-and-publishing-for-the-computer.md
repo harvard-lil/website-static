@@ -1,10 +1,6 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2010-03-25 17:45:41+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/03/25/writing-and-publishing-for-the-computer/
-slug: writing-and-publishing-for-the-computer
 title: Writing, and publishing, for the computer
 wordpress_id: 289
 ---

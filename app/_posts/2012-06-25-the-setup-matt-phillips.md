@@ -1,10 +1,6 @@
 ---
 author: matt-phillips
-comments: true
 date: 2012-06-25 02:56:53+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/06/25/the-setup-matt-phillips/
-slug: the-setup-matt-phillips
 title: The Setup - Matt Phillips
 wordpress_id: 1215
 categories:

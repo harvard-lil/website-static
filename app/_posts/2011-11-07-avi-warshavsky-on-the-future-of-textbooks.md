@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-11-07 17:37:06+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/11/07/avi-warshavsky-on-the-future-of-textbooks/
-slug: avi-warshavsky-on-the-future-of-textbooks
 title: Avi Warshavsky on the future of textbooks
 wordpress_id: 949
 categories:
@@ -19,4 +15,4 @@ tags:
 
 Avi Warshavsky builds online textbooks for Center for Educational Technology in Israel. He talks about whether textbooks have a future.
 
-
+<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/C8W64wZY_x8" frameborder="0" allowfullscreen></iframe></div>

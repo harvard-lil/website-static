@@ -1,6 +1,5 @@
 ---
 author: jack-cushman
-comments: false
 date: 2015-12-09 15:58:15+00:00
 title: Free the Law Wintersession Sprint
 wordpress_id: 2171

@@ -1,10 +1,6 @@
 ---
-author: David Weinberger
-comments: true
+author: david-weinberger
 date: 2011-06-20 16:11:37+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2011/06/20/were-in-the-digital-public-library-of-america-beta-sprint/
-slug: were-in-the-digital-public-library-of-america-beta-sprint
 title: We're in the Digital Public Library of America beta sprint!
 wordpress_id: 702
 categories:

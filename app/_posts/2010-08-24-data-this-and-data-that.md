@@ -1,10 +1,6 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2010-08-24 21:37:05+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/08/24/data-this-and-data-that/
-slug: data-this-and-data-that
 title: Data this and Data That
 wordpress_id: 339
 ---

@@ -443,6 +443,12 @@ harvard-library-lab:
   website: http://osc.hul.harvard.edu/liblab/
   affiliated: false
 
+ben-gaucherin:
+  name: Ben Gaucherin
+  sort_name: Gaucherin
+  website: https://bengaucherin.wordpress.com
+  affiliated: false
+
 alison-head:
   name: Alison Head
   sort_name: Head
@@ -455,6 +461,17 @@ sha-hwang:
   sort_name: Hwang
   website: http://postarchitectural.com/
   twitter_account_name: shashashasha
+  affiliated: false
+
+michael-jimenez:
+  name: Michael Jimenez
+  sort_name: Jimenez
+  affiliated: false
+
+dan-jones:
+  name: Dan Jones
+  sort_name: Jones
+  role: Digital Media Producer, Berkman Klein Center for Internet & Society
   affiliated: false
 
 ilya-kreymer:

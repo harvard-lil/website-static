@@ -1,17 +1,13 @@
 ---
-author: Jeff
-comments: true
+author: jeff-goldenson
 date: 2010-09-22 23:22:11+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2010/09/22/the-future-of-the-book-but-what-about-libraries/
-slug: the-future-of-the-book-but-what-about-libraries
 title: The Future of the Book -> but what about libraries?
 wordpress_id: 387
 ---
 
 So "Future of the Book" was just put out by [IDEO](http://www.ideo.com).
 
-
+<div class="embed-container"><iframe src="https://player.vimeo.com/video/15142335" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 [The Future of the Book.](http://vimeo.com/15142335) from [IDEO](http://vimeo.com/ideo) on [Vimeo](http://vimeo.com).
 

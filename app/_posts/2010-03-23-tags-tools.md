@@ -1,6 +1,5 @@
 ---
 author: Craig
-comments: true
 date: 2010-03-23 16:20:00+00:00
 layout: post
 link: http://librarylab.law.harvard.edu/blog/2010/03/23/tags-tools/

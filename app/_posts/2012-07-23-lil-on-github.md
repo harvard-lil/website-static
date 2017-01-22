@@ -1,10 +1,6 @@
 ---
 author: matt-phillips
-comments: true
 date: 2012-07-23 21:03:02+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2012/07/23/lil-on-github/
-slug: lil-on-github
 title: LIL on github
 wordpress_id: 1313
 ---

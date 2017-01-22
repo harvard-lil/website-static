@@ -1,10 +1,6 @@
 ---
 author: annie-cain
-comments: true
 date: 2013-02-12 17:36:04+00:00
-layout: post
-link: http://librarylab.law.harvard.edu/blog/2013/02/12/awesome-boxes-at-somerville-public-library/
-slug: awesome-boxes-at-somerville-public-library
 title: Awesome Boxes at Somerville Public Library
 wordpress_id: 1519
 ---
