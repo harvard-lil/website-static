@@ -63,7 +63,6 @@ who_contributed:
   - kerri-fleming
   - andy-silva
   - ben-steinberg
-  - andy-silva
   - adam-ziegler
   - jonathan-zittrain
   - caroline-walters
