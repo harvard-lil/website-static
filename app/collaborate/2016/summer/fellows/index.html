@@ -20,7 +20,7 @@ layout: simple-page
         <h2>{{ person_record.name }}</h2>
         {{ fellow.logline | strip | markdownify }}
         {% if fellow.blog_post %}
-          <a href="fellow.blog_post" class="small-btn" role="button">{{fellow.blog_post_label}}</a>
+          <a href="{{ fellow.blog_post }}" class="small-btn" role="button">{{fellow.blog_post_label}}</a>
         {% endif %}
       </div>
     </div>
