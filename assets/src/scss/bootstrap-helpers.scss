@@ -344,3 +344,83 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
+
+//
+// Alerts
+// --------------------------------------------------
+
+
+// Base styles
+// -------------------------
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  // Headings for larger alerts
+  h4 {
+    margin-top: 0;
+    // Specified for the h4 to prevent conflicts of changing $headings-color
+    color: inherit;
+  }
+
+  // Provide class for links that match alerts
+  .alert-link {
+    font-weight: bold;
+  }
+
+  // Improve alignment and spacing of inner content
+  > p,
+  > ul {
+    margin-bottom: 0;
+  }
+
+  > p + p {
+    margin-top: 5px;
+  }
+}
+
+
+@mixin alert-variant($background, $border, $text-color) {
+  background-color: $background;
+  border-color: $border;
+  color: $text-color;
+
+  hr {
+    border-top-color: darken($border, 5%);
+  }
+  .alert-link {
+    color: darken($text-color, 10%);
+  }
+}
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the alert.
+
+// Not including these now, we don't need them, and we haven't picked colors
+// corresponding to those variables. But if, at a later date, you decide we need them,
+// check out the bootstrap 3 Sass port, and include.adapt as desired.
+//
+// .alert-success {
+//   @include alert-variant($alert-success-bg, $alert-success-border, $alert-success-text);
+// }
+
+// .alert-info {
+//   @include alert-variant($alert-info-bg, $alert-info-border, $alert-info-text);
+// }
+
+// .alert-warning {
+//   @include alert-variant($alert-warning-bg, $alert-warning-border, $alert-warning-text);
+// }
+
+// .alert-danger {
+//   @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
+// }
+
+// see $color-brightyellow, $color-yellow in main
+.alert-custom {
+  @include alert-variant(#FFCF04, #F8CC1C, black);
+}
