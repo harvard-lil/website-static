@@ -54,6 +54,20 @@ stephen-chapman:
   image: stephen-chapman.jpg
   affiliated: true
 
+casey-gruppioni:
+  name: Casey Gruppioni
+  sort_name: Gruppioni
+  role: Developer
+  bio: >
+    Casey likes power yoga, curating playlists, paddleboarding and pinball.
+    She enjoys working on projects for the greater good.
+  email: cgruppioni@law.harvard.edu
+  website:
+  twitter_account_name: cgruppioni
+  github_account_name: cgruppioni
+  image: casey-gruppioni.jpg
+  affiliated: true
+
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
