@@ -1,3 +1,11 @@
+# Profile pics are served up in the browser using the srcset attribute #
+# on the html5 img element. the differernt image sizes in the srcset #
+# need to be created when adding a person and placed in the thumbs dir #
+
+# When adding a summer fellow, create a 150x150px image #
+# When adding a core team member three sizes - 216x216, 432x432, 648x648 #
+
+
 # Currently affiliated #
 
 anastasia-aizman:
@@ -46,6 +54,20 @@ stephen-chapman:
   image: stephen-chapman.jpg
   affiliated: true
 
+casey-gruppioni:
+  name: Casey Gruppioni
+  sort_name: Gruppioni
+  role: Developer
+  bio: >
+    Casey likes power yoga, curating playlists, paddleboarding and pinball.
+    She enjoys working on projects for the greater good.
+  email: cgruppioni@law.harvard.edu
+  website:
+  twitter_account_name: cgruppioni
+  github_account_name: cgruppioni
+  image: casey-gruppioni.jpg
+  affiliated: true
+
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
@@ -65,7 +87,7 @@ rebecca-cremona:
 jack-cushman:
   name: Jack Cushman
   sort_name: Cushman
-  role: Fellow
+  role: Developer
   bio: >
     Jack is an attorney, developer, and tinkerer. He once built a
     working web server using only a Perl script, a paperclip, and a
@@ -109,7 +131,7 @@ kim-dulin:
 jay-edwards:
   name: Jay Edwards
   sort_name: Edwards
-  role: Fellow
+  role: Research Fellow
   bio:
   email: jay@meangrape.com
   website:
@@ -145,6 +167,18 @@ brett-johnson:
   twitter_account_name:
   github_account_name:
   image: brett-johnson.jpg
+  affiliated: true
+
+caitlin-laughlin:
+  name: Caitlin Laughlin
+  sort_name: Laughlin
+  role: Perma Admin
+  bio:
+  email: claughlin@law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: caitlin-laughlin.jpg
   affiliated: true
 
 matt-phillips:
@@ -196,13 +230,25 @@ ben-steinberg:
 jessamyn-west:
   name: Jessamyn West
   sort_name: West
-  role: Fellow
+  role: Research Fellow
   bio:
   email: jessamyn@gmail.com
   website: http://www.librarian.net/
   twitter_account_name: jessamyn
   github_account_name:
   image: jessamyn-west.png
+  affiliated: true
+
+jordi-weinstock:
+  name: Jordi Weinstock
+  sort_name: Weinstock
+  role: Research Fellow
+  bio:
+  email: jordi.weinstock@gmail.com
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: jordi-weinstock.jpg
   affiliated: true
 
 adam-ziegler:
@@ -364,7 +410,7 @@ sara-frug:
 sarah-glassmeyer:
   name: Sarah Glassmeyer
   sort_name: Glassmeyer
-  role: Fellow
+  role: Research Fellow
   website: http://www.sarahglassmeyer.com
   twitter_account_name: sglassmeyer
   github_account_name: sglassmeyer
