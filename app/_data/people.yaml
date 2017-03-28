@@ -174,8 +174,8 @@ caitlin-laughlin:
   sort_name: Laughlin
   role: Perma Admin
   bio: >
-    Caitlin is a history and politics nerd who spends most of her free time 
-    reading about obsure historical events, playing musical soundtracks too 
+    Caitlin is a history and politics nerd who spends most of her free time
+    reading about obsure historical events, playing musical soundtracks too
     loudly, and hanging with her roommates' cats.
   email: claughlin@law.harvard.edu
   website:
@@ -354,6 +354,12 @@ deborah-chase:
   name: Deborah Chase
   sort_name: Chase
   role: Digitization Specialist
+  affiliated: false
+
+kyle-courtney:
+  name: Kyle K. Courtney
+  sort_name: Courtney
+  role: Copyright Advisor and Program Manager, HL Office for Scholarly Communication
   affiliated: false
 
 emma-cushman:
