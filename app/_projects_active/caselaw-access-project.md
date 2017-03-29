@@ -69,7 +69,7 @@ who_contributed:
   - lori-schulsinger
   - zachary-bodnar
   - june-casey
-  - deborah-case
+  - deborah-chase
   - lindsay-dumas
   - kate-edrington
   - erica-leeman
