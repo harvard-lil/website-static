@@ -44,3 +44,4 @@ Redirect permanent "/fellows-application-2017" "/collaborate/2017/summer/fellows
 Redirect permanent "/fellows-application-2016" "/collaborate/2016/summer/fellows/apply/"
 Redirect permanent "/fellows" "/collaborate/2016/summer/fellows/"
 Redirect permanent "/projects/free-the-law" "/projects/case-law-access-project/"
+Redirect "/jobs" "/collaborate"
