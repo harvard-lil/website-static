@@ -55,6 +55,8 @@ who_contributed:
   - tom-boone
   - dustin-lewis
   - shailin-thomas
+  - casey-gruppioni
+  - emma-cushman
 
 ### Override Jekyll Defaults ###
 title-tag: H2O
