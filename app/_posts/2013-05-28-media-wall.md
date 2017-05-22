@@ -23,28 +23,15 @@ Here's the professional sound dome technology:
 
 You can also imagine handing over this audio/video/shelf space infrastructure to an artist or class and see it used in unexpected ways.
 
-
-
 This past weekend I went through two iterations. I first got a rough protoype going in the basement. I used one of the old LABRARY lamps from Ikea.
-
 
 [![](http://www.librarytestkitchen.org/wp-content/uploads/2013/05/v1.jpg)](http://www.librarytestkitchen.org/wp-content/uploads/2013/05/v1.jpg)
 
-
-
-
 Then got a second version (using different speaker) working on a bookshelf. Plus tried to lay down some yoga mats for acoustic dampening.
-
-
-
 
 All in all, the sound domes I created worked poorly at best. It seems brown innovations is doing more than throwing a speaker in a salad bowl.
 
-
-
-
 Here's a bit of science fiction. I improved my sound dome's sound localization performance in post. It doesn't work this well. But further illustrates effect.
-
 
 <div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/67152819" frameborder="0" allowfullscreen></iframe></div>
 

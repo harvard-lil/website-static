@@ -27,7 +27,7 @@ This is the good stuff.
 
 {% include roundup-item.html
   link="http://news.harvard.edu/gazette/story/2015/04/john-harvard-speaks/"
-  title="John Harvard ‘speaks’ | Harvard Gazette"
+  title="John Harvard ‘speaks' | Harvard Gazette"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/55364c3572488.png"
   text="Harvard is animating the famous John Harvard Statue"
   by="Annie"

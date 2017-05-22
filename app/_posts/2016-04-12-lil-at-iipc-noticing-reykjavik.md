@@ -23,24 +23,24 @@ _Clockwise from top left: shower set into floor; sweet TP stash as design elemen
 
 [![image03](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/image03.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/image03.jpg)
 
-**[Anastasia]** After returning from Iceland for the first time a year ago, I found myself missing something I don’t normally give much thought to: Icelandic money is some of the loveliest currency I have ever seen.
+**[Anastasia]** After returning from Iceland for the first time a year ago, I found myself missing something I don't normally give much thought to: Icelandic money is some of the loveliest currency I have ever seen.
 
 [![image01](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/image01.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/image01.jpg)
 
-The banknotes are quite complex artistically, and yet every denomination abides by thoughtful design principles. Each banknote’s side shows either a culturally-significant figure or scene. The denomination is displayed prominently, the typography is ornate but consistent. The colors, beautiful.
+The banknotes are quite complex artistically, and yet every denomination abides by thoughtful design principles. Each banknote's side shows either a culturally-significant figure or scene. The denomination is displayed prominently, the typography is ornate but consistent. The colors, beautiful.
 
 [![20160412_083711](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/20160412_083711.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/20160412_083711.jpg)
 
-But what trumps the aesthetics is the banknotes’ dimensions. Icelandic paper money is sized according to amount: the 500Kr note is smaller than the 1000Kr note, which in turn is outsized by the 5000Kr note. This is incredibly important &mdash; it allows visually impaired people to move about more freely in the world.
+But what trumps the aesthetics is the banknotes' dimensions. Icelandic paper money is sized according to amount: the 500Kr note is smaller than the 1000Kr note, which in turn is outsized by the 5000Kr note. This is incredibly important &mdash; it allows visually impaired people to move about more freely in the world.
 
-In comparison, our money looks silly and our treasury department negligent, as it is impossible to differentiate the values by touch alone. And, confoundingly, there don’t seem to be movements to amend this either: in 2015 the department made “strides” by announcing it would start providing money readers, little machines that read value to people who filled out what I’m sure is not a fun amount of paperwork, instead of coming up with a simple design solution.
+In comparison, our money looks silly and our treasury department negligent, as it is impossible to differentiate the values by touch alone. And, confoundingly, there don't seem to be movements to amend this either: in 2015 the department made "strides" by announcing it would start providing money readers, little machines that read value to people who filled out what I'm sure is not a fun amount of paperwork, instead of coming up with a simple design solution.
 
 [![20160412_083819](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/20160412_0838192.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/20160412_0838192.jpg)
 
-The coins are a different story. When I first arrived the clunky coins were a happy surprise &mdash; they’re delightfully weighty (maybe even a little too bulky for normally non-cash-carrying types), adorned with beautifully thoughtful designs. On one side of each of the coins (gold or silver), the denomination stands out in large type along with local sea creatures: a big Lumpfish, three small Capelin fish, a dolphin, a Shore crab.
+The coins are a different story. When I first arrived the clunky coins were a happy surprise &mdash; they're delightfully weighty (maybe even a little too bulky for normally non-cash-carrying types), adorned with beautifully thoughtful designs. On one side of each of the coins (gold or silver), the denomination stands out in large type along with local sea creatures: a big Lumpfish, three small Capelin fish, a dolphin, a Shore crab.
 
 On the reverse side the four great guardians of Iceland gaze intensely. They are the dragon (_Dreki_), the [griffin](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Griffin&sa=D&ust=1460504622399000&usg=AFQjCNEy35QitPr43C8DEijljLn4Uby7Dg) (_Gammur_), the bull (_Griðungur_), and the giant (_Bergrisi_), that each protected Iceland from Denmark invasion in turn, according to the Saga of King Olaf Tryggvason. On the back of the 1 Krona, only the giant stands, commanding.
 
-And that’s it. No superfluous information. No humans, either, only mythology and fish.
+And that's it. No superfluous information. No humans, either, only mythology and fish.
 
 Returning home is good things, but sometimes it also means re-entering a world where money is just sad green rectangles (and oddly sized coins) full of earthly men.

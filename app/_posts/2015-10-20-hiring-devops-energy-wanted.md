@@ -20,17 +20,16 @@ Our projects range in scope from fast-moving prototypes to long-term innovations
 [![image02](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/10/image02.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/10/image02.png)
 [Awesome Box](http://awesomebox.io), an alternate returns box used by hundreds of libraries
 
-## What you’ll do
+## What you'll do
 
-  * Own the production infrastructure that ensures Lab applications are responding quickly to people and bots on the internet
+* Own the production infrastructure that ensures Lab applications are responding quickly to people and bots on the internet
 
-  *  Write code that will monitor systems and develop logic that will automate common deployment and maintenance tasks
+*  Write code that will monitor systems and develop logic that will automate common deployment and maintenance tasks
 
-  *  Act as a core member of our fun and dynamic team by helping us shape ideas and efforts in libraries, technology, and law. We're freewheelin'. We fully encourage the pursuit of interests and opportunities
+*  Act as a core member of our fun and dynamic team by helping us shape ideas and efforts in libraries, technology, and law. We're freewheelin'. We fully encourage the pursuit of interests and opportunities
 
-We’re hiring a person and not a skillset, but our current stack of keywords might be helpful
+We're hiring a person and not a skillset, but our current stack of keywords might be helpful
 
-  *  Heroku, AWS, S3, Python, Django, Fabric, git and GitHub, Ruby, Rails, MySQL, PostgreSQL, Apache, NGINX, Elasticsearch, Redis, UNIX, Bash, Rollbar, Splunk
-
+*  Heroku, AWS, S3, Python, Django, Fabric, git and GitHub, Ruby, Rails, MySQL, PostgreSQL, Apache, NGINX, Elasticsearch, Redis, UNIX, Bash, Rollbar, Splunk
 
 Find [details and apply using the Harvard Recruitment Management System](https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1173201&PartnerId=25240&SiteId=5341&type=mail). If you have questions, email us directly at [lil@law.harvard.edu](mailto:lil@law.harvard.edu) .

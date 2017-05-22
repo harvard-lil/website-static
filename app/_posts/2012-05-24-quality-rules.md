@@ -5,7 +5,7 @@ title: Quality Rules
 wordpress_id: 1107
 ---
 
-Here is a letter from our very own Paul Deschner, to the Harvard Library community (and - now - beyond).  It was so well received here that we thought it worth sharing more broadly.
+Here is a letter from our very own Paul Deschner, to the Harvard Library community (and---now---beyond).  It was so well received here that we thought it worth sharing more broadly.
 
 > Hi all,
 >

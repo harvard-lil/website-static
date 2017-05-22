@@ -9,19 +9,13 @@ We recently rolled out more Awesome Boxes here at Harvard. We now have boxes in 
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/12/ab-locattion-wild-arrows.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/12/ab-locattion-wild-arrows.png)
 
-
-
 We have a couple of other boxes waiting to be delivered to their new homes after the new year.
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/12/many-ab-lower-thin-1024x442.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/12/many-ab-lower-thin.jpg)
 
-
-
 We put together a special box for our home base, Langdell Library here in the Law School.
 
-
 <div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/55814585" frameborder="0" allowfullscreen></iframe></div>
-
 
 It's an Arduino equipped box. A small photoresistor in the floor of the box detects light change. When the change is 35% greater or smaller than the last time it took a reading, it sends power to three LEDs tucked in a piece of plexiglass in the sign.
 

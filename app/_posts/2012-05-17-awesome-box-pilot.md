@@ -9,7 +9,6 @@ categories:
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/05/IMG_0176-300x225.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/05/IMG_0176.jpg)
 
-
 **UPDATE:** Awesome Box is now well beyond the pilot phase. Visit [awesomebox.io](http://awesomebox.io) to learn how to get one at your library.
 
 The Harvard community now has the chance to declare something Awesome. Just by dropping it in a box. Amazing, useful and entertaining library materials can now be returned to the Awesome Boxes in Widener and Lamont.
@@ -22,9 +21,7 @@ We want users to understand the following without using too much text.
 
   * What constitutes Awesome (helpful, mind-blowing, etc.)
 
-
   * What happens when an item is Awesomed (it gets marked Awesome, shared with everyone)
-
 
   * Placing an item in the Awesome Box actually returns it to the library
 

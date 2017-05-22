@@ -5,11 +5,11 @@ title: Ars Electronica Highlights 3
 wordpress_id: 2541
 ---
 
-I’m sharing more highlights from this year’s Ars Electronica Festival. See parts [one]({{ site.baseurl }}{% post_url 2016-09-12-ars-electronica-festival-highlights %}) and [two]({{ site.baseurl }}{% post_url 2016-09-28-ars-electronica-festival-highlights-2 %}) for even more.
+I'm sharing more highlights from this year's Ars Electronica Festival. See parts [one]({{ site.baseurl }}{% post_url 2016-09-12-ars-electronica-festival-highlights %}) and [two]({{ site.baseurl }}{% post_url 2016-09-28-ars-electronica-festival-highlights-2 %}) for even more.
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/10/sign.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/10/sign.jpg)
 
-The future of the lab &mdash; I saw [Ivan Poupyrev](http://www.ivanpoupyrev.com/) talk about about the future of labs. He said a whole bunch of interesting things, but the thing stuck most with me is his advice on staffing a lab. He said something like “Bring in people that are focused on solving a problem. If they have a project you want to support and grow, bring them in and give them space to build that thing.” Totally sold on this idea. Projects often need the stamina and focus of a single person (two people feels good too) to jam it through to success.
+The future of the lab &mdash; I saw [Ivan Poupyrev](http://www.ivanpoupyrev.com/) talk about about the future of labs. He said a whole bunch of interesting things, but the thing stuck most with me is his advice on staffing a lab. He said something like "Bring in people that are focused on solving a problem. If they have a project you want to support and grow, bring them in and give them space to build that thing." Totally sold on this idea. Projects often need the stamina and focus of a single person (two people feels good too) to jam it through to success.
 
 <div class="embed-container"><iframe allowfullscreen="" frameborder="0" height="360" mozallowfullscreen="" src="https://player.vimeo.com/video/187993946" webkitallowfullscreen="" width="640"></iframe></div>
 

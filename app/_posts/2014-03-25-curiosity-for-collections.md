@@ -19,7 +19,7 @@ tags:
 
   * We need to replace our aging online collection building tools: Virtual Collections and TED
 
-  * We’ve been creating digital content for 15 years at Harvard, so now have a good foundation for combining and presenting collections in new ways. The new service would be called CURIOSity, and, as Wendy notes, it does not exist yet.
+  * We've been creating digital content for 15 years at Harvard, so now have a good foundation for combining and presenting collections in new ways. The new service would be called CURIOSity, and, as Wendy notes, it does not exist yet.
 
 **NOTE: Live-blogging.** Getting things wrong. Missing points. Omitting key information. Introducing artificial choppiness. Over-emphasizing small matters. Paraphrasing badly. Not running a spellpchecker. Mangling other people's ideas and words. You are  _warned_, people.
 

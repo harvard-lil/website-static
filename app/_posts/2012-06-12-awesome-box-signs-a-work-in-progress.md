@@ -24,9 +24,7 @@ We've rigged up an Arduino with a photoresistor and wired that to a few LEDs. Th
 
 (The wires and the rest of the circuit will be cleaned up and hidden in the base of the Awesome Box.)
 
-
 For situations in which the LED-based sign is not a good fit, we're putting together an aluminum and felt sign. The thick felt will be sandwiched between two aluminum arrows much like the LED sign. Fun and stable.
-
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0237-e1339444055765.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0237-e1339443920742.jpg)
 

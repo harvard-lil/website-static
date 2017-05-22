@@ -43,7 +43,7 @@ Goodbye summer
 
 {% include roundup-item.html
   link="http://grantland.com/features/the-website-mlb-couldnt-buy/"
-  title="The Website MLB Couldn’t Buy"
+  title="The Website MLB Couldn't Buy"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/55e4784df3055.png"
   text="Major League Baseball's worked hard to buy team domains. They don't own twins.com though. It's owned by two humans."
   by="Matt Phillips"

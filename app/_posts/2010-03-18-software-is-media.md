@@ -5,7 +5,7 @@ title: Software is Media
 wordpress_id: 272
 ---
 
-> “My view is that software is media today.  Particulalry consumer software, when people use it,  they approach it in the same way they approach .. a magazine, a newspaper, a tv show….”
+> "My view is that software is media today.  Particulalry consumer software, when people use it,  they approach it in the same way they approach .. a magazine, a newspaper, a tv show…."
 
 Fred Wilson
 <br>

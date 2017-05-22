@@ -13,7 +13,7 @@ This is the good stuff.
   link="http://www.cjr.org/analysis/the_new_importance_of_social_listening_tools.php"
   title="The new importance of 'social listening' tools - Columbia Journalism Review"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/55c0e6bea262e.png"
-  text="Newsrooms’ growing use of social media listening tools to uncover and break stories"
+  text="Newsrooms' growing use of social media listening tools to uncover and break stories"
   by="Brett"
 %}
 

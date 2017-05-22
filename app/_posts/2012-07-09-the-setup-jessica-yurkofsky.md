@@ -11,7 +11,7 @@ wordpress_id: 1269
 
 I'm Jessica. I just finished up the urban planning masters program over at the [GSD](http://www.gsd.harvard.edu/). I'm hanging out at the lab for the summer, working primarily on[ Time/Slice](http://librarylab.law.harvard.edu/blog/2012/06/14/timeslice/), a project I started in the [Library Test Kitchen](http://librarytestkitchen.org/). The Lab is very awesome.
 
-** **
+****
 
 **What hardware do you use?**
 
@@ -20,9 +20,6 @@ My most important hardware is my pen, which is a rotring extra-fine fountain pen
 I rely on my MacBook Pro (4,1) for most things. It has a vintage 2008 battery that generates excessive heat, which can be nice in the winter. I also have an i5 iMac that I use for heavier stuff (a lot of GIS). My phone is a Nokia 6315i. The antenna broke off (also a pocket-related accident), so it is super svelte now. I have a Kindle Touch that I like a lot more than I expected to.
 
 [![my pen writes well](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/07/photo-15-300x252.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/07/photo-15.jpg)
-
-
-
 
 **What software do you use?**
 
@@ -33,4 +30,5 @@ A lot of Adobe Creative Suite, mostly Illustrator, for design. Other than that, 
 I go back and forth between Chrome and Firefox, but with both I love [TabCloud](https://chrometabcloud.appspot.com/) and and [being able to send articles straight to my Kindle](http://fivefilters.org/kindle-it/).
 
 **What would be your dream setup?**
+
 My dream setup would be a fort that could also get lots of sunlight. It would also have a little stop-motion animation setup ready to go at all times. It might be in a tree.

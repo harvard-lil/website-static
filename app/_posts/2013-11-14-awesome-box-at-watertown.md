@@ -9,15 +9,10 @@ The [Watertown Free Public Library](http://www.watertownlib.org/) has fully embr
 
 <div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/79435000" frameborder="0" allowfullscreen></iframe></div>
 
-
 The Awesome Box in the children's room has a button that when pressed says "Awesome."
-
-
 
 [![ab_display_wfpl](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2013/11/ab_display_wfpl.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2013/11/ab_display_wfpl.jpg)
 
 In addition to the boxes, they've installed a display that oozes awesome. With the display, the boxes, and the button, it's a full awesome experience.
-
-
 
 Pop by the [WFPL](http://www.watertownlib.org/location-hours/directions) in person and checkout the [things they've Awesomed on the Web](http://watertown.awesomebox.io/).

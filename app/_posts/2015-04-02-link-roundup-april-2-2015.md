@@ -43,7 +43,7 @@ Blurred copyright, screenshots FTW, rainy day art, saving lives with paint and a
 
 {% include roundup-item.html
   link="http://pitchfork.com/features/oped/9613-plagiarize-this-a-reasonable-solution-to-musical-copyright-after-blurred-lines/"
-  title="Plagiarize This: A Reasonable Solution to Musical Copyright After “Blurred Lines” | Pitchfork"
+  title="Plagiarize This: A Reasonable Solution to Musical Copyright After "Blurred Lines" | Pitchfork"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/55100c71d6420.png"
   text="Galaxie 500's Damon Krukowski on Blurred Lines, IP, and player pianos."
   by="dano"

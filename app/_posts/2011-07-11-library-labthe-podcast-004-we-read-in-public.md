@@ -13,7 +13,7 @@ tags:
 
 [**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-07-06_jarvis.ogg)
 
-Guarding patron privacy is kind of the default in the library business. When it comes to knowing who checked out what and when libraries usually prefer to flush the cache — except when it comes to collecting fines!
+Guarding patron privacy is kind of the default in the library business. When it comes to knowing who checked out what and when libraries usually prefer to flush the cache---except when it comes to collecting fines!
 
 ![](http://farm7.static.flickr.com/6015/5920281397_65ac967718_o.jpg)
 
@@ -24,7 +24,7 @@ Jeff Jarvis, in public
 
 That's what [**Jeff Jarvis**](http://www.buzzmachine.com/) suggests.
 
-A professor at the City University of New York's Graduate School of Journalism, and one of [**the web's most notorious oversharers**](http://www.guardian.co.uk/technology/2011/mar/15/sxsw-2011-jeff-jarvis-prostate-cancer-publicness), Jeff Jarvis sat down with Harvard Library Innovation Lab’s very own David Weinberger to talk about how the library can merge the values of privacy with the web's power to share.
+A professor at the City University of New York's Graduate School of Journalism, and one of [**the web's most notorious oversharers**](http://www.guardian.co.uk/technology/2011/mar/15/sxsw-2011-jeff-jarvis-prostate-cancer-publicness), Jeff Jarvis sat down with Harvard Library Innovation Lab's very own David Weinberger to talk about how the library can merge the values of privacy with the web's power to share.
 
 ___
 

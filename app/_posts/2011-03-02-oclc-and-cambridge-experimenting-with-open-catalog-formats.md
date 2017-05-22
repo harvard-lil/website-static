@@ -15,7 +15,7 @@ tags:
 
 [This](http://www.knowledgespeak.com/newsArchieveviewdtl.asp?pickUpID=12386&pickUpBatch=1638#12386) is promising. OCLC and Cambridge are experimenting with ways to make bibliographic data openly available. Having a reliable, open, set of bibliographic records would encourage the development of innovative applications. Or, put differently, not having a standard way to refer to books and other works has inhibited innovation. The main impediment has been the prohibitions in the licenses for this data. Perhaps this new project indicates a willingness to let an open, public catalog be created.
 
-> OCLC Research and Cambridge University collaborate on Open Metadata project - 28 Feb 2011
+> OCLC Research and Cambridge University collaborate on Open Metadata project---28 Feb 2011
 >
 > Library information provider OCLC Research, US, and Cambridge University have announced that both organisations will jointly conduct a six-month, JISC-funded investigation into the value of making collection metadata openly available in a sustainable manner.
 >

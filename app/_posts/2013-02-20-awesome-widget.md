@@ -7,8 +7,6 @@ wordpress_id: 1529
 
 We've created an embeddable widget for the Awesome Box. This widget allows Awesome Box members to share items that have been awesomed without forcing their patrons to visit the Awesome Box site.
 
-
-
 Here's an example of the embedded widget:
 
 <script src="http://lil.awesomebox.io/widget/"></script>

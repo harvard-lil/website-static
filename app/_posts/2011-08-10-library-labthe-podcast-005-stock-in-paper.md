@@ -13,7 +13,7 @@ tags:
 
 [**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-08-10_oreilly.ogg)
 
-If you've worked in technology at all you probably recognize the name "O'Reilly" — it has become practically synonymous with "tech help." For anyone who has tried to code a line of html, or figure out what the heck that icon on the iPhone screen is, O'Reilly Media has produced a manual to explain it.
+If you've worked in technology at all you probably recognize the name "O'Reilly"---it has become practically synonymous with "tech help." For anyone who has tried to code a line of html, or figure out what the heck that icon on the iPhone screen is, O'Reilly Media has produced a manual to explain it.
 
 ![](http://farm1.static.flickr.com/177/476780331_32f2f3b71b_b.jpg)
 
@@ -23,7 +23,7 @@ Part of this has been due to the initiative of O'Reilly's founder Tim O'Reilly w
 
 ![](http://farm5.static.flickr.com/4004/4356098671_ebb4330857_b.jpg)
 
-Tim recently sat down with Harvard Library Innovation Lab’s very own David Weinberger to talk about using the web to curate and archive knowledge, and what innovations publishers like he have to take on in order to survive.
+Tim recently sat down with Harvard Library Innovation Lab's very own David Weinberger to talk about using the web to curate and archive knowledge, and what innovations publishers like he have to take on in order to survive.
 
 ___
 

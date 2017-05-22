@@ -23,19 +23,19 @@ Here are some things that caught our ear this fine Thursday at the International
 
   * What the WAT? We hear a lot about WATs this year. Common Crawl has a good [explainer](http://commoncrawl.org/2014/04/navigating-the-warc-file-format/).
 
-  * [Ditte Laursen](http://pure.au.dk/portal/en/persons/ditte-laursen(3ae302d0-3c64-4e72-9227-a7612dd746a8).html) sets out to answer a big research question: “What does Danish web look like?” What is the shape of .dk? Eld Zierau reports that in a comparison of the Royal Danish Library's .dk collection with the Internet Archive's collection of Danish-language sites, only something like 10% were in both.
+  * [Ditte Laursen](http://pure.au.dk/portal/en/persons/ditte-laursen(3ae302d0-3c64-4e72-9227-a7612dd746a8).html) sets out to answer a big research question: "What does Danish web look like?" What is the shape of .dk? Eld Zierau reports that in a comparison of the Royal Danish Library's .dk collection with the Internet Archive's collection of Danish-language sites, only something like 10% were in both.
 
   * [Hugo Huurdeman](http://www.timelessfuture.com/about/) asks an important question: what exactly _is _a website? Is it a host, a domain, or a set of pages that share the same CSS? To visualize change in whatever that is, he uses [ssdeep](https://pypi.python.org/pypi/ssdeep), a fuzzy hashing mechanism for page comparison.
 
   * Let's just pause to say how inspiring this all is. It's at about this point in the day that we started totally rethinking a project we've been working on for months.
 
-  * [Justin Littman](https://twitter.com/justin_littman?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) shares the [Social Feed Manager](http://library.gwu.edu/scholarly-technology-group/social-feed-manager), his happenin’ stack to harvest tweets and such.
+  * [Justin Littman](https://twitter.com/justin_littman?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) shares the [Social Feed Manager](http://library.gwu.edu/scholarly-technology-group/social-feed-manager), his happenin' stack to harvest tweets and such.
 
-  * We learned that TWARC is either twerking for WARCs or [a Twitter-harvesting Python package](http://library.gwu.edu/scholarly-technology-group/social-feed-manager) -- we’re not entirely sure. Either way it's our new new favorite acronym. Sorry, WAMMI.
+  * We learned that TWARC is either twerking for WARCs or [a Twitter-harvesting Python package](http://library.gwu.edu/scholarly-technology-group/social-feed-manager) -- we're not entirely sure. Either way it's our new new favorite acronym. Sorry, WAMMI.
 
   * Nick Ruest and Ian Milligan give a very cool talk about sifting through hashtagged content on Twitter. Did you know that researchers only have 7-9 days to grab tweets under a hashtag before Twitter only makes the full stream available for a fee? (We did not know that.)
 
-  * We were also impressed by Canada's huge amount of political social media engagement. Even though Canada isn’t a huge country,[Ian's words not ours] 55,000 Tweets were generated in one day with the #elxn42 tag.
+  * We were also impressed by Canada's huge amount of political social media engagement. Even though Canada isn't a huge country,[Ian's words not ours] 55,000 Tweets were generated in one day with the #elxn42 tag.
 
   * Fernando Melo of Arquivo.pt pointed out that the struggle is _real_ with live-web leaks in [his research comparing OpenWayback and pywb](https://github.com/Fernando-Melo/WaybackComparison). Fernando says in his tests OpenWayback was faster but [pywb](https://github.com/ikreymer/pywb) has higher-quality playbacks (more successes, fewer leaks). Both tools are expected to improve soon. We say it's time for something like [arewefastyet.com](https://arewefastyet.com/) to make this a proper competition.
 
@@ -43,12 +43,12 @@ Here are some things that caught our ear this fine Thursday at the International
 
   * We're also curious about this paper: [Current Quality Assurance Practices in Web Archiving](http://digital.library.unt.edu/ark:/67531/metadc333026/m2/1/high_res_d/QA_in_WebArchiving.pdf).
 
-  * [Todd Stoffer](https://twitter.com/toddstoffer) demos NC State’s [QA tool](http://go.ncsu.edu/qa-demo). A clever blend of tools like Google Forms, Trello, and IFTTT to let student employees provide archive feedback during downtime. Here are Todd's [snazzy HTML/JS] [slides](http://toddstoffer.github.io/presentation/IIPC-2016/#/).
+  * [Todd Stoffer](https://twitter.com/toddstoffer) demos NC State's [QA tool](http://go.ncsu.edu/qa-demo). A clever blend of tools like Google Forms, Trello, and IFTTT to let student employees provide archive feedback during downtime. Here are Todd's [snazzy HTML/JS] [slides](http://toddstoffer.github.io/presentation/IIPC-2016/#/).
 
-TL;DR: lots of exciting things happening in the archiving world. Also exciting: the Icelandic political landscape. On the way to dinner, the team happened upon a [relatively small](http://icelandreview.com/news/2016/04/05/panama-papers-protest-pictures) protest right outside of the parliament. There was pot clanging, oil barrel banging, and an interesting use of an active smoke alarm machine as a noise maker. We were also handed “red cards” to wave at the government.
+TL;DR: lots of exciting things happening in the archiving world. Also exciting: the Icelandic political landscape. On the way to dinner, the team happened upon a [relatively small](http://icelandreview.com/news/2016/04/05/panama-papers-protest-pictures) protest right outside of the parliament. There was pot clanging, oil barrel banging, and an interesting use of an active smoke alarm machine as a noise maker. We were also handed "red cards" to wave at the government.
 
 <video width="580" height="326" preload="metadata" controls="controls">  <source type="video/mp4" src="http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/Slack-for-iOS-Upload-1.mp4?_=1">
   <a href="http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/Slack-for-iOS-Upload-1.mp4">http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/Slack-for-iOS-Upload-1.mp4</a>
 </video>
 
-Now we’re off to look for the northern lights!
+Now we're off to look for the northern lights!

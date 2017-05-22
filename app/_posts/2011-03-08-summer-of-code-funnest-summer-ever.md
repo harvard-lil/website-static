@@ -34,4 +34,4 @@ We've put in for a couple of Summer of Code [projects](http://cyber.law.harvard.
 
 We're now waiting to see if the proposals get accepted.
 
-The rest of the Berkman proposals -- many fun ones -- are [here](http://cyber.law.harvard.edu/gsoc/Main_Page).
+The rest of the Berkman proposals---many fun ones---are [here](http://cyber.law.harvard.edu/gsoc/Main_Page).

@@ -49,6 +49,6 @@ categories:
 
 {% include roundup-item.html
   link="http://www.theamericanconservative.com/the-bookless-libraries/?utm_source=rss&utm_medium=rss&utm_campaign=the-bookless-libraries"
-  title="The “Bookless” Library | The American Conservative"
+  title="The "Bookless" Library | The American Conservative"
   by="David Weinberger"
 %}

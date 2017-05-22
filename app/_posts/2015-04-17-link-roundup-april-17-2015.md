@@ -35,7 +35,7 @@ It's spring! Sit at the picnic table and read some rounded up links.
 
 {% include roundup-item.html
   link="http://www.thisiscolossal.com/2015/04/3d-printed-garden/"
-  title="Transport a Miniature Garden by Bike or Necklace with Colleen Jordan’s 3D Printed Planters | Colossal"
+  title="Transport a Miniature Garden by Bike or Necklace with Colleen Jordan's 3D Printed Planters | Colossal"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/552d33b987d4d.png"
   text="3D print a tiny planter"
   by="Annie"

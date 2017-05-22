@@ -43,7 +43,7 @@ Some stuff we liked on the web this week...
 
 {% include roundup-item.html
   link="https://medium.com/@jsb/dont-be-ned-stark-7818b8761947"
-  title="Don’t be Ned Stark — Medium"
+  title="Don't be Ned Stark — Medium"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/557ee581eee49.png"
   text="Thoughts on innovating inside an institution, featuring the Chicago Public Library"
   by="Adam"

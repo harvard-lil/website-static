@@ -23,7 +23,7 @@ That's only the beginning for [**Zotero**](http://www.zotero.org/), a free, open
 
 Zotero allows researchers to do much more than harness the power of the web to save citations. There is also a robust social component that allows researchers to share their research _in progress_.
 
-[**Dan Cohen**](http://www.dancohen.org/bio/) is the director of the Center for History and New Media and one of the minds behind the project. The Harvard Library Innovation Lab’s very own David Weinberger caught up with Dan for this week’s podcast to talk about Zotero, open syllabi, and other tools and ideas for enhancing and sharing research.
+[**Dan Cohen**](http://www.dancohen.org/bio/) is the director of the Center for History and New Media and one of the minds behind the project. The Harvard Library Innovation Lab's very own David Weinberger caught up with Dan for this week's podcast to talk about Zotero, open syllabi, and other tools and ideas for enhancing and sharing research.
 
 ___
 

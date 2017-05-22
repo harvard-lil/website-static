@@ -11,7 +11,7 @@ tags:
 - records
 ---
 
-[Dan Gillmor has a good post at Salon](http://www.salon.com/technology/dan_gillmor/story/index.html?story=/tech/dan_gillmor/2010/11/05/archiving_ourselves) about archiving the Net, spurred by meetings at the Library of Congress. I'm especially interested in his comments -- pointing to [a post by Dave Winer](http://scripting.com/stories/2010/11/03/meetingAtLibraryOfCongress.html) -- about the role of long-lived institutions, including universities.
+[Dan Gillmor has a good post at Salon](http://www.salon.com/technology/dan_gillmor/story/index.html?story=/tech/dan_gillmor/2010/11/05/archiving_ourselves) about archiving the Net, spurred by meetings at the Library of Congress. I'm especially interested in his comments---pointing to [a post by Dave Winer](http://scripting.com/stories/2010/11/03/meetingAtLibraryOfCongress.html)---about the role of long-lived institutions, including universities.
 
 Have we all concluded at this point that there is no hope of keeping a full and accurate archive? The Net is too vast, too every-changing, too complexly linked. I can't even keep a full archive of my own computer; the Mac's TimeMachine makes hourly backups, but not minutely or secondly, and it only preserves daily backups over the long-ish haul. All records are broken to one degree or another, because records require choices about what's worth recording and energy to do the recording. "Full record" is an oxymoron.
 

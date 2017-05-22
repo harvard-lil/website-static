@@ -8,9 +8,6 @@ wordpress_id: 1746
 
 [![LibraryMachines-SXSW](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2013/08/LibraryMachines-SXSW.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2013/08/LibraryMachines-SXSW.png)
 
-
-
-
 This March, Sidsel Bech-Petersen a Library Transformer at [Aarhus Public Libraries](https://www.aakb.dk/in-english) and I have proposed a session at South By Southwest Interactive.  It's called [Library Machines](http://panelpicker.sxsw.com/vote/19336), and essentially, it's a discussion/workshop to explore new ideas and directions for libraries.  It will be the spiritual sibling of last year's [Libraries: the Ultimate Playground](http://panelpicker.sxsw.com/vote/2696).
 
 During the Library Machines session, we'll all go through a quick, ["mad libs" style design exercise](http://librarytestkitchen.org/assets/Librarian-Created-Machines.pdf), and use that as a jumping off point for a larger discussion through the rest of the session.

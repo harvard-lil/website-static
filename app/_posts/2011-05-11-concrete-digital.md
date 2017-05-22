@@ -20,10 +20,7 @@ But one designer is thinking a lot more about what is lost in the transition fro
 
 [**James Bridle**](http://shorttermmemoryloss.com/) is an editor, publisher, designer, and innovator. One of his most recent projects was [**a physical production**](http://booktwo.org/notebook/wikipedia-historiography/) of the complete changelogs from the Wikipedia entry on the Iraq War. The project amounted to twelve volumes of almost 7,000 pages, including all the changes, discussions, and arguments logged in the process of producing the never-complete Wikipedia article from December 2004 to November 2009.
 
-
 ![](http://farm5.static.flickr.com/4078/4931496475_55e8e5426e_b.jpg)
-
-
 
 He's created a number of other projects to highlight the impermanence of the web and provoke conversation on the e-book, both the efficiencies and deficiencies thereof. The Harvard Library Innovation Lab's very own David Weinberger spoke with James by Skype about his work for the first ever episode of Library Lab/The Podcast.
 

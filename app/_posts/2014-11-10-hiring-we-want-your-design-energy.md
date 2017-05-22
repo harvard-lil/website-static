@@ -20,15 +20,15 @@ Our projects range in scope from fast-moving prototypes to long-term innovations
 
 ## What you'll do
 
-  * Work with our multi-disciplinary team to build elegant web tools
+* Work with our multi-disciplinary team to build elegant web tools
 
-  * Contribute to our broad vision for the Internet, libraries, and society
+* Contribute to our broad vision for the Internet, libraries, and society
 
-  * Rely on your good design sense and user-centricity
+* Rely on your good design sense and user-centricity
 
-  * Create beautiful graphics and use modern web technologies to share them
+* Create beautiful graphics and use modern web technologies to share them
 
-  * Have fun while producing meaningful work with fantastic folks
+* Have fun while producing meaningful work with fantastic folks
 
 This is a term limited position running through Spring and Summer semesters (January-August 2015).
 

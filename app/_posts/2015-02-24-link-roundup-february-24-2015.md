@@ -11,7 +11,7 @@ This is the good stuff.
 
 {% include roundup-item.html
   link="https://medium.com/@drevets/sit-down-shut-up-write-don-t-stop-d3f671d4a41b"
-  title="Sit Down. Shut Up. Write. Don’t Stop."
+  title="Sit Down. Shut Up. Write. Don't Stop."
   screenshot="http://librarylab.law.harvard.edu/roundup/images/54ec88f19ff8e.png"
   text="Hard work and working hard consistently. That's the thing. Not romantic sparks of inspiration."
   by="Matt Phillips"

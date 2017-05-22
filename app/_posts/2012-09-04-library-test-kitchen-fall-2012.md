@@ -9,20 +9,13 @@ We had our first meeting of [GSD](http://www.gsd.harvard.edu/) Seminar 09125, Li
 
 <div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/48328285" frameborder="0" allowfullscreen></iframe></div>
 
-
 Video by Ben Brady
-
-
 
 We made ourselves a [new Library Test Kitchen website](http://www.librarytestkitchen.org/) too (based on [LiL's site structure](https://github.com/harvard-lil/website)).
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/09/ltk-website-300x186.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/09/ltk-website.png)
 
-
 [Visit](http://www.librarytestkitchen.org/)
-
-
-
 
 The staff:
 
@@ -36,16 +29,8 @@ Jessica Yurkofsky, GSD graduate and LTK Spring 2012 and current LiL resident.
 
 and me.
 
-
-
 We had a great turnout and are looking forward excitedly to what the Fall will bring.
-
-
 
 **new brains on library problems = eye-opening**
 
-
-
 Follow the goings-on at [http://www.librarytestkitchen.org/](http://www.librarytestkitchen.org/)
-
-

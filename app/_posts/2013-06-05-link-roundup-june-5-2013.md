@@ -63,7 +63,7 @@ categories:
 
 {% include roundup-item.html
   link="http://lj.libraryjournal.com/2013/05/opinion/peer-to-peer-review/dont-panic-why-catastrophism-fails-libraries-peer-to-peer-review/"
-  title="Don’t Panic: Why Catastrophism Fails Libraries | Peer to Peer Review"
+  title="Don't Panic: Why Catastrophism Fails Libraries | Peer to Peer Review"
   by="David Weinberger"
 %}
 

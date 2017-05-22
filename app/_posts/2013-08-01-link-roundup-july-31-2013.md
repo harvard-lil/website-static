@@ -9,7 +9,7 @@ categories:
 
 {% include roundup-item.html
   link="http://www.reddit.com/tb/1jfpdm"
-  title="Abandoned Walmart is Now America’s Largest Library via reddit.com"
+  title="Abandoned Walmart is Now America's Largest Library via reddit.com"
   by="David Weinberger"
 %}
 
@@ -35,7 +35,7 @@ categories:
 
 {% include roundup-item.html
   link="http://www.salon.com/2013/07/19/amazon_could_be_a_victim_of_its_own_success/"
-  title="Here’s how Amazon self-destructs - Salon.com"
+  title="Here's how Amazon self-destructs - Salon.com"
   by="David Weinberger"
 %}
 

@@ -10,4 +10,4 @@ tags:
 - Things to see...
 ---
 
-[dpBestflow](http://dpbestflow.org/) is a new site that is a cooperative venture between the Library of Congress and the American Society of Digital Photographers - just launched on Nov 11. It includes everything you want to know about digital photography - from the camera settings to the archival format choices etc.  It was funded under LC's National Digital Information Infrastructure and Preservation Program. Looks to be a really great resource.
+[dpBestflow](http://dpbestflow.org/) is a new site that is a cooperative venture between the Library of Congress and the American Society of Digital Photographers---just launched on Nov 11. It includes everything you want to know about digital photography---from the camera settings to the archival format choices etc.  It was funded under LC's National Digital Information Infrastructure and Preservation Program. Looks to be a really great resource.

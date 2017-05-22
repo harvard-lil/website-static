@@ -16,8 +16,8 @@ categories:
 
 {% include roundup-item.html
   link="http://www.nytimes.com/2013/10/28/nyregion/budgets-challenge-libraries-a-point-of-integration-for-immigrants.html?_r=0"
-  title="Budgets Challenge Libraries, a ‘Point of Integration’ for Immigrants"
-  text="It’s a point of integration into American culture. It’s a support."
+  title="Budgets Challenge Libraries, a ‘Point of Integration' for Immigrants"
+  text="It's a point of integration into American culture. It's a support."
   by="Matt Phillips"
 %}
 

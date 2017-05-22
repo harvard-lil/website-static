@@ -72,7 +72,7 @@ We have to be able to control access to this data.
   * Will automatically detect replacement images
   {: .lil-list}
 
-## What we’ve considered, and their disadvantages
+## What we've considered, and their disadvantages
 
 ### Git
   * Dataset is much too large to store in a single repository
@@ -111,7 +111,7 @@ Many data consumers will want only case files, and not per-page or per-volume fi
 
 ## What We Need From You
 
-Ideas. We want to make sure that we get this right the first time. If you have insight into solving problems like this, we’d love to hear from you.
+Ideas. We want to make sure that we get this right the first time. If you have insight into solving problems like this, we'd love to hear from you.
 
 ## Next Steps
 

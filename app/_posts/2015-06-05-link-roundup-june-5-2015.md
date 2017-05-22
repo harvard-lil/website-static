@@ -35,7 +35,7 @@ Some links to start your June with
 
 {% include roundup-item.html
   link="http://mentalfloss.com/article/64070/pigs-and-mice-have-lowliest-jobs-richard-scarrys-busytown"
-  title="Pigs and Mice Have the Lowliest Jobs in Richard Scarry’s Busytown | Mental Floss"
+  title="Pigs and Mice Have the Lowliest Jobs in Richard Scarry's Busytown | Mental Floss"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/555a42b1b4b0d.png"
   text="Busytown pigs and mice have less prestigious professions"
   by="Annie"

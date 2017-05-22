@@ -10,7 +10,7 @@ tags:
 - publishing
 ---
 
-Barnes &amp; Noble has launched [PubIt](http://pubit.barnesandnoble.com/pubit_app/bn?t=pi_reg_home), a service for authors who want to publish directly to readers  -- well, directly through B&amp;N. Create a B&amp;N user account and upload some files, and PubIt will convert them to ePub, list your book on its site, collect money from sales, and about 60 days later will send you your money.
+Barnes &amp; Noble has launched [PubIt](http://pubit.barnesandnoble.com/pubit_app/bn?t=pi_reg_home), a service for authors who want to publish directly to readers---well, directly through B&amp;N. Create a B&amp;N user account and upload some files, and PubIt will convert them to ePub, list your book on its site, collect money from sales, and about 60 days later will send you your money.
 
 Some miscellaneous [points](http://pubit.barnesandnoble.com/pubit_app/bn?t=support#pricing_payment_terms) about PubIt: You can optionally add DRM to your books, but you don't have to. You don't need an ISBN number. You set the list price, but B&amp;N can set the sale price. You have to charge at least $0.99. You have to guarantee that you won't list it for less elsewhere.
 

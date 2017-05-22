@@ -38,7 +38,7 @@ categories:
 {% include roundup-item.html
   link="https://medium.com/the-magazine/ff97b5f36be8"
   title="Game of Clones"
-  text="How the Internet Archive’s Wayback Machine is fixing link rot"
+  text="How the Internet Archive's Wayback Machine is fixing link rot"
   by="Matt Phillips"
 %}
 

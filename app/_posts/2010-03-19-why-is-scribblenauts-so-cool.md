@@ -1,7 +1,6 @@
 ---
 author: annie-cain
 date: 2010-03-19 18:36:43+00:00
-layout: post
 title: Why is Scribblenauts so cool?
 wordpress_id: 273
 ---

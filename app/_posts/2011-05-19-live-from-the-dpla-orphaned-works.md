@@ -1,7 +1,6 @@
 ---
 author: david-weinberger
 date: 2011-05-18 01:12:56+00:00
-layout: post
 title: 'Live from the DPLA: Orphaned works'
 wordpress_id: 633
 categories:

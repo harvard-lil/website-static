@@ -11,7 +11,7 @@ More rounded up than ever
 
 {% include roundup-item.html
   link="http://projects.nytimes.com/interactive/sports/worldcup/spot-the-ball/2015/06/19"
-  title="Spot the Ball: Women’s World Cup 2015 - NYTimes.com"
+  title="Spot the Ball: Women's World Cup 2015 - NYTimes.com"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/558475b573d8f.png"
   text="Fun and interactive method for displaying images"
   by="Annie"

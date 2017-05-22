@@ -11,7 +11,7 @@ Folks at the Lab have heard me talk about Hacker News.  I love it.  You may al
 
 The news is start-up, tech, or internet related (or otherwise compelling).  Good stories get voted up, and over time, gradually fade to the background. The ranking algorithm is explained here: [http://amix.dk/blog/post/19574](http://amix.dk/blog/post/19574)
 
-In practice, what HN is is a large group (thousands) of really smart people, that become your extended curators/editors of all things web.  They crawl all the corners of its corners and post what they think the community would find interesting.  The thing that really sets it apart though is the quality - this is a really smart crowd.  What gets voted up, is worthy.  The comments are very good too.
+In practice, what HN is is a large group (thousands) of really smart people, that become your extended curators/editors of all things web.  They crawl all the corners of its corners and post what they think the community would find interesting.  The thing that really sets it apart though is the quality---this is a really smart crowd.  What gets voted up, is worthy.  The comments are very good too.
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM-300x284.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM.png)
 Simple, information rich presentation

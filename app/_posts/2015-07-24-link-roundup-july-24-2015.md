@@ -43,7 +43,7 @@ A block of links sourced from the team. We've got Annie, Adam, dano, and Matt!
 
 {% include roundup-item.html
   link="http://mentalfloss.com/article/66087/swedish-puzzle-rooms-test-teams-wits-and-strength"
-  title="Swedish Puzzle Rooms Test Teams’ Wits and Strength | Mental Floss"
+  title="Swedish Puzzle Rooms Test Teams' Wits and Strength | Mental Floss"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/55a6642c6f6a5.png"
   text="Obstacle course puzzle rooms in an old department store. Why not in a library?"
   by="Annie"

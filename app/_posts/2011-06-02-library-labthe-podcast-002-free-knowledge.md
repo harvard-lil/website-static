@@ -22,7 +22,9 @@ Open access has picked up steam over the years as [**many journals**](http://www
 [**Peter Suber**](http://www.earlham.edu/~peters/hometoc.htm) — a fellow at Harvard's Berkman Center for Internet & Society — is a leading policy strategist working for Open Access models. The Harvard Library Innovation Lab's very own David Weinberger caught up with Peter for this week's podcast to talk about Open Access, and the new challenges librarians face with making a growing body of digital scholarship actually usable and sortable.
 
 ![](http://farm1.static.flickr.com/7/9450783_7ceb63cd91.jpg)
-===========
+
+___
+
 Subscribe to the RSS of the LibraryLab podcast [**here**](http://librarylab.law.harvard.edu/blog/category/podcast/) to stay updated on upcoming episodes!
 
 Subscribe to us in [**iTunesU**](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=457060447)

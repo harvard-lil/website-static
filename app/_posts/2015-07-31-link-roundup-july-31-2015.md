@@ -42,7 +42,7 @@ This is the good stuff.
 
 {% include roundup-item.html
   link="https://medium.com/backchannel/the-white-house-s-alpha-geek-20b338738929"
-  title="The White House’s Alpha Geeks — Backchannel — Medium"
+  title="The White House's Alpha Geeks — Backchannel — Medium"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/55b7b9e2dc678.png"
   text="Making tech happen inside gov"
   by="Adam"

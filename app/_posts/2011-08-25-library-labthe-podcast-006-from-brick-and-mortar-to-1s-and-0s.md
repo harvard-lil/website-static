@@ -21,7 +21,7 @@ It's a challenging question, but libraries and museums aren't finding themselves
 
 [**Susan Hildreth**](http://www.imls.gov/about/staffdetail.aspx?StaffId=18) is the director of the [**Institute of Museum and Library Services**](http://www.imls.gov/) which serves the nation's 123,000 libraries and 17,500 museums.
 
-Susan recently got on the phone with Harvard Library Innovation Lab’s very own David Weinberger to talk about the role these brick and mortar institutions play in the digital age.
+Susan recently got on the phone with Harvard Library Innovation Lab's very own David Weinberger to talk about the role these brick and mortar institutions play in the digital age.
 
 ---
 

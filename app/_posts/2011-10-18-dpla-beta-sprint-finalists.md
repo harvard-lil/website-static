@@ -14,25 +14,15 @@ For those interested in comparing the demos of the 6 DPLA Beta Sprint finalists 
 
 Links to the demos:
 
+1. [Digital Collaboration for America's National Collections](http://blogs.law.harvard.edu/dplaalpha/entries/digital-collaboration-for-americas-national-collections/)
 
+2. [DLF/DCC: DPLA Beta Sprint](http://blogs.law.harvard.edu/dplaalpha/entries/dlfdcc-dpla-beta-sprint/)
 
+3. [extraMUROS](http://blogs.law.harvard.edu/dplaalpha/entries/extramuros/ )
 
-  1. [Digital Collaboration for America’s National Collections](http://blogs.law.harvard.edu/dplaalpha/entries/digital-collaboration-for-americas-national-collections/)
-
-
-  2. [DLF/DCC: DPLA Beta Sprint](http://blogs.law.harvard.edu/dplaalpha/entries/dlfdcc-dpla-beta-sprint/)
-
-
-  3. [extraMUROS](http://blogs.law.harvard.edu/dplaalpha/entries/extramuros/ )
-
-
-  4. [Government Publications: Enhanced Access and Discovery through
+4. [Government Publications: Enhanced Access and Discovery through
 Open Linked Data and Crowdsourcing](http://blogs.law.harvard.edu/dplaalpha/entries/government-publications-enhanced-access-and-discovery-through-open-linked-data-and-crowdsourcing/)
 
+5. [Metadata Interoperability Services](http://blogs.law.harvard.edu/dplaalpha/entries/metadata-interoperability-services/)
 
-  5. [Metadata Interoperability Services](http://blogs.law.harvard.edu/dplaalpha/entries/metadata-interoperability-services/)
-
-
-  6. [ShelfLife and LibraryCloud](http://blogs.law.harvard.edu/dplaalpha/entries/shelflife-and-librarycloud/)
-
-
+6. [ShelfLife and LibraryCloud](http://blogs.law.harvard.edu/dplaalpha/entries/shelflife-and-librarycloud/)

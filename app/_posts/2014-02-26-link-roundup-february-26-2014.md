@@ -16,7 +16,7 @@ categories:
 
 {% include roundup-item.html
   link="http://techcrunch.com/2014/02/25/paramount-afraid-tweeted-stills-of-top-gun-compete-with-actual-movie/"
-  title="Paramount Afraid Tweeted Stills Of ‘Top Gun’ Compete With Actual Movie"
+  title="Paramount Afraid Tweeted Stills Of ‘Top Gun' Compete With Actual Movie"
   text="Top Gun tweeted frame by frame. Brilliant!"
   by="Matt Phillips"
 %}
@@ -31,7 +31,7 @@ categories:
 {% include roundup-item.html
   link="http://www.slate.com/blogs/behold/2014/02/11/kyle_cassidy_photographs_librarians_at_the_american_library_association.html"
   title="Portraits of librarians at the American Library Association Midwinter Meeting"
-  text="Portraits of librarians at American Library Association’s Midwinter Meeting in Philadelphia in January"
+  text="Portraits of librarians at American Library Association's Midwinter Meeting in Philadelphia in January"
   by="Matt Phillips"
 %}
 

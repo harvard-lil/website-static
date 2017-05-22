@@ -17,7 +17,7 @@ categories:
 
 {% include roundup-item.html
   link="http://fivethirtyeight.com/features/how-to-tell-someones-age-when-all-you-know-is-her-name/"
-  title="How to Tell Someone’s Age When All You Know Is Her Name"
+  title="How to Tell Someone's Age When All You Know Is Her Name"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/thumb-CCGsjdNR.png"
   text="I want this, but for publications. Take CS, the average age of an Info Theory pub has to be 40 years. Big data, 3."
   by="Matt Phillips"

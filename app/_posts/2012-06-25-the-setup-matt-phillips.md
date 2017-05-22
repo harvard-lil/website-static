@@ -30,7 +30,7 @@ That's the bigger hardware.
 
 My head spends about a third of its day wrapped in [Sennheiser HD 515 headphones](http://www.amazon.com/Sennheiser-HD515-Dynamic-Audiophile-Headphones/dp/B0001FTVDG).
 
-I occasionally break out of the digital world and scratch things out on paper. This usually happens when I'm trying to architect a piece of system or I’m working through some tough logic. I've found that I really like strips of paper for drawing out ideas. 8.5" x 11" pieces cut lengthwise are perfect.
+I occasionally break out of the digital world and scratch things out on paper. This usually happens when I'm trying to architect a piece of system or I'm working through some tough logic. I've found that I really like strips of paper for drawing out ideas. 8.5" x 11" pieces cut lengthwise are perfect.
 
 [Rollerball pens](http://en.wikipedia.org/wiki/Rollerball_pen) are my go to.
 
@@ -48,13 +48,13 @@ I rely heavily on [Quicksilver](https://github.com/quicksilver/quicksilver) for 
 
 I have a whole bunch of different user accounts and API keys. I use [Keychain](https://en.wikipedia.org/wiki/Keychain_(Mac_OS)) to keep track of them.
 
-I manage myself using lists. Lately, I’ve been hot on [Trello](https://trello.com/).
+I manage myself using lists. Lately, I've been hot on [Trello](https://trello.com/).
 
-[Chrome](https://www.google.com/intl/en/chrome/browser/) is the browser I prefer. I’ve bolstered Chrome with the [JSONView plugin](https://chrome.google.com/webstore/detail/chklaanhfefbnpoihckbnefhakgolnmc), the [Google Screen Capture plugin](https://chrome.google.com/webstore/detail/cpngackimfmofbokmjmljamhdncknpmg), the [Readable bookmarklet](http://readable.tastefulwords.com/), the [AdBlock plugin](https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom), and the [Instapaper bookmarklet](http://www.instapaper.com/).
+[Chrome](https://www.google.com/intl/en/chrome/browser/) is the browser I prefer. I've bolstered Chrome with the [JSONView plugin](https://chrome.google.com/webstore/detail/chklaanhfefbnpoihckbnefhakgolnmc), the [Google Screen Capture plugin](https://chrome.google.com/webstore/detail/cpngackimfmofbokmjmljamhdncknpmg), the [Readable bookmarklet](http://readable.tastefulwords.com/), the [AdBlock plugin](https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom), and the [Instapaper bookmarklet](http://www.instapaper.com/).
 
 I spend most of my development time in [PyDev](http://pydev.org/) (which is a [Python](http://www.python.org/) centric bundling of [Eclipse](http://eclipse.org/)).
 
-If I’m coding and I’m not in PyDev, I’m probably doing some quick proof of concept scripting or doing some [PHP](http://www.php.net/)/[JavaScript](https://en.wikipedia.org/wiki/JavaScript)/Web development . For this type of work I’ll use [TextMate](http://macromates.com/) if I’m working locally and [vi](https://en.wikipedia.org/wiki/Vi) if I’m working remotely.
+If I'm coding and I'm not in PyDev, I'm probably doing some quick proof of concept scripting or doing some [PHP](http://www.php.net/)/[JavaScript](https://en.wikipedia.org/wiki/JavaScript)/Web development . For this type of work I'll use [TextMate](http://macromates.com/) if I'm working locally and [vi](https://en.wikipedia.org/wiki/Vi) if I'm working remotely.
 
 We track code using [git](http://git-scm.com/) and push almost all work to [GitHub](https://github.com/harvard-lil). We use [GitHub Issues](https://github.com/blog/831-issues-2-0-the-next-generation) for project management. We really dig GitHub in the lab.
 
@@ -64,16 +64,16 @@ GitHub encourages [Markdown](http://daringfireball.net/projects/markdown/) for R
 
 I use [Skype](http://skype.com) and [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) to communicate with those outside the office. IRC happens through [Colloquy](http://colloquy.info/).
 
-I like to check the weather to see if I’ll be able to spin the bicycle around for a few miles after work. I’m into [WeatherSpark](http://weatherspark.com) for forecasts.
+I like to check the weather to see if I'll be able to spin the bicycle around for a few miles after work. I'm into [WeatherSpark](http://weatherspark.com) for forecasts.
 
 [![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/matt_setup_desk-e1340592975240.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/matt_setup_desk-e1340592975240.jpg)
 
 **What would be your dream setup?**
 
-I could go wild with the dream setup, but I feel like bounding it a bit. Here’s what I think might be feasible in a couple years with a generous office budget.
+I could go wild with the dream setup, but I feel like bounding it a bit. Here's what I think might be feasible in a couple years with a generous office budget.
 
-I want a really great laptop. A [third generation, i7, Retina display, 15 inch MacBook Pro](https://en.wikipedia.org/wiki/MacBook_Pro). I’d pair it with a [27” Apple Thunderbolt Display](https://en.wikipedia.org/wiki/Apple_Thunderbolt_Display). I’d pile all of that on a standing/sitting desk.
+I want a really great laptop. A [third generation, i7, Retina display, 15 inch MacBook Pro](https://en.wikipedia.org/wiki/MacBook_Pro). I'd pair it with a [27" Apple Thunderbolt Display](https://en.wikipedia.org/wiki/Apple_Thunderbolt_Display). I'd pile all of that on a standing/sitting desk.
 
-I’d also create an ideal office space. No office mates. A glass wall that insulates sound very well. I want to be able to see what’s going on in the common work areas and I want people to see that they can get me if needed, but I don’t want the noise when I’m focusing. I’m sold on the [Joel Spolsky office setup](http://www.joelonsoftware.com/items/2008/12/29.html).
+I'd also create an ideal office space. No office mates. A glass wall that insulates sound very well. I want to be able to see what's going on in the common work areas and I want people to see that they can get me if needed, but I don't want the noise when I'm focusing. I'm sold on the [Joel Spolsky office setup](http://www.joelonsoftware.com/items/2008/12/29.html).
 
 Quick access to great coffee and water would be nice too.

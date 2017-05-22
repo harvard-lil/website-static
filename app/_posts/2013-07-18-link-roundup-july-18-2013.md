@@ -10,7 +10,7 @@ categories:
 {% include roundup-item.html
   link="http://library.harvard.edu/looking-beyond-recipes-academic-approach-reading-cookbooks?utm_source=SilverpopMailing&utm_medium=email&utm_campaign=Copy%20of%20Copy%20of%207.16.13III%20(1)"
   title="Looking Beyond the Recipes: An Academic Approach to Reading Cookbooks"
-  text="Libraries build communities -- “One of the most thrilling aspects of being here is being in the same room with so many international cookbook readers and writers,”"
+  text="Libraries build communities -- "One of the most thrilling aspects of being here is being in the same room with so many international cookbook readers and writers,""
   by="Matt Phillips"
 %}
 
@@ -29,7 +29,7 @@ categories:
 
 {% include roundup-item.html
   link="http://lj.libraryjournal.com/2013/07/shows-events/ala/1-million-gates-grant-to-fund-chicago-aarhus-libraries-innovation-partnership-ala-annual-2013/"
-  title="$1 Million Gates Grant to Fund Chicago, Aarhus Libraries’ Innovation Partnership | ALA Annual 2013"
+  title="$1 Million Gates Grant to Fund Chicago, Aarhus Libraries' Innovation Partnership | ALA Annual 2013"
   by="David Weinberger"
 %}
 

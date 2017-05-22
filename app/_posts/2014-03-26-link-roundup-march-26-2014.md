@@ -9,7 +9,7 @@ categories:
 {% include roundup-item.html
   link="http://opinionator.blogs.nytimes.com/2014/03/24/keep-it-short/?src=me&ref=general"
   title="Keep It Short"
-  text="\"The point of brevity isn’t to chop a certain kind of word, but to make sure that each word is essential.\""
+  text="\"The point of brevity isn't to chop a certain kind of word, but to make sure that each word is essential.\""
   by="Matt Phillips"
 %}
 
@@ -51,6 +51,6 @@ categories:
 {% include roundup-item.html
   link="http://www.nytimes.com/2014/03/08/us/breaking-out-of-the-library-mold-in-boston-and-beyond.html?src=me&ref=general&_r=0"
   title="Breaking Out of the Library Mold, in Boston and Beyond"
-  text="Nice piece on BPL renovation and its exciting community engagement. “We’re turning ourselves outward.”"
+  text="Nice piece on BPL renovation and its exciting community engagement. "We're turning ourselves outward.""
   by="Matt Phillips"
 %}
