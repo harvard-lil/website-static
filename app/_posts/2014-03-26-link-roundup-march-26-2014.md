@@ -51,6 +51,6 @@ categories:
 {% include roundup-item.html
   link="http://www.nytimes.com/2014/03/08/us/breaking-out-of-the-library-mold-in-boston-and-beyond.html?src=me&ref=general&_r=0"
   title="Breaking Out of the Library Mold, in Boston and Beyond"
-  text="Nice piece on BPL renovation and its exciting community engagement. "We're turning ourselves outward.""
+  text="Nice piece on BPL renovation and its exciting community engagement. \"We're turning ourselves outward.\""
   by="Matt Phillips"
 %}

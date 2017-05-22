@@ -38,7 +38,7 @@ This is the good stuff.
   link="http://www.nytimes.com/2015/06/07/magazine/can-the-swiss-watchmaker-survive-the-digital-age.html"
   title="Can the Swiss Watchmaker Survive the Digital Age?"
   screenshot="http://librarylab.law.harvard.edu/roundup/images/55784340392c3.png"
-  text="The clock itself was a first step toward the "quantified self,""
+  text="The clock itself was a first step toward the \"quantified self,\""
   by="Matt Phillips"
 %}
 

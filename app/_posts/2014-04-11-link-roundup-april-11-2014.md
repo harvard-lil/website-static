@@ -30,7 +30,7 @@ categories:
 
 {% include roundup-item.html
   link="http://etseq.law.harvard.edu/2014/04/852-rare-old-books-new-technologies-and-the-human-skin-book-at-hls/"
-  title=""The Human Skin Book" at HLS"
+  title="\"The Human Skin Book\" at HLS"
   text="\"The Human Skin Book\" at HLS not human skin after all"
   by="Annie"
 %}

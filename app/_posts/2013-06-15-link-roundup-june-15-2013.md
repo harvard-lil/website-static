@@ -37,7 +37,7 @@ categories:
 {% include roundup-item.html
   link="http://well.blogs.nytimes.com/2013/06/06/this-is-your-brain-on-coffee/"
   title="This Is Your Brain on Coffee"
-  text="a cup or three of coffee "has been popular for a long, long time,", "and there's probably good reasons for that.""
+  text="a cup or three of coffee \"has been popular for a long, long time,\", \"and there's probably good reasons for that.\""
   by="Matt Phillips"
 %}
 
