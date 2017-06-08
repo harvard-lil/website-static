@@ -318,6 +318,13 @@ berkman:
   twitter_account_name: berkmancenter
   affiliated: false
 
+anna-bialas:
+  name: Anna Bialas
+  sort_name: Bialas
+  role: LIL and Berkman Summer Intern 
+  github_account_name: annabialas
+  affiliated: false
+
 rachel-binx:
   name: Rachel Binx
   sort_name: Binx
@@ -467,6 +474,14 @@ ilya-kreymer:
   github_account_name: ikreymer
   affiliated: false
 
+doyung-lee:
+  name: Doyung Lee
+  sort_name: Lee
+  role: LIL and Berkman Summer Intern 
+  website: https://doyunglee.github.io/
+  github_account_name: doyunglee
+  affiliated: false
+
 erica-leeman:
   name: Erica Leeman
   sort_name: Leeman
@@ -565,6 +580,13 @@ carli-spina:
   role: Emerging Technologies and Research Librarian
   affiliated: false
 
+zach-tan:
+  name: Zach Tan
+  sort_name: Tan
+  role: LIL and Berkman Summer Intern 
+  website: http://www.zachtan.co/
+  affiliated: false
+
 shailin-thomas:
   name: Shailin Thomas
   sort_name: Thomas
@@ -631,4 +653,4 @@ jessica-yurkofsky:
   sort_name: Yurkofsky
   website: http://www.jessyurko.com/
   affiliated: false
-
+  
