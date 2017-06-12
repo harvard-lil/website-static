@@ -10,9 +10,9 @@ tags:
 - podcasts
 ---
 
-[**Listen: 23:07**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2012-02-02_marilynjohnson.mp3)
+[**Listen: 23:07**](https://lil-blog-media.s3.amazonaws.com/podcast/2012-02-02_marilynjohnson.mp3)
 
-([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2012-02-02_marilynjohnson.ogg))
+([**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2012-02-02_marilynjohnson.ogg))
 
 "Your average citizen is not technologically savvy," says Marilyn Johnson, the author of [_This Book Is Overdue!: How Librarians and Cybrarians Can Save Us All_](http://www.marilynjohnson.net/_i_this_book_is_overdue___i__89022.htm)
 

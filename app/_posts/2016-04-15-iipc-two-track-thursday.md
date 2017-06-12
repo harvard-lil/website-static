@@ -6,7 +6,7 @@ title: 'IIPC: Two Track Thursday'
 wordpress_id: 2267
 ---
 
-[![2016-04-14x](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/2016-04-14x.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/2016-04-14x.jpg)
+[![2016-04-14x](https://lil-blog-media.s3.amazonaws.com/2016/04/2016-04-14x.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/04/2016-04-14x.jpg)
 _A protester throwing cookies at the parliament._
 
 Here are some things that caught our ear this fine Thursday at the International Internet Preservation Consortium web archiving conference:
@@ -47,8 +47,8 @@ Here are some things that caught our ear this fine Thursday at the International
 
 TL;DR: lots of exciting things happening in the archiving world. Also exciting: the Icelandic political landscape. On the way to dinner, the team happened upon a [relatively small](http://icelandreview.com/news/2016/04/05/panama-papers-protest-pictures) protest right outside of the parliament. There was pot clanging, oil barrel banging, and an interesting use of an active smoke alarm machine as a noise maker. We were also handed "red cards" to wave at the government.
 
-<video width="580" height="326" preload="metadata" controls="controls">  <source type="video/mp4" src="http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/Slack-for-iOS-Upload-1.mp4?_=1">
-  <a href="http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/Slack-for-iOS-Upload-1.mp4">http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/04/Slack-for-iOS-Upload-1.mp4</a>
+<video width="580" height="326" preload="metadata" controls="controls">  <source type="video/mp4" src="https://lil-blog-media.s3.amazonaws.com/2016/04/Slack-for-iOS-Upload-1.mp4">
+  <a href="https://lil-blog-media.s3.amazonaws.com/2016/04/Slack-for-iOS-Upload-1.mp4">https://lil-blog-media.s3.amazonaws.com/2016/04/Slack-for-iOS-Upload-1.mp4</a>
 </video>
 
 Now we're off to look for the northern lights!

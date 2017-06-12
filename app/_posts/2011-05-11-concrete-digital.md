@@ -10,9 +10,9 @@ tags:
 - podcast
 ---
 
-[**Listen: 23:59**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-05_james.mp3)
+[**Listen: 23:59**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-05-05_james.mp3)
 
-[**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-05_james.ogg)
+[**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-05-05_james.ogg)
 
 There's a lot of talk about what the future of publishing looks like. Designers and innovators draw up these artistic visualizations of tablets, touchscreens, and interactive multimedia literature mashups to illustrate the possibilities.
 

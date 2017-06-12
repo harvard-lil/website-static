@@ -9,7 +9,7 @@ This is an olde post, that I'm coming back to, and adding onto.  Two interestin
 
 **1)  Twitter as Subject Stream:** Over on techcrunch there's a [post](http://techcrunch.com/2010/11/09/why-is-quora-mass-creating-twitter-accounts-on-mechanical-turk/) about how [Quora](http://www.quora.com/) is using Mechanical Turk to automate the creation of twitter accounts.  Quora is a mass  Q & A website for anything.  You ask a question: "Where's the best  place to crowdsource an icon?", and you get a response, for example from user alton  sun :"[99designs.com....](http://99designs.com/)".
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/11/Picture-202.png)](http://techcrunch.com/2010/11/09/why-is-quora-mass-creating-twitter-accounts-on-mechanical-turk/)
+[![](https://lil-blog-media.s3.amazonaws.com/2010/11/Picture-202.png)](http://techcrunch.com/2010/11/09/why-is-quora-mass-creating-twitter-accounts-on-mechanical-turk/)
 
 Quora the site is organized into many subject areas which you can subscribe to (UI, Startups etc.).  They are creating a twitter account for each of these subject areas, so those interested Quora users can subscribe to the feed and get the newest message from that subject area.  It's cool.
 

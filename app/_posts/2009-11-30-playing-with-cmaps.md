@@ -10,4 +10,4 @@ categories:
 
 Concept maps may be a useful tool for us to map out some of the things we are working with.  The tool I have used many times in the past can be found [here](http://cmap.ihmc.us/download/dlp_CmapTools.php) and was developed by the Florida Institute for Human & Machine Cognition (IHMC).  Here is a sample map:
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2009/11/Authors-and-Publications1-1024x688-300x201.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2009/11/Authors-and-Publications1-1024x688.jpg)
+[![](https://lil-blog-media.s3.amazonaws.com/2009/11/Authors-and-Publications1.jpg)](https://lil-blog-media.s3.amazonaws.com/2009/11/Authors-and-Publications1.jpg)

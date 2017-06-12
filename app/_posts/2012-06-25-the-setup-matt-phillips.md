@@ -16,7 +16,7 @@ I'm Matt Phillips.
 
 I work in the Harvard Library Innovation Lab. I try to make libraries better, usually by writing software.
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/DSC_3349-e1340592772849.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/DSC_3349-e1340592772849.jpg)
+[![](https://lil-blog-media.s3.amazonaws.com/2012/06/DSC_3349-e1340592772849.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/06/DSC_3349-e1340592772849.jpg)
 
 **What hardware do you use?**
 
@@ -66,7 +66,7 @@ I use [Skype](http://skype.com) and [IRC](https://en.wikipedia.org/wiki/Internet
 
 I like to check the weather to see if I'll be able to spin the bicycle around for a few miles after work. I'm into [WeatherSpark](http://weatherspark.com) for forecasts.
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/matt_setup_desk-e1340592975240.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/06/matt_setup_desk-e1340592975240.jpg)
+[![](https://lil-blog-media.s3.amazonaws.com/2012/06/matt_setup_desk-e1340592975240.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/06/matt_setup_desk-e1340592975240.jpg)
 
 **What would be your dream setup?**
 

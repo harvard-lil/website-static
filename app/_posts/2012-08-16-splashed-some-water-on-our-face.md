@@ -19,7 +19,7 @@ The goals:
 
 **1)** We'd built the original site about two years ago---a long time in internet time.  It worked, but it was a bit heavy and very fixed.  We wanted to lighten up things a bit.  Annie ended up on [2x4's website](http://2x4.org/) and that started everything off.
 
-![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2012/08/2x4-178x300.png)As you'll no doubt see, our homepage is HEAVILY inspired by 2x4's work.  Ours is less refined, but gets at the general idea of a long pane of scattershot (but underlying grid adhering) images.
+![](https://lil-blog-media.s3.amazonaws.com/2012/08/2x4.png)As you'll no doubt see, our homepage is HEAVILY inspired by 2x4's work.  Ours is less refined, but gets at the general idea of a long pane of scattershot (but underlying grid adhering) images.
 
 **2)** By now, a lot of the web has been [Twitter Bootstrapped](http://twitter.github.com/bootstrap/)---folks everywhere have built their websites using Twitter's recently open source web framework, Bootstrap.  There are a lot of reasons for this, but the primary one is packaging.  They've thrown in nice buttons, cross-browser fixes, and a good responsive grid to make your site work on mobile.  The elegant mobile handling is really why we started on this framework.
 

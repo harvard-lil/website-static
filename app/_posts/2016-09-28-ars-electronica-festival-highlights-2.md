@@ -20,14 +20,14 @@ I'm sharing more highlights from this year's [Ars Electronica Festival](http://w
 **Single Stroke Structures by Takahiro Hasegawa and Yasuaki Kakehi** &mdash; make temporary structures (maybe even phone booths!?!) out of strategically crimped, inflated plastic tubing. How amazing would it be to keep a shed in your backpack?
 {: .no-ligatures}
 
-[![img_6718](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_6718-e1475077413135-225x300.jpg){: .img-full-width}](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_6718-e1475077413135.jpg)
+[![img_6718](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_6718-e1475077413135.jpg){: .img-full-width}](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_6718-e1475077413135.jpg)
 
-[![img_6717](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_6717-e1475077399919-225x300.jpg){: .img-full-width}](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_6717-e1475077399919.jpg)
+[![img_6717](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_6717-e1475077399919.jpg){: .img-full-width}](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_6717-e1475077399919.jpg)
 
 **[Highlight](http://highlight.digital.udk-berlin.de/) by Jussi Ängeslavä, Michael Burk, Iohanna Nicenboim** &mdash; direct light using a lampshade. 3D printing allows for the matching of shade with the room &mdash; direct light where you want it.
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/i-225x300.jpg){: .img-full-width}](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/i.jpg)
+[![](https://lil-blog-media.s3.amazonaws.com/2016/09/i.jpg){: .img-full-width}](https://lil-blog-media.s3.amazonaws.com/2016/09/i.jpg)
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/j-225x300.jpg){: .img-full-width}](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/j.jpg)
+[![](https://lil-blog-media.s3.amazonaws.com/2016/09/j.jpg){: .img-full-width}](https://lil-blog-media.s3.amazonaws.com/2016/09/j.jpg)
 
 **Photosynth printing** &mdash; print on plants. Mask the leaf and expose the rest to light that causes alters the photosynth process.

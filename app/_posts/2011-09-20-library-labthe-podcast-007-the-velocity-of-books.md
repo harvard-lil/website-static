@@ -9,9 +9,9 @@ tags:
 - podcast
 ---
 
-[**Listen: 22:28**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-09-20_timspalding.mp3)
+[**Listen: 22:28**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-09-20_timspalding.mp3)
 
-([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-09-20_timspalding.ogg))
+([**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-09-20_timspalding.ogg))
 
 With the web, people are reading more than ever before you could say. But what are we reading? Likely it's all short form: blog posts, tweets, status updates. They're words, but it's not exactly _literature_.
 

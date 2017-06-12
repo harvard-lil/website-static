@@ -9,9 +9,9 @@ tags:
 - podcast
 ---
 
-[**Listen: 27:09**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-06-20_dancohen.mp3)
+[**Listen: 27:09**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-06-20_dancohen.mp3)
 
-[**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-06-20_dancohen.ogg)
+[**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-06-20_dancohen.ogg)
 
 ![](http://farm5.static.flickr.com/4070/5133979718_9ba39f8b38.jpg)
 

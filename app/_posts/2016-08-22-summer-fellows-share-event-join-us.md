@@ -14,4 +14,4 @@ Please RSVP to [Gail Harris](mailto:gharris@law.harvard.edu)
 
 Our fellows will be sharing their work these fascinating topics on **Wednesday, August 24 from 1:00-3:00 in Casperon Room****.**
 
-[![fellows-poster](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/08/fellows-poster-1024x1024.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/08/fellows-poster.png)
+[![fellows-poster](https://lil-blog-media.s3.amazonaws.com/2016/08/fellows-poster.png)](https://lil-blog-media.s3.amazonaws.com/2016/08/fellows-poster.png)

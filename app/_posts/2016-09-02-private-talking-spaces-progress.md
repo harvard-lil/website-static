@@ -13,18 +13,18 @@ Much of the labor has been contributed by our collaborator, Nic Schumann, at [W
 
 We started in Work-Shop's building and had the opportunity to see what remained of the recent [Uncommissioned show].(http://uncommissioned.thedesignoffice.org/)
 
-[![IMG_5137](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_5137-768x1024.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_5137.jpg)
+[![IMG_5137](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_5137.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_5137.jpg)
 
 We then played with [Work-Shop's phone booth](http://workshopri.com/projects/the-phone-booth/). Fantastic!!
 
-[![IMG_5163](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_5163-768x1024.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_5163.jpg)
+[![IMG_5163](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_5163.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_5163.jpg)
 
 A quick walk down the street led us to [RISD's Fleet Library](https://library.risd.edu/). I'm still filled with inspiration a day later.
 
-[![IMG_5144](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_5144-768x1024.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_5144.jpg)
+[![IMG_5144](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_5144.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_5144.jpg)
 
 So many thoughtful spaces in the Fleet Library including these little study cubbies.
 
-[![IMG_5217](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_5217-1024x768.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2016/09/IMG_5217.jpg)
+[![IMG_5217](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_5217.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/09/IMG_5217.jpg)
 
 We wrapped up the day by taking the scenic route to the train station. ❤️ Providence.

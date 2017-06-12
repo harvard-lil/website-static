@@ -7,13 +7,13 @@ wordpress_id: 366
 
 BBC has a brilliant new site, [Dimensions](http://howbigreally.com/), another wonder of design by [BERG](http://berglondon.com/).  It is an effort to communicate scale (of real life events and disasters) in personalized and meaningful, ways.  From my POV, it's the best google maps mashup out there.   Again, visit:
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/09/howbigreally-300x211.png)](http://howbigreally.com/)
+[![](https://lil-blog-media.s3.amazonaws.com/2010/09/howbigreally.png)](http://howbigreally.com/)
 
 [http://howbigreally.com/](http://howbigreally.com/) (and great name too)
 
 It reminds me of Sherman Williams' logo, which is a truth:
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/09/sherwin-williams-logo-paint1-300x248.jpg)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/09/sherwin-williams-logo-paint1.jpg)
+[![](https://lil-blog-media.s3.amazonaws.com/2010/09/sherwin-williams-logo-paint1.jpg)](https://lil-blog-media.s3.amazonaws.com/2010/09/sherwin-williams-logo-paint1.jpg)
 
 I think communicating the profound scale of collections, and the human hours that go into creating it, could be useful.  Perhaps it would help better communicate the respect which libraries are perhaps due.
 

@@ -9,9 +9,9 @@ tags:
 - podcast
 ---
 
-[**Listen: 23:59**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-28_suber.mp3)
+[**Listen: 23:59**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-05-28_suber.mp3)
 
-[**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-05-28_suber.ogg)
+[**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-05-28_suber.ogg)
 
 Scholarly journals were once enormously expensive. Because they were pricey to produce — it took a lot of money to coordinate the peer review, and to edit, print, bind, and distribute all those volumes — access was pricey as well.
 

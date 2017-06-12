@@ -9,13 +9,13 @@ The [Harvard Library Innovation Lab]({{ site.baseurl}}/) and the [Berkman Center
 
 Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of our current efforts.
 
-[![perma-in-frame](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2014/11/perma-in-frame.jpg)](http://perma.cc)
+[![perma-in-frame](https://lil-blog-media.s3.amazonaws.com/2014/11/perma-in-frame.jpg)](http://perma.cc)
 [Perma.cc](http://perma.cc), a web archiving service that is powered by libraries
 
-[![h-i-f](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2014/11/h-i-f1.jpg)](https://h2o.law.harvard.edu/)
+[![h-i-f](https://lil-blog-media.s3.amazonaws.com/2014/11/h-i-f1.jpg)](https://h2o.law.harvard.edu/)
 [H2O](https://h2o.law.harvard.edu/), a platform for creating, sharing and adapting open course materials
 
-[![a-i-f](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2014/11/a-i-f.jpg)](http://amberlink.org/)
+[![a-i-f](https://lil-blog-media.s3.amazonaws.com/2014/11/a-i-f.jpg)](http://amberlink.org/)
 [Amber](http://amberlink.org), a server side plugin to keep links working on blogs and websites
 
 ## What you'll do

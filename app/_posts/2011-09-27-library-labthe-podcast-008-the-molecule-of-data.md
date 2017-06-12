@@ -9,9 +9,9 @@ tags:
 - podcast
 ---
 
-[**Listen: 20:46**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-09-27_karencoyle.mp3)
+[**Listen: 20:46**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-09-27_karencoyle.mp3)
 
-([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-09-27_karencoyle.ogg))
+([**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-09-27_karencoyle.ogg))
 
 ![](http://farm5.static.flickr.com/4019/4585779619_85ce3dd180_b.jpg)
 

@@ -9,9 +9,9 @@ tags:
 - podcast
 ---
 
-[**Listen: 32:18**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-07-06_jarvis.mp3)
+[**Listen: 32:18**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-07-06_jarvis.mp3)
 
-[**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-07-06_jarvis.ogg)
+[**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-07-06_jarvis.ogg)
 
 Guarding patron privacy is kind of the default in the library business. When it comes to knowing who checked out what and when libraries usually prefer to flush the cache---except when it comes to collecting fines!
 

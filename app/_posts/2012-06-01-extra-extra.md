@@ -8,32 +8,32 @@ wordpress_id: 1117
 Read all about it! [Library Test Kitchen](http://www.librarytestkitchen.org/) made the news!  Well, more accurately, we made the newsPAPER.
 
 <div class="gallery-sq gallery-thirds">
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0267-150x150.jpg">
-    <img src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0267-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0267.jpg">
+    <img src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0267-150x150.jpg" alt="">
   </a>
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0266-150x150.jpg">
-    <img width="150" height="150" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0266-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0266.jpg">
+    <img width="150" height="150" src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0266" alt="">
   </a>
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0265-150x150.jpg">
-    <img width="150" height="150" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0265-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0265.jpg">
+    <img width="150" height="150" src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0265.jpg" alt="">
   </a>
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0264-150x150.jpg">
-    <img width="150" height="150" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0264-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0264.jpg">
+    <img width="150" height="150" src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0264.jpg" alt="">
   </a>
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0263-150x150.jpg">
-    <img width="150" height="150" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0263-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0263.jpg">
+    <img width="150" height="150" src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0263.jpg" alt="">
   </a>
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0262-150x150.jpg">
-    <img width="150" height="150" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0262-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0262.jpg">
+    <img width="150" height="150" src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0262.jpg" alt="">
   </a>
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0261-150x150.jpg">
-    <img width="150" height="150" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0261-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0261.jpg">
+    <img width="150" height="150" src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0261.jpg" alt="">
   </a>
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0259-150x150.jpg">
-    <img width="150" height="150" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0259-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0259.jpg">
+    <img width="150" height="150" src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0259.jpg" alt="">
   </a>
-  <a class="gallery-item" href="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0258-150x150.jpg">
-    <img width="150" height="150" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2012/06/IMG_0258-150x150.jpg" alt="">
+  <a class="gallery-item" href="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0258.jpg">
+    <img width="150" height="150" src="https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0258.jpg" alt="">
   </a>
 </div>
 

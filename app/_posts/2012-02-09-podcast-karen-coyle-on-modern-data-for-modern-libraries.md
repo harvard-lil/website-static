@@ -13,5 +13,5 @@ tags:
 - podcast
 ---
 
-[Karen Coyle](http://kcoyle.net/) visited us today to talk with us about why it is time for libraries to move to a more modern idea of data, one that focuses more on the data and less on the records, and probably one that makes use of the linked data format that consists of links pointing at public sources. Here's a [17-minute podcast](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/karen_coyle.mp3) with her.
+[Karen Coyle](http://kcoyle.net/) visited us today to talk with us about why it is time for libraries to move to a more modern idea of data, one that focuses more on the data and less on the records, and probably one that makes use of the linked data format that consists of links pointing at public sources. Here's a [17-minute podcast](https://lil-blog-media.s3.amazonaws.com/podcast/karen_coyle.mp3) with her.
 

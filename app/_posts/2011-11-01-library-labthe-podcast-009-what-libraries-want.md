@@ -10,9 +10,9 @@ tags:
 - podcasts
 ---
 
-[**Listen: 20:46**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-11-01_kelly.mp3)
+[**Listen: 20:46**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-11-01_kelly.mp3)
 
-([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-11-01_kelly.ogg))
+([**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-11-01_kelly.ogg))
 
 The way we search for information on the web has antecedents in the way search works in traditional libraries and research journals. There's metadata, and there's also a sense of allowing the content that is most cited to float to the top.
 

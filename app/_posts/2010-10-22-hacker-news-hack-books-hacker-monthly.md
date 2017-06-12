@@ -13,31 +13,24 @@ The news is start-up, tech, or internet related (or otherwise compelling).  Goo
 
 In practice, what HN is is a large group (thousands) of really smart people, that become your extended curators/editors of all things web.  They crawl all the corners of its corners and post what they think the community would find interesting.  The thing that really sets it apart though is the quality---this is a really smart crowd.  What gets voted up, is worthy.  The comments are very good too.
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM-300x284.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM.png)
+[![](https://lil-blog-media.s3.amazonaws.com/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM.png)](https://lil-blog-media.s3.amazonaws.com/2010/10/Screen-shot-2010-10-22-at-6.52.47-PM.png)
 Simple, information rich presentation
 
 **Hacker Monthly**
 
 Okay, so one thing that HN spawned/inspired was [Hacker Monthly](http://www.magcloud.com/browse/Magazine/79699). Their model is super simple:  "Every month, we select the top voted articles from Hacker News and put them in the magazine format." And printing is handled on-demand by Mag Cloud.
 
-[![](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-7.00.34-PM1-300x195.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2010/10/Screen-shot-2010-10-22-at-7.00.34-PM1.png)
+[![](https://lil-blog-media.s3.amazonaws.com/2010/10/Screen-shot-2010-10-22-at-7.00.34-PM1.png)](https://lil-blog-media.s3.amazonaws.com/2010/10/Screen-shot-2010-10-22-at-7.00.34-PM1.png)
 
 Don't know if it's a business or what, but it's kinda profound:
 
+1. A compelling magazine
 
+2. crowd-edited
 
+3. printed on-demand
 
-  1. A compelling magazine
-
-
-  2. crowd-edited
-
-
-  3. printed on-demand
-
-
-  4. [designed](http://hackermonthly.posterous.com/on-designing-hacker-monthly), "edited", put together by 1 person, the hatcher of the idea
-
+4. [designed](http://hackermonthly.posterous.com/on-designing-hacker-monthly), "edited", put together by 1 person, the hatcher of the idea
 
 **Hacker Books**
 

@@ -11,11 +11,11 @@ Awesome Box will be there! We have a brand new look complete with stickers and b
 
 **Bookmarks**
 
-[![new bookmark](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2014/03/bookmark.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2014/03/bookmark.png)
+[![new bookmark](https://lil-blog-media.s3.amazonaws.com/2014/03/bookmark.png)](https://lil-blog-media.s3.amazonaws.com/2014/03/bookmark.png)
 
 **Stickers**
 
-[![AWESOME BOX stcker blue 1-01](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2014/03/AWESOME-BOX-stcker-blue-1-01.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2014/03/AWESOME-BOX-stcker-blue-1-01.png)
+[![AWESOME BOX stcker blue 1-01](https://lil-blog-media.s3.amazonaws.com/2014/03/AWESOME-BOX-stcker-blue-1-01.png)](https://lil-blog-media.s3.amazonaws.com/2014/03/AWESOME-BOX-stcker-blue-1-01.png)
 
 We're looking forward to meeting lots of new libraries and signing on more Awesome Box users.
 

@@ -6,7 +6,7 @@ title: 'Library Machines & SXSW: Gettin'' out the Vote!'
 wordpress_id: 1746
 ---
 
-[![LibraryMachines-SXSW](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2013/08/LibraryMachines-SXSW.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2013/08/LibraryMachines-SXSW.png)
+[![LibraryMachines-SXSW](https://lil-blog-media.s3.amazonaws.com/2013/08/LibraryMachines-SXSW.png)](https://lil-blog-media.s3.amazonaws.com/2013/08/LibraryMachines-SXSW.png)
 
 This March, Sidsel Bech-Petersen a Library Transformer at [Aarhus Public Libraries](https://www.aakb.dk/in-english) and I have proposed a session at South By Southwest Interactive.  It's called [Library Machines](http://panelpicker.sxsw.com/vote/19336), and essentially, it's a discussion/workshop to explore new ideas and directions for libraries.  It will be the spiritual sibling of last year's [Libraries: the Ultimate Playground](http://panelpicker.sxsw.com/vote/2696).
 

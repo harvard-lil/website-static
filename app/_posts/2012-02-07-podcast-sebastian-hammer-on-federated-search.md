@@ -11,4 +11,4 @@ tags:
 - search
 ---
 
-In this [23min podcast](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/sebastian-hammer.mp3) [[ogg here](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/Sebastian_Hammer.ogg)], Sebastian Hammer, president of [IndexData](http://www.indexdata.com), explains the srengths and limitations of federated search, which runs queries on a distributed set of sources, as opposed to using a big honking centralized index.
+In this [23min podcast](https://lil-blog-media.s3.amazonaws.com/podcast/sebastian-hammer.mp3) [[ogg here](https://lil-blog-media.s3.amazonaws.com/podcast/Sebastian_Hammer.ogg)], Sebastian Hammer, president of [IndexData](http://www.indexdata.com), explains the srengths and limitations of federated search, which runs queries on a distributed set of sources, as opposed to using a big honking centralized index.

@@ -11,13 +11,13 @@ The [Harvard Library Innovation Lab](http://librarylab.law.harvard.edu/) is loo
 
 Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of [our current efforts](http://librarylab.law.harvard.edu/projects).
 
-[![image01](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/10/image01.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/10/image01.png)
+[![image01](https://lil-blog-media.s3.amazonaws.com/2015/10/image01.png)](https://lil-blog-media.s3.amazonaws.com/2015/10/image01.png)
 [Perma.cc](http://perma.cc), a web archiving service that is powered by libraries
 
-[![image00](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/10/image00.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/10/image00.png)
+[![image00](https://lil-blog-media.s3.amazonaws.com/2015/10/image00.png)](https://lil-blog-media.s3.amazonaws.com/2015/10/image00.png)
 [H2O](https://h2o.law.harvard.edu/), a platform for creating, sharing and adapting open course materials
 
-[![image02](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/10/image02.png)](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/10/image02.png)
+[![image02](https://lil-blog-media.s3.amazonaws.com/2015/10/image02.png)](https://lil-blog-media.s3.amazonaws.com/2015/10/image02.png)
 [Awesome Box](http://awesomebox.io), an alternate returns box used by hundreds of libraries
 
 ## What you'll do

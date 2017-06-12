@@ -9,9 +9,9 @@ tags:
 - podcast
 ---
 
-[**Listen: 19:16**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-08-23_susan.mp3)
+[**Listen: 19:16**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-08-23_susan.mp3)
 
-([**Also in ogg**](http://librarylab.law.harvard.edu/blog/wp-content/uploads/podcast/2011-08-23_susan.ogg))
+([**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-08-23_susan.ogg))
 
 Some might assume that libraries and museums have outlived their purpose. When every book and archive can be recreated and reinterpreted digitally to create an incredible user experience, how is the physical and human infrastructure of the institution still necessary?
 

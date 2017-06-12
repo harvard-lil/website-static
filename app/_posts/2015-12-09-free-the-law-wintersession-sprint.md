@@ -5,7 +5,7 @@ title: Free the Law Wintersession Sprint
 wordpress_id: 2171
 ---
 
-![USB stick labeled 'all of the caselaw'](http://librarylab.law.harvard.edu/blog/wp-content/uploads/2015/12/Screen-Shot-2015-12-09-at-10.50.04-AM.png)
+![USB stick labeled 'all of the caselaw'](https://lil-blog-media.s3.amazonaws.com/2015/12/Screen-Shot-2015-12-09-at-10.50.04-AM.png)
 
 **TL;DR:** We are running a two week data mining sprint from January 4--15, 2016, open to current Harvard students, based on early access to a brand new data set of American caselaw. To apply, send a resume and brief statement of interest to jcushman at law dot harvard dot edu.
 
