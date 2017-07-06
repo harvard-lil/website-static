@@ -302,6 +302,12 @@ caroline-walters:
   role: Collection Development Librarian for U.S. Law
   affiliated: false
 
+zena-agha:
+  name: Zena Agha
+  sort_name: Agha
+  role: Summer Fellow
+  affiliated: false
+
 neel-agrawal:
   name: Neel Agrawal
   sort_name: Agrawal
@@ -407,6 +413,12 @@ kate-edrington:
   role: Digitization Specialist
   affiliated: false
 
+jake-effoduh:
+  name: Jake Effoduh
+  sort_name: Effoduh
+  role: Summer Fellow
+  affiliated: false
+
 antontio-fernandes:
   name: Antonio Fernandes
   sort_name: Fernandes
@@ -462,6 +474,12 @@ sha-hwang:
   sort_name: Hwang
   website: http://postarchitectural.com/
   twitter_account_name: shashashasha
+  affiliated: false
+
+rachel-karasick:
+  name: Rachel Karasick
+  sort_name: Karasick
+  role: Summer Fellow
   affiliated: false
 
 ilya-kreymer:
@@ -552,6 +570,18 @@ metalab:
   twitter_account_name: metalabharvard
   affiliated: false
 
+matt-miller:
+  name: Matt Miller
+  sort_name: Miller
+  role: Summer Fellow
+  affiliated: false
+
+miglena-minkova:
+  name: Miglena Minkova
+  sort_name: Minkova
+  role: Summer Fellow
+  affiliated: false
+
 loren-newman:
   name: Loren Newman
   sort_name: Newman
@@ -616,6 +646,12 @@ david-weinberger:
   sort_name: Weinberger
   website: http://weinberger.org/
   twitter_account_name: dweinberger
+  affiliated: false
+
+reid-whitaker:
+  name: Reid Whitaker
+  sort_name: Whitaker
+  role: Summer Fellow
   affiliated: false
 
 dano-williams:
