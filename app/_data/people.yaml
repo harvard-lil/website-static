@@ -288,7 +288,7 @@ jonathan-zittrain:
 
 
 # Friends, Former Staff, Former Fellows, etc.
-# (not currently officially affiliated) #
+# (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
 
 lori-schulsinger:
   name: Lori Schulsinger
@@ -418,6 +418,8 @@ jake-effoduh:
   sort_name: Effoduh
   role: Summer Fellow
   affiliated: summer
+  twitter_account_name: effodu
+  website: http://www.law2go.org/
 
 antontio-fernandes:
   name: Antonio Fernandes
@@ -481,6 +483,8 @@ rachel-karasick:
   sort_name: Karasick
   role: Summer Fellow
   affiliated: summer
+  website: https://rachelkarasick.com/
+  twitter_account_name: rkarasick
 
 ilya-kreymer:
   name: Ilya Kreymer
@@ -653,6 +657,9 @@ reid-whitaker:
   sort_name: Whitaker
   role: Summer Fellow
   affiliated: summer
+  website: http://reidmwhitaker.com/
+  twitter_account_name: reidmwhitaker
+  github_account_name: reidmwitaker
 
 dano-williams:
   name: Dano Williams
