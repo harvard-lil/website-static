@@ -21,6 +21,6 @@ The operation of the cards is as plain as can be - just take the card off the to
 
 n cards = n screens in the world of physical pitch decks. I wish we had multiple projectors in rooms! In the photo above, I pin my agenda card up top.
 
-I drew the slides in Adobe Illustrator. They're six inches square and printed on sturdy paper. If you'd like to make your own, here's [my .ai file](http://lil.law.harvard.edu/img/pts-pitch.ai) and here's [a .pdf version](http://lil.law.harvard.edu/img/pts-pitch.pdf).
+I drew the slides in Adobe Illustrator. They're six inches square and printed on sturdy paper. If you'd like to make your own, here's [my .ai file](https://lil-blog-media.s3.amazonaws.com/pts-pitch.ai) and here's [a .pdf version](https://lil-blog-media.s3.amazonaws.com/pts-pitch.pdf).
 
 It feels like there's something here. Some depth. If you've had success with physical pitch decks, please [send me pointers](mailto:mphillips@law.harvard.edu). Thanks!!

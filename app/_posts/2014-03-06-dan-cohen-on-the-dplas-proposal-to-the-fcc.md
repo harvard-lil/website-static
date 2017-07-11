@@ -7,7 +7,7 @@ categories:
 - Podcasts
 ---
 
-I've posted a [podcast interview with Dan Cohen](http://librarylab.law.harvard.edu/dev/david/podcasts/DanCohenFCC.mp3), the executive director of the [Digital Public Library of America](http://dp.la) about [their proposal to the FCC](http://dp.la/info/2013/09/26/dpla-fcc-erate-upgrade/).
+I've posted a [podcast interview with Dan Cohen](https://lil-blog-media.s3.amazonaws.com/DanCohenFCC.mp3), the executive director of the [Digital Public Library of America](http://dp.la) about [their proposal to the FCC](http://dp.la/info/2013/09/26/dpla-fcc-erate-upgrade/).
 
 The FCC is looking for ways to modernize the [E-Rate](http://en.wikipedia.org/wiki/E-Rate) program that has brought the Internet to libraries and schools. The DPLA is proposing _DPLA Local_, which will enable libraries to create online digital collections using the DPLA's platform.
 
