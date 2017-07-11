@@ -12,7 +12,7 @@ Summertime is the best time to share a few pieces of the Web we've enjoyed latel
 {% include roundup-item.html
   link="http://nymag.com/daily/intelligencer/2014/07/google-is-designing-the-font-of-the-future.html"
   title="Google Is Designing the Font of the Future -- NYMag"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/thumb-jTieUhKm.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/thumb-jTieUhKm.png"
   text="Google's quest for the perfect universal typeface"
   by="Annie"
 %}
@@ -20,7 +20,7 @@ Summertime is the best time to share a few pieces of the Web we've enjoyed latel
 {% include roundup-item.html
   link="http://www.thisiscolossal.com/2014/07/motion-silhouette-an-interactive-shadow-picture-book/"
   title="Motion Silhouette: An Interactive Shadow Picture Book | Colossal"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/53c976c19df6b.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/53c976c19df6b.png"
   text="An interactive shadow motion pop-up book"
   by="Annie"
 %}
@@ -28,7 +28,7 @@ Summertime is the best time to share a few pieces of the Web we've enjoyed latel
 {% include roundup-item.html
   link="http://mentalfloss.com/article/57721/101-masterpieces-air-jordan-iii"
   title="It's gotta be the shoes"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/qBtCohZV.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/qBtCohZV.png"
   text="Rogue design can save a company"
   by="Annie"
 %}
@@ -36,7 +36,7 @@ Summertime is the best time to share a few pieces of the Web we've enjoyed latel
 {% include roundup-item.html
   link="http://ebookfriendly.com/book-smell-perfumes-candles/"
   title="Book smell is back – 25 paper-scented perfumes and candles"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/KpJTrgrg.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/KpJTrgrg.png"
   text="A proliferation of library scents. What would happen if we put a library candle in a new car? And vice versa."
   by="Matt Phillips"
 %}
@@ -44,7 +44,7 @@ Summertime is the best time to share a few pieces of the Web we've enjoyed latel
 {% include roundup-item.html
   link="http://www.bpl.org/press/2014/07/08/mayor-walsh-launches-innovative-mobile-reading-initiatives-across-boston/"
   title="Bibliocycle is Boston Public Library's bicycle based library"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/WVreGypf.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/WVreGypf.png"
   text="Easy to imagine lounging in the summer breeze while browsing the Bibliocycle in the Common."
   by="Matt Phillips"
 %}

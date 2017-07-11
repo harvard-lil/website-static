@@ -12,7 +12,7 @@ Had to include some snow this time
 {% include roundup-item.html
   link="https://www.behance.net/gallery/23308973/Snow-Script"
   title="Snow Script on Behance"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/54de58c22eb25.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/54de58c22eb25.png"
   text="Snow street art "
   by="Annie"
 %}
@@ -20,7 +20,7 @@ Had to include some snow this time
 {% include roundup-item.html
   link="http://engineering.flipboard.com/2015/02/mobile-web/"
   title="60fps on the mobile web — Flipboard Engineering"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/54dccba36e838.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/54dccba36e838.png"
   text="Using canvas for lightening fast web apps. Sorry DOM."
   by="Annie"
 %}
@@ -28,7 +28,7 @@ Had to include some snow this time
 {% include roundup-item.html
   link="https://www.youtube.com/watch?v=BEG-ly9tQGk"
   title="Lars Andersen: a new level of archery - YouTube"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/54d278ce3ce05.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/54d278ce3ce05.png"
   text="Historical documents helped this amazing archer learn insanely impressive skills"
   by="Annie"
 %}
@@ -36,7 +36,7 @@ Had to include some snow this time
 {% include roundup-item.html
   link="http://nautil.us/blog/a-photographer-who-tinkers-with-time"
   title="A Photographer Who Tinkers With Time"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/54cfb47a0f88b.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/54cfb47a0f88b.png"
   text="High speed camera + subway car = amazing images. "
   by="Matt Phillips"
 %}
@@ -44,7 +44,7 @@ Had to include some snow this time
 {% include roundup-item.html
   link="http://www.twinkind.com/en/landing"
   title="TWINKIND | The world´s finest 3D photo figurines"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/54cbabcf37bf7.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/54cbabcf37bf7.png"
   text="3D Printed figurines. The quality looks amazing. WANT!"
   by="Matt Phillips"
 %}

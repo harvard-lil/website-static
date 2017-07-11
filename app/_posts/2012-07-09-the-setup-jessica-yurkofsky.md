@@ -9,7 +9,7 @@ wordpress_id: 1269
 
 **Who are you, and what do you do?**
 
-I'm Jessica. I just finished up the urban planning masters program over at the [GSD](http://www.gsd.harvard.edu/). I'm hanging out at the lab for the summer, working primarily on[ Time/Slice](http://librarylab.law.harvard.edu/blog/2012/06/14/timeslice/), a project I started in the [Library Test Kitchen](http://librarytestkitchen.org/). The Lab is very awesome.
+I'm Jessica. I just finished up the urban planning masters program over at the [GSD](http://www.gsd.harvard.edu/). I'm hanging out at the lab for the summer, working primarily on[ Time/Slice]({{ site.baseurl }}/blog/2012/06/14/timeslice/), a project I started in the [Library Test Kitchen](http://librarytestkitchen.org/). The Lab is very awesome.
 
 ****
 

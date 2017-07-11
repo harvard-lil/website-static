@@ -10,7 +10,7 @@ categories:
 
 We've been having fun with the Awesome Box lately. Signage work.
 
-We started low-tech for [the two prototype boxes we installed last month.](http://librarylab.law.harvard.edu/blog/2012/05/17/awesome-box-pilot/) Just a little time in Photoshop and a color printer.
+We started low-tech for [the two prototype boxes we installed last month.]({{ site.baseurl }}/blog/2012/05/17/awesome-box-pilot/) Just a little time in Photoshop and a color printer.
 
 [![](https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0240-e1339469087348.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/06/IMG_0240-e1339465094194.jpg)
 

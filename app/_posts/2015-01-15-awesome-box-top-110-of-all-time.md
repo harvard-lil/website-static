@@ -5,7 +5,7 @@ title: Awesome Box top 110 of all time
 wordpress_id: 2040
 ---
 
-It's been almost two years since [Somerville Public Library helped us launch the Awesome Box to public libraries](http://librarylab.law.harvard.edu/blog/2013/02/12/awesome-boxes-at-somerville-public-library/) and beyond.
+It's been almost two years since [Somerville Public Library helped us launch the Awesome Box to public libraries]({{ site.baseurl }}/blog/2013/02/12/awesome-boxes-at-somerville-public-library/) and beyond.
 
 There are now **364 Awesome libraries** around the world.
 
@@ -13,7 +13,7 @@ Over **41,000 items** have been dropped in an Awesome Box in those libraries.
 See the items just Awesomed on the [Awesome Box page](http://awesomebox.io/).
 Now that the year-end lists have come and gone, we'd like to present the top 110 Awesome items* from the past two years.
 
-  1. [Diary of a Wimpy Kid ](http://www.worldcat.org/search?q=ti%3Adiary+of+a+wimpy+kid) 131
+  1. [Diary of a Wimpy Kid](http://www.worldcat.org/search?q=ti%3Adiary+of+a+wimpy+kid) 131
 
   2. [The fault in our stars](http://www.worldcat.org/search?q=ti%3Afault+in+our+stars) 110
 

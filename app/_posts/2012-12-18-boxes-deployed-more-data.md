@@ -23,4 +23,4 @@ The physical boxes have been fun to build and share, but it's important to keep 
 
 We've seen an uptick in awesomeing after we rolled out the additional boxes. We went from about ten items a week to five to ten per day. (These numbers are rough and the sample size is tiny -- don't put much stock in them.) So, more boxes yields better community penetration yields results. If you want to have a look at these results, pop over to [http://hrvd.me/awesomebox](http://hrvd.me/awesomebox) and follow the [Twitter stream](http://twitter.com/hlawesome).
 
-If you want an Awesome Box for your library, we'd love to hear from you. [Email us](http://librarylab.law.harvard.edu/about.html).
+If you want an Awesome Box for your library, we'd love to hear from you. [Email us](mailto:{{ site.email }}).

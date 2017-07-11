@@ -7,7 +7,7 @@ wordpress_id: 1653
 
 I received an overdue notice a little while back.  I've received them many times.  But I looked at it and I realized it was pretty complicated.
 
-[![overdue-existing](https://lil-blog-media.s3.amazonaws.com/2013/04/overdue-existing.jpg)](http://librarylab.law.harvard.edu/blog/2013/04/22/overdue-redesign/overdue-existing/)
+![overdue-existing](https://lil-blog-media.s3.amazonaws.com/2013/04/overdue-existing.jpg)
 
 * Did I really need to know the Barcode number?
 * The date and time I originally took it out.
@@ -18,7 +18,7 @@ So here's just an idea, implementing such a thing into our ILS would be difficul
 
 But what if it could be simple HTML?
 
-[![over-due-improved](https://lil-blog-media.s3.amazonaws.com/2013/04/over-due-improved.jpg)](http://librarylab.law.harvard.edu/blog/2013/04/22/overdue-redesign/over-due-improved/)
+![over-due-improved](https://lil-blog-media.s3.amazonaws.com/2013/04/over-due-improved.jpg)
 
 Maybe we could add a 1-click renew button.  Or, maybe a courtesy auto-renew.  Perhaps in the future we could add opt-in events listings or book recommendations, etc.
 

@@ -5,25 +5,29 @@ title: Hiring! A developer to chart the future of libraries
 wordpress_id: 1546
 ---
 
-[![LibLabStampSmall](https://lil-blog-media.s3.amazonaws.com/2013/02/LibLabStampSmall.png)](http://librarylab.law.harvard.edu/blog/2013/02/28/hiring-a-developer-to-chart-the-future-of-libraries/liblabstampsmall/)The Harvard Library Innovation Lab is looking for a highly creative and motivated developer to dream up and develop innovative projects that chart the future of libraries.
+![LibLabStampSmall](https://lil-blog-media.s3.amazonaws.com/2013/02/LibLabStampSmall.png)
 
-[![group-stylized](https://lil-blog-media.s3.amazonaws.com/2013/02/group-stylized.jpg)](http://librarylab.law.harvard.edu/blog/2013/02/28/hiring-a-developer-to-chart-the-future-of-libraries/group-stylized/)
+The Harvard Library Innovation Lab is looking for a highly creative and motivated developer to dream up and develop innovative projects that chart the future of libraries.
+
+![group-stylized](https://lil-blog-media.s3.amazonaws.com/2013/02/group-stylized.jpg)
 
 We are a tightly knit team of six and are passionate about solving problems, having fun, and improving lives through libraries.  Join us!
 
 **This is definitely a dream job for somebody out there.**
 
-The best way to get a feel for what we do is by looking at [our projects](http://librarylab.law.harvard.edu/projects.html).
+The best way to get a feel for what we do is by looking at [our projects]({{ site.baseurl }}/projects/).
 
 **A sample of our work**
 
 [Awesome Box](http://awesomebox.io) is current project in the Lab
 
-[![](https://lil-blog-media.s3.amazonaws.com/2013/02/Screen-Shot-2013-02-27-at-5.29.59-PM.png)](http://librarylab.law.harvard.edu/blog/2013/02/28/hiring-a-developer-to-chart-the-future-of-libraries/screen-shot-2013-02-27-at-5-29-59-pm/)
+![](https://lil-blog-media.s3.amazonaws.com/2013/02/Screen-Shot-2013-02-27-at-5.29.59-PM.png)
 
 StackLife, our soon-to-launch Library Browser
 
-[![LABRARY](https://lil-blog-media.s3.amazonaws.com/2013/02/LABRARY.gif)](http://librarylab.law.harvard.edu/blog/2013/02/28/hiring-a-developer-to-chart-the-future-of-libraries/labrary/) [Library Test Kitchen](http://librarytestkitchen.org) is a course we run in the Fall, in it we launched LABRARY, a Pop-Up Library Experiment
+![LABRARY](https://lil-blog-media.s3.amazonaws.com/2013/02/LABRARY.gif)
+
+[Library Test Kitchen](http://librarytestkitchen.org) is a course we run in the Fall, in it we launched LABRARY, a Pop-Up Library Experiment
 
 **What you'll do**
 

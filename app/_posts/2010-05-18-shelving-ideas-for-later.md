@@ -9,4 +9,4 @@ This is a really good talk.  People give these advice talks about creativity/inn
 
 <div class="embed-container"><iframe src="https://player.vimeo.com/video/11712774" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-It also reminded me of the[ Library Hose](http://librarylab.law.harvard.edu/twitter/).  Not because of Twitter (which is the broadcast channel for this), but because it was an idea that we did a while back and kinda shelved.  And now its coming back around into ShelfLife.
+It also reminded me of the [Library Hose](https://lil.law.harvard.edu/twitter/).  Not because of Twitter (which is the broadcast channel for this), but because it was an idea that we did a while back and kinda shelved.  And now its coming back around into ShelfLife.

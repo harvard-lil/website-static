@@ -12,7 +12,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="http://beachlab.org/flip-flap/"
   title="Flip-Flap | THE BEACH LAB"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/55390eb4e4fa5.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/55390eb4e4fa5.png"
   text="then I went here"
   by="jeff"
 %}
@@ -20,7 +20,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="http://www.core77.com/posts/35697/How-Dalziel-and-Pow-Realized-This-Awesome-Interactive-Touch-Wall"
   title="How Dalziel and Pow Realized This Awesome Interactive Touch Wall - Core77"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/55390e5f46d3c.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/55390e5f46d3c.png"
   text="amazing"
   by="jeff"
 %}
@@ -28,7 +28,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="http://news.harvard.edu/gazette/story/2015/04/john-harvard-speaks/"
   title="John Harvard ‘speaks' | Harvard Gazette"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/55364c3572488.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/55364c3572488.png"
   text="Harvard is animating the famous John Harvard Statue"
   by="Annie"
 %}
@@ -36,7 +36,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="http://www.ietf.org/id/draft-snell-search-method-00.txt"
   title="HTTP SEARCH Method"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/55315e8607ba5.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/55315e8607ba5.png"
   text="HTTP search. Maybe? Searching is so dang common. "
   by="Matt Phillips"
 %}

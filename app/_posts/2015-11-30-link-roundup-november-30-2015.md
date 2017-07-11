@@ -12,7 +12,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="http://www.theatlantic.com/technology/archive/2015/11/the-irony-of-writing-about-digital-preservation/416184/"
   title="The Irony of Writing About Digital Preservation"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/565cc68255f32.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/565cc68255f32.png"
   text="Sometimes that pipe isn't connected to anything."
   by="Matt Phillips"
 %}
@@ -20,7 +20,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="http://motherboard.vice.com/read/the-earliest-mobile-apps"
   title="The Original Mobile App Was Made of Paper | Motherboard"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/565c88be537d7.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/565c88be537d7.png"
   text="The original mobile apps made of paper"
   by="Annie"
 %}
@@ -28,7 +28,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="https://medium.com/@dietoff/the-most-geo-tagged-place-on-earth-fc76758cc505#.trcnypihj"
   title="The most Geo-tagged Place on Earth"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/565c839e8185c.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/565c839e8185c.png"
   text="Defaults (often times in software) influence our data and likely alter the shape of our plastic brains."
   by="Matt Phillips"
 %}
@@ -36,7 +36,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="http://www.nytimes.com/2015/11/12/t-magazine/richard-branson-illustrated-interview.html"
   title="The Illustrated Interview: Richard Branson"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/564b47383b182.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/564b47383b182.png"
   text="Sketches instead of text when interviewing a person. So brilliant. Folks are likely less guarded in their responses."
   by="Matt Phillips"
 %}
@@ -44,7 +44,7 @@ This is the good stuff.
 {% include roundup-item.html
   link="https://deardesignstudent.com/why-is-so-much-of-design-school-a-waste-of-time-39ec2a1aa7d5"
   title="Why is so much of design school a waste of time?"
-  screenshot="http://librarylab.law.harvard.edu/roundup/images/564b45e4c2ad1.png"
+  screenshot="https://lil.law.harvard.edu/roundup/images/564b45e4c2ad1.png"
   text="Use critiques as a way to get better. To learn more. As a \"gift exchange.\""
   by="Matt Phillips"
 %}

@@ -37,7 +37,7 @@ Carli Spina and Kim Dulin: Library Analytics Toolkit: An open source, highly con
 
 Cheryl McGrath: Interactive Carrel Seating App: Currently getting a carrel requires a bunch of paperwork and staff time. People have a wide variety of requests: Near a bathroom, in sunlight, no glare at sunset, are there crumbs in it, etc. This open source app lets users browse and search, and reserve the carrel. Carrel users can also post msgs to one another. The team thinks this app may save 5 weeks of labor for a staff member per year.
 
-Library Innovation Podcasts: That's my project: [http://librarylab.law.harvard.edu/blog/category/podcast/](http://librarylab.law.harvard.edu/blog/category/podcast/)
+Library Innovation Podcasts: That's my project: [{{ site.baseurl }}/blog/category/podcast/]({{ site.baseurl }}/blog/category/podcast/)
 
 Chip Goines: DRS Access for Mobil Devices: Creating an API to enable mobile devices to locate items in a "page-turned digital research" object, returning info about that particular page. [[pdf](http://osc.hul.harvard.edu/sites/default/files/Mobile_DRS_Access_final.pdf)]
 

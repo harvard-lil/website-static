@@ -27,7 +27,7 @@ Tim recently sat down with Harvard Library Innovation Lab's very own David Weinb
 
 ___
 
-Subscribe to the RSS of the LibraryLab podcast [**here**](http://librarylab.law.harvard.edu/blog/category/podcast/) to stay updated on upcoming episodes!
+Subscribe to the RSS of the LibraryLab podcast [**here**]({{ site.baseurl }}/blog/category/podcast/) to stay updated on upcoming episodes!
 
 Subscribe to us in [**iTunesU**](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=457060447)
 

@@ -7,17 +7,17 @@ categories:
 - jobs
 ---
 
-The [Harvard Library Innovation Lab](http://librarylab.law.harvard.edu/) is looking for a devops engineer to help us build tools to explore the open internet and see deep into the future of libraries.
+The [Harvard Library Innovation Lab]({{ site.baseurl }}/) is looking for a devops engineer to help us build tools to explore the open internet and see deep into the future of libraries.
 
-Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of [our current efforts](http://librarylab.law.harvard.edu/projects).
+Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of [our current efforts]({{ site.baseurl }}/projects).
 
-[![image01](https://lil-blog-media.s3.amazonaws.com/2015/10/image01.png)](https://lil-blog-media.s3.amazonaws.com/2015/10/image01.png)
-[Perma.cc](http://perma.cc), a web archiving service that is powered by libraries
+![image01](https://lil-blog-media.s3.amazonaws.com/2015/10/image01.png)
+[Perma.cc](https://perma.cc), a web archiving service that is powered by libraries
 
-[![image00](https://lil-blog-media.s3.amazonaws.com/2015/10/image00.png)](https://lil-blog-media.s3.amazonaws.com/2015/10/image00.png)
+![image00](https://lil-blog-media.s3.amazonaws.com/2015/10/image00.png)
 [H2O](https://h2o.law.harvard.edu/), a platform for creating, sharing and adapting open course materials
 
-[![image02](https://lil-blog-media.s3.amazonaws.com/2015/10/image02.png)](https://lil-blog-media.s3.amazonaws.com/2015/10/image02.png)
+![image02](https://lil-blog-media.s3.amazonaws.com/2015/10/image02.png)
 [Awesome Box](http://awesomebox.io), an alternate returns box used by hundreds of libraries
 
 ## What you'll do
@@ -32,4 +32,4 @@ We're hiring a person and not a skillset, but our current stack of keywords migh
 
 *  Heroku, AWS, S3, Python, Django, Fabric, git and GitHub, Ruby, Rails, MySQL, PostgreSQL, Apache, NGINX, Elasticsearch, Redis, UNIX, Bash, Rollbar, Splunk
 
-Find [details and apply using the Harvard Recruitment Management System](https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1173201&PartnerId=25240&SiteId=5341&type=mail). If you have questions, email us directly at [lil@law.harvard.edu](mailto:lil@law.harvard.edu) .
+Find [details and apply using the Harvard Recruitment Management System](https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1173201&PartnerId=25240&SiteId=5341&type=mail). If you have questions, email us directly at [{{ site.email }}](mailto:{{ site.email }}) .
