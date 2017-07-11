@@ -288,7 +288,7 @@ jonathan-zittrain:
 
 
 # Friends, Former Staff, Former Fellows, etc.
-# (not currently officially affiliated) #
+# (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
 
 lori-schulsinger:
   name: Lori Schulsinger
@@ -306,7 +306,7 @@ zena-agha:
   name: Zena Agha
   sort_name: Agha
   role: Summer Fellow
-  affiliated: false
+  affiliated: summer
 
 neel-agrawal:
   name: Neel Agrawal
@@ -329,7 +329,7 @@ anna-bialas:
   sort_name: Bialas
   role: LIL and Berkman Summer Intern 
   github_account_name: annabialas
-  affiliated: false
+  affiliated: summer
 
 rachel-binx:
   name: Rachel Binx
@@ -417,7 +417,9 @@ jake-effoduh:
   name: Jake Effoduh
   sort_name: Effoduh
   role: Summer Fellow
-  affiliated: false
+  affiliated: summer
+  twitter_account_name: effodu
+  website: http://www.law2go.org/
 
 antontio-fernandes:
   name: Antonio Fernandes
@@ -480,7 +482,9 @@ rachel-karasick:
   name: Rachel Karasick
   sort_name: Karasick
   role: Summer Fellow
-  affiliated: false
+  affiliated: summer
+  website: https://rachelkarasick.com/
+  twitter_account_name: rkarasick
 
 ilya-kreymer:
   name: Ilya Kreymer
@@ -498,7 +502,7 @@ doyung-lee:
   role: LIL and Berkman Summer Intern 
   website: https://doyunglee.github.io/
   github_account_name: doyunglee
-  affiliated: false
+  affiliated: summer
 
 erica-leeman:
   name: Erica Leeman
@@ -574,13 +578,13 @@ matt-miller:
   name: Matt Miller
   sort_name: Miller
   role: Summer Fellow
-  affiliated: false
+  affiliated: summer
 
 miglena-minkova:
   name: Miglena Minkova
   sort_name: Minkova
   role: Summer Fellow
-  affiliated: false
+  affiliated: summer
 
 loren-newman:
   name: Loren Newman
@@ -615,7 +619,7 @@ zach-tan:
   sort_name: Tan
   role: LIL and Berkman Summer Intern 
   website: http://www.zachtan.co/
-  affiliated: false
+  affiliated: summer
 
 shailin-thomas:
   name: Shailin Thomas
@@ -652,7 +656,10 @@ reid-whitaker:
   name: Reid Whitaker
   sort_name: Whitaker
   role: Summer Fellow
-  affiliated: false
+  affiliated: summer
+  website: http://reidmwhitaker.com/
+  twitter_account_name: reidmwhitaker
+  github_account_name: reidmwitaker
 
 dano-williams:
   name: Dano Williams
