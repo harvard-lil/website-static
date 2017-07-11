@@ -34,7 +34,7 @@ How do you find the leading legal cases cited in law review journals throughout 
 
 A couple of weeks ago I mashed up a, er, mashup: Find books in [LibraryCloud](http://www.librarycloud.org) that are related to news items coming off [the New York Times Newswire](http://developer.nytimes.com/docs/read/times_newswire_api).
 
-[Give it a try](http://librarylab.law.harvard.edu/projects/works-news/).
+[Give it a try](https://web.archive.org/web/20111113062413/http://librarylab.law.harvard.edu/projects/works-news/).
 
 The app is about as crude as it can get. The searching for books is done by keyword-matching NYT topics (each NYT piece gets a topic) with [LCSH](http://www.loc.gov/aba/cataloging/subject/) (this crude matching is done in the crudest way). I think we can get much, much better matching with some more work: If we create links from DBPedia topics to LCSH, we can get really good, semantic, matching.
 

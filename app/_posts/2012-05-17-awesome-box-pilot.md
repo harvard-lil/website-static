@@ -13,7 +13,7 @@ categories:
 
 The Harvard community now has the chance to declare something Awesome. Just by dropping it in a box. Amazing, useful and entertaining library materials can now be returned to the Awesome Boxes in Widener and Lamont.
 
-Check out what's been Awesomed already at [http://librarylab.law.harvard.edu/awesome](http://librarylab.law.harvard.edu/awesome).
+Check out what's been Awesomed already at [http://librarylab.law.harvard.edu/awesome](https://web.archive.org/web/20150919182025/http://librarylab.law.harvard.edu/awesome/).
 
 This pilot phase is intended to help figure out how to make the boxes user friendly & intuitive and also how best to integrate the Awesome Box into library staff workflow. Getting the signage right is key to the first goal. It's been a challenge to perfect the balance between simple and informative.
 
@@ -26,6 +26,6 @@ We want users to understand the following without using too much text.
   * Placing an item in the Awesome Box actually returns it to the library
 
 
-Hopefully more Awesome Boxes will get released into the wild soon.  In the meantime, return an Awesome item to Widener or Lamont, check out what's [Recently Awesome](http://librarylab.law.harvard.edu/awesome), and let us know what you think.
+Hopefully more Awesome Boxes will get released into the wild soon.  In the meantime, return an Awesome item to Widener or Lamont, check out what's [Recently Awesome](https://web.archive.org/web/20150919182025/http://librarylab.law.harvard.edu/awesome/), and let us know what you think.
 
 Learn [more about the project](http://osc.hul.harvard.edu/liblab/proj/awesome-box).
