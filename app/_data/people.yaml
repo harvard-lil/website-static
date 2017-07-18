@@ -307,6 +307,7 @@ zena-agha:
   sort_name: Agha
   role: Summer Fellow
   affiliated: summer
+  image: zena-agha.png
 
 neel-agrawal:
   name: Neel Agrawal
@@ -330,6 +331,7 @@ anna-bialas:
   role: LIL and Berkman Summer Intern 
   github_account_name: annabialas
   affiliated: summer
+  image: anna-bialas.png
 
 rachel-binx:
   name: Rachel Binx
@@ -420,6 +422,7 @@ jake-effoduh:
   affiliated: summer
   twitter_account_name: effodu
   website: http://www.law2go.org/
+  image: jake-effoduh.png
 
 antontio-fernandes:
   name: Antonio Fernandes
@@ -485,6 +488,7 @@ rachel-karasick:
   affiliated: summer
   website: https://rachelkarasick.com/
   twitter_account_name: rkarasick
+  image: rachel-karasick.png
 
 ilya-kreymer:
   name: Ilya Kreymer
@@ -503,6 +507,7 @@ doyung-lee:
   website: https://doyunglee.github.io/
   github_account_name: doyunglee
   affiliated: summer
+  image: doyung-lee.png
 
 erica-leeman:
   name: Erica Leeman
@@ -579,12 +584,14 @@ matt-miller:
   sort_name: Miller
   role: Summer Fellow
   affiliated: summer
+  image: matt-miller.png
 
 miglena-minkova:
   name: Miglena Minkova
   sort_name: Minkova
   role: Summer Fellow
   affiliated: summer
+  image: miglena-minkova.png
 
 loren-newman:
   name: Loren Newman
@@ -620,6 +627,7 @@ zach-tan:
   role: LIL and Berkman Summer Intern 
   website: http://www.zachtan.co/
   affiliated: summer
+  image: zach-tan.png
 
 shailin-thomas:
   name: Shailin Thomas
@@ -660,6 +668,7 @@ reid-whitaker:
   website: http://reidmwhitaker.com/
   twitter_account_name: reidmwhitaker
   github_account_name: reidmwitaker
+  image: reid-whitaker.png
 
 dano-williams:
   name: Dano Williams
