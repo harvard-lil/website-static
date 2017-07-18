@@ -288,7 +288,7 @@ jonathan-zittrain:
 
 
 # Friends, Former Staff, Former Fellows, etc.
-# (not currently officially affiliated) #
+# (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
 
 lori-schulsinger:
   name: Lori Schulsinger
@@ -301,6 +301,13 @@ caroline-walters:
   sort_name: Walters
   role: Collection Development Librarian for U.S. Law
   affiliated: false
+
+zena-agha:
+  name: Zena Agha
+  sort_name: Agha
+  role: Summer Fellow
+  affiliated: summer
+  image: zena-agha.png
 
 neel-agrawal:
   name: Neel Agrawal
@@ -322,8 +329,11 @@ anna-bialas:
   name: Anna Bialas
   sort_name: Bialas
   role: LIL and Berkman Summer Intern 
+  website: http://trash.exchange
+  twitter_account_name: femalegazebot
   github_account_name: annabialas
-  affiliated: false
+  affiliated: summer
+  image: anna-bialas.png
 
 rachel-binx:
   name: Rachel Binx
@@ -407,6 +417,15 @@ kate-edrington:
   role: Digitization Specialist
   affiliated: false
 
+jake-effoduh:
+  name: Jake Effoduh
+  sort_name: Effoduh
+  role: Summer Fellow
+  affiliated: summer
+  twitter_account_name: effodu
+  website: http://www.law2go.org/
+  image: jake-effoduh.png
+
 antontio-fernandes:
   name: Antonio Fernandes
   sort_name: Fernandes
@@ -464,6 +483,15 @@ sha-hwang:
   twitter_account_name: shashashasha
   affiliated: false
 
+rachel-karasick:
+  name: Rachel Karasick
+  sort_name: Karasick
+  role: Summer Fellow
+  affiliated: summer
+  website: https://rachelkarasick.com/
+  twitter_account_name: rkarasick
+  image: rachel-karasick.png
+
 ilya-kreymer:
   name: Ilya Kreymer
   sort_name: Kreymer
@@ -480,7 +508,8 @@ doyung-lee:
   role: LIL and Berkman Summer Intern 
   website: https://doyunglee.github.io/
   github_account_name: doyunglee
-  affiliated: false
+  affiliated: summer
+  image: doyung-lee.png
 
 erica-leeman:
   name: Erica Leeman
@@ -552,6 +581,20 @@ metalab:
   twitter_account_name: metalabharvard
   affiliated: false
 
+matt-miller:
+  name: Matt Miller
+  sort_name: Miller
+  role: Summer Fellow
+  affiliated: summer
+  image: matt-miller.png
+
+miglena-minkova:
+  name: Miglena Minkova
+  sort_name: Minkova
+  role: Summer Fellow
+  affiliated: summer
+  image: miglena-minkova.png
+
 loren-newman:
   name: Loren Newman
   sort_name: Newman
@@ -585,7 +628,8 @@ zach-tan:
   sort_name: Tan
   role: LIL and Berkman Summer Intern 
   website: http://www.zachtan.co/
-  affiliated: false
+  affiliated: summer
+  image: zach-tan.png
 
 shailin-thomas:
   name: Shailin Thomas
@@ -617,6 +661,16 @@ david-weinberger:
   website: http://weinberger.org/
   twitter_account_name: dweinberger
   affiliated: false
+
+reid-whitaker:
+  name: Reid Whitaker
+  sort_name: Whitaker
+  role: Summer Fellow
+  affiliated: summer
+  website: http://reidmwhitaker.com/
+  twitter_account_name: reidmwhitaker
+  github_account_name: reidmwitaker
+  image: reid-whitaker.png
 
 dano-williams:
   name: Dano Williams
