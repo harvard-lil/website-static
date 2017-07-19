@@ -586,6 +586,9 @@ matt-miller:
   sort_name: Miller
   role: Summer Fellow
   affiliated: summer
+  website: http://thisismattmiller.com/
+  twitter_account_name: thisismmiller
+  github_account_name: thisismmiller 
   image: matt-miller.png
 
 miglena-minkova:
@@ -593,6 +596,9 @@ miglena-minkova:
   sort_name: Minkova
   role: Summer Fellow
   affiliated: summer
+  website: http://miglenaminkova.com/
+  twitter_account_name: miglenaminkova
+  github_account_name: MMinkova
   image: miglena-minkova.png
 
 loren-newman:
