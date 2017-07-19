@@ -306,6 +306,8 @@ zena-agha:
   name: Zena Agha
   sort_name: Agha
   role: Summer Fellow
+  website: https://zenaagha.com/about/
+  twitter_account_name: Zena_Agha
   affiliated: summer
   image: zena-agha.png
 
@@ -507,7 +509,6 @@ doyung-lee:
   sort_name: Lee
   role: LIL and Berkman Summer Intern 
   website: https://doyunglee.github.io/
-  github_account_name: doyunglee
   affiliated: summer
   image: doyung-lee.png
 
