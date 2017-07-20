@@ -42,7 +42,7 @@ video:
 
 # Required
 what_does_it_do: >
-  Web application for collecting and exchanging digital trash.
+  Web application for collecting and exchanging digital trash
 
 # Optional
 why_does_it_exist: |

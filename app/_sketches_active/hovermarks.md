@@ -42,7 +42,7 @@ video:
 
 # Required
 what_does_it_do: >
-  Bookmarks that face spine out.
+  Bookmarks that face spine out
 
 # Optional
 why_does_it_exist:

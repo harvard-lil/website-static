@@ -21,7 +21,7 @@ thumbnail_image:
 # (216px x 216px)
 # (432px x 432px)
 # (638px x 638px)
-sketch_thumbnail_image: guerilla-lib.png
+sketch_thumbnail_image: guerrilla-lib.png
 
 # Optional
 
@@ -42,7 +42,7 @@ video:
 
 # Required
 what_does_it_do: >
-  A guide and resource for people who want to start their own free form library.
+  A guide and resource for people who want to start their own free form library
 
 # Optional
 why_does_it_exist: |
