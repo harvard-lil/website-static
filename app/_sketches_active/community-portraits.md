@@ -42,7 +42,7 @@ video:
 
 # Required
 what_does_it_do: >
-  A pop-up photo booth that allows libraries to collect and showcase portraits of people in their community over time.
+  Pop-up photo booth that allows libraries to collect and showcase portraits of people in their community over time
 
 # Optional
 why_does_it_exist: |
