@@ -51,6 +51,5 @@ why_does_it_exist: |
 who_contributed:
 
 ### Override Jekyll Defaults ###
-custom-footer: true
 
 ---
