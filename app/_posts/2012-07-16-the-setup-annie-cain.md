@@ -9,7 +9,7 @@ wordpress_id: 1286
 
 I'm Annie Cain.  I was once a librarian and maybe still am.  Either way, I currently build web apps.  For libraries.  I also come up with ideas, help shape ideas and help execute & build non-web ideas.
 
-[![Setup Annie Cain](https://lil-blog-media.s3.amazonaws.com/2012/07/DSC_33592.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/07/DSC_33592.jpg)
+![Setup Annie Cain](https://lil-blog-media.s3.amazonaws.com/2012/07/DSC_33592.jpg)
 
 **What hardware do you use?**
 
@@ -35,7 +35,7 @@ Photoshop is the only one of the Suite that I know how to operate, so it's the h
 
 We're not afraid to share our stuff on [GitHub](https://github.com/harvard-lil).  It's also super handy for collaboration and tracking code & issues.
 
-[![Setup Annie Desk](https://lil-blog-media.s3.amazonaws.com/2012/07/IMG_1995.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/07/IMG_1995.jpg)
+![Setup Annie Desk](https://lil-blog-media.s3.amazonaws.com/2012/07/IMG_1995.jpg)
 
 **What would be your dream setup?**
 

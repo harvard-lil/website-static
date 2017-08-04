@@ -16,7 +16,7 @@ I'm Matt Phillips.
 
 I work in the Harvard Library Innovation Lab. I try to make libraries better, usually by writing software.
 
-[![](https://lil-blog-media.s3.amazonaws.com/2012/06/DSC_3349-e1340592772849.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/06/DSC_3349-e1340592772849.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/2012/06/DSC_3349-e1340592772849.jpg)
 
 **What hardware do you use?**
 

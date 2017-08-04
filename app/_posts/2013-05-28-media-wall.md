@@ -25,7 +25,7 @@ You can also imagine handing over this audio/video/shelf space infrastructure to
 
 This past weekend I went through two iterations. I first got a rough protoype going in the basement. I used one of the old LABRARY lamps from Ikea.
 
-[![](http://www.librarytestkitchen.org/wp-content/uploads/2013/05/v1.jpg)](http://www.librarytestkitchen.org/wp-content/uploads/2013/05/v1.jpg)
+![](http://www.librarytestkitchen.org/wp-content/uploads/2013/05/v1.jpg)
 
 Then got a second version (using different speaker) working on a bookshelf. Plus tried to lay down some yoga mats for acoustic dampening.
 

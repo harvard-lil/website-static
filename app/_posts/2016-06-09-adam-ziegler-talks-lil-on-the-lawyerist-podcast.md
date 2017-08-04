@@ -16,6 +16,6 @@ Sam Glover and Adam discuss the future of law, its challenges and how the Innova
 
 Listen **[here](https://lawyerist.com/113783/podcast-68/)!**
 
-[![Screen Shot 2016-06-09 at 12.43.58 PM](https://lil-blog-media.s3.amazonaws.com/2016/06/Screen-Shot-2016-06-09-at-12.43.58-PM.png)](https://lil-blog-media.s3.amazonaws.com/2016/06/Screen-Shot-2016-06-09-at-12.43.58-PM.png)
+![Screen Shot 2016-06-09 at 12.43.58 PM](https://lil-blog-media.s3.amazonaws.com/2016/06/Screen-Shot-2016-06-09-at-12.43.58-PM.png)
 
 The _Lawyerist Podcast_ is a weekly show about lawyering and law practice hosted by [Sam Glover](https://lawyerist.com/author/sam-glover/) and [Aaron Street](https://lawyerist.com/author/aaron-street/).

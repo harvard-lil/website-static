@@ -10,9 +10,8 @@ Aza Raskin over at Mozilla had [a really interesting post](http://www.azarask.in
 
 It's amazing how much friendlier it is.
 
-[![](https://lil-blog-media.s3.amazonaws.com/2009/12/azaDiag11.jpg)](https://lil-blog-media.s3.amazonaws.com/2009/12/azaDiag11.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/2009/12/azaDiag11.jpg)
 
 This is what is being visualized:
 
-[![](https://lil-blog-media.s3.amazonaws.com/2009/12/azaText1.jpg)](https://lil-blog-media.s3.amazonaws.com/2009/12/azaText1.jpg)
-
+![](https://lil-blog-media.s3.amazonaws.com/2009/12/azaText1.jpg)

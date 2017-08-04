@@ -7,7 +7,7 @@ wordpress_id: 2257
 
 We're halfway through the International Internet Preservation Consortium's annual web archiving conference. Here are just a few notes from our time so far:
 
-[![Jack, Genève, and Matt](https://lil-blog-media.s3.amazonaws.com/2016/04/Screen-Shot-2016-04-13-at-8.53.43-PM-1024x981.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/04/Screen-Shot-2016-04-13-at-8.53.43-PM.jpg)
+![Jack, Genève, and Matt](https://lil-blog-media.s3.amazonaws.com/2016/04/Screen-Shot-2016-04-13-at-8.53.43-PM-1024x981.jpg)
 _Auto-captioned photo of Jack, Genève, and Matt -- thanks [CaptionBot](https://www.captionbot.ai/)!_
 
 ## April 12

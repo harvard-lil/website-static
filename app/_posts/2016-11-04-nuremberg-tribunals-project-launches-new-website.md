@@ -9,8 +9,7 @@ categories:
 - Projects
 ---
 
-[![9019102](https://lil-blog-media.s3.amazonaws.com/2016/11/9019102.jpeg){: .img-full-width}](https://lil-blog-media.s3.amazonaws.com/2016/11/9019102.jpeg)
-
+![9019102](https://lil-blog-media.s3.amazonaws.com/2016/11/9019102.jpeg){: .img-full-width}
 
 The Nuremberg Tribunals Project is excited to announce the launch of its new [website](http://nuremberg.law.harvard.edu).
 

@@ -5,7 +5,7 @@ title: The Setup - Jessica Yurkofsky
 wordpress_id: 1269
 ---
 
-[![Jessica Yurkofsky, The Setup](https://lil-blog-media.s3.amazonaws.com/2012/07/DSC_3374.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/07/DSC_3374.jpg)
+![Jessica Yurkofsky, The Setup](https://lil-blog-media.s3.amazonaws.com/2012/07/DSC_3374.jpg)
 
 **Who are you, and what do you do?**
 
@@ -19,7 +19,7 @@ My most important hardware is my pen, which is a rotring extra-fine fountain pen
 
 I rely on my MacBook Pro (4,1) for most things. It has a vintage 2008 battery that generates excessive heat, which can be nice in the winter. I also have an i5 iMac that I use for heavier stuff (a lot of GIS). My phone is a Nokia 6315i. The antenna broke off (also a pocket-related accident), so it is super svelte now. I have a Kindle Touch that I like a lot more than I expected to.
 
-[![my pen writes well](https://lil-blog-media.s3.amazonaws.com/2012/07/photo-15.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/07/photo-15.jpg)
+![my pen writes well](https://lil-blog-media.s3.amazonaws.com/2012/07/photo-15.jpg)
 
 **What software do you use?**
 

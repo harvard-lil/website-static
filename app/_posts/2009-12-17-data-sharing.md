@@ -10,7 +10,7 @@ There was an impromptu Digital Lab conversation that happened yesterday.  I fig
 
 First off, here's the white board image, which while somewhat oblique at the moment, hopefully we'll update it in time.  Ben and I (Jeff) were discussing how sharing and circulation history can play a role in our system.
 
-[![](https://lil-blog-media.s3.amazonaws.com/2009/12/Whitei_Board_Dec17_smaller2.jpg)](https://lil-blog-media.s3.amazonaws.com/2009/12/Whitei_Board_Dec17_smaller2.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/2009/12/Whitei_Board_Dec17_smaller2.jpg)
 
 We got to talking about future data.  Anonymized data that's still on file now.
 

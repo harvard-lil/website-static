@@ -11,7 +11,7 @@ The [Watertown Free Public Library](http://www.watertownlib.org/) has fully embr
 
 The Awesome Box in the children's room has a button that when pressed says "Awesome."
 
-[![ab_display_wfpl](https://lil-blog-media.s3.amazonaws.com/2013/11/ab_display_wfpl.jpg)](https://lil-blog-media.s3.amazonaws.com/2013/11/ab_display_wfpl.jpg)
+![ab_display_wfpl](https://lil-blog-media.s3.amazonaws.com/2013/11/ab_display_wfpl.jpg)
 
 In addition to the boxes, they've installed a display that oozes awesome. With the display, the boxes, and the button, it's a full awesome experience.
 

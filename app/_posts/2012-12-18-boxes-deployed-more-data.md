@@ -7,11 +7,11 @@ wordpress_id: 1470
 
 We recently rolled out more Awesome Boxes here at Harvard. We now have boxes in Widener, Langdell, Lamont, and Cabot.
 
-[![](https://lil-blog-media.s3.amazonaws.com/2012/12/ab-locattion-wild-arrows.png)](https://lil-blog-media.s3.amazonaws.com/2012/12/ab-locattion-wild-arrows.png)
+![](https://lil-blog-media.s3.amazonaws.com/2012/12/ab-locattion-wild-arrows.png)
 
 We have a couple of other boxes waiting to be delivered to their new homes after the new year.
 
-[![](https://lil-blog-media.s3.amazonaws.com/2012/12/many-ab-lower-thin.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/12/many-ab-lower-thin.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/2012/12/many-ab-lower-thin.jpg)
 
 We put together a special box for our home base, Langdell Library here in the Law School.
 

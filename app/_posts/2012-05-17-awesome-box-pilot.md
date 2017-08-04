@@ -7,7 +7,7 @@ categories:
 - Projects
 ---
 
-[![](https://lil-blog-media.s3.amazonaws.com/2012/05/IMG_0176.jpg)](https://lil-blog-media.s3.amazonaws.com/2012/05/IMG_0176.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/2012/05/IMG_0176.jpg)
 
 **UPDATE:** Awesome Box is now well beyond the pilot phase. Visit [awesomebox.io](http://awesomebox.io) to learn how to get one at your library.
 

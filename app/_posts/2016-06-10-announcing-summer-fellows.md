@@ -7,7 +7,7 @@ wordpress_id: 2337
 
 We're beyond thrilled to introduce our first cohort of LIL Summer Fellows. The following seven brilliant minds will be working here in the Harvard Law School Library (HLSL) for the next 12 weeks, exploring new pathways in technology, law, and libraries.
 
-[![group](https://lil-blog-media.s3.amazonaws.com/2016/06/group.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/06/group.jpg)
+![group](https://lil-blog-media.s3.amazonaws.com/2016/06/group.jpg)
 _Fellows, staff, and interns in the Langdell reading room_
 
 **Neel Agrawal**, [neelagrawal.com](http://www.neelagrawal.com/#music)Neel comes from the Los Angeles County Law Library where he managed one of the world's largest collections of foreign and international legal materials. He's also a dedicated world percussionist. Neel will spend the summer making significant progress on his African drumming laws project, [https://africandrumminglaws.org/](https://africandrumminglaws.org/). Email Neel at [neel.k.agrawal@gmail.com](mailto:neel.k.agrawal@gmail.com)
@@ -26,11 +26,11 @@ _Fellows, staff, and interns in the Langdell reading room_
 
 The fellows have had a whirlwind first week sharing their research plans, running the first ever LIL fellows hour, and touring the HLSL.
 
-[![jay-muira](https://lil-blog-media.s3.amazonaws.com/2016/06/jay-muira.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/06/jay-muira.jpg)
+![jay-muira](https://lil-blog-media.s3.amazonaws.com/2016/06/jay-muira.jpg)
 _Muira and Jay_
 
-[![lunch](https://lil-blog-media.s3.amazonaws.com/2016/06/lunch.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/06/lunch.jpg)
+![lunch](https://lil-blog-media.s3.amazonaws.com/2016/06/lunch.jpg)
 _Jack, Ilya, Paul_
 
-[![standing-table](https://lil-blog-media.s3.amazonaws.com/2016/06/standing-table.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/06/standing-table.jpg)
+![standing-table](https://lil-blog-media.s3.amazonaws.com/2016/06/standing-table.jpg)
 _Sara, Alex, Anastasia, Neel_

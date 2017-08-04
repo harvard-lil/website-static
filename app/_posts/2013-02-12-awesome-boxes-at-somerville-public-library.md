@@ -7,7 +7,7 @@ wordpress_id: 1519
 
 Our Awesome Boxes were itching to get their hands on even more books, music and movies so they jumped the fence and escaped Harvard Yard to their first public library home.  A box can now be found at each of the three branches of the [Somerville Public Library](http://www.somervillepubliclibrary.org/).
 
-[![SPL Awesome Box](https://lil-blog-media.s3.amazonaws.com/2013/02/spl.jpg)](https://lil-blog-media.s3.amazonaws.com/2013/02/spl.jpg)
+![SPL Awesome Box](https://lil-blog-media.s3.amazonaws.com/2013/02/spl.jpg)
 
 [Take a look at the awesome items in Somerville](http://somerville.awesomebox.io/)
 

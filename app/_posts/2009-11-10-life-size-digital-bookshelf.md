@@ -15,5 +15,5 @@ With the emergence of large scale multi-touch screens we may be able to create a
 
 Imagine a 4ft x 6ft screen which renders a bookshelf, but a bookshelf augmented with faceted search, re-organization, etc. essentially allowing the books on the shelf to re-organize themselves and the ability to "grab" the books for later viewing on-line or desk pick-up.  Another benefit is that the shelf could be made to work with a very large catalog of publications and not be limited by its physical size.
 
-[![Jeff Han at TED](http://therawfeed.com/pix/jeff_han_at_ted.jpg)](http://therawfeed.com/pix/jeff_han_at_ted.jpg)
+![Jeff Han at TED](http://therawfeed.com/pix/jeff_han_at_ted.jpg)]
 Jeff Han at TED

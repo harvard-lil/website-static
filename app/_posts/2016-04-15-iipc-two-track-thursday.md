@@ -6,7 +6,7 @@ title: 'IIPC: Two Track Thursday'
 wordpress_id: 2267
 ---
 
-[![2016-04-14x](https://lil-blog-media.s3.amazonaws.com/2016/04/2016-04-14x.jpg)](https://lil-blog-media.s3.amazonaws.com/2016/04/2016-04-14x.jpg)
+![2016-04-14x](https://lil-blog-media.s3.amazonaws.com/2016/04/2016-04-14x.jpg)
 _A protester throwing cookies at the parliament._
 
 Here are some things that caught our ear this fine Thursday at the International Internet Preservation Consortium web archiving conference:

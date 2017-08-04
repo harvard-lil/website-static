@@ -13,7 +13,7 @@ Video by Ben Brady
 
 We made ourselves a [new Library Test Kitchen website](http://www.librarytestkitchen.org/) too (based on [LiL's site structure](https://github.com/harvard-lil/website)).
 
-[![](https://lil-blog-media.s3.amazonaws.com/2012/09/ltk-website.png)](https://lil-blog-media.s3.amazonaws.com/2012/09/ltk-website.png)
+![](https://lil-blog-media.s3.amazonaws.com/2012/09/ltk-website.png)
 
 [Visit](http://www.librarytestkitchen.org/)
 
