@@ -290,6 +290,24 @@ jonathan-zittrain:
 # Friends, Former Staff, Former Fellows, etc.
 # (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
 
+karen-beck:
+  name: Karen Beck
+  sort_name: Beck
+  role: Manager, Historical & Special Collections
+  affiliated: false
+
+jane-kelly:
+  name: Jane Kelly
+  sort_name: Kelly
+  role: Historical & Special Collections Assistant
+  affiliated: false
+
+margaret-peachy:
+  name: Margaret Peachy
+  sort_name: Peachy
+  role: Curator of Digital Collections
+  affiliated: false
+
 lori-schulsinger:
   name: Lori Schulsinger
   sort_name: Schulsinger

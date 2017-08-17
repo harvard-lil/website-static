@@ -65,6 +65,9 @@ who_contributed:
   - ben-steinberg
   - adam-ziegler
   - jonathan-zittrain
+  - karen-beck
+  - margaret-peachy
+  - jane-kelly
   - caroline-walters
   - lori-schulsinger
   - zachary-bodnar
