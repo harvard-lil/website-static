@@ -3,6 +3,9 @@ author: anastasia-aizman
 date: 2017-07-10 16:00:43+00:00
 title: "LIL Talks: Comedy"
 wordpress_id: 2857
+categories:
+- Friday Fundays
+- LIL talks
 ---
 
 _This is a guest post by our LIL interns --- written by [Zach Tan](http://www.zachtan.co/) with help from [Anna Bialas](https://www.google.com/search?q=fat+cat&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiIxJLEh__UAhULez4KHegnBpoQ_AUICigB#tbm=isch&q=fluffy+cat) and [Doyung Lee](https://doyunglee.github.io/index.html)_

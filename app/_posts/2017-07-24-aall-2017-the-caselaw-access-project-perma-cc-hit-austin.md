@@ -3,6 +3,8 @@ guest-author: brett-johnson
 date: 2017-07-24 16:00:43+00:00
 title: "AALL 2017: The Caselaw Access Project + Perma.cc Hit Austin"
 wordpress_id: 2881
+categories:
+- events
 ---
 
 Members of the LIL team including Adam, Anastasia, Brett and Caitlin visited Texas this past weekend to participate in the [American Association of Law Libraries Conference](https://www.aallnet.org/conference) in Austin. Tacos were eaten, talks were given (and attended) and friends were made over additional tacos.
