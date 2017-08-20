@@ -2,7 +2,7 @@
 author: adam-ziegler
 date: 2017-06-22 16:00:43+00:00
 title: "Warc.games at IIPC"
-wordpress_id: 1
+wordpress_id: 2852
 ---
 
 At IIPC last week, Jack Cushman (LIL developer) and Ilya Kreymer (former LIL summer fellow) shared their work on security considerations for web archives, including warc.games, a sandbox for developers interested in exploring web archive security.

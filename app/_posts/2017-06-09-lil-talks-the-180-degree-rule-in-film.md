@@ -2,7 +2,7 @@
 author: ben-steinberg
 date: 2017-06-09 16:00:43+00:00
 title: "LIL Talks: The 180-Degree Rule in Film"
-wordpress_id: 1
+wordpress_id: 2812
 ---
 
 This week, Jack Cushman illustrated how hard it is to make a film, or rather, how easy it is to make a bad film. With the assistance of LIL staff and interns, he directed a tiny film of four lines in about four minutes, then used it as a counter-example. Any mistake can break the suspension of disbelief, and amateurs are likely to make many mistakes. Infelicities in shot selection, lighting, sound, wardrobe and makeup, set design, editing, color, and so on destroy the viewer’s immersion in the film.

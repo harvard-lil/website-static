@@ -2,7 +2,7 @@
 author: matt-phillips
 date: 2017-01-20 16:00:43+00:00
 title: Awesome Box was an Amazing Experiment. Thank you!
-wordpress_id: 1
+wordpress_id: 2612
 ---
 
 Awesome Box was a highly successful experiment that helped LIL explore new ways of enabling peer to peer reading recommendations in libraries.

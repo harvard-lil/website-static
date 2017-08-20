@@ -1,7 +1,7 @@
 ---
 author: andy-silva
 title: "LIL Talks: Parsing Caselaw"
-wordpress_id: 1
+wordpress_id: 2693
 ---
 
 In last week’s LIL talk, expert witness Adam Ziegler took the stand to explain the structure of legal opinions and give an overview of our country’s appellate process.

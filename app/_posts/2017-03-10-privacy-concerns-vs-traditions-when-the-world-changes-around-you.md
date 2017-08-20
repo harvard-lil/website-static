@@ -2,7 +2,7 @@
 author: adam-ziegler
 date: 2017-03-10 16:00:43+00:00
 title: "Privacy Concerns vs. Traditions – When the World Changes Around You"
-wordpress_id: 1
+wordpress_id: 2671
 ---
 
 (_This is a guest post from the amazing Jessamyn West, who we’re lucky to have with us this year as a Research Fellow._)

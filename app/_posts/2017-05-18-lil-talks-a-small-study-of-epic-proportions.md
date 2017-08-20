@@ -2,7 +2,7 @@
 author: anastasia-aizman
 date: 2017-05-18 16:00:43+00:00
 title: "LIL Talks: A Small Study of Epic Proportions"
-wordpress_id: 1
+wordpress_id: 2748
 ---
 
 (_This is a guest post by John Bowers, a student at Harvard College who is collaborating with us on the Entropy Project. John will be a [Berktern](https://cyber.harvard.edu/getinvolved/internships) here this Summer._)

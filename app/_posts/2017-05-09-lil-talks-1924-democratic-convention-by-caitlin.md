@@ -2,7 +2,7 @@
 author: casey-gruppioni
 date: 2017-05-09 16:00:43+00:00
 title: "LIL Talks: 1924 Democratic Convention by Caitlin"
-wordpress_id: 1
+wordpress_id: 2720
 ---
 
 On May 5th, 2017 Caitlin went in depth on the intricacies of the 1924 Democratic Convention (also known as the ‘Klanbake’).

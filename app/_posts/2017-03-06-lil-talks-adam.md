@@ -2,7 +2,7 @@
 author: matt-phillips
 date: 2017-03-06 15:00:43+00:00
 title: "LIL Talks: Adam"
-wordpress_id: 1
+wordpress_id: 2641
 ---
 
 Adam shared two different topics on February 24, 2017 --- Mardi Gras and how to be deposed.

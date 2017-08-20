@@ -2,7 +2,7 @@
 author: adam-ziegler
 date: 2017-06-05 16:00:43+00:00
 title: "LIL Talks: Synthesizer"
-wordpress_id: 1
+wordpress_id: 2776
 ---
 
 This week Ben Steinberg took us on a strange and magical trip through the world of synthesizers.
