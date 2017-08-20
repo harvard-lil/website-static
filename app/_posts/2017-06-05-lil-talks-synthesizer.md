@@ -9,8 +9,7 @@ This week Ben Steinberg took us on a strange and magical trip through the world 
 
 Ben wasn’t talking about those Casio keyboards we all had as kids:
 
-![](https://lil-blog-media.s3.amazonaws.com/synth0-768x576.jpg
-)
+![](https://lil-blog-media.s3.amazonaws.com/synth0-768x576.jpg)
 
 No, he was talking about this kind of thing … a self-built modular synthesizer:
 
@@ -23,14 +22,14 @@ And then the sounds began, starting with a simple sine wave. Ben showed us what 
 
 Ben then introduced us to control voltage, envelopes, voltage-controlled oscillators (VCOs), voltage-controlled amplifiers (VCAs), and low frequency oscillators (LFOs). Look them up if you want to know more, but here’s the kind of sounds they make:
 
-<audio class="wp-audio-shortcode" id="audio-2776-1" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/ben-synths.mp3?_=1"><a href="https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/ben-synths.mp3">https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/ben-synths.mp3</a></audio>
+<audio preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="https://lil-blog-media.s3.amazonaws.com/ben-synths.mp3?_=1"><a href="https://lil-blog-media.s3.amazonaws.com/ben-synths.mp3">https://lil-blog-media.s3.amazonaws.com/ben-synths.mp3</a></audio>
 
-<audio class="wp-audio-shortcode" id="audio-2776-2" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/bsynths5.mp3?_=2"><a href="https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/bsynths5.mp3">https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/bsynths5.mp3</a></audio>
+<audio preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="https://lil-blog-media.s3.amazonaws.com/bsynths5.mp3?_=2"><a href="https://lil-blog-media.s3.amazonaws.com/bsynths5.mp3">https://lil-blog-media.s3.amazonaws.com/bsynths5.mp3</a></audio>
 
 All of these effects conspire to produce the “timbre,” which is the quality of the sound produced by the distribution of frequencies within it. And you can add filters --- like “low-pass,” “high-pass,” “bandpass,” and “notch” filters --- to create even more interesting sound effects, like the effect created by a wah-wah pedal. And if that’s not enough, Ben showed us a cool, minimalistic interface called a monome grid, which you can use to trigger different sound patterns and effects:
 
-<div style="width: 580px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
-<video class="wp-video-shortcode" id="video-2776-1" width="580" height="326" preload="metadata" controls="controls"><source type="video/mp4" src="https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/monome1.mp4?_=1"><a href="https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/monome1.mp4">https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/monome1.mp4</a></video></div>
+<div style="width: 580px;"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video width="580" height="326" preload="metadata" controls="controls"><source type="video/mp4" src="https://lil-blog-media.s3.amazonaws.com/monome1.mp4?_=1"><a href="https://lil-blog-media.s3.amazonaws.com/monome1.mp4">https://lil-blog-media.s3.amazonaws.com/monome1.mp4</a></video></div>
 
 Ben wrapped up with a discussion of the “most interesting” sounds. To him, these are the ones that aren’t simulating other sounds and don’t sound like anything else. They sound like “machines playing themselves.”
 
