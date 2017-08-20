@@ -7,10 +7,10 @@ wordpress_id: 1
 
 We were fortunate to have Harvard scholar (and LIL friend) [Ania Aizman](http://complit.fas.harvard.edu/people/anna-aizman) talk to us about Anarchism. She clarified what it was, discussed some of its different branches and how they overlap with familiar groups/events like the Occupy movement.
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/03/IMG_20170303_141052-1.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170303_141052-1-768x1024.jpg)
 
 We discussed “mic checks” and dug into the emergence of anarchism in Russian history. Her absorbing talk took us right to the end of our available time – thanks Ania!
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/03/IMG_20170303_140317.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170303_140317-768x576.jpg)
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/03/IMG_20170303_163543-1024x768.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170303_163543-768x576.jpg)

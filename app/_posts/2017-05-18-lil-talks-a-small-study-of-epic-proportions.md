@@ -9,7 +9,7 @@ wordpress_id: 1
 
 In last week’s LIL talk, team member and graduating senior Yunhan Xu shared some key findings from her prize-winning thesis “A Small Study of Epic Proportions: Toward a Statistical Reading of the _Aeneid_.” As an impressive entry into the evolving “digital humanities” literature, Yunhan’s thesis blended the empirical rigor of statistical analysis with storytelling and interpretive methods drawn from the study of classics.
 
-![](file:///Users/rcremona/Desktop/Blog%20_%20Library%20Innovation%20Lab2_files/580544E2-0F07-4B16-AE66-C020073BF4EB.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/580544E2-0F07-4B16-AE66-C020073BF4EB-768x576.jpg)
 
 The presentation dealt with four analytical methodologies applied in the thesis. For each, Yunhan offered a detailed overview of tools and key findings.
 
@@ -21,6 +21,6 @@ The presentation dealt with four analytical methodologies applied in the thesis.
 
 \4. _Network Analysis_. By leveraging statistical tools to analyze the coincidence of and interactions between the Aeneid’s many characters, Yunhan generated a number of compelling visualizations mapping narrative progression between books in terms of relationships.
 
-![](file:///Users/rcremona/Desktop/Blog%20_%20Library%20Innovation%20Lab2_files/big.gif)
+![](https://lil-blog-media.s3.amazonaws.com/big.gif)
 
 In the closing minutes of her presentation, Yunhan reflected on the broader implications of the digital humanities for the study of classics. While some scholars remain skeptical of the digital humanities, Yunhan sees enormous potential for collaboration and coevolution between the new way and the old.

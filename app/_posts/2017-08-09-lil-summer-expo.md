@@ -5,5 +5,5 @@ title: "LIL Summer Expo"
 wordpress_id: 1
 ---
 
-![](file:///Users/rcremona/Desktop/Blog%20_%20Library%20Innovation%20Lab_files/summer-expo-2017.png)
+![](https://lil-blog-media.s3.amazonaws.com/summer-expo-2017.png)
 

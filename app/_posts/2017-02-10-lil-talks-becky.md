@@ -7,8 +7,9 @@ wordpress_id: 1
 
 Today Becky taught us about the lifetime of a star, and all of our minds were blown.
 
-![](file:///Users/rcremona/Desktop/Blog%20_%20Library%20Innovation%20Lab2_files/IMG_20170210_140950.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170210_140950-768x1024.jpg)
 
-![](file:///Users/rcremona/Desktop/Blog%20_%20Library%20Innovation%20Lab2_files/IMG_20170210_134226.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170210_134226-768x576.jpg)
 
-![]()
+
+

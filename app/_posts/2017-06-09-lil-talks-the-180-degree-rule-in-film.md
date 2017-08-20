@@ -11,14 +11,12 @@ An example is the [180-degree rule](https://en.wikipedia.org/wiki/180-degree_rul
 
 After some discussion of the differences between our tiny film and _Star Wars_, Jack gauged his crew’s enthusiasm, and directed another attempt, taking only slightly longer to shoot than the first try. Here are some stills from the set.
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/IMG_4849.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_4849.jpg)
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/IMG_20170609_143351.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170609_143351.jpg)
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/IMG_20170609_142706.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170609_142406.jpg)
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/IMG_20170609_142706.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170609_142706.jpg)
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/IMG_20170609_143210.jpg)
-
-
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170609_143210.jpg)

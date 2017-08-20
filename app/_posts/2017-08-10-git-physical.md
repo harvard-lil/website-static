@@ -9,17 +9,17 @@ _This is a guest blog post by our summer fellow [Miglena Minkova](http://miglena
 
 Last week at LIL, I had the pleasure of running a pilot of **git physical**, the first part of a series of workshops aimed at introducing git to artists and designers through creative challenges. In this workshop I focused on covering the basics: [three-tree architecture](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics), simple git workflow, and commands (add, commit, push). These lessons were fairly standard but contained a twist: The whole thing was completely analogue!
 
-![](file:///Users/rcremona/Desktop/Blog%20_%20Library%20Innovation%20Lab_files/participants-workshop-1.2-copy.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/participants-workshop-1.2-copy-1024x768.jpg)
 
 The participants, a diverse group of fellows and interns, engaged in a simplified version control exercise. Each participant was tasked with designing a postcard about their summer at LIL. Following basic git workflow, they took their designs from the working directory, through the staging index, to the version database, and to the remote repository where they displayed them. In the process they “pushed” five versions of their postcard design, each accompanied by a commit note. Working in this way allowed them to experience the workflow in a familiar setting and learn the basics in an interactive and social environment. By the end of the workshop everyone had ideas on how to implement git in their work and was eager to learn more.
 
-![](file:///Users/rcremona/Desktop/Blog%20_%20Library%20Innovation%20Lab_files/s1-smaller-copy.gif)
+![](https://lil-blog-media.s3.amazonaws.com/s1-smaller-copy.gif)
 
 Timelapse gif by Doyung Lee ([doyunglee.github.io](http://doyunglee.github.com/))
 
 Not to mention some top-notch artwork was created.
 
-![](file:///Users/rcremona/Desktop/Blog%20_%20Library%20Innovation%20Lab_files/IMG_20170802_165639169.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/IMG_20170802_165639169.jpg)
 
 The workshop was followed by a short debriefing session and Q&A.
 

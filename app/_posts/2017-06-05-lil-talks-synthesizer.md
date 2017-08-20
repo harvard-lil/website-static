@@ -9,11 +9,12 @@ This week Ben Steinberg took us on a strange and magical trip through the world 
 
 Ben wasn’t talking about those Casio keyboards we all had as kids:
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/synth0.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/synth0-768x576.jpg
+)
 
 No, he was talking about this kind of thing … a self-built modular synthesizer:
 
-![](https://lil.law.harvard.edu/blog/wp-content/uploads/2017/06/syth1.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/syth1-768x1024.jpg)
 
 Before showing off the hardware, Ben first asked us to ponder: what is sound? For Ben, it’s the neurological, psychological, cultural, social phenomenon that occurs when waves of compression and attenuation hit the insides of your ears.
 And then the sounds began, starting with a simple sine wave. Ben showed us what happens as you adjust the frequency on the sine wave, and explained that humans can hear frequencies ranging from 20 to 20,000 Hz.

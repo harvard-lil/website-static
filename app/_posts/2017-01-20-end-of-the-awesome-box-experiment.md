@@ -7,7 +7,7 @@ wordpress_id: 1
 
 Awesome Box was a highly successful experiment that helped LIL explore new ways of enabling peer to peer reading recommendations in libraries.
 
-![](https://librarylab.law.harvard.edu/blog/wp-content/uploads/2017/01/awesome_action.jpg)
+![](https://lil-blog-media.s3.amazonaws.com/awesome_action.jpg)
 
 The Awesome Box was [a physical box](https://github.com/harvard-lil/awesome/tree/master/django/static/images/box-images) that a library would sit next to the library’s regular returns box and if you thought the book was mind blowing, you dropped it in the Awesome Box instead of the regular returns box. The librarian then has the option to scan the book into the Awesome Box website to enable digital sharing of lists of awesome items. Or, the librarian can keep things no-tech and put the item on a shelf labelled _Community Recommendations_.
 
