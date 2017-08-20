@@ -1,5 +1,5 @@
 ---
-guest-author: matt-phillips
+author: matt-phillips
 date: 2017-08-09 16:00:43+00:00
 title: "LIL Summer Expo"
 wordpress_id: 2915

@@ -1,5 +1,5 @@
 ---
-guest-author: brett-johnson
+author: brett-johnson
 date: 2017-07-24 16:00:43+00:00
 title: "AALL 2017: The Caselaw Access Project + Perma.cc Hit Austin"
 wordpress_id: 2881

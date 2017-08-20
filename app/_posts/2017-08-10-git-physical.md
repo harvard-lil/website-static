@@ -1,5 +1,5 @@
 ---
-guest-author: anastasia-aizman
+author: anastasia-aizman
 date: 2017-08-10 16:00:43+00:00
 title: "Git physical"
 wordpress_id: 2919
