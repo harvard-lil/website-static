@@ -1,27 +1,57 @@
 ---
-layout: simple-page
+layout: sectioned-page
 title-tag: Blog
 slug: blog
 pagination:
   enabled: true
+custom-css: ['blog']
 ---
-<ul>
-{% for post in paginator.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
+<section class="posts-index">
+{% for post in paginator.posts %}
+  <div class="sleeve">
+    <article id="post-{{ post.wordpress_id }}" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %-d, %Y" }}</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="{{ post.url}} ">{{ post.title }}</a></h2>
+        {% if post.author %}
+          {% assign person_record = site.data.people[post.author] %}
+          <p class="post-author">Posted by <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}">{{ person_record.name }}</a></p>
+        {% elsif post.guest-author %}
+          <p class="post-author">Posted by {{ post.guest-author }}</p>
+        {% endif %}
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        {{ post.content | liquify | markdownify }}
+      </div>
+
+{% comment %}
+      <footer>
+        {% for tag in post.tags %}
+          <p class="tags"><span class="tags-title">{{ tag }}</span></p>'
+        {% endfor %}
+
+      </footer> <!-- end article footer -->
+{% endcomment %}
+
+    </article> <!-- end article -->
+
+  </div>
+{% endfor %}
+
+  <!-- Pagination links -->
+  <div class="pagination sleeve">
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <div>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="small-btn" role="button">Previous</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="small-btn" role="button">Next</a>
+    {% endif %}
+    </div>
+  </div>
+
+</section>
