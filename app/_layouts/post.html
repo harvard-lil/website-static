@@ -20,14 +20,7 @@ custom-css: ['blog']
         {{ content }}
       </div>
 
-{% comment %}
-      <footer>
-        {% for tag in page.tags %}
-          <p class="tags"><span class="tags-title">{{ tag }}</span></p>'
-        {% endfor %}
-
-      </footer> <!-- end article footer -->
-{% endcomment %}
+      {% include tags.html tags=page.tags categories=page.categories %}
 
     </article> <!-- end article -->
 

@@ -299,7 +299,7 @@ nav {
 ////////////////////////////////////////////////
 //  footer
 
-footer {
+body > footer {
   background: $color-brightyellow;
   color: $color-white;
   font-weight: 700;
@@ -371,7 +371,7 @@ body {
   margin-bottom: 264px;
   position: initial;
 }
-footer {
+body > footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -383,7 +383,7 @@ footer {
     // Margin bottom equals footer height, set below
     margin-bottom: 225px;
   }
-  footer {
+  body > footer {
     height: 225px;
   }
 }

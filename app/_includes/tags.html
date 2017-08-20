@@ -1,0 +1,10 @@
+{% if include.tags or include.categories %}
+<footer>
+  {% for tag in include.tags %}
+    <span class="tag">{{ tag }}</span>
+  {% endfor %}
+  {% for category in include.categories %}
+    <span class="category">{{ category }}</span>
+  {% endfor %}
+</footer> <!-- end article footer -->
+{% endif %}
