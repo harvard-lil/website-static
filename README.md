@@ -7,7 +7,7 @@ Run ```docker-compose up -d``` to start two containers in the background:
 2)  a webserver configured to serve up development and production builds of site.
 
 To build the site, run one of the following three commands:
-- ```docker-compose exec jekyll grunt``` will build the dev (expanded) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should take 2-7 seconds. To stop the process, press control + c.
+- ```docker-compose exec jekyll grunt``` will build the dev (expanded) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should be shorter. To stop the process, press control + c.
 - ```docker-compose exec jekyll grunt build:dev``` will build the dev (expanded) version of the site, and then return.
 - ```docker-compose exec jekyll grunt build:prod``` will build the production (compressed) version of the site, and then return.
 
@@ -37,3 +37,12 @@ Periodically, you might want to run ```docker images``` to see if you have accum
 - ```<some command> deploy:production``` will deploy the production build to our production server (not yet implemented)
 
 We're considering using a makefile as a convenient method for capturing these commands. Feedback welcome!
+
+
+Writing Blog Posts
+------------------
+Head to [https://lil-blog-generator.herokuapp.com/](https://lil-blog-generator.herokuapp.com/) to write your post in the on-screen editor. Use the editor's buttons, if you want the preview to work correctly. (Manually-entered markdown is fine, but won't render correctly here in the preview.) Detailed instructions are below the editor, if you are into that kind of thing.
+
+Hit the editor's "Preview/Download" to check your work.
+
+When you are satisfied, hit the "Download" button to download your draft, and follow the simple instructions to upload your draft to Github.
