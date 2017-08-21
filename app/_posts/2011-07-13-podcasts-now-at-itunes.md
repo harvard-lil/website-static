@@ -7,7 +7,7 @@ categories:
 - Podcasts
 tags:
 - podcasts
-- podcdast
+- podcast
 ---
 
 Thanks to the tireless efforts of Dan Jones, the series producer, the Library Innovation Lab podcast series is now [available at iTunes](http://itunes.apple.com/us/podcast/librarylab-the-podcast/id449691453).
