@@ -150,7 +150,7 @@ autopages:
     title: 'Posts in category :cat'
     # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
-    permalink: '/blog/category/:cat'
+    permalink: '/blog/category/:cat/'
 
   collections:
     enabled: false
@@ -160,4 +160,4 @@ autopages:
     layouts:
       - 'tag_or_category.html'
     title: 'Posts tagged with :tag' # :tag is replaced by the tag name
-    permalink: '/blog/tag/:tag'
+    permalink: '/blog/tag/:tag/'
