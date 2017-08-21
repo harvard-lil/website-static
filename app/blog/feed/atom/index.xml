@@ -1,0 +1,40 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom"
+        xmlns:thr="http://purl.org/syndication/thread/1.0"
+        xml:lang="en-US"
+        xml:base="{{ site.url }}/blog/"
+   >
+    <title type="text">{{ site.blog_feed_title | xml_escape }}</title>
+
+    <link rel="alternate" type="text/html" href="{{ site.url }}/blog/{{ site.url }}/blog/" />
+    <id>{{ site.url }}/{{ page.path | remove: "index.xml"}}</id>
+    <link rel="self" type="application/atom+xml" href="{{ site.url }}/{{ page.path | remove: "index.xml"}}" />
+
+    {% for post in site.posts limit:10 %}
+    <entry>
+        <author>
+        {% if post.author %}
+            {% assign person_record = site.data.people[post.author] %}
+            <name>{{ person_record.name | xml_escape }}</name>
+        {% elsif post.guest-author %}
+            <name>{{ post.guest-author | xml_escape }}</name>
+        {% endif %}
+        </author>
+        <title>{{ post.title | xml_escape }}</title>
+        <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
+        {% if post.wordpress_id %}
+            <id>{{ site.url }}/blog/?p={{ post.wordpress_id }}</id>
+        {% else %}
+            <id>{{ site.url }}{{ post.url }}</id>
+        {% endif %}
+        <published>{{ post.date | date_to_rfc822 }}</published>
+        {% if post.excerpt %}
+            <summary type="html"><![CDATA[{{ post.excerpt | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]></summary>
+        {% endif %}
+        <content type="html" xml:base="{{ site.url }}{{ post.url }}"><![CDATA[{{ post.content | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]></content>
+    </entry>
+    {% endfor %}
+
+</feed>
