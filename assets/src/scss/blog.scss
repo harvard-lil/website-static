@@ -29,6 +29,30 @@
 
 }
 
+.list-index-pagination {
+  padding-top: $double;
+  padding-bottom: $double * 3;
+
+  a {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+
+@include respond(4) {
+  .list-pagination {
+    width: $grid * 24;
+    float: left;
+    margin-left: $grid * 24;
+    overflow: visible;
+
+    .wrapper {
+      width: 230px;
+    }
+  }
+}
+
 .post-author {
   margin-top: 6px;
   font-weight: 300;
@@ -225,4 +249,10 @@
   line-height: 1.6em;
   color: $color-white;
   background-color: $color-highlight;
+
+  &:hover, &:focus,
+  a:hover, a:focus {
+    color: $color-white;
+    background-color: $color-electricblue;
+  }
 }
