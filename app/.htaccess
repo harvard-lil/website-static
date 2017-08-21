@@ -1,6 +1,6 @@
 ---
 ---
-DirectoryIndex  index.html index.js index.php
+DirectoryIndex  index.html index.js index.xml index.php
 
 ErrorDocument 404 /404/index.html
 

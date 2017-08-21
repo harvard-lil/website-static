@@ -32,6 +32,9 @@ address_street2: 1545 Massachusetts Avenue
 address_map_url: https://www.google.com/maps/place/1545+Massachusetts+Ave,+Harvard+University,+Cambridge,+MA+02138/@42.377991,-71.1185105,17z/data=!3m1!4b1!4m2!3m1!1s0x89e37741a21295b9:0x22b97c31830fc93f
 address_city_state: Cambridge, MA 02138
 
+# Blog Feeds
+blog_feed_title: The Harvard Library Innovation Lab
+
 # Collections
 collections:
   projects_active:
