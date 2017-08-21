@@ -8,7 +8,7 @@ ENV LANG C.UTF-8
 # to update Gemfile, comment this out, and rebuild the image.
 # copy the new Germfile.lock into the repo, and then reintroduce
 # this check)
-# RUN bundle config --global frozen 1
+RUN bundle config --global frozen 1
 
 RUN mkdir -p /usr/src/lil-website
 WORKDIR /usr/src/lil-website
