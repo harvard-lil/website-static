@@ -4,7 +4,7 @@ custom-css: ['blog']
 ---
 <section class="_posts">
   <div class="sleeve">
-    <article id="post-{{ page.wordpress_id }}" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
         <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date: "%B %-d, %Y" }}</time>
         <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
