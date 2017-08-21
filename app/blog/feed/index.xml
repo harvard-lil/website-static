@@ -15,7 +15,8 @@
     <link>{{ site.url }}/blog/</link>
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
     <language>en-US</language>
-    {% for post in site.posts limit:10 %}
+    {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
+    {% for post in posts %}
     <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
