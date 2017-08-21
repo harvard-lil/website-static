@@ -1,12 +1,12 @@
 ---
 ### PROJECT METADATA ###
 # Required
-title: Hovermarks
+title: Community Portraits
 
 # Optional
 project_website:
 github_repo:
-start_date:
+start_date: June 5, 2017
 
 ### MEDIA ###
 # Required
@@ -21,7 +21,7 @@ thumbnail_image:
 # (216px x 216px)
 # (432px x 432px)
 # (638px x 638px)
-sketch_thumbnail_image: sketch-hovermarks.png
+sketch_thumbnail_image: community-portraits.png
 
 # Optional
 
@@ -42,14 +42,14 @@ video:
 
 # Required
 what_does_it_do: >
-  Bookmarks that face spine out
+  Pop-up photo booth that allows libraries to collect and showcase portraits of people in their community over time
 
 # Optional
-why_does_it_exist:
+why_does_it_exist: |
+  As we migrate online, the role of the library is shifting. This project explores ways in which libraries can become sites for fostering communities, promoting empathy, as well as engaging community members outside of their physical space or the internet.
 
 who_contributed:
 
 ### Override Jekyll Defaults ###
-custom-footer: true
 
 ---

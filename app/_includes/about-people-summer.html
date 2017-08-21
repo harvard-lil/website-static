@@ -1,0 +1,42 @@
+{% assign summer_friends = site.data.people | where: "affiliated", "summer" | sort: "sort_name" %}
+{% for person in summer_friends %}
+  <div class="gallery-item-person" id="{{ person.name | slugify }}">
+
+    <figure>
+      <img src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
+           srcset=" {{ site.baseurl }}/assets/thumbs/216x216c/{{ person.image }} 216w,
+                    {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }} 432w,
+                    {{ site.baseurl }}/assets/thumbs/648x648c/{{ person.image }} 648w"
+           sizes=" (min-width:1144px) 346px,
+                   (min-width:1049px) 30vw,
+                   (min-width:640px) 180px,
+                    30vw"
+           alt="{{ person.name }}"
+           class="img-full-width">
+    </figure>
+
+    <div class="info">
+
+      <strong class="name">{{ person.name }}</strong>
+      <span class="role">{{ person.role }}</span>
+
+
+      {% if person.email or person.website or person.twitter or person.github %}
+        <ul>
+          {% if person.email %}
+            <li>email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></li>
+          {% endif %}
+          {% if person.website %}
+            <li>website: <a href="{{ person.website}}">{{ person.website }}</a></li>
+          {% endif %}
+          {% if person.twitter_account_name %}
+            <li>twitter: <a href="https://www.twitter.com/{{ person.twitter_account_name}}">@{{ person.twitter_account_name }}</a></li>
+          {% endif %}
+          {% if person.github_account_name %}
+            <li>github: <a href="https://www.github.com/{{ person.github_account_name }}">{{ person.github_account_name }}</a></li>
+          {% endif %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
