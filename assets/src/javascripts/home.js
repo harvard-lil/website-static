@@ -9,7 +9,7 @@ $(document).ready(function(){
     $('body.home header').height(r);
   }
   // roundup
-  showHopper("http://librarylab.law.harvard.edu/roundup/api/item");
+  showHopper("https://lil.law.harvard.edu/roundup/api/item");
 });
 
 function showHopper(item_url) {

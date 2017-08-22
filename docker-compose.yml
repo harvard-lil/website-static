@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: ./build-environment/Dockerfile
-    image: lil-website:0.3
+    image: lil-website:0.5
     command: bash
     tty: true
     volumes:

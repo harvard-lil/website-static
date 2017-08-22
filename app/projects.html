@@ -37,7 +37,7 @@ layout: sectioned-page
     <div class="projects">
       {% for project in site.projects_retired %}
         <div class="project">
-          <h3>{{ project.title }}</h3>
+          <h3 id="{{ project.slug }}">{{ project.title }}</h3>
           <span>{{ project.what_does_it_do }}</span>
         </div>
       {% endfor %}

@@ -1,0 +1,258 @@
+////////////////////////////////////////////////////////////////
+// Variables, Mixins, and Placeholders
+@import "variables-mixins-placeholders";
+@import "bootstrap-helpers";
+
+////////////////////////////////////////////////
+//  blog
+
+
+.posts-index {
+  article {
+    border-top: $double solid $color-black;
+    padding: $double  0;
+    margin-top: $double;
+  }
+
+  h2 a {
+    border-bottom: none;
+  }
+
+  .sleeve:first-of-type article {
+    border-top: none;
+    margin-top: 0;
+  }
+
+  article + article {
+    margin-top: $double * 3;
+  }
+
+}
+
+.list-index-pagination {
+  padding-top: $double;
+  padding-bottom: $double * 3;
+
+  a {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+
+@include respond(4) {
+  .list-pagination {
+    width: $grid * 24;
+    float: left;
+    margin-left: $grid * 24;
+    overflow: visible;
+
+    .wrapper {
+      width: 230px;
+    }
+  }
+}
+
+.post-author {
+  margin-top: 6px;
+  font-weight: 300;
+  line-height: 1.4;
+
+}
+
+.post-title {
+  margin-top: $grid;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.post-content {
+  margin-top: 0;
+  font-weight: 300;
+  p:first-child {
+    margin-top: 0;
+  }
+  ul, ol {
+    padding-left: 0;
+  }
+  p, ul, ol {
+    line-height: 1.4;
+    font-size: 17px;
+  }
+  .embed-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  img {
+    @extend .img-responsive;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .author-intro {
+    img {
+      float: left;
+      width: 25%;
+      margin: 0px 1em 0px 0px;
+    }
+    p {
+      font-style: italic;
+      margin-top: 0;
+    }
+    .name {
+      font-weight: bold;
+    }
+
+    & + p {
+      margin-top: 8px;
+    }
+  }
+  .roundup-item {
+    font-size: $size-body;
+    font-weight: 400;
+    padding-top: $grid;
+    margin-top: $double * 2;
+    border-top: 1px solid $color-highlight;
+    & + .roundup-item {
+      margin-top: $double * 3;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .roundup-title {
+    margin-bottom: 0;
+    a {
+      @include link-highlight($color-highlight, $color-black);
+      @include include-arrow(1px);
+      border-bottom: none;
+      &:hover { @include include-arrow-black; }
+      &:active {
+        color: $color-highlight;
+        @include include-arrow-highlight;
+      }
+    }
+  }
+  .screenshot {
+    margin: $double 0;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid $color-trans-lightgray;
+  }
+  .submitted-by {
+    font-weight: 300;
+    margin-top: $grid;
+    &:before {
+      content: '/';
+      color: $color-highlight;
+      padding-right: 2px;
+    }
+  }
+  img.size-full {
+    margin: $double 0;
+  }
+  & > p + p  {
+    margin-top: 1em;
+  }
+  & > ol, & > ul {
+    margin: $double 0;
+    li {
+      padding-left: .8em;
+      text-indent: -.8em;
+      + li {
+        margin-top: .75em;
+      }
+    }
+  }
+  & > p + a img {
+    margin-top: $double;
+  }
+  blockquote {
+    margin: $double 0;
+    border-left: 1px solid $color-trans-lightgray;
+    padding-left: $double;
+      p + p {
+      margin-top: 1em;
+    }
+    ul {
+      margin: 1em 0;
+      li + li {
+        margin-top: .75em;
+      }
+    }
+  }
+}
+
+.pagination {
+  .small-btn {
+    display: inline-block;
+    width: 49%;
+    // margin fixes bug on Safari
+    margin-bottom: 0px;
+  }
+}
+
+@include respond(3) {
+  .post-title {
+    font-size: 40px;
+  }
+  .post-author {
+    padding-bottom: $double;
+  }
+  .post-content {
+    p, ul, ol {
+      font-size: 22px;
+    }
+    .roundup-item p { font-size: $size-body; }
+    .roundup-title { font-weight: 400; }
+    .roundup-item + .roundup-item { margin-top: $double; }
+    .submitted-by { font-weight: 400; }
+    .screenshot {
+      float: left;
+      width: 30%;
+    }
+  }
+  .text-frame { font-weight: 300; }
+  .roundup-item .metadata {
+    float: left;
+    width: 70%;
+    padding: $double;
+  }
+  article.post + article.post { margin-top: $double * 4; }
+  .embed-container:first-child {
+    margin-top: 4px;
+  }
+}
+
+@include respond(4) {
+  article, .pagination {
+    max-width: 596px;
+    margin: auto;
+  }
+  .post-content {
+    & > p, & > ul, & > ol {
+      font-size: $size-large;
+    }
+    & .lil-list {
+      font-size: $size-body;
+    }
+  }
+}
+
+.tag, .category {
+  display: inline-block;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 1em 2px;
+  border-radius: 8px;
+  font-size: .9em;
+  line-height: 1.6em;
+  color: $color-white;
+  background-color: $color-highlight;
+
+  &:hover, &:focus,
+  a:hover, a:focus {
+    color: $color-white;
+    background-color: $color-electricblue;
+  }
+}

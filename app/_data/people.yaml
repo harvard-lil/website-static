@@ -348,7 +348,7 @@ berkman:
 anna-bialas:
   name: Anna Bialas
   sort_name: Bialas
-  role: LIL and Berkman Summer Intern 
+  role: LIL and Berkman Summer Intern
   website: http://trash.exchange
   twitter_account_name: femalegazebot
   github_account_name: annabialas
@@ -489,6 +489,12 @@ harvard-library-lab:
   website: http://osc.hul.harvard.edu/liblab/
   affiliated: false
 
+ben-gaucherin:
+  name: Ben Gaucherin
+  sort_name: Gaucherin
+  website: https://bengaucherin.wordpress.com
+  affiliated: false
+
 alison-head:
   name: Alison Head
   sort_name: Head
@@ -501,6 +507,17 @@ sha-hwang:
   sort_name: Hwang
   website: http://postarchitectural.com/
   twitter_account_name: shashashasha
+  affiliated: false
+
+michael-jimenez:
+  name: Michael Jimenez
+  sort_name: Jimenez
+  affiliated: false
+
+dan-jones:
+  name: Dan Jones
+  sort_name: Jones
+  role: Digital Media Producer, Berkman Klein Center for Internet & Society
   affiliated: false
 
 rachel-karasick:
@@ -525,7 +542,7 @@ ilya-kreymer:
 doyung-lee:
   name: Doyung Lee
   sort_name: Lee
-  role: LIL and Berkman Summer Intern 
+  role: LIL and Berkman Summer Intern
   website: https://doyunglee.github.io/
   affiliated: summer
   image: doyung-lee.png
@@ -607,7 +624,7 @@ matt-miller:
   affiliated: summer
   website: http://thisismattmiller.com/
   twitter_account_name: thisismmiller
-  github_account_name: thisismmiller 
+  github_account_name: thisismmiller
   image: matt-miller.png
 
 miglena-minkova:
@@ -651,7 +668,7 @@ carli-spina:
 zach-tan:
   name: Zach Tan
   sort_name: Tan
-  role: LIL and Berkman Summer Intern 
+  role: LIL and Berkman Summer Intern
   website: http://www.zachtan.co/
   affiliated: summer
   image: zach-tan.png
@@ -732,4 +749,4 @@ jessica-yurkofsky:
   sort_name: Yurkofsky
   website: http://www.jessyurko.com/
   affiliated: false
-  
+

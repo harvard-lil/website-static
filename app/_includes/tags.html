@@ -1,0 +1,10 @@
+{% if include.tags or include.categories %}
+<footer>
+  {% for tag in include.tags %}
+    <span class="tag"><a href="{{ site.baseurl }}/blog/tag/{{ tag | slugify }}">{{ tag }}</a></span>
+  {% endfor %}
+  {% for category in include.categories %}
+    <span class="category"><a href="{{ site.baseurl }}/blog/category/{{ category | slugify }}">{{ category }}</a></span>
+  {% endfor %}
+</footer> <!-- end article footer -->
+{% endif %}

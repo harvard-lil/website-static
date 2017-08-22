@@ -1,0 +1,63 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %}xml:lang="{{ site.lang }}"{% endif %}>
+  <link href="{{ page.url | absolute_url | remove: "index.xml" }}" rel="self" type="application/atom+xml" />
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ '/' | absolute_url | xml_escape }}</id>
+
+  {% if site.title %}
+    <title type="html">{{ site.title | smartify | xml_escape }}</title>
+  {% elsif site.name %}
+    <title type="html">{{ site.name | smartify | xml_escape }}</title>
+  {% endif %}
+
+  {% if site.description %}
+    <subtitle>{{ site.description | xml_escape }}</subtitle>
+  {% endif %}
+
+  {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
+  {% for post in posts limit: 10 %}
+    <entry{% if post.lang %}{{" "}}xml:lang="{{ post.lang }}"{% endif %}>
+      <title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+      <published>{{ post.date | date_to_xmlschema }}</published>
+      <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+      {% if post.wordpress_id %}
+        {% assign post_id = site.url | append: "/blog/?p=" | append: post.wordpress_id %}
+        <id>{{ post_id | xml_escape }}</id>
+      {% else %}
+        <id>{{ post.id | absolute_url | xml_escape }}</id>
+      {% endif %}
+
+      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">
+        <![CDATA[{{ post.content | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]>
+      </content>
+
+      <author>
+      {% if post.author %}
+          {% assign person_record = site.data.people[post.author] %}
+          <name>{{ person_record.name | xml_escape }}</name>
+      {% elsif post.guest-author %}
+          <name>{{ post.guest-author | xml_escape }}</name>
+      {% endif %}
+      </author>
+
+      {% for category in post.categories %}
+        <category term="{{ category | xml_escape }}" />
+      {% endfor %}
+
+      {% for tag in post.tags %}
+        <category term="{{ tag | xml_escape }}" />
+      {% endfor %}
+
+      {% if post.excerpt and post.excerpt != empty %}
+        <summary type="html">
+          <![CDATA[{{ post.excerpt | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]>
+        </summary>
+      {% endif %}
+
+    </entry>
+  {% endfor %}
+</feed>
