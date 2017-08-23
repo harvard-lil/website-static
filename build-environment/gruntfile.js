@@ -208,6 +208,13 @@ module.exports = function (grunt) {
         src: '**/*',
         dest: '<%= globalConfig.prodBuild %>/api/'
       },
+      feeds: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.devBuild %>/blog/feed',
+        src: '**/*',
+        dest: '<%= globalConfig.prodBuild %>/blog/feed/'
+      },
       extras: {
         expand: true,
         nonull: true,
@@ -302,6 +309,7 @@ module.exports = function (grunt) {
     'assets:compressed',
     'htmlmin',
     'copy:api',
+    'copy:feeds',
     'copy:extras'
   ]);
 
