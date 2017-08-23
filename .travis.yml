@@ -1,0 +1,12 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - npm install vnu-jar
+  - docker-compose up -d
+
+script:
+  - docker-compose exec jekyll grunt build:travis
+  - test -z $(java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt builds/prod/)

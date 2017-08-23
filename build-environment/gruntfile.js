@@ -313,6 +313,18 @@ module.exports = function (grunt) {
     'copy:extras'
   ]);
 
+  grunt.registerTask('build:travis', [
+    'warn-fail',
+    'exec:cleanBuilds',
+    'exec:jekyllFresh',
+    'assets:expanded',
+    'assets:compressed',
+    'htmlmin',
+    'copy:api',
+    'copy:feeds',
+    'copy:extras'
+  ]);
+
   // Register the default task
   grunt.registerTask('default', ['build:dev', 'watch']);
 

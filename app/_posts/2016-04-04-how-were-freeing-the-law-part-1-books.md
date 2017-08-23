@@ -8,7 +8,7 @@ categories:
 ---
 
 <div class="author-intro">
-  <img src="https://lil-blog-media.s3.amazonaws.com/2016/04/1c60deb.jpg">
+  <img src="https://lil-blog-media.s3.amazonaws.com/2016/04/1c60deb.jpg" alt="">
   <p><span class="name">Adi Kamdar</span> is a 1L at Harvard Law School and our embedded reporter on the Free the Law project. In this first post, he tracks the progress of a casebook through our scanning process from start to finish.</p>
 </div>
 

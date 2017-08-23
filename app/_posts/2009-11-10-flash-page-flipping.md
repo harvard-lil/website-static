@@ -6,7 +6,7 @@ title: Flash page flipping...
 wordpress_id: 26
 categories:
 - Ideas
-- Tools &amp; Widgets
+- Tools and Widgets
 ---
 
 Here are a couple of Flash page flipping commercial tools that could be useful:

@@ -6,7 +6,7 @@ custom-css: ['blog']
   <div class="sleeve">
     <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
-        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date: "%B %-d, %Y" }}</time>
+        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
         {% if page.author %}
           {% assign person_record = site.data.people[page.author] %}
