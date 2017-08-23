@@ -30,10 +30,10 @@ sketch_thumbnail_image:
 # (1200px x 675px)
 # (1600px x 900px)
 # (2100px x 1000px)
-hero_image: perma-box-hero-wide.png
+hero_image:
 # (400px x 400px)
 # (800px x 800px)
-hero_image_square: perma-hero-square.png
+hero_image_square:
 
 video:
 
