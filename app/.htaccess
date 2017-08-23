@@ -45,3 +45,6 @@ Redirect permanent "/fellows-application-2016" "/collaborate/2016/summer/fellows
 Redirect permanent "/fellows" "/collaborate/2016/summer/fellows/"
 Redirect permanent "/projects/free-the-law" "/projects/case-law-access-project/"
 Redirect "/jobs" "/collaborate"
+
+# let feeds determine their own encoding per https://validator.w3.org/feed/docs/warning/EncodingMismatch.html
+AddType application/xml .xml
