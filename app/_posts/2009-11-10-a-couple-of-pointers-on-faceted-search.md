@@ -5,7 +5,7 @@ title: A couple of pointers on faceted search
 wordpress_id: 20
 categories:
 - Ideas
-- Tools &amp; Widgets
+- Tools and Widgets
 ---
 
 The primary Open Source option at this point is Apache's Solr which grew on top of Lucene

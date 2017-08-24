@@ -1,0 +1,5 @@
+.*allowfullscreen.*
+.*frameborder.*
+.*margin.*
+.*scrolling.*
+.*Duplicate ID.*

@@ -5,7 +5,7 @@ title: Playing with CMaps
 wordpress_id: 90
 categories:
 - ShelfLife
-- Tools &amp; Widgets
+- Tools and Widgets
 ---
 
 Concept maps may be a useful tool for us to map out some of the things we are working with.  The tool I have used many times in the past can be found [here](http://cmap.ihmc.us/download/dlp_CmapTools.php) and was developed by the Florida Institute for Human & Machine Cognition (IHMC).  Here is a sample map:
