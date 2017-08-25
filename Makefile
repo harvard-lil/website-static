@@ -1,6 +1,6 @@
 all: up prod
 
-travis: up prod_noclean
+travis: up noclean
 
 up:
 	docker-compose up -d
@@ -17,8 +17,8 @@ dev:
 prod:
 	docker-compose exec jekyll grunt build:prod
 
-prod_noclean:
-	docker-compose exec jekyll grunt build:travis
+noclean:
+	docker-compose exec jekyll grunt build:noclean
 
 bash:
 	docker-compose exec jekyll bash
