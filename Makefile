@@ -13,7 +13,7 @@ dev:
 	docker-compose exec jekyll grunt build:dev
 
 prod:
-	docker-compose exec jekyll grunt build:dev
+	docker-compose exec jekyll grunt build:prod
 
 bash:
 	docker-compose exec jekyll bash
