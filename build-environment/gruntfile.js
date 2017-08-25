@@ -313,9 +313,8 @@ module.exports = function (grunt) {
     'copy:extras'
   ]);
 
-  grunt.registerTask('build:travis', [
+  grunt.registerTask('build:noclean', [
     'warn-fail',
-    'exec:cleanBuilds',
     'exec:jekyllFresh',
     'assets:expanded',
     'assets:compressed',
