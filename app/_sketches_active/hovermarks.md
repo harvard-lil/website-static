@@ -20,7 +20,7 @@ thumbnail_image:
 # For Sketches
 # (216px x 216px)
 # (432px x 432px)
-# (638px x 638px)
+# (648px x 648px)
 sketch_thumbnail_image: sketch-hovermarks.png
 
 # Optional
