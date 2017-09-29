@@ -1,12 +1,14 @@
 ---
 ### PROJECT METADATA ###
 # Required
-title: Community Portraits
+title: Web Archive Comparison Tools
 
 # Optional
-project_website:
-github_repo:
-start_date: June 5, 2017
+project_website: 
+
+github_repo: https://github.com/harvard-lil/warc-diff-tools
+
+start_date: Jan, 2017
 
 ### MEDIA ###
 # Required
@@ -21,7 +23,7 @@ thumbnail_image:
 # (216px x 216px)
 # (432px x 432px)
 # (648px x 648px)
-sketch_thumbnail_image: community-portraits.png
+sketch_thumbnail_image: warc-diff-tools.png
 
 # Optional
 
@@ -42,11 +44,11 @@ video:
 
 # Required
 what_does_it_do: >
-  Pop-up photo booth that allows libraries to collect and showcase portraits of people in their community over time
+  Web archive comparison
 
 # Optional
-why_does_it_exist: |
-  As we migrate online, the role of the library is shifting. This project explores ways in which libraries can become sites for fostering communities, promoting empathy, as well as engaging community members outside of their physical space or the internet.
+why_does_it_exist: >
+  To provide insight into how websites change over time. 
 
 who_contributed:
 
