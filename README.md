@@ -36,7 +36,7 @@ To quit and remove your docker images, in addition to the containers, run ```doc
 
 ### Working on the build environment
 
-If you change any of the contents of the build-environment directory, you need to rebuild the docker image.
+If you change any of the contents of the build-environment directory (for instance, if you change any configurations in gruntfile.js), you need to rebuild the docker image.
 - option 1 (best for iterating locally): run ```make rebuild_image``` or ```docker-compose build``` or ```docker-compose up -d --build```
 - option 2 (best for when you are finished): increment the tag for lil-website in docker-compose.yml. This ensures that an automatic rebuild is triggered for all users, when they pull in your changes.
 
