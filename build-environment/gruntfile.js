@@ -114,6 +114,9 @@ module.exports = function (grunt) {
         },{
           src: '<%= globalConfig.assetsSrc %>/scss/blog.scss',
           dest: '<%= globalConfig.assetsDist %>/expanded/css/blog.css'
+        },{
+          src: '<%= globalConfig.assetsSrc %>/scss/workshop.scss',
+          dest: '<%= globalConfig.assetsDist %>/expanded/css/workshop.css'
         }]
       }
     },
