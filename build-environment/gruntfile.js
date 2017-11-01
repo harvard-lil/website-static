@@ -65,7 +65,7 @@ module.exports = function (grunt) {
         }
       },
       cleanAssets: {
-        command: 'cd <%= globalConfig.assetsDist %>; rm -rf *; cd ../',
+        command: 'cd <%= globalConfig.assetsDist %> && rm -rf * && cd ../',
         stderr: false,
         callback: function (error, stdout, stderr) {
           if (stderr) {
