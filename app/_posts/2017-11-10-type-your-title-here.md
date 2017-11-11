@@ -1,5 +1,5 @@
 ---
-title: ...Type Your Title Here...
+title: LITA, Day One
 author: rebecca-cremona
 ---
 We're off to a great start here in Denver at the LITA 2017 Forum.
