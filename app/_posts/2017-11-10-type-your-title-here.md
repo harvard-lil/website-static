@@ -8,7 +8,7 @@ We're off to a great start here in Denver at the LITA 2017 Forum.
 
 In a concurrent session immediately afterwards, [Sam Kome](http://forum.lita.org/speakers/sam-kome/) took a deep dive into the personally identifiable information (PII) his library (and certainly everyone else's) has been unwittingly collecting about their patrons, simply by using today's standard technologies. Kome is examining everything from the bottom up, scrubbing data and putting in place policies to ensure that little or no PII touches his library systems again.  
 
-[Jayne Blodgett](http://forum.lita.org/speakers/jayne-blodgett/) discussed her strategy for negotiating the sometimes tense relationship between libraries and their parters in IT; hot on the heels of the discussion about patron privacy and leaky web services, the importance of this relationship couldn't be more plain.
+[Jayne Blodgett](http://forum.lita.org/speakers/jayne-blodgett/) discussed her strategy for negotiating the sometimes tense relationship between libraries and their partners in IT; hot on the heels of the discussion about patron privacy and leaky web services, the importance of this relationship couldn't be more plain.
 
 [Samuel Willis](http://forum.lita.org/speakers/samuel-willis/) addressed web accessibility and its centrality to the mission of libraries. He detailed his efforts to survey and improve the accessibility of resources for patrons with print disabilities, and offered suggestions for inducing vendors to improve their products. The group pondered how to maintain the privacy of patrons with disabilities, providing the services they require without demanding that they identify themselves as disabled, and without storing that personal information in library systems.
 
