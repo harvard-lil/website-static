@@ -36,7 +36,10 @@ Redirect permanent "/projects.html" "/projects/"
 
   # added per JC 2016-09-20 -- BRS
   RewriteCond "%{HTTP_HOST}"   "^librarylab\.law\.harvard\.edu" [NC]
-  RewriteRule "^/?(.*)"        "http://lil.law.harvard.edu/$1" [L,R=301]
+  RewriteRule "^/?(.*)"        "https://lil.law.harvard.edu/$1" [L,R=301]
+
+  RewriteCond %{HTTPS} off
+  RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
 
 # redirect legacy urls
