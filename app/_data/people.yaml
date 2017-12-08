@@ -39,21 +39,6 @@ samantha-bates:
   image: samantha-bates.jpg
   affiliated: true
 
-stephen-chapman:
-  name: Stephen Chapman
-  sort_name: Chapman
-  role: Manager, Digital Strategies for Collections
-  bio: >
-    Steve is a librarian mad about digitization. Always ready for a road
-    trip, he loves national parks and used bookstores. Steve has worked
-    at Harvard since 1997.
-  email: schapman@law.harvard.edu
-  website:
-  twitter_account_name: schapman50
-  github_account_name:
-  image: stephen-chapman.jpg
-  affiliated: true
-
 casey-gruppioni:
   name: Casey Gruppioni
   sort_name: Gruppioni
@@ -140,21 +125,6 @@ jay-edwards:
   image: jay-edwards.jpg
   affiliated: true
 
-kerri-fleming:
-  name: Kerri Fleming
-  sort_name: Fleming
-  role: Digital Projects Archivist
-  bio: >
-    Kerri is a history nerd who loves color-coding, ice cream and the
-    Backstreet Boys. In her spare time she is either giving her niece
-    horsie rides or teaching exercise classes at nursing homes.
-  email:  kfleming@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name:
-  image: kerri-fleming.jpg
-  affiliated: true
-
 brett-johnson:
   name: Brett Johnson
   sort_name: Johnson
@@ -181,20 +151,6 @@ caitlin-laughlin:
   twitter_account_name:
   github_account_name:
   image: caitlin-laughlin.jpg
-  affiliated: true
-
-matt-phillips:
-  name: Matt Phillips
-  sort_name: Phillips
-  role: Product Lead
-  bio: >
-    Matt loves pedaling bicycles. He likes creating tools and thinking
-    of new ways to talk to the machine.
-  email: mphillips@law.harvard.edu
-  website: http://mattphillips.info
-  twitter_account_name: this_phillips
-  github_account_name:  phillipsm
-  image: matt-phillips.jpg
   affiliated: true
 
 andy-silva:
@@ -285,10 +241,39 @@ jonathan-zittrain:
   affiliated: true
 
 
-
-
 # Friends, Former Staff, Former Fellows, etc.
 # (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
+
+matt-phillips:
+  name: Matt Phillips
+  sort_name: Phillips
+  website: http://mattphillips.info
+  twitter_account_name: this_phillips
+  github_account_name:  phillipsm
+  affiliated: false
+
+stephen-chapman:
+  name: Stephen Chapman
+  sort_name: Chapman
+  role: Manager, Digital Strategies for Collections
+  bio: >
+    Steve is a librarian mad about digitization. Always ready for a road
+    trip, he loves national parks and used bookstores. Steve has worked
+    at Harvard since 1997.
+  email: schapman@law.harvard.edu
+  twitter_account_name: schapman50
+  affiliated: false
+
+kerri-fleming:
+  name: Kerri Fleming
+  sort_name: Fleming
+  role: Digital Projects Archivist
+  bio: >
+    Kerri is a history nerd who loves color-coding, ice cream and the
+    Backstreet Boys. In her spare time she is either giving her niece
+    horsie rides or teaching exercise classes at nursing homes.
+  email:  kfleming@law.harvard.edu
+  affiliated: false
 
 karen-beck:
   name: Karen Beck
