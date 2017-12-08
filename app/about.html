@@ -5,8 +5,6 @@ custom-footer: true
 layout: sectioned-page
 ---
 
-{% assign summer_friends_length = site.data.people | where: "affiliated", "summer" | size %}
-
 <section>
   <div class="sleeve">
 
@@ -88,20 +86,7 @@ layout: sectioned-page
   </div>
 </section>
 
-{% if summer_friends_length > 0 %}
-<section class="people-unaffiliated">
-  <div class="sleeve">
-    <div class="heading-pair">
-      <h2>Summer Guests</h2>
-      <p>Fellows, Interns, Tinkerers.</p>
-    </div>
-
-    <div class="list">
-      {% include about-people-summer.html %}
-    </div>
-  </div>
-</section>
-{% endif %}
+{% include about-people-summer.html %}
 
 <section class="people-unaffiliated">
   <div class="sleeve">
