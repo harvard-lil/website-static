@@ -311,7 +311,7 @@ zena-agha:
   role: Summer Fellow
   website: https://zenaagha.com/about/
   twitter_account_name: Zena_Agha
-  affiliated: summer
+  affiliated: false
   image: zena-agha.png
 
 neel-agrawal:
@@ -337,7 +337,7 @@ anna-bialas:
   website: http://trash.exchange
   twitter_account_name: femalegazebot
   github_account_name: annabialas
-  affiliated: summer
+  affiliated: false
   image: anna-bialas.png
 
 rachel-binx:
@@ -426,7 +426,7 @@ jake-effoduh:
   name: Jake Effoduh
   sort_name: Effoduh
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   twitter_account_name: effodu
   website: http://www.law2go.org/
   image: jake-effoduh.png
@@ -509,7 +509,7 @@ rachel-karasick:
   name: Rachel Karasick
   sort_name: Karasick
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   website: https://rachelkarasick.com/
   twitter_account_name: rkarasick
   image: rachel-karasick.png
@@ -529,7 +529,7 @@ doyung-lee:
   sort_name: Lee
   role: LIL and Berkman Summer Intern
   website: https://doyunglee.github.io/
-  affiliated: summer
+  affiliated: false
   image: doyung-lee.png
 
 erica-leeman:
@@ -606,7 +606,7 @@ matt-miller:
   name: Matt Miller
   sort_name: Miller
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   website: http://thisismattmiller.com/
   twitter_account_name: thisismmiller
   github_account_name: thisismmiller
@@ -616,7 +616,7 @@ miglena-minkova:
   name: Miglena Minkova
   sort_name: Minkova
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   website: http://miglenaminkova.com/
   twitter_account_name: miglenaminkova
   github_account_name: MMinkova
@@ -655,7 +655,7 @@ zach-tan:
   sort_name: Tan
   role: LIL and Berkman Summer Intern
   website: http://www.zachtan.co/
-  affiliated: summer
+  affiliated: false
   image: zach-tan.png
 
 shailin-thomas:
@@ -693,7 +693,7 @@ reid-whitaker:
   name: Reid Whitaker
   sort_name: Whitaker
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   website: http://reidmwhitaker.com/
   twitter_account_name: reidmwhitaker
   github_account_name: reidmwitaker
