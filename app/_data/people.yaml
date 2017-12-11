@@ -39,21 +39,6 @@ samantha-bates:
   image: samantha-bates.jpg
   affiliated: true
 
-stephen-chapman:
-  name: Stephen Chapman
-  sort_name: Chapman
-  role: Manager, Digital Strategies for Collections
-  bio: >
-    Steve is a librarian mad about digitization. Always ready for a road
-    trip, he loves national parks and used bookstores. Steve has worked
-    at Harvard since 1997.
-  email: schapman@law.harvard.edu
-  website:
-  twitter_account_name: schapman50
-  github_account_name:
-  image: stephen-chapman.jpg
-  affiliated: true
-
 casey-gruppioni:
   name: Casey Gruppioni
   sort_name: Gruppioni
@@ -140,21 +125,6 @@ jay-edwards:
   image: jay-edwards.jpg
   affiliated: true
 
-kerri-fleming:
-  name: Kerri Fleming
-  sort_name: Fleming
-  role: Digital Projects Archivist
-  bio: >
-    Kerri is a history nerd who loves color-coding, ice cream and the
-    Backstreet Boys. In her spare time she is either giving her niece
-    horsie rides or teaching exercise classes at nursing homes.
-  email:  kfleming@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name:
-  image: kerri-fleming.jpg
-  affiliated: true
-
 brett-johnson:
   name: Brett Johnson
   sort_name: Johnson
@@ -181,20 +151,6 @@ caitlin-laughlin:
   twitter_account_name:
   github_account_name:
   image: caitlin-laughlin.jpg
-  affiliated: true
-
-matt-phillips:
-  name: Matt Phillips
-  sort_name: Phillips
-  role: Product Lead
-  bio: >
-    Matt loves pedaling bicycles. He likes creating tools and thinking
-    of new ways to talk to the machine.
-  email: mphillips@law.harvard.edu
-  website: http://mattphillips.info
-  twitter_account_name: this_phillips
-  github_account_name:  phillipsm
-  image: matt-phillips.jpg
   affiliated: true
 
 andy-silva:
@@ -285,10 +241,39 @@ jonathan-zittrain:
   affiliated: true
 
 
-
-
 # Friends, Former Staff, Former Fellows, etc.
 # (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
+
+matt-phillips:
+  name: Matt Phillips
+  sort_name: Phillips
+  website: http://mattphillips.info
+  twitter_account_name: this_phillips
+  github_account_name:  phillipsm
+  affiliated: false
+
+stephen-chapman:
+  name: Stephen Chapman
+  sort_name: Chapman
+  role: Manager, Digital Strategies for Collections
+  bio: >
+    Steve is a librarian mad about digitization. Always ready for a road
+    trip, he loves national parks and used bookstores. Steve has worked
+    at Harvard since 1997.
+  email: schapman@law.harvard.edu
+  twitter_account_name: schapman50
+  affiliated: false
+
+kerri-fleming:
+  name: Kerri Fleming
+  sort_name: Fleming
+  role: Digital Projects Archivist
+  bio: >
+    Kerri is a history nerd who loves color-coding, ice cream and the
+    Backstreet Boys. In her spare time she is either giving her niece
+    horsie rides or teaching exercise classes at nursing homes.
+  email:  kfleming@law.harvard.edu
+  affiliated: false
 
 karen-beck:
   name: Karen Beck
@@ -326,7 +311,7 @@ zena-agha:
   role: Summer Fellow
   website: https://zenaagha.com/about/
   twitter_account_name: Zena_Agha
-  affiliated: summer
+  affiliated: false
   image: zena-agha.png
 
 neel-agrawal:
@@ -352,7 +337,7 @@ anna-bialas:
   website: http://trash.exchange
   twitter_account_name: femalegazebot
   github_account_name: annabialas
-  affiliated: summer
+  affiliated: false
   image: anna-bialas.png
 
 rachel-binx:
@@ -441,7 +426,7 @@ jake-effoduh:
   name: Jake Effoduh
   sort_name: Effoduh
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   twitter_account_name: effodu
   website: http://www.law2go.org/
   image: jake-effoduh.png
@@ -524,7 +509,7 @@ rachel-karasick:
   name: Rachel Karasick
   sort_name: Karasick
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   website: https://rachelkarasick.com/
   twitter_account_name: rkarasick
   image: rachel-karasick.png
@@ -544,7 +529,7 @@ doyung-lee:
   sort_name: Lee
   role: LIL and Berkman Summer Intern
   website: https://doyunglee.github.io/
-  affiliated: summer
+  affiliated: false
   image: doyung-lee.png
 
 erica-leeman:
@@ -621,7 +606,7 @@ matt-miller:
   name: Matt Miller
   sort_name: Miller
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   website: http://thisismattmiller.com/
   twitter_account_name: thisismmiller
   github_account_name: thisismmiller
@@ -631,7 +616,7 @@ miglena-minkova:
   name: Miglena Minkova
   sort_name: Minkova
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   website: http://miglenaminkova.com/
   twitter_account_name: miglenaminkova
   github_account_name: MMinkova
@@ -670,7 +655,7 @@ zach-tan:
   sort_name: Tan
   role: LIL and Berkman Summer Intern
   website: http://www.zachtan.co/
-  affiliated: summer
+  affiliated: false
   image: zach-tan.png
 
 shailin-thomas:
@@ -708,7 +693,7 @@ reid-whitaker:
   name: Reid Whitaker
   sort_name: Whitaker
   role: Summer Fellow
-  affiliated: summer
+  affiliated: false
   website: http://reidmwhitaker.com/
   twitter_account_name: reidmwhitaker
   github_account_name: reidmwitaker
