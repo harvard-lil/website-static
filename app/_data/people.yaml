@@ -98,21 +98,6 @@ paul-deschner:
   image: paul-deschner.jpg
   affiliated: true
 
-kim-dulin:
-  name: Kim Dulin
-  sort_name: Dulin
-  role: Library Innovation Lab Director
-  bio: >
-    Kim is the director of the Lab. She's a librarian, lawyer, and
-    former Iowan. She loves chocolate labs, summertime, and working
-    with the Library Innovation Lab team.
-  email: kdulin@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name:
-  image: kim-dulin.jpg
-  affiliated: true
-
 jay-edwards:
   name: Jay Edwards
   sort_name: Edwards
@@ -243,6 +228,13 @@ jonathan-zittrain:
 
 # Friends, Former Staff, Former Fellows, etc.
 # (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
+
+kim-dulin:
+  name: Kim Dulin
+  sort_name: Dulin
+  role: former Library Innovation Lab Director
+  image: kim-dulin.jpg
+  affiliated: false
 
 matt-phillips:
   name: Matt Phillips
