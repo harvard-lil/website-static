@@ -43,9 +43,11 @@ Redirect permanent "/projects.html" "/projects/"
 </IfModule>
 
 # redirect legacy urls
+Redirect permanent "/fellows-application-2018" "/collaborate/2018/summer/fellows/apply/"
 Redirect permanent "/fellows-application-2017" "/collaborate/2017/summer/fellows/apply/"
 Redirect permanent "/fellows-application-2016" "/collaborate/2016/summer/fellows/apply/"
-Redirect permanent "/fellows" "/collaborate/2016/summer/fellows/"
+
+Redirect permanent "/fellows" "/collaborate/2018/summer/fellows/apply/"
 Redirect permanent "/projects/free-the-law" "/projects/caselaw-access-project/"
 Redirect "/jobs" "/collaborate"
 
