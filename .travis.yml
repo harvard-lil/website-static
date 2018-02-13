@@ -8,4 +8,4 @@ before_install:
 
 script:
   - make travis
-  - test -z $(java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt builds/prod/)
+  - java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt builds/prod/
