@@ -1,5 +1,5 @@
 ---
-title: LIL Takes Toronto: the Creative Commons Summit 2018
+title: "LIL Takes Toronto: the Creative Commons Summit 2018"
 author: brett-johnson
 ---
 The [Creative Commons Conference](https://summit.creativecommons.org/sessions2018/) in Toronto was wonderful this past weekend! It was a pleasure to meet the mix of artists, educators, civil servants, policymakers, journalists, and copyright agents (and more) who were there.
