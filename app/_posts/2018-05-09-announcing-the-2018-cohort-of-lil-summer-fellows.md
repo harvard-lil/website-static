@@ -18,7 +18,7 @@ Next month, we'll welcome eight new Summer Fellows to LIL:
 
 * [Shira Feldman](http://www.shira-feldman.net/) - Shira is an artist and writer. This summer she will be exploring the intersection of internet and art, and what it means to live in a networked, digital culture.
 
-* [Kendra Greene]((http://akendragreene.com/index.html) - Kendra is a writer and researcher from Dallas. She'll be working on a book about dangerous library collections.
+* [Kendra Greene](http://akendragreene.com/index.html) - Kendra is a writer and researcher from Dallas. She'll be working on a book about dangerous library collections.
 
 * [Evelin Heidel](https://adigitalizar.org/) - Evelin (aka scann) is a teacher and open knowledge advocate from Argentina with deep experience in DIY digitization. She'll be developing learning resources to help small libraries, community archives, underrepresented groups and others build their own digital collections.
 
