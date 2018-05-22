@@ -31,13 +31,13 @@ If running `make` doesn't suit your work-style (takes too long, etc.), you have 
 Those containers need to be running for you to build, re-build, or view the website.
 
 You have three options for building/re-building the website:
-- ```docker-compose exec jekyll grunt``` will build the dev ("expanded", non-minified, non-optimized) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should be shorter. To stop the process, press control + c. For the dev version of the site, head to http://localhost:8080/.
+- ```make listen``` or ```docker-compose exec jekyll grunt``` will build the dev ("expanded", non-minified, non-optimized) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should be shorter. To stop the process, press control + c. For the dev version of the site, head to http://localhost:8080/.
 - ```make dev``` or ```docker-compose exec jekyll grunt build:dev``` will build the dev ("expanded", non-minified, non-optimized) version of the site, and then return. For the dev version of the site, head to http://localhost:8080/.
 - ```make prod``` or ```docker-compose exec jekyll grunt build:prod``` will build the production (compressed) version of the site, and then return. For the prod version of the site, head to http://localhost:8081/.
 
 When you are done, use `make down` or `docker-compose stop` to stop your containers.
 
-If something is wrong with your environment and you'd like to blast away your docker images and start completely fresh, run ```docker-compose down --rmi local```. The next time you attempt to start your containers, Docker will build you a new image automatically. 
+If something is wrong with your environment and you'd like to blast away your docker images and start completely fresh, run ```docker-compose down --rmi local```. The next time you attempt to start your containers, Docker will build you a new image automatically.
 
 
 ### Working on the build environment
