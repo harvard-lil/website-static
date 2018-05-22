@@ -11,6 +11,9 @@ rebuild_image:
 down:
 	docker-compose down
 
+listen:
+	docker-compose exec jekyll grunt
+
 dev:
 	docker-compose exec jekyll grunt build:dev
 
