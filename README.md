@@ -27,8 +27,8 @@ Install and Run
 2)  a webserver configured to serve up development and production builds of site.
 
 You have three options for building:
-- ```docker-compose exec jekyll grunt``` will build the dev (expanded) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should be shorter. To stop the process, press control + c.
-- ```make dev``` or ```docker-compose exec jekyll grunt build:dev``` will build the dev (expanded) version of the site, and then return.
+- ```docker-compose exec jekyll grunt``` will build the dev (expanded) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should be shorter. To stop the process, press control + c. For the dev version of the site, head to http://localhost:8080/.
+- ```make dev``` or ```docker-compose exec jekyll grunt build:dev``` will build the dev (expanded) version of the site, and then return. For the dev version of the site, head to http://localhost:8080/.
 - ```make prod``` or ```docker-compose exec jekyll grunt build:prod``` will build the production (compressed) version of the site, and then return.
 
 To quit and remove your docker images, in addition to the containers, run ```docker-compose down --rmi local```.
