@@ -15,23 +15,29 @@ Install and Run
 
 6. To rebuild the website and experience your changes: run `make` again, and refresh your browser window.
 
-7. When you are done playing, to stop the containers: first, run `make down`. Then:
+7. When you are done playing, run `make down`. Then:
   - Docker: quit the Docker app too, if you like
   - Docker Machine: run `docker-machine stop`, if you like
 
 
-### More Control
+### Or, For More Control
+
+If running `make` doesn't suit your work-style (takes too long, etc.), you have more fined-grained commands at your disposal.
 
 ```make up``` (or ```docker-compose up -d```) starts two containers in the background:
 1)  a container for building the site
 2)  a webserver configured to serve up development and production builds of site.
 
-You have three options for building:
-- ```docker-compose exec jekyll grunt``` will build the dev (expanded) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should be shorter. To stop the process, press control + c. For the dev version of the site, head to http://localhost:8080/.
-- ```make dev``` or ```docker-compose exec jekyll grunt build:dev``` will build the dev (expanded) version of the site, and then return. For the dev version of the site, head to http://localhost:8080/.
-- ```make prod``` or ```docker-compose exec jekyll grunt build:prod``` will build the production (compressed) version of the site, and then return.
+Those containers need to be running for you to build, re-build, or view the website.
 
-To quit and remove your docker images, in addition to the containers, run ```docker-compose down --rmi local```.
+You have three options for building/re-building the website:
+- ```docker-compose exec jekyll grunt``` will build the dev ("expanded", non-minified, non-optimized) version of the site, then will start listening for changes to the app and assets/src directories. It will rebuild on each save/change. The initial build after cloning the repo will be the slowest. Each subsequent rebuild should be shorter. To stop the process, press control + c. For the dev version of the site, head to http://localhost:8080/.
+- ```make dev``` or ```docker-compose exec jekyll grunt build:dev``` will build the dev ("expanded", non-minified, non-optimized) version of the site, and then return. For the dev version of the site, head to http://localhost:8080/.
+- ```make prod``` or ```docker-compose exec jekyll grunt build:prod``` will build the production (compressed) version of the site, and then return. For the prod version of the site, head to http://localhost:8081/.
+
+When you are done, use `make down` or `docker-compose stop` to stop your containers.
+
+If something is wrong with your environment and you'd like to blast away your docker images and start completely fresh, run ```docker-compose down --rmi local```. The next time you attempt to start your containers, Docker will build you a new image automatically. 
 
 
 ### Working on the build environment
