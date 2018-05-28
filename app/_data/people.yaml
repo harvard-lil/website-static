@@ -39,19 +39,18 @@ samantha-bates:
   image: samantha-bates.jpg
   affiliated: true
 
-stephen-chapman:
-  name: Stephen Chapman
-  sort_name: Chapman
-  role: Manager, Digital Strategies for Collections
+casey-gruppioni:
+  name: Casey Gruppioni
+  sort_name: Gruppioni
+  role: Developer
   bio: >
-    Steve is a librarian mad about digitization. Always ready for a road
-    trip, he loves national parks and used bookstores. Steve has worked
-    at Harvard since 1997.
-  email: schapman@law.harvard.edu
+    Casey likes power yoga, curating playlists, paddleboarding and pinball.
+    She enjoys working on projects for the greater good.
+  email: cgruppioni@law.harvard.edu
   website:
-  twitter_account_name: schapman50
-  github_account_name:
-  image: stephen-chapman.jpg
+  twitter_account_name: cgruppioni
+  github_account_name: cgruppioni
+  image: casey-gruppioni.jpg
   affiliated: true
 
 rebecca-cremona:
@@ -73,7 +72,7 @@ rebecca-cremona:
 jack-cushman:
   name: Jack Cushman
   sort_name: Cushman
-  role: Developer
+  role: Ombudsman
   bio: >
     Jack is an attorney, developer, and tinkerer. He once built a
     working web server using only a Perl script, a paperclip, and a
@@ -99,21 +98,6 @@ paul-deschner:
   image: paul-deschner.jpg
   affiliated: true
 
-kim-dulin:
-  name: Kim Dulin
-  sort_name: Dulin
-  role: Library Innovation Lab Director
-  bio: >
-    Kim is the director of the Lab. She's a librarian, lawyer, and
-    former Iowan. She loves chocolate labs, summertime, and working
-    with the Library Innovation Lab team.
-  email: kdulin@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name:
-  image: kim-dulin.jpg
-  affiliated: true
-
 jay-edwards:
   name: Jay Edwards
   sort_name: Edwards
@@ -126,28 +110,12 @@ jay-edwards:
   image: jay-edwards.jpg
   affiliated: true
 
-kerri-fleming:
-  name: Kerri Fleming
-  sort_name: Fleming
-  role: Digital Projects Archivist
-  bio: >
-    Kerri is a history nerd who loves color-coding, ice cream and the
-    Backstreet Boys. In her spare time she is either giving her niece
-    horsie rides or teaching exercise classes at nursing homes.
-  email:  kfleming@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name:
-  image: kerri-fleming.jpg
-  affiliated: true
-
 brett-johnson:
   name: Brett Johnson
   sort_name: Johnson
   role: Outreach and Support
   bio: >
-    Brett's a talker who likes to think he's a thinker. He makes film,
-    comedy and works with LIL on stuff like Perma and H2O.
+    Brett's a human who'd prefer identifying as a mammal that talks. He's interested in things working and not working and used to unjam printers as IT at an art school but doesn't have the body for that anymore.
   email:  bjohnson@law.harvard.edu
   website:  http://forrealdude.tumblr.com
   twitter_account_name:
@@ -159,26 +127,15 @@ caitlin-laughlin:
   name: Caitlin Laughlin
   sort_name: Laughlin
   role: Perma Admin
-  bio:
+  bio: >
+    Caitlin is a history and politics nerd who spends most of her free time
+    reading about obsure historical events, playing musical soundtracks too
+    loudly, and hanging with her roommates' cats.
   email: claughlin@law.harvard.edu
   website:
   twitter_account_name:
   github_account_name:
   image: caitlin-laughlin.jpg
-  affiliated: true
-
-matt-phillips:
-  name: Matt Phillips
-  sort_name: Phillips
-  role: Product Lead
-  bio: >
-    Matt loves pedaling bicycles. He likes creating tools and thinking
-    of new ways to talk to the machine.
-  email: mphillips@law.harvard.edu
-  website: http://mattphillips.info
-  twitter_account_name: this_phillips
-  github_account_name:  phillipsm
-  image: matt-phillips.jpg
   affiliated: true
 
 andy-silva:
@@ -259,7 +216,7 @@ jonathan-zittrain:
   bio: >
     JZ is a proud dog owner. Oh, and he directs the Law School Library,
     co-created the Berkman Center, is an EFF board member, and is
-    faculty in the Law School, School of Engineering and Applies
+    faculty in the Law School, School of Engineering and Applied
     Sciences, and the Kennedy School.
   email: a2jz@law.harvard.edu
   website: http://jz.org
@@ -269,10 +226,64 @@ jonathan-zittrain:
   affiliated: true
 
 
-
-
 # Friends, Former Staff, Former Fellows, etc.
-# (not currently officially affiliated) #
+# (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
+
+kim-dulin:
+  name: Kim Dulin
+  sort_name: Dulin
+  role: former Library Innovation Lab Director
+  image: kim-dulin.jpg
+  affiliated: false
+
+matt-phillips:
+  name: Matt Phillips
+  sort_name: Phillips
+  website: http://mattphillips.info
+  twitter_account_name: this_phillips
+  github_account_name:  phillipsm
+  affiliated: false
+
+stephen-chapman:
+  name: Stephen Chapman
+  sort_name: Chapman
+  role: Manager, Digital Strategies for Collections
+  bio: >
+    Steve is a librarian mad about digitization. Always ready for a road
+    trip, he loves national parks and used bookstores. Steve has worked
+    at Harvard since 1997.
+  email: schapman@law.harvard.edu
+  twitter_account_name: schapman50
+  affiliated: false
+
+kerri-fleming:
+  name: Kerri Fleming
+  sort_name: Fleming
+  role: Digital Projects Archivist
+  bio: >
+    Kerri is a history nerd who loves color-coding, ice cream and the
+    Backstreet Boys. In her spare time she is either giving her niece
+    horsie rides or teaching exercise classes at nursing homes.
+  email:  kfleming@law.harvard.edu
+  affiliated: false
+
+karen-beck:
+  name: Karen Beck
+  sort_name: Beck
+  role: Manager, Historical & Special Collections
+  affiliated: false
+
+jane-kelly:
+  name: Jane Kelly
+  sort_name: Kelly
+  role: Historical & Special Collections Assistant
+  affiliated: false
+
+margaret-peachy:
+  name: Margaret Peachy
+  sort_name: Peachy
+  role: Curator of Digital Collections
+  affiliated: false
 
 lori-schulsinger:
   name: Lori Schulsinger
@@ -285,6 +296,15 @@ caroline-walters:
   sort_name: Walters
   role: Collection Development Librarian for U.S. Law
   affiliated: false
+
+zena-agha:
+  name: Zena Agha
+  sort_name: Agha
+  role: Summer Fellow
+  website: https://zenaagha.com/about/
+  twitter_account_name: Zena_Agha
+  affiliated: false
+  image: zena-agha.png
 
 neel-agrawal:
   name: Neel Agrawal
@@ -301,6 +321,16 @@ berkman:
   website: https://cyber.law.harvard.edu/
   twitter_account_name: berkmancenter
   affiliated: false
+
+anna-bialas:
+  name: Anna Bialas
+  sort_name: Bialas
+  role: LIL and Berkman Summer Intern
+  website: http://trash.exchange
+  twitter_account_name: femalegazebot
+  github_account_name: annabialas
+  affiliated: false
+  image: anna-bialas.png
 
 rachel-binx:
   name: Rachel Binx
@@ -337,6 +367,12 @@ deborah-chase:
   name: Deborah Chase
   sort_name: Chase
   role: Digitization Specialist
+  affiliated: false
+
+kyle-courtney:
+  name: Kyle K. Courtney
+  sort_name: Courtney
+  role: Copyright Advisor and Program Manager, HL Office for Scholarly Communication
   affiliated: false
 
 emma-cushman:
@@ -377,6 +413,15 @@ kate-edrington:
   sort_name: Edrington
   role: Digitization Specialist
   affiliated: false
+
+jake-effoduh:
+  name: Jake Effoduh
+  sort_name: Effoduh
+  role: Summer Fellow
+  affiliated: false
+  twitter_account_name: effodu
+  website: http://www.law2go.org/
+  image: jake-effoduh.png
 
 antontio-fernandes:
   name: Antonio Fernandes
@@ -421,6 +466,12 @@ harvard-library-lab:
   website: http://osc.hul.harvard.edu/liblab/
   affiliated: false
 
+ben-gaucherin:
+  name: Ben Gaucherin
+  sort_name: Gaucherin
+  website: https://bengaucherin.wordpress.com
+  affiliated: false
+
 alison-head:
   name: Alison Head
   sort_name: Head
@@ -435,6 +486,26 @@ sha-hwang:
   twitter_account_name: shashashasha
   affiliated: false
 
+michael-jimenez:
+  name: Michael Jimenez
+  sort_name: Jimenez
+  affiliated: false
+
+dan-jones:
+  name: Dan Jones
+  sort_name: Jones
+  role: Digital Media Producer, Berkman Klein Center for Internet & Society
+  affiliated: false
+
+rachel-karasick:
+  name: Rachel Karasick
+  sort_name: Karasick
+  role: Summer Fellow
+  affiliated: false
+  website: https://rachelkarasick.com/
+  twitter_account_name: rkarasick
+  image: rachel-karasick.png
+
 ilya-kreymer:
   name: Ilya Kreymer
   sort_name: Kreymer
@@ -444,6 +515,14 @@ ilya-kreymer:
   twitter_account_name: IlyaKreymer
   github_account_name: ikreymer
   affiliated: false
+
+doyung-lee:
+  name: Doyung Lee
+  sort_name: Lee
+  role: LIL and Berkman Summer Intern
+  website: https://doyunglee.github.io/
+  affiliated: false
+  image: doyung-lee.png
 
 erica-leeman:
   name: Erica Leeman
@@ -515,6 +594,26 @@ metalab:
   twitter_account_name: metalabharvard
   affiliated: false
 
+matt-miller:
+  name: Matt Miller
+  sort_name: Miller
+  role: Summer Fellow
+  affiliated: false
+  website: http://thisismattmiller.com/
+  twitter_account_name: thisismmiller
+  github_account_name: thisismmiller
+  image: matt-miller.png
+
+miglena-minkova:
+  name: Miglena Minkova
+  sort_name: Minkova
+  role: Summer Fellow
+  affiliated: false
+  website: http://miglenaminkova.com/
+  twitter_account_name: miglenaminkova
+  github_account_name: MMinkova
+  image: miglena-minkova.png
+
 loren-newman:
   name: Loren Newman
   sort_name: Newman
@@ -542,6 +641,14 @@ carli-spina:
   sort_name: Spina
   role: Emerging Technologies and Research Librarian
   affiliated: false
+
+zach-tan:
+  name: Zach Tan
+  sort_name: Tan
+  role: LIL and Berkman Summer Intern
+  website: http://www.zachtan.co/
+  affiliated: false
+  image: zach-tan.png
 
 shailin-thomas:
   name: Shailin Thomas
@@ -573,6 +680,16 @@ david-weinberger:
   website: http://weinberger.org/
   twitter_account_name: dweinberger
   affiliated: false
+
+reid-whitaker:
+  name: Reid Whitaker
+  sort_name: Whitaker
+  role: Summer Fellow
+  affiliated: false
+  website: http://reidmwhitaker.com/
+  twitter_account_name: reidmwhitaker
+  github_account_name: reidmwitaker
+  image: reid-whitaker.png
 
 dano-williams:
   name: Dano Williams

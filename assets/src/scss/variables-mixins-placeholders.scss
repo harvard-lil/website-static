@@ -1,0 +1,369 @@
+
+////////////////////////////////////////////////
+//  variables
+
+////////
+//  grid
+
+// basic grid to keep spacing simple and regular
+$grid: 8px;
+$double: $grid * 2;
+$half: $grid / 2;
+
+////////
+//  respond
+
+//  Used by the respond($n) mixin
+//  ex:
+//  @include respond(3) {[content]}
+//  sets a min-width meda query at element [3] in this variable (+ 1 px)
+$respond-breakpoints: 320px 375px 695px 1048px 1296px;
+
+////////
+//  typography
+$font-body: 'PostGrotesk', Helvetica, Arial, sans-serif;
+
+//  common sizes
+$size-3xlarge: 72px;
+$size-2xlarge: 48px;
+$size-xlarge: 40px;
+$size-large: 24px;
+$size-xbody: 1.222222rem;
+$size-body: 17px;
+$size-small: 12px;
+
+////////
+//  colors
+$color-black: #222;
+$color-background: white;
+$color-highlight: #bd10e0;
+$color-active: white;
+$color-pink: #FF19D2;
+$color-blue: #0075FF;
+$color-electricblue: #17C5E3;
+$color-warmgray: #EAEAE5;
+$color-yellow: #F8CC1C;
+$color-brightyellow: #FFCF04;
+$color-sunset: #DD671A;
+$color-trans-darkgray: rgba(0,0,0,.5);
+$color-trans-lightgray: rgba(0,0,0,.1);
+$color-trans-whispergray: rgba(100,100,0,.02);
+$color-trans-gray: rgba(0,0,0,.4);
+$color-trans-black: rgba(0,0,0,.95);
+$color-trans-textwhite: rgba(254,254,254,.4);
+$color-trans-darkwhite: rgba(254,254,254,.9);
+$color-trans-white: rgba(254,254,254,.5);
+$color-trans-lightwhite: rgba(254,254,254,.25);
+$color-white: white;
+$color-acidmint: #18F1C0;
+
+
+////////////////////////////////////////////////
+//  Mixins
+
+// Structural
+
+// Shortcut for media queries
+// usage: @include respond(3);
+// sets min-width media query at the third element in $respond-breakpoints
+// (scss lists are 1-indexed, not 0-indexed)
+@mixin respond($n) { @media only screen and (min-width: nth($respond-breakpoints, $n) + 1) { @content; } }
+
+//  mixins for hiding elements on mobile, then showing a certain display type at ~tablet
+@mixin hide-onmobile-then($thiskind){
+  display: none;
+  @include respond(3) {
+    display: $thiskind;
+  }
+}
+@mixin hide-ontablet-then($thiskind){
+  display: none;
+  @include respond(4) {
+    display: $thiskind;
+  }
+}
+
+// see description containers/sleeves/slices for usage
+@mixin pop-out-of-sleeve($thisbg) {
+  background-color: $thisbg;
+  margin-left: -$double;
+  margin-right: -$double;
+  max-width: none;
+  @include respond(3){
+    margin-left: -$double * 2;
+    margin-right: -$double * 2;
+  }
+}
+
+// Typography
+@mixin overline(
+  $color,
+  $width,
+  $t-margin:null,
+  $r-margin:null,
+  $b-margin:null,
+  $l-margin:null) {
+    &:before {
+    content: '';
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid $color;
+    width: $width;
+    margin-top: $t-margin;
+    margin-right: $r-margin;
+    margin-bottom: $b-margin;
+    margin-left: $l-margin;
+  }
+}
+
+@mixin underline (
+  $color,
+  $width,
+  $height,
+  $t-margin:null,
+  $r-margin:null,
+  $b-margin:null,
+  $l-margin:null) {
+  &:after {
+    content: '';
+    display: block;
+    width: $width;
+    height: $height;
+    border-bottom: 1px solid $color;
+    margin-top: $t-margin;
+    margin-right: $r-margin;
+    margin-bottom: $b-margin;
+    margin-left: $l-margin;
+  }
+}
+
+@mixin hed-common {
+  line-height: 1.1;
+  font-weight: 700;
+  margin: 0;
+  @include respond(3) {
+    font-weight: 300;
+    font-size: $size-2xlarge;
+  }
+  @include respond(4) {
+    font-weight: 500;
+    font-size: $size-3xlarge;
+  }
+}
+
+@mixin heading-primary {
+  @include hed-common;
+  font-size: $size-xlarge;
+  margin: $grid auto;
+  font-weight: 300;
+
+  @include respond(4) {
+    margin-top: $double;
+    margin-bottom: $grid * 4;
+  }
+  span {
+    font-weight: 300;
+    color: $color-highlight;
+  }
+}
+
+@mixin heading-secondary {
+  font-weight: 700;
+  margin-bottom: $double;
+  margin-top: $grid * 3;
+  @include respond(4){
+    font-size: $size-large;
+  }
+}
+
+@mixin body-text {
+  line-height: 1.4;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 16px;
+  @include respond(4){
+    font-size: $size-large;
+  }
+}
+
+@mixin tiny-bold {
+  font-size: $size-small;
+  font-weight: 700;
+}
+
+//  mixins for <a> styles
+@mixin link-none($linkcolor){
+  color: $linkcolor;
+  text-decoration: none;
+  border: none;
+  &:link { color: $linkcolor; }
+  &:visited { color: $linkcolor}
+  &:hover { color: $linkcolor; }
+  &:active { color: $linkcolor; }
+}
+
+@mixin link-highlight($linkcolor, $highlightcolor){
+  color: $linkcolor;
+  text-decoration: none;
+  &:link { color: $linkcolor; }
+  &:visited { color: $linkcolor}
+  &:hover { color: $highlightcolor; }
+  &:active { color: $linkcolor; }
+}
+
+@mixin link-underline($linkcolor, $highlightcolor){
+  color: $linkcolor;
+  text-decoration: none;
+  &:link { color: $linkcolor; }
+  &:visited { color: $linkcolor}
+  &:hover {
+    color: $linkcolor;
+    text-decoration: underline;
+  }
+  &:active { color: $highlightcolor; }
+}
+
+@mixin underline-on-hover {
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+@mixin button-basic($padding) {
+  border-radius: 4px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: $color-highlight;
+  font-weight: 700;
+  font-size: $size-small;
+  border: 1px solid $color-highlight;
+  padding: #{$padding}px;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: $font-body;
+  &:hover {
+    border-width: 2px;
+    padding: #{$padding - 1}px;
+  }
+  &:active {
+    color: $color-white;
+    border-color: $color-highlight;
+    background: $color-highlight;
+  }
+}
+
+// add the arrow sprite after an element
+@mixin include-arrow($offset) {
+  &:after {
+    content: '';
+    height: 8px;
+    width: 10px;
+    display: inline-block;
+    background-image: url('../images/ui-arrow-sprite.svg');
+    background-position-x: 0;
+    margin-left: 4px;
+    vertical-align: middle;
+    bottom: $offset;
+    margin-right: -14px;
+  }
+}
+
+// shifts the arrow sprite to different positions/colors
+@mixin include-arrow-highlight { &:after { background-position-x: 0px; } }
+
+@mixin include-arrow-white { &:after { background-position-x: -10px; } }
+
+@mixin include-arrow-black { &::after { background-position-x: -20px; } }
+
+
+////////////////////////////////////////////////
+//  placeholders
+
+//  Used for common styling patterns.
+//  A caveat: using placeholder extensions can sometimes have unexpected
+// results in the cascade, since the placeholder comes at the start of
+// the scss file. Also, extensions can't be used across media queries
+// (something in a media query can't extend something not in that query.)
+
+
+// Vertical Centering w/o flexbox
+// apply to an element you'd like vertically centered in its container
+%vcenter-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+// apply to the containing element
+%vcenter-parent {
+  display: table;
+}
+
+// Highly styled lists, with elements seprated by horiztonal rules/lines
+%lined-list-item {
+  display: block;
+  border-top: 1px solid $color-trans-lightwhite;
+  padding: $double 0;
+  margin-top: $grid;
+  &:first-child { margin-top: 0 }
+}
+
+%lined-list-item-child {
+  display: block;
+  line-height: 1.3;
+  font-size: $size-body;
+}
+
+%lined-list-logline {
+  @extend %lined-list-item-child;
+  font-weight: 300;
+}
+
+// Links
+%link-arrow {
+  @include include-arrow(1px);
+  @include link-highlight($color-highlight, $color-black);
+  &:hover { @include include-arrow-black; }
+  &:active { @include include-arrow-highlight; }
+}
+
+%link-inline {
+  border-bottom: 1px solid $color-highlight;
+  padding-bottom: 1px;
+  &:hover { color: $color-highlight; }
+  &:active {
+    color: $color-black;
+    border-color: $color-black;
+  }
+}
+
+// Galleries
+%thumb-rounded {
+  border-radius: 1000px;
+  img { position: static; }
+}
+
+%gallery-item {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 0 $double * 2 0;
+  border-top: 1px solid $color-trans-lightgray;
+  @include link-none($color-black);
+  strong:hover { color: $color-highlight; }
+  strong:active { color: $color-black; }
+  @include respond(3) {
+    width: ((100/2) - 1) * 1%;
+    padding: $double;
+    border-top: none;
+  }
+  @include respond(4) { width: 33%; }
+}
+
+%gallery-item-title {
+  display: block;
+  @include include-arrow(1px);
+  font-weight: 300;
+  margin-top: $grid;
+  overflow: visible;
+  &:active { color: $color-black; }
+}

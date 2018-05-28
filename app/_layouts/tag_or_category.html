@@ -1,0 +1,47 @@
+---
+layout: sectioned-page
+title-tag: Blog
+slug: blog
+pagination:
+  enabled: true
+custom-css: ['blog']
+---
+
+<section class="posts-index">
+  <div class="sleeve">
+    <h1>{{ page.autopages.display_name }}</h1>
+    {% for post in paginator.posts %}
+      <div class="slice">
+        <h2><time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></h2>
+        <div class="slice-body">
+          <a href="{{ post.url}} ">{{ post.title }}</a>
+          {% if post.author %}
+            {% assign person_record = site.data.people[post.author] %}
+            <p><small>{{ person_record.name }}</small></p>
+          {% elsif post.guest-author %}
+            <p><small>{{ post.guest-author }}</small></p>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Pagination links -->
+<section class="list-index-pagination">
+  <div class="sleeve">
+    <div class="slice">
+      <div class="list-pagination">
+        <div class="wrapper">
+          <div class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</div>
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="small-btn pagination" role="button">Previous</a>
+          {% endif %}
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="small-btn pagination" role="button">Next</a>
+          {% endif %}
+          </div>
+      </div>
+    </div>
+  </div>
+</section>

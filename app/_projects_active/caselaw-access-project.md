@@ -20,7 +20,7 @@ thumbnail_image: free-the-law-thumbnail-0.png
 # For Sketches
 # (216px x 216px)
 # (432px x 432px)
-# (638px x 638px)
+# (648px x 648px)
 sketch_thumbnail_image:
 
 # Optional
@@ -65,11 +65,14 @@ who_contributed:
   - ben-steinberg
   - adam-ziegler
   - jonathan-zittrain
+  - karen-beck
+  - margaret-peachy
+  - jane-kelly
   - caroline-walters
   - lori-schulsinger
   - zachary-bodnar
   - june-casey
-  - deborah-case
+  - deborah-chase
   - lindsay-dumas
   - kate-edrington
   - erica-leeman

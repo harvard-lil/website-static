@@ -20,7 +20,7 @@ thumbnail_image: h20-thumbnail-1.png
 # For Sketches
 # (216px x 216px)
 # (432px x 432px)
-# (638px x 638px)
+# (648px x 648px)
 sketch_thumbnail_image:
 
 # Optional
@@ -55,6 +55,8 @@ who_contributed:
   - tom-boone
   - dustin-lewis
   - shailin-thomas
+  - casey-gruppioni
+  - emma-cushman
 
 ### Override Jekyll Defaults ###
 title-tag: H2O

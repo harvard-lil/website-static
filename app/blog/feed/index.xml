@@ -1,0 +1,43 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
+
+<channel>
+    <title>{{ site.blog_feed_title | xml_escape }}</title>
+    <atom:link href="{{ site.url }}/{{ page.path | remove: "index.xml"}}" rel="self" type="application/rss+xml" />
+    <link>{{ site.url }}/blog/</link>
+    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <language>en-US</language>
+    {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
+    {% for post in posts %}
+    <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        {% if post.author %}
+            {% assign person_record = site.data.people[post.author] %}
+            <dc:creator><![CDATA[{{ person_record.name }}]]></dc:creator>
+        {% elsif post.guest-author %}
+            <dc:creator><![CDATA[{{ post.guest-author }}]]></dc:creator>
+        {% endif %}
+        {% if post.wordpress_id %}
+            <guid isPermaLink="false">{{ site.url }}/blog/?p={{ post.wordpress_id }}</guid>
+        {% else %}
+            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        {% endif %}
+        {% if post.excerpt %}
+            <description><![CDATA[{{ post.excerpt | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]></description>
+        {% endif %}
+        <content:encoded><![CDATA[{{ post.content | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]></content:encoded>
+    </item>
+    {% endfor %}
+
+    </channel>
+</rss>

@@ -56,7 +56,7 @@ module.exports = function (grunt) {
         }
       },
       cleanBuilds: {
-        command: 'cd builds; rm -rf *; cd ../',
+        command: 'rm -rf builds/dev/*; rm -rf builds/prod/*',
         stderr: false,
         callback: function (error, stdout, stderr) {
           if (stderr) {
@@ -65,7 +65,7 @@ module.exports = function (grunt) {
         }
       },
       cleanAssets: {
-        command: 'cd <%= globalConfig.assetsDist %>; rm -rf *; cd ../',
+        command: 'cd <%= globalConfig.assetsDist %> && rm -rf * && cd ../',
         stderr: false,
         callback: function (error, stdout, stderr) {
           if (stderr) {
@@ -111,6 +111,12 @@ module.exports = function (grunt) {
         files: [{
           src: '<%= globalConfig.assetsSrc %>/scss/main.scss',
           dest: '<%= globalConfig.assetsDist %>/expanded/css/main.css'
+        },{
+          src: '<%= globalConfig.assetsSrc %>/scss/blog.scss',
+          dest: '<%= globalConfig.assetsDist %>/expanded/css/blog.css'
+        },{
+          src: '<%= globalConfig.assetsSrc %>/scss/workshop.scss',
+          dest: '<%= globalConfig.assetsDist %>/expanded/css/workshop.css'
         }]
       }
     },
@@ -131,6 +137,9 @@ module.exports = function (grunt) {
         files: [{
           src: '<%= globalConfig.assetsDist %>/compressed/css/main.css',
           dest: '<%= globalConfig.assetsDist %>/compressed/css/main.css',
+        },{
+          src: '<%= globalConfig.assetsDist %>/compressed/blog/main.css',
+          dest: '<%= globalConfig.assetsDist %>/compressed/blog/main.css',
         }]
       }
     },
@@ -201,6 +210,13 @@ module.exports = function (grunt) {
         cwd: '<%= globalConfig.devBuild %>/api',
         src: '**/*',
         dest: '<%= globalConfig.prodBuild %>/api/'
+      },
+      feeds: {
+        expand: true,
+        nonull: true,
+        cwd: '<%= globalConfig.devBuild %>/blog/feed',
+        src: '**/*',
+        dest: '<%= globalConfig.prodBuild %>/blog/feed/'
       },
       extras: {
         expand: true,
@@ -296,6 +312,18 @@ module.exports = function (grunt) {
     'assets:compressed',
     'htmlmin',
     'copy:api',
+    'copy:feeds',
+    'copy:extras'
+  ]);
+
+  grunt.registerTask('build:noclean', [
+    'warn-fail',
+    'exec:jekyllFresh',
+    'assets:expanded',
+    'assets:compressed',
+    'htmlmin',
+    'copy:api',
+    'copy:feeds',
     'copy:extras'
   ]);
 
