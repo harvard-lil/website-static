@@ -225,6 +225,19 @@ jonathan-zittrain:
   image: jonathan-zittrain.jpg
   affiliated: true
 
+alexandra-dolan-mescal:
+  name: Alexandra Dolan-Mescal
+  sort_name: Dolan-Mescal
+  role: 2018 Summer Fellow
+  bio: >
+    Alex is an artist and archivist focused on projects for social good. 
+    She teaches archival theory, consults for archives 
+    of marginalized communities, and paints in encaustic wax, causing many burns.
+  email: adolanmescal@law.harvard.edu
+  website: http://dhalab.org/alexdm
+  twitter_account_name: fromadmwithlove
+  github_account_name:
+  affiliated: true
 
 # Friends, Former Staff, Former Fellows, etc.
 # (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
