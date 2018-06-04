@@ -173,13 +173,15 @@ ben-steinberg:
 tim-walsh:
   name: Tim Walsh
   sort_name: Walsh
-  role: Summer Fellow
-  bio:
+  role: 2018 Summer Fellow
+  bio: > 
+    Tim is a digital archivist and programmer. He can typically be found
+    behind a laptop or on a bicycle, and is always looking for French speakers
+    to practice with and new sci-fi to read.
   email: timothyryanwalsh@gmail.com
   website: https://www.bitarchivist.net/
   twitter_account_name: bitarchivist
   github_account_name: timothyryanwalsh
-  image: tim-walsh.png
   affiliated: true
 
 jessamyn-west:
