@@ -170,6 +170,18 @@ ben-steinberg:
   image: ben-steinberg.jpg
   affiliated: true
 
+tim-walsh:
+  name: Tim Walsh
+  sort_name: Walsh
+  role: Summer Fellow
+  bio:
+  email: timothyryanwalsh@gmail.com
+  website: https://www.bitarchivist.net/
+  twitter_account_name: bitarchivist
+  github_account_name: timothyryanwalsh
+  image: tim-walsh.png
+  affiliated: true
+
 jessamyn-west:
   name: Jessamyn West
   sort_name: West
