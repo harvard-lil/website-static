@@ -11,7 +11,7 @@
     <div class="list">
       {% for person in summer_friends %}
         <div class="gallery-item-person" id="{{ person.name | slugify }}">
-
+        {% if person.image %}
           <figure>
             <img src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
                  srcset=" {{ site.baseurl }}/assets/thumbs/216x216c/{{ person.image }} 216w,
@@ -24,6 +24,7 @@
                  alt="{{ person.name }}"
                  class="img-full-width">
           </figure>
+        {% endif %}
 
           <div class="info">
 

@@ -7,6 +7,7 @@
 
 
 # Currently affiliated #
+# set "affiliated: true" or "affiliated: summer" #
 
 anastasia-aizman:
   name: Anastasia Aizman
@@ -39,20 +40,6 @@ samantha-bates:
   image: samantha-bates.jpg
   affiliated: true
 
-casey-gruppioni:
-  name: Casey Gruppioni
-  sort_name: Gruppioni
-  role: Developer
-  bio: >
-    Casey likes power yoga, curating playlists, paddleboarding and pinball.
-    She enjoys working on projects for the greater good.
-  email: cgruppioni@law.harvard.edu
-  website:
-  twitter_account_name: cgruppioni
-  github_account_name: cgruppioni
-  image: casey-gruppioni.jpg
-  affiliated: true
-
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
@@ -68,6 +55,17 @@ rebecca-cremona:
   github_account_name:
   image: rebecca-cremona.jpg
   affiliated: true
+
+franny-corry:
+  name: Franny Corry
+  sort_name: Corry
+  role: 2018 Summer Fellow
+  bio:
+  email: corry@usc.edu
+  website: francescorry.net
+  twitter_account_name:
+  github_account_name:
+  affiliated: summer
 
 jack-cushman:
   name: Jack Cushman
@@ -98,6 +96,20 @@ paul-deschner:
   image: paul-deschner.jpg
   affiliated: true
 
+alexandra-dolan-mescal:
+  name: Alexandra Dolan-Mescal
+  sort_name: Dolan-Mescal
+  role: 2018 Summer Fellow
+  bio: >
+    Alex is an artist and archivist focused on projects for social good.
+    She teaches archival theory, consults for archives
+    of marginalized communities, and paints in encaustic wax, causing many burns.
+  email: adolanmescal@law.harvard.edu
+  website: http://dhalab.org/alexdm
+  twitter_account_name: fromadmwithlove
+  github_account_name:
+  affiliated: summer
+
 jay-edwards:
   name: Jay Edwards
   sort_name: Edwards
@@ -108,6 +120,20 @@ jay-edwards:
   twitter_account_name: meangrape
   github_account_name:
   image: jay-edwards.jpg
+  affiliated: true
+
+casey-gruppioni:
+  name: Casey Gruppioni
+  sort_name: Gruppioni
+  role: Developer
+  bio: >
+    Casey likes power yoga, curating playlists, paddleboarding and pinball.
+    She enjoys working on projects for the greater good.
+  email: cgruppioni@law.harvard.edu
+  website:
+  twitter_account_name: cgruppioni
+  github_account_name: cgruppioni
+  image: casey-gruppioni.jpg
   affiliated: true
 
 brett-johnson:
@@ -137,6 +163,17 @@ caitlin-laughlin:
   github_account_name:
   image: caitlin-laughlin.jpg
   affiliated: true
+
+satvik-shukla:
+  name: Satvik Shukla
+  sort_name: Shukla
+  role: Intern
+  bio:
+  email:
+  website: www.satvikshukla.com
+  twitter_account_name:
+  github_account_name: satvikshukla
+  affiliated: summer
 
 andy-silva:
   name: Andy Silva
@@ -174,7 +211,7 @@ tim-walsh:
   name: Tim Walsh
   sort_name: Walsh
   role: 2018 Summer Fellow
-  bio: > 
+  bio: >
     Tim is a digital archivist and programmer. He can typically be found
     behind a laptop or on a bicycle, and is always looking for French speakers
     to practice with and new sci-fi to read.
@@ -183,18 +220,6 @@ tim-walsh:
   twitter_account_name: bitarchivist
   github_account_name: timothyryanwalsh
   affiliated: summer
-
-jessamyn-west:
-  name: Jessamyn West
-  sort_name: West
-  role: Research Fellow
-  bio:
-  email: jessamyn@gmail.com
-  website: http://www.librarian.net/
-  twitter_account_name: jessamyn
-  github_account_name:
-  image: jessamyn-west.png
-  affiliated: true
 
 jordi-weinstock:
   name: Jordi Weinstock
@@ -206,6 +231,18 @@ jordi-weinstock:
   twitter_account_name:
   github_account_name:
   image: jordi-weinstock.jpg
+  affiliated: true
+
+jessamyn-west:
+  name: Jessamyn West
+  sort_name: West
+  role: Research Fellow
+  bio:
+  email: jessamyn@gmail.com
+  website: http://www.librarian.net/
+  twitter_account_name: jessamyn
+  github_account_name:
+  image: jessamyn-west.png
   affiliated: true
 
 adam-ziegler:
@@ -239,46 +276,9 @@ jonathan-zittrain:
   image: jonathan-zittrain.jpg
   affiliated: true
 
-alexandra-dolan-mescal:
-  name: Alexandra Dolan-Mescal
-  sort_name: Dolan-Mescal
-  role: 2018 Summer Fellow
-  bio: >
-    Alex is an artist and archivist focused on projects for social good. 
-    She teaches archival theory, consults for archives 
-    of marginalized communities, and paints in encaustic wax, causing many burns.
-  email: adolanmescal@law.harvard.edu
-  website: http://dhalab.org/alexdm
-  twitter_account_name: fromadmwithlove
-  github_account_name:
-  affiliated: summer
 
 # Friends, Former Staff, Former Fellows, etc.
-# (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
-
-satvik-shukla:
-  name: Satvik Shukla
-  sort_name: Shukla
-  role: Intern
-  bio:
-  email:
-  website: www.satvikshukla.com
-  twitter_account_name:
-  github_account_name: satvikshukla
-  image:
-  affiliated: summer
-
-franny-corry:
-  name: Franny Corry
-  sort_name: Corry
-  role: Summer Fellow
-  bio:
-  email: corry@usc.edu
-  website: francescorry.net
-  twitter_account_name:
-  github_account_name:
-  image:
-  affiliated: summer
+# set "affiliated: false" #
 
 kim-dulin:
   name: Kim Dulin
