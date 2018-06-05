@@ -256,6 +256,30 @@ alexandra-dolan-mescal:
 # Friends, Former Staff, Former Fellows, etc.
 # (not currently officially affiliated unless affiliated says 'summer' - that means they are currently here) #
 
+satvik-shukla:
+  name: Satvik Shukla
+  sort_name: Shukla
+  role: Intern
+  bio:
+  email:
+  website: www.satvikshukla.com
+  twitter_account_name:
+  github_account_name: satvikshukla
+  image:
+  affiliated: summer
+
+franny-corry:
+  name: Franny Corry
+  sort_name: Corry
+  role: Summer Fellow
+  bio:
+  email: corry@usc.edu
+  website: francescorry.net
+  twitter_account_name:
+  github_account_name:
+  image:
+  affiliated: summer
+
 kim-dulin:
   name: Kim Dulin
   sort_name: Dulin
