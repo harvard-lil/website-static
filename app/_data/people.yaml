@@ -121,8 +121,7 @@ jay-edwards:
   github_account_name:
   image: jay-edwards.jpg
   affiliated: true
-  
-  shira-feldman:
+shira-feldman:
   name: Shira Feldman
   sort_name: Feldman
   role: 2018 Summer Fellow
