@@ -121,6 +121,17 @@ jay-edwards:
   github_account_name:
   image: jay-edwards.jpg
   affiliated: true
+  
+  shira-feldman:
+  name: Shira Feldman
+  sort_name: Feldman
+  role: 2018 Summer Fellow
+  bio: >
+  email: email.shira.feldman@gmail.com
+  website: www.shira-feldman.net
+  twitter_account_name: shirarbira
+  github_account_name: shirarbira
+  affiliated: summer
 
 casey-gruppioni:
   name: Casey Gruppioni
