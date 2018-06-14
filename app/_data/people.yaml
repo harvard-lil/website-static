@@ -82,6 +82,17 @@ jack-cushman:
   image: jack-cushman.jpg
   affiliated: true
 
+julian-degroot-lutzner:
+  name: Julian DeGroot-Lutzner
+  sort_name: DeGroot-Lutzner
+  role: 2018 Summer Intern
+  bio:
+  email: jdegrootlutzner@gmail.com
+  website: 
+  twitter_account_name: 
+  github_account_name: jdegrootlutzner
+  affiliated: summer
+
 paul-deschner:
   name: Paul Deschner
   sort_name: Deschner
@@ -121,6 +132,7 @@ jay-edwards:
   github_account_name:
   image: jay-edwards.jpg
   affiliated: true
+  
 shira-feldman:
   name: Shira Feldman
   sort_name: Feldman
@@ -174,13 +186,24 @@ caitlin-laughlin:
   image: caitlin-laughlin.jpg
   affiliated: true
 
+michelle-quin:
+  name: Michelle Quin
+  sort_name: Quin
+  role: 2018 Summer Intern
+  bio:
+  email: mquin@wellesley.edu
+  website: 
+  twitter_account_name: 
+  github_account_name: mquin
+  affiliated: summer
+
 satvik-shukla:
   name: Satvik Shukla
   sort_name: Shukla
-  role: Intern
+  role: Summer 2018 Intern
   bio:
   email:
-  website: www.satvikshukla.com
+  website: http://www.satvikshukla.com
   twitter_account_name:
   github_account_name: satvikshukla
   affiliated: summer
