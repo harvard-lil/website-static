@@ -65,6 +65,7 @@ franny-corry:
   website: francescorry.net
   twitter_account_name:
   github_account_name:
+  image: franny-corry.jpg
   affiliated: summer
 
 jack-cushman:
@@ -91,6 +92,7 @@ julian-degroot-lutzner:
   website: 
   twitter_account_name: 
   github_account_name: jdegrootlutzner
+  image: julian-degroot-lutzner.jpg
   affiliated: summer
 
 paul-deschner:
@@ -119,6 +121,7 @@ alexandra-dolan-mescal:
   website: http://dhalab.org/alexdm
   twitter_account_name: fromadmwithlove
   github_account_name:
+  image: alexandra-dolan-mescal.jpg
   affiliated: summer
 
 jay-edwards:
@@ -142,6 +145,7 @@ shira-feldman:
   website: www.shira-feldman.net
   twitter_account_name: shirarbira
   github_account_name: shirarbira
+  image: shira-feldman.jpg
   affiliated: summer
 
 casey-gruppioni:
@@ -195,6 +199,7 @@ michelle-quin:
   website: 
   twitter_account_name: 
   github_account_name: mquin
+  image: michelle-quin.jpg
   affiliated: summer
 
 satvik-shukla:
@@ -206,6 +211,7 @@ satvik-shukla:
   website: http://www.satvikshukla.com
   twitter_account_name:
   github_account_name: satvikshukla
+  image: satvik-shukla.jpg
   affiliated: summer
 
 andy-silva:
@@ -252,6 +258,7 @@ tim-walsh:
   website: https://www.bitarchivist.net/
   twitter_account_name: bitarchivist
   github_account_name: timothyryanwalsh
+  image: tim-walsh.jpg
   affiliated: summer
 
 jordi-weinstock:
