@@ -174,6 +174,18 @@ casey-gruppioni:
   image: casey-gruppioni.jpg
   affiliated: true
 
+evelin-heidel:
+  name: Evelin Heidel
+  sort_name: Heidel
+  role: 2018 Summer Fellow
+  bio:
+  email: scannopolis@gmail.com
+  website: http://adigitalizar.org/
+  twitter_account_name: scannopolis
+  github_account_name: scannopolis
+  image: evelin-heidel.jpg
+  affiliated: summer
+
 brett-johnson:
   name: Brett Johnson
   sort_name: Johnson
