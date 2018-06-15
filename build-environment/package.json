@@ -3,7 +3,7 @@
   "authors": [
     "Library Innovation Lab <lil@law.harvard.edu>"
   ],
-  "description": "Lilbrary Innovation Lab's main site, build and deploy",
+  "description": "Library Innovation Lab's main site, build and deploy",
   "version": "0.0.2",
   "private": true,
   "license": "MIT",
