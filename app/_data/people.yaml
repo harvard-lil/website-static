@@ -40,6 +40,18 @@ samantha-bates:
   image: samantha-bates.jpg
   affiliated: true
 
+carrie-bly:
+  name: Carrie Bly
+  sort_name: Bly
+  role: 2018 Summer Fellow
+  bio:
+  email: carrie.bly@gmail.com
+  website: http://carriebly.com/
+  twitter_account_name:
+  github_account_name:
+  image: carrie-bly.jpg
+  affiliated: summer
+
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
@@ -89,8 +101,8 @@ julian-degroot-lutzner:
   role: 2018 Summer Intern
   bio:
   email: jdegrootlutzner@gmail.com
-  website: 
-  twitter_account_name: 
+  website:
+  twitter_account_name:
   github_account_name: jdegrootlutzner
   image: julian-degroot-lutzner.jpg
   affiliated: summer
@@ -135,7 +147,7 @@ jay-edwards:
   github_account_name:
   image: jay-edwards.jpg
   affiliated: true
-  
+
 shira-feldman:
   name: Shira Feldman
   sort_name: Feldman
@@ -196,8 +208,8 @@ michelle-quin:
   role: 2018 Summer Intern
   bio:
   email: mquin@wellesley.edu
-  website: 
-  twitter_account_name: 
+  website:
+  twitter_account_name:
   github_account_name: mquin
   image: michelle-quin.jpg
   affiliated: summer
