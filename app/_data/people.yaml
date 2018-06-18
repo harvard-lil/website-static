@@ -52,6 +52,18 @@ carrie-bly:
   image: carrie-bly.jpg
   affiliated: summer
 
+hannah-brinkmann:
+  name: Hannah Brinkmann
+  sort_name: Brinkmann
+  role: 2018 Summer Fellow
+  bio:
+  email: hvmbrinkmann@gmail.com
+  website: hannahbrinkmann.com
+  twitter_account_name:
+  github_account_name:
+  image: hannah-brinkmann.jpg
+  affiliated: summer
+
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
