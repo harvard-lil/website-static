@@ -266,6 +266,19 @@ andy-silva:
   github_account_name:
   image: andrew-silva.jpg
   affiliated: true
+  
+clare-stanton:
+  name: Clare Stanton
+  sort_name: Stanton
+  role: Communications & Outreach
+  bio: >
+    Clare is a MLIS student who loves art but always finds herself distracted by poor signage in museums. She used to run a rowdy college radio station and has made a vow to never be a librarian who shushes.   
+  email: cstanton@law.harvard.edu
+  website: 
+  twitter_account_name: clare__stanton
+  github_account_name: 
+  image: 
+  affiliated: true
 
 ben-steinberg:
   name: Ben Steinberg
@@ -351,20 +364,6 @@ jonathan-zittrain:
   github_account_name:
   image: jonathan-zittrain.jpg
   affiliated: true
-  
-  clare-stanton:
-  name: Clare Stanton
-  sort_name: Stanton
-  role: Communications & Outreach
-  bio: >
-    
-  email: cstanton@law.harvard.edu
-  website: 
-  twitter_account_name: clare__stanton
-  github_account_name: 
-  image: 
-  affiliated: true
-
 
 # Friends, Former Staff, Former Fellows, etc.
 # set "affiliated: false" #
