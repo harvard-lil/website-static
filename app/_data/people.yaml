@@ -351,6 +351,19 @@ jonathan-zittrain:
   github_account_name:
   image: jonathan-zittrain.jpg
   affiliated: true
+  
+  clare-stanton:
+  name: Clare Stanton
+  sort_name: Stanton
+  role: Communications & Outreach
+  bio: >
+    
+  email: cstanton@law.harvard.edu
+  website: 
+  twitter_account_name: clare__stanton
+  github_account_name: 
+  image: 
+  affiliated: true
 
 
 # Friends, Former Staff, Former Fellows, etc.
