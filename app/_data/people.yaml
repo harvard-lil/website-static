@@ -164,12 +164,22 @@ shira-feldman:
   name: Shira Feldman
   sort_name: Feldman
   role: 2018 Summer Fellow
-  bio: >
+  bio:
   email: email.shira.feldman@gmail.com
   website: http://www.shira-feldman.net
   twitter_account_name: shirarbira
   github_account_name: shirarbira
   image: shira-feldman.jpg
+  affiliated: summer
+
+kendra-greene:
+  name: Kendra Greene
+  sort_name: Greene
+  role: 2018 Summer Fellow
+  bio:
+  email: akendragreene@gmail.com
+  website: http://akendragreene.com
+  image: kendra-greene.jpg
   affiliated: summer
 
 casey-gruppioni:
