@@ -64,6 +64,7 @@ who_contributed:
   - greg-leppert
   - timothy-mcallister
   - loren-newman
+  - clare-stanton
   - shailin-thomas
   - dano-williams
 
