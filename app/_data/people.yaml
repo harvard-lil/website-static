@@ -276,17 +276,17 @@ andy-silva:
   github_account_name:
   image: andrew-silva.jpg
   affiliated: true
-  
+
 clare-stanton:
   name: Clare Stanton
   sort_name: Stanton
   role: Communications & Outreach
   bio: >
-    Clare is a MLIS student who loves art but always finds herself distracted by poor signage in museums. She used to run a rowdy college radio station and has made a vow to never be a librarian who shushes.   
+    Clare is a MLIS student who loves art but always finds herself distracted by poor signage in museums. She used to run a rowdy college radio station and has made a vow to never be a librarian who shushes.
   email: cstanton@law.harvard.edu
-  website: 
+  website:
   twitter_account_name: clare__stanton
-  github_account_name: 
+  github_account_name:
   image: clare-stanton.jpg
   affiliated: true
 
@@ -383,6 +383,12 @@ kim-dulin:
   sort_name: Dulin
   role: former Library Innovation Lab Director
   image: kim-dulin.jpg
+  affiliated: false
+
+gerard-fowke:
+  name: Gerard Fowke
+  sort_name: Fowke
+  role: Harvard Law School Library Intern
   affiliated: false
 
 matt-phillips:

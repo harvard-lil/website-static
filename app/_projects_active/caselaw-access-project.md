@@ -61,6 +61,7 @@ who_contributed:
   - stephen-chapman
   - kim-dulin
   - kerri-fleming
+  - gerard-fowke
   - andy-silva
   - ben-steinberg
   - adam-ziegler
