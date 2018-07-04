@@ -1,3 +1,7 @@
+---
+title: The CAP Tracking Tool
+author: andy-silva
+---
 Evelin Heidel ([@scannopolis](https://twitter.com/scannopolis) on Twitter,) recently asked me to document our Caselaw Access Project ([website](https://lil.law.harvard.edu/projects/caselaw-access-project/), [video](https://www.youtube.com/watch?v=kwlN_vhai84)) digitization workflow, and open up the source for the CAP "Tracking Tool." I'll dig into our digitization workflow in my next post, but in this post, I'll discuss the Tracking Tool or TT for short. I created the TT to track CAP's physical and digital objects and their associated metadata. More specifically, it:
 
 - Tracked the physical book from receipt, to scanning, to temporary storage, to permanent storage
