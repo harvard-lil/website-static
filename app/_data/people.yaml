@@ -850,6 +850,7 @@ dano-williams:
   name: Dano Williams
   sort_name: Williams
   role: Designer
+  website: https://thisisdano.github.io/
   twitter_account_name: thisisdano
   github_account_name: thisisdano
   affiliated: false
