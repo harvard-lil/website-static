@@ -57,6 +57,7 @@ why_does_it_exist: |
   We also express our deepest appreciation for the brilliant advice and extraordinary efforts of [Jeffrey P. Cunard](http://www.debevoise.com/jeffreycunard), [Maxine Sharavsky](http://www.debevoise.com/maxinesharavsky) and their colleagues [Michael Gillespie](http://www.debevoise.com/michaelgillespie), [Sarah A.W. Fitts](http://www.debevoise.com/sarahfitts) and [Robert Williams, Jr.](http://www.debevoise.com/robertwilliams) at [Debevoise & Plimpton](http://www.debevoise.com/), [Henry B. Gutman](http://www.stblaw.com/our-team/news/henry-b-gutman) and colleagues at [Simpson Thacher & Bartlett LLP](http://www.stblaw.com/), and [Jonathan H. Hulbert](http://ogc.harvard.edu/people/jonathan-h-hulbert) and his fellow members of the Office of the General Counsel.
 
 who_contributed:
+  - jack-cushman
   - anastasia-aizman
   - stephen-chapman
   - kim-dulin
