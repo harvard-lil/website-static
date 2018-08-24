@@ -1,5 +1,5 @@
 ---
-title: Telling Stories with CAP Data: The Prolific Mr. Cartwright
+title: "Telling Stories with CAP Data: The Prolific Mr. Cartwright"
 author: john-bowers
 
 tags:
