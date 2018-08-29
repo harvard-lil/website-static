@@ -38,7 +38,7 @@ samantha-bates:
   twitter_account_name:
   github_account_name:
   image: samantha-bates.jpg
-  affiliated: true
+  affiliated: false
 
 john-bowers:
   name: John Bowers
