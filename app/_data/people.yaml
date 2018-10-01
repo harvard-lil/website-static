@@ -259,7 +259,7 @@ michelle-quin:
   email: mquin@wellesley.edu
   website:
   twitter_account_name:
-  github_account_name: mquin
+  github_account_name: michellequin
   image: michelle-quin.jpg
   affiliated: summer
 
@@ -308,7 +308,7 @@ clare-stanton:
 ben-steinberg:
   name: Ben Steinberg
   sort_name: Steinberg
-  role: Developer
+  role: DevOps
   bio: >
     Ben came to software development from his career as a public library
     reference librarian by way of Perl. He likes making things,
