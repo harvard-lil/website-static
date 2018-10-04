@@ -4,7 +4,7 @@
 title: Time Capsule Encryption
 
 # Optional
-project_website: http://www.toolsfortimetravel.org
+project_website:
 github_repo: https://github.com/harvard-lil/tce_server
 start_date:
 
