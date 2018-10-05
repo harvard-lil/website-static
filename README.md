@@ -15,7 +15,7 @@ Install and Run
 
 6. Make changes to the app directory.
 
-  Most of the time, Jekyll will notice yours changes and will automatically rebuild the site: just wait for the build to finish and refresh your browser. You'll see something like the following after a successful build:
+  Most of the time, Jekyll will notice your changes and will automatically rebuild the site: just wait for the build to finish and refresh your browser. You'll see something like the following after a successful build:
   ```
   jekyll_1  |       Generating...
   jekyll_1  |          AutoPages: Generating tags pages
