@@ -5,6 +5,8 @@ services:
 
 before_install:
   - npm install vnu-jar
+  - sudo mkdir build
+  - sudo chmod 777 build
 
 script:
   - docker-compose run jekyll jekyll build
