@@ -1,15 +1,17 @@
 # Build settings
-destination: ../builds/dev
+destination: ../build
 permalink: pretty
 markdown: kramdown
 kramdown:
     smart_quotes: ["apos", "apos", "quot", "quot"]
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate-v2
+  - jekyll-sitemap
 liquid:
   error_mode: strict
-keep_files: ["assets"]
+sass:
+  sass_dir: _scss
+timezone: Etc/GMT
 
 # Site settings
 title: The Library Innovation Lab at Harvard University
@@ -154,6 +156,9 @@ autopages:
     # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
     permalink: '/blog/category/:cat/'
+    slugify:
+      mode: raw
+      cased: true
 
   collections:
     enabled: false
@@ -164,3 +169,6 @@ autopages:
       - 'tag_or_category.html'
     title: 'Posts tagged with :tag' # :tag is replaced by the tag name
     permalink: '/blog/tag/:tag/'
+    slugify:
+      mode: raw
+      cased: true

@@ -1,3 +1,6 @@
+---
+---
+
 ////////////////////////////////////////////////
 
 //  dan o. williams
@@ -793,7 +796,7 @@ a.gallery-item {
   float: none;
   width: 100%;
 
-  &nth-child(n+2){
+  &:nth-child(n+2){
     margin-top: $grid * 4;
   }
 
