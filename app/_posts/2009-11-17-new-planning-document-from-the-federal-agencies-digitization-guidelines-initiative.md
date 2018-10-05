@@ -4,7 +4,7 @@ date: 2009-11-16 02:07:07+00:00
 title: New Planning Document from the Federal Agencies Digitization Guidelines Initiative
 wordpress_id: 44
 categories:
-- Things to read...
+- Things to read
 ---
 
 Posted to the ASIS-L list by Susan Emilie Manus of the LOC:

@@ -7,7 +7,7 @@ categories:
 - copyright
 - Free the Law
 - Friday Fundays
-- LIL talks,
+- LIL talks
 - open access
 - rights
 ---

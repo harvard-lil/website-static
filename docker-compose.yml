@@ -1,24 +1,17 @@
 version: '2'
 services:
   jekyll:
-    build:
-      context: .
-      dockerfile: ./build-environment/Dockerfile
-    image: lil-website:0.9
-    command: bash
+    image: jekyll/jekyll:3.8
+    command: jekyll build --watch
     tty: true
     volumes:
-        - ./app:/usr/src/lil-website/app
-        - ./assets:/usr/src/lil-website/assets
-        - ./builds:/usr/src/lil-website/builds
+        - ./app:/srv/jekyll
+        - ./build:/srv/build
   server:
     image: httpd:2.4
     ports:
         - "8080:8080"
-        - "8081:8081"
     volumes:
-        - ./builds/dev:/usr/local/apache2/htdocs/dev
-        - ./builds/prod:/usr/local/apache2/htdocs/prod
-        - ./build-environment/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
-        - ./build-environment/apache/logs:/usr/local/apache2/logs
-
+        - ./build:/usr/local/apache2/htdocs
+        - ./apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
+        - ./apache/logs:/usr/local/apache2/logs
