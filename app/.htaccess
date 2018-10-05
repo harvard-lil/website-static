@@ -53,3 +53,9 @@ Redirect "/jobs" "/collaborate"
 
 # let feeds determine their own encoding per https://validator.w3.org/feed/docs/warning/EncodingMismatch.html
 AddType application/xml .xml
+
+# add MIME type to compensate for what must be an old list
+# per https://stackoverflow.com/a/18413667/4074877
+<IfModule mod_mime.c>
+    AddType application/font-woff            .woff
+</IfModule>
