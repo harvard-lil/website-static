@@ -45,8 +45,8 @@ john-bowers:
   sort_name: Bowers
   role: Research Associate
   bio: >
-    John works as a research associate for Professor Zittrain. He likes 
-    cooking, statistics, and historical nonfiction, and once legally named 
+    John works as a research associate for Professor Zittrain. He likes
+    cooking, statistics, and historical nonfiction, and once legally named
     his pet cat "Bitcoin" after losing a bet.
   email: jobowers@law.harvard.edu
   website:
@@ -186,6 +186,19 @@ shira-feldman:
   github_account_name: shirarbira
   image: shira-feldman.jpg
   affiliated: summer
+
+kelly-fitzpatrick:
+  name: Kelly Fitzpatrick
+  sort_name: Fitzpatrick
+  role: Research Associate
+  bio: >
+    Kelly is a Research Associate at the Berkman Klein Center working on the Caselaw Access Project. Before coming to LIL, Kelly built university websites and and digitized 400 year old books.
+  email: lfitzpatrick@cyber.harvard.edu
+  website: http://lkfitz.tumblr.com/
+  twitter_account_name: fitzbub
+  github_account_name: lkfitz
+  image: kelly-fitzpatrick.jpg
+  affiliated: true
 
 kendra-greene:
   name: Kendra Greene
