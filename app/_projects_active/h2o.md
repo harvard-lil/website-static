@@ -4,7 +4,7 @@
 title: H2O
 
 # Optional
-project_website: http://h2o.law.harvard.edu
+project_website: https://opencasebook.org
 github_repo:
 start_date:
 
@@ -30,10 +30,10 @@ sketch_thumbnail_image:
 # (1200px x 675px)
 # (1600px x 900px)
 # (2100px x 1000px)
-hero_image: h20-box-hero-wide-3.png
+hero_image: h2o-box-hero-wide-3.png
 # (400px x 400px)
 # (800px x 800px)
-hero_image_square: h20-box-hero-square.png
+hero_image_square: h2o-box-hero-square.png
 
 video:
 
@@ -57,6 +57,8 @@ who_contributed:
   - shailin-thomas
   - casey-gruppioni
   - emma-cushman
+  - ben-steinberg
+  - greg-leppert
 
 ### Override Jekyll Defaults ###
 title-tag: H2O
