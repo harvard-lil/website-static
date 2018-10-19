@@ -915,96 +915,97 @@ a.gallery-item {
 
 ////////
 //  roundup
-
-.roundup {
-  background-color: $color-black;
-  color: white;
-
-  .heading-pair p {
-    color: $color-yellow;
-  }
-
-  .post {
-    @extend %lined-list-item;
-  }
-
-  .date {
-    @include tiny-bold;
-  }
-
-  .content {
-    margin-top: $grid / 2;
-  }
-
-  .title {
-    @extend %lined-list-item-child;
-    font-weight: 700;
-    margin-top: 6px;
-
-    a {
-      border-bottom: none;
-      @include underline-on-hover;
-      @include include-arrow(1px);
-      &:link { color: $color-highlight; }
-      &:visited { color: $color-highlight}
-      &:hover { color: $color-highlight; }
-      &:active {
-        color: $color-active;
-        @include include-arrow-white;
-      }
-    }
-  }
-
-  .logline {
-    @extend %lined-list-logline;
-    color: $color-trans-textwhite;
-    font-weight: 300;
-    margin-top: 6px;
-  }
-
-  .author {
-    @include tiny-bold;
-    margin-top: $grid;
-    color: $color-trans-darkwhite;
-    &:before {
-      content: 'Posted by ';
-      font-weight: 300;
-    }
-  }
-
-  @include respond(4) {
-    .date, .content, .author {
-      float: left;
-    }
-    .date {
-      width: 30%;
-    }
-    .content {
-      width: 40%;
-      margin-top: 0;
-    }
-    .title, .logline {
-      font-size: 20px;
-    }
-    .title {
-      margin-top: 0;
-      font-weight: 300;
-    }
-    .author {
-      width: 30%;
-      padding-left: $double * 2;
-      margin-top: 0;
-    }
-    .date, .author {
-      margin-top: 4px;
-    }
-  }
-}
-
-#hopper {
-  margin-top: $double * 2;
-  clear: both;
-}
+//  these styles are quite nice, but are not in use at the moment
+//
+// .roundup {
+//   background-color: $color-black;
+//   color: white;
+//
+//   .heading-pair p {
+//     color: $color-yellow;
+//   }
+//
+//   .post {
+//     @extend %lined-list-item;
+//   }
+//
+//   .date {
+//     @include tiny-bold;
+//   }
+//
+//   .content {
+//     margin-top: $grid / 2;
+//   }
+//
+//   .title {
+//     @extend %lined-list-item-child;
+//     font-weight: 700;
+//     margin-top: 6px;
+//
+//     a {
+//       border-bottom: none;
+//       @include underline-on-hover;
+//       @include include-arrow(1px);
+//       &:link { color: $color-highlight; }
+//       &:visited { color: $color-highlight}
+//       &:hover { color: $color-highlight; }
+//       &:active {
+//         color: $color-active;
+//         @include include-arrow-white;
+//       }
+//     }
+//   }
+//
+//   .logline {
+//     @extend %lined-list-logline;
+//     color: $color-trans-textwhite;
+//     font-weight: 300;
+//     margin-top: 6px;
+//   }
+//
+//   .author {
+//     @include tiny-bold;
+//     margin-top: $grid;
+//     color: $color-trans-darkwhite;
+//     &:before {
+//       content: 'Posted by ';
+//       font-weight: 300;
+//     }
+//   }
+//
+//   @include respond(4) {
+//     .date, .content, .author {
+//       float: left;
+//     }
+//     .date {
+//       width: 30%;
+//     }
+//     .content {
+//       width: 40%;
+//       margin-top: 0;
+//     }
+//     .title, .logline {
+//       font-size: 20px;
+//     }
+//     .title {
+//       margin-top: 0;
+//       font-weight: 300;
+//     }
+//     .author {
+//       width: 30%;
+//       padding-left: $double * 2;
+//       margin-top: 0;
+//     }
+//     .date, .author {
+//       margin-top: 4px;
+//     }
+//   }
+// }
+//
+// #hopper {
+//   margin-top: $double * 2;
+//   clear: both;
+// }
 
 /////////
 //  project/sketch gallery pages
