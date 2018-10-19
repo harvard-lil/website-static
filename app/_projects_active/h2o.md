@@ -58,6 +58,7 @@ who_contributed:
   - casey-gruppioni
   - emma-cushman
   - ben-steinberg
+  - greg-leppert
 
 ### Override Jekyll Defaults ###
 title-tag: H2O
