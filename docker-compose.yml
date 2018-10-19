@@ -12,6 +12,7 @@ services:
     ports:
         - "8080:8080"
     volumes:
+        - ./bundle:/usr/local/bundle
         - ./build:/usr/local/apache2/htdocs
         - ./apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
         - ./apache/logs:/usr/local/apache2/logs

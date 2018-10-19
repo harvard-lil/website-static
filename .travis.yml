@@ -3,10 +3,14 @@ sudo: required
 services:
   - docker
 
+cache:
+  directories:
+    - bundle
+
 before_install:
   - npm install vnu-jar
-  - sudo mkdir build
-  - sudo chmod 777 build
+  - sudo mkdir -m 777 build
+  - ls bundle || sudo mkdir -m 777 bundle
 
 script:
   - docker-compose run jekyll jekyll build
