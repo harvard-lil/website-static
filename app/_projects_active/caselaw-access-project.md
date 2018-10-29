@@ -83,6 +83,7 @@ who_contributed:
   - andrew-mactaggart
   - emily-magagnosc
   - suzanne-wones
+  - kendra-albert
 
 ### Override Jekyll Defaults ###
 custom-footer: true
