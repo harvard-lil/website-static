@@ -27,10 +27,10 @@ anastasia-aizman:
 samantha-bates:
   name: Samantha Bates
   sort_name: Bates
-  role: Research Associate
+  role: former Research Associate
   bio: >
-    Samantha works as a research associate for Professor Zittrain and
-    helps out with Lab projects. She previously worked in the legal
+    Samantha worked as a research associate for Professor Zittrain and
+    helped out with Lab projects. She previously worked in the legal
     department at Google and enjoys running, baking bread, and reading
     British literature.
   email: sbates@cyber.law.harvard.edu
@@ -497,6 +497,14 @@ neel-agrawal:
   website: http://neelagrawal.com
   affiliated: false
 
+kendra-albert:
+  name: Kendra Albert
+  sort_name: Albert
+  role: former Research Associate
+  website: https://kendraalbert.com/
+  affiliated: false
+  twitter_account_name: KendraSerra
+
 berkman:
   name: Berkman Klein Center for Internet and Society
   sort_name: Berkman
@@ -909,10 +917,3 @@ jessica-yurkofsky:
   sort_name: Yurkofsky
   website: http://www.jessyurko.com/
   affiliated: false
-
-kendra-albert:
-  name: Kendra Albert
-  sort_name: Albert
-  website: https://kendraalbert.com/
-  affiliated: false
-  twitter_account_name: KendraSerra
