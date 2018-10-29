@@ -1,5 +1,5 @@
 ---
-title: Caselaw Access Project (CAP) Launches API and Bulk Data Service
+title: "Caselaw Access Project (CAP) Launches API and Bulk Data Service"
 author: kelly-fitzpatrick
 ---
 Today the Library Innovation Lab at the Harvard Law School Library is excited to announce the launch of its Caselaw Access Project (CAP) API and bulk data service, which puts the full corpus of published U.S. case law online for anyone to access for free. 
@@ -10,5 +10,5 @@ To learn more about the project, the data and how to use the API and bulk data s
 
 The Caselaw Access Project is a project of the Library Innovation Lab at the Harvard Law School Library, and the digitization effort was completed through the partnership and support of Ravel Law, Inc.. 
 
-Caselaw Access Project (case.law)
-Caselaw Access Project API (api.case.law)
+Caselaw Access Project [(case.law)](https://case.law)
+Caselaw Access Project API [(api.case.law)](https://api.case.law)
