@@ -6,7 +6,7 @@ author: anastasia-aizman
 
 Happy Halloween!
 
-This Halloween is a special one at LIL, since we’re celebrating the release of [Caselaw Access Project](https://case.law/) and 360 years of digitized U.S. caselaw.
+This Halloween is a special one at LIL, since we’re celebrating the release of the [Caselaw Access Project](https://case.law/) and 360 years of digitized U.S. caselaw.
 
 For a small project using our [full text search functionality](https://case.law/api/#examples), we mapped out the usage of the term “witchcraft” in United States caselaw. 
 
@@ -27,7 +27,7 @@ First, [sign up for an API key](https://case.law/user/register/).
 
 Once you’ve created an account and logged in, you should head over to our API documentation for a [primer on authentication](https://case.law/api/#authentication).
 
-Now, you can download the cases using one of several means (but be careful! Each time you download the cases, whether in the browser, or elsewhere, your 500 daily case limit gets decremented).
+Now, you can download the cases using one of several means (but be careful! Each time you download the cases, whether in the browser, or elsewhere, your daily case limit of 500 gets decremented).
 
 You can download cases:
 1. in your browser by going to this link: [read cases in the browser](https://api.case.law/v1/cases/?search=witchcraft&full_case=true)
