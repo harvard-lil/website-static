@@ -10,8 +10,7 @@ This Halloween is a special one at LIL, since we’re celebrating the release of
 
 For a small project using our [full text search functionality](https://case.law/api/#examples), we mapped out the usage of the term “witchcraft” in United States caselaw. 
 
-Here is the result:
-https://case.law/gallery/witchcraft
+Here is the result: [https://case.law/gallery/witchcraft](https://case.law/gallery/witchcraft)
 
 (For those unfamiliar with the sordid history of witchcraft in the United States, the [Wikipedia entry for Salem Witch Trials is a good primer](https://en.wikipedia.org/wiki/Salem_witch_trials).)
 
