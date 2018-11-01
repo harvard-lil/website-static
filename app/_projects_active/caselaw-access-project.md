@@ -84,6 +84,7 @@ who_contributed:
   - emily-magagnosc
   - suzanne-wones
   - kendra-albert
+  - shailin-thomas
 
 ### Override Jekyll Defaults ###
 custom-footer: true
