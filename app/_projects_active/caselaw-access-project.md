@@ -4,8 +4,8 @@
 title: Caselaw Access Project
 
 # Optional
-project_website:
-github_repo:
+project_website: https://case.law/
+github_repo: https://github.com/harvard-lil/capstone
 start_date:
 
 ### MEDIA ###
