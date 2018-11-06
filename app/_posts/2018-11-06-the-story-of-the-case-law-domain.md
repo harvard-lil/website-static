@@ -1,5 +1,5 @@
 ---
-title: The Story of the Case.law Domain
+title: The Story of the case.law Domain
 author: kelly-fitzpatrick
 ---
 Recently we [announced](https://lil.law.harvard.edu/blog/2018/10/29/caselaw-access-project-cap-launches-api-and-bulk-data-service/) the launch of the Caselaw Access Project at [case.law](https://case.law/). But we want to highlight the story of the case.law domain itself.
