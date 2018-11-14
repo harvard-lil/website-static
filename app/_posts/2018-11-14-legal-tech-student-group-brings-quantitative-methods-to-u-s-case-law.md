@@ -2,7 +2,7 @@
 title: Legal Tech Student Group Brings Quantitative Methods to U.S. Case Law
 author: kelly-fitzpatrick
 ---
-This September we hosted a Legal Tech Gumbo session dedicated to using quantitative methods to find new threads in U.S case law. The Legal Tech Gumbo is a collaboration between the [Harvard Law & Technology Society](https://orgs.law.harvard.edu/techsoc/) and Harvard Library Innovation Lab (LIL).
+This September we hosted a Legal Tech Gumbo session dedicated to using quantitative methods to find new threads in U.S. caselaw. The Legal Tech Gumbo is a collaboration between the [Harvard Law & Technology Society](https://orgs.law.harvard.edu/techsoc/) and Harvard Library Innovation Lab (LIL).
 
 The session kicked off by framing data made available as part of the [Caselaw Access Project](https://case.law/) API; a channel to navigate 6.4 million cases dating back more than 360 years. How can we use that data to advance legal scholarship? In this session John Bowers shared how researchers can apply quantitative research methods to qualitative data sources; a theme which has shaped the past decade of research practices in the humanities.
 
