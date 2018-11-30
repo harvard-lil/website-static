@@ -3,54 +3,33 @@
 
 ### CAP ###
 - project: caselaw-access-project
-  type: blog
-  title: Caselaw Access Project Scanning Now Complete
-  publication: Et Seq. - Harvard Law School Library
-  date: January 30, 2017
-  url: http://etseq.law.harvard.edu/2017/01/caselaw-access-project-scanning-now-complete/
-
-- project: caselaw-access-project
-  type: blog
-  title: Caselaw Access Project
-  publication: Et Seq. - Harvard Law School Library
-  date: August 08, 2016
-  url: http://etseq.law.harvard.edu/2016/08/caselaw-access-project/
+  type: press
+  title: "LawNext Episode 18: Adam Ziegler On How Harvard Put 360 Years Of Caselaw Online"
+  publication: LawSites
+  date: November 12, 2018
+  url: https://www.lawsitesblog.com/2018/11/lawnext-episode-18-adam-ziegler-harvard-put-360-years-caselaw-online.html
   
 - project: caselaw-access-project
   type: press
-  title: Open Data and the Free Access to Law Movement in the United States
-  publication: SCRIPTed
-  date: March 26, 2016
-  url: https://script-ed.org/blog/open-data-and-the-free-access-to-law-movement-in-the-united-states/
-
+  title: Harvard Opens Up Its Massive Caselaw Access Project
+  publication: TechDirt
+  date: October 31, 2018
+  url: https://www.techdirt.com/articles/20181031/01114140946/harvard-opens-up-massive-caselaw-access-project.shtml
+  
 - project: caselaw-access-project
   type: press
-  title: Harvard Launches "Free the Law" Digitization Project
-  publication: Library Journal
-  date: December 21, 2015
-  url: http://lj.libraryjournal.com/2015/12/oa/harvard-launches-free-the-law-digitization-project/#_
-
+  title: Caselaw Access Project launches API and bulk data service
+  publication: Harvard Law Today
+  date: October 31, 2018
+  url: https://today.law.harvard.edu/caselaw-access-project-launches-api-and-bulk-data-service/
+  
 - project: caselaw-access-project
   type: press
-  title: Harvard Law Launches Project To Put Every Court Decision Online For Free
-  publication: Techdirt
-  date: October 30, 2015
-  url: https://www.techdirt.com/articles/20151029/17074832672/harvard-law-launches-project-to-put-every-court-decision-online-free.shtml
-
-- project: caselaw-access-project
-  type: blog
-  title: Harvard Law School Launches “Free the Law” Project with Ravel Law To Digitize US Case Law, Provide Free Access
-  publication: Harvard Law School Today
-  date: October 29, 2015
-  url: http://today.law.harvard.edu/harvard-law-school-launches-free-the-law-project-with-ravel-law-to-digitize-us-case-law-provide-free-access/
-
-- project: caselaw-access-project
-  type: blog
-  title: Free the Law - Overview
-  publication: Et Seq. - Harvard Law School Library
-  date: October 29, 2015
-  url: http://etseq.law.harvard.edu/2015/10/free-the-law-overview/
-
+  title: Caselaw Access Project gives free access to 360 years of American court cases
+  publication: ABA Journal
+  date: October 30, 2018
+  url: http://www.abajournal.com/news/article/caselaw_access_project_gives_free_access_to_360_years_of_american_court_cas
+  
 - project: caselaw-access-project
   type: press
   title: Harvard Law Library Readies Trove of Decisions for Digital Age
