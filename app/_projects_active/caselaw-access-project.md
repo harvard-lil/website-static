@@ -24,6 +24,8 @@ thumbnail_image: free-the-law-thumbnail-0.png
 sketch_thumbnail_image:
 
 # Optional
+- project_website: https://case.law/
+- github_repo: https://github.com/harvard-lil/capstone
 
 # Two aspect ratios needed
 # (800px  x 450px)
@@ -45,7 +47,7 @@ what_does_it_do: >
   The Caselaw Access Project is making all U.S. case law freely accessible online. With the Caselaw Access Project API (CAPAPI) and Bulk Data Service, we can share 40 million pages of published U.S. case law. 
 
 # Optional
-why_does_it_exist: |
+  why_does_it_exist: |
 Access to our common law - the written decisions issued by our state and federal courts - supports equality and enables innovation in legal services.
   
 Between 2013 and 2018, the Harvard Law School Library digitized over 40 million pages of U.S. court decisions in collaboration with legal startup Ravel Law, transforming them into a dataset of over 6.4 million cases that represent 360 years of U.S. legal history. The Caselaw Access Project API (CAPAPI) and bulk data service put this important dataset within the reach of researchers, members of the legal community, and the general public. 
@@ -81,6 +83,8 @@ who_contributed:
   - andrew-mactaggart
   - emily-magagnosc
   - suzanne-wones
+  - kendra-albert
+  - shailin-thomas
 
 ### Override Jekyll Defaults ###
 custom-footer: true
