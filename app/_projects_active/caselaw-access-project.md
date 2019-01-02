@@ -24,7 +24,6 @@ thumbnail_image: free-the-law-thumbnail-0.png
 sketch_thumbnail_image:
 
 # Optional
-
 # Two aspect ratios needed
 # (800px  x 450px)
 # (1200px x 675px)
@@ -42,19 +41,17 @@ video:
 
 # Required
 what_does_it_do: >
-  The Caselaw Access Project is making all U.S. case law freely accessible online.
+  The Caselaw Access Project is making all U.S. case law freely accessible online. With the Caselaw Access Project API (CAPAPI) and Bulk Data Service, we can share 40 million pages of published U.S. case law. 
 
 # Optional
 why_does_it_exist: |
-  Our common law - the written decisions issued by our state and federal courts - is not freely accessible online. This lack of access harms justice and equality and stifles innovation in legal services.
+  Access to our common law - the written decisions issued by our state and federal courts - supports equality and enables innovation in legal services.
+  
+  Between 2013 and 2018, the Harvard Law School Library digitized over 40 million pages of U.S. court decisions in collaboration with legal startup Ravel Law, transforming them into a dataset of over 6.4 million cases that represent 360 years of U.S. legal history. The Caselaw Access Project API (CAPAPI) and bulk data service put this important dataset within the reach of researchers, members of the legal community, and the general public. 
 
-  The Harvard Law School Library has one of the world's largest, most comprehensive collections of court decisions in print form. Our collection totals over 42,000 volumes and roughly 40 million pages. Caselaw Access Project aims to transform the official print versions of these court decisions into digital files made freely accessible online.
+  Learn more about how Caselaw Access Project data is being used in our [Gallery](https://case.law/gallery/) and  [CAP Examples](https://github.com/harvard-lil/cap-examples) repository on GitHub.
 
-  To realize this ambitious vision, we're teaming up with [Ravel Law](https://www.ravellaw.com/), an innovative legal research and analytics company. Ravel is funding the costs of digitization and will be making all of the resulting cases publicly available for free search and API access. You can learn more about the key terms of our collaboration with Ravel by reading a [detailed overview here](http://etseq.law.harvard.edu/2015/10/free-the-law-overview/).
-
-  The Caselaw Access Project is possible only because of the dedicated work of a long, distinguished line of librarians and other staff members over the last 200 years, who expertly collected and preserved the print volumes now available for digitization. The project continues to rely heavily on huge contributions from many at the Law School Library, the Law School and from across the University.
-
-  We also express our deepest appreciation for the brilliant advice and extraordinary efforts of [Jeffrey P. Cunard](http://www.debevoise.com/jeffreycunard), [Maxine Sharavsky](http://www.debevoise.com/maxinesharavsky) and their colleagues [Michael Gillespie](http://www.debevoise.com/michaelgillespie), [Sarah A.W. Fitts](http://www.debevoise.com/sarahfitts) and [Robert Williams, Jr.](http://www.debevoise.com/robertwilliams) at [Debevoise & Plimpton](http://www.debevoise.com/), [Henry B. Gutman](http://www.stblaw.com/our-team/news/henry-b-gutman) and colleagues at [Simpson Thacher & Bartlett LLP](http://www.stblaw.com/), and [Jonathan H. Hulbert](http://ogc.harvard.edu/people/jonathan-h-hulbert) and his fellow members of the Office of the General Counsel.
+  The Caselaw Access Project relies on the support of many at the Law School Library, the Law School and from across the University. We also express our deepest appreciation for the brilliant advice and extraordinary efforts of [Jeffrey P. Cunard](http://www.debevoise.com/jeffreycunard), [Maxine Sharavsky](http://www.debevoise.com/maxinesharavsky) and their colleagues [Michael Gillespie](http://www.debevoise.com/michaelgillespie), [Sarah A.W. Fitts](http://www.debevoise.com/sarahfitts) and [Robert Williams, Jr.](http://www.debevoise.com/robertwilliams) at [Debevoise & Plimpton](http://www.debevoise.com/), [Henry B. Gutman](http://www.stblaw.com/our-team/news/henry-b-gutman) and colleagues at [Simpson Thacher & Bartlett LLP](http://www.stblaw.com/), and [Jonathan H. Hulbert](http://ogc.harvard.edu/people/jonathan-h-hulbert) and his fellow members of the Office of the General Counsel.
 
 who_contributed:
   - jack-cushman
