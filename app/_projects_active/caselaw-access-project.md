@@ -41,7 +41,7 @@ video:
 
 # Required
 what_does_it_do: >
-  The Caselaw Access Project is making all U.S. case law freely accessible online. With the Caselaw Access Project API (CAPAPI) and Bulk Data Service, we can share 40 million pages of published U.S. case law. 
+  The Caselaw Access Project is making all U.S. case law freely accessible online. With the Caselaw Access Project API (CAPAPI) and bulk data service, we can share 40 million pages of published U.S. court cases.
 
 # Optional
 why_does_it_exist: |
@@ -49,7 +49,7 @@ why_does_it_exist: |
   
   Between 2013 and 2018, the Harvard Law School Library digitized over 40 million pages of U.S. court decisions in collaboration with legal startup Ravel Law, transforming them into a dataset of over 6.4 million cases that represent 360 years of U.S. legal history. The Caselaw Access Project API (CAPAPI) and bulk data service put this important dataset within the reach of researchers, members of the legal community, and the general public. 
 
-  Learn more about how Caselaw Access Project data is being used in our [Gallery](https://case.law/gallery/) and  [CAP Examples](https://github.com/harvard-lil/cap-examples) repository on GitHub.
+  Learn more about how Caselaw Access Project data is being used in our [Gallery](https://case.law/gallery/) and [CAP Examples](https://github.com/harvard-lil/cap-examples) repository on GitHub.
 
   The Caselaw Access Project relies on the support of many at the Law School Library, the Law School and from across the University. We also express our deepest appreciation for the brilliant advice and extraordinary efforts of [Jeffrey P. Cunard](http://www.debevoise.com/jeffreycunard), [Maxine Sharavsky](http://www.debevoise.com/maxinesharavsky) and their colleagues [Michael Gillespie](http://www.debevoise.com/michaelgillespie), [Sarah A.W. Fitts](http://www.debevoise.com/sarahfitts) and [Robert Williams, Jr.](http://www.debevoise.com/robertwilliams) at [Debevoise & Plimpton](http://www.debevoise.com/), [Henry B. Gutman](http://www.stblaw.com/our-team/news/henry-b-gutman) and colleagues at [Simpson Thacher & Bartlett LLP](http://www.stblaw.com/), and [Jonathan H. Hulbert](http://ogc.harvard.edu/people/jonathan-h-hulbert) and his fellow members of the Office of the General Counsel.
 
