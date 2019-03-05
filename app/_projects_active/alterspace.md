@@ -1,13 +1,13 @@
 ---
 ### PROJECT METADATA ###
 # Required
-title: Perma.cc
+title: Alterspace
 
 # Optional
-project_website: http://perma.cc
-github_repo: https://github.com/harvard-lil/perma
-start_date:
-
+project_website: https://alterspace.github.io
+github_repo: https://github.com/harvard-lil/alter-space
+start_date: January 1, 2019
+order: 4
 ### MEDIA ###
 # Required
 
@@ -15,7 +15,7 @@ start_date:
 # (400px x 300px)
 # (800px x 600px)
 # (1200px x 900px)
-thumbnail_image: perma-thumbnail-8.png
+thumbnail_image: 
 
 # For Sketches
 # (216px x 216px)
@@ -30,10 +30,10 @@ sketch_thumbnail_image:
 # (1200px x 675px)
 # (1600px x 900px)
 # (2100px x 1000px)
-hero_image: perma-box-hero-wide.png
+hero_image:
 # (400px x 400px)
 # (800px x 800px)
-hero_image_square: perma-hero-square.png
+hero_image_square:
 
 video:
 
@@ -42,34 +42,25 @@ video:
 
 # Required
 what_does_it_do: >
-  Perma.cc prevents link rot.
+    An immersive library experience that gives visitors control over light, color, sound, and space.
+    
 
 # Optional
 why_does_it_exist: |
-  Links to digital sources can fail: the information at a URL can be modified or deleted and the intention of a reference can be lost. This isn’t necessarily a big deal for a basic blog, but it makes a difference for scholarship, legal writing, and any instance where the information cited is part of the logical framework of the content. Perma.cc prevents this failure — called link rot — by archiving a copy of the digital source and preserving it in perpetuity through our network of libraries and institutional partners.
+   The library’s collection can transport patrons into the worlds of fiction, history, art. Alterspace extends that experience into the physical world, allowing patrons to create environments that best suit their needs. 
 
 who_contributed:
-  - anastasia-aizman
-  - samantha-bates
-  - rebecca-cremona
-  - jack-cushman
-  - kim-dulin
-  - brett-johnson
-  - matt-phillips
-  - ben-steinberg
-  - adam-ziegler
-  - jonathan-zittrain
-  - annie-cain
-  - claire-demarco
-  - greg-leppert
-  - timothy-mcallister
-  - loren-newman
   - clare-stanton
-  - shailin-thomas
-  - dano-williams
+  - anastasia-aizman
+  - andy-silva
+  - matthew-battles
+  - jessica-yurkofsky
+  - alisa-kolot
+  - sam-stites
+  - keith-hartwig
 
 ### Override Jekyll Defaults ###
-title-tag: Perma.cc
+title-tag: Alterspace
 custom-footer: true
 
 ---
