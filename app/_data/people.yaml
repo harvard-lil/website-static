@@ -916,4 +916,25 @@ jessica-yurkofsky:
   name: Jessica Yurkofsky
   sort_name: Yurkofsky
   website: http://www.jessyurko.com/
+  role: Creative Technologist at metaLAB
+  affiliated: false
+
+alisa-kolot:
+  name: Alisa Kolot
+  sort_name: Kolot
+  role: Sound artist, musician
+  website: http://alisa-kolot.com
+  affiliated: false
+
+matthew-battles:
+  name: Matthew Battles
+  sort_name: Battles
+  role: Associate Director at metaLAB
+  website: http://mbattl.es
+  affiliated: false
+
+keith-hartwig:
+  name: Keith Hartwig
+  sort_name: Hartwig
+  website: http://keithhartwig.com
   affiliated: false
