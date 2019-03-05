@@ -1,5 +1,7 @@
 <div class="gallery-sq">
-  {% for project in site.projects_active %}
+  {% assign active_projects = site.projects_active | sort: "order" %}
+  {% for project in active_projects %}
+
     <a class="gallery-item" href="{{ project.url }}">
       <figure>
         <img src="{{ site.baseurl }}/assets/thumbs/400x300r/{{  project.thumbnail_image }}"

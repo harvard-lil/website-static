@@ -7,7 +7,7 @@ title: Stack Life
 project_website: http://stacklife.harvard.edu
 github_repo: https://github.com/harvard-lil/stackview
 start_date:
-
+order: 5
 ### MEDIA ###
 # Required
 

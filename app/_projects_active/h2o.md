@@ -7,6 +7,7 @@ title: H2O
 project_website: https://opencasebook.org
 github_repo:
 start_date:
+order: 1
 
 ### MEDIA ###
 # Required
