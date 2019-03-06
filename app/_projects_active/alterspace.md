@@ -56,7 +56,6 @@ who_contributed:
   - matthew-battles
   - jessica-yurkofsky
   - alisa-kolot
-  - sam-stites
   - keith-hartwig
   - sam-stites
 
