@@ -15,7 +15,7 @@ order: 4
 # (400px x 300px)
 # (800px x 600px)
 # (1200px x 900px)
-thumbnail_image: 
+thumbnail_image: alterspace-thumbnail-1.png
 
 # For Sketches
 # (216px x 216px)
@@ -58,6 +58,7 @@ who_contributed:
   - alisa-kolot
   - sam-stites
   - keith-hartwig
+  - sam-stites
 
 ### Override Jekyll Defaults ###
 title-tag: Alterspace

@@ -938,3 +938,11 @@ keith-hartwig:
   sort_name: Hartwig
   website: http://keithhartwig.com
   affiliated: false
+
+sam-stites:
+  name: Sam Stites
+  sort_name: Stites
+  website: https://stites.io/
+  affiliated: false
+  twitter_account_name: samstites
+  role: Machine Learning Engineer at Sentenai
