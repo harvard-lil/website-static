@@ -7,7 +7,7 @@ title: The Nuremberg Project
 project_website: http://nuremberg.law.harvard.edu
 github_repo:
 start_date:
-
+order: 2
 ### MEDIA ###
 # Required
 
