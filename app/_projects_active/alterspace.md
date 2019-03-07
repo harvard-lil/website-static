@@ -30,10 +30,10 @@ sketch_thumbnail_image:
 # (1200px x 675px)
 # (1600px x 900px)
 # (2100px x 1000px)
-hero_image:
+hero_image: alterspace-box-hero-wide.png
 # (400px x 400px)
 # (800px x 800px)
-hero_image_square:
+hero_image_square: alterspace-hero-square.png
 
 video:
 
@@ -61,6 +61,6 @@ who_contributed:
 
 ### Override Jekyll Defaults ###
 title-tag: Alterspace
-custom-footer: true
+custom-footer: false
 
 ---
