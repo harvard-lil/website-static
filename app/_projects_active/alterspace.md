@@ -42,12 +42,13 @@ video:
 
 # Required
 what_does_it_do: >
-    An immersive library experience that gives visitors control over light, color, sound, and space.
+    Alterspace gives library visitors control over light, color, sound, and space.
     
 
 # Optional
 why_does_it_exist: |
    The library’s collection can transport patrons into the worlds of fiction, history, art. Alterspace extends that experience into the physical world, allowing patrons to create environments that best suit their needs. 
+   Alterspace is a collaboration with <a href="https://metalabharvard.github.io" target="_blank">metaLAB</a>. 
 
 who_contributed:
   - clare-stanton
