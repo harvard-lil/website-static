@@ -4,7 +4,7 @@
 title: The Nuremberg Project
 
 # Optional
-project_website: http://nuremberg.law.harvard.edu
+project_website: https://nuremberg.law.harvard.edu/
 github_repo:
 start_date:
 order: 2

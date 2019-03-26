@@ -4,8 +4,8 @@
 title: H2O
 
 # Optional
-project_website: https://opencasebook.org
-github_repo:
+project_website: https://opencasebook.org/
+github_repo: https://github.com/harvard-lil/h2o
 start_date:
 order: 1
 

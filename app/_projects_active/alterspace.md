@@ -4,7 +4,7 @@
 title: Alterspace
 
 # Optional
-project_website: https://alterspace.github.io
+project_website: https://alterspace.github.io/
 github_repo: https://github.com/harvard-lil/alter-space
 start_date: January 1, 2019
 order: 4
