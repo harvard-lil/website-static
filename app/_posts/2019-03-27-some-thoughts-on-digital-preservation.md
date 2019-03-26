@@ -62,7 +62,7 @@ hardware itself will become unperformant, then unusable.
 
 Mitigating these problems is a near-constant process of monitoring,
 planning, and upgrading, at all levels of the stack. Even if we were
-never to write another line of Perma code, we'dd need to update
+never to write another line of Perma code, we'd need to update
 [Django](https://www.djangoproject.com/) and all the other
 [Python](https://www.python.org/) packages it depends on (and a Perma
 with no new code would become less and less able to capture pages on
