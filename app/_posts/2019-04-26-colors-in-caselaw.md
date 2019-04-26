@@ -10,7 +10,7 @@ This particular project began as a quick look at a very silly question:
 
 ### *What* exactly, is the color of the law? 
 
-It turned, surprisingly, into a somewhat deep dive of an introduction into to NLP. 
+It turned, surprisingly, into a somewhat deep dive of an introduction into NLP. 
 In this blog post, I'm putting down some thoughts about my decisions, process, and things I learned along the way. Hopefully it will inspire someone looking into the CAP data to ask their own silly (or very serious) questions. This example might also be useful as a small tutorial for getting started on neural-based NLP projects.
 
 Here is the resulting website, with pretty case law colors: https://colors.lil.tools/
@@ -26,7 +26,8 @@ If you want to download your own, here are some links:
 
 ### How does one go about deciding on the color of the law?
 
-One way to do it is to find all the mentions of colors in each case. 
+One way to do it is to find all the mentions of colors in each case.
+
 Since there is a finite number of labelled colors, we could look at each color and simply run a search though the dataset on each word.
 So let's say we start by looking at the color "green". But wait! We've immediately run into trouble. It turns out that "Green" is quite a popular last name. Excluding anywhere the "G" is capitalized, we might miss important data, like sentences that start with the color green. Adding to the trouble, the lower cased "orange" is both a color and a fruit. Maybe we could start by looking at the instances of the color words as adjectives?
 
@@ -48,7 +49,7 @@ Unfortunately, we don't have magical reference to every use of a color in the la
 
 The easiest route we can take is to just match an adjective in the colors list that we have when we come across it and call it a day. The other, more interesting to me way, is to get the context pertinent to the color, using root parsing, to make sure that we get the right shade. "Baby pink" is very different from "hot pink", after all.
 
-To get here, we can use the NLP library [spacy](https://spacy.io/). The result is a giant list of of word pairings like "red pepper", and "blue leather".  This may read as a food and a type of cloth and not a color. As far as this project is concerned, however, we're treating these word pairings as specific shades. "Blue sky" might be a different shade than "blue leather". "Red pepper" might be a different shade than "red rose".
+To get here, we can use the NLP library [spacy](https://spacy.io/). The result is a giant list of of word pairings like "red pepper" and "blue leather".  This may read as a food and a type of cloth and not a color. As far as this project is concerned, however, we're treating these word pairings as specific shades. "Blue sky" might be a different shade than "blue leather". "Red pepper" might be a different shade than "red rose".
 
 But exactly what shade is "red pepper" and how would a machine interpret it?
 
