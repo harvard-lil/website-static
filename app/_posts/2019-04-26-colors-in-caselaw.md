@@ -108,5 +108,5 @@ Who would have thought we could do that by looking at caselaw?
 
 When I first started working on this project, I had no expectations of what I would find. Looking at the data now, it is clear that some of the most commonly present colors are black, brown, and white, and from what I can tell, the majority of the mentions of those are race related. A deeper dive would require a different person to look at this subject, and there are many other more direct ways of approaching such a serious matter than looking at the colors of caselaw.
 
-If you have any questions, any kooky ideas about caselaw, or any interest in exploring together, please let me know!
+If you have any questions, any kooky ideas about caselaw, or any interest in exploring together, please [let me know](mailto:aaizman@law.harvard.edu)!
 
