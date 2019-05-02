@@ -7,7 +7,7 @@ wordpress_id: 387
 
 So "Future of the Book" was just put out by [IDEO](http://www.ideo.com).
 
-<div class="embed-container"><iframe src="https://player.vimeo.com/video/15142335" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="The Future of the Book" src="https://player.vimeo.com/video/15142335" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 [The Future of the Book.](http://vimeo.com/15142335) from [IDEO](http://vimeo.com/ideo) on [Vimeo](http://vimeo.com).
 

@@ -18,4 +18,4 @@ tags:
 
 Eric Frank is the president and co-founder of Flat World Knowledge, Inc., which publishes peer-reviewed online textbooks available under Creative Commons license. He explains his business.
 
-<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/Fp0iMluiUoQ" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Eric Frank" width="320" height="240" src="https://www.youtube.com/embed/Fp0iMluiUoQ" frameborder="0" allowfullscreen></iframe></div>

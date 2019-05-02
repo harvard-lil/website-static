@@ -7,7 +7,7 @@ wordpress_id: 1397
 
 We had our first meeting of [GSD](http://www.gsd.harvard.edu/) Seminar 09125, Library Test Kitchen.
 
-<div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/48328285" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Library Test Kitchen" width="320" height="240" src="http://player.vimeo.com/video/48328285" frameborder="0" allowfullscreen></iframe></div>
 
 Video by Ben Brady
 

@@ -13,4 +13,4 @@ tags:
 
 [Kristin Eschenfelder](http://slisweb.lis.wisc.edu/~kreschen/) of University of Wisconsin Madison discusses her recent research on why cultural institutions resist making their materials openly available (videoed at the [LODLAM](http://lod-lam.net) conference).
 
-<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/T24unfea3KE" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Kristin Eschenfelder" width="320" height="240" src="https://www.youtube.com/embed/T24unfea3KE" frameborder="0" allowfullscreen></iframe></div>

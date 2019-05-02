@@ -5,7 +5,7 @@ title: pockets of people
 wordpress_id: 2589
 ---
 
-<div class="embed-container"><iframe allowfullscreen="" frameborder="0" height="360" mozallowfullscreen="" src="https://player.vimeo.com/video/193754983" webkitallowfullscreen="" width="640"></iframe></div>
+<div class="embed-container"><iframe title="Knight Prototype Workshop Dinner" allowfullscreen="" frameborder="0" height="360" mozallowfullscreen="" src="https://player.vimeo.com/video/193754983" webkitallowfullscreen="" width="640"></iframe></div>
 
 we hosted a bunch of amazing visitors earlier this week (knight prototype workshop!) and we were fortunate enough to gather everyone for dinner. after drinks were served, i used my phone's camera and swooped into each booth aka pocket of people.
 

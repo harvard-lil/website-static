@@ -15,4 +15,4 @@ tags:
 
 Robert Darnton, historian and Director of the Harvard Library, talks about the future of books and libraries.
 
-<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/cOBNKvRzCAo" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Robert Darnton" width="320" height="240" src="https://www.youtube.com/embed/cOBNKvRzCAo" frameborder="0" allowfullscreen></iframe></div>

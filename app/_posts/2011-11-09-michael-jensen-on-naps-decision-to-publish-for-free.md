@@ -14,4 +14,4 @@ tags:
 
 Michael Jensen explains why the National Academies Press decided to make its material openly available.
 
-<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/gLUx4qzbAMM" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Michael Jensen" width="320" height="240" src="https://www.youtube.com/embed/gLUx4qzbAMM" frameborder="0" allowfullscreen></iframe></div>

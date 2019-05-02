@@ -7,15 +7,15 @@ wordpress_id: 2435
 
 I'm sharing more highlights from this year's [Ars Electronica Festival](http://www.aec.at/festival/en/). See [part one]({{ site.baseurl }}{% post_url 2016-09-12-ars-electronica-festival-highlights %}) for more highlights.
 
-<iframe height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/184709526?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
+<iframe title="Animated restroom sign" height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/184709526?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
 
 **Animated restroom sign** &mdash; The men's bathroom had the best sign ever! I've never been so delighted by a bathroom sign. Playful and fun use of a projector and an animation.
 
-<iframe height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/184709527?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
+<iframe title="Interface I" height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/184709527?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
 
 **[Interface I](http://www.rlfbckr.org/work/interface-i) by Ralf Baecker** &mdash; A red horizontal line is adjusted up and down the vertical axis to make a fluid line graph irl. The horizontal line seems to be controlled by hundreds of little motors moving thin clear cable up and down. Gorgeously lit and placed in a large dark room.
 
-<iframe height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/184709525?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
+<iframe title="Single Stroke Structures" height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/184709525?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
 
 **Single Stroke Structures by Takahiro Hasegawa and Yasuaki Kakehi** &mdash; make temporary structures (maybe even phone booths!?!) out of strategically crimped, inflated plastic tubing. How amazing would it be to keep a shed in your backpack?
 {: .no-ligatures}

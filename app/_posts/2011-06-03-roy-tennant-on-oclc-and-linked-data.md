@@ -15,4 +15,4 @@ tags:
 
 Roy Tennant of OCLC talks about that organization's commitment to linked data. At 2:30 he recapitulates his announcement that OCLC will release bibliographic data for the million works most widely held by libraries. Towards the end, he talks about the tension at the OCLC between opening data and the need to fund the infrastructure for maintaining and improving metadata.
 
-<div class="embed-container"><iframe width="320" height="240" src="<iframe width="460" height="295" src="https://www.youtube.com/embed/zweh65Hm1-M" frameborder="0" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Roy Tennant" width="320" height="240" src="https://www.youtube.com/embed/zweh65Hm1-M" frameborder="0" allowfullscreen></iframe></div>

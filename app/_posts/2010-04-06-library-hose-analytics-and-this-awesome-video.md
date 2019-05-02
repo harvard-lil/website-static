@@ -11,6 +11,6 @@ I wonder if the iframe's we're using for the window-in-window effect will obscur
 
 Anyhow, check out this video, you definitely get the gist after a little while, but amazing.  [2.5 year old meets iPad](http://laughingsquid.com/a-2-5-year-old-uses-an-ipad-for-the-first-time/)
 
-<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/pT4EbM7dCMs" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="2.5 year old meets iPad" width="320" height="240" src="https://www.youtube.com/embed/pT4EbM7dCMs" frameborder="0" allowfullscreen></iframe></div>
 
 _From the father's post:_"My iPhone-savvy 2.5 year-old daughter held an iPad for the very first  time last night, and it turned out to be an interesting user-interface  experiment."
