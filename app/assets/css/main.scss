@@ -304,7 +304,7 @@ nav {
 
 body > footer {
   background: $color-brightyellow;
-  color: $color-white;
+  color: $color-black;
   font-weight: 700;
   text-align: right;
   padding: $grid * 3 $double;
@@ -328,7 +328,7 @@ body > footer {
     }
 
     a {
-      @include link-underline($color-white, $color-black);
+      @include link-underline($color-black, $color-white);
       text-decoration: none;
       display: inline-block;
       padding: 1px 0;
