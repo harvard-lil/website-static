@@ -50,6 +50,6 @@ I was very pleased that Dan Brickley this week [blogged](http://danbri.org/words
 
 No need for silly text, checkout this video, part of a pitch to the [Harvard Library Lab](http://osc.hul.harvard.edu/liblab) fund:
 
-<div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/29977114" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="video" width="320" height="240" src="http://player.vimeo.com/video/29977114" frameborder="0" allowfullscreen></iframe></div>
 
 [Living Library](http://vimeo.com/29977114) from [Harvard Library Innovation Lab](http://vimeo.com/user7144664) on [Vimeo](http://vimeo.com).

@@ -15,7 +15,7 @@ We have a couple of other boxes waiting to be delivered to their new homes after
 
 We put together a special box for our home base, Langdell Library here in the Law School.
 
-<div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/55814585" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Awesome Box" width="320" height="240" src="http://player.vimeo.com/video/55814585" frameborder="0" allowfullscreen></iframe></div>
 
 It's an Arduino equipped box. A small photoresistor in the floor of the box detects light change. When the change is 35% greater or smaller than the last time it took a reading, it sends power to three LEDs tucked in a piece of plexiglass in the sign.
 

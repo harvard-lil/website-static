@@ -15,4 +15,4 @@ tags:
 
 Brewster Kahle, founder of the Internet Archive, reads from an oddly prescient 1936 about preserving the current media types:
 
-<div class="embed-container"><iframe width="320" height="240" src="<iframe width="460" height="295" src="https://www.youtube.com/embed/2yOf9_BnEJo" frameborder="0" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Brewster Kahle" width="320" height="240" src="<iframe width="460" height="295" src="https://www.youtube.com/embed/2yOf9_BnEJo" frameborder="0" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe></div>

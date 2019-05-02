@@ -9,4 +9,4 @@ tags:
 - video
 ---
 
-<div class="embed-container"><iframe width="320" height="240" src="https://www.youtube.com/embed/hBztGX-2i1M" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Encyclopaedia Britannica Films, 1947" width="320" height="240" src="https://www.youtube.com/embed/hBztGX-2i1M" frameborder="0" allowfullscreen></iframe></div>

@@ -18,7 +18,7 @@ tags:
 
 MacKenzie Smith of MIT and Creative Commons talks about the new 4-star rating system for open licenses for metadata from cultural institutions:
 
-<div class="embed-container"><iframe width="320" height="240" src="<iframe width="460" height="295" src="https://www.youtube.com/embed/swQYX4oqfB4" frameborder="0" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="MacKenzie Smith" width="320" height="240" src="https://www.youtube.com/embed/swQYX4oqfB4" frameborder="0" allowfullscreen></iframe></div>
 
 The [draft is up on the LOD-LAM site](http://tinurl.com/4starlicense2).
 

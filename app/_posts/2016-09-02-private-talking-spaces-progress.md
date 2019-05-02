@@ -9,7 +9,7 @@ We've been working hard on our Private Talking Spaces effort. Lots of thinking a
 
 Much of the labor has been contributed by our collaborator, Nic Schumann, at [Work-Shop](http://workshopri.com/). Part of the Private Talking Spaces team &mdash; Anastasia Aizman, Matt Phillips, Ben Steinberg, and Tiff Tseng &mdash; visited Nic in Providence this week.
 
-<iframe height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/181259019?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
+<iframe title="Private Talking Spaces team" height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/181259019?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
 
 We started in Work-Shop's building and had the opportunity to see what remained of the recent [Uncommissioned show].(http://uncommissioned.thedesignoffice.org/)
 

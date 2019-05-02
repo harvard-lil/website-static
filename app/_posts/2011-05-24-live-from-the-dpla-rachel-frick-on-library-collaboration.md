@@ -12,4 +12,4 @@ tags:
 - podcast
 ---
 
-<div class="embed-container"><iframe width="320" height="240" src="<iframe width="460" height="295" src="https://www.youtube.com/embed/MVJFlgzJ7bM" frameborder="0" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Rachel Frick" width="320" height="240" src="https://www.youtube.com/embed/MVJFlgzJ7bM" frameborder="0" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe></div>

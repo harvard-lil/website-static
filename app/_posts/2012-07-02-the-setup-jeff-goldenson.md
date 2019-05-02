@@ -5,7 +5,7 @@ title: The Setup -- Jeff Goldenson
 wordpress_id: 1254
 ---
 
-<div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/45073647" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Jeff's Office" width="320" height="240" src="http://player.vimeo.com/video/45073647" frameborder="0" allowfullscreen></iframe></div>
 
 [office](http://vimeo.com/45073647) from [Harvard Library Innovation Lab](http://vimeo.com/user7144664) on [Vimeo](http://vimeo.com).
 
@@ -37,7 +37,7 @@ I also drink coffee out of a jar because I can put it in my bag, SEAL IT, and co
 
 And that brings me to that ruler in the background.  I like the ruler, it has so many uses.
 
-<div class="embed-container"><iframe width="320" height="240" src="http://player.vimeo.com/video/45073425" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-container"><iframe title="Jeff's ruler" width="320" height="240" src="http://player.vimeo.com/video/45073425" frameborder="0" allowfullscreen></iframe></div>
 
 [web site width](http://vimeo.com/45073425) from [Harvard Library Innovation Lab](http://vimeo.com/user7144664) on [Vimeo](http://vimeo.com).
 
