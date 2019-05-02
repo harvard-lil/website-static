@@ -18,7 +18,7 @@
   {% assign prev = project %}
 {% endfor %}
 
-<nav class="prev-next">
+<nav aria-label="{{ page.type }} gallery" class="prev-next">
   <a class="intro-nav-previous" href="{% if previous %}{{ site.baseurl }}{{ previous.url }}{% else %}{{ last.url }}{% endif %}">Previous {{ page.type }} <span class="title">{% if previous %}{{ previous.title }}{% else %}{{ last.title }}{% endif %}</span></a>
   <a class="intro-nav-next" href="{% if next %}{{ site.baseurl }}{{ next.url }}{% else %}{{ first.url }}{% endif %}">Next {{ page.type }} <span class="title">{% if next %}{{ next.title }}{% else %}{{ first.title }}{% endif %}</span></a>
 </nav>
