@@ -6,13 +6,10 @@ In 2019 we embarked on the CAP Roadshow. This year, we shared the [Caselaw Acces
 
 Between February and May 2019, we made the following stops at conferences and workshops:
 
-[Digital HKS](https://projects.iq.harvard.edu/digitalhks/aboutus), Harvard Kennedy School of Government
-
-[Boston College Libraries Digital Scholarship Group](https://ds.bc.edu/), Boston College
-
-[NECode4Lib Spring 2019](https://wiki.code4lib.org/NECode4lib_Spring_2019), Smith College
-
-[DPLAFest 2019](https://dplafest2019.dp.la/), Chicago Public Library
+* [Digital HKS](https://projects.iq.harvard.edu/digitalhks/aboutus), Harvard Kennedy School of Government
+* [Boston College Libraries Digital Scholarship Group](https://ds.bc.edu/), Boston College
+* [NECode4Lib Spring 2019](https://wiki.code4lib.org/NECode4lib_Spring_2019), Smith College
+* [DPLAFest 2019](https://dplafest2019.dp.la/), Chicago Public Library
 
 Next stop on the road will be [UNT Open Access Symposium](https://openaccess.unt.edu/symposium/2019) from May 17 - 18 at University of North Texas College of Law. See you there!
 
