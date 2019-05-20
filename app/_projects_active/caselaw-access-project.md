@@ -47,7 +47,7 @@ what_does_it_do: >
 why_does_it_exist: |
   Access to our common law - the written decisions issued by our state and federal courts - supports equality and enables innovation in legal services.
   
-  Between 2013 and 2018, the Harvard Law School Library digitized over 40 million pages of U.S. court decisions in collaboration with legal startup Ravel Law, transforming them into a dataset of over 6.4 million cases that represent 360 years of U.S. legal history. The Caselaw Access Project API (CAPAPI) and bulk data service put this important dataset within the reach of researchers, members of the legal community, and the general public. 
+  Between 2013 and 2018, the Harvard Law School Library digitized over 40 million pages of U.S. court decisions in collaboration with legal startup Ravel Law, transforming them into a dataset of over 6.7 million cases that represent 360 years of U.S. legal history. The Caselaw Access Project API (CAPAPI) and bulk data service put this important dataset within the reach of researchers, members of the legal community, and the general public.
 
   Learn more about how Caselaw Access Project data is being used in our [Gallery](https://case.law/gallery/) and [CAP Examples](https://github.com/harvard-lil/cap-examples) repository on GitHub.
 
