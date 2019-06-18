@@ -6,10 +6,10 @@ Today we’re excited to share [Historical Trends](https://case.law/trends/), a 
 
 Historical Trends is a way to visualize word usage in court opinions over time. We want Historical Trends to help you ask new questions and understand the law in new ways. Let’s see how this works with some examples:
 
-* Compare the frequency of “compensatory damages” and “punitive damages” in New York and California: [https://case.law/trends/?q=ny%3A%20compensatory%20damages,%20ny%3A%20punitive%20damages,%20cal%3A%20compensatory%20damages,%20cal%3A%20punitive%20damages](http://)
-* Find the top phrases starting with “influence of”: https://case.law/trends/?q=influence%20of%20%2a
-* See which states most frequently reference the Fifth Amendment: https://case.law/trends/?q=%2a%3A%20Fifth%20Amendment
-* Compare “privacy” with “publicity”: https://case.law/trends/?q=privacy,%20publicity
+* [Compare the frequency of “compensatory damages” and “punitive damages” in New York and California](https://case.law/trends/?q=ny%3A%20compensatory%20damages,%20ny%3A%20punitive%20damages,%20cal%3A%20compensatory%20damages,%20cal%3A%20punitive%20damages). 
+* [Find the top phrases starting with “influence of”](https://case.law/trends/?q=influence%20of%20%2a).
+* [See which states most frequently reference the Fifth Amendment](https://case.law/trends/?q=%2a%3A%20Fifth%20Amendment). 
+* [Compare “privacy” with “publicity”](https://case.law/trends/?q=privacy,%20publicity).
 
 Want to build your own visualization with Historical Trends? Here’s here’s how to get started:
 
