@@ -20,6 +20,6 @@ Want to build your own visualization? Here’s how to get started:
 * Refine your query or learn more by selecting “Advanced” or the gear icon shown above the visualization.
 * Select “Graph”.
 
-The data underlying [Historical Trends](https://case.law/trends/) is drawn from the Harvard Law Library’s collection of roughly 6.7 million official, published opinions issued by state and federal courts throughout U.S. history made available as part of the [Caselaw Access Project](https://case.law/).
+The data underlying [Historical Trends](https://case.law/trends/) is drawn from the Harvard Law Library’s collection of roughly 6.7 million official, published opinions issued by state and federal courts throughout U.S. history and made available as part of the [Caselaw Access Project](https://case.law/).
 
 Get started at [https://case.law/trends/](https://case.law/trends/).
