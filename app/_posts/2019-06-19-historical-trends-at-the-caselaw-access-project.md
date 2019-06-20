@@ -2,7 +2,7 @@
 title: Historical Trends at the Caselaw Access Project
 author: kelly-fitzpatrick
 ---
-Today we’re excited to share [Historical Trends](https://case.law/trends/), a new way to explore 360 years of U.S. case law made available by the [Caselaw Access Project](https://case.law/) at Harvard Law School.
+Today we’re excited to share [Historical Trends](https://case.law/trends/), a new way to explore U.S. case law made available by the [Caselaw Access Project](https://case.law/) at Harvard Law School.
 
 [![Historical Trends, Caselaw Access Project.](https://lil-blog-media.s3.amazonaws.com/main_twitter.png)](https://case.law/trends/)
 
