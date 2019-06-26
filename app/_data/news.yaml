@@ -4,6 +4,20 @@
 ### CAP ###
 - project: caselaw-access-project
   type: press
+  title: New "Historical Trends" Viewer from Caselaw Access Project Graphs Frequency of Words and Phrases
+  publication: LawSites
+  date: June 21, 2019
+  url: https://www.lawsitesblog.com/2019/06/new-historical-trends-viewer-from-caselaw-access-project-graphs-frequency-of-words-and-phrases.html
+
+- project: caselaw-access-project
+  type: press
+  title: New tool by Harvard Law lets people explore language usage in caselaw
+  publication: ABA Journal
+  date: June 20, 2019
+  url: http://www.abajournal.com/news/article/new-tool-lets-people-explore-language-usage-in-caselaw
+
+- project: caselaw-access-project
+  type: press
   title: "LawNext Episode 18: Adam Ziegler On How Harvard Put 360 Years Of Caselaw Online"
   publication: LawSites
   date: November 12, 2018
