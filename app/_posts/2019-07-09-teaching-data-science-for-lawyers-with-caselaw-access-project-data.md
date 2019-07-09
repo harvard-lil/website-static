@@ -65,7 +65,7 @@ C.  A Python `list` of unique U.S. Supreme Court citations that appear in the te
 
 ### Sample Code to Complete Assignment
 
-```
+```python
 import requests, re
 endpoint = "https://api.case.law/v1/cases/"
 pattern = r"\d+ U\.S\. \d+"
@@ -91,4 +91,3 @@ def cite_finder(cite):
         return filtered
     return None
 ```
-
