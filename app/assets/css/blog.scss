@@ -260,10 +260,10 @@
   }
 }
 
-.highlighter-rouge, .highlighter-rouge * {
+figure.highlight pre {
   overflow: scroll;
 }
-.highlight {
+figure.highlight {
   // via http://help.farbox.com/pygments.html
   background: #f8f8f8;
   .hll { background-color: #ffffcc }
