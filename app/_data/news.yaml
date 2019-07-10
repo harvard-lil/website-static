@@ -8,6 +8,8 @@
   publication: LawSites
   date: June 21, 2019
   url: https://www.lawsitesblog.com/2019/06/new-historical-trends-viewer-from-caselaw-access-project-graphs-frequency-of-words-and-phrases.html
+  archived_url: https://perma.cc/6NS5-837Q
+  archived_date: July 10, 2019
 
 - project: caselaw-access-project
   type: press
@@ -15,6 +17,8 @@
   publication: ABA Journal
   date: June 20, 2019
   url: http://www.abajournal.com/news/article/new-tool-lets-people-explore-language-usage-in-caselaw
+  archived_url: https://perma.cc/V6KE-7GXW
+  archived_date: July 10, 2019
 
 - project: caselaw-access-project
   type: press
@@ -22,6 +26,8 @@
   publication: LawSites
   date: November 12, 2018
   url: https://www.lawsitesblog.com/2018/11/lawnext-episode-18-adam-ziegler-harvard-put-360-years-caselaw-online.html
+  archived_url: https://perma.cc/ML8U-A6SC
+  archived_date: July 10, 2019
   
 - project: caselaw-access-project
   type: press
@@ -29,6 +35,8 @@
   publication: TechDirt
   date: October 31, 2018
   url: https://www.techdirt.com/articles/20181031/01114140946/harvard-opens-up-massive-caselaw-access-project.shtml
+  archived_url: https://perma.cc/Q89U-RPJV
+  archived_date: July 10, 2019
   
 - project: caselaw-access-project
   type: press
@@ -36,6 +44,8 @@
   publication: Harvard Law Today
   date: October 31, 2018
   url: https://today.law.harvard.edu/caselaw-access-project-launches-api-and-bulk-data-service/
+  archived_url: https://perma.cc/YSC6-7LVE
+  archived_date: July 10, 2019
   
 - project: caselaw-access-project
   type: press
@@ -43,6 +53,8 @@
   publication: ABA Journal
   date: October 30, 2018
   url: http://www.abajournal.com/news/article/caselaw_access_project_gives_free_access_to_360_years_of_american_court_cas
+  archived_url: https://perma.cc/R2RF-AMHW
+  archived_date: July 10, 2019
   
 - project: caselaw-access-project
   type: press
@@ -50,6 +62,8 @@
   publication: The New York Times
   date: October 28, 2015
   url: http://www.nytimes.com/2015/10/29/us/harvard-law-library-sacrifices-a-trove-for-the-sake-of-a-free-database.html
+  archived_url: https://perma.cc/KN2N-423X
+  archived_date: July 10, 2019
 
 ### Perma ###
 - project: perma-cc
@@ -58,6 +72,8 @@
   publication: Law Library of Congress Blog - In Custodia Legis
   date: August 14, 2015
   url: http://blogs.loc.gov/law/2015/08/cooking-up-a-solution-to-link-rot/?loclr=twlaw
+  archived_url: https://perma.cc/YG7W-CK7Z
+  archived_date: July 10, 2019
 
 - project: perma-cc
   type: press
@@ -65,6 +81,8 @@
   publication: BloombergBNA Big Law Business
   date: March 12, 2015
   url: https://bol.bna.com/the-problem-with-urls-in-legal-marketing/
+  archived_url: https://perma.cc/7NAQ-J9BA
+  archived_date: July 10, 2019
 
 - project: perma-cc
   type: press
@@ -72,6 +90,8 @@
   publication: The New Yorker
   date: January 26, 2015
   url: http://www.newyorker.com/magazine/2015/01/26/cobweb
+  archived_url: https://perma.cc/LT8H-E7LP
+  archived_date: July 10, 2019
 
 - project: perma-cc
   type: press
@@ -79,6 +99,8 @@
   publication: NPR
   date: April 26, 2014
   url: http://www.npr.org/sections/alltechconsidered/2014/04/26/307041846/stopping-link-rot-aiming-to-end-a-virtual-epidemic
+  archived_url: https://perma.cc/2VAG-HLSP
+  archived_date: July 10, 2019
 
 - project: perma-cc
   type: press
@@ -86,6 +108,8 @@
   publication: Fast Company
   date: March 28, 2014
   url: http://www.fastcompany.com/3028321/whos-next/death-to-link-rot-heres-where-the-internet-goes-to-live-forever
+  archived_url: https://perma.cc/9NQF-WBCY
+  archived_date: July 10, 2019
 
 - project: perma-cc
   type: press
@@ -93,6 +117,8 @@
   publication: The New York Times
   date: September 23, 2013
   url: http://www.nytimes.com/2013/09/24/us/politics/in-supreme-court-opinions-clicks-that-lead-nowhere.html?_r=0
+  archived_url: https://perma.cc/82V5-PAU7
+  archived_date: July 10, 2019
 
 # This story is not live on the perma page
 - project: perma-cc
@@ -101,6 +127,8 @@
   publication: ABA Journal
   date: April 27, 2015
   url: http://www.abajournal.com/news/article/prevent_link_rot_for_legal_researchers_wins_2015_webby
+  archived_url: https://perma.cc/3JTK-X4MB
+  archived_date: July 10, 2019
 
 ### Time Capsule ###
 - project: time-capsule-encryption
@@ -109,6 +137,8 @@
   publication: The Economist
   date: November 19, 2014
   url: http://www.economist.com/news/science-and-technology/21632426-bid-put-encrypted-data-kind-time-capsule-gets-kick-start-note-future-self
+  archived_url: https://perma.cc/MB6P-QX7X
+  archived_date: July 10, 2019
 
 - project: time-capsule-encryption
   type: blog
@@ -116,6 +146,8 @@
   publication: futureoftheinternet.org
   date: June 09, 2014
   url: http://futureoftheinternet.org/2014/06/09/time-capsule-crypto-can-help-us-commit-our-secrets-to-history/
+  archived_url: https://perma.cc/U58C-LSVQ
+  archived_date: July 10, 2019
 
 ### Awesome Box ###
 - project: awesome-box
@@ -124,6 +156,8 @@
   publication: School Library Journal
   date: December 16, 2013
   url: http://www.slj.com/2013/12/public-libraries/bigger-on-the-inside-brookline-ma-public-librarys-tardis-awesome-box/#_
+  archived_url: https://web.archive.org/web/20150917074620/http://www.slj.com/2013/12/public-libraries/bigger-on-the-inside-brookline-ma-public-librarys-tardis-awesome-box/
+  archived_date: September 17, 2015
 
 - project: awesome-box
   type: press
@@ -131,6 +165,8 @@
   publication: Harvard Gazette
   date: May 09, 2013
   url: http://news.harvard.edu/gazette/story/newsplus/the-awesome-box-letting-libraries-be-awesome-since-2012/
+  archived_url: https://perma.cc/M6DF-MDMJ
+  archived_date: July 10, 2019
 
 - project: awesome-box
   type: blog
@@ -138,3 +174,15 @@
   publication: librarian.net
   date: March 11, 2013
   url: http://www.librarian.net/stax/4052/some-show-and-tell/
+  archived_url: https://perma.cc/2M52-CJLA
+  archived_date: July 10, 2019
+
+### Alterspace ###
+- project: alterspace
+  type: press
+  title: Alterspace Transforms Libraries Into “Rooms of Requirement”
+  publication: Library Journal
+  date: May 22, 2019
+  url: https://www.libraryjournal.com/?detailStory=alterspace-transforms-libraries-into-rooms-of-requirement
+  archived_url: https://perma.cc/D6X9-3L9E
+  archived_date: July 10, 2019
