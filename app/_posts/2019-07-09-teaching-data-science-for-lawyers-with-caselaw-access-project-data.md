@@ -80,7 +80,7 @@ def get_opinion_texts(api_response):
 
 def cite_finder(cite):
     resp = requests.get(endpoint, params={"cite": cite, "full_case": "true"}).json()
-   opinions = get_opinion_texts(resp)
+    opinions = get_opinion_texts(resp)
     if opinions:
         allcites = []
         for opinion in opinions:
