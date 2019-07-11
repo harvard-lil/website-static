@@ -19,7 +19,7 @@ I'll start high-level with "what are package managers" and work my way into the 
 
 Package managers help us install software libraries and keep them up to date. If I want to load a URL and print the contents, I can add a dependency on a package like `requests` ...
 
-~~~ shell
+{% highlight shell %}
 $ echo 'requests' > requirements.txt
 $ pip install -r requirements.txt
 Collecting requests (from -r requirements.txt (line 1))
@@ -27,19 +27,19 @@ Collecting requests (from -r requirements.txt (line 1))
      |████████████████████████████████| 440kB 4.1MB/s
 Installing collected packages: requests
 Successfully installed requests-2.0.1
-~~~
+{% endhighlight %}
 
 ... and let `requests` do the heavy lifting:
 
-~~~ python
+{% highlight python %}
 >>> import requests
 >>> requests.get('http://example.com').text
 '<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title> ...'
-~~~
+{% endhighlight %}
 
 But there's a problem -- if I install exactly the same package later, I might get a different result:
 
-~~~ shell
+{% highlight shell %}
 $ echo 'requests' > requirements.txt
 $ pip install -r requirements.txt
 Collecting requests (from -r requirements.txt (line 1))
@@ -57,13 +57,13 @@ Collecting chardet<3.1.0,>=3.0.2 (from requests->-r requirements.txt (line 1))
 Installing collected packages: certifi, urllib3, idna, chardet, requests
 Successfully installed certifi-2019.3.9 chardet-3.0.4 idna-2.8 requests-2.22.0 urllib3-1.25.2
 <requirements.txt, pip install -r, import requests>
-~~~
+{% endhighlight %}
 
 I got a different version of `requests` than last time, and I got some bonus dependencies (`certifi`, `urllib3`, `idna`, and `chardet`). Now my code might not do the same thing even though *I* did the same thing, which is not how anyone wants computers to work. (I've cheated a little bit here by showing the first example as though `pip install` had been run back in 2013.)
 
 So the next step is to pin the versions of my dependencies and their dependencies, using a package like `pip-tools`:
 
-~~~ shell
+{% highlight shell %}
 $ echo 'requests' > requirements.in
 $ pip-compile
 $ cat requirements.txt
@@ -78,7 +78,7 @@ chardet==3.0.4            # via requests
 idna==2.8                 # via requests
 requests==2.22.0
 urllib3==1.25.2           # via requests
-~~~
+{% endhighlight %}
 
 (There are other options I could use instead, like `pipenv` or `poetry`. For now I still prefer pip-tools, for roughly [the reasons laid out by Hynek Schlawack](https://hynek.me/articles/python-app-deps-2018/).)
 
@@ -112,7 +112,7 @@ This is a big problem with a lot of dimensions. It would be great if PyPI packag
 
 Instead of just pinning packages like we did before, let's try adding hashes to them:
 
-~~~ shell
+{% highlight shell %}
 $ echo 'requests==2.0.1' > requirements.in
 $ pip-compile --generate-hashes
 #
@@ -124,11 +124,11 @@ $ pip-compile --generate-hashes
 requests==2.0.1 \
     --hash=sha256:8cfddb97667c2a9edaf28b506d2479f1b8dc0631cbdcd0ea8c8864def59c698b \
     --hash=sha256:f4ebc402e0ea5a87a3d42e300b76c292612d8467024f45f9858a8768f9fb6f6e
-~~~
+{% endhighlight %}
 
 Now when pip-compile pins our package versions, it also fetches the currently-known hashes for each requirement and adds them to requirements.txt (an example of the crypto technique of "TOFU" or "Trust On First Use"). If someone later comes along and adds new packages, or if the https connection to PyPI is later insecure for whatever reason, pip will refuse to install and will warn us about the problem:
 
-~~~ shell
+{% highlight shell %}
 $ pip install -r requirements.txt
 ...
 ERROR: THESE PACKAGES DO NOT MATCH THE HASHES FROM THE REQUIREMENTS FILE. If you have updated the package versions, please update the hashes. Otherwise, examine the package contents carefully; someone may have tampered with them.
@@ -136,11 +136,11 @@ ERROR: THESE PACKAGES DO NOT MATCH THE HASHES FROM THE REQUIREMENTS FILE. If you
         Expected sha256 8cfddb97667c2a9edaf28b506d2479f1b8dc0631cbdcd0ea8c8864def59c6981
         Expected     or f4ebc402e0ea5a87a3d42e300b76c292612d8467024f45f9858a8768f9fb6f61
              Got        f4ebc402e0ea5a87a3d42e300b76c292612d8467024f45f9858a8768f9fb6f6e
-~~~
+{% endhighlight %}
 
 But there are problems lurking here! If we have packages that are installed from Github, then pip-compile can't hash them and pip won't install them:
 
-~~~ shell
+{% highlight shell %}
 $ echo '-e git+https://github.com/requests/requests@master#egg=requests' > requirements.in
 $ pip-compile --generate-hashes
 #
@@ -165,13 +165,13 @@ urllib3==1.25.2 \
 $ pip install -r requirements.txt
 Obtaining requests from git+https://github.com/requests/requests@master#egg=requests (from -r requirements.txt (line 7))
 ERROR: The editable requirement requests from git+https://github.com/requests/requests@master#egg=requests (from -r requirements.txt (line 7)) cannot be installed when requiring hashes, because there is no single file to hash.
-~~~
+{% endhighlight %}
 
 That's a serious limitation, because `-e` requirements are the only way `pip-tools` knows to specify installations from version control, which are useful while you wait for new fixes in dependencies to be released. (We mostly use them at LIL for dependencies that we've patched ourselves, after we send fixes upstream but before they are released.)
 
 And if we have packages that rely on dependencies `pip-tools` considers unsafe to pin, like `setuptools`, pip will refuse to install those too:
 
-~~~ shell
+{% highlight shell %}
 $ echo 'Markdown' > requirements.in
 $ pip-compile --generate-hashes
 #
@@ -189,7 +189,7 @@ Collecting markdown==3.1 (from -r requirements.txt (line 7))
 Collecting setuptools>=36 (from markdown==3.1->-r requirements.txt (line 7))
 ERROR: In --require-hashes mode, all requirements must have their versions pinned with ==. These do not:
     setuptools>=36 from https://files.pythonhosted.org/packages/ec/51/f45cea425fd5cb0b0380f5b0f048ebc1da5b417e48d304838c02d6288a1e/setuptools-41.0.1-py2.py3-none-any.whl#sha256=c7769ce668c7a333d84e17fe8b524b1c45e7ee9f7908ad0a73e1eda7e6a5aebf (from markdown==3.1->-r requirements.txt (line 7))
-~~~
+{% endhighlight %}
 
 This can be worked around by adding `--allow-unsafe`, but (a) that sounds unsafe (though it isn't), and (b) it won't pop up until you try to set up a new environment with a low version of `setuptools`, potentially days later on someone else's machine.
 
@@ -222,7 +222,7 @@ Landing this resulted in closing two other `pip-tools` pull requests from 2016 a
 
 The next step was [Fix pip-compile output for unsafe requirements #813](https://github.com/jazzband/pip-tools/pull/813) and [Warn when --generate-hashes output is uninstallable #814](https://github.com/jazzband/pip-tools/pull/814). These two PRs allowed `pip-compile --generate-hashes` to detect and warn when a file would be uninstallable for hashing reasons. Fortunately `pip-compile` has all of the information it needs at compile time to know that the file will be uninstallable and to make useful recommendations for what to do about it:
 
-~~~ shell
+{% highlight shell %}
 $ pip-compile --generate-hashes
 #
 # This file is autogenerated by pip-compile
@@ -249,7 +249,7 @@ six==1.12.0 \
 # WARNING: The following packages were not pinned, but pip requires them to be
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # setuptools==41.0.1        # via markdown
-~~~
+{% endhighlight %}
 	
 Hopefully, between these two efforts, the next project to try using --generate-hashes will find it a shorter and more straightforward process than I did!
 
