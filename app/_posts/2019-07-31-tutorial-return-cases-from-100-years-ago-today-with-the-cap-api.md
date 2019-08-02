@@ -4,10 +4,10 @@ author: kelly-fitzpatrick
 ---
 The [Caselaw Access Project API](https://case.law/api/) offers a way to view the corpus of U.S. case law. This tutorial will review how to **run a CAP API call to return all cases decided 100 years ago today in your command line**.
 
-The Caselaw Access Project API makes 40 million pages of U.S. case law in machine readable format, digitized from the collections of the Harvard Law School Library. 
+The Caselaw Access Project API makes 40 million pages of U.S. case law available in machine readable format, digitized from the collections of the Harvard Law School Library. 
 
 ## Create Your API Call 
-Let’s start by building our call to the CAP API using the endpoints decision_date_min and decision_date_max. These two endpoints will only return data for cases decided before and after these two dates.
+Let’s start by building our call to the CAP API using the endpoints **decision_date_min** and **decision_date_max**. These two endpoints will only return data for cases decided before and after these two dates.
 
 * Open Text Editor and Paste:
 
@@ -28,7 +28,7 @@ Next, we’re going to be starting this tutorial in a Mac OS using Terminal.
 
 * In the Terminal command line, copy and paste the API call from your text editor and press Enter.
 
-You did it! Data returned in your CAP API call should return case level metadata for all cases decided one hundred years ago today. 
+You did it! Data by the CAP API should return case level metadata for all cases decided one hundred years ago today. 
 
 Now, what do the content of those cases look like? Time to add a new piece to the mix.
 
@@ -53,6 +53,6 @@ https://api.case.law/v1/cases/?decision_date_min=1919-07-30&decision_date_max=19
 
 Now you can view the same data that was returned by your original API call in your browser. Learn new ways to refine and expand your CAP API call with our [API Docs](https://case.law/api/). We can also retrieve this data for a more human readable experience with [CAP Search](https://case.law/search/#/cases?page=1&decision_date_min=1919-07-30&decision_date_max=1919-07-30).
 
-We have new ways to see case law with the CAP API. We can retrieve cases from across 360 years of U.S legal history and develop new interfaces to do that. This tutorial shared just one place to start.
+With the CAP API, we can retrieve cases from across 360 years of U.S legal history and develop new interfaces to do that. This tutorial shared just one place to start.
 
 ![](https://lil-blog-media.s3.amazonaws.com/curl1.png)
