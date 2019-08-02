@@ -1,8 +1,8 @@
 ---
-title: Tutorial: Return Cases from 100 Years Ago Today with the CAP API
+title: "Tutorial: Return Cases from 100 Years Ago Today with the CAP API"
 author: kelly-fitzpatrick
 ---
-The [Caselaw Access Project API](https://case.law/api/) offers a way to view the corpus of U.S. case law. This tutorial will review **run a CAP API call to return all cases decided 100 years ago today in your command line**.
+The [Caselaw Access Project API](https://case.law/api/) offers a way to view the corpus of U.S. case law. This tutorial will review how to **run a CAP API call to return all cases decided 100 years ago today in your command line**.
 
 The Caselaw Access Project API 40 million pages of U.S. case law in machine readable format, digitized from the collections of the Harvard Law School Library. 
 
