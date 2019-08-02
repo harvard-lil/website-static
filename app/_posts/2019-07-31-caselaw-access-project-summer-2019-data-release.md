@@ -1,5 +1,5 @@
 ---
-title: Caselaw Access Project: Summer 2019 Data Release
+title: "Caselaw Access Project: Summer 2019 Data Release"
 author: kelly-fitzpatrick
 ---
 Today we’re announcing our new data release to the [Caselaw Access Project](https://case.law/). This update includes:
