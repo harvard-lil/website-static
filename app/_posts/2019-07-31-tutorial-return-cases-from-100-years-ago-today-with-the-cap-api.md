@@ -4,7 +4,7 @@ author: kelly-fitzpatrick
 ---
 The [Caselaw Access Project API](https://case.law/api/) offers a way to view the corpus of U.S. case law. This tutorial will review how to **run a CAP API call to return all cases decided 100 years ago today in your command line**.
 
-The Caselaw Access Project API 40 million pages of U.S. case law in machine readable format, digitized from the collections of the Harvard Law School Library. 
+The Caselaw Access Project API makes 40 million pages of U.S. case law in machine readable format, digitized from the collections of the Harvard Law School Library. 
 
 ## Create Your API Call 
 Let’s start by building our call to the CAP API using the endpoints decision_date_min and decision_date_max. These two endpoints will only return data for cases decided before and after these two dates.
