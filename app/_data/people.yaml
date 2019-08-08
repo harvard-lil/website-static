@@ -65,7 +65,7 @@ carrie-bly:
   twitter_account_name:
   github_account_name:
   image: carrie-bly.jpg
-  affiliated: summer
+  affiliated: false
 
 hannah-brinkmann:
   name: Hannah Brinkmann
@@ -77,7 +77,7 @@ hannah-brinkmann:
   twitter_account_name:
   github_account_name:
   image: hannah-brinkmann.jpg
-  affiliated: summer
+  affiliated: false
 
 rebecca-cremona:
   name: Rebecca Cremona
@@ -105,7 +105,7 @@ franny-corry:
   twitter_account_name:
   github_account_name:
   image: franny-corry.jpg
-  affiliated: summer
+  affiliated: false
 
 jack-cushman:
   name: Jack Cushman
@@ -132,7 +132,7 @@ julian-degroot-lutzner:
   twitter_account_name:
   github_account_name: jdegrootlutzner
   image: julian-degroot-lutzner.jpg
-  affiliated: summer
+  affiliated: false
 
 paul-deschner:
   name: Paul Deschner
@@ -161,7 +161,7 @@ alexandra-dolan-mescal:
   twitter_account_name: fromadmwithlove
   github_account_name:
   image: alexandra-dolan-mescal.jpg
-  affiliated: summer
+  affiliated: false
 
 jay-edwards:
   name: Jay Edwards
@@ -173,7 +173,7 @@ jay-edwards:
   twitter_account_name: meangrape
   github_account_name:
   image: jay-edwards.jpg
-  affiliated: true
+  affiliated: false
 
 shira-feldman:
   name: Shira Feldman
@@ -185,7 +185,7 @@ shira-feldman:
   twitter_account_name: shirarbira
   github_account_name: shirarbira
   image: shira-feldman.jpg
-  affiliated: summer
+  affiliated: false
 
 kelly-fitzpatrick:
   name: Kelly Fitzpatrick
@@ -208,7 +208,7 @@ kendra-greene:
   email: akendragreene@gmail.com
   website: http://akendragreene.com
   image: kendra-greene.jpg
-  affiliated: summer
+  affiliated: false
 
 casey-gruppioni:
   name: Casey Gruppioni
@@ -234,7 +234,7 @@ evelin-heidel:
   twitter_account_name: scannopolis
   github_account_name: scannopolis
   image: evelin-heidel.jpg
-  affiliated: summer
+  affiliated: false
 
 brett-johnson:
   name: Brett Johnson
@@ -262,7 +262,7 @@ caitlin-laughlin:
   twitter_account_name:
   github_account_name:
   image: caitlin-laughlin.jpg
-  affiliated: true
+  affiliated: false
 
 michelle-quin:
   name: Michelle Quin
@@ -274,7 +274,7 @@ michelle-quin:
   twitter_account_name:
   github_account_name: michellequin
   image: michelle-quin.jpg
-  affiliated: summer
+  affiliated: false
 
 satvik-shukla:
   name: Satvik Shukla
@@ -286,7 +286,7 @@ satvik-shukla:
   twitter_account_name:
   github_account_name: satvikshukla
   image: satvik-shukla.jpg
-  affiliated: summer
+  affiliated: false
 
 andy-silva:
   name: Andy Silva
@@ -346,7 +346,7 @@ tim-walsh:
   twitter_account_name: bitarchivist
   github_account_name: timothyryanwalsh
   image: tim-walsh.jpg
-  affiliated: summer
+  affiliated: false
 
 jordi-weinstock:
   name: Jordi Weinstock
@@ -358,7 +358,7 @@ jordi-weinstock:
   twitter_account_name:
   github_account_name:
   image: jordi-weinstock.jpg
-  affiliated: true
+  affiliated: false
 
 jessamyn-west:
   name: Jessamyn West
@@ -370,7 +370,7 @@ jessamyn-west:
   twitter_account_name: jessamyn
   github_account_name:
   image: jessamyn-west.png
-  affiliated: true
+  affiliated: false
 
 adam-ziegler:
   name: Adam Ziegler
