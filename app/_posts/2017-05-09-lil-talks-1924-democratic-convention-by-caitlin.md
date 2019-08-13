@@ -56,4 +56,4 @@ After 16 days neither McAdoo or Smith won. John W. Davis, a candidate from West 
 However in the end it was all for nothing; Calvin Coolidge won the 1924 presidential election and Davis only captured about 26% of the total vote.
 
 ___
-*Update: an earlier version of this blog post referred to this convention as the Klanbake. This nickname has been debunked by the [Washington Post](https://www.washingtonpost.com/news/made-by-history/wp/2018/03/15/how-social-media-spread-a-historical-lie/)*
+*Update, 2019-08-13: an earlier version of this blog post referred to this convention as the Klanbake. This nickname has been debunked by the [Washington Post](https://www.washingtonpost.com/news/made-by-history/wp/2018/03/15/how-social-media-spread-a-historical-lie/).*
