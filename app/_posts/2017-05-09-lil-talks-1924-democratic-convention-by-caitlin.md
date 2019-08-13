@@ -8,7 +8,7 @@ categories:
 - LIL talks
 ---
 
-On May 5th, 2017 Caitlin went in depth on the intricacies of the 1924 Democratic Convention (also known as the ‘Klanbake’).
+On May 5th, 2017 Caitlin went in depth on the intricacies of the 1924 Democratic Convention.
 
 ![](https://lil-blog-media.s3.amazonaws.com/caitlin1.jpg)
 
@@ -54,3 +54,5 @@ _Apic/Getty Images. (June 1924). Convention nationale democrate. [Photograph]. R
 After 16 days neither McAdoo or Smith won. John W. Davis, a candidate from West Virginia, was the eventual compromise.
 
 However in the end it was all for nothing; Calvin Coolidge won the 1924 presidential election and Davis only captured about 26% of the total vote.
+
+*Update: an earlier version of this blog post refereed to this convention as the Klanbake. This nickname has been debunked by the [Washington Post](https://www.washingtonpost.com/news/made-by-history/wp/2018/03/15/how-social-media-spread-a-historical-lie/)*
