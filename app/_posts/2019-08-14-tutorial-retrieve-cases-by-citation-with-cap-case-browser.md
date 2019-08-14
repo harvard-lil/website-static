@@ -18,8 +18,8 @@ The CAP case browser is a way to browse 6.7 million cases digitized from the col
 
 5. Let’s try it out!  Add the URL you’ve just created to your browser’s search bar, and press Enter.
 
-You just retrieved a case by citation using the CAP Case Browser! Nice job. You can now read and share this case at this address: [cite.case.law/us/347/483](https://cite.case.law/us/347/483).
+You just retrieved a case by citation using the CAP case browser! Nice job. You can now read and share this case at this address: [cite.case.law/us/347/483](https://cite.case.law/us/347/483).
 
-This tutorial shares one way to retrieve a case by citation in the CAP Case Browser. Find and share your first case today!
+This tutorial shares one way to retrieve a case by citation in the CAP case browser. Find and share your first case today!
 
 ![](https://lil-blog-media.s3.amazonaws.com/case_retrieval.png)
