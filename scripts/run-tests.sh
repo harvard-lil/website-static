@@ -5,7 +5,7 @@ validate_frontmatter () {
     do
         FILE=`echo $MATCH | cut -f 1 -d ':'`
         TITLE=`echo $MATCH | cut -f 2- -d ':' | sed 's/^title: //'`
-        if [ echo $TITLE | grep ':' | grep -q -v [\'\"] ]
+        if echo $TITLE | grep ':' | grep -q -v [\'\"]
         then
             echo "Invalid YAML: $FILE needs title quoted"
             return 1
@@ -14,6 +14,6 @@ validate_frontmatter () {
     return 0
 }
 
-validate_frontmatter && \
-docker-compose run jekyll jekyll build && \
-java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt build/
+# validate_frontmatter && \
+# docker-compose run jekyll jekyll build && \
+# java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt build/
