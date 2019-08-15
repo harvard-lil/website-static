@@ -11,7 +11,6 @@ validate_frontmatter () {
             return 1
         fi
     done
-    return 0
 }
 
 if validate_frontmatter
