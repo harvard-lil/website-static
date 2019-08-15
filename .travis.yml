@@ -13,5 +13,4 @@ before_install:
   - ls bundle || sudo mkdir -m 777 bundle
 
 script:
-  - docker-compose run jekyll jekyll build
-  - java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt build/
+  - ./scripts/run-tests.sh
