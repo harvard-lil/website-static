@@ -1,5 +1,5 @@
 ---
-title: Introducing Lawvocado: The Caselaw Access Project Newsletter
+title: "Introducing Lawvocado: The Caselaw Access Project Newsletter"
 author: kelly-fitzpatrick
 ---
 Today we’re sharing [Lawvocado](https://mailchi.mp/9fd9916b8b4f/lawvocado-the-caselaw-access-project-newsletter), our newsletter from the [Caselaw Access Project](https://case.law). 
