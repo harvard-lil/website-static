@@ -1,5 +1,5 @@
 ---
-title: Testing: Do Not Merge
+title: 'Testing: Do Not Merge'
 author: ben-steinberg
 ---
 This is a test.
