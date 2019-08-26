@@ -708,7 +708,6 @@ a.gallery-item {
 
   .name {
     @extend %gallery-item-title;
-    margin-top: $double;
     @include respond(4) { font-size: $size-body; }
   }
 
@@ -795,25 +794,24 @@ a.gallery-item {
   border-top-color: $color-trans-lightgray;
   float: none;
   width: 100%;
-
-  &:nth-child(n+2){
-    margin-top: $grid * 4;
-  }
-
+  padding-top: $double * 2 !important;
+  margin: 0 !important;
   figure {
     float: left;
     width: 30%;
   }
 
   .info {
-    float: right;
     width: 70%;
     text-align: left;
+    padding-top: $grid;
     padding-left: $double;
+    padding-right: $double;
   }
 
   .name {
     margin-top: 0;
+    font-weight: 500;
     &:after {
       display: none;
     }
@@ -829,7 +827,7 @@ a.gallery-item {
     font-size: $size-small;
     font-weight: 500;
     color: $color-trans-darkgray;
-    margin-top: $double;
+    margin-top: 0;
   }
 
   @include respond(4) {
@@ -837,7 +835,7 @@ a.gallery-item {
     max-width: nth($respond-breakpoints,4) + (6 * $double);
     border-top: none;
     margin-top: 0;
-    padding: $double;
+    padding: 0;
 
     figure {
       float: none;
@@ -847,7 +845,6 @@ a.gallery-item {
     .info {
       float: none;
       width: 100%;
-      padding: ($double * 2) $double;
       text-align: center;
     }
 
@@ -883,7 +880,7 @@ a.gallery-item {
   .social {
     float: right;
     top: 1px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     li {
       display: inline;
       a {
@@ -1318,7 +1315,7 @@ a.link-project {
 
 //  about page, spacing and separation of containers
 section.people-affiliated {
-  padding-bottom: 0;
+  margin-bottom: $double * 2;
 }
 section.people-affiliated,
 section.people-unaffiliated {
