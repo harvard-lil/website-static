@@ -222,7 +222,7 @@ casey-gruppioni:
   twitter_account_name: cgruppioni
   github_account_name: cgruppioni
   image: casey-gruppioni.jpg
-  affiliated: true
+  affiliated: false
 
 evelin-heidel:
   name: Evelin Heidel
