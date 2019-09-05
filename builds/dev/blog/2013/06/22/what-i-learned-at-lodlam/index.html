@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+ <title>What I learned at LODLAM | Library Innovation Lab</title>
+
+    
+<meta name="description" content="On Wednesday and Thursday I went to the second LODLAM (linked open data for libraries, archives, and museums) unconference, in Montreal. I&#39;d attended the...">
+
+    
+<meta property="og:image" content="/assets/thumbs/800x800r/lab-hero-narrow.jpg">
+
+    <link rel="canonical" href="https://lil.law.harvard.edu/blog/2013/06/22/what-i-learned-at-lodlam/">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+  
+    <link rel="stylesheet" href="/assets/css/blog.css">
+  
+
+
+
+  </head>
+  <body class="post what-i-learned-at-lodlam">
+
+  
+  <header>
+    <nav>
+  <ul>
+    <li>
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="24px" viewBox="0 0 18 24" version="1.1" class="header-nav-logo"><style>.style0{fill: none;fill-rule: evenodd;}.style1{fill:  #333333;}.style2{fill:  #D9D9D9;}</style><title>nav-logo</title><desc>Created with Sketch.</desc><defs/><g class="style0"><g transform="translate(-17.000000, -265.000000)"><g transform="translate(-111.000000, 252.000000)"><g transform="translate(127.650000, 12.690000)"><g><path d="M0.3 6.3 L0.3 24.3 L11.3 24.3 L11.3 18.3 L6.3 18.3 L6.3 0.3 L0.3 6.3 Z" class="style1"/><path d="M18.4 18.3 L18.4 0.3 L7.3 0.3 L7.3 6.3 L12.3 6.3 L12.3 24.3 L18.4 18.3 Z" class="style2"/></g></g></g></g></g></svg>
+        <span class="name"><span class="longname">Library Innovation </span>Lab</span>
+      </a>
+    </li>
+    <li>
+        <a href="/about/">About</a>
+    </li>
+    <li>
+        <a href="/projects/">Projects</a>
+    </li>
+    <li>
+        <a href="/sketches/">Sketches</a>
+    </li>
+    <li>
+        <a href="/collaborate/">Collaborate</a>
+    </li>
+    <li>
+        <a href="/blog/">Blog</a>
+    </li>
+  </ul>
+</nav>
+
+  </header>
+
+
+
+  <section class="_posts">
+  <div class="sleeve">
+    <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2013-06-22T20:06:33+00:00">June 22, 2013</time>
+        <h1 class="post-title" itemprop="headline">What I learned at LODLAM</h1>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#david-weinberger">David Weinberger</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>On Wednesday and Thursday I went to the second <a href="http://www.lodlam.net">LODLAM</a> (linked open data for libraries, archives, and museums) unconference, in Montreal. I'd attended the first one in San Francisco two years ago, and this one was almost as exciting—"almost" because the first one had more of a new car smell to it. This is a sign of progress and by no means is a complaint. It's a great conference.</p>
+
+<p>But, because it was an unconference with up to eight simultaneous sessions, there was no possibility of any single human being getting a full overview. Instead, here are some overall impressions based upon my particular path through the event.</p>
+
+<ul>
+  <li>
+    <p>Serious progress is being made. E.g., Cornell announced it will be switching to a full LOD library implementation in the Fall. There are lots of great projects and initiatives already underway.</p>
+  </li>
+  <li>
+    <p>Some very competent tools have been developed for converting to LOD and for managing LOD implementations. The development of tools is obviously crucial.</p>
+  </li>
+  <li>
+    <p>There isn't obvious agreement about the standard ways of doing most things. There's innovation, re-invention, and lots of lively discussion.</p>
+  </li>
+  <li>
+    <p>Some of the most interesting and controversial discussions were about whether libraries are being too library-centric and not web-centric enough. I find this hugely complex and don't pretend to understand all the issues. (Also, I find myself—perhaps unreasonably—flashing back to the Standards Wars in the late 1980s.) Anyway, the argument crystallized to some degree around <a href="http://bibframe.org">BIBFRAME</a>, the Library of Congress' initiative to replace and surpass <a href="http://en.wikipedia.org/wiki/MARC_standards">MARC</a>. The criticism raised in a couple of sessions was that Bibframe (I find the all caps to be too shouty) represents how libraries think about data, and not how the Web thinks, so that if Bibframe gets the bib data right for libraries, Web apps may have trouble making sense of it. For example, Bibframe is creating its own vocabulary for talking about properties that other Web standards already have names for. The argument is that if you want Bibframe to make bib data widely available, it should use those other vocabularies (or, more precisely, namespaces). Kevin Ford, who leads the Bibframe initiative, responds that you can always map other vocabs onto Bibframe's, and while Richard Wallis of OCLC is enthusiastic about the very webby <a href="http://schema.org">Schema.org</a> vocabulary for bib data, he believes that Bibframe definitely has a place in the ecosystem. Corey Harper and Debra Riley-Huff, on the other hand, gave strong voice to the cultural differences. (If you want to delve into the mapping question, explore the argument about whether Bibframe's annotation framework maps to Open Annotation.)</p>
+  </li>
+</ul>
+
+<p>I should add that although there were some strong disagreements about this at LODLAM, the participants seem to be genuinely respectful.</p>
+
+<ul>
+  <li>
+    <p>LOD remains really really hard. It is not a natural way of thinking about things. Of course, neither are old-fashioned database schemas, but schemas map better to a familiar forms-based view of the world: you fill in a form and you get a record. Linked data doesn't even think in terms of records. Even with the new generation of tools, linked data is hard.</p>
+  </li>
+  <li>
+    <p>LOD is the future for library, archive, and museum data.</p>
+  </li>
+</ul>
+
+<hr />
+
+<p>Here's a list of brief video interviews I did at LODLAM:</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.youtube.com/watch?v=yXKY822e8yQ">Kevin Ford gives a BIBFRAME update</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.youtube.com/watch?v=xkyE2qcOx_E">Sean Thomas and Sands Fish on getting Open Access research into the hands of people who need it</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.youtube.com/watch?v=u59i-f5yOZ8">Debra Riley-Huff on whether library standards are webby enough</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.youtube.com/watch?v=es0jcS_caEM">Richard Wallis on Schema.org</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.youtube.com/watch?v=iPlGq3Dg_Co">Corey Harper on rethinking Linked Open Data from the user's point of view</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.youtube.com/watch?v=Mq6rL5qRaUo">Kitio Fofack on why linked data</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.youtube.com/watch?v=SFkcEvHrY2c">Richard Urban on building a linked data pattern library</a></p>
+  </li>
+</ul>
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/interop">interop</a></span>
+  
+    <span class="category"><a href="/blog/category/linked-data">linked data</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+</section>
+
+
+  <footer>
+    <div class="sleeve">
+      
+
+<figure class="footer-logo">
+  <img src="/assets/thumbs/351x143r/lab-logo-footer-home.png"
+       srcset="/assets/thumbs/351x143r/lab-logo-footer-home.png 1x,
+               /assets/thumbs/702x286r/lab-logo-footer-home.png 2x"
+       alt="Library Innovation Lab"
+       class="img-full-width">
+</figure>
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/sketches/">Sketches</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+<div class="footer-copyright">
+  <p>&copy;2017 The President and Fellows of Harvard University</p>
+  <p>The content on this site is covered under a Creative Commons Attribution-ShareAlike 3.0 Unported license unless otherwise noted.</p>
+</div>
+
+    </div>
+  </footer>
+
+  
+  
+
+</body>
+
+</html>

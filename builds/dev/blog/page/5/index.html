@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+ <title>Blog | Library Innovation Lab</title>
+
+    
+<meta name="description" content="Bringing the best of technology to the world of libraries and the best of libraries to the world of technology. And vice versa.">
+
+    
+<meta property="og:image" content="/assets/thumbs/800x800r/lab-hero-narrow.jpg">
+
+    <link rel="canonical" href="https://lil.law.harvard.edu/blog/page/5/">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+
+  
+    <link rel="stylesheet" href="/assets/css/blog.css">
+  
+
+
+  </head>
+  <body class=" blog">
+
+  
+  <header>
+    <nav>
+  <ul>
+    <li>
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="24px" viewBox="0 0 18 24" version="1.1" class="header-nav-logo"><style>.style0{fill: none;fill-rule: evenodd;}.style1{fill:  #333333;}.style2{fill:  #D9D9D9;}</style><title>nav-logo</title><desc>Created with Sketch.</desc><defs/><g class="style0"><g transform="translate(-17.000000, -265.000000)"><g transform="translate(-111.000000, 252.000000)"><g transform="translate(127.650000, 12.690000)"><g><path d="M0.3 6.3 L0.3 24.3 L11.3 24.3 L11.3 18.3 L6.3 18.3 L6.3 0.3 L0.3 6.3 Z" class="style1"/><path d="M18.4 18.3 L18.4 0.3 L7.3 0.3 L7.3 6.3 L12.3 6.3 L12.3 24.3 L18.4 18.3 Z" class="style2"/></g></g></g></g></g></svg>
+        <span class="name"><span class="longname">Library Innovation </span>Lab</span>
+      </a>
+    </li>
+    <li>
+        <a href="/about/">About</a>
+    </li>
+    <li>
+        <a href="/projects/">Projects</a>
+    </li>
+    <li>
+        <a href="/sketches/">Sketches</a>
+    </li>
+    <li>
+        <a href="/collaborate/">Collaborate</a>
+    </li>
+    <li>
+        <a href="/blog/">Blog</a>
+    </li>
+  </ul>
+</nav>
+
+  </header>
+
+
+
+  <section class="posts-index">
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-12-09T15:58:15+00:00">December 9, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/12/09/free-the-law-wintersession-sprint/ ">Free the Law Wintersession Sprint</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#jack-cushman">Jack Cushman</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p><img src="https://lil-blog-media.s3.amazonaws.com/2015/12/Screen-Shot-2015-12-09-at-10.50.04-AM.png" alt="USB stick labeled 'all of the caselaw'" /></p>
+
+<p><strong>TL;DR:</strong> We are running a two week data mining sprint from January 4–15, 2016, open to current Harvard students, based on early access to a brand new data set of American caselaw. To apply, send a resume and brief statement of interest to jcushman at law dot harvard dot edu.</p>
+
+<hr />
+
+<h2 id="background">Background</h2>
+
+<p>We recently announced <a href="/projects/caselaw-access-project/">Free the Law</a>, our project to scan every legal decision ever published in the United States. We're generating the first consistent, comprehensive, and open database of American law, from the colonial era right up to 2015. You can read the <a href="http://www.nytimes.com/2015/10/29/us/harvard-law-library-sacrifices-a-trove-for-the-sake-of-a-free-database.html">New York Times coverage of the project here</a>.</p>
+
+<p>By the end of this project we'll have millions of cases in the dataset — no one knows exactly how many. We're scanning and processing tens of thousands of pages a day, and will soon have entire states completed.</p>
+
+<p>Now it's time to start exploring what to do with all that data. <strong>What new questions can we ask with millions of cases?</strong></p>
+
+<p>The answers cross every discipline at Harvard:</p>
+
+<ul>
+  <li>
+    <p>Can a spam filter be retrained to guess which torts cases make the most interesting stories?</p>
+  </li>
+  <li>
+    <p>How much money are we willing to fight over—and does the answer offer an alternate inflation index?</p>
+  </li>
+  <li>
+    <p>How has the use of Latin in the law changed over time—are judges writing more or less like regular people?</p>
+  </li>
+  <li>
+    <p>How have defendants' choice of murder weapon changed? The gender balance of litigants? The reliance on scientific evidence?</p>
+  </li>
+  <li>
+    <p>Can we trace a family's history through the cases they were involved in?</p>
+  </li>
+</ul>
+
+<p>Caselaw is the historical record of applied moral philosophy under the law. Unlocking its secrets will have an incredible impact on scholarship of all kinds.</p>
+
+<h2 id="the-challenge">The Challenge</h2>
+
+<p>Hence our challenge: pick a question you think caselaw might help you answer, perhaps drawn from one of your classes. Build a tool to help answer it—whether that means loading up your favorite ML library, configuring an off-the-shelf statistical tool, or writing code from scratch. In a two-week sprint, do your best to answer the question, and to generalize your tool to help other researchers answer similar questions. We'll help share the discoveries you make and the tools you build.</p>
+
+<h2 id="the-data">The Data</h2>
+
+<p>The data set we will share with participants will include a single state's complete published caselaw. The data includes: (1) TIFF and JPEG2000 images for each scanned page; (2) ALTO XML files for each scanned page; and (3) structured XML files for each case.</p>
+
+<h2 id="schedule">Schedule</h2>
+
+<p>December 2015: Application period.</p>
+
+<p>January 4, 2016: Delivery of data set to participants.</p>
+
+<p>January 4, 6, 8, 11, 13, 15: The group will check in three times a week, either in person or remotely, to share notes, progress updates, and requests for help.</p>
+
+<p>Week of January 18: demo day (date TBD).</p>
+
+<h2 id="to-apply">To Apply</h2>
+
+<p>Send your resume and brief statement of interest (such as a general idea of what sort of project you would like to work on) to jcushman at law dot harvard dot edu. If you would like to work with others, feel free to apply as a group.</p>
+
+      </div>
+
+      
+<footer>
+  
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-11-30T21:58:27+00:00">November 30, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/11/30/link-roundup-november-30-2015/ ">Link roundup November 30, 2015</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#annie-cain">Annie Cain</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>This is the good stuff.</p>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.theatlantic.com/technology/archive/2015/11/the-irony-of-writing-about-digital-preservation/416184/">The Irony of Writing About Digital Preservation</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.theatlantic.com/technology/archive/2015/11/the-irony-of-writing-about-digital-preservation/416184/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/565cc68255f32.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Sometimes that pipe isn't connected to anything.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://motherboard.vice.com/read/the-earliest-mobile-apps">The Original Mobile App Was Made of Paper | Motherboard</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://motherboard.vice.com/read/the-earliest-mobile-apps">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/565c88be537d7.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>The original mobile apps made of paper</p>
+      <p class="submitted-by">Annie</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="https://medium.com/@dietoff/the-most-geo-tagged-place-on-earth-fc76758cc505#.trcnypihj">The most Geo-tagged Place on Earth</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="https://medium.com/@dietoff/the-most-geo-tagged-place-on-earth-fc76758cc505#.trcnypihj">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/565c839e8185c.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Defaults (often times in software) influence our data and likely alter the shape of our plastic brains.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.nytimes.com/2015/11/12/t-magazine/richard-branson-illustrated-interview.html">The Illustrated Interview: Richard Branson</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.nytimes.com/2015/11/12/t-magazine/richard-branson-illustrated-interview.html">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/564b47383b182.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Sketches instead of text when interviewing a person. So brilliant. Folks are likely less guarded in their responses.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="https://deardesignstudent.com/why-is-so-much-of-design-school-a-waste-of-time-39ec2a1aa7d5">Why is so much of design school a waste of time?</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="https://deardesignstudent.com/why-is-so-much-of-design-school-a-waste-of-time-39ec2a1aa7d5">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/564b45e4c2ad1.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Use critiques as a way to get better. To learn more. As a "gift exchange."</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/roundup">roundup</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-11-16T18:03:58+00:00">November 16, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/11/16/link-roundup-november-16-2015/ ">Link roundup November 16, 2015</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#annie-cain">Annie Cain</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>This is the good stuff.</p>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://sosolimited.com/#pixelweaver">pixelweaver</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://sosolimited.com/#pixelweaver">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/564a1a8e2d694.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Make amazing shirts from web image searches. Love this. Fog is a winner. Grass too.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/70938/rebellious-group-splices-fruit-bearing-branches-urban-trees">Rebellious Group Splices Fruit-Bearing Branches Onto Urban Trees | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/70938/rebellious-group-splices-fruit-bearing-branches-urban-trees">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/56424a0ea19a4.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Guerrilla Grafters splice fruit-bearing branches onto urban trees</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://99u.com/articles/52154/idea-sex-how-new-yorker-cartoonists-generate-500-ideas-a-week">Idea Sex: How New Yorker Cartoonists Generate 500 Ideas a Week - 99u</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://99u.com/articles/52154/idea-sex-how-new-yorker-cartoonists-generate-500-ideas-a-week">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/56420d728f6b8.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>"One idea is never enough"</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.wired.com/2015/11/google-cardboards-new-york-times-experiment-just-hooked-a-generation-on-vr/">Google Cardboard's New York Times Experiment Just Hooked a Generation on VR</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.wired.com/2015/11/google-cardboards-new-york-times-experiment-just-hooked-a-generation-on-vr/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/56420a5069097.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>The new (Cardboard) made of the old (cardboard) bundled with the old (printed newspaper).</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.theverge.com/2015/11/2/9661556/amazon-books-first-physical-bookstore-opening-seattle">Amazon is opening its first physical bookstore today | The Verge</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.theverge.com/2015/11/2/9661556/amazon-books-first-physical-bookstore-opening-seattle">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/563904278147d.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Amazon opens a store</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/roundup">roundup</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-11-02T15:46:51+00:00">November 2, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/11/02/link-roundup-november-2-2015/ ">Link roundup November 2, 2015</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#annie-cain">Annie Cain</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>This is the good stuff.</p>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://itunestandc.tumblr.com/">ITUNES TERMS AND CONDITIONS: The Graphic Novel</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://itunestandc.tumblr.com/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/5637856b6119e.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>One page of the iTunes Terms &amp; Conditions illustrated (in a different artist's style), every day.</p>
+      <p class="submitted-by">Brett Johnson</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://danitpeleg.com/3d-printing-fashion-process/">How I 3D-printed a fashion collection at home — danit peleg</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://danitpeleg.com/3d-printing-fashion-process/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/5633768d1f2b1.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>3D printed fashion</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/70467/french-vending-machines-dispense-short-stories-instead-snacks">French Vending Machines Dispense Short Stories Instead Of Snacks | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/70467/french-vending-machines-dispense-short-stories-instead-snacks">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/56322d14d4ca1.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Get a free short story from a vending machine</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://swisscolors.net/">Swiss Style Color Picker</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://swisscolors.net/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/562961d847ca1.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Need some colors? This is a pretty source.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="https://www.chicagoideas.com/pages/bookonthel">Chicago Ideas Week</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="https://www.chicagoideas.com/pages/bookonthel">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/5628ef5f48a7a.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Books left on Chicago Transit Authority trains for the community to read</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/roundup">roundup</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-10-21T14:44:59+00:00">October 21, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/10/21/link-roundup-october-21-2015/ ">Link roundup October 21, 2015</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#annie-cain">Annie Cain</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>A little late to the party, but happy to be using the taco emoji!</p>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/69520/how-taco-emoji-and-hittite-hieroglyphs-get-your-screen">How Taco Emoji—and Hittite Hieroglyphs—Get to Your Screen | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/69520/how-taco-emoji-and-hittite-hieroglyphs-get-your-screen">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/5627a4eb0a196.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>How emoji come to be</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.theatlantic.com/technology/archive/2015/10/raiders-of-the-lost-web/409210/?single_page=true">The Internet's Dark Ages</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.theatlantic.com/technology/archive/2015/10/raiders-of-the-lost-web/409210/?single_page=true">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/56201d8306bf7.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>the web ... was intended to be a messaging system, not a library</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.nytimes.com/2015/10/10/science/an-error-leads-to-a-new-way-to-draw-and-erase-computing-circuits.html?_r=0">An Error Leads to a New Way to Draw, and Erase, Computing Circuits</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.nytimes.com/2015/10/10/science/an-error-leads-to-a-new-way-to-draw-and-erase-computing-circuits.html?_r=0">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/561c18304d84b.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Etch A Sketch for circuits. Draw a circuit with light, then erase it (with light) if you want to draw a new path.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.itsnicethat.com/articles/pizza-hunt">Searching the world for original Pizza Hut buildings</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.itsnicethat.com/articles/pizza-hunt">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/560ffe9065614.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Any Library Huts out there?</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://aeon.co/magazine/technology/why-have-digital-books-stopped-evolving/">Will digital books ever replace print?</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://aeon.co/magazine/technology/why-have-digital-books-stopped-evolving/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/560e993ab9162.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Come on digital book world! You have so much potential. Keep innovating.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/roundup">roundup</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-10-20T20:08:18+00:00">October 20, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/10/20/hiring-devops-energy-wanted/ ">Hiring! Devops energy wanted.</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#matt-phillips">Matt Phillips</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>The <a href="/">Harvard Library Innovation Lab</a> is looking for a devops engineer to help us build tools to explore the open internet and see deep into the future of libraries.</p>
+
+<p>Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of <a href="/projects">our current efforts</a>.</p>
+
+<p><img src="https://lil-blog-media.s3.amazonaws.com/2015/10/image01.png" alt="image01" />
+<a href="https://perma.cc">Perma.cc</a>, a web archiving service that is powered by libraries</p>
+
+<p><img src="https://lil-blog-media.s3.amazonaws.com/2015/10/image00.png" alt="image00" />
+<a href="https://h2o.law.harvard.edu/">H2O</a>, a platform for creating, sharing and adapting open course materials</p>
+
+<p><img src="https://lil-blog-media.s3.amazonaws.com/2015/10/image02.png" alt="image02" />
+<a href="http://awesomebox.io">Awesome Box</a>, an alternate returns box used by hundreds of libraries</p>
+
+<h2 id="what-youll-do">What you'll do</h2>
+
+<ul>
+  <li>
+    <p>Own the production infrastructure that ensures Lab applications are responding quickly to people and bots on the internet</p>
+  </li>
+  <li>
+    <p>Write code that will monitor systems and develop logic that will automate common deployment and maintenance tasks</p>
+  </li>
+  <li>
+    <p>Act as a core member of our fun and dynamic team by helping us shape ideas and efforts in libraries, technology, and law. We're freewheelin'. We fully encourage the pursuit of interests and opportunities</p>
+  </li>
+</ul>
+
+<p>We're hiring a person and not a skillset, but our current stack of keywords might be helpful</p>
+
+<ul>
+  <li>Heroku, AWS, S3, Python, Django, Fabric, git and GitHub, Ruby, Rails, MySQL, PostgreSQL, Apache, NGINX, Elasticsearch, Redis, UNIX, Bash, Rollbar, Splunk</li>
+</ul>
+
+<p>Find <a href="https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1173201&amp;PartnerId=25240&amp;SiteId=5341&amp;type=mail">details and apply using the Harvard Recruitment Management System</a>. If you have questions, email us directly at <a href="mailto:lil@law.harvard.edu">lil@law.harvard.edu</a> .</p>
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/jobs">jobs</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-10-01T13:23:09+00:00">October 1, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/10/01/link-roundup-october-1-2015/ ">Link roundup October 1, 2015</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#annie-cain">Annie Cain</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>Homogeneously contributed</p>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/69266/mit-student-builds-real-time-transit-map-his-wall">MIT Student Builds Real-Time Transit Map for His Wall | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/69266/mit-student-builds-real-time-transit-map-his-wall">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/560d33bd5a96b.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Real time light up MBTA map</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/68930/why-preserving-old-computer-games-surprisingly-difficult">Why Preserving Old Computer Games is Surprisingly Difficult | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/68930/why-preserving-old-computer-games-surprisingly-difficult">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/56095f89e6e47.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Preserving old video games is not so easy</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.peanutizeme.com/">Get Peanutized | Turn Yourself into a Peanuts Character</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.peanutizeme.com/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/5609534bae83b.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Need a new GitHub profile pic? Peanutize yourself!</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/68733/cheeky-cans-reduce-litter-asking-people-vote-their-trash">Cheeky Cans Reduce Litter by Asking People to Vote With Their Trash | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/68733/cheeky-cans-reduce-litter-asking-people-vote-their-trash">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/5600638101849.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Kind of like Awesome Box, but with litter</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/68523/camera-refuses-take-pictures-over-photographed-locations">This Camera Refuses to Take Pictures of Over-Photographed Locations | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/68523/camera-refuses-take-pictures-over-photographed-locations">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55f82dc35eae7.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>A camera that won't take pictures of popular locations. How about a scanner that won't check out popular items?</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/roundup">roundup</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-09-11T16:12:38+00:00">September 11, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/09/11/link-roundup-september-11-2015/ ">Link roundup September 11, 2015</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#annie-cain">Annie Cain</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.niemanlab.org/2015/09/the-new-york-times-wrestled-with-many-dimensions-of-video-to-visualize-the-making-of-a-hit/">The New York Times wrestled with many dimensions of video to visualize the making of a hit » Nieman Journalism Lab</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.niemanlab.org/2015/09/the-new-york-times-wrestled-with-many-dimensions-of-video-to-visualize-the-making-of-a-hit/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55f2fd75f336b.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>NYTimes creates multiple versions of a video to tell the story of a Justin Bieber/Diplo/Skrillex hit</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://blogs.discovermagazine.com/crux/2015/09/08/alaska-batmobile-map-bats/#.VfLxG53BzGf">A Roving 'Batmobile' Is Helping Map Alaska's Bats</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://blogs.discovermagazine.com/crux/2015/09/08/alaska-batmobile-map-bats/#.VfLxG53BzGf">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55f2f18b559a0.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Citizen scientists check out equipment from the library to collect data on bats for the Alaska Fish and Game Dept</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.theguardian.com/books/2015/sep/10/classic-book-covers-gifs-in-pictures">Classic book jackets come to life – in pictures | Books | The Guardian</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.theguardian.com/books/2015/sep/10/classic-book-covers-gifs-in-pictures">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55f1c430dec3c.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Living cover</p>
+      <p class="submitted-by">Adam Ziegler</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/68196/tokyo-book-store-only-carries-one-book-time">This Tokyo Book Store Only Carries One Book at a Time | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/68196/tokyo-book-store-only-carries-one-book-time">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55ef138a7b237.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>A book store selling only one title per week</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.nytimes.com/2015/09/03/business/backpack-makers-rethink-a-student-staple.html">Backpack Makers Rethink a Student Staple</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.nytimes.com/2015/09/03/business/backpack-makers-rethink-a-student-staple.html">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55e8df621ee5d.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>To build a better backpack, get out and see how people use backpacks.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/roundup">roundup</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-09-03T19:10:27+00:00">September 3, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/09/03/link-roundup-september-3-2015/ ">Link roundup September 3, 2015</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#annie-cain">Annie Cain</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>Goodbye summer</p>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.theverge.com/2015/9/3/9253461/star-wars-bb8-droid-toy-video-price-release-date">You can now buy Star Wars' adorable BB-8 droid and let it patrol your home | The Verge</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.theverge.com/2015/9/3/9253461/star-wars-bb8-droid-toy-video-price-release-date">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55e89b232363f.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>If only overdue fines could be put toward a BB-8 to cruise around every library.</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="https://www.jasondavies.com/maps/voronoi/airports/">World Airports Voronoi</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="https://www.jasondavies.com/maps/voronoi/airports/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55e770039b2a3.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>I want a World Airports Library map.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.gq.com/story/stephen-colbert-gq-cover-story">Stephen Colbert on Making The Late Show His Own | GQ</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.gq.com/story/stephen-colbert-gq-cover-story">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55e70f59932b8.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Amazing, deep interview with Stephen Colbert</p>
+      <p class="submitted-by">Adam Ziegler</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://mentalfloss.com/article/68044/see-what-happens-when-competing-brands-swap-colors">See What Happens When Competing Brands Swap Colors | Mental Floss</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://mentalfloss.com/article/68044/see-what-happens-when-competing-brands-swap-colors">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55e5ff12267c3.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>See competing brands swap logo colors</p>
+      <p class="submitted-by">Annie Cain</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://grantland.com/features/the-website-mlb-couldnt-buy/">The Website MLB Couldn't Buy</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://grantland.com/features/the-website-mlb-couldnt-buy/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55e4784df3055.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Major League Baseball's worked hard to buy team domains. They don't own twins.com though. It's owned by two humans.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/roundup">roundup</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+  <div class="sleeve">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2015-08-30T17:41:36+00:00">August 30, 2015</time>
+        <h2 class="post-title" itemprop="headline">
+          <a href="/blog/2015/08/30/link-roundup-august-30-2015/ ">Link roundup August 30, 2015</a></h2>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#annie-cain">Annie Cain</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p>This is the good stuff.</p>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.nytimes.com/2015/08/30/opinion/sunday/rethinking-work.html?_r=0">Rethinking Work</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.nytimes.com/2015/08/30/opinion/sunday/rethinking-work.html?_r=0">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55e3405049a7f.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>When employees negotiate, they negotiate for improved compensation, since nothing else is on the table.</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.technologyreview.com/review/539861/techs-enduring-great-man-myth/">Putting Elon Musk and Steve Jobs on a Pedestal Misrepresents How Innovation Happens</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.technologyreview.com/review/539861/techs-enduring-great-man-myth/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55da87440f480.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Rather than placing tech leaders on a pedestal, we should put their successes</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://haikusalut.com/lamp-show/">Lamp Shows | HAIKU SALUT</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://haikusalut.com/lamp-show/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55d721f8e6eb0.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Synced lamps as part of a band's performance</p>
+      <p class="submitted-by">Annie</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://99percentinvisible.org/episode/lawn-order/">Lawn Order | 99% Invisible</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://99percentinvisible.org/episode/lawn-order/">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55d71915418d6.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Jail time for a brown lawn? A wonderfully weird dive into the moral implications of lawncare</p>
+      <p class="submitted-by">Adam Ziegler</p>
+    </div>
+  </div>
+</div>
+
+<div class="roundup-item">
+  <p class="roundup-title">
+    <a href="http://www.itsnicethat.com/news/glass-swimming-pool-hal-architects">Sky-high glass swimming pool created to connect south London apartment complex</a>
+  </p>
+  
+  <div class="screenshot">
+    <a href="http://www.itsnicethat.com/news/glass-swimming-pool-hal-architects">
+      <img alt="" src="https://lil.law.harvard.edu/roundup/images/55d5fa269b021.png" />
+    </a>
+  </div>
+  
+  <div class="metadata">
+    <div class="text-frame">
+      <p>Swim through the air</p>
+      <p class="submitted-by">Matt Phillips</p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+      
+<footer>
+  
+  
+    <span class="category"><a href="/blog/category/roundup">roundup</a></span>
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+
+
+  <!-- Pagination links -->
+  <div class="pagination sleeve">
+    <span class="page_number ">Page: 5 of 32</span>
+    <div>
+    
+      <a href="/blog/page/4/" class="small-btn" role="button">Previous</a>
+    
+    
+      <a href="/blog/page/6/" class="small-btn" role="button">Next</a>
+    
+    </div>
+  </div>
+
+</section>
+
+
+  <footer>
+    <div class="sleeve">
+      
+
+<figure class="footer-logo">
+  <img src="/assets/thumbs/351x143r/lab-logo-footer-home.png"
+       srcset="/assets/thumbs/351x143r/lab-logo-footer-home.png 1x,
+               /assets/thumbs/702x286r/lab-logo-footer-home.png 2x"
+       alt="Library Innovation Lab"
+       class="img-full-width">
+</figure>
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/sketches/">Sketches</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+<div class="footer-copyright">
+  <p>&copy;2017 The President and Fellows of Harvard University</p>
+  <p>The content on this site is covered under a Creative Commons Attribution-ShareAlike 3.0 Unported license unless otherwise noted.</p>
+</div>
+
+    </div>
+  </footer>
+
+  
+  
+
+</body>
+
+</html>

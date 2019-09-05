@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+ <title>Address Bar Grammar | Library Innovation Lab</title>
+
+    
+<meta name="description" content="">
+
+    
+<meta property="og:image" content="/assets/thumbs/800x800r/lab-hero-narrow.jpg">
+
+    <link rel="canonical" href="https://lil.law.harvard.edu/blog/2010/03/18/251/">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+  
+    <link rel="stylesheet" href="/assets/css/blog.css">
+  
+
+
+
+  </head>
+  <body class="post 251">
+
+  
+  <header>
+    <nav>
+  <ul>
+    <li>
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="24px" viewBox="0 0 18 24" version="1.1" class="header-nav-logo"><style>.style0{fill: none;fill-rule: evenodd;}.style1{fill:  #333333;}.style2{fill:  #D9D9D9;}</style><title>nav-logo</title><desc>Created with Sketch.</desc><defs/><g class="style0"><g transform="translate(-17.000000, -265.000000)"><g transform="translate(-111.000000, 252.000000)"><g transform="translate(127.650000, 12.690000)"><g><path d="M0.3 6.3 L0.3 24.3 L11.3 24.3 L11.3 18.3 L6.3 18.3 L6.3 0.3 L0.3 6.3 Z" class="style1"/><path d="M18.4 18.3 L18.4 0.3 L7.3 0.3 L7.3 6.3 L12.3 6.3 L12.3 24.3 L18.4 18.3 Z" class="style2"/></g></g></g></g></g></svg>
+        <span class="name"><span class="longname">Library Innovation </span>Lab</span>
+      </a>
+    </li>
+    <li>
+        <a href="/about/">About</a>
+    </li>
+    <li>
+        <a href="/projects/">Projects</a>
+    </li>
+    <li>
+        <a href="/sketches/">Sketches</a>
+    </li>
+    <li>
+        <a href="/collaborate/">Collaborate</a>
+    </li>
+    <li>
+        <a href="/blog/">Blog</a>
+    </li>
+  </ul>
+</nav>
+
+  </header>
+
+
+
+  <section class="_posts">
+  <div class="sleeve">
+    <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <time class="post-date" datetime="2010-03-18T19:38:57+00:00">March 18, 2010</time>
+        <h1 class="post-title" itemprop="headline">Address Bar Grammar</h1>
+        
+          
+          <p class="post-author">Posted by <a href="/about/#jeff-goldenson">Jeff Goldenson</a></p>
+        
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <p><img src="https://lil-blog-media.s3.amazonaws.com/2010/03/grammar1.jpg" alt="" /></p>
+
+<p>Address bar grammar kinda sucks. It doesn't even throw us the bone of intuitive legibility.  Let alone to the level of predictability.  It just goes for strict path data.  www.example.com/go_here/then_here/.
+It doesn't allow you to shortcut GUI navigation with text entry if you know what you're doing.</p>
+
+<p>One recent Carsonified post was particularly inspiring: <a href="http://carsonified.com/blog/dev/conversational-and-short-urls-on-rails/">Conversational and short URLs on Rails</a></p>
+
+<p>It was written by Jason Lynes, from <a href="http://hulabalub.com/events/in/boston">www.hulabalub.com</a>.  Look at what he does.  He goes for more natural language links in the path by adding clear facet names and the inclusion of prepositions:</p>
+
+<p><code class="highlighter-rouge">events/in/chicago</code> or <code class="highlighter-rouge">events/on/design
+meetups/on/entrepreneurship/in/san_francisco/with/fred_wilson</code></p>
+
+<p>The introduction of prepositions is awesome.  There is one new thing for folks to learn, "_" is a space for spaced elements acting as one facet,  No big deal.</p>
+
+<hr />
+
+<p>Direct address address bar manipulation could be nice because it "upgrades" gracefully.  If you know what you're doing, you do it and
+it's fast.  You do a "natural language" keystroke search in the address bar.  If you don't, you fall back on the website's navigation.</p>
+
+<hr />
+
+<p>I'm curious about taking it a little further.  Usually, headings are followed by attribution info.  So what about if we tried to emulate this by enlisting the help of subdomains, instead of paths?   Let's forget about backend inefficiency for the moment.  What if your homepage is: <code class="highlighter-rouge">home.example.com</code>?  Your "about" page is named <code class="highlighter-rouge">about.example.com</code>?  And on top of that, <code class="highlighter-rouge">aboutpage.example.com</code> and <code class="highlighter-rouge">about_page.example.com</code> too (so if someone's trying to guess it we'll try and predict mistakes)?  BTW, we'll also have normal GUI navigation as the catch condition.</p>
+
+<p>Can the subdomain act more like a natural language search field?  Could you put <code class="highlighter-rouge">phone.example.com</code>, or <code class="highlighter-rouge">phonenumber.example.com</code>, or
+<code class="highlighter-rouge">map.example.com</code> to directly display the map element, or phone number?</p>
+
+      </div>
+
+      
+<footer>
+  
+  
+</footer> <!-- end article footer -->
+
+
+
+    </article> <!-- end article -->
+
+  </div>
+</section>
+
+
+  <footer>
+    <div class="sleeve">
+      
+
+<figure class="footer-logo">
+  <img src="/assets/thumbs/351x143r/lab-logo-footer-home.png"
+       srcset="/assets/thumbs/351x143r/lab-logo-footer-home.png 1x,
+               /assets/thumbs/702x286r/lab-logo-footer-home.png 2x"
+       alt="Library Innovation Lab"
+       class="img-full-width">
+</figure>
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/sketches/">Sketches</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+<div class="footer-copyright">
+  <p>&copy;2017 The President and Fellows of Harvard University</p>
+  <p>The content on this site is covered under a Creative Commons Attribution-ShareAlike 3.0 Unported license unless otherwise noted.</p>
+</div>
+
+    </div>
+  </footer>
+
+  
+  
+
+</body>
+
+</html>
