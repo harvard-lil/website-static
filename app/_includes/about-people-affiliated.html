@@ -2,7 +2,7 @@
 {% for person in active_people %}
   <div class="gallery-item-person" id="{{ person.name | slugify }}">
 
-    <!--<figure>
+    <figure>
       <img src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
            srcset=" {{ site.baseurl }}/assets/thumbs/216x216c/{{ person.image }} 216w,
                     {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }} 432w,
@@ -13,7 +13,7 @@
                     30vw"
            alt="{{ person.name }}"
            class="img-full-width">
-    </figure>-->
+    </figure>
 
     <div class="info">
 
