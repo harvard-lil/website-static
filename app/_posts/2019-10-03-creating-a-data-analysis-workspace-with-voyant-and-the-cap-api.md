@@ -20,6 +20,7 @@ In Voyant, hover over a section header and select the sliding bar icon to **defi
 
 From the Stopwords field shown here, select **Edit List**. Scroll to the end of default stopwords, and **copy and paste this list** of common metadata fields, OCR errors, and other fragments: 
 
+```
 id
 url
 name
@@ -38,6 +39,7 @@ api.case.law
 slug
 tbe
 nthe
+```
 
 Once you’re ready, **Save** and **Confirm**.
 
@@ -60,4 +62,4 @@ Your stopwords list is done! [Here’s more](https://voyant-tools.org/docs/#!/gu
 
 Today we created a data analysis workspace with Voyant and the Caselaw Access Project API. 
 
-To see how words are used in U.S. case law over time, try [Historical Trends](https://case.law/trends/). Share what you find with us at info@case.law.
+To see how words are used in U.S. case law over time, try [Historical Trends](https://case.law/trends/). Share what you find with us at [info@case.law](mailto:info@case.law).
