@@ -1253,8 +1253,12 @@ a.link-project {
     li {
       display: inline-block;
       float: none;
-      &:first-child {  display: none; }
-      &:nth-child(n+5) { @include hide-ontablet-then(inline-block); }
+      &:first-child {
+        display: none;
+      }
+      &:nth-child(n+6) {
+        @include hide-ontablet-then(inline-block);
+      }
     }
   }
 
