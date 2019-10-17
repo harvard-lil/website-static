@@ -829,30 +829,6 @@ a.gallery-item {
     color: $color-trans-darkgray;
     margin-top: 0;
   }
-
-  @include respond(4) {
-    width: 33%;
-    max-width: nth($respond-breakpoints,4) + (6 * $double);
-    border-top: none;
-    margin-top: 0;
-    padding: 0;
-
-    figure {
-      float: none;
-      width: 100%;
-    }
-
-    .info {
-      float: none;
-      width: 100%;
-      text-align: center;
-    }
-
-    .role:before {
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
 }
 
 // Unaffiliated people list (used on About page and in Project pages)

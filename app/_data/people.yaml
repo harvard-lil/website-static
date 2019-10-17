@@ -293,11 +293,12 @@ andy-silva:
   sort_name: Silva
   role: Developer
   bio: >
-    After learning to program as a kid on a Tandy TRS-80, Andy built a
-    career in technology. He naturally followed up his role as a
-    professional developer with a tour through culinary school. Chef
-    Andy got some sense knocked into him in the kitchen and now he's
-    back in the tech world.
+    Though Andy has worked with the Harvard Law School Library off-and-on for almost twenty years,
+    his professional experience is unusually broad. He helped maintain the Federal Reserve
+    Bank's check processing infrastructure, worked with many restaurants, nightclubs, and bars
+    as a classically trained chef and bouncer, worked in code-level support for an IBM network
+    performance suite, and even worked as a 35mm movie projectionist. He is currently a developer
+    working primarily on Caselaw Access Project's back end, and a student of Interactive Design.
   email: asilva@law.harvard.edu
   website:
   twitter_account_name: SomeInterwebDev
