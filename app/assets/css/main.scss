@@ -830,7 +830,7 @@ a.gallery-item {
     margin-top: 0;
   }
 
-    @include respond(4) {
+  @include respond(4) {
     width: 33%;
     max-width: nth($respond-breakpoints,4) + (6 * $double);
     border-top: none;
