@@ -4,7 +4,7 @@ guest-author: "Minna Fingerhood"
 ---
 *This guest post is part of the CAP Research Community Series. This series highlights research, applications, and projects created with Caselaw Access Project data.*
 
-*Minna Fingerhood graduated from the University of Pennsylvania this past May with a B.A. in Science, Technology, and Society (STSC) and Engineering Entrepreneurship. She is currently a data scientist in New York passionate about the intersection of technology, law, and data ethics.*
+*Minna Fingerhood graduated from the University of Pennsylvania this past May with a B.A. in Science, Technology, and Society (STSC) and Engineering Entrepreneurship. She is currently a data scientist in New York and is passionate about the intersection of technology, law, and data ethics.*
 
 The United States Criminal Justice System is the largest in the world. With more than 2.3 million inmates, the US incarcerates more than [25% of the world’s prison population](https://www.aclu.org/issues/smart-justice/mass-incarceration), even as its general population only accounts for 5%. As a result, and perhaps unsurprisingly, the system has become increasingly congested, inefficient, and at times indifferent. 
 
