@@ -2,6 +2,10 @@
 title: "Guest Post: Creating a Case Recommendation System Using Gensim’s Doc2Vec"
 guest-author: "Minna Fingerhood"
 ---
+*This guest post is part of the CAP Research Community Series. This series highlights research, applications, and projects created with Caselaw Access Project data.*
+
+*Minna Fingerhood graduated from the University of Pennsylvania this past May with a B.A. in Science, Technology, and Society (STSC) and Engineering Entrepreneurship. She is currently a data scientist in New York passionate about the intersection of technology, law, and data ethics.*
+
 The United States Criminal Justice System is the largest in the world. With more than 2.3 million inmates, the US incarcerates more than [25% of the world’s prison population](https://www.aclu.org/issues/smart-justice/mass-incarceration), even as its general population only accounts for 5%. As a result, and perhaps unsurprisingly, the system has become increasingly congested, inefficient, and at times indifferent. 
 
 The ramifications of an overpopulated prison system are far-reaching: from violent and unsanitary prison conditions; to [backlogged criminal courts](https://www.newyorker.com/magazine/2014/10/06/before-the-law); to overworked and often overwhelmed public defenders. These consequences are severe and, in many cases, undermine the promise of fair and equal access to justice. In an effort to help address these challenges, the government has employed various technologies that aim to increase efficiency and decrease human bias throughout many stages of the system. While these technologies and innovations may have been implemented with earnest intentions, in practice, they often serve bureaucratic imperatives and can reinforce and magnify the bias they intend to eliminate.  
