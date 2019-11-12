@@ -1,7 +1,6 @@
 ---
 title: Using Machine Learning to Extract Nuremberg Trials Transcript Document Citations
-guest-author: Rosa Lin, Scott Jones,
-author: Paul Deschner
+guest-author: Rosa Lin, Scott Jones, and Paul Deschner
 ---
 ## The Task
 
