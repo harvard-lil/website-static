@@ -4,7 +4,7 @@ author: kelly-fitzpatrick
 ---
 Today we’re sharing new ways to get started with [Caselaw Access Project](https://case.law/) data using tutorials from [The Programming Historian](https://programminghistorian.org/) and more. 
 
-The Caselaw Access Project makes 360 years of U.S. case law available as a machine readable text corpus. In developing a research community around the dataset, we’ve been creating and sharing resources for getting started.
+The Caselaw Access Project makes 360 years of U.S. case law available as a machine-readable text corpus. In developing a research community around the dataset, we’ve been creating and sharing resources for getting started.
 
 In our gallery, we’ve been developing [tutorials](https://case.law/gallery/#tutorials) and our [examples repository](https://github.com/harvard-lil/cap-examples) for working with our data alongside [research results](https://case.law/gallery/#research-results), [applications](https://case.law/gallery/#applications), [fun stuff](https://case.law/gallery/#fun-stuff), and [more](https://case.law/gallery/): 
 
