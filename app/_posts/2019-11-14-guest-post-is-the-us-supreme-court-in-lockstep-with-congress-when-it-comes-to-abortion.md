@@ -2,7 +2,7 @@
 title: "Guest Post: Is the US Supreme Court in lockstep with Congress when it comes to abortion?"
 guest-author: "Abdul Abdulrahim"
 ---
-*This guest post is part of the CAP Research Community Series. This series highlights research, applications, and projects created with Caselaw Access Project data*
+*This guest post is part of the CAP Research Community Series. This series highlights research, applications, and projects created with Caselaw Access Project data.*
 
 *Abdul Abdulrahim is a graduate student at the University of Oxford completing a DPhil in Computer Science. His primary interests are in the use of technology in government and law and developing neural-symbolic models that mitigate the issues around interpretability and explainability in AI. Prior to the DPhil, he worked as an advisor to the UK Parliament and a lawyer at Linklaters LLP.*
 
