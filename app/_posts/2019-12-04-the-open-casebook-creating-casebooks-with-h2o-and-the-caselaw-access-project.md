@@ -2,7 +2,7 @@
 title: "The Open Casebook: Creating Casebooks with H2O and the Caselaw Access Project"
 author: kelly-fitzpatrick
 ---
-What if you could create your own casebook with any case ever published? By connecting [H2O Open Casebooks](https://opencasebook.org/) the [Caselaw Access Project](https://case.law/), we can change how we read and create casebooks.
+What if you could create your own casebook with any case ever published? By connecting [H2O open casebooks](https://opencasebook.org/) with the [Caselaw Access Project](https://case.law/), we can change how we read and create casebooks.
 
 In higher education, open textbooks have created new ways to [learn, share, and adapt knowledge](https://sparcopen.org/open-education/) - and save students money in the meantime. For casebooks that can cost law students [hundreds](https://www.wklegaledu.com/Chemerinsky-Conlaw6) [of](https://www.wklegaledu.com/Massey-ConLaw6) [dollars](https://www.wklegaledu.com/Friedman-ConstitutionalLaw2) [each](https://www.wklegaledu.com/Templin-Contracts2), this gives law schools the opportunity to create casebooks to serve their communities. 
 
