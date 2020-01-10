@@ -24,18 +24,18 @@ anastasia-aizman:
   image: anastasia-aizman.png
   affiliated: true
 
-brennan-chesley:
-  name: Brennan Chesley
-  sort_name: Chesley
-  role: Developer
-  bio: >
-          We're moving to bios that are longer and a little less jokey— look at Ben and Andy's bio for examples.
-  email: bchesley@law.harvard.edu
-  website: https://google.com
-  twitter_account_name:
-  github_account_name: 
-  image: brennan-chesley.jpg
-  affiliated: true
+  #brennan-chesley:
+  #name: Brennan Chesley
+  #sort_name: Chesley
+  #role: Developer
+  #bio: >
+  #        We're moving towards bios that are longer and a bit less jokey, like Ben's and Andy's bios
+  #email: bchesley@law.harvard.edu
+  #website: https://google.com
+  #twitter_account_name:
+  #github_account_name: 
+  #image: brennan-chesley.jpg
+  #affiliated: true
 
 samantha-bates:
   name: Samantha Bates
