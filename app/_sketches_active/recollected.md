@@ -4,7 +4,7 @@
 title: Recollected 
 
 # Optional
-project_website: recollected.github.io
+project_website: https://recollected.github.io
 
 github_repo: https://github.com/recollected/recollected.github.io
 
