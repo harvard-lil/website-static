@@ -8,7 +8,7 @@ project_website: https://timeline.lil.tools/us-immigration/
 
 github_repo: https://github.com/harvard-lil/cap-timeline
 
-start_date: Nov, 2019
+start_date: November 2019
 
 ### MEDIA ###
 # Required

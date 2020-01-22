@@ -8,7 +8,7 @@ project_website:
 
 github_repo: https://github.com/harvard-lil/warc-diff-tools
 
-start_date: Jan, 2017
+start_date: January 2017
 
 ### MEDIA ###
 # Required
