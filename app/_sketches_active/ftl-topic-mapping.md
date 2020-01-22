@@ -8,7 +8,7 @@ project_website: http://ftl-topic-modeling.herokuapp.com/
 
 github_repo: https://github.com/harvard-lil/FTL-topic-mapping
 
-start_date: Februrary 16, 2016
+start_date: February 16, 2016
 
 ### MEDIA ###
 # Required

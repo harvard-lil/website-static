@@ -8,7 +8,7 @@ project_website: https://recollected.github.io
 
 github_repo: https://github.com/recollected/recollected.github.io
 
-start_date: Mar, 2019
+start_date: March 2019
 
 ### MEDIA ###
 # Required
