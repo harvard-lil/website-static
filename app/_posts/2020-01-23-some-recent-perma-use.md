@@ -16,11 +16,15 @@ both documents cite Perma links without citing the original URL that
 Perma archived; [generally](https://perma.cc/docs#using-links), you
 would include both in your citation.
 
-As an exercise, I used Perma's [public
+As an [exercise](https://github.com/bensteinberg/pdf-perma-urls), I
+used Perma's [public
 API](https://perma.cc/docs/developer#developer-public-archives) to
 look up the URLs for the Perma links cited in these two documents;
 here are CSV files listing [the 148
 links](https://lil-blog-media.s3.amazonaws.com/in_re_president_trump_house_impeachment_trial_brief_and_sof_1.18.20.csv)
 in the House Memorandum (one ill-formed) and [the 129
 links](https://lil-blog-media.s3.amazonaws.com/ukraine-clearinghouse-Trial-Memorandum-of-President-Donald-J.-Trump-january-20-2020.csv)
-in the President's memorandum.
+in the President's memorandum. (Note that both CSV files include
+duplicates, as some links are repeated in each document; I'm leaving
+the duplicates in place in case you want to read along with the
+original documents.)
