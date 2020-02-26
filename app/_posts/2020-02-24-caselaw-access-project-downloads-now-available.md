@@ -2,21 +2,21 @@
 title: Caselaw Access Project Downloads Now Available
 author: kelly-fitzpatrick
 ---
-Today we’re announcing [CAP Downloads](https://case.law/download/), a new way to access data from the [Caselaw Access Project](https://case.law/). 
+Today we’re announcing CAP Downloads, a new way to access select datasets relating to the [Caselaw Access Project](https://case.law/). You can CAP Downloads here: (https://case.law/download/)[https://case.law/download/]. 
 
-By sharing segments of data from the Caselaw Access Project as individual datasets, Downloads creates a new resource for researchers and more. The Caselaw Access Project dataset was made possible by the collections and librarians of Harvard Law School Library.  
+While researchers can use our (API)[https://api.case.law] and (Bulk Data)[https://case.law/bulk/downolad] tools to access standardardized metadata and text for all of the cases in the CAP dataset, we also want to make it possible to share specialized and derivative datasets. CAP Downloads is our first attempt at this kind of resource.
 
-What data do we have? Let’s go here get started with [case.law/download](https://case.law/download). From here, we can view:
+# How does it work?
 
-[PDFs](https://case.law/download/PDFs/): Downloads of each volume from open access jurisdictions scanned for the Caselaw Access Project, with selectable text created by OCR as downloadable PDFs.
+Everything available for download is presented in a simple file directory format that lets you navigate to the specific dataset or file you want. Each dataset comes with a README file that includes basic information about the dataset.
 
-[Illustrations](https://case.law/download/illustrations/): Thousands of illustrations that appear in U.S. case law. 
+# What data do we have?
 
-[SCDB](https://case.law/download/scdb/): Spreadsheets connecting Supreme Court cases made available by the Caselaw Access Project with metadata from [Supreme Court Database (SCDB)](http://scdb.wustl.edu/), adding a rich new layer of information to cases.
+To view and access what's currently available, visit [case.law/download](https://case.law/download). We're starting with three datasets:
+- Scanned images of cases from open access jurisdictions (AR, IL, NC, NM), available as PDFs: (https://case.law/download/PDFs/)[https://case.law/download/PDFs/].
+- CSV file mapping connecting metadata from CAP with metadata from the [Supreme Court Database (SCDB)](http://scdb.wustl.edu/):  (https://case.law/download/scdb/)[https://case.law/download/scdb/].
+- Images and illustrations found in published case law:(https://case.law/download/illustrations/)[https://case.law/download/illustrations/] 
 
-We hope that these datasets will be the breadcrumbs to future research projects, from identifying patterns in judicial decision making, to viewing the illustrations which shape what patent cases look like in U.S. case law.
+# What other datasets should we share?
 
-We like to hear about how people are using data from the Caselaw Access Project. Have something to share? We’re looking forward to [hearing from you](https://case.law/contact/)! 
-
-Image: [Laureyssens v. Idea Group, Inc.](https://cite.case.law/f-supp/768/1036/) (1991).
-![Six illustrations of puzzle designs shown in Laureyssens v. Idea Group, Inc.](https://lil-blog-media.s3.amazonaws.com/11345070-5f9ab3d0a98bd010733456d10ed415ab_copy.png)
+If you have ideas or suggestions for other datasets you'd like us to share, we'd love to hear about it. Contact us at [https://case.law/contact/](https://case.law/contact/)!
