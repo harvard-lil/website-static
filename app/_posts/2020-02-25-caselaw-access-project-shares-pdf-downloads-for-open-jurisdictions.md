@@ -1,13 +1,9 @@
 ---
-title: Caselaw Access Project Shares PDF Downloads for Open Jurisdictions
+title: Caselaw Access Project Shares Scanned Images for Open Jurisdictions
 author: kelly-fitzpatrick
 ---
-The Caselaw Access Project now has [PDFs downloads available for all open access jurisdictions](https://case.law/download/PDFs/open/) in our collection with selectable text created with OCR.
+The (Caselaw Access Project)[https://case.law] now has scanned images available for download as PDF, with selectable text, for all open access jurisdictions, including AR, IL, NC and NM. To download scanned images by volume, visit our CAP Downloads page and browse to the volume you seek: [https://case.law/download/PDFs/open/](https://case.law/download/PDFs/open/).
 
-This development advances access to the law with freely available downloads of volumes digitized from the collections of Harvard Law School Library. These downloads are a view into the story of data made available by the Caselaw Access Project, from 40,000 bound volumes to a machine readable dataset. 
+Through our (API)[https://api.case.law] and (Bulk Data)[https://case.law/bulk/download/] tools, researchers already have access to metadata and text files produced through OCR of the scanned images. With this new release, we're able to share the scanned images themselves in an enhanced form that enables text selection and search.   
 
-How can I get started? You can begin from our list of [open access jurisdictions](https://case.law/download/PDFs/open/). Let’s start with [Arkansas](https://case.law/download/PDFs/open/Arkansas/). Next, select a reporter and [browse volumes available for download](https://case.law/download/PDFs/open/Arkansas/Ark./). You now have a PDF! 🎉
-
-Available downloads are limited to open access jurisdictions including Arkansas, Illinois, New Mexico, and North Carolina. Want to help us drive access to case law? We can do that by advocating courts to make the change to digital-first publishing. [Here’s how to get started](https://case.law/action/). 
-
-For now, pick your first download and start reading. 
+For this initial release, scanned images are available only for those jurisdictions that have taken the important step of ensuring that all of their current opinions are published and freely accessible online in an authoritative, machine-readable manner that avoids vendor-specific citation. As always, we're eager to work with other states seeking to take this step toward digital-first publishing. [Here’s how to get started](https://case.law/action/). 
