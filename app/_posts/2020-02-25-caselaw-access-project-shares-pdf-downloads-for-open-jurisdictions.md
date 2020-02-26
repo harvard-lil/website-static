@@ -2,7 +2,7 @@
 title: Caselaw Access Project Shares Scanned Images for Open Jurisdictions
 author: kelly-fitzpatrick
 ---
-The (Caselaw Access Project)[https://case.law] now has scanned images available for download as PDF, with selectable text, for all open access jurisdictions, including AR, IL, NC and NM. To download scanned images by volume, visit our CAP Downloads page and browse to the volume you seek: [https://case.law/download/PDFs/open/](https://case.law/download/PDFs/open/).
+The (Caselaw Access Project)[https://case.law] now has scanned images available for download as PDF, with selectable text, for all open access jurisdictions, including Arkansas, Illinois, North Carolina and New Mexico. To download scanned images by volume, visit our (CAP Downloads)[https://case.law/download/] page and browse to the volume you seek: [https://case.law/download/PDFs/open/](https://case.law/download/PDFs/open/).
 
 Through our (API)[https://api.case.law] and (Bulk Data)[https://case.law/bulk/download/] tools, researchers already have access to metadata and text files produced through OCR of the scanned images. With this new release, we're able to share the scanned images themselves in an enhanced form that enables text selection and search.   
 
