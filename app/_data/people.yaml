@@ -263,7 +263,7 @@ brett-johnson:
   twitter_account_name:
   github_account_name:
   image: brett-johnson.jpg
-  affiliated: true
+  affiliated: false
 
 caitlin-laughlin:
   name: Caitlin Laughlin
