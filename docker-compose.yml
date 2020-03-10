@@ -10,7 +10,7 @@ services:
   server:
     image: httpd:2.4
     ports:
-        - "8080:8080"
+        - "127.0.0.1:8080:8080"
     volumes:
         - ./bundle:/usr/local/bundle
         - ./build:/usr/local/apache2/htdocs
