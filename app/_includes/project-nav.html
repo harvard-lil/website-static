@@ -1,5 +1,5 @@
 {% if page.type == "project" %}
- {% assign project_list = site.projects_active | sort: "title" %}
+ {% assign project_list = site.projects_active | sort: "order" %}
 {% elsif page.type == "sketch" %}
  {% assign project_list = site.sketches_active | sort: "title" %}
 {% endif %}
