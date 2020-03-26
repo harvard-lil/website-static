@@ -11,6 +11,7 @@ liquid:
   error_mode: strict
 sass:
   sass_dir: _scss
+  style: nested
 timezone: Etc/GMT
 
 # Site settings

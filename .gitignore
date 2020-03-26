@@ -1,6 +1,7 @@
 .DS_Store
 *~
 app/.jekyll-metadata
+app/.jekyll-cache
 app/.sass-cache
 build/
 apache/logs

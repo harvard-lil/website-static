@@ -1,7 +1,7 @@
 version: '2'
 services:
   jekyll:
-    image: jekyll/jekyll:3.8
+    image: jekyll/jekyll:4.0
     command: jekyll build --watch
     tty: true
     volumes:
