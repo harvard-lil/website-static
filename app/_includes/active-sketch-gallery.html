@@ -2,7 +2,7 @@
   {% comment %}
     {% assign active_projects = site.sketches_active | sort: "start_date" | reverse %}
   {% endcomment %}
-  {% assign active_projects = site.sketches_active | sort: "name" %}
+  {% assign active_projects = site.sketches_active | sort: "title" %}
 
   {% for project in active_projects %}
     <a class="gallery-item" href="{{ project.url }}">
