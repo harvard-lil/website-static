@@ -4,7 +4,7 @@ author: kelly-fitzpatrick
 ---
 The [Caselaw Access Project](https://case.law/) (CAP) is nominated in the [24th Annual Webby Awards](https://www.webbyawards.com/). We’re honored to be named alongside this year’s [nominees](https://vote.webbyawards.com/PublicVoting#/2020/websites/general-websites/law) including friends and leaders in the field like the [Knight First Amendment Institute](https://knightcolumbia.org/).
 
-CAP makes 6.7 million cases freely available online from the collections of Harvard Law School Library. We’re creating new ways to access the law, from reading individual cases with our [case browser](https://cite.case.law/), [bulk data](https://case.law/bulk/) and [downloads](https://case.law/download/) for research scholars, and graphs that show [how words are used over time](https://case.law/trends/).
+CAP makes 6.7 million cases freely available online from the collections of Harvard Law School Library. We’re creating new ways to access the law, such as reading individual cases with our [case browser](https://cite.case.law/), [bulk data](https://case.law/bulk/) and [downloads](https://case.law/download/) for research scholars, and graphs that show [how words are used over time](https://case.law/trends/).
 
 ![Brown v. Board of Education, 347 U.S. 483, 98 L. Ed. 2d 873, 74 S. Ct. 686 (1954)](https://lil-blog-media.s3.amazonaws.com/example.png)
 
