@@ -1,5 +1,5 @@
 ---
-title: Caselaw Access Project Nominated for a Webby
+title: Caselaw Access Project Nominated for a Webby: Vote for Us!
 author: kelly-fitzpatrick
 ---
 The [Caselaw Access Project](https://case.law/) has been nominated for one of the [24th Annual Webby Awards](https://www.webbyawards.com/). We’re honored to be named alongside this year’s other [nominees](https://vote.webbyawards.com/PublicVoting#/2020/websites/general-websites/law), including friends and leaders in the field like the [Knight First Amendment Institute](https://knightcolumbia.org/).
