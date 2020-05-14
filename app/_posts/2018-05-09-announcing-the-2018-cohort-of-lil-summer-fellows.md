@@ -12,7 +12,7 @@ Next month, we'll welcome eight new Summer Fellows to LIL:
 
 *  [Alexandra Dolan-Mescal](http://dhalab.org/alexdm/) - Alexandra is a UX designer focused on ethics in design and research. She'll be developing a social media data label system inspired by the [Traditional Knowledge Labels](http://localcontexts.org/tk-labels/) project. 
 
-* [Tim Walsh](https://www.bitarchivist.net/) - Tim is a digital archivist and programmer. He'll be working on tools to help librarians and archivists manage sensitive personal information in digital archives.
+* [Tessa Walsh](https://www.bitarchivist.net/) - Tessa is a digital archivist and programmer. She'll be working on tools to help librarians and archivists manage sensitive personal information in digital archives.
 
 * [Carrie Bly](https://www.carriebly.com/) - Carrie is an architect studying at the Harvard Graduate School of Design. She'll be exploring connections and contrasts between library and garden classification systems.
 

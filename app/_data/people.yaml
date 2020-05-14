@@ -355,18 +355,17 @@ ben-steinberg:
   affiliated: true
 
 tim-walsh:
-  name: Tim Walsh
+  name: Tessa Walsh
   sort_name: Walsh
   role: 2018 Summer Fellow
   bio: >
-    Tim is a digital archivist and programmer. He can typically be found
+    Tessa is a digital archivist and programmer. She can typically be found
     behind a laptop or on a bicycle, and is always looking for French speakers
     to practice with and new sci-fi to read.
-  email: timothyryanwalsh@gmail.com
+  email: tessa@bitarchivist.net
   website: https://www.bitarchivist.net/
   twitter_account_name: bitarchivist
-  github_account_name: timothyryanwalsh
-  image: tim-walsh.jpg
+  github_account_name: tw4l
   affiliated: false
 
 jordi-weinstock:
