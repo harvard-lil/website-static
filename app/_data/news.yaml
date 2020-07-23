@@ -4,6 +4,15 @@
 ### CAP ###
 - project: caselaw-access-project
   type: press
+  title: A Closer Look at the Caselaw Access Project
+  publication: AALL Spectrum
+  date: May / June 2020
+  url: https://www.aallnet.org/wp-content/uploads/2020/04/SPECTRUM_Caselaw-Access-Project.pdf
+  archived_url: https://perma.cc/EAJ9-T93P
+  archived_date: July 23, 2020
+
+- project: caselaw-access-project
+  type: press
   title: New "Historical Trends" Viewer from Caselaw Access Project Graphs Frequency of Words and Phrases
   publication: LawSites
   date: June 21, 2019
