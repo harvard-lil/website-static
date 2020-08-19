@@ -1,7 +1,7 @@
 version: '2'
 services:
   jekyll:
-    image: jekyll/jekyll:4.0
+    image: jekyll/jekyll@sha256:d1bf33637d476e3cb2d5858038673cc93bc961e9390d31171d9febde5c5d24fd
     command: jekyll build --watch
     tty: true
     volumes:
