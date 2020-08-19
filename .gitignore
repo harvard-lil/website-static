@@ -4,4 +4,5 @@ app/.jekyll-metadata
 app/.jekyll-cache
 app/.sass-cache
 build/
+bundle
 apache/logs
