@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# exit when any command fails
+set -e
+
 validate_frontmatter () {
     grep -r '^title: ' app | while read MATCH
     do

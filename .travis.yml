@@ -13,6 +13,5 @@ before_install:
   - ls bundle || sudo mkdir -m 777 bundle
   - sudo mkdir -m 777 app/.jekyll-cache
 
-
 script:
   - ./scripts/run-tests.sh
