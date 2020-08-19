@@ -1,0 +1,12 @@
+{% if include.author %}
+  <p class="post-author">Posted by
+  {% for author in include.author %}
+    {% assign person_record = site.data.people[author] %}
+    {% assign penultimate = forloop.length | minus:1 %}
+    {% if forloop.last %} and {% endif %}
+    <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}">{{ person_record.name }}</a>{% if forloop.last != true and forloop.index != penultimate %},{% endif %}
+  {% endfor %}
+  </p>
+{% elsif include.guest-author %}
+  <p class="post-author">Posted by {{ include.guest-author }}</p>
+{% endif %}

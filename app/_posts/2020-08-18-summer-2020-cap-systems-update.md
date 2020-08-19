@@ -1,6 +1,8 @@
 ---
 title: Summer 2020 CAP Systems Update
-author: jack-cushman and kelly-fitzpatrick
+author:
+  - jack-cushman
+  - kelly-fitzpatrick
 ---
 Today we’re sharing an update to [Caselaw Access Project](https://case.law/) systems that support how we share a collection of 6 million cases. This change shows one way libraries can support access to large datasets at cost. Here’s how we did it. 
 
