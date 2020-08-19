@@ -15,7 +15,7 @@ validate_frontmatter () {
 
 if validate_frontmatter
 then
-    docker-compose run jekyll jekyll build
+    docker-compose run jekyll jekyll build --trace
     java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt build/
 else
     exit 1
