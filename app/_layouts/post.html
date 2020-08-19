@@ -8,12 +8,7 @@ custom-css: ['blog']
       <header>
         <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
-        {% if page.author %}
-          {% assign person_record = site.data.people[page.author] %}
-          <p class="post-author">Posted by <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}">{{ person_record.name }}</a></p>
-        {% elsif page.guest-author %}
-          <p class="post-author">Posted by {{page.guest-author}}</p>
-        {% endif %}
+        {% include author.html author=page.author guest-author=page.guest-author %}
       </header>
 
       <div class="post-content" itemprop="articleBody">
