@@ -11,6 +11,7 @@ before_install:
   - npm install vnu-jar
   - sudo mkdir -m 777 build
   - ls bundle || sudo mkdir -m 777 bundle
+  - sudo mkdir -m 777 app/.jekyll-cache
 
 script:
   - ./scripts/run-tests.sh

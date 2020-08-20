@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/harvard-lil/website-static.svg?branch=develop)](https://travis-ci.com/harvard-lil/website-static)
+
 Install and Run
 ---------------
 

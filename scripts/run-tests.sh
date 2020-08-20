@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# exit when any command fails
+set -e
+
 validate_frontmatter () {
     grep -r '^title: ' app | while read MATCH
     do
@@ -15,8 +18,9 @@ validate_frontmatter () {
 
 if validate_frontmatter
 then
-    docker-compose run jekyll jekyll build
+    docker-compose run jekyll jekyll build --trace
     java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt build/
+    echo "$(find ./build -type f -name "*.html" | wc -l) files validated"
 else
     exit 1
 fi

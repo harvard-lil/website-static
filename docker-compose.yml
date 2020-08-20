@@ -1,18 +1,18 @@
 version: '2'
 services:
   jekyll:
-    image: jekyll/jekyll:4.0
+    image: jekyll/jekyll@sha256:d1bf33637d476e3cb2d5858038673cc93bc961e9390d31171d9febde5c5d24fd
     command: jekyll build --watch
     tty: true
     volumes:
         - ./app:/srv/jekyll
         - ./build:/srv/build
+        - ./bundle:/usr/local/bundle:delegated
   server:
     image: httpd:2.4
     ports:
         - "127.0.0.1:8080:8080"
     volumes:
-        - ./bundle:/usr/local/bundle
         - ./build:/usr/local/apache2/htdocs
         - ./apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
         - ./apache/logs:/usr/local/apache2/logs
