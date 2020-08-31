@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/harvard-lil/website-static.svg?branch=develop)](https://travis-ci.com/harvard-lil/website-static)
+[![Build Status](https://circleci.com/gh/harvard-lil/website-static.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
 
 Install and Run
 ---------------
