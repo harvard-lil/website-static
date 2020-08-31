@@ -59,9 +59,9 @@ samantha-bates:
 john-bowers:
   name: John Bowers
   sort_name: Bowers
-  role: Research Associate
+  role: former Research Associate
   bio: >
-    John works as a research associate for Professor Zittrain. He likes
+    John worked as a research associate for Professor Zittrain. He likes
     cooking, statistics, and historical nonfiction, and once legally named
     his pet cat "Bitcoin" after losing a bet.
   email: jobowers@law.harvard.edu
@@ -69,7 +69,7 @@ john-bowers:
   twitter_account_name:
   github_account_name: john-bowers
   image: john-bowers.jpg
-  affiliated: true
+  affiliated: false
 
 carrie-bly:
   name: Carrie Bly
@@ -162,7 +162,7 @@ paul-deschner:
   twitter_account_name:
   github_account_name:
   image: paul-deschner.jpg
-  affiliated: true
+  affiliated: false
 
 alexandra-dolan-mescal:
   name: Alexandra Dolan-Mescal
