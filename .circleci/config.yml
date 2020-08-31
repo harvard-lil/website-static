@@ -29,9 +29,9 @@ jobs:
       - run:
           name: "Test"
           command: |
-            bash ./scripts/run_tests.sh
+            bash ~/project/scripts/run_tests.sh
 
       - save_cache:
           key: bundle-{{ checksum "app/Gemfile.lock" }}
           paths:
-            - ~/project/bundle/
+            - bundle
