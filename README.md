@@ -28,7 +28,7 @@ Install and Run
   jekyll_1  |  Auto-regeneration: enabled for '/srv/jekyll'
   ```
 
-  Exceptions: changes to `_config.yml`, `Gemfile`, `.htaccess`, and the contents of the `_plugins` directory will not trigger an automatic rebuild, or, even if they do, the rebuilt site might not reflect your changes.
+  Exceptions: changes to `_config.yml`, `Gemfile`, and the contents of the `_plugins` directory will not trigger an automatic rebuild, or, even if they do, the rebuilt site might not reflect your changes.
 
   Errors: if the build errors out (scss syntax errors, incorrect variable names, etc.), the automatic rebuilding process may stop working.
 
