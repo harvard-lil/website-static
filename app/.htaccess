@@ -2,6 +2,8 @@
 ---
 DirectoryIndex  index.html index.js index.xml index.php
 
+AddCharset UTF-8 .js
+
 ErrorDocument 404 /404/index.html
 
 # compress text, html, javascript, css, xml:
