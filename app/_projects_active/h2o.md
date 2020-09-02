@@ -16,7 +16,7 @@ order: 1
 # (400px x 300px)
 # (800px x 600px)
 # (1200px x 900px)
-thumbnail_image: h20-thumbnail-1.png
+thumbnail_image: h2o-thumbnail-1.png
 
 # For Sketches
 # (216px x 216px)
@@ -43,13 +43,15 @@ video:
 
 # Required
 what_does_it_do: >
-  H2O is a platform for creating, sharing and remixing open course materials.
+  H2O is a platform for creating, sharing, and remixing open course materials.
 
 # Optional
 why_does_it_exist: |
   Traditional textbooks, especially legal casebooks, are heavy, expensive and inflexible.
 
 who_contributed:
+  - brennan-chesley
+  - kelly-fitzpatrick
   - brett-johnson
   - adam-ziegler
   - jonathan-zittrain
