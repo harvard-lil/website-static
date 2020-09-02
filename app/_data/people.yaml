@@ -68,7 +68,6 @@ john-bowers:
   website:
   twitter_account_name:
   github_account_name: john-bowers
-  image: john-bowers.jpg
   affiliated: false
 
 carrie-bly:
@@ -80,7 +79,6 @@ carrie-bly:
   website: http://carriebly.com/
   twitter_account_name:
   github_account_name:
-  image: carrie-bly.jpg
   affiliated: false
 
 hannah-brinkmann:
@@ -92,7 +90,6 @@ hannah-brinkmann:
   website: http://hannahbrinkmann.com
   twitter_account_name:
   github_account_name:
-  image: hannah-brinkmann.jpg
   affiliated: false
 
 rebecca-cremona:
@@ -120,7 +117,6 @@ franny-corry:
   website: http://francescorry.net
   twitter_account_name:
   github_account_name:
-  image: franny-corry.jpg
   affiliated: false
 
 jack-cushman:
@@ -147,7 +143,6 @@ julian-degroot-lutzner:
   website:
   twitter_account_name:
   github_account_name: jdegrootlutzner
-  image: julian-degroot-lutzner.jpg
   affiliated: false
 
 paul-deschner:
@@ -176,7 +171,6 @@ alexandra-dolan-mescal:
   website: http://dhalab.org/alexdm
   twitter_account_name: fromadmwithlove
   github_account_name:
-  image: alexandra-dolan-mescal.jpg
   affiliated: false
 
 jay-edwards:
@@ -200,7 +194,6 @@ shira-feldman:
   website: http://www.shira-feldman.net
   twitter_account_name: shirarbira
   github_account_name: shirarbira
-  image: shira-feldman.jpg
   affiliated: false
 
 kelly-fitzpatrick:
@@ -223,7 +216,6 @@ kendra-greene:
   bio:
   email: akendragreene@gmail.com
   website: http://akendragreene.com
-  image: kendra-greene.jpg
   affiliated: false
 
 casey-gruppioni:
@@ -249,7 +241,6 @@ evelin-heidel:
   website: http://adigitalizar.org/
   twitter_account_name: scannopolis
   github_account_name: scannopolis
-  image: evelin-heidel.jpg
   affiliated: false
 
 brett-johnson:
@@ -277,7 +268,6 @@ caitlin-laughlin:
   website:
   twitter_account_name:
   github_account_name:
-  image: caitlin-laughlin.jpg
   affiliated: false
 
 michelle-quin:
@@ -289,7 +279,6 @@ michelle-quin:
   website:
   twitter_account_name:
   github_account_name: michellequin
-  image: michelle-quin.jpg
   affiliated: false
 
 satvik-shukla:
@@ -301,7 +290,6 @@ satvik-shukla:
   website: http://www.satvikshukla.com
   twitter_account_name:
   github_account_name: satvikshukla
-  image: satvik-shukla.jpg
   affiliated: false
 
 andy-silva:
@@ -377,7 +365,6 @@ jordi-weinstock:
   website:
   twitter_account_name:
   github_account_name:
-  image: jordi-weinstock.jpg
   affiliated: false
 
 jessamyn-west:
@@ -389,7 +376,6 @@ jessamyn-west:
   website: http://www.librarian.net/
   twitter_account_name: jessamyn
   github_account_name:
-  image: jessamyn-west.png
   affiliated: false
 
 adam-ziegler:
@@ -507,7 +493,6 @@ zena-agha:
   website: https://zenaagha.com/about/
   twitter_account_name: Zena_Agha
   affiliated: false
-  image: zena-agha.png
 
 neel-agrawal:
   name: Neel Agrawal
@@ -541,7 +526,6 @@ anna-bialas:
   twitter_account_name: femalegazebot
   github_account_name: annabialas
   affiliated: false
-  image: anna-bialas.png
 
 rachel-binx:
   name: Rachel Binx
@@ -632,7 +616,6 @@ jake-effoduh:
   affiliated: false
   twitter_account_name: effodu
   website: http://www.law2go.org/
-  image: jake-effoduh.png
 
 antontio-fernandes:
   name: Antonio Fernandes
@@ -715,7 +698,6 @@ rachel-karasick:
   affiliated: false
   website: https://rachelkarasick.com/
   twitter_account_name: rkarasick
-  image: rachel-karasick.png
 
 ilya-kreymer:
   name: Ilya Kreymer
@@ -733,7 +715,6 @@ doyung-lee:
   role: LIL and Berkman Summer Intern
   website: https://doyunglee.github.io/
   affiliated: false
-  image: doyung-lee.png
 
 erica-leeman:
   name: Erica Leeman
@@ -813,7 +794,6 @@ matt-miller:
   website: http://thisismattmiller.com/
   twitter_account_name: thisismmiller
   github_account_name: thisismmiller
-  image: matt-miller.png
 
 miglena-minkova:
   name: Miglena Minkova
@@ -823,7 +803,6 @@ miglena-minkova:
   website: http://miglenaminkova.com/
   twitter_account_name: miglenaminkova
   github_account_name: MMinkova
-  image: miglena-minkova.png
 
 loren-newman:
   name: Loren Newman
@@ -859,7 +838,6 @@ zach-tan:
   role: LIL and Berkman Summer Intern
   website: http://www.zachtan.co/
   affiliated: false
-  image: zach-tan.png
 
 shailin-thomas:
   name: Shailin Thomas
@@ -900,7 +878,6 @@ reid-whitaker:
   website: http://reidmwhitaker.com/
   twitter_account_name: reidmwhitaker
   github_account_name: reidmwitaker
-  image: reid-whitaker.png
 
 dano-williams:
   name: Dano Williams
