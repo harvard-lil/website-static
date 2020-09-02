@@ -6,3 +6,4 @@ app/.sass-cache
 build/
 bundle
 apache/logs
+nginx/logs
