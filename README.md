@@ -1,4 +1,4 @@
-[![Build Status](https://circleci.com/gh/harvard-lil/website-static.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+[![Build Status](https://circleci.com/gh/harvard-lil/website-static.svg?style=svg)](https://circleci.com/gh/harvard-lil/website-static)
 
 Install and Run
 ---------------
