@@ -34,7 +34,7 @@ brennan-chesley:
     to help people make coffee, and never-graduating from the Recurse Center
     in between. He currently works on the h2o project.
   email: bchesley@law.harvard.edu
-  website: 
+  website:
   twitter_account_name:
   github_account_name: holtchesley
   image: brennan-chesley.jpg
@@ -95,12 +95,15 @@ hannah-brinkmann:
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
-  role: Developer
+  role: Senior Developer
   bio: >
-    Becky is into the relationship between matter and meaning. She
-    presently spends most of her time inducing electrons to do her
-    bidding; in the past she’s studied liturgical gesture, tried to make
-    quantum cryptography work, and tended sheep.
+    Becky was a student of physics and religion before becoming a
+    faculty assistant in the Harvard SEAS Artificial Intelligence
+    group. She moved on to support Harvard's open-access policies at
+    the Office for Scholarly Communication, where she got the bug for
+    web development. She now spends most of her time working on
+    Perma.cc, advocating for web accessibility, and assisting with
+    other LIL projects.
   email: rcremona@law.harvard.edu
   website:
   twitter_account_name: RebeccaCremona
