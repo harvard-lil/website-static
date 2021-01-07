@@ -25,20 +25,20 @@ layout: sectioned-page
           <p>Follow us on Twitter or shoot us an email if you’re interested in any of our projects or sketches. All of our code is open source. Send a pull request on GitHub if you want to collaborate.</p>
         </div>
 
-        <h4>Contact us online</h4>
+        <h4>Contact us online:</h4>
         <ul id="about-specs">
           <li>twitter: <a href="{{ site.twitter_url }}">@{{  site.twitter_account_name }}</a></li>
           <li>github: <a href="{{ site.github_url }}">{{ site.github_account_name }}</a></li>
           <li>email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
 
-        <h4>Contact us in person</h4>
-        <ul id="about-address">
-          <li>{{ site.address_name }}</li>
-          <li>{{ site.address_street1 }}</li>
-          <li>{{ site.address_street2 }} <span class="map"><a href="{{ site.address_map_url }}">Map</a></span></li>
-          <li>{{ site.address_city_state }}</li>
-        </ul>
+        <h4>Contact us in person:</h4>
+        <p id="about-address">
+          {{ site.address_name }}<br />
+          {{ site.address_street1 }}<br />
+          {{ site.address_street2 }} <span class="map"><a href="{{ site.address_map_url }}">Map</a></span><br />
+          {{ site.address_city_state }}
+        </p>
       </div>
     </div>
   </div>
