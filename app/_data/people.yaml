@@ -126,12 +126,15 @@ jack-cushman:
   name: Jack Cushman
   sort_name: Cushman
   role: Senior Developer
-  bio: >
-    Jack is an attorney, developer, and tinkerer. He once built a
-    working web server using only a Perl script, a paperclip, and a
-    pack of bubblegum.
+  bio: |
+    Jack worked as an appellate litigator before coming to write code at LIL. His proudest case was 
+    [Finch v. Commonwealth](https://cite.case.law/mass/461/232/), which returned health insurance 
+    coverage to tens of thousands of Massachusetts immigrants — and now lives on at case.law, the American caselaw
+    database Jack helps to run. 
+    
+    Jack has served as a board member of the ACLU of Massachusetts and as a fellow of the Berkman Klein Center 
+    for Internet and Society. He also teaches the Programming for Lawyers course at Harvard Law School.
   email: jcushman@law.harvard.edu
-  website: http://jackcushman.org
   twitter_account_name:
   github_account_name:  jcushman
   image: jack-cushman.jpg

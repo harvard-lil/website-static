@@ -20,7 +20,7 @@
       <strong class="name">{{ person.name }}</strong>
       <span class="role">{{ person.role }}</span>
       <div class="bio">
-        {{ person.bio | strip }}
+        {{ person.bio | strip | markdownify }}
       </div>
 
       {% if person.email or person.website or person.twitter or person.github %}
