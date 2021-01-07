@@ -126,7 +126,7 @@ jack-cushman:
   name: Jack Cushman
   sort_name: Cushman
   role: Senior Developer
-  bio: >
+  bio: |
     Jack worked as an appellate litigator before coming to write code at LIL. His proudest case was 
     [Finch v. Commonwealth](https://cite.case.law/mass/461/232/), which returned health insurance 
     coverage to tens of thousands of Massachusetts immigrants — and now lives on at case.law, the American caselaw
