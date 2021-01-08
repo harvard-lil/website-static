@@ -338,12 +338,12 @@ clare-stanton:
   sort_name: Stanton
   role: Communications & Outreach
   bio: >
-    Clare’s true occupation is as a milliner, creating multiple hats for herself everywhere she goes. 
-    She’s worked in every department of a photography gallery, as the event coordinator/alumni liaison/substitute teacher
-    at a small independent school, as the database maintainer/research assistant/calendar 
-    keeper for a group of innovation and management researchers, and now as the compost watchdog/vinyl cutter 
-    whisperer/side project logistics manager at LIL. She also is the outreach and communications lead for Perma.cc and 
-    has a MLIS from Simmons University. 
+    Clare's true occupation is as a milliner, creating multiple hats for herself everywhere she goes.
+    She's worked in every department of a photography gallery, as the event coordinator/alumni liaison/substitute teacher
+    at a small independent school, as the database maintainer/research assistant/calendar
+    keeper for a group of innovation and management researchers, and now as the compost watchdog/vinyl cutter
+    whisperer/side-project logistics manager at LIL. She also is the outreach and communications lead for Perma.cc and
+    has an MLIS from Simmons University.
   email: cstanton@law.harvard.edu
   website:
   twitter_account_name: clare__stanton
@@ -611,7 +611,7 @@ claire-demarco:
 dpla:
   name: Digital Public Library of America
   sort_name: Digital
-  role: The Digital Public Library of America makes the riches of America’s libraries, archives, and museums freely available to the world.
+  role: The Digital Public Library of America makes the riches of America's libraries, archives, and museums freely available to the world.
   website: http://dp.la/
   twitter_account_name: dpla
   affiliated: false
