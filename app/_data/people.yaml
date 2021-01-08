@@ -1,5 +1,5 @@
 # Profile pics are served up in the browser using the srcset attribute #
-# on the html5 img element. the differernt image sizes in the srcset #
+# on the html5 img element. the different image sizes in the srcset #
 # need to be created when adding a person and placed in the thumbs dir #
 
 # When adding a summer fellow, create a 150x150px image #
