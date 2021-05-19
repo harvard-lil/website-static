@@ -1162,17 +1162,9 @@ a.link-project {
     background-color: white;
   }
 
-  a {
-    border-bottom: none;
+  .news-item {
     @extend %lined-list-item;
     border-color: $color-trans-lightgray;
-
-    &:first-child {
-      margin-top: $grid * 3;
-      @include respond(4) {
-        margin-top: -2px;
-      }
-    }
 
     &.blog  {
       .category,
@@ -1207,6 +1199,57 @@ a.link-project {
     .publication {
       @include tiny-bold;
     }
+
+    .publication:hover, .publication:focus {
+      text-decoration: underline;
+    }
+  }
+
+  a {
+    border-bottom: none;
+
+    &:first-child {
+      margin-top: $grid * 3;
+      @include respond(4) {
+        margin-top: -2px;
+      }
+    }
+
+    &:hover {
+      color: unset;
+    }
+
+  }
+
+  .cc {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    overflow: hidden;
+    background-image: url('../images/perma-ui-8-small.png');
+    background-size: 89px 7px;
+    background-repeat: no-repeat;
+    background-position: -74px center;
+    position: relative;
+    bottom: -3px;
+    padding: 0 !important;
+    background-color: $color-blue;
+    border: 2px solid $color-blue;
+    border-radius: 2px;
+    &:hover, &:focus {
+      text-decoration: none;
+      border-color: $color-black;
+      background-color: $color-black;
+    }
+    &:active {
+      border-color: $color-black;
+      background-color: $color-black;
+    }
+  }
+
+  .blog .cc {
+    background-color: $color-pink;
+    border-color: $color-pink;
   }
 }
 

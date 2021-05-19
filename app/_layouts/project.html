@@ -70,14 +70,19 @@ layout: sectioned-page
         <h2>What’s been written about {{ page.title }}?</h2>
         <div class="slice-body">
           {% for article in news %}
-            <a class="{{ article.type }}" href="{{ article.url }}">
-              <div class="category">{{ article.type | capitalize }}</div>
+          <div class="news-item {{ article.type }}">
+            <div class="category">{{ article.type | capitalize }}</div>
+            <a href="{{ article.url }}">
               <strong class="title">{{ article.title }}</strong>
-              <span class="date">{{ article.date }}</span>
-              {% if article.publication %}
-                <span class="publication">{{ article.publication }}</span>
-              {% endif %}
             </a>
+            <span class="date">{{ article.date }}</span>
+            {% if article.publication %}
+              <a href="{{ article.url }}" class="publication">{{ article.publication }}</a>
+            {% endif %}
+            {% if article.archived_url %}
+              <a class="cc" href="{{ article.archived_url}}"><span class="sr-only">(Perma.cc archive)</span></a>
+            {% endif %}
+          </div>
           {% endfor %}
         </div>
       </div>
