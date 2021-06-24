@@ -51,22 +51,23 @@ why_does_it_exist: |
 who_contributed:
   - anastasia-aizman
   - samantha-bates
+  - catherine-brobston
+  - annie-cain
   - rebecca-cremona
   - jack-cushman
+  - claire-demarco
   - kim-dulin
   - brett-johnson
-  - matt-phillips
-  - ben-steinberg
-  - adam-ziegler
-  - jonathan-zittrain
-  - annie-cain
-  - claire-demarco
-  - greg-leppert
   - timothy-mcallister
+  - matt-phillips
+  - greg-leppert
   - loren-newman
   - clare-stanton
+  - ben-steinberg
   - shailin-thomas
   - dano-williams
+  - adam-ziegler
+  - jonathan-zittrain
 
 ### Override Jekyll Defaults ###
 title-tag: Perma.cc
