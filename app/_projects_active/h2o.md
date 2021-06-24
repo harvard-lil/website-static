@@ -50,18 +50,22 @@ why_does_it_exist: |
   Traditional textbooks, especially legal casebooks, are heavy, expensive and inflexible.
 
 who_contributed:
+  - tom-boone
+  - catherine-brobston
   - brennan-chesley
+  - rebecca-cremona
+  - emma-cushman
+  - jack-cushman
   - kelly-fitzpatrick
+  - casey-gruppioni
   - brett-johnson
+  - greg-leppert
+  - dustin-lewis
+  - clare-stanton
+  - ben-steinberg
+  - shailin-thomas
   - adam-ziegler
   - jonathan-zittrain
-  - tom-boone
-  - dustin-lewis
-  - shailin-thomas
-  - casey-gruppioni
-  - emma-cushman
-  - ben-steinberg
-  - greg-leppert
 
 ### Override Jekyll Defaults ###
 title-tag: H2O
