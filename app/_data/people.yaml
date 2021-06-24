@@ -24,7 +24,16 @@ anastasia-aizman:
   github_account_name: anastasia
   image: anastasia-aizman.png
   affiliated: true
-  
+
+rachel-auslander:
+  name: Rachel Auslander
+  sort_name: Auslander
+  role: 2021 Summer Research Assistant
+  website: https://rachelauslander.online/
+  twitter_account_name: rachelauslander
+  github_account_name: rachelaus
+  affiliated: summer
+
 catherine-brobston:
   name: Catherine Brobston
   sort_name: Brobston
@@ -208,6 +217,14 @@ jay-edwards:
   image: jay-edwards.jpg
   affiliated: false
 
+ashley-fan:
+  name: Ashley Fan
+  sort_name: Fan
+  role: 2021 Summer Research Assistant
+  email: ashley.fan@yale.edu
+  twitter_account_name: fashleyaan
+  affiliated: summer
+
 shira-feldman:
   name: Shira Feldman
   sort_name: Feldman
@@ -255,6 +272,15 @@ casey-gruppioni:
   image: casey-gruppioni.jpg
   affiliated: false
 
+andy-gu:
+  name: Andy Gu
+  sort_name: Gu
+  role: 2021 Summer Research Assistant
+  email: agu@jd24.law.harvard.edu
+  twitter_account_name: andy__gu
+  github_account_name: 4ndygu
+  affiliated: summer
+
 evelin-heidel:
   name: Evelin Heidel
   sort_name: Heidel
@@ -265,6 +291,12 @@ evelin-heidel:
   twitter_account_name: scannopolis
   github_account_name: scannopolis
   affiliated: false
+
+adaeze-ibeanu:
+  name: Adaeze Ibeanu
+  sort_name: Ibeanu
+  role: Summer 2021 Research Assistant
+  affiliated: summer
 
 brett-johnson:
   name: Brett Johnson
@@ -278,6 +310,12 @@ brett-johnson:
   github_account_name:
   image: brett-johnson.jpg
   affiliated: false
+
+aadi-kulkarni:
+  name: Aadi Kulkarni
+  sort_name: Kulkarni
+  role: Summer 2021 Research Assistant
+  affiliated: summer
 
 caitlin-laughlin:
   name: Caitlin Laughlin
