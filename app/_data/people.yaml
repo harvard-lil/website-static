@@ -111,19 +111,6 @@ ashley-fan:
   twitter_account_name: fashleyaan
   affiliated: summer
 
-kelly-fitzpatrick:
-  name: Kelly Fitzpatrick
-  sort_name: Fitzpatrick
-  role: Research Associate
-  bio: >
-    Kelly connects researchers with the Caselaw Access Project and leads project outreach and communications. She also supports work on open casebooks as part of the H2O project. Before joining LIL, Kelly worked on open access at the Berkman Klein Center for Internet & Society.
-  email: lfitzpatrick@cyber.harvard.edu
-  website: http://lkfitz.tumblr.com/
-  twitter_account_name: fitzbub
-  github_account_name: lkfitz
-  image: kelly-fitzpatrick.jpg
-  affiliated: true
-
 andy-gu:
   name: Andy Gu
   sort_name: Gu
@@ -525,11 +512,24 @@ shira-feldman:
   github_account_name: shirarbira
   affiliated: false
 
-antontio-fernandes:
+antonio-fernandes:
   name: Antonio Fernandes
   sort_name: Fernandes
   website: http://codeti.me/
   twitter_account_name: afj176
+  affiliated: false
+
+kelly-fitzpatrick:
+  name: Kelly Fitzpatrick
+  sort_name: Fitzpatrick
+  role: Research Associate
+  bio: >
+    Kelly connects researchers with the Caselaw Access Project and leads project outreach and communications. She also supports work on open casebooks as part of the H2O project. Before joining LIL, Kelly worked on open access at the Berkman Klein Center for Internet & Society.
+  email: lfitzpatrick@cyber.harvard.edu
+  website: http://lkfitz.tumblr.com/
+  twitter_account_name: fitzbub
+  github_account_name: lkfitz
+  image: kelly-fitzpatrick.jpg
   affiliated: false
 
 kerri-fleming:
