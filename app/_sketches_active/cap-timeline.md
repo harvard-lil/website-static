@@ -4,7 +4,7 @@
 title: CAP Timeline 
 
 # Optional
-project_website: https://timeline.lil.tools/us-immigration/
+project_website: https://case.law/labs/#chronolawgic
 
 github_repo: https://github.com/harvard-lil/cap-timeline
 
