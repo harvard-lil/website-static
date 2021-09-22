@@ -1322,6 +1322,12 @@ a.link-project {
     font-size: 19.25px;
     font-weight: bold;
 
+    // different color for first line of slogan
+    color: $color-highlight;
+    &::first-line {
+      color: black;
+    }
+
     @include respond(3) {
       font-size: 40px;
       margin-top: $grid * 10;
