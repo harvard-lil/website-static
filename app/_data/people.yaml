@@ -9,22 +9,6 @@
 # Currently affiliated #
 # set "affiliated: true" or "affiliated: summer" #
 
-anastasia-aizman:
-  name: Anastasia Aizman
-  sort_name: Aizman
-  role: Designer and Lead Creative Technologist
-  bio: >
-    Prior to learning to code, Anastasia was an art director and designer at ad agencies, design studios, and
-    the New York Public Library. She now works on mixing everything she knows together for large projects like
-    Caselaw Access Project and explorations like Alterspace. She likes drawing and mutual aid.
-    She is also fluent in Russian, and immigrated to the U.S. at age ten.
-  email: aaizman@law.harvard.edu
-  website: https://anastasia.github.io
-  twitter_account_name:
-  github_account_name: anastasia
-  image: anastasia-aizman.png
-  affiliated: true
-
 rachel-auslander:
   name: Rachel Auslander
   sort_name: Auslander
@@ -88,7 +72,7 @@ rebecca-cremona:
 jack-cushman:
   name: Jack Cushman
   sort_name: Cushman
-  role: Senior Developer
+  role: Director
   bio: |
     Jack worked as an appellate litigator before coming to write code at LIL. His proudest case was
     [Finch v. Commonwealth](https://cite.case.law/mass/461/232/), which returned health insurance
@@ -191,19 +175,6 @@ ben-steinberg:
   image: ben-steinberg.jpg
   affiliated: true
 
-adam-ziegler:
-  name: Adam Ziegler
-  sort_name: Ziegler
-  role: Director
-  bio: >
-    Adam joined LIL in 2014, after representing clients in court as an attorney for 10+ years and then launching a web startup that sought to promote open and collaborative legal knowledge. He's worked for law firms large and small, the U.S. DOJ, a federal appellate judge, the Davidson College Library, and a pizza buffet, among others, and he's taught law school courses on computer programming and the role of technology in legal services. He's immensely proud of LIL's work and grateful to be part of such a creative and kind-hearted team.
-  email:  aziegler@law.harvard.edu
-  website:
-  twitter_account_name: abziegler
-  github_account_name:  abziegler
-  image: adam-ziegler.jpg
-  affiliated: true
-
 jonathan-zittrain:
   name: Jonathan Zittrain
   sort_name: Zittrain
@@ -238,6 +209,16 @@ neel-agrawal:
   role: 2016 Summer Fellow
   image: neel-agrawal.jpg
   website: http://neelagrawal.com
+  affiliated: false
+
+anastasia-aizman:
+  name: Anastasia Aizman
+  sort_name: Aizman
+  role: Designer and Lead Creative Technologist
+  website: https://anastasia.github.io
+  twitter_account_name:
+  github_account_name: anastasia
+  image: anastasia-aizman.png
   affiliated: false
 
 kendra-albert:
@@ -1012,4 +993,13 @@ jessica-yurkofsky:
   sort_name: Yurkofsky
   website: http://www.jessyurko.com/
   role: Creative Technologist at metaLAB
+  affiliated: false
+
+adam-ziegler:
+  name: Adam Ziegler
+  sort_name: Ziegler
+  role: Director
+  twitter_account_name: abziegler
+  github_account_name:  abziegler
+  image: adam-ziegler.jpg
   affiliated: false
