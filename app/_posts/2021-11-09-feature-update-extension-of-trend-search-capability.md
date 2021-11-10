@@ -1,6 +1,7 @@
 ---
 title: Feature Update | Extension of Trend Search Capability
 author: andy-gu
+date: 2021-11-10 00:00:00+00:00
 ---
 Today, we are announcing an update to the Caselaw Access Project (CAP) API and [Trends tool](https://case.law/trends/) to help users better investigate changes in the law over time. These new features enable users to easily generate timelines of cases and explore patterns in case citations. We hope that they can help researchers uncover new insights about American caselaw.
 
