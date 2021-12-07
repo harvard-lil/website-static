@@ -41,7 +41,7 @@ video:
 
 # Required
 what_does_it_do: >
-  The Caselaw Access Project is making all U.S. case law freely accessible online. With the Caselaw Access Project API (CAPAPI) and bulk data service, we can share 40 million pages of published U.S. court cases.
+  The Caselaw Access Project offers free, public access to over 6.5 million decisions published by state and federal courts throughout U.S. history.
 
 # Optional
 why_does_it_exist: |

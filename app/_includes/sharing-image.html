@@ -9,4 +9,24 @@
     {{ site.sharing-image }}
   {% endif %}
 {% endcapture %}
+
+{% capture sharing-description %}
+  {% if page.sharing-description %}
+    {{ page.sharing-description }}
+  {% elsif page.type == "project" or page.type == "sketch" %}
+    {{ page.what_does_it_do }}
+  {% endif %}
+{% endcapture %}
+
+<meta name="twitter:card" content="{{ page.sharing-card-type }}">
+<meta name="twitter:site" content="@HarvardLIL">
+<meta name="twitter:image" content="{{ site.baseurl }}/assets/{{ sharing-image | strip }}">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 <meta property="og:image" content="{{ site.baseurl }}/assets/{{ sharing-image | strip }}">
+
+{% if sharing-description %}
+  <meta name="twitter:description" content="{{ sharing-description | strip }}">
+  <meta property="og:description" content="{{ sharing-description | strip }}">
+{% endif %}
