@@ -44,7 +44,7 @@ video:
 
 # Required
 what_does_it_do: >
-  Web archive comparison
+  Compares multiple archives of a single webpage.
 
 # Optional
 why_does_it_exist: >

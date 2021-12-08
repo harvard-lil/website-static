@@ -86,6 +86,7 @@ defaults:
       path: ""
     values:
       custom-footer: false
+      sharing-card-type: summary
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
