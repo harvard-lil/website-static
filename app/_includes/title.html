@@ -1,5 +1,7 @@
 {% capture title %}
-  {% if page.title-tag %}
+  {% if page.title-tag-complete %}
+    {{ page.title-tag-complete }}
+  {% elsif page.title-tag %}
     {{ page.title-tag | append: " | Library Innovation Lab" }}
   {% elsif page.title %}
     {{ page.title | append: " | Library Innovation Lab" }}
