@@ -38,12 +38,12 @@
 
 <meta name="twitter:card" content="{{ page.sharing-card-type }}">
 <meta name="twitter:site" content="@{{ site.twitter_account_name }}">
-<meta name="twitter:title" content="{{ sharing-title | strip }}">
-<meta name="twitter:description" content="{{ sharing-description | strip }}">
+<meta name="twitter:title" content="{{ sharing-title | strip | escape_once }}">
+<meta name="twitter:description" content="{{ sharing-description | strip | escape_once}}">
 <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/{{ sharing-image | strip }}?cache-buster=1">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
-<meta property="og:title" content="{{ sharing-title | strip}}">
-<meta property="og:description" content="{{ sharing-description | strip }}">
+<meta property="og:title" content="{{ sharing-title | strip | escape_once }}">
+<meta property="og:description" content="{{ sharing-description | strip | escape_once }}">
 <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/{{ sharing-image | strip }}?cache-buster=1">
