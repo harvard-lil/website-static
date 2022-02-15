@@ -542,13 +542,12 @@ section, .container {
 // and then wrap the slice's content in another sleeve.
 // container > sleeve > slice@pop-out-of-sleeve > sleeve > h + slice-body
 .slice {
-  overflow: visible;
   clear: both;
   font-weight: 300;
   overflow: auto;
   @include respond(4) { padding-top: $double; }
 
-  h2, h3 {
+  > h2, > h3 {
     @include heading-secondary;
     @include respond(4){
       @include overline($color-black, $grid * 6, $b-margin:$grid);
@@ -561,6 +560,15 @@ section, .container {
 }
 
 .slice-body {
+  @include respond(4) {
+    // if .slice-body follows a heading, give it normal margin
+    h2 + &, h3 + & {
+      margin-left: 0;
+    }
+    // if it doesn't follow a heading, give it extra margin so it aligns with slices that do have headings
+    margin-left: $grid * 48;
+  }
+
   overflow: visible;
   line-height: 1.4;
   @include respond(4){
@@ -572,9 +580,8 @@ section, .container {
   }
 
   h3, h4 {
-    font-size: $size-small;
+    font-size: inherit;
     font-weight: 500;
-    @include overline($color-trans-gray, $grid * 7, $t-margin:$grid, $r-margin:0, $b-margin:$grid, $l-margin:0);
 
     & + ul {
       padding-top: $double;
