@@ -1536,3 +1536,19 @@ section.people-unaffiliated .list {
 .project footer { background-color: $color-highlight; }
 
 .about footer { background-color: $color-electricblue; }
+
+// Easter Egg
+.easter-egg {
+  text-align: center;
+  a {
+    color: $color-electricblue;
+  }
+  a:focus {
+    display: inline-block;
+    margin-bottom: 32px;
+    outline: 0;
+  }
+  span {
+    color: $color-black;
+  }
+}
