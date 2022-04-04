@@ -9,15 +9,6 @@
 # Currently affiliated #
 # set "affiliated: true" or "affiliated: summer" #
 
-rachel-auslander:
-  name: Rachel Auslander
-  sort_name: Auslander
-  role: 2021 Summer Research Assistant
-  website: https://rachelauslander.online/
-  twitter_account_name: rachelauslander
-  github_account_name: rachelaus
-  affiliated: summer
-
 catherine-brobston:
   name: Catherine Brobston
   sort_name: Brobston
@@ -32,22 +23,6 @@ catherine-brobston:
   twitter_account_name:
   github_account_name:
   image: catherine-brobston.jpg
-  affiliated: true
-
-brennan-chesley:
-  name: Brennan Chesley
-  sort_name: Chesley
-  role: Developer
-  bio: >
-    Brennan has lived in 4 states and 2 countries. He's had a wide variety
-    of professional experience, including making coffee, writing programs
-    to help people make coffee, and never-graduating from the Recurse Center
-    in between. He currently works on the H2O project.
-  email: bchesley@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name: holtchesley
-  image: brennan-chesley.jpg
   affiliated: true
 
 rebecca-cremona:
@@ -86,39 +61,6 @@ jack-cushman:
   github_account_name:  jcushman
   image: jack-cushman.jpg
   affiliated: true
-
-ashley-fan:
-  name: Ashley Fan
-  sort_name: Fan
-  role: 2021 Summer Research Assistant
-  email: ashley.fan@yale.edu
-  twitter_account_name: fashleyaan
-  affiliated: summer
-
-andy-gu:
-  name: Andy Gu
-  sort_name: Gu
-  role: 2021 Summer Research Assistant
-  email: agu@jd24.law.harvard.edu
-  twitter_account_name: andy__gu
-  github_account_name: 4ndygu
-  affiliated: summer
-
-adaeze-ibeanu:
-  name: Adaeze Ibeanu
-  sort_name: Ibeanu
-  role: 2021 Summer Research Assistant
-  email: aibeanu@live.unc.edu
-  affiliated: summer
-
-aadi-kulkarni:
-  name: Aadi Kulkarni
-  sort_name: Kulkarni
-  role: 2021 Summer Research Assistant
-  email: ak2354@cornell.edu
-  website:  https://www.linkedin.com/in/aadik/
-  github_account_name: aadik23
-  affiliated: summer
 
 andy-silva:
   name: Andy Silva
@@ -207,7 +149,6 @@ neel-agrawal:
   name: Neel Agrawal
   sort_name: Agrawal
   role: 2016 Summer Fellow
-  image: neel-agrawal.jpg
   website: http://neelagrawal.com
   affiliated: false
 
@@ -218,7 +159,6 @@ anastasia-aizman:
   website: https://anastasia.github.io
   twitter_account_name:
   github_account_name: anastasia
-  image: anastasia-aizman.png
   affiliated: false
 
 kendra-albert:
@@ -228,6 +168,15 @@ kendra-albert:
   website: https://kendraalbert.com/
   affiliated: false
   twitter_account_name: KendraSerra
+
+rachel-auslander:
+  name: Rachel Auslander
+  sort_name: Auslander
+  role: 2021 Summer Research Assistant
+  website: https://rachelauslander.online/
+  twitter_account_name: rachelauslander
+  github_account_name: rachelaus
+  affiliated: false
 
 samantha-bates:
   name: Samantha Bates
@@ -242,7 +191,6 @@ samantha-bates:
   website:
   twitter_account_name:
   github_account_name:
-  image: samantha-bates.jpg
   affiliated: false
 
 matthew-battles:
@@ -360,6 +308,13 @@ deborah-chase:
   role: Digitization Specialist
   affiliated: false
 
+brennan-chesley:
+  name: Brennan Chesley
+  sort_name: Chesley
+  role: Developer
+  github_account_name: holtchesley
+  affiliated: false
+
 franny-corry:
   name: Franny Corry
   sort_name: Corry
@@ -411,7 +366,6 @@ paul-deschner:
   website:
   twitter_account_name:
   github_account_name:
-  image: paul-deschner.jpg
   affiliated: false
 
 alexandra-dolan-mescal:
@@ -440,7 +394,6 @@ kim-dulin:
   name: Kim Dulin
   sort_name: Dulin
   role: former Library Innovation Lab Director
-  image: kim-dulin.jpg
   affiliated: false
 
 lindsay-dumas:
@@ -471,7 +424,6 @@ jay-edwards:
   website:
   twitter_account_name: meangrape
   github_account_name:
-  image: jay-edwards.jpg
   affiliated: false
 
 jake-effoduh:
@@ -481,6 +433,14 @@ jake-effoduh:
   affiliated: false
   twitter_account_name: effodu
   website: http://www.law2go.org/
+
+ashley-fan:
+  name: Ashley Fan
+  sort_name: Fan
+  role: 2021 Summer Research Assistant
+  email: ashley.fan@yale.edu
+  twitter_account_name: fashleyaan
+  affiliated: false
 
 shira-feldman:
   name: Shira Feldman
@@ -510,7 +470,6 @@ kelly-fitzpatrick:
   website: http://lkfitz.tumblr.com/
   twitter_account_name: fitzbub
   github_account_name: lkfitz
-  image: kelly-fitzpatrick.jpg
   affiliated: false
 
 kerri-fleming:
@@ -534,7 +493,6 @@ sara-frug:
   name: Sara Frug
   sort_name: Frug
   role: 2017 Summer Fellow
-  image: sara-frug.jpg
   twitter_account_name: ssfrug
   affiliated: false
 
@@ -586,7 +544,15 @@ casey-gruppioni:
   website:
   twitter_account_name: cgruppioni
   github_account_name: cgruppioni
-  image: casey-gruppioni.jpg
+  affiliated: false
+
+andy-gu:
+  name: Andy Gu
+  sort_name: Gu
+  role: 2021 Summer Research Assistant
+  email: agu@jd24.law.harvard.edu
+  twitter_account_name: andy__gu
+  github_account_name: 4ndygu
   affiliated: false
 
 harvard-library-lab:
@@ -627,6 +593,13 @@ sha-hwang:
   twitter_account_name: shashashasha
   affiliated: false
 
+adaeze-ibeanu:
+  name: Adaeze Ibeanu
+  sort_name: Ibeanu
+  role: 2021 Summer Research Assistant
+  email: aibeanu@live.unc.edu
+  affiliated: false
+
 michael-jimenez:
   name: Michael Jimenez
   sort_name: Jimenez
@@ -642,7 +615,6 @@ brett-johnson:
   website:  http://forrealdude.tumblr.com
   twitter_account_name:
   github_account_name:
-  image: brett-johnson.jpg
   affiliated: false
 
 dan-jones:
@@ -676,10 +648,18 @@ ilya-kreymer:
   name: Ilya Kreymer
   sort_name: Kreymer
   role: 2016 Summer Fellow
-  image: ilya-kreymer.jpg
   website: https://webrecorder.io/
   twitter_account_name: IlyaKreymer
   github_account_name: ikreymer
+  affiliated: false
+
+aadi-kulkarni:
+  name: Aadi Kulkarni
+  sort_name: Kulkarni
+  role: 2021 Summer Research Assistant
+  email: ak2354@cornell.edu
+  website:  https://www.linkedin.com/in/aadik/
+  github_account_name: aadik23
   affiliated: false
 
 caitlin-laughlin:
@@ -761,7 +741,6 @@ muira-mccammon:
   name: Muira McCammon
   sort_name: McCammon
   role: 2016 Summer Fellow
-  image: muira-mccammon.jpg
   twitter_account_name: muira_mccammon
   affiliated: false
 
@@ -801,7 +780,6 @@ alexander-nwala:
   name: Alexander Nwala
   sort_name: Nwala
   role: 2016 Summer Fellow
-  image: alexander-nwala.jpg
   website: http://www.cs.odu.edu/~anwala/
   twitter_account_name: acnwala
   github_account_name: anwala
@@ -895,7 +873,6 @@ tiff-tseng:
   name: Tiff Tseng
   sort_name: Tseng
   role: 2016 Summer Fellow
-  image: tiffany-tseng.jpg
   website: http://spin.media.mit.edu
   twitter_account_name: scientiffic
   affiliated: false
@@ -1001,5 +978,4 @@ adam-ziegler:
   role: Director
   twitter_account_name: abziegler
   github_account_name:  abziegler
-  image: adam-ziegler.jpg
   affiliated: false
