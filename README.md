@@ -1,4 +1,4 @@
-[![Build Status](https://circleci.com/gh/harvard-lil/website-static.svg?style=svg)](https://circleci.com/gh/harvard-lil/website-static)
+[![build status](https://github.com/harvard-lil/website-static/actions/workflows/tests.yml/badge.svg)](https://github.com/harvard-lil/website-static/actions)
 
 Install and Run
 ---------------
