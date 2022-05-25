@@ -25,6 +25,23 @@ catherine-brobston:
   image: catherine-brobston.jpg
   affiliated: true
 
+matteo-cargnelutti:
+  name: Matteo Cargnelutti
+  sort_name: Cargnelutti
+  role: Senior Developer
+  bio: >
+    Matteo has been building for the web for most of his career. He has had
+    the opportunity to work with clients of all sizes on both sides of the
+    Atlantic, from local nonprofits to Fortune 500 companies. He has joined
+    LIL driven by a passion for the open web and a desire to explore different
+    scaling challenges.
+  email: mcargnelutti@law.harvard.edu
+  website:
+  twitter_account_name: macargnelutti
+  github_account_name: matteocargnelutti
+  image: matteo-cargnelutti.jpg
+  affiliated: true
+
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
@@ -62,22 +79,17 @@ jack-cushman:
   image: jack-cushman.jpg
   affiliated: true
 
-andy-silva:
-  name: Andy Silva
-  sort_name: Silva
-  role: Developer
+liza-daly:
+  name: Liza Daly
+  sort_name: Daly
+  role: Technologist in Residence
   bio: >
-    Though Andy has worked with the Harvard Law School Library off-and-on for almost twenty years,
-    his professional experience is unusually broad. He helped maintain the Federal Reserve
-    Bank's check processing infrastructure, worked with many restaurants, nightclubs, and bars
-    as a classically trained chef and bouncer, worked in code-level support for an IBM network
-    performance suite, and even worked as a 35mm movie projectionist. He is currently a developer
-    working primarily on Caselaw Access Project's back end, and a student of Interactive Design.
-  email: asilva@law.harvard.edu
-  website:
-  twitter_account_name: SomeInterwebDev
-  github_account_name:
-  image: andrew-silva.jpg
+    Liza has been a software engineer and startup founder in the digital publishing and political tech spaces, most recently as the Engineering Director for the core infrastructure team at the Democratic National Committee. She has served as a board member for the International Digital Publishing Foundation and Interactive Fiction Technology Foundation, and co-chair of the W3C Digital Publishing Interest Group.
+  email: ldaly@law.harvard.edu
+  website: https://lizadaly.com/
+  twitter_account_name: liza
+  github_account_name: lizadaly
+  image: liza-daly.jpg
   affiliated: true
 
 clare-stanton:
@@ -831,6 +843,17 @@ satvik-shukla:
   website: http://www.satvikshukla.com
   twitter_account_name:
   github_account_name: satvikshukla
+  affiliated: false
+
+andy-silva:
+  name: Andy Silva
+  sort_name: Silva
+  role: Developer
+  bio:
+  email:
+  website:
+  twitter_account_name: SomeInterwebDev
+  github_account_name:
   affiliated: false
 
 carli-spina:
