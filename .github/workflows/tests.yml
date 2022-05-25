@@ -1,0 +1,69 @@
+name: Tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    # don't run on pushes to forks
+    if: github.event_name == 'pull_request' || github.repository == 'harvard-lil/website-static'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/cache@v3
+        with:
+          path: bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('app/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Info
+        run: |
+          docker-compose --version
+          docker version
+          npm --version
+
+      - name: docker-compose up
+        run: |
+          # separate pull so downloads run in parallel, with
+          # --ignore-pull-failures for PRs with new images that haven't been pushed yet:
+          docker-compose -f docker-compose.yml pull --ignore-pull-failures || true
+          docker-compose -f docker-compose.yml up -d        # use -f to suppress docker-compose.override.yml
+          docker ps -a                                      # show running containers
+          docker-compose logs                               # show logs
+
+      - name: Setup
+        run: |
+          npm install vnu-jar
+          sudo mkdir -m 777 build
+          ls bundle || sudo mkdir -m 777 bundle
+          sudo mkdir -m 777 app/.jekyll-cache
+
+      - name: Test
+        run: |
+          bash ./scripts/run-tests.sh
+
+      - name: Deploy
+        if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_URL: ${{ secrets.DEPLOY_URL }}
+          DEPLOY_HEADER: ${{ secrets.DEPLOY_HEADER }}
+        run: |
+          set -x
+          CSS_BUST=$(find build/assets/css -type f -exec bash -c 'if [[ `diff {} <(curl -s "https://lil.law.harvard.edu/$(echo "{}" | cut -c 7-)")` ]]; then echo "bust ({})"; fi' \;)
+          if [[ $CSS_BUST ]] ; then
+              COUNTER=`grep cache-buster app/_layouts/default.html | sed -r 's/.*cache-buster=([0-9]+).*/\1/'`
+              let NEWCOUNTER=$COUNTER+1
+              perl -pi -e "s/cache-buster=$COUNTER/cache-buster=$NEWCOUNTER/" app/_layouts/default.html
+              perl -pi -e "s/cache-buster=$COUNTER/cache-buster=$NEWCOUNTER/" app/_includes/custom-css.html
+              git config user.email "lil@law.harvard.edu"
+              git config user.name "GitHub Actions"
+              git add app/_layouts/default.html app/_includes/custom-css.html
+              git commit -m 'Increment CSS cache-buster [skip ci]'
+              git push origin develop || exit 1
+          fi
+          export DEPLOY_CONTENT='{"GITHUB_RUN_NUMBER":"'$GITHUB_RUN_NUMBER'","GITHUB_SHA":"'$GITHUB_SHA'","GITHUB_REF":"'$GITHUB_REF'","GITHUB_REPOSITORY":"'$GITHUB_REPOSITORY'","GITHUB_ACTOR":"'$GITHUB_ACTOR'"}' ;
+          export DEPLOY_SIG="sha1=`echo -n "$DEPLOY_CONTENT" | openssl sha1 -hmac $DEPLOY_KEY | sed 's/^.* //'`" ;
+          curl -X POST "$DEPLOY_URL" --data "$DEPLOY_CONTENT" -H "Content-Type: application/json" -H "$DEPLOY_HEADER: $DEPLOY_SIG" ;
