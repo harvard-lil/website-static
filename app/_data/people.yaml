@@ -2,13 +2,50 @@
 # on the html5 img element. the different image sizes in the srcset #
 # need to be created when adding a person and placed in the thumbs dir #
 
-# When adding a summer fellow, create a 150x150px image #
-# When adding a core team member three sizes - 216x216, 432x432, 648x648 #
+# When adding a core team member or summer fellow, add three sizes - 216x216, 432x432, 648x648 #
 
 
 # Currently affiliated #
 # set "affiliated: true" or "affiliated: summer" #
 
+# Summer research assistants, 2022
+mathew-cha:
+  name: Mathew Dongkyun Cha
+  sort_name: Cha
+  role: Summer Research Assistant
+  image: no-photo.jpg
+  affiliated: summer
+
+davis-henderson:
+  name: Davis Henderson
+  sort_name: Henderson
+  role: Summer Research Assistant
+  image: davis-henderson.jpg
+  affiliated: summer
+
+varun-iyer:
+  name: Varun Iyer
+  sort_name: Iyer
+  role: Summer Research Assistant
+  image: varun-iyer.jpg
+  affiliated: summer
+
+seonghee-lee:
+  name: Seonghee Lee
+  sort_name: Lee
+  role: Summer Research Assistant
+  website: https://seungheelee.net/
+  image: seonghee-lee.jpg
+  affiliated: summer
+
+emily-teng:
+  name: Emily Teng
+  sort_name: Teng
+  role: Summer Research Assistant
+  image: emily-teng.jpg
+  affiliated: summer
+
+# LIL staff
 catherine-brobston:
   name: Catherine Brobston
   sort_name: Brobston
