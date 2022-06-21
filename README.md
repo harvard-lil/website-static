@@ -47,3 +47,18 @@ Head to [https://lil-blog-generator.herokuapp.com/](https://lil-blog-generator.h
 Hit the editor's "Preview/Download" to check your work.
 
 When you are satisfied, hit the "Download" button to download your draft, and follow the simple instructions to upload your draft to Github.
+
+
+Adding staff or summer visitors
+-------------------------------
+At the moment, people listed at `/about` under "Who we are" and "Summer Guests" (`affiliated: true` or `affiliated: summer` in `app/_data/people.yaml`) should have three sizes of photos. The current convention is to take a square, high-resolution grayscale image and convert it using ImageMagick, something like this, assuming that the files are in the current working directory and named something like `firstname-lastname.jpg`:
+
+```
+for SIZE in 216 432 648 ; do for FILE in *.jpg ; do THUMBDIR=~/Documents/code/website-static/app/assets/thumbs/${SIZE}x${SIZE}c ; cp ${FILE} ${THUMBDIR}/ ; mogrify -scale ${SIZE}x${SIZE} -density 1x1 ${THUMBDIR}/${FILE} ; done ; done
+```
+
+For people who do not want to have an image on the website, we use a placeholder (`image: no-photo.jpg` in `people.yaml`), which was produced like this:
+
+```
+for SIZE in 216 432 648 ; do THUMBDIR=~/Documents/code/website-static/app/assets/thumbs/${SIZE}x${SIZE}c ; convert -size ${SIZE}x${SIZE} canvas:white ${THUMBDIR}/no-photo.jpg ; done
+```
