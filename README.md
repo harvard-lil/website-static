@@ -62,3 +62,4 @@ For people who do not want to have an image on the website, we use a placeholder
 ```
 for SIZE in 216 432 648 ; do THUMBDIR=~/Documents/code/website-static/app/assets/thumbs/${SIZE}x${SIZE}c ; convert -size ${SIZE}x${SIZE} canvas:white ${THUMBDIR}/no-photo.jpg ; done
 ```
+new text new text new text
