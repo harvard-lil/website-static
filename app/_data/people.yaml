@@ -268,8 +268,6 @@ anna-bialas:
   name: Anna Bialas
   sort_name: Bialas
   role: 2017 LIL and Berkman Summer Intern
-  website: http://trash.exchange
-  twitter_account_name: femalegazebot
   github_account_name: annabialas
   affiliated: false
 
@@ -311,7 +309,6 @@ carrie-bly:
   role: 2018 Summer Fellow
   bio:
   email: carrie.bly@gmail.com
-  website: http://carriebly.com/
   twitter_account_name:
   github_account_name:
   affiliated: false
@@ -427,7 +424,6 @@ alexandra-dolan-mescal:
     She teaches archival theory, consults for archives
     of marginalized communities, and paints in encaustic wax, causing many burns.
   email: adolanmescal@law.harvard.edu
-  website: http://dhalab.org/alexdm
   twitter_account_name: fromadmwithlove
   github_account_name:
   affiliated: false
@@ -565,7 +561,6 @@ jeff-goldenson:
   name: Jeff Goldenson
   sort_name: Goldenson
   role: Former LIL Designer
-  website: http://buildingways.com/
   affiliated: false
 
 kendra-greene:
@@ -617,7 +612,6 @@ evelin-heidel:
   role: 2018 Summer Fellow
   bio:
   email: scannopolis@gmail.com
-  website: http://adigitalizar.org/
   twitter_account_name: scannopolis
   github_account_name: scannopolis
   affiliated: false
@@ -678,7 +672,6 @@ rachel-karasick:
   sort_name: Karasick
   role: 2017 Summer Fellow
   affiliated: false
-  website: https://rachelkarasick.com/
   twitter_account_name: rkarasick
 
 jane-kelly:
@@ -691,14 +684,12 @@ alisa-kolot:
   name: Alisa Kolot
   sort_name: Kolot
   role: Sound artist, musician
-  website: http://alisa-kolot.com
   affiliated: false
 
 ilya-kreymer:
   name: Ilya Kreymer
   sort_name: Kreymer
   role: 2016 Summer Fellow
-  website: https://webrecorder.io/
   twitter_account_name: IlyaKreymer
   github_account_name: ikreymer
   affiliated: false
@@ -771,7 +762,6 @@ emily-magagnosc:
 petar-maymounkov:
   name: Petar Maymounkov
   sort_name: Maymounkov
-  website: http://www.maymounkov.org/
   twitter_account_name: maymounkov
   affiliated: false
 
@@ -809,7 +799,6 @@ matt-miller:
   affiliated: false
   website: http://thisismattmiller.com/
   twitter_account_name: thisismmiller
-  github_account_name: thisismmiller
 
 miglena-minkova:
   name: Miglena Minkova
@@ -830,7 +819,6 @@ alexander-nwala:
   name: Alexander Nwala
   sort_name: Nwala
   role: 2016 Summer Fellow
-  website: http://www.cs.odu.edu/~anwala/
   twitter_account_name: acnwala
   github_account_name: anwala
   affiliated: false
@@ -876,9 +864,6 @@ satvik-shukla:
   name: Satvik Shukla
   sort_name: Shukla
   role: 2018 Summer Intern
-  bio:
-  email:
-  website: http://www.satvikshukla.com
   twitter_account_name:
   github_account_name: satvikshukla
   affiliated: false
@@ -903,7 +888,6 @@ carli-spina:
 sam-stites:
   name: Sam Stites
   sort_name: Stites
-  website: https://stites.io/
   affiliated: false
   twitter_account_name: samstites
   role: Machine Learning Engineer at Sentenai
@@ -912,14 +896,12 @@ zach-tan:
   name: Zach Tan
   sort_name: Tan
   role: 2017 LIL and Berkman Summer Intern
-  website: http://www.zachtan.co/
   affiliated: false
 
 shailin-thomas:
   name: Shailin Thomas
   sort_name: Thomas
   role: Affiliate, Berkman Center for Internet & Society
-  website: http://shailin.org
   twitter_account_name: shailinthomas
   affiliated: false
 
@@ -992,9 +974,7 @@ reid-whitaker:
   sort_name: Whitaker
   role: 2017 Summer Fellow
   affiliated: false
-  website: http://reidmwhitaker.com/
   twitter_account_name: reidmwhitaker
-  github_account_name: reidmwitaker
 
 dano-williams:
   name: Dano Williams
@@ -1023,13 +1003,11 @@ yunhan-xu:
   name: Yunhan Xu
   sort_name: Xu
   role: Contributing statistician
-  website: http://yunhanxu.com/
   affiliated: false
 
 jessica-yurkofsky:
   name: Jessica Yurkofsky
   sort_name: Yurkofsky
-  website: http://www.jessyurko.com/
   role: Creative Technologist at metaLAB
   affiliated: false
 
