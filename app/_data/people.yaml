@@ -95,7 +95,7 @@ rebecca-cremona:
   email: rcremona@law.harvard.edu
   website:
   twitter_account_name: RebeccaCremona
-  github_account_name:
+  github_account_name: rebeccacremona
   image: rebecca-cremona.jpg
   affiliated: true
 
@@ -128,6 +128,29 @@ liza-daly:
   twitter_account_name: liza
   github_account_name: lizadaly
   image: liza-daly.jpg
+  affiliated: true
+
+harmony-eidolon:
+  name: Harmony Eidolon
+  sort_name: Eidolon
+  role: Program Coordinator
+  bio: >
+    Harmony joins LIL with 20+ years of project management and event experience. While navigating city and state law complexity, she helped pioneer the mobile cocktail catering industry utilizing urban and local farm ingredients with sustainable practices. She has worked closely with organizations to cultivate events for a good cause, focusing on LGBTQIA++ rights, food justice and homelessness, youth safety, environmental and peace initiatives, reproductive freedom, deafness/communication disorder research and the arts. This passion for human rights has led her to LIL, where she enthusiastically works on efforts to advance and democratize open knowledge.
+  email: heidolon@law.harvard.edu
+  image: no-photo.jpg
+  affiliated: true
+
+sabelo-mhlambi:
+  name: Sabelo Mhlambi
+  sort_name: Mhlambi
+  role: Technologist in Residence
+  bio: >
+    Sabelo has held academic appointments at the Berkman-Klein Center, Stanford’s Digital Civil Society Lab, and the Carr Center for Human Rights Policy, researching the human rights implications of algorithmic technology on marginalized communities from global south perspectives. He has been developing software for over a decade, including natural language processing for African languages, open-source anti-censorship software, and content recommendation systems.
+  email: smhlambi@law.harvard.edu
+  website: https://sabelo.mhlambi.com/
+  twitter_account_name: sabelonow
+  github_account_name: sabzo
+  image: no-photo.jpg
   affiliated: true
 
 clare-stanton:
