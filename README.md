@@ -60,5 +60,6 @@ for SIZE in 216 432 648 ; do for FILE in *.jpg ; do THUMBDIR=~/Documents/code/we
 For people who do not want to have an image on the website, we use a placeholder (`image: no-photo.jpg` in `people.yaml`), which was produced like this:
 
 ```
-for SIZE in 216 432 648 ; do THUMBDIR=~/Documents/code/website-static/app/assets/thumbs/${SIZE}x${SIZE}c ; convert -size ${SIZE}x${SIZE} canvas:white ${THUMBDIR}/no-photo.jpg ; done
+magick -size 1000x1000 xc:lightgray -fill gray -stroke gray -draw "circle 500,400 500,600" -draw "ellipse 500,950 320,400 0,360" no-photo.jpg
+for SIZE in 216 432 648 ; do THUMBDIR=~/Documents/code/website-static/app/assets/thumbs/${SIZE}x${SIZE}c ; cp no-photo.jpg ${THUMBDIR}/ ; mogrify -scale ${SIZE}x${SIZE} -density 1x1 ${THUMBDIR}/no-photo.jpg ; done
 ```
