@@ -56,9 +56,12 @@ who_contributed:
   - rebecca-cremona
   - emma-cushman
   - jack-cushman
+  - liza-daly
   - kelly-fitzpatrick
   - casey-gruppioni
+  - varun-iyer
   - brett-johnson
+  - seonghee-lee
   - greg-leppert
   - dustin-lewis
   - clare-stanton

@@ -53,10 +53,12 @@ who_contributed:
   - samantha-bates
   - catherine-brobston
   - annie-cain
+  - matteo-cargnelutti
   - rebecca-cremona
   - jack-cushman
   - claire-demarco
   - kim-dulin
+  - harmony-eidolon
   - brett-johnson
   - timothy-mcallister
   - matt-phillips

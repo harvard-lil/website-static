@@ -65,9 +65,11 @@ who_contributed:
   - kim-dulin
   - lindsay-dumas
   - kate-edrington
+  - harmony-eidolon
   - kerri-fleming
   - kelly-fitzpatrick
   - gerard-fowke
+  - andy-gu
   - jane-kelly
   - erica-leeman
   - dustin-lewis
