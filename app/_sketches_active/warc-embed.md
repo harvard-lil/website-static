@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-title: Warc-Embed
+title: warc-embed
 
 # Optional
 project_website: https://warcembed-demo.lil.tools/
