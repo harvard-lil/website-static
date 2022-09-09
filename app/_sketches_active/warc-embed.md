@@ -44,7 +44,7 @@ video:
 
 # Required
 what_does_it_do: >
-  A proxy and wrapper for safely embedding Web Archives into web pages
+  A proxy and wrapper for safely embedding web archives into web pages
 
 # # Optional
 # why_does_it_exist: >
