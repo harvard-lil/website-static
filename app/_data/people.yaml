@@ -9,43 +9,6 @@
 # Currently affiliated #
 # set "affiliated: true" or "affiliated: summer" #
 
-# Summer research assistants, 2022
-mathew-cha:
-  name: Mathew Dongkyun Cha
-  sort_name: Cha
-  role: Summer Research Assistant
-  image: no-photo.jpg
-  affiliated: summer
-
-davis-henderson:
-  name: Davis Henderson
-  sort_name: Henderson
-  role: Summer Research Assistant
-  image: davis-henderson.jpg
-  affiliated: summer
-
-varun-iyer:
-  name: Varun Iyer
-  sort_name: Iyer
-  role: Summer Research Assistant
-  image: varun-iyer.jpg
-  affiliated: summer
-
-seonghee-lee:
-  name: Seonghee Lee
-  sort_name: Lee
-  role: Summer Research Assistant
-  website: https://seungheelee.net/
-  image: seonghee-lee.jpg
-  affiliated: summer
-
-emily-teng:
-  name: Emily Teng
-  sort_name: Teng
-  role: Summer Research Assistant
-  image: emily-teng.jpg
-  affiliated: summer
-
 # LIL staff
 catherine-brobston:
   name: Catherine Brobston
@@ -360,6 +323,12 @@ june-casey:
   role: Librarian for Open Access Initiatives & Scholarly Communication
   affiliated: false
 
+mathew-cha:
+  name: Mathew Dongkyun Cha
+  sort_name: Cha
+  role: Summer Research Assistant
+  affiliated: false
+
 stephen-chapman:
   name: Stephen Chapman
   sort_name: Chapman
@@ -653,6 +622,12 @@ alison-head:
   twitter_account_name: alisonjhead
   affiliated: false
 
+davis-henderson:
+  name: Davis Henderson
+  sort_name: Henderson
+  role: Summer Research Assistant
+  affiliated: false
+
 sha-hwang:
   name: Sha Hwang
   sort_name: Hwang
@@ -665,6 +640,12 @@ adaeze-ibeanu:
   sort_name: Ibeanu
   role: 2021 Summer Research Assistant
   email: aibeanu@live.unc.edu
+  affiliated: false
+
+varun-iyer:
+  name: Varun Iyer
+  sort_name: Iyer
+  role: Summer Research Assistant
   affiliated: false
 
 michael-jimenez:
@@ -745,6 +726,13 @@ doyung-lee:
   sort_name: Lee
   role: 2017 LIL and Berkman Summer Intern
   website: https://doyunglee.github.io/
+  affiliated: false
+
+seonghee-lee:
+  name: Seonghee Lee
+  sort_name: Lee
+  role: Summer Research Assistant
+  website: https://seungheelee.net/
   affiliated: false
 
 erica-leeman:
@@ -919,6 +907,12 @@ zach-tan:
   name: Zach Tan
   sort_name: Tan
   role: 2017 LIL and Berkman Summer Intern
+  affiliated: false
+
+emily-teng:
+  name: Emily Teng
+  sort_name: Teng
+  role: Summer Research Assistant
   affiliated: false
 
 shailin-thomas:
