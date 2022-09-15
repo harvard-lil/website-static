@@ -21,7 +21,6 @@ Our experience so far tells us that these "context clashes" are more easily prev
 For that reason, although [it is entirely possible---and convenient---to mix web archive content directly into a top-level HTML page](https://replayweb.page/docs/embedding), our recommendation is to **use an iframe to do so, pointing at a subdomain of the embedding website**.
 
 ```html
-
 <!-- On www.example.com -->
 <iframe
   src="https://warc.example.com/replay/{id}"
@@ -99,4 +98,4 @@ a pre-configured "embed" page, serving an instance of replayweb.page aimed at a 
 Source code and documentation on GitHub: [https://github.com/harvard-lil/warc-embed](https://github.com/harvard-lil/warc-embed).
 
 <hr>
-<small>These notes have been compiled as part of a new chapter exploring this technology, but the foundation of our insight was built long ago by Rebecca Cremona as she spearheaded the integration of client-side playback into Perma.cc.</small>
+<small>These notes have been compiled as part of a new chapter exploring this technology, but the foundation of our insight was built long ago by [Rebecca Cremona](/about/#rebecca-cremona) as she spearheaded the integration of client-side playback into Perma.cc.</small>
