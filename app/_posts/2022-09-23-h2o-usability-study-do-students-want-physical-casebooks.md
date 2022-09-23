@@ -2,7 +2,8 @@
 title: 'H2O usability study: do students want physical casebooks?'
 author: catherine-brobston
 ---
-This summer, one of our RAs, Seonghee Lee, ran a study among current law students that is helping us reconsider some of the longstanding assumptions around student reading preferences and informing future development of our [H2O Open Casebook](https://opencasebook.org) platform. 
+This summer, one of our research assistants, Seonghee Lee, ran a study among current law students that is helping us reconsider some longstanding assumptions about student reading preferences and informing future development of the [H2O Open Casebook](https://opencasebook.org) platform. 
+
 
 H2O was launched in an early form in 2012, and for years we worked under the assumption that most books written with H2O would eventually be read in a print format. We have put a lot of work into improving the export experience so that professors can create a book using the H2O platform, export it as a Word doc, format it how they like, and distribute it to students as a low cost print-on-demand book or as a PDF they can print. Our expectations of reading formats began to evolve as we heard authors start to ask for multimedia options like video in their H2O casebooks, but we still heard strong feedback from many professors that they needed a print option for their students. 
 
