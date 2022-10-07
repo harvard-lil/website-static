@@ -99,3 +99,11 @@ Source code and documentation on GitHub: [https://github.com/harvard-lil/warc-em
 
 <hr>
 <small>These notes have been compiled as part of a new chapter exploring this technology, but the foundation of our insight was built long ago by [Rebecca Cremona](/about/#rebecca-cremona) as she spearheaded the integration of client-side playback into Perma.cc.</small>
+
+<hr>
+<small>**2022-10-07 update:** We're happy to report that version 1.7.0 of [Webrecorder's replayweb.page](https://github.com/webrecorder/replayweb.page) implements some of the recommendations outlined in this blog post.</small>
+
+<small>Namely:</small>
+- <small>Automatically using `noCache` mode in browsers that do not support the `StorageManager.estimate` API.</small>
+- <small>Automatically using `noWebWorker` mode for Safari 15 and older.</small>
+- <small>Addition of an optional `requireSubDomainIframe` attribute to ensure the player won't start unless it's embedded in a cross-origin `<iframe>`.</small>
