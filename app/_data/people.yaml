@@ -169,6 +169,59 @@ jonathan-zittrain:
   image: jonathan-zittrain.jpg
   affiliated: true
 
+# Fellows
+sankalp-bhatnagar:
+  name: Sankalp Bhatnagar
+  sort_name: Bhatnagar
+  role: Fellow
+  bio: >
+    Sankalp Bhatnagar gained his first exposure to legal design in a
+    seminar on law, justice, and design at Harvard Law School, after
+    which he taught and led efforts to advance the field and its
+    directions at Northeastern University School of Law. He is joining
+    the Library Innovation Lab as a research fellow for the academic
+    year to carry out a new project in partnership with NuLawLab,
+    where he is a senior researcher and has previously been a research
+    resident. Sankalp is designing a workbook of exercises for anyone
+    in the future tasked with crafting and choosing between legal
+    alternatives by cataloging the capabilities of great lawyers and
+    judges in the past.
+  email: s.bhatnagar@northeastern.edu
+  image: no-photo.jpg
+  affiliated: true
+
+oren-tamir:
+  name: Oren Tamir
+  sort_name: Tamir
+  role: Fellow
+  bio: >
+    Oren received his S.J.D. and LL.M. from Harvard Law School and
+    LL.B. (magna cum laude) from the Hebrew University in
+    Jerusalem. Before his graduate studies, he clerked for Justice
+    (now Chief Justice) Esther Hayut of the Israeli Supreme Court and
+    worked for three years as an assistant attorney general in the
+    Office of Legal Counsel and Legislative Affairs in Israel’s
+    Ministry of Justice. He also serves as a Global Hauser
+    Post-doctoral fellow at NYU School of Law.
+  email: otamir@law.harvard.edu
+  image: no-photo.jpg
+  affiliated: true
+
+molly-white:
+  name: Molly White
+  sort_name: White
+  role: Fellow
+  bio: >
+    Molly is a researcher, writer, and software engineer. Before
+    joining LIL she was an independent researcher focusing on issues
+    in the cryptocurrency industry; prior to that she spent six years
+    working on web software. Her interests also include free and open
+    knowledge, Wikipedia, and digital identity, and she spends a lot
+    of time thinking about how we could make the web a better place.
+  email: mwhite@law.harvard.edu
+  image: molly-white.jpg
+  affiliated: true
+
 
 # Friends, Former Staff, Former Fellows, etc.
 # set "affiliated: false" #
