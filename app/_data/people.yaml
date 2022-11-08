@@ -25,6 +25,7 @@ catherine-brobston:
   github_account_name:
   image: catherine-brobston.jpg
   affiliated: true
+  section: Staff
 
 matteo-cargnelutti:
   name: Matteo Cargnelutti
@@ -42,6 +43,7 @@ matteo-cargnelutti:
   github_account_name: matteocargnelutti
   image: matteo-cargnelutti.jpg
   affiliated: true
+  section: Staff
 
 rebecca-cremona:
   name: Rebecca Cremona
@@ -61,6 +63,7 @@ rebecca-cremona:
   github_account_name: rebeccacremona
   image: rebecca-cremona.jpg
   affiliated: true
+  section: Staff
 
 jack-cushman:
   name: Jack Cushman
@@ -79,6 +82,7 @@ jack-cushman:
   github_account_name:  jcushman
   image: jack-cushman.jpg
   affiliated: true
+  section: Staff
 
 liza-daly:
   name: Liza Daly
@@ -92,16 +96,46 @@ liza-daly:
   github_account_name: lizadaly
   image: liza-daly.jpg
   affiliated: true
+  section: Staff
 
 harmony-eidolon:
   name: Harmony Eidolon
   sort_name: Eidolon
   role: Program Coordinator
   bio: >
-    Harmony joins LIL with 20+ years of project management and event experience. While navigating city and state law complexity, she helped pioneer the mobile cocktail catering industry utilizing urban and local farm ingredients with sustainable practices. She has worked closely with organizations to cultivate events for a good cause, focusing on LGBTQIA++ rights, food justice and homelessness, youth safety, environmental and peace initiatives, reproductive freedom, deafness/communication disorder research and the arts. This passion for human rights has led her to LIL, where she enthusiastically works on efforts to advance and democratize open knowledge.
+    Harmony joins LIL with 20+ years of project management and event
+    experience. While navigating city and state law complexity, she
+    helped pioneer the mobile cocktail catering industry utilizing
+    urban and local farm ingredients with sustainable practices. She
+    has worked closely with organizations to cultivate events for a
+    good cause, focusing on LGBTQIA++ rights, food justice and
+    homelessness, youth safety, environmental and peace initiatives,
+    reproductive freedom, deafness/communication disorder research and
+    the arts. This passion for human rights has led her to LIL, where
+    she enthusiastically works on efforts to advance and democratize
+    open knowledge.
   email: heidolon@law.harvard.edu
-  image: no-photo.jpg
+  image: harmony-eidolon.jpg
   affiliated: true
+  section: Staff
+
+rebecca-kilberg:
+  name: Rebecca Kilberg
+  sort_name: Kilberg
+  role: Technologist in Residence
+  bio: >
+    Rebecca has spent much of her career attempting to understand and
+    improve the functionality of public service systems. In past
+    roles, she built software and cloud infrastructure to deliver
+    government services. Her projects included improving visibility
+    into Medicaid and CHIP data and increasing educational equity with
+    the Office of Head Start. She is eager to explore data stewardship
+    in legal and library environments.
+  email: rkilberg@law.harvard.edu
+  github_account_name: kilbergr
+  image: rebecca-kilberg.jpg
+  affiliated: true
+  section: Staff
 
 sabelo-mhlambi:
   name: Sabelo Mhlambi
@@ -115,6 +149,7 @@ sabelo-mhlambi:
   github_account_name: sabzo
   image: sabelo-mhlambi.jpg
   affiliated: true
+  section: Staff
 
 clare-stanton:
   name: Clare Stanton
@@ -133,6 +168,7 @@ clare-stanton:
   github_account_name:
   image: clare-stanton.jpg
   affiliated: true
+  section: Staff
 
 ben-steinberg:
   name: Ben Steinberg
@@ -152,6 +188,7 @@ ben-steinberg:
   github_account_name: bensteinberg
   image: ben-steinberg.jpg
   affiliated: true
+  section: Staff
 
 jonathan-zittrain:
   name: Jonathan Zittrain
@@ -168,6 +205,7 @@ jonathan-zittrain:
   github_account_name:
   image: jonathan-zittrain.jpg
   affiliated: true
+  section: Faculty Director
 
 # Fellows
 sankalp-bhatnagar:
@@ -190,6 +228,7 @@ sankalp-bhatnagar:
   website: http://www.linkedin.com/in/sankalpbisme
   image: sankalp-bhatnagar.jpg
   affiliated: true
+  section: Fellows
 
 oren-tamir:
   name: Oren Tamir
@@ -207,6 +246,7 @@ oren-tamir:
   email: otamir@law.harvard.edu
   image: oren-tamir.jpg
   affiliated: true
+  section: Fellows
 
 molly-white:
   name: Molly White
@@ -225,6 +265,7 @@ molly-white:
   github_account_name: molly
   image: molly-white.jpg
   affiliated: true
+  section: Fellows
 
 
 # Friends, Former Staff, Former Fellows, etc.
@@ -903,6 +944,7 @@ matt-phillips:
   website: http://mattphillips.info
   twitter_account_name: this_phillips
   github_account_name:  phillipsm
+  role: Lead Developer
   affiliated: false
 
 michelle-quin:
@@ -1019,6 +1061,7 @@ david-weinberger:
   sort_name: Weinberger
   website: http://weinberger.org/
   twitter_account_name: dweinberger
+  role: Co-Director
   affiliated: false
 
 jordi-weinstock:
