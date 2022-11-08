@@ -1,5 +1,5 @@
-{% assign active_people = site.data.people | where: "affiliated", true | sort: "sort_name" %}
-{% for person in active_people %}
+{% assign person = include.person %}
+
   <div class="gallery-item-person" id="{{ person.name | slugify }}">
 
     <figure>
@@ -41,4 +41,3 @@
       {% endif %}
     </div>
   </div>
-{% endfor %}

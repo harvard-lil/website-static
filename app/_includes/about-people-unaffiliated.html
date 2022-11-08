@@ -1,5 +1,5 @@
-{% assign old_friends = site.data.people | where: "affiliated", false | sort: "sort_name" %}
-{% for person in old_friends %}
+{% assign person = include.person %}
+
   <div class="person-unaffiliated" id="{{ person.name| slugify }}">
     <div class="basics">
       <strong class="name">{{ person.name }}</strong>
@@ -19,4 +19,3 @@
       </ul>
     {% endif %}
   </div>
-{% endfor %}
