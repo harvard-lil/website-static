@@ -113,7 +113,7 @@ sabelo-mhlambi:
   website: https://sabelo.mhlambi.com/
   twitter_account_name: sabelonow
   github_account_name: sabzo
-  image: no-photo.jpg
+  image: sabelo-mhlambi.jpg
   affiliated: true
 
 clare-stanton:
@@ -175,19 +175,20 @@ sankalp-bhatnagar:
   sort_name: Bhatnagar
   role: Fellow
   bio: >
-    Sankalp Bhatnagar gained his first exposure to legal design in a
-    seminar on law, justice, and design at Harvard Law School, after
-    which he taught and led efforts to advance the field and its
-    directions at Northeastern University School of Law. He is joining
-    the Library Innovation Lab as a research fellow for the academic
-    year to carry out a new project in partnership with NuLawLab,
-    where he is a senior researcher and has previously been a research
-    resident. Sankalp is designing a workbook of exercises for anyone
-    in the future tasked with crafting and choosing between legal
-    alternatives by cataloging the capabilities of great lawyers and
-    judges in the past.
-  email: s.bhatnagar@northeastern.edu
-  image: no-photo.jpg
+    Sankalp Bhatnagar gained his first exposure to the work of legal
+    design in a seminar on law, justice, and design at Harvard Law
+    School, after which he taught and led efforts to advance this
+    field and its directions at Northeastern University School of
+    Law. He is joining the Library Innovation Lab as a research fellow
+    for the academic year to carry out a project in partnership with
+    NuLawLab, where he is a senior researcher and has previously been
+    a research resident. Sankalp is designing a workbook of exercises
+    for law students tasked with crafting and choosing between legal
+    alternatives, which he envisions as a resource not only for future
+    lawyers or judges, but innovators, upstanders, and leaders today.
+  email: sbhatnagar@law.harvard.edu
+  website: http://www.linkedin.com/in/sankalpbisme
+  image: sankalp-bhatnagar.jpg
   affiliated: true
 
 oren-tamir:
@@ -204,7 +205,7 @@ oren-tamir:
     Ministry of Justice. He also serves as a Global Hauser
     Post-doctoral fellow at NYU School of Law.
   email: otamir@law.harvard.edu
-  image: no-photo.jpg
+  image: oren-tamir.jpg
   affiliated: true
 
 molly-white:
@@ -219,6 +220,9 @@ molly-white:
     knowledge, Wikipedia, and digital identity, and she spends a lot
     of time thinking about how we could make the web a better place.
   email: mwhite@law.harvard.edu
+  website: https://mollywhite.net/
+  twitter_account_name: molly0xfff
+  github_account_name: molly
   image: molly-white.jpg
   affiliated: true
 
