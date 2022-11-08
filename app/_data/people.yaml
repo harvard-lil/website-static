@@ -113,7 +113,7 @@ sabelo-mhlambi:
   website: https://sabelo.mhlambi.com/
   twitter_account_name: sabelonow
   github_account_name: sabzo
-  image: no-photo.jpg
+  image: sabelo-mhlambi.jpg
   affiliated: true
 
 clare-stanton:
@@ -167,6 +167,63 @@ jonathan-zittrain:
   twitter_account_name: zittrain
   github_account_name:
   image: jonathan-zittrain.jpg
+  affiliated: true
+
+# Fellows
+sankalp-bhatnagar:
+  name: Sankalp Bhatnagar
+  sort_name: Bhatnagar
+  role: Fellow
+  bio: >
+    Sankalp Bhatnagar gained his first exposure to the work of legal
+    design in a seminar on law, justice, and design at Harvard Law
+    School, after which he taught and led efforts to advance this
+    field and its directions at Northeastern University School of
+    Law. He is joining the Library Innovation Lab as a research fellow
+    for the academic year to carry out a project in partnership with
+    NuLawLab, where he is a senior researcher and has previously been
+    a research resident. Sankalp is designing a workbook of exercises
+    for law students tasked with crafting and choosing between legal
+    alternatives, which he envisions as a resource not only for future
+    lawyers or judges, but innovators, upstanders, and leaders today.
+  email: sbhatnagar@law.harvard.edu
+  website: http://www.linkedin.com/in/sankalpbisme
+  image: sankalp-bhatnagar.jpg
+  affiliated: true
+
+oren-tamir:
+  name: Oren Tamir
+  sort_name: Tamir
+  role: Fellow
+  bio: >
+    Oren received his S.J.D. and LL.M. from Harvard Law School and
+    LL.B. (magna cum laude) from the Hebrew University in
+    Jerusalem. Before his graduate studies, he clerked for Justice
+    (now Chief Justice) Esther Hayut of the Israeli Supreme Court and
+    worked for three years as an assistant attorney general in the
+    Office of Legal Counsel and Legislative Affairs in Israel’s
+    Ministry of Justice. He also serves as a Global Hauser
+    Post-doctoral fellow at NYU School of Law.
+  email: otamir@law.harvard.edu
+  image: oren-tamir.jpg
+  affiliated: true
+
+molly-white:
+  name: Molly White
+  sort_name: White
+  role: Fellow
+  bio: >
+    Molly is a researcher, writer, and software engineer. Before
+    joining LIL she was an independent researcher focusing on issues
+    in the cryptocurrency industry; prior to that she spent six years
+    working on web software. Her interests also include free and open
+    knowledge, Wikipedia, and digital identity, and she spends a lot
+    of time thinking about how we could make the web a better place.
+  email: mwhite@law.harvard.edu
+  website: https://mollywhite.net/
+  twitter_account_name: molly0xfff
+  github_account_name: molly
+  image: molly-white.jpg
   affiliated: true
 
 
