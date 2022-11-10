@@ -48,26 +48,12 @@ layout: sectioned-page
     {% include project-hero.html %}
   {% endif %}
 
-  {% if page.who_contributed %}
-    <div class="slice project-people">
-
-      <div class="sleeve">
-        <h2>Who contributed to {{ page.title }}?</h2>
-
-        <div class="slice-body">
-         {% include project-people.html %}
-        </div>
-      </div>
-
-    </div>
-  {% endif %}
-
   {% assign news = site.data.news | where: "project", page.slug %}
   {% if news.size > 0 %}
     <div class="slice news">
 
       <div class="sleeve">
-        <h2>What’s been written about {{ page.title }}?</h2>
+        <h2>News</h2>
         <div class="slice-body">
           {% for article in news %}
           <div class="news-item {{ article.type }}">
@@ -83,6 +69,25 @@ layout: sectioned-page
               <a class="cc" href="{{ article.archived_url}}"><span class="sr-only">(Perma.cc archive)</span></a>
             {% endif %}
           </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  {% endif %}
+
+  {% if page.who_contributed %}
+    <div class="slice project-people">
+
+      <div class="sleeve">
+        <h2>Project Contributors</h2>
+
+        <div class="slice-body additional-contributors">
+          <h4>Past and current</h4>
+          {% for name in page.who_contributed %}
+            {% assign person = site.data.people[name] %}
+            <strong class="name">{{ person.name }}</strong>
+            <span class="role">{{ person.role }}</span>
           {% endfor %}
         </div>
       </div>
