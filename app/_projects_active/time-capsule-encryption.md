@@ -53,7 +53,6 @@ why_does_it_exist: |
 who_contributed:
   - jack-cushman
   - jonathan-zittrain
-  - berkman
 
 ### Override Jekyll Defaults ###
 custom-footer: true

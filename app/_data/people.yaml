@@ -2,12 +2,12 @@
 # on the html5 img element. the different image sizes in the srcset #
 # need to be created when adding a person and placed in the thumbs dir #
 
-# When adding a core team member or summer fellow, add three sizes - 216x216, 432x432, 648x648 #
+# When adding a current team member, add three sizes - 216x216, 432x432, 648x648 #
 # see https://github.com/harvard-lil/website-static#adding-staff-or-summer-visitors #
 
 
 # Currently affiliated #
-# set "affiliated: true" or "affiliated: summer" #
+# set "affiliated: true", "current: true"
 
 # LIL staff
 catherine-brobston:
@@ -25,6 +25,7 @@ catherine-brobston:
   github_account_name:
   image: catherine-brobston.jpg
   affiliated: true
+  current: true
   section: Staff
 
 matteo-cargnelutti:
@@ -43,6 +44,7 @@ matteo-cargnelutti:
   github_account_name: matteocargnelutti
   image: matteo-cargnelutti.jpg
   affiliated: true
+  current: true
   section: Staff
 
 rebecca-cremona:
@@ -63,6 +65,7 @@ rebecca-cremona:
   github_account_name: rebeccacremona
   image: rebecca-cremona.jpg
   affiliated: true
+  current: true
   section: Staff
 
 jack-cushman:
@@ -82,6 +85,7 @@ jack-cushman:
   github_account_name:  jcushman
   image: jack-cushman.jpg
   affiliated: true
+  current: true
   section: Staff
 
 liza-daly:
@@ -96,6 +100,7 @@ liza-daly:
   github_account_name: lizadaly
   image: liza-daly.jpg
   affiliated: true
+  current: true
   section: Staff
 
 harmony-eidolon:
@@ -117,6 +122,7 @@ harmony-eidolon:
   email: heidolon@law.harvard.edu
   image: harmony-eidolon.jpg
   affiliated: true
+  current: true
   section: Staff
 
 rebecca-kilberg:
@@ -135,6 +141,7 @@ rebecca-kilberg:
   github_account_name: kilbergr
   image: rebecca-kilberg.jpg
   affiliated: true
+  current: true
   section: Staff
 
 sabelo-mhlambi:
@@ -149,6 +156,7 @@ sabelo-mhlambi:
   github_account_name: sabzo
   image: sabelo-mhlambi.jpg
   affiliated: true
+  current: true
   section: Staff
 
 clare-stanton:
@@ -168,6 +176,7 @@ clare-stanton:
   github_account_name:
   image: clare-stanton.jpg
   affiliated: true
+  current: true
   section: Staff
 
 ben-steinberg:
@@ -188,6 +197,7 @@ ben-steinberg:
   github_account_name: bensteinberg
   image: ben-steinberg.jpg
   affiliated: true
+  current: true
   section: Staff
 
 jonathan-zittrain:
@@ -205,6 +215,7 @@ jonathan-zittrain:
   github_account_name:
   image: jonathan-zittrain.jpg
   affiliated: true
+  current: true
   section: Faculty Director
 
 # Fellows
@@ -228,6 +239,7 @@ sankalp-bhatnagar:
   website: http://www.linkedin.com/in/sankalpbisme
   image: sankalp-bhatnagar.jpg
   affiliated: true
+  current: true
   section: Fellows
 
 oren-tamir:
@@ -246,6 +258,7 @@ oren-tamir:
   email: otamir@law.harvard.edu
   image: oren-tamir.jpg
   affiliated: true
+  current: true
   section: Fellows
 
 molly-white:
@@ -265,11 +278,13 @@ molly-white:
   github_account_name: molly
   image: molly-white.jpg
   affiliated: true
+  current: true
   section: Fellows
 
 
-# Friends, Former Staff, Former Fellows, etc.
-# set "affiliated: false" #
+# Former affiliates, and single-project collaborators
+# Entries should not have a "current:" key
+# Former LIL staff, fellows, RAs should have "affiliated: true"
 
 zena-agha:
   name: Zena Agha
@@ -277,14 +292,14 @@ zena-agha:
   role: 2017 Summer Fellow
   website: https://zenaagha.com/about/
   twitter_account_name: Zena_Agha
-  affiliated: false
+  affiliated: true
 
 neel-agrawal:
   name: Neel Agrawal
   sort_name: Agrawal
   role: 2016 Summer Fellow
   website: http://neelagrawal.com
-  affiliated: false
+  affiliated: true
 
 anastasia-aizman:
   name: Anastasia Aizman
@@ -293,12 +308,12 @@ anastasia-aizman:
   website: https://anastasia.github.io
   twitter_account_name:
   github_account_name: anastasia
-  affiliated: false
+  affiliated: true
 
 kendra-albert:
   name: Kendra Albert
   sort_name: Albert
-  role: former Research Associate
+  role: Research Associate
   website: https://kendraalbert.com/
   affiliated: false
   twitter_account_name: KendraSerra
@@ -310,12 +325,12 @@ rachel-auslander:
   website: https://rachelauslander.online/
   twitter_account_name: rachelauslander
   github_account_name: rachelaus
-  affiliated: false
+  affiliated: true
 
 samantha-bates:
   name: Samantha Bates
   sort_name: Bates
-  role: former Research Associate
+  role: Research Associate
   bio: >
     Samantha worked as a research associate for Professor Zittrain and
     helped out with Lab projects. She previously worked in the legal
@@ -340,20 +355,12 @@ karen-beck:
   role: Manager, Historical & Special Collections
   affiliated: false
 
-berkman:
-  name: Berkman Klein Center for Internet and Society
-  sort_name: Berkman
-  role: Cyberspace explorer
-  website: https://cyber.law.harvard.edu/
-  twitter_account_name: berkmancenter
-  affiliated: false
-
 anna-bialas:
   name: Anna Bialas
   sort_name: Bialas
   role: 2017 LIL and Berkman Summer Intern
   github_account_name: annabialas
-  affiliated: false
+  affiliated: true
 
 rachel-binx:
   name: Rachel Binx
@@ -376,7 +383,7 @@ tom-boone:
 john-bowers:
   name: John Bowers
   sort_name: Bowers
-  role: former Research Associate
+  role: Research Associate
   bio: >
     John worked as a research associate for Professor Zittrain. He likes
     cooking, statistics, and historical nonfiction, and once legally named
@@ -395,7 +402,7 @@ carrie-bly:
   email: carrie.bly@gmail.com
   twitter_account_name:
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 hannah-brinkmann:
   name: Hannah Brinkmann
@@ -406,14 +413,14 @@ hannah-brinkmann:
   website: http://hannahbrinkmann.com
   twitter_account_name:
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 annie-cain:
   name: Annie Cain
   sort_name: Cain
   role: Developer
   github_account_name: anniejocain
-  affiliated: false
+  affiliated: true
 
 june-casey:
   name: June Casey
@@ -425,19 +432,15 @@ mathew-cha:
   name: Mathew Dongkyun Cha
   sort_name: Cha
   role: 2022 Summer Research Assistant
-  affiliated: false
+  affiliated: true
 
 stephen-chapman:
   name: Stephen Chapman
   sort_name: Chapman
   role: Manager, Digital Strategies for Collections
-  bio: >
-    Steve is a librarian mad about digitization. Always ready for a road
-    trip, he loves national parks and used bookstores. Steve has worked
-    at Harvard since 1997.
   email: schapman@law.harvard.edu
   twitter_account_name: schapman50
-  affiliated: false
+  affiliated: true
 
 deborah-chase:
   name: Deborah Chase
@@ -450,7 +453,7 @@ brennan-chesley:
   sort_name: Chesley
   role: Developer
   github_account_name: holtchesley
-  affiliated: false
+  affiliated: true
 
 franny-corry:
   name: Franny Corry
@@ -461,7 +464,7 @@ franny-corry:
   website: http://francescorry.net
   twitter_account_name:
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 kyle-courtney:
   name: Kyle K. Courtney
@@ -484,7 +487,7 @@ julian-degroot-lutzner:
   website:
   twitter_account_name:
   github_account_name: jdegrootlutzner
-  affiliated: false
+  affiliated: true
 
 claire-demarco:
   name: Claire DeMarco
@@ -503,7 +506,7 @@ paul-deschner:
   website:
   twitter_account_name:
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 alexandra-dolan-mescal:
   name: Alexandra Dolan-Mescal
@@ -516,26 +519,18 @@ alexandra-dolan-mescal:
   email: adolanmescal@law.harvard.edu
   twitter_account_name: fromadmwithlove
   github_account_name:
-  affiliated: false
-
-dpla:
-  name: Digital Public Library of America
-  sort_name: Digital
-  role: The Digital Public Library of America makes the riches of America's libraries, archives, and museums freely available to the world.
-  website: http://dp.la/
-  twitter_account_name: dpla
-  affiliated: false
+  affiliated: true
 
 kim-dulin:
   name: Kim Dulin
   sort_name: Dulin
-  role: former Library Innovation Lab Director
-  affiliated: false
+  role: Library Innovation Lab Director
+  affiliated: true
 
 lindsay-dumas:
   name: Lindsay Dumas
   sort_name: Dumas
-  role: former Digital Projects Archivist
+  role: Digital Projects Archivist
   affiliated: false
 
 frances-duncan:
@@ -560,13 +555,13 @@ jay-edwards:
   website:
   twitter_account_name: meangrape
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 jake-effoduh:
   name: Jake Effoduh
   sort_name: Effoduh
   role: 2017 Summer Fellow
-  affiliated: false
+  affiliated: true
   twitter_account_name: effodu
   website: http://www.law2go.org/
 
@@ -576,7 +571,7 @@ ashley-fan:
   role: 2021 Summer Research Assistant
   email: ashley.fan@yale.edu
   twitter_account_name: fashleyaan
-  affiliated: false
+  affiliated: true
 
 shira-feldman:
   name: Shira Feldman
@@ -587,14 +582,7 @@ shira-feldman:
   website: http://www.shira-feldman.net
   twitter_account_name: shirarbira
   github_account_name: shirarbira
-  affiliated: false
-
-antonio-fernandes:
-  name: Antonio Fernandes
-  sort_name: Fernandes
-  website: http://codeti.me/
-  twitter_account_name: afj176
-  affiliated: false
+  affiliated: true
 
 kelly-fitzpatrick:
   name: Kelly Fitzpatrick
@@ -606,7 +594,7 @@ kelly-fitzpatrick:
   website: http://lkfitz.tumblr.com/
   twitter_account_name: fitzbub
   github_account_name: lkfitz
-  affiliated: false
+  affiliated: true
 
 kerri-fleming:
   name: Kerri Fleming
@@ -617,7 +605,7 @@ kerri-fleming:
     Backstreet Boys. In her spare time she is either giving her niece
     horsie rides or teaching exercise classes at nursing homes.
   email:  kfleming@law.harvard.edu
-  affiliated: false
+  affiliated: true
 
 gerard-fowke:
   name: Gerard Fowke
@@ -630,7 +618,7 @@ sara-frug:
   sort_name: Frug
   role: 2017 Summer Fellow
   twitter_account_name: ssfrug
-  affiliated: false
+  affiliated: true
 
 ben-gaucherin:
   name: Ben Gaucherin
@@ -645,13 +633,13 @@ sarah-glassmeyer:
   website: http://www.sarahglassmeyer.com
   twitter_account_name: sglassmeyer
   github_account_name: sglassmeyer
-  affiliated: false
+  affiliated: true
 
 jeff-goldenson:
   name: Jeff Goldenson
   sort_name: Goldenson
-  role: Former LIL Designer
-  affiliated: false
+  role: Designer
+  affiliated: true
 
 kendra-greene:
   name: Kendra Greene
@@ -660,13 +648,13 @@ kendra-greene:
   bio:
   email: akendragreene@gmail.com
   website: http://akendragreene.com
-  affiliated: false
+  affiliated: true
 
 hans-christian-gregerson:
   name: Hans Christian Gregerson
   sort_name: Gregerson
   role: 2016 LIL and Berkman Summer Intern
-  affiliated: false
+  affiliated: true
 
 casey-gruppioni:
   name: Casey Gruppioni
@@ -679,7 +667,7 @@ casey-gruppioni:
   website:
   twitter_account_name: cgruppioni
   github_account_name: cgruppioni
-  affiliated: false
+  affiliated: true
 
 andy-gu:
   name: Andy Gu
@@ -688,13 +676,7 @@ andy-gu:
   email: agu@jd24.law.harvard.edu
   twitter_account_name: andy__gu
   github_account_name: 4ndygu
-  affiliated: false
-
-harvard-library-lab:
-  name: Harvard Library Lab
-  sort_name: Harvard
-  website: http://osc.hul.harvard.edu/liblab/
-  affiliated: false
+  affiliated: true
 
 evelin-heidel:
   name: Evelin Heidel
@@ -704,7 +686,7 @@ evelin-heidel:
   email: scannopolis@gmail.com
   twitter_account_name: scannopolis
   github_account_name: scannopolis
-  affiliated: false
+  affiliated: true
 
 keith-hartwig:
   name: Keith Hartwig
@@ -718,13 +700,14 @@ alison-head:
   sort_name: Head
   website: http://projectinfolit.org
   twitter_account_name: alisonjhead
-  affiliated: false
+  affiliated: true
+  role: 2011 visiting researcher
 
 davis-henderson:
   name: Davis Henderson
   sort_name: Henderson
   role: 2022 Summer Research Assistant
-  affiliated: false
+  affiliated: true
 
 sha-hwang:
   name: Sha Hwang
@@ -738,13 +721,13 @@ adaeze-ibeanu:
   sort_name: Ibeanu
   role: 2021 Summer Research Assistant
   email: aibeanu@live.unc.edu
-  affiliated: false
+  affiliated: true
 
 varun-iyer:
   name: Varun Iyer
   sort_name: Iyer
   role: 2022 Summer Research Assistant
-  affiliated: false
+  affiliated: true
 
 michael-jimenez:
   name: Michael Jimenez
@@ -761,7 +744,7 @@ brett-johnson:
   website:  http://forrealdude.tumblr.com
   twitter_account_name:
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 dan-jones:
   name: Dan Jones
@@ -773,7 +756,7 @@ rachel-karasick:
   name: Rachel Karasick
   sort_name: Karasick
   role: 2017 Summer Fellow
-  affiliated: false
+  affiliated: true
   twitter_account_name: rkarasick
 
 jane-kelly:
@@ -794,7 +777,7 @@ ilya-kreymer:
   role: 2016 Summer Fellow
   twitter_account_name: IlyaKreymer
   github_account_name: ikreymer
-  affiliated: false
+  affiliated: true
 
 aadi-kulkarni:
   name: Aadi Kulkarni
@@ -803,7 +786,7 @@ aadi-kulkarni:
   email: ak2354@cornell.edu
   website:  https://www.linkedin.com/in/aadik/
   github_account_name: aadik23
-  affiliated: false
+  affiliated: true
 
 caitlin-laughlin:
   name: Caitlin Laughlin
@@ -817,50 +800,50 @@ caitlin-laughlin:
   website:
   twitter_account_name:
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 doyung-lee:
   name: Doyung Lee
   sort_name: Lee
   role: 2017 LIL and Berkman Summer Intern
   website: https://doyunglee.github.io/
-  affiliated: false
+  affiliated: true
 
 seonghee-lee:
   name: Seonghee Lee
   sort_name: Lee
   role: 2022 Summer Research Assistant
   website: https://seungheelee.net/
-  affiliated: false
+  affiliated: true
 
 erica-leeman:
   name: Erica Leeman
   sort_name: Leeman
-  role: former Digitization Specialist
+  role: Digitization Specialist
   affiliated: false
 
 greg-leppert:
   name: Greg Leppert
   sort_name: Leppert
-  role: Developer
+  role: Contributing developer
   website: http://leppert.me
   twitter_account_name: leppert
   github_account_name: leppert
-  affiliated: false
+  affiliated: true
 
 dustin-lewis:
   name: Dustin Lewis
   sort_name: Lewis
-  role: former Project Manager (FTL, H2O) and now Senior Researcher at Harvard Law School's PILAC
+  role: Project Manager
   website: http://pilac.law.harvard.edu/dustin-a-lewis
   twitter_account_name: dustin_a_lewis
-  affiliated: false
+  affiliated: true
 
 andrew-mactaggart:
   name: Andrew MacTaggart
   sort_name: MacTaggart
   role: Senior Digitization Specialist
-  affiliated: false
+  affiliated: true
 
 emily-magagnosc:
   name: Emily Magagnosc
@@ -878,7 +861,7 @@ kate-mays:
   name: Kate Mays
   sort_name: Mays
   role: LIL and Berkman Summer Intern
-  affiliated: false
+  affiliated: true
 
 timothy-mcallister:
   name: Timothy McAllister
@@ -891,21 +874,13 @@ muira-mccammon:
   sort_name: McCammon
   role: 2016 Summer Fellow
   twitter_account_name: muira_mccammon
-  affiliated: false
-
-metalab:
-  name: MetaLAB at Harvard
-  sort_name: MetaLAB
-  role: Exploring and expanding the frontiers of networked culture in the arts and humanities
-  website: http://metalab.harvard.edu/
-  twitter_account_name: metalabharvard
-  affiliated: false
+  affiliated: true
 
 matt-miller:
   name: Matt Miller
   sort_name: Miller
   role: 2017 Summer Fellow
-  affiliated: false
+  affiliated: true
   website: http://thisismattmiller.com/
   twitter_account_name: thisismmiller
 
@@ -913,7 +888,7 @@ miglena-minkova:
   name: Miglena Minkova
   sort_name: Minkova
   role: 2017 Summer Fellow
-  affiliated: false
+  affiliated: true
   website: http://miglenaminkova.com/
   twitter_account_name: miglenaminkova
   github_account_name: MMinkova
@@ -922,7 +897,7 @@ loren-newman:
   name: Loren Newman
   sort_name: Newman
   role: Intern
-  affiliated: false
+  affiliated: true
 
 alexander-nwala:
   name: Alexander Nwala
@@ -930,7 +905,7 @@ alexander-nwala:
   role: 2016 Summer Fellow
   twitter_account_name: acnwala
   github_account_name: anwala
-  affiliated: false
+  affiliated: true
 
 margaret-peachy:
   name: Margaret Peachy
@@ -945,7 +920,7 @@ matt-phillips:
   twitter_account_name: this_phillips
   github_account_name:  phillipsm
   role: Lead Developer
-  affiliated: false
+  affiliated: true
 
 michelle-quin:
   name: Michelle Quin
@@ -956,13 +931,13 @@ michelle-quin:
   website:
   twitter_account_name:
   github_account_name: michellequin
-  affiliated: false
+  affiliated: true
 
 tim-riser:
   name: Tim Riser
   sort_name: Riser
   role: 2016 LIL and Berkman Summer Intern
-  affiliated: false
+  affiliated: true
 
 lori-schulsinger:
   name: Lori Schulsinger
@@ -976,7 +951,7 @@ satvik-shukla:
   role: 2018 Summer Intern
   twitter_account_name:
   github_account_name: satvikshukla
-  affiliated: false
+  affiliated: true
 
 andy-silva:
   name: Andy Silva
@@ -987,7 +962,7 @@ andy-silva:
   website:
   twitter_account_name: SomeInterwebDev
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 carli-spina:
   name: Carli Spina
@@ -1006,20 +981,20 @@ zach-tan:
   name: Zach Tan
   sort_name: Tan
   role: 2017 LIL and Berkman Summer Intern
-  affiliated: false
+  affiliated: true
 
 emily-teng:
   name: Emily Teng
   sort_name: Teng
   role: 2022 Summer Research Assistant
-  affiliated: false
+  affiliated: true
 
 shailin-thomas:
   name: Shailin Thomas
   sort_name: Thomas
   role: Affiliate, Berkman Center for Internet & Society
   twitter_account_name: shailinthomas
-  affiliated: false
+  affiliated: true
 
 caleb-troughton:
   name: Caleb Troughton
@@ -1034,7 +1009,7 @@ tiff-tseng:
   role: 2016 Summer Fellow
   website: http://spin.media.mit.edu
   twitter_account_name: scientiffic
-  affiliated: false
+  affiliated: true
 
 tessa-walsh:
   name: Tessa Walsh
@@ -1048,7 +1023,7 @@ tessa-walsh:
   website: https://www.bitarchivist.net/
   twitter_account_name: bitarchivist
   github_account_name: tw4l
-  affiliated: false
+  affiliated: true
 
 caroline-walters:
   name: Caroline Walters
@@ -1062,7 +1037,7 @@ david-weinberger:
   website: http://weinberger.org/
   twitter_account_name: dweinberger
   role: Co-Director
-  affiliated: false
+  affiliated: true
 
 jordi-weinstock:
   name: Jordi Weinstock
@@ -1073,7 +1048,7 @@ jordi-weinstock:
   website:
   twitter_account_name:
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 jessamyn-west:
   name: Jessamyn West
@@ -1084,13 +1059,13 @@ jessamyn-west:
   website: http://www.librarian.net/
   twitter_account_name: jessamyn
   github_account_name:
-  affiliated: false
+  affiliated: true
 
 reid-whitaker:
   name: Reid Whitaker
   sort_name: Whitaker
   role: 2017 Summer Fellow
-  affiliated: false
+  affiliated: true
   twitter_account_name: reidmwhitaker
 
 dano-williams:
@@ -1100,21 +1075,22 @@ dano-williams:
   website: https://thisisdano.github.io/
   twitter_account_name: thisisdano
   github_account_name: thisisdano
-  affiliated: false
+  affiliated: true
 
 suzanne-wones:
   name: Suzanne Wones
   sort_name: Wones
-  role: former Executive Director, Harvard Law School Library
+  role: Executive Director, Harvard Law School Library
   twitter_account_name: onlywones
-  affiliated: false
+  affiliated: true
 
 rosten-woo:
   name: Rosten Woo
   sort_name: Woo
   website: http://www.rostenwoo.biz/
   twitter_account_name: rstnrstn
-  affiliated: false
+  role: Contributing designer
+  affiliated: true
 
 yunhan-xu:
   name: Yunhan Xu
@@ -1134,4 +1110,4 @@ adam-ziegler:
   role: Director
   twitter_account_name: abziegler
   github_account_name:  abziegler
-  affiliated: false
+  affiliated: true

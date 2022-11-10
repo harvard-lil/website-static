@@ -82,9 +82,10 @@ layout: sectioned-page
       <h2>Who we are</h2>
       <p>The people at the Lab.</p>
     </div>
+    {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
     {% assign sections = "Faculty Director, Staff, Fellows, Research Assistants" | split: ", " %}
     {% for section in sections %}
-      {% assign section_people = site.data.people | where: "affiliated", true | where: "section", section | sort: "sort_name" %}
+      {% assign section_people = affiliates | where: "current", true | where: "section", section %}
       {% if section_people != empty %}
         <h3>{{ section }}</h3>
         {% for person in section_people %}
@@ -95,21 +96,16 @@ layout: sectioned-page
   </div>
 </section>
 
-{% include about-people-summer.html %}
-
 <section class="people-unaffiliated">
   <div class="sleeve">
     <div class="heading-pair">
-      <h2>Collaborators</h2>
-      <p>Friends and fellow travelers.</p>
+      <h2>Past Affiliates</h2>
     </div>
 
     <div class="list">
-      {% assign old_friends = site.data.people | where: "affiliated", false | sort: "sort_name" %}
+      {% assign old_friends = affiliates | where: "current", nil %}
       {% for person in old_friends %}
-        {% if person.role %}
-          {% include about-people-unaffiliated.html person=person %}
-        {% endif %}
+        {% include about-people-unaffiliated.html person=person %}
       {% endfor %}
     </div>
   </div>
