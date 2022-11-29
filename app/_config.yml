@@ -2,8 +2,6 @@
 destination: ../build
 permalink: pretty
 markdown: kramdown
-kramdown:
-    smart_quotes: ["apos", "apos", "quot", "quot"]
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
