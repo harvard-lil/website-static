@@ -4,12 +4,13 @@ date: 2016-04-15 00:09:28+00:00
 slug: iipc-two-track-thursday
 title: 'IIPC: Two Track Thursday'
 wordpress_id: 2267
+excerpt_separator: <!--more-->
 ---
 
 ![2016-04-14x](https://lil-blog-media.s3.amazonaws.com/2016/04/2016-04-14x.jpg)
 _A protester throwing cookies at the parliament._
 
-Here are some things that caught our ear this fine Thursday at the International Internet Preservation Consortium web archiving conference:
+Here are some things that caught our ear this fine Thursday at the International Internet Preservation Consortium web archiving conference<!--more-->:
 
   * Tom Storrar at the [UK Government Web Archive](http://nationalarchives.gov.uk/webarchive/) reports on a user research project: ~20 in person interviews and ~130 [WAMMI](http://www.wammi.com/questionnaire.html) surveys resulting in 5 character vignettes. "WAMMI" replaces "WASAPI" as our favorite acronym.
 

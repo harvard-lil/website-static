@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+December links!
+
 {% include roundup-item.html
   link="http://www.cnn.com/interactive/2013/12/tech/cnn10-ideas/"
   title="The CNN 10: Ideas - CNN.com"

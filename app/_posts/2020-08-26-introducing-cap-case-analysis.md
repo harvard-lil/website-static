@@ -1,6 +1,7 @@
 ---
 title: Introducing CAP Case Analysis
 author: kelly-fitzpatrick
+no-excerpt: true
 ---
 We’re announcing a new layer of information in the [Caselaw Access Project](https://case.law/).
 

@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+This is the good stuff.
+
 {% include roundup-item.html
   link="http://stilldrinking.org/nobody-understands-punctuation"
   title="Nobody. Understands. Punctuation."

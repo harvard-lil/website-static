@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Round up!
+
 {% include roundup-item.html
   link="http://www.semantico.com/2014/03/wake-up-to-what-the-%E2%80%98article-of-the-future%E2%80%99-is-really-all-about/"
   title="Wake up to what the 'article of the future' is really about - Semantico"

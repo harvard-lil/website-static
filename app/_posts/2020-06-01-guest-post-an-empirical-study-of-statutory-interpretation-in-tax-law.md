@@ -1,12 +1,15 @@
 ---
 title: 'Guest Post: An Empirical Study of Statutory Interpretation in Tax Law'
 guest-author: Jonathan H. Choi
+excerpt_separator: <!--more-->
 ---
 *This guest post is part of the CAP Research Community Series. This series highlights research, applications, and projects created with Caselaw Access Project data.*
 
 *Jonathan H. Choi is a Fellow at the New York University School of Law and will join the University of Minnesota Law School as an Associate Professor in August 2020. This post summarizes an article recently published in the May 2020 issue of the New York University Law Review, titled An Empirical Study of Statutory Interpretation in Tax Law, [available here on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstractid=3460962).*
 
 Do agencies interpret statutes using the same methodologies as courts? Have agencies and courts changed their interpretive approaches over time? And do different interpretive tools apply in different areas of law?
+
+<!--more-->
 
 Tax law provides a good case study for all these questions. It has ample data points for comparative analysis: the IRS is one of the biggest government agencies and has published a bulletin of administrative guidance on a weekly basis for more than a hundred years, while the Tax Court (which hears almost all federal tax cases) has been active since 1942. By comparing trends in interpretive methodology at the IRS and Tax Court, we can see how agency and court activity has evolved over time. 
 

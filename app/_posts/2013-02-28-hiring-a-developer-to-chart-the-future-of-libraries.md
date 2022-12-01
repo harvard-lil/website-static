@@ -3,6 +3,7 @@ author: jeff-goldenson
 date: 2013-02-28 17:36:29+00:00
 title: Hiring! A developer to chart the future of libraries
 wordpress_id: 1546
+excerpt_separator: <!--more-->
 ---
 
 ![LibLabStampSmall](https://lil-blog-media.s3.amazonaws.com/2013/02/LibLabStampSmall.png)
@@ -11,15 +12,17 @@ The Harvard Library Innovation Lab is looking for a highly creative and motivate
 
 ![group-stylized](https://lil-blog-media.s3.amazonaws.com/2013/02/group-stylized.jpg)
 
-We are a tightly knit team of six and are passionate about solving problems, having fun, and improving lives through libraries.  Join us!
+We are a tightly knit team of six and are passionate about solving problems, having fun, and improving lives through libraries.  Join us!
 
 **This is definitely a dream job for somebody out there.**
+
+<!--more-->
 
 The best way to get a feel for what we do is by looking at [our projects]({{ site.baseurl }}/projects/).
 
 **A sample of our work**
 
-[Awesome Box](http://awesomebox.io) is current project in the Lab
+[Awesome Box](http://awesomebox.io) is current project in the Lab
 
 ![](https://lil-blog-media.s3.amazonaws.com/2013/02/Screen-Shot-2013-02-27-at-5.29.59-PM.png)
 
@@ -33,7 +36,7 @@ StackLife, our soon-to-launch Library Browser
 
 * Work on a range of software projects, from large to small, that can bring immediate benefit or prototype the future.
 
-* Make stuff with modern web technologies.  Some will be larger LiL projects, others are your own.
+* Make stuff with modern web technologies.  Some will be larger LiL projects, others are your own.
 
 * Work alone with a good bit of freedom, which means a great deal of initiative is required.
 

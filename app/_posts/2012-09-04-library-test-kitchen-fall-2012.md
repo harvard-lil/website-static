@@ -25,7 +25,7 @@ Ann Whiteside, Director of the Loeb Architecture Library
 
 Ben Brady, GSD graduate and LTK Spring 2012
 
-Jessica Yurkofsky, GSD graduate and LTK Spring 2012 and current LiL resident.
+Jessica Yurkofsky, GSD graduate and LTK Spring 2012 and current LiL resident.
 
 and me.
 
@@ -33,4 +33,4 @@ We had a great turnout and are looking forward excitedly to what the Fall will b
 
 **new brains on library problems = eye-opening**
 
-Follow the goings-on at [http://www.librarytestkitchen.org/](http://www.librarytestkitchen.org/)
+Follow the goings-on at [http://www.librarytestkitchen.org/](http://www.librarytestkitchen.org/)

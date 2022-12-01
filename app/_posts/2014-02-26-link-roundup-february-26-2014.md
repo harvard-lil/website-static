@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Good stuff!
+
 {% include roundup-item.html
   link="http://colossalshop.com/products/marks-for-books"
   title="Marks for Books"

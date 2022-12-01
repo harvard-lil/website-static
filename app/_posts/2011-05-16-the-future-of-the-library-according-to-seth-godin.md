@@ -3,6 +3,7 @@ author: jeff-goldenson
 date: 2011-05-16 15:45:57+00:00
 title: The Future of the Library, According to Seth Godin
 wordpress_id: 628
+no-excerpt: true
 ---
 
 A good to read piece that must surely be making the rounds in library circles:

@@ -5,7 +5,7 @@ title: 'Overdue Redesign'
 wordpress_id: 1653
 ---
 
-I received an overdue notice a little while back.  I've received them many times.  But I looked at it and I realized it was pretty complicated.
+I received an overdue notice a little while back.  I've received them many times.  But I looked at it and I realized it was pretty complicated.
 
 ![overdue-existing](https://lil-blog-media.s3.amazonaws.com/2013/04/overdue-existing.jpg)
 
@@ -20,6 +20,6 @@ But what if it could be simple HTML?
 
 ![over-due-improved](https://lil-blog-media.s3.amazonaws.com/2013/04/over-due-improved.jpg)
 
-Maybe we could add a 1-click renew button.  Or, maybe a courtesy auto-renew.  Perhaps in the future we could add opt-in events listings or book recommendations, etc.
+Maybe we could add a 1-click renew button.  Or, maybe a courtesy auto-renew.  Perhaps in the future we could add opt-in events listings or book recommendations, etc.
 
-Overdue notices are the primary correspondence between the library and its community.  We should give them their due attention.
+Overdue notices are the primary correspondence between the library and its community.  We should give them their due attention.

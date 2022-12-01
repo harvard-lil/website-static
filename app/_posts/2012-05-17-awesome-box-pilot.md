@@ -3,6 +3,7 @@ author: annie-cain
 date: 2012-05-17 15:35:52+00:00
 title: Awesome Box Pilot
 wordpress_id: 1099
+excerpt_separator: <!--more-->
 categories:
 - Projects
 ---
@@ -12,6 +13,8 @@ categories:
 **UPDATE:** Awesome Box is now well beyond the pilot phase. Visit [awesomebox.io](http://awesomebox.io) to learn how to get one at your library.
 
 The Harvard community now has the chance to declare something Awesome. Just by dropping it in a box. Amazing, useful and entertaining library materials can now be returned to the Awesome Boxes in Widener and Lamont.
+
+<!--more-->
 
 Check out what's been Awesomed already at [http://librarylab.law.harvard.edu/awesome](https://web.archive.org/web/20150919182025/http://librarylab.law.harvard.edu/awesome/).
 
@@ -26,6 +29,6 @@ We want users to understand the following without using too much text.
   * Placing an item in the Awesome Box actually returns it to the library
 
 
-Hopefully more Awesome Boxes will get released into the wild soon.  In the meantime, return an Awesome item to Widener or Lamont, check out what's [Recently Awesome](https://web.archive.org/web/20150919182025/http://librarylab.law.harvard.edu/awesome/), and let us know what you think.
+Hopefully more Awesome Boxes will get released into the wild soon.  In the meantime, return an Awesome item to Widener or Lamont, check out what's [Recently Awesome](https://web.archive.org/web/20150919182025/http://librarylab.law.harvard.edu/awesome/), and let us know what you think.
 
 Learn [more about the project](http://osc.hul.harvard.edu/liblab/proj/awesome-box).

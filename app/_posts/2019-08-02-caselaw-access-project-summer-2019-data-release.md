@@ -1,12 +1,15 @@
 ---
 title: "Caselaw Access Project: Summer 2019 Data Release"
 author: kelly-fitzpatrick
+excerpt_separator: <!--more-->
 ---
 Today we’re announcing a new data release for the [Caselaw Access Project](https://case.law/). This update includes:
 
 * In-text figures and illustrations in cases. An example, from *[Sussman v. Cooper ](https://cite.case.law/f2d/537/531/)*(1976), is below. 
 * Inline page numbers. You can provide a pin cite to a specific page in a case by adding `#p123` to the URL, or just by clicking the page number.
 * Italic formatting in case text, as detected by OCR.
+
+<!--more-->
 
 See what this all looks like in practice with [an example](https://cite.case.law/f2d/537/531/#p532).
 

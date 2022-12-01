@@ -3,6 +3,7 @@ author: dan-jones
 date: 2011-11-01 18:42:36+00:00
 title: 'Library Lab/The Podcast 009: What Libraries Want'
 wordpress_id: 947
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -17,6 +18,8 @@ tags:
 The way we search for information on the web has antecedents in the way search works in traditional libraries and research journals. There's metadata, and there's also a sense of allowing the content that is most cited to float to the top.
 
 So why the library of the future still being waylaid?
+
+<!--more-->
 
 While research journals and paywalled sites often have an advantage when it comes to organization and quality of content, sites like Wikipedia dominate the educational web due to their openness and collaborative nature.
 

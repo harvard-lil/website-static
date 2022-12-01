@@ -3,6 +3,7 @@ author: jeff-goldenson
 date: 2011-04-21 14:20:15+00:00
 title: Encyclopaedia Britannica Films, 1947
 wordpress_id: 596
+no-excerpt: true
 categories:
 - Videocasts
 tags:

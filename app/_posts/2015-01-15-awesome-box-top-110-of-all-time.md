@@ -67,7 +67,7 @@ Now that the year-end lists have come and gone, we'd like to present the top 110
 
   27. [Fangirl](http://www.worldcat.org/title/fangirl/oclc/827256917) 30
 
-  28. [Maximum Ride](http://www.worldcat.org/search?q=ti%3Amaximum+ride) 29
+  28. [Maximum Ride](http://www.worldcat.org/search?q=ti%3Amaximum+ride) 29
 
   29. [Dork diaries ](http://www.worldcat.org/search?q=ti%3Adork+diaries)29
 

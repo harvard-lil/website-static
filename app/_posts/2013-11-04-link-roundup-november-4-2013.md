@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Very good stuff!
+
 {% include roundup-item.html
   link="http://www.chicagotribune.com/news/local/breaking/chi-library-cites-first-amendment-in-allowing-web-access-to-porn-20131104,0,7232644.story?track=rss"
   title="In newest porn debate, Orland Park library pleads the First - chicagotribune.com"

@@ -3,6 +3,7 @@ author: anastasia-aizman
 date: 2017-05-18 16:00:43+00:00
 title: "LIL Talks: A Small Study of Epic Proportions"
 wordpress_id: 2748
+excerpt_separator: <!--more-->
 categories:
 - Friday Fundays
 - LIL talks
@@ -11,6 +12,8 @@ categories:
 (_This is a guest post by John Bowers, a student at Harvard College who is collaborating with us on the Entropy Project. John will be a [Berktern](https://cyber.harvard.edu/getinvolved/internships) here this Summer._)
 
 In last week’s LIL talk, team member and graduating senior Yunhan Xu shared some key findings from her prize-winning thesis “A Small Study of Epic Proportions: Toward a Statistical Reading of the _Aeneid_.” As an impressive entry into the evolving “digital humanities” literature, Yunhan’s thesis blended the empirical rigor of statistical analysis with storytelling and interpretive methods drawn from the study of classics.
+
+<!--more-->
 
 ![](https://lil-blog-media.s3.amazonaws.com/580544E2-0F07-4B16-AE66-C020073BF4EB-768x576.jpg)
 

@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-03-28 05:28:20+00:00
 title: OCLC's world library stats
 wordpress_id: 580
+no-excerpt: true
 categories:
 - misc
 ---

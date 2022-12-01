@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-08-29 14:38:51+00:00
 title: Open Access articles are cited more?
 wordpress_id: 347
+no-excerpt: true
 categories:
 - open access
 tags:

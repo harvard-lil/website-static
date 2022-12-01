@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-01-02 22:03:27+00:00
 title: The year in Open Access
 wordpress_id: 479
+no-excerpt: true
 categories:
 - open access
 tags:

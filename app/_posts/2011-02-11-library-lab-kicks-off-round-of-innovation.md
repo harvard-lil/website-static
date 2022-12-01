@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-02-11 15:07:14+00:00
 title: Library Lab kicks off round of innovation
 wordpress_id: 548
+excerpt_separator: <!--more-->
 categories:
 - Announcements
 - Library Cloud
@@ -13,7 +14,7 @@ tags:
 - podcasts
 ---
 
-Harvard's [Library Lab](http://osc.hul.harvard.edu/liblab) has announced the [first projects](http://osc.hul.harvard.edu/liblab/prop1) it will be funding. It's an exciting group, and we're proud that three of our projects made the list:
+Harvard's [Library Lab](http://osc.hul.harvard.edu/liblab) has announced the [first projects](http://osc.hul.harvard.edu/liblab/prop1) it will be funding. It's an exciting group, and we're proud that three of our projects made the list<!--more-->:
 
 * _Library Analytics Toolkit_: Tools to enable libraries to understand, analyze, and visualize the patterns of activities, including checkouts, returns, and recent acquisitions, and to do so across multiple libraries.
 

@@ -3,6 +3,7 @@ author: dan-jones
 date: 2011-09-20 14:28:46+00:00
 title: 'Library Lab/The Podcast 007: The Velocity of Books'
 wordpress_id: 796
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -14,6 +15,8 @@ tags:
 ([**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-09-20_timspalding.ogg))
 
 With the web, people are reading more than ever before you could say. But what are we reading? Likely it's all short form: blog posts, tweets, status updates. They're words, but it's not exactly _literature_.
+
+<!--more-->
 
 ![](http://farm4.static.flickr.com/3276/2816757327_37f7f06103_o.jpg)
 

@@ -11,11 +11,11 @@ PowerPoint, [Deck.js](http://imakewebthings.com/deck.js/), and the like are fant
 
 ![](https://lil-blog-media.s3.amazonaws.com/2016/12/pitch-med.gif)
 
-You might end up with physical cards like I did when I recently pitched [Private Talking Spaces]({{ site.baseurl }}/blog/2016/09/02/private-talking-spaces-progress/). The cards are surprisingly good!! Just like non-physical slides, they can provide outlines for talks and discussions, but they're so simple (just paper and ink), they won't get in the way when sharing ideas with small groups.
+You might end up with physical cards like I did when I recently pitched [Private Talking Spaces]({{ site.baseurl }}/blog/2016/09/02/private-talking-spaces-progress/). The cards are surprisingly good!! Just like non-physical slides, they can provide outlines for talks and discussions, but they're so simple (just paper and ink), they won't get in the way when sharing ideas with small groups.
 
 ![](https://lil-blog-media.s3.amazonaws.com/2016/12/IMG_7287.jpg)
 
-The operation of the cards is as plain as can be - just take the card off the top, flip it upside down, and put it to the side. 
+The operation of the cards is as plain as can be - just take the card off the top, flip it upside down, and put it to the side.
 
 ![](https://lil-blog-media.s3.amazonaws.com/2016/12/IMG_7289.jpg)
 

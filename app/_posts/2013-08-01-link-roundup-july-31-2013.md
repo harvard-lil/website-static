@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Round up!
+
 {% include roundup-item.html
   link="http://www.reddit.com/tb/1jfpdm"
   title="Abandoned Walmart is Now America's Largest Library via reddit.com"

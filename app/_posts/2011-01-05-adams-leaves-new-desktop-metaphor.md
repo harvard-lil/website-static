@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-01-05 15:34:40+00:00
 title: 'Adam''s leaves: New desktop metaphor'
 wordpress_id: 484
+no-excerpt: true
 categories:
 - Ideas
 tags:

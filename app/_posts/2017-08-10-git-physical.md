@@ -3,11 +3,14 @@ author: anastasia-aizman
 date: 2017-08-10 16:00:43+00:00
 title: "Git physical"
 wordpress_id: 2919
+excerpt_separator: <!--more-->
 ---
 
 _This is a guest blog post by our summer fellow [Miglena Minkova](http://miglenaminkova.com/)._
 
 Last week at LIL, I had the pleasure of running a pilot of **git physical**, the first part of a series of workshops aimed at introducing git to artists and designers through creative challenges. In this workshop I focused on covering the basics: [three-tree architecture](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics), simple git workflow, and commands (add, commit, push). These lessons were fairly standard but contained a twist: The whole thing was completely analogue!
+
+<!--more-->
 
 ![](https://lil-blog-media.s3.amazonaws.com/participants-workshop-1.2-copy-1024x768.jpg)
 

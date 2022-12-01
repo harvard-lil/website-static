@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2013-02-11 18:49:21+00:00
 title: Are publishers out-competing libraries? Podcast with Andrew Odlyzko
 wordpress_id: 1513
+excerpt_separator: <!--more-->
 categories:
 - curation
 - digitization
@@ -15,6 +16,8 @@ categories:
 Last week, [Andrew Odlyzko](http://www.dtc.umn.edu/~odlyzko/) [[wikipedia](http://en.wikipedia.org/wiki/Andrew_Odlyzko)] a mathematician and historian, and former head of the University of Minnesota's Digital Technology Center, posted a [research paper](http://www.dtc.umn.edu/~odlyzko/doc/libpubcomp.pdf) that concludes that the data suggest that libraries are losing their competition with the publishers of academic journals. Andrew is a long-time open access advocate, so he's not saying this is a good thing. But he is a data-driven historian.
 
 So I gave him a call, and we talked for about 25 minutes about the paper, and more generally about the role of curators in an age of free or cheap abundance. You can listen [here](http://librarylab.law.harvard.edu/dev/david/podcasts/AndrewOdlyzko-Feb8-2013.mp3).
+
+<!--more-->
 
 Here's Andrew's abstract:
 

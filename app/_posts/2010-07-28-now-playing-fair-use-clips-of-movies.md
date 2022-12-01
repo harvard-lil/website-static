@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-07-28 16:21:46+00:00
 title: 'Now playing: Fair Use clips of movies'
 wordpress_id: 322
+no-excerpt: true
 categories:
 - rights
 tags:

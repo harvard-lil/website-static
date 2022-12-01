@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+This is the good stuff.
+
 {% include roundup-item.html
   link="http://animalnewyork.com/2014/watch-ninety-six-pixels-inflate-deflate/"
   title="Watch These Ninety-Six \"Pixels\" Inflate and Deflate"

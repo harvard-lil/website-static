@@ -3,6 +3,7 @@ author: ben-gaucherin
 date: 2009-11-30 18:51:15+00:00
 title: Playing with CMaps
 wordpress_id: 90
+no-excerpt: true
 categories:
 - ShelfLife
 - Tools and Widgets

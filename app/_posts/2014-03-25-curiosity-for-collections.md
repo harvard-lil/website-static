@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2014-03-25 19:57:14+00:00
 title: CURIOSity for collections
 wordpress_id: 1896
+excerpt_separator: <!--more-->
 categories:
 - curation
 - interop
@@ -20,6 +21,8 @@ tags:
   * We need to replace our aging online collection building tools: Virtual Collections and TED
 
   * We've been creating digital content for 15 years at Harvard, so now have a good foundation for combining and presenting collections in new ways. The new service would be called CURIOSity, and, as Wendy notes, it does not exist yet.
+
+<!--more-->
 
 **NOTE: Live-blogging.** Getting things wrong. Missing points. Omitting key information. Introducing artificial choppiness. Over-emphasizing small matters. Paraphrasing badly. Not running a spellpchecker. Mangling other people's ideas and words. You are  _warned_, people.
 

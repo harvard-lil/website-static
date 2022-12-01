@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-10-27 20:49:29+00:00
 title: 'Dave Pattern: Prestidigitator of metadata'
 wordpress_id: 441
+no-excerpt: true
 categories:
 - Library Cloud
 - metadata

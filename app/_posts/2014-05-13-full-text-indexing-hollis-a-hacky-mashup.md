@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2014-05-13 17:06:44+00:00
 title: 'Full  text indexing HOLLIS: a hacky mashup'
 wordpress_id: 1906
+excerpt_separator: <!--more-->
 ---
 
 _This project comes from an amateur, not from the excellent devs here at the Lab. I'm a co-director, not a developer.  If you look at the code ([github](https://github.com/dweinberger/googleHollis)) you will have a good laugh. On the other hand, the fact that someone at my level of "skill" can create a semi-workable piece of code is a testament to LibraryCloud's usability. (Also to Paul Deschner's patience with my questions. Thanks, Paul.)_
@@ -11,7 +12,7 @@ Harvard Library has 13M items in its collection. Harvard is digitizing many of t
 
 Google Books had 30M books digitized as of a year ago. You can do full-text searches of them.
 
-So, I wrote a [little mash-up app](http://hlslwebtest.law.harvard.edu/dev/david/googleHollis/googleHollis.html) [corrected url] that lets you search Google Books for text, and then matches up the results with books in Harvard Library. It's a proof of concept, and I'm counting the concept as proved, or at least as promising. On the other hand, my API key for Google Books only allows 2,000 queries a day, so it's not practical on the licensing front.
+So, I wrote a [little mash-up app](http://hlslwebtest.law.harvard.edu/dev/david/googleHollis/googleHollis.html) that lets you search Google Books for text, and then matches up the results with books in Harvard Library.<!--more--> It's a proof of concept, and I'm counting the concept as proved, or at least as promising. On the other hand, my API key for Google Books only allows 2,000 queries a day, so it's not practical on the licensing front.
 
 This project runs on top of [LibraryCloud](http://librarycloud.harvard.edu). LibraryCloud provides an API to [Harvard's open library metadata](http://openmetadata.lib.harvard.edu/) and more. (We're building a new, more scalable version now. It is, well, super-cool.)
 

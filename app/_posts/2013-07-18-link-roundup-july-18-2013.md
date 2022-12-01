@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Very good stuff!
+
 {% include roundup-item.html
   link="http://library.harvard.edu/looking-beyond-recipes-academic-approach-reading-cookbooks?utm_source=SilverpopMailing&utm_medium=email&utm_campaign=Copy%20of%20Copy%20of%207.16.13III%20(1)"
   title="Looking Beyond the Recipes: An Academic Approach to Reading Cookbooks"

@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-06-08 17:04:46+00:00
 title: MacKenzie Smith on open licenses for data and metadata
 wordpress_id: 689
+no-excerpt: true
 categories:
 - copyright
 - metadata

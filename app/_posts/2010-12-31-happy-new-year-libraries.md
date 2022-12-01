@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-12-31 16:54:25+00:00
 title: Happy new year, libraries!
 wordpress_id: 477
+no-excerpt: true
 categories:
 - misc
 ---

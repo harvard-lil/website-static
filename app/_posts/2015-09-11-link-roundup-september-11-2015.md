@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+This is the good stuff.
+
 {% include roundup-item.html
   link="http://www.niemanlab.org/2015/09/the-new-york-times-wrestled-with-many-dimensions-of-video-to-visualize-the-making-of-a-hit/"
   title="The New York Times wrestled with many dimensions of video to visualize the making of a hit » Nieman Journalism Lab"

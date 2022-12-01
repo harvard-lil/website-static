@@ -3,11 +3,14 @@ author: jeff-goldenson
 date: 2013-05-28 19:47:52+00:00
 title: media wall
 wordpress_id: 1701
+excerpt_separator: <!--more-->
 ---
 
 _(crossposted from [librarytestkitchen.org](http://www.librarytestkitchen.org/))_
 
 I love the whole relevance by adjacency logic that libraries rely on. Similar things are next to each other. But libraries only do this with books. Can't we do it with more media types?
+
+<!--more-->
 
 _Media Wall: A gestalt, walk-by browsing experience. No headphones required_.
 

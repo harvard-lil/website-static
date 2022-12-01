@@ -1,10 +1,13 @@
 ---
 title: This Is Just Amazing
 author: ben-steinberg
+excerpt_separator: <!--more-->
 ---
 The other day, I noticed this on the side of the house.
 
 ![Category 5 cable with broken jacket](https://lil-blog-media.s3.amazonaws.com/wires.jpg)
+
+<!--more-->
 
 That is near the bottom of the run of [Cat
 5](https://en.wikipedia.org/wiki/Category_5_cable) Ethernet cable I

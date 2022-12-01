@@ -4,6 +4,7 @@ date: 2011-08-30 19:40:22+00:00
 slug: podcast-dan-brickley-on-libraries-linked-data-and-cataloguing-the-web
 title: 'Podcast: Dan Brickley on libraries, linked data, and cataloguing the Web'
 wordpress_id: 788
+no-excerpt: true
 categories:
 - Podcasts
 tags:

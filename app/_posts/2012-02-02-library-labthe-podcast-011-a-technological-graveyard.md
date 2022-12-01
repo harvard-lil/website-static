@@ -3,6 +3,7 @@ author: dan-jones
 date: 2012-02-02 21:03:19+00:00
 title: 'Library Lab/The Podcast 011: A Technological Graveyard?'
 wordpress_id: 1022
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -15,6 +16,8 @@ tags:
 ([**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2012-02-02_marilynjohnson.ogg))
 
 "Your average citizen is not technologically savvy," says Marilyn Johnson, the author of [_This Book Is Overdue!: How Librarians and Cybrarians Can Save Us All_](http://www.marilynjohnson.net/_i_this_book_is_overdue___i__89022.htm)
+
+<!--more-->
 
 ![](http://img2.imagesbn.com/images/103450000/103453946.jpg)
 

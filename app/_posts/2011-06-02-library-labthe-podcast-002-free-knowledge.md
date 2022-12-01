@@ -3,6 +3,7 @@ author: dan-jones
 date: 2011-06-02 15:11:56+00:00
 title: 'Library Lab/The Podcast 002: Free Knowledge'
 wordpress_id: 660
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -16,6 +17,8 @@ tags:
 Scholarly journals were once enormously expensive. Because they were pricey to produce — it took a lot of money to coordinate the peer review, and to edit, print, bind, and distribute all those volumes — access was pricey as well.
 
 But digital publishing and collaboration has reduced many of the financial barriers to sharing research. And advocates of the "[**Open Access**](http://www.earlham.edu/~peters/fos/overview.htm)" model of scholarly publishing argue that when research journals are freely and openly accessible scholarly work flourishes.
+
+<!--more-->
 
 Open access has picked up steam over the years as [**many journals**](http://www.doaj.org/) have chosen to adopt the model from inception, and several more established journals have converted. The result has been an exponential growth in the number and kinds of articles that are easily accessible with the click of a button.
 

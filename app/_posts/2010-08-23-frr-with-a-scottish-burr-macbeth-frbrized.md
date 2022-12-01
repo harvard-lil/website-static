@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-08-23 18:57:48+00:00
 title: Frr with a Scottish Burr - MacBeth frbrized
 wordpress_id: 337
+no-excerpt: true
 categories:
 - books
 - catalogs

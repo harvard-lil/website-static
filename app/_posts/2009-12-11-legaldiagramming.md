@@ -6,7 +6,7 @@ title: Legal Diagramming
 wordpress_id: 108
 ---
 
-Aza Raskin over at Mozilla had [a really interesting post](http://www.azarask.in/blog/post/making-privacy-policies-not-suck/) on legal legibility.  He opposed these two, the first is a visualization of the second.
+Aza Raskin over at Mozilla had [a really interesting post](http://www.azarask.in/blog/post/making-privacy-policies-not-suck/) on legal legibility.  He opposed these two, the first is a visualization of the second.
 
 It's amazing how much friendlier it is.
 

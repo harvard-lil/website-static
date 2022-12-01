@@ -4,6 +4,7 @@ date: 2011-05-11 18:23:56+00:00
 slug: concrete-digital
 title: 'Library Lab/The Podcast 001: Concrete Digital'
 wordpress_id: 606
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -17,6 +18,8 @@ tags:
 There's a lot of talk about what the future of publishing looks like. Designers and innovators draw up these artistic visualizations of tablets, touchscreens, and interactive multimedia literature mashups to illustrate the possibilities.
 
 But one designer is thinking a lot more about what is lost in the transition from the physical book to the digital. In fact, his visualizations often flip the script by placing digital literature in the physical context.
+
+<!--more-->
 
 [**James Bridle**](http://shorttermmemoryloss.com/) is an editor, publisher, designer, and innovator. One of his most recent projects was [**a physical production**](http://booktwo.org/notebook/wikipedia-historiography/) of the complete changelogs from the Wikipedia entry on the Iraq War. The project amounted to twelve volumes of almost 7,000 pages, including all the changes, discussions, and arguments logged in the process of producing the never-complete Wikipedia article from December 2004 to November 2009.
 

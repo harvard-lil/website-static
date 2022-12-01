@@ -3,9 +3,10 @@ author: jack-cushman
 date: 2016-04-13 23:10:43+00:00
 title: 'LIL at IIPC: The Story So Far'
 wordpress_id: 2257
+excerpt_separator: <!--more-->
 ---
 
-We're halfway through the International Internet Preservation Consortium's annual web archiving conference. Here are just a few notes from our time so far:
+We're halfway through the International Internet Preservation Consortium's annual web archiving conference. Here are just a few notes from our time so far<!--more-->:
 
 ![Jack, Genève, and Matt](https://lil-blog-media.s3.amazonaws.com/2016/04/Screen-Shot-2016-04-13-at-8.53.43-PM-1024x981.jpg)
 _Auto-captioned photo of Jack, Genève, and Matt -- thanks [CaptionBot](https://www.captionbot.ai/)!_

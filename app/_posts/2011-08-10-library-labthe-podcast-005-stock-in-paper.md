@@ -3,6 +3,7 @@ author: dan-jones
 date: 2011-08-10 18:15:22+00:00
 title: 'Library Lab/The Podcast 005: Stock in Paper'
 wordpress_id: 764
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -14,6 +15,8 @@ tags:
 [**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-08-10_oreilly.ogg)
 
 If you've worked in technology at all you probably recognize the name "O'Reilly"---it has become practically synonymous with "tech help." For anyone who has tried to code a line of html, or figure out what the heck that icon on the iPhone screen is, O'Reilly Media has produced a manual to explain it.
+
+<!--more-->
 
 ![](http://farm1.static.flickr.com/177/476780331_32f2f3b71b_b.jpg)
 

@@ -11,7 +11,6 @@ tags:
 - librarycloud
 - metadata
 ---
-
 > Discovery, the metadata ecology for UK education and research, invites stakeholders to join us in adopting a [set of principles](http://discovery.ac.uk/businesscase/principles/) to enhance the impact of our knowledge resources for the furtherance of scholarship and innovation...
 
 It's a hard list to disagree with... especially if your team has been working on LibraryCloud as an open metadata server.

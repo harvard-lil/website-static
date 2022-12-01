@@ -3,6 +3,7 @@ author: dan-jones
 date: 2011-06-22 21:18:27+00:00
 title: 'Library Lab/The Podcast 003: The Digital Citation'
 wordpress_id: 706
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -18,6 +19,8 @@ tags:
 It starts with an idea: You're a scholar and you use the web to search for sources. How can you collect your sources and their metadata without having to copy, paste, reformat? Or spend your starving researcher's budget on some proprietary software?
 
 That's only the beginning for [**Zotero**](http://www.zotero.org/), a free, open-source plug-in for web browsers developed by the [**Roy Rosenzweig Center for History and New Media**](http://chnm.gmu.edu/) at George Mason University.
+
+<!--more-->
 
 ![](http://farm3.static.flickr.com/2550/4089542428_f25bb4669e_o.jpg)
 

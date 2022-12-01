@@ -3,6 +3,7 @@ author: ben-gaucherin
 date: 2009-11-17 02:16:19+00:00
 title: The World Digital Library
 wordpress_id: 53
+no-excerpt: true
 categories:
 - Things to see
 ---

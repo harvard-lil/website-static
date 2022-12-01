@@ -1,6 +1,7 @@
 ---
 title: Witchcraft in U.S. Caselaw
 author: anastasia-aizman
+excerpt_separator: <!--more-->
 ---
 ![Witchcraft in Law](https://lil-blog-media.s3.amazonaws.com/Screen_Shot_2018-10-31_at_9.51.54_AM.png) 
 
@@ -9,6 +10,8 @@ Happy Halloween!
 This Halloween is a special one at LIL, since we’re celebrating the release of the [Caselaw Access Project](https://case.law/) and 360 years of digitized U.S. caselaw.
 
 For a small project using our [full text search functionality](https://case.law/api/#examples), we mapped out the usage of the term “witchcraft” in United States caselaw. 
+
+<!--more-->
 
 Here is the result: [https://case.law/gallery/witchcraft](https://case.law/gallery/witchcraft)
 

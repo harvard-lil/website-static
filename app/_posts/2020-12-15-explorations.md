@@ -18,7 +18,7 @@ already made use of the API and bulk download tools we built at
 http://case.law. Still, the most frequently accessed pages on our
 website are individual case pages from google visitors. What are their
 needs? Historical research? Family history?
-\... [leisure](https://www.nytimes.com/2020/12/01/magazine/i-read-court-documents-for-fun-hear-me-out.html)?
+\... [leisure](https://www.nytimes.com/2020/12/01/magazine/i-read-court-documents-for-fun-hear-me-out.html)?
 Even if the fundamental structure of a case is necessarily immutable,
 are there opportunities for novel interfaces to bring these works to new
 audiences?

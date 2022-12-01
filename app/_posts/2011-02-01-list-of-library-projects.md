@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-02-01 19:48:10+00:00
 title: List of library projects
 wordpress_id: 535
+no-excerpt: true
 categories:
 - Ideas
 ---

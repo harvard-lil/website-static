@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-12-13 21:01:11+00:00
 title: '[podcast] Alison Head on what students do in libraries'
 wordpress_id: 964
+no-excerpt: true
 categories:
 - Podcasts
 tags:

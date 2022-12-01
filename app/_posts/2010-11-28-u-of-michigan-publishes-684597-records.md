@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-11-28 15:58:55+00:00
 title: U of Michigan publishes 684,597 records
 wordpress_id: 461
+no-excerpt: true
 categories:
 - catalogs
 - metadata

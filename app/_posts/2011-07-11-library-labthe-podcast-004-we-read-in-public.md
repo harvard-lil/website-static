@@ -3,6 +3,7 @@ author: dan-jones
 date: 2011-07-11 17:36:29+00:00
 title: 'Library Lab/The Podcast 004: We Read in Public'
 wordpress_id: 736
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -14,6 +15,8 @@ tags:
 [**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-07-06_jarvis.ogg)
 
 Guarding patron privacy is kind of the default in the library business. When it comes to knowing who checked out what and when libraries usually prefer to flush the cache---except when it comes to collecting fines!
+
+<!--more-->
 
 ![](http://farm7.static.flickr.com/6015/5920281397_65ac967718_o.jpg)
 

@@ -3,6 +3,7 @@ author: ben-gaucherin
 date: 2009-11-11 15:30:20+00:00
 title: 'Everything Is Miscellaneous: The Power of the New Digital Disorder'
 wordpress_id: 34
+no-excerpt: true
 categories:
 - Things to read
 ---

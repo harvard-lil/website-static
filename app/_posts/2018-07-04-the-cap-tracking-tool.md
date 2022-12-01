@@ -1,8 +1,9 @@
 ---
 title: The CAP Tracking Tool
 author: andy-silva
+excerpt_separator: <!--more-->
 ---
-Evelin Heidel ([@scannopolis](https://twitter.com/scannopolis) on Twitter) recently asked me to document our Caselaw Access Project ([website](https://lil.law.harvard.edu/projects/caselaw-access-project/), [video](https://www.youtube.com/watch?v=kwlN_vhai84)) digitization workflow, and open up the source for the CAP "Tracking Tool." I'll dig into our digitization workflow in my next post, but in this post, I'll discuss the Tracking Tool or TT for short. I created the TT to track CAP's physical and digital objects and their associated metadata. More specifically, it:
+Evelin Heidel ([@scannopolis](https://twitter.com/scannopolis) on Twitter) recently asked me to document our Caselaw Access Project ([website](https://lil.law.harvard.edu/projects/caselaw-access-project/), [video](https://www.youtube.com/watch?v=kwlN_vhai84)) digitization workflow, and open up the source for the CAP "Tracking Tool." I'll dig into our digitization workflow in my next post, but in this post, I'll discuss the Tracking Tool or TT for short. I created the TT to track CAP's physical and digital objects and their associated metadata. <!--more--> More specifically, it:
 
 - Tracked the physical book from receipt, to scanning, to temporary storage, to permanent storage
 - Served as a repository for book metadata, some of which was retrieved automatically through internal APIs, but most of which was keyed in by hand
@@ -42,7 +43,7 @@ There are several data points created during the in-hand metadata analysis stage
 ### Process Steps and Book Logs
 The system has a configurable set of process steps each volume must complete, such as in-hand metadata analysis or scanning, with configurable prerequisites. Such a system ensures all books proceed through all of the steps, in the intended order, and facilitates very granular progress reports. Each step is recorded in the book's log, which also contains: 
 - *Info Entries:* e.g., user x changed the publication year for this book
-- *Warnings:* e.g.,  the scan job was put on hold
+- *Warnings:* e.g.,  the scan job was put on hold
 - *Exceptions:* e.g., the scanned book failed the QA test.
 
 ### Control Flow

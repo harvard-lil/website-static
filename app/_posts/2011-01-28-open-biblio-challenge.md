@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-01-28 21:36:33+00:00
 title: Open Biblio challenge
 wordpress_id: 532
+no-excerpt: true
 categories:
 - catalogs
 - Library Cloud

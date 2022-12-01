@@ -3,6 +3,7 @@ guest-author: Adi Kamdar
 date: 2016-04-04 18:29:06+00:00
 title: "How We're Freeing the Law, Part 1: Books"
 wordpress_id: 2194
+excerpt_separator: <!--more-->
 categories:
 - Free the Law
 ---
@@ -15,6 +16,8 @@ categories:
 Harvard Law Library is one of the few collections with nearly every law reporter---roughly 40,000 books in total. The Free the Law project's goal is to put the court decisions inside these volumes online, so anyone can access the precedents that shape the American legal system. Right now, the project is about halfway through, and within the next couple years they'll have completed this monumental task.
 
 But how exactly does a book become a byte? And what happens to these physical texts after they've been digitized?
+
+<!--more-->
 
 ## Harvard Depository
 
