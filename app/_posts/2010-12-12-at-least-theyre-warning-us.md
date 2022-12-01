@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-12-11 00:56:22+00:00
 title: At least they're warning us
 wordpress_id: 472
+no-excerpt: true
 categories:
 - Humor
 - open access

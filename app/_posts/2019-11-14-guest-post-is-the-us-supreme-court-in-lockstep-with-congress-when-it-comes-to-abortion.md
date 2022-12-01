@@ -1,12 +1,15 @@
 ---
-title: "Guest Post: Is the US Supreme Court in lockstep with Congress when it comes to abortion?"
+title: "Guest Post: Is the US Supreme Court in lockstep with Congress when it comes to abortion?"
 guest-author: "Abdul Abdulrahim"
+excerpt_separator: <!--more-->
 ---
 *This guest post is part of the CAP Research Community Series. This series highlights research, applications, and projects created with Caselaw Access Project data.*
 
 *Abdul Abdulrahim is a graduate student at the University of Oxford completing a DPhil in Computer Science. His primary interests are in the use of technology in government and law and developing neural-symbolic models that mitigate the issues around interpretability and explainability in AI. Prior to the DPhil, he worked as an advisor to the UK Parliament and a lawyer at Linklaters LLP.*
 
 The United States of America (U.S.) has seen declining public support for major political institutions, and a general disengagement with the processes or outcomes of the branches of government. According to Pew's Public Trust in Government survey earlier this year, "public trust in the government remains near historic lows," with only 14% of Americans stating that they can trust the government to do "what is right" most of the time. We believed this falling support could affect the relationship between the branches of government and the independence they might have. 
+
+<!--more-->
 
 One indication of this was a study on congressional law-making which found that Congress was more than twice as likely to overturn a Supreme Court decision when public support for the Court is at its lowest compared to its highest level (Nelson & Uribe-McGuire, 2017). Furthermore, another study found that it was more common for Congress to legislate against Supreme Court rulings that ignored the legislative intentions, or rejects positions taken by federal, state, or local governments — due to ideological differences (Eskridge Jr, 1991).
 

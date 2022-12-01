@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-02-23 18:24:39+00:00
 title: 'StackView: The Stop-Action Version'
 wordpress_id: 556
+no-excerpt: true
 categories:
 - books
 - Humor

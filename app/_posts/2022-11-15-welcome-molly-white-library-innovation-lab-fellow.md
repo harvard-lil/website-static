@@ -1,10 +1,13 @@
 ---
 title: 'Welcome Molly White: Library Innovation Lab Fellow'
 author: jack-cushman
+excerpt_separator: <!--more-->
 ---
 The Harvard Library Innovation Lab is delighted to welcome Molly White as an academic fellow.
 
 Molly has become a leading critic on cryptocurrency and web3 issues through her blog [Web3 is Going Just Great](https://web3isgoinggreat.com) as well as her long-form research and essays, talks, guest lectures, social media, and interviews. Her rigorous, independent, and accessible work has had a substantial impact on legislators, media, and the public debate.
+
+<!--more-->
 
 In her work at the Library Innovation Lab, Molly will further examine goals she shares with the web3 community she studies—such as orchestrating community-governed projects, returning power to users from advertisers and tech companies, and increasing access to financial services and reducing wealth inequality—and consider what attracts individuals to web3 and what can be learned from their experience about how to advance those causes.
 

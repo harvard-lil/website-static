@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-02-26 17:10:14+00:00
 title: Has HarperCollins lost its mind or its soul?
 wordpress_id: 560
+excerpt_separator: <!--more-->
 categories:
 - books
 - copyright
@@ -17,6 +18,8 @@ tags:
 [_Note: As always with posts on this blog, authors speak for themselves. - dw_]
 
 HarperCollins has [changed its agreement](http://www.boingboing.net/2011/02/25/harpercollins-to-lib.html) with the main distributor of e-books to libraries: e-books will now become inaccessible after 26 checkouts.
+
+<!--more-->
 
 I understand publishers' desire to limit ebook access so that selling one copy doesn't serve the needs of the entire world. But think about what this particular DRM bomb does to libraries, one of the longest continuous institutions of civilization. Libraries exist not just to lend books but to guarantee their continuous availability throughout changes in culture and fashion. This new licensing scheme prevents libraries from accomplishing this essential mission.
 

@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-11-13 21:23:41+00:00
 title: Doc Searls loves librarians
 wordpress_id: 454
+no-excerpt: true
 categories:
 - open access
 tags:

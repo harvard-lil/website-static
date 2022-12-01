@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Good stuff!
+
 {% include roundup-item.html
   link="http://www.asis.org/news/DCMI_announcement.html"
   title="ASIS&T Announces Management Partnership with DCMI"

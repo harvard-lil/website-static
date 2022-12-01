@@ -1,7 +1,7 @@
 ---
 author: anastasia-aizman
 date: 2017-02-10 15:00:43+00:00
-title: "LIL talks: Becky"
+title: "LIL Talks: Becky"
 wordpress_id: 2633
 categories:
 - Friday Fundays

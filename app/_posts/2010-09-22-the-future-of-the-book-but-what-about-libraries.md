@@ -15,7 +15,7 @@ Here's an article about it:
 
 http://www.fastcodesign.com/1662356/ideo-creates-three-visions-for-books-in-the-digital-age?partner=co_newsletter
 
-It's interesting, IDEO is obviously very on it.  I don't think there is anything that is absolutely relevant to us, but it is worth viewing.
+It's interesting, IDEO is obviously very on it.  I don't think there is anything that is absolutely relevant to us, but it is worth viewing.
 
 What it does make me think of is the necessity to begin really trying to work out "The Future of Libraries".
 

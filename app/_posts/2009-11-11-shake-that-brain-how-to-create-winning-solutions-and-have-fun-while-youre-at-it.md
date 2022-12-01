@@ -3,6 +3,7 @@ author: ben-gaucherin
 date: 2009-11-11 15:35:01+00:00
 title: "Shake That Brain: How to Create Winning Solutions and Have Fun While You're At It"
 wordpress_id: 38
+no-excerpt: true
 categories:
 - Things to read
 ---

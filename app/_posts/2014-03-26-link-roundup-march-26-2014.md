@@ -6,6 +6,8 @@ categories:
 - roundup
 ---
 
+Good stuff!
+
 {% include roundup-item.html
   link="http://opinionator.blogs.nytimes.com/2014/03/24/keep-it-short/?src=me&ref=general"
   title="Keep It Short"

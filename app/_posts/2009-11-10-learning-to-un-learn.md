@@ -7,7 +7,7 @@ categories:
 - Ideas
 ---
 
-I mentionned IDEO to a few people already as an example of product design firm.  Many product design firms have the concept of un-learning as part of their methodology. I think for us the opportunity is to un-learn what we know about libraries and the broader world of books, authors, publishers, information asssets, etc.
+I mentionned IDEO to a few people already as an example of product design firm.  Many product design firms have the concept of un-learning as part of their methodology. I think for us the opportunity is to un-learn what we know about libraries and the broader world of books, authors, publishers, information asssets, etc.
 
 To get a peek at how companies like IDEO come up with breakthrough concepts on what seems to be well understood "things" of our world, see the Nightline video on the re-design of the shopping cart:
 

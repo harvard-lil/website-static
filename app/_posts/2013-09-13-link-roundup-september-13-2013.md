@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Good stuff!
+
 {% include roundup-item.html
   link="http://www.npr.org/series/209598179/public-libraries-in-america"
   title="Keys To The Whole World: American Public Libraries : NPR"

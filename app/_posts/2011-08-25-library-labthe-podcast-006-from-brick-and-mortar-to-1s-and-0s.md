@@ -3,6 +3,7 @@ author: dan-jones
 date: 2011-08-24 02:26:28+00:00
 title: 'Library Lab/The Podcast 006: From Brick and Mortar to 1s and 0s'
 wordpress_id: 782
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -14,6 +15,8 @@ tags:
 ([**Also in ogg**](https://lil-blog-media.s3.amazonaws.com/podcast/2011-08-23_susan.ogg))
 
 Some might assume that libraries and museums have outlived their purpose. When every book and archive can be recreated and reinterpreted digitally to create an incredible user experience, how is the physical and human infrastructure of the institution still necessary?
+
+<!--more-->
 
 ![](http://farm4.static.flickr.com/3593/4603316902_76443bea98_b.jpg)
 

@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+July links!
+
 {% include roundup-item.html
   link="http://www.theatlanticcities.com/neighborhoods/2013/06/every-library-and-museum-america-mapped/5826/"
   title="Every Library and Museum in America, Mapped"

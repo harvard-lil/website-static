@@ -3,11 +3,14 @@ author: jack-cushman
 date: 2015-12-09 15:58:15+00:00
 title: Free the Law Wintersession Sprint
 wordpress_id: 2171
+excerpt_separator: <!--more-->
 ---
 
 ![USB stick labeled 'all of the caselaw'](https://lil-blog-media.s3.amazonaws.com/2015/12/Screen-Shot-2015-12-09-at-10.50.04-AM.png)
 
 **TL;DR:** We are running a two week data mining sprint from January 4--15, 2016, open to current Harvard students, based on early access to a brand new data set of American caselaw. To apply, send a resume and brief statement of interest to jcushman at law dot harvard dot edu.
+
+<!--more-->
 
 * * *
 
@@ -17,7 +20,7 @@ We recently announced [Free the Law]({{ site.baseurl }}/projects/caselaw-access-
 
 By the end of this project we'll have millions of cases in the dataset &mdash; no one knows exactly how many. We're scanning and processing tens of thousands of pages a day, and will soon have entire states completed.
 
-Now it's time to start exploring what to do with all that data. **What new questions can we ask with millions of cases?**
+Now it's time to start exploring what to do with all that data. **What new questions can we ask with millions of cases?**
 
 The answers cross every discipline at Harvard:
 
@@ -39,7 +42,7 @@ Hence our challenge: pick a question you think caselaw might help you answer, pe
 
 ## The Data
 
-The data set we will share with participants will include a single state's complete published caselaw. The data includes: (1) TIFF and JPEG2000 images for each scanned page; (2) ALTO XML files for each scanned page; and (3) structured XML files for each case.
+The data set we will share with participants will include a single state's complete published caselaw. The data includes: (1) TIFF and JPEG2000 images for each scanned page; (2) ALTO XML files for each scanned page; and (3) structured XML files for each case.
 
 ## Schedule
 

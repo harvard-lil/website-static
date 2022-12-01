@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-08-23 17:54:02+00:00
 title: The library next door
 wordpress_id: 335
+no-excerpt: true
 categories:
 - books
 tags:

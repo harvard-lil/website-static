@@ -3,6 +3,7 @@ author: ben-gaucherin
 date: 2009-11-20 11:32:16+00:00
 title: MobileRead a wiki dedicated to eBook technologies
 wordpress_id: 208
+no-excerpt: true
 categories:
 - Things to read
 ---

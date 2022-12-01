@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-01-03 21:55:57+00:00
 title: Semantic Confetti
 wordpress_id: 481
+no-excerpt: true
 categories:
 - books
 ---

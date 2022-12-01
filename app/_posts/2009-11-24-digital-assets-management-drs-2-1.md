@@ -4,6 +4,7 @@ author: paul-deschner
 date: 2009-11-24 20:59:40+00:00
 title: 'Digital Assets Management: DRS 2.1'
 wordpress_id: 86
+no-excerpt: true
 categories:
 - Things to read
 ---

@@ -6,9 +6,9 @@ title: Summer Fellows Share, Join Us
 wordpress_id: 2385
 ---
 
-LIL fellows are wrapping up their terms this week! Please join us for and learn from our Fellows as they present their research involving ways we can explore and utilize technology to preserve, prepare, and present information for the common good.
+LIL fellows are wrapping up their terms this week! Please join us for and learn from our Fellows as they present their research involving ways we can explore and utilize technology to preserve, prepare, and present information for the common good.
 
-Over 12 weeks, the Fellows produced everything from book chapters, web applications, and board games ­ and, ultimately, an immeasurable amount of inspiration that extends far beyond the walls of Langdell.  They explored subjects such as text data modeling, web archiving, opening legal data, makerspaces, and preserving local memory in places disrupted by disaster.
+Over 12 weeks, the Fellows produced everything from book chapters, web applications, and board games ­ and, ultimately, an immeasurable amount of inspiration that extends far beyond the walls of Langdell.  They explored subjects such as text data modeling, web archiving, opening legal data, makerspaces, and preserving local memory in places disrupted by disaster.
 
 Please RSVP to [Gail Harris](mailto:gharris@law.harvard.edu)
 

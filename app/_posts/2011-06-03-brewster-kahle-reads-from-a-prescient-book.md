@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-06-03 05:20:31+00:00
 title: Brewster Kahle reads from a prescient book
 wordpress_id: 669
+no-excerpt: true
 categories:
 - misc
 - Podcasts

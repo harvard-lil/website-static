@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+September links!
+
 {% include roundup-item.html
   link="http://www.nypl.org/events/programs/2013/10/10/jaron-lanier?nref=56896"
   title="Jaron Lanier at the NYPL Live"

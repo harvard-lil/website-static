@@ -3,6 +3,7 @@ author: dan-jones
 date: 2011-09-27 17:48:11+00:00
 title: 'Library Lab/The Podcast 008: The Molecule of Data'
 wordpress_id: 802
+excerpt_separator: <!--more-->
 categories:
 - Podcasts
 tags:
@@ -16,6 +17,8 @@ tags:
 ![](http://farm5.static.flickr.com/4019/4585779619_85ce3dd180_b.jpg)
 
 How can libraries use the power of metadata---those little molecules of information that help describe the greater work---to help users get more out of their search for resources?
+
+<!--more-->
 
 ![](http://farm5.static.flickr.com/4048/4272659880_26e6b1c9d8.jpg)
 

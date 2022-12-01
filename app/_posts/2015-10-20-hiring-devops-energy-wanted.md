@@ -7,7 +7,7 @@ categories:
 - jobs
 ---
 
-The [Harvard Library Innovation Lab]({{ site.baseurl }}/) is looking for a devops engineer to help us build tools to explore the open internet and see deep into the future of libraries.
+The [Harvard Library Innovation Lab]({{ site.baseurl }}/) is looking for a devops engineer to help us build tools to explore the open internet and see deep into the future of libraries.
 
 Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of [our current efforts]({{ site.baseurl }}/projects).
 
@@ -18,7 +18,7 @@ Our projects range in scope from fast-moving prototypes to long-term innovations
 [H2O](https://h2o.law.harvard.edu/), a platform for creating, sharing and adapting open course materials
 
 ![image02](https://lil-blog-media.s3.amazonaws.com/2015/10/image02.png)
-[Awesome Box](http://awesomebox.io), an alternate returns box used by hundreds of libraries
+[Awesome Box](http://awesomebox.io), an alternate returns box used by hundreds of libraries
 
 ## What you'll do
 
@@ -26,7 +26,7 @@ Our projects range in scope from fast-moving prototypes to long-term innovations
 
 *  Write code that will monitor systems and develop logic that will automate common deployment and maintenance tasks
 
-*  Act as a core member of our fun and dynamic team by helping us shape ideas and efforts in libraries, technology, and law. We're freewheelin'. We fully encourage the pursuit of interests and opportunities
+*  Act as a core member of our fun and dynamic team by helping us shape ideas and efforts in libraries, technology, and law. We're freewheelin'. We fully encourage the pursuit of interests and opportunities
 
 We're hiring a person and not a skillset, but our current stack of keywords might be helpful
 

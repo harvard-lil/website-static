@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Good stuff!
+
 {% include roundup-item.html
   link="http://www.pastemagazine.com/blogs/lists/2013/08/best-fictional-libraries.html"
   title="12 Best Fictional Libraries :: Blogs :: List of the Day :: Culture :: Paste"

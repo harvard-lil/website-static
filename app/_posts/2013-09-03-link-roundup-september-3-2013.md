@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Round up!
+
 {% include roundup-item.html
   link="http://www.dailyherald.com/article/20130902/news/709029918/"
   title="Lending of e-books not always easy for suburban libraries - DailyHerald.com"

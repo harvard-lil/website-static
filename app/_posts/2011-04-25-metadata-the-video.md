@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-04-25 15:57:03+00:00
 title: 'Metadata: The Video'
 wordpress_id: 601
+no-excerpt: true
 categories:
 - metadata
 tags:

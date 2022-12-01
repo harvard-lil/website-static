@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Good stuff!
+
 {% include roundup-item.html
   link="https://github.com/Katee/quietnet"
   title="quietnet"

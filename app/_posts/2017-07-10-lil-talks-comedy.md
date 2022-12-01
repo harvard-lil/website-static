@@ -2,6 +2,7 @@
 author: anastasia-aizman
 date: 2017-07-10 16:00:43+00:00
 title: "LIL Talks: Comedy"
+excerpt_separator: <!--more-->
 wordpress_id: 2857
 categories:
 - Friday Fundays
@@ -13,6 +14,8 @@ _This is a guest post by our LIL interns --- written by [Zach Tan](http://www.za
 ![](https://lil-blog-media.s3.amazonaws.com/IMG_20170707_134412_sm-1024x768.jpg)
 
 This week, LIL’s resident comic (and staff member) Brett Johnson taught a room full of LIL staff, interns, and fellows the finer intricacies of stand up comedy, which included the construction of a set, joke writing, and the challenges and high points of the craft.
+
+<!--more-->
 
 As one example, Brett showed and broke down multiple jokes into the core structure of setup and punch line (or, platform and dismount) for analysis. Additionally, we were also given an insight into the industry where we often take for granted the sheer amount of work, honing, and refining that goes into a set.
 

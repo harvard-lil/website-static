@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-10-27 16:46:28+00:00
 title: '#FailShare for libraries'
 wordpress_id: 439
+no-excerpt: true
 categories:
 - Ideas
 tags:

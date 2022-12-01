@@ -3,6 +3,7 @@ author: matt-phillips
 date: 2012-06-25 02:56:53+00:00
 title: The Setup - Matt Phillips
 wordpress_id: 1215
+excerpt_separator: <!--more-->
 categories:
 - misc
 - The Setup
@@ -17,6 +18,8 @@ I'm Matt Phillips.
 I work in the Harvard Library Innovation Lab. I try to make libraries better, usually by writing software.
 
 ![](https://lil-blog-media.s3.amazonaws.com/2012/06/DSC_3349-e1340592772849.jpg)
+
+<!--more-->
 
 **What hardware do you use?**
 

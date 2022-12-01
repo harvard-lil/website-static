@@ -3,6 +3,7 @@ author: ben-gaucherin
 date: 2009-11-21 17:58:14+00:00
 title: Interesting resources on web archiving on Wikipedia
 wordpress_id: 64
+no-excerpt: true
 categories:
 - Tools and Widgets
 ---

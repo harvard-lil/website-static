@@ -1,6 +1,7 @@
 ---
 title: Some Recent Perma Use
 author: ben-steinberg
+no-excerpt: true
 ---
 You may have seen [Perma.cc](https://perma.cc) links in a number of
 documents of current interest, including [the Trial Memorandum of the

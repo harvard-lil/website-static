@@ -4,6 +4,7 @@ date: 2009-11-11 23:25:44+00:00
 slug: some-interesting-stuff-from-the-library-of-congress
 title: The Library Of Congress' Experience
 wordpress_id: 42
+no-excerpt: true
 categories:
 - Things to see
 ---

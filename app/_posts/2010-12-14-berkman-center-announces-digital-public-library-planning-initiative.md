@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-12-13 01:48:25+00:00
 title: Berkman Center Announces Digital Public Library Planning Initiative
 wordpress_id: 475
+no-excerpt: true
 categories:
 - library ecology
 tags:

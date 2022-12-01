@@ -1,6 +1,7 @@
 ---
 title: Improving pip-compile --generate-hashes
 author: jack-cushman
+excerpt_separator: <!--more-->
 ---
 Recently I landed a series of contributions to the Python package `pip-tools`:
 
@@ -8,6 +9,8 @@ Recently I landed a series of contributions to the Python package `pip-tools`:
 * [Fix --generate-hashes with bare VCS URLs #812](https://github.com/jazzband/pip-tools/pull/812)
 * [Fix pip-compile output for unsafe requirements #813](https://github.com/jazzband/pip-tools/pull/813)
 * [Warn when --generate-hashes output is uninstallable #814](https://github.com/jazzband/pip-tools/pull/814)
+
+<!--more-->
 
 [pip-tools](https://github.com/jazzband/pip-tools) is a "set of command line tools to help you keep your pip-based [Python] packages fresh, even when you've pinned them." My changes help the `pip-compile --generate-hashes` command work for more people.
 

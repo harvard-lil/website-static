@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Good stuff!
+
 {% include roundup-item.html
   link="http://mentalfloss.com/article/53664/mits-amazing-3d-gizmo"
   title="MIT's Amazing 3D Gizmo"

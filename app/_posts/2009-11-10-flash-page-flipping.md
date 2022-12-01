@@ -4,6 +4,7 @@ date: 2009-11-10 19:20:33+00:00
 slug: flash-page-flipping
 title: Flash page flipping...
 wordpress_id: 26
+no-excerpt: true
 categories:
 - Ideas
 - Tools and Widgets

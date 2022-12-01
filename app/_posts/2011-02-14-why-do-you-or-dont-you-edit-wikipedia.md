@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-02-14 19:41:45+00:00
 title: Why do you, or don't you, edit Wikipedia?
 wordpress_id: 552
+excerpt_separator: <!--more-->
 categories:
 - social media
 tags:
@@ -10,7 +11,7 @@ tags:
 - wikipedia
 ---
 
-Wikipedia is looking for volunteers to answer some questions as they try to understand why researchers and experts do and do not contribute to Wikipedia. From the email they've sent around:
+Wikipedia is looking for volunteers to answer some questions as they try to understand why researchers and experts do and do not contribute to Wikipedia.<!--more--> From the email they've sent around:
 
 > Wikipedia is increasingly used by university students for "pre-research", to gain context and explore ideas for course assignments and research projects [1]. Yet many among scientists, academics and other experts are reluctant to contribute to Wikipedia, despite a growing number of calls from the scientific community to join the project [2--3].
 >

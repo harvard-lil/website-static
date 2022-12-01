@@ -20,7 +20,12 @@ custom-css: ['blog']
       </header>
 
       <div class="post-content" itemprop="articleBody">
-        {{ post.content | liquify | markdownify }}
+        {% if post.no-excerpt %}
+          {{ post.content | liquify | markdownify }}
+        {% else %}
+          {{ post.excerpt | liquify | markdownify }}
+          <a class="read-more" href="{{ post.url }}">Read more <span class="sr-only">of "{{ post.title }}"</span></a>
+        {% endif%}
       </div>
 
       {% include tags.html tags=post.tags categories=post.categories %}

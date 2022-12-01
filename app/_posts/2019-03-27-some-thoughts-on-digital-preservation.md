@@ -1,9 +1,10 @@
 ---
 title: Some Thoughts on Digital Preservation
 author: ben-steinberg
+excerpt_separator: <!--more-->
 ---
 One of the things people often ask about [Perma.cc](https://perma.cc/)
-is how we ensure the preservation of Perma links. There are some
+is how we ensure the preservation of Perma links. <!--more--> There are some
 answers in Perma's documentation, [for example](https://perma.cc/about):
 
 > Perma.cc was built by Harvard’s Library Innovation Lab and is backed

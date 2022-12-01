@@ -39,7 +39,7 @@ In comparison, our money looks silly and our treasury department negligent, as i
 
 The coins are a different story. When I first arrived the clunky coins were a happy surprise &mdash; they're delightfully weighty (maybe even a little too bulky for normally non-cash-carrying types), adorned with beautifully thoughtful designs. On one side of each of the coins (gold or silver), the denomination stands out in large type along with local sea creatures: a big Lumpfish, three small Capelin fish, a dolphin, a Shore crab.
 
-On the reverse side the four great guardians of Iceland gaze intensely. They are the dragon (_Dreki_), the [griffin](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Griffin&sa=D&ust=1460504622399000&usg=AFQjCNEy35QitPr43C8DEijljLn4Uby7Dg) (_Gammur_), the bull (_Griðungur_), and the giant (_Bergrisi_), that each protected Iceland from Denmark invasion in turn, according to the Saga of King Olaf Tryggvason. On the back of the 1 Krona, only the giant stands, commanding.
+On the reverse side the four great guardians of Iceland gaze intensely. They are the dragon (_Dreki_), the [griffin](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Griffin&sa=D&ust=1460504622399000&usg=AFQjCNEy35QitPr43C8DEijljLn4Uby7Dg) (_Gammur_), the bull (_Griðungur_), and the giant (_Bergrisi_), that each protected Iceland from Denmark invasion in turn, according to the Saga of King Olaf Tryggvason. On the back of the 1 Krona, only the giant stands, commanding.
 
 And that's it. No superfluous information. No humans, either, only mythology and fish.
 

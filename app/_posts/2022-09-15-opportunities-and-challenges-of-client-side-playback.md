@@ -1,12 +1,15 @@
 ---
 title: "Web Archiving: Opportunities and Challenges of Client-Side Playback"
 author: matteo-cargnelutti
+excerpt_separator: <!--more-->
 ---
 Historically, the complexities of the backend infrastructures needed to play back and embed rich web archives on a website have limited how we explore, showcase and tell stories with the archived web. [Client-side playback](https://blog.conifer.rhizome.org/2019/10/03/client-side-replay.html) is an exciting emerging technology that lifts a lot of those restraints.
 
 The [replayweb.page](https://replayweb.page/docs/) software suite developed by our long-time partner [Webrecorder](https://webrecorder.net/) is, to date, the most advanced client-side playback technology available, allowing for the easy embedding of rich web archive playbacks on a website without the need for a complex backend infrastructure. However, entirely delegating to the browser the responsibility of downloading, parsing, and restituting web archives also means transferring new responsibilities to the client, which comes with its own set of challenges.
 
 In this post, we'll reflect on [our experience deploying replayweb.page on Perma.cc](https://blogs.harvard.edu/perma/2022/08/17/new-playback-software-improves-fidelity-of-your-perma-links/) and provide general security, performance and practical recommendations on how to embed web archives on a website using client-side playback.
+
+<!--more-->
 
 ## Security model
 

@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2010-10-04 17:06:05+00:00
 title: What we're reading
 wordpress_id: 390
+no-excerpt: true
 tags:
 - tags
 ---

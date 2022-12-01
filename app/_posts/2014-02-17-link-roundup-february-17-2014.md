@@ -7,6 +7,8 @@ categories:
 - roundup
 ---
 
+Very good stuff!
+
 {% include roundup-item.html
   link="http://silviolorusso.com/work/56-broken-kindle-screens/"
   title="56 Broken Kindle Screens"

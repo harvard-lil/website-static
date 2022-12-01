@@ -3,6 +3,7 @@ author: annie-cain
 date: 2012-07-16 20:20:29+00:00
 title: The Setup – Annie Cain
 wordpress_id: 1286
+excerpt_separator: <!--more-->
 ---
 
 **Who are you, and what do you do?**
@@ -10,6 +11,8 @@ wordpress_id: 1286
 I'm Annie Cain.  I was once a librarian and maybe still am.  Either way, I currently build web apps.  For libraries.  I also come up with ideas, help shape ideas and help execute & build non-web ideas.
 
 ![Setup Annie Cain](https://lil-blog-media.s3.amazonaws.com/2012/07/DSC_33592.jpg)
+
+<!--more-->
 
 **What hardware do you use?**
 

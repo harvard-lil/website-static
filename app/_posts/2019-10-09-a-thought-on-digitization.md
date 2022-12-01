@@ -1,6 +1,7 @@
 ---
 title: A Thought on Digitization
 author: ben-steinberg
+no-excerpt: true
 ---
 Although it is excellent, and I recommend it very highly, 
 I had not expected Roy Scranton's _Learning to Die in the

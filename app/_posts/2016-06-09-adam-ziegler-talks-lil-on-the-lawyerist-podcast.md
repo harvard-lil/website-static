@@ -10,9 +10,9 @@ categories:
 - talks
 ---
 
-This May, Managing Director Adam Ziegler was a guest on the Lawyerist podcast, discussing recent goings-on at the Library Innovation Lab.
+This May, Managing Director Adam Ziegler was a guest on the Lawyerist podcast, discussing recent goings-on at the Library Innovation Lab.
 
-Sam Glover and Adam discuss the future of law, its challenges and how the Innovation Lab endeavors to address these. Perma.cc is chiefly discussed, along with H2O and the Free the Law project.
+Sam Glover and Adam discuss the future of law, its challenges and how the Innovation Lab endeavors to address these. Perma.cc is chiefly discussed, along with H2O and the Free the Law project.
 
 Listen **[here](https://lawyerist.com/113783/podcast-68/)!**
 

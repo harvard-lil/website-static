@@ -3,6 +3,7 @@ author: david-weinberger
 date: 2011-03-23 17:47:47+00:00
 title: The Pinakes database
 wordpress_id: 578
+no-excerpt: true
 categories:
 - metadata
 tags:

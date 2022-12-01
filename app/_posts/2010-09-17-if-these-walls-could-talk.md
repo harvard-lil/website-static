@@ -3,6 +3,7 @@ author: jeff-goldenson
 date: 2010-09-17 13:44:35+00:00
 title: '"If these walls could talk"'
 wordpress_id: 361
+no-excerpt: true
 ---
 
 We've spoken a lot about books friending books, people friending books, books updating their status, etc.  We've even had library circulation events fire a tweet.
