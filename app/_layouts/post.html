@@ -7,7 +7,7 @@ custom-css: ['blog']
     <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
         <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-        <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+        <h1 class="post-title" itemprop="headline">{{ page.title | smartify }}</h1>
         {% include author.html author=page.author guest-author=page.guest-author %}
       </header>
 
