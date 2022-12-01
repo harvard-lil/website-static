@@ -30,6 +30,9 @@
     margin-top: $double * 3;
   }
 
+  a.read-more {
+    @extend %link-inline;
+  }
 }
 
 .list-index-pagination {
@@ -71,6 +74,7 @@
 
 .post-content {
   margin-top: 0;
+  padding-bottom: 2px;
   font-weight: 300;
   p:first-child {
     margin-top: 0;
@@ -188,6 +192,7 @@
 }
 
 .pagination {
+  margin-top: 16px;
   .small-btn {
     display: inline-block;
     width: 49%;
@@ -232,6 +237,7 @@
   article, .pagination {
     max-width: 596px;
     margin: auto;
+    margin-top: 16px;
   }
   .post-content {
     & > p, & > ul, & > ol {
@@ -241,6 +247,10 @@
       font-size: $size-body;
     }
   }
+}
+
+footer {
+  margin-top: 24px;
 }
 
 .tag, .category {
