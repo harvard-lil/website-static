@@ -1,6 +1,6 @@
 ---
 title: Ethical Collaborative Storytelling
-author: aadi-kulkarni
+author: liza-daly
 excerpt_separator: <!--more-->
 ---
 I started with the idea of a computer-generated story in which audience participation creates copies of the narrative from each person’s point of view. The story would evolve in real time as new users joined and each person’s copy would update accordingly. I called the story *Forks*. After some initial trials, I decided not to launch it because I did not believe the project was securable against harm.
