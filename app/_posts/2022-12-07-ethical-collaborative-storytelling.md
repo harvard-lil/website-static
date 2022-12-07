@@ -53,7 +53,7 @@ The principles of participation in the story, as I originally conceived of them,
 
 I appropriated a key feature of the source code hosting site [Github](https://github.com) which allows any user to “fork”, or copy, another code repository. Github’s service provides information about the accounts that forked the repository and the relationships between forks, and since forks can themselves be forked, a graph of repository forks can be explored like a tree. This would give me a robust data model for free, one that is inherent in the software but that I’d co-opt to express the relationships between travelers.
 
-**Decentralization by decomposition **
+**Decentralization by decomposition**
 
 In most online systems, to create a node in a network of some kind (rather than being just a user of an existing system) you need to install software somewhere on the internet, configure it, and—this is the worst part—maintain it. I’m interested in techniques that reduce that particular friction down to an act almost like destruction: tearing off a piece of a site and carrying it away, ready-made. 
 
