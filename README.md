@@ -42,7 +42,7 @@ Install and Run
 
 Writing Blog Posts (Docker not required)
 ----------------------------------------
-Head to [https://lil-blog-generator.herokuapp.com/](https://lil-blog-generator.herokuapp.com/) to write your post in the on-screen editor. Use the editor's buttons, if you want the preview to work correctly. (Manually-entered markdown is fine, but won't render correctly here in the preview.) Detailed instructions are below the editor, if you are into that kind of thing.
+Head to [https://blog-generator.lil.tools/](https://blog-generator.lil.tools/) to write your post in the on-screen editor. Use the editor's buttons, if you want the preview to work correctly. (Manually-entered markdown is fine, but won't render correctly here in the preview.) Detailed instructions are below the editor, if you are into that kind of thing.
 
 Hit the editor's "Preview/Download" to check your work.
 
