@@ -12,9 +12,11 @@ A generated story would look something like this:
 <!--more-->
 
 > **Preface**
+> <br>
 > You started this journey over two days ago. You left from your home in the village. It was a rainy day. To help others follow you, you lay a winding path of dunhouse blue cobblestones.
 
 > **Chapter 1**
+> <br>
 > *The path was laden with primrose and titanium.*
 > 
 > user1 observed you passing through the inlet where they lived. They chose to follow you. They set out on a light day and followed the cobblestone path laid by you until it ran thin. As they walked in your footsteps they marked a fresh path with a shiny trail of titanium coins. 
@@ -24,6 +26,7 @@ A generated story would look something like this:
 If some user had followed a follower rather than the original user, a new chapter would be generated:
 
 > **Chapter 2**
+> <br>
 > *The path was laden with bronze.*
 > 
 > user3 observed user2 passing through the forest where they lived. They chose to follow them. They set out on a light day and followed the path of primrose laid by user2 until it ran thin. They marked a fresh path with a shiny trail of bronze coins. 
