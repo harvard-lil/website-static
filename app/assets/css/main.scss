@@ -301,12 +301,12 @@ nav {
 
 .hiring-announcement {
   min-width: 100%;
-  height: 2em;
   display: block;
   background: $color-highlight;
   color: $color-white;
-  padding-top: 0.3em;
-  padding-left: 0.3em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: .5em;
   font-weight: normal;
 }
 
@@ -1519,11 +1519,6 @@ section.people-unaffiliated .list {
   .small-btn {
     margin-bottom: 9px;
   }
-}
-
-//jobs page
-.slice-body h3 {
-  @include overline($color-black, $grid * 6, $b-margin:$grid);
 }
 
 // the fellows-2016 video
