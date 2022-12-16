@@ -1521,11 +1521,6 @@ section.people-unaffiliated .list {
   }
 }
 
-//jobs page
-.slice-body h3 {
-  @include overline($color-black, $grid * 6, $b-margin:$grid);
-}
-
 // the fellows-2016 video
 .fellows-2016 .embed-container {
   margin-top: 32px;
