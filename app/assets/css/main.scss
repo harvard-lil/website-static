@@ -576,6 +576,19 @@ section, .container {
     overflow: auto;
   }
 
+  // use a slightly larger line-height on mobile,
+  // so that if the li contains links, their
+  // border-style underline has enough room to display
+  // (test with mobile safari)
+  li {
+    line-height: 1.6;
+  }
+  @include respond(3) {
+    li {
+      line-height: 1.4;
+    }
+  }
+
   h3, h4 {
     font-size: inherit;
     font-weight: 500;
