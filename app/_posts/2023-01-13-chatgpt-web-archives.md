@@ -27,6 +27,7 @@ Let's ask ChatGPT to find out.
 ## Making a fake web archive 101
 
 ### What do I mean by "fake" web archive? 
+
 The most commonly used format for archiving web pages is 
 [Web ARChive (.warc)](https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1), 
 which consists of aggregated HTTP exchanges and meta information about said exchanges and the context of capture. 
@@ -35,6 +36,7 @@ given url at a given point in time: a "fake" web archive in this context is ther
 a valid WARC file representing fabricated web content. 
 
 ### Do we really need the help of an AI to generate a "fake" web archive?
+
 The WARC format is purposefully easy to read and write, very few fields are mandatory, 
 and it is entirely possible to write one "from scratch" that playback software would accept to read. 
 Although there's a plethora of software libraries available to help with this task, 
@@ -47,6 +49,7 @@ history convincingly, such as by creating multiple versions of a site through ti
 or multiple sites that link to each other.
 
 ### Asking ChatGPT to generate a fake web archive from scratch
+
 For this first experiment, I asked ChatGPT to generate an "About" page for an imaginary 1998 
 version of LIL's website, before wrapping it into a WARC file.
 
@@ -80,6 +83,7 @@ If we wanted to do large scale fakery, we would likely look to the model to gene
 convincing period text and HTML, and use a custom tool to generate WARC records.
 
 ## Asking ChatGPT to alter an existing web archive
+
 We now know that ChatGPT is able to generate convincing-enough "period correct" HTML documents and to wrap them into (slightly broken) WARC files.<br> 
 But can it edit an existing WARC file? Can it identify HTML content in a WARC file and edit it in place? 
 
@@ -94,6 +98,7 @@ These tasks are text-based and ChatGPT was able to complete them on the first tr
 <script src="https://gist.github.com/matteocargnelutti/43c8b90578863121611151cccd2f5388.js"></script>
 
 ## Uncanny <s>valley</s> canyon
+
 The experiments I conducted and described here are not only partly inconclusive, 
 they also focus on extremely basic, single-document web archives.<br>
 Actual web archives are generally much more complex: they may contain many HTML 
