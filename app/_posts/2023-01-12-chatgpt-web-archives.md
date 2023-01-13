@@ -93,7 +93,7 @@ These tasks are text-based and ChatGPT was able to complete them on the first tr
 
 <script src="https://gist.github.com/matteocargnelutti/43c8b90578863121611151cccd2f5388.js"></script>
 
-## Uncanny ~valley~ canyon
+## Uncanny <s>valley</s> canyon...
 The experiments I conducted and described here are not only partly inconclusive, 
 they also focus on extremely basic, single-document web archives.<br>
 Actual web archives are generally much more complex: they may contain many HTML 
