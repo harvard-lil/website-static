@@ -338,3 +338,18 @@ figure.highlight {
   .vi { color: #19177C } /* Name.Variable.Instance */
   .il { color: #666666 } /* Literal.Number.Integer.Long */
 }
+
+// Github gist
+.gist .markdown-body p {
+  font-size: 1rem;
+}
+
+.gist-data {
+  max-height: 350px;
+  overflow: auto;
+  padding: 0.25rem;
+}
+
+.gist-file {
+  border: 0px;
+}
