@@ -1,12 +1,12 @@
 ---
 ### PROJECT METADATA ###
 # Required
-title: Save Your Threads
+title: Thread-Keeper
 
 # Optional
-project_website: https://archive.social/
+project_website: https://social.perma.cc/
 
-github_repo: https://github.com/harvard-lil/archive.social
+github_repo: https://github.com/harvard-lil/thread-keeper
 
 start_date: November 2022
 
