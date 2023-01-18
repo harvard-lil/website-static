@@ -353,3 +353,9 @@ figure.highlight {
 .gist-file {
   border: 0px;
 }
+
+// Auto-width on iframes
+iframe {
+  display: block;
+  width: 100% !important;
+}
