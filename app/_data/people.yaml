@@ -103,6 +103,19 @@ liza-daly:
   current: true
   section: Staff
 
+michael-della-bitta:
+  name: Michael Della Bitta
+  sort_name: Della Bitta
+  role: Engineering Manager
+  bio: >
+    Michael has worked in software development in the startup, library, and education spaces for over 20 years. Most recently, he was the Director of Technology at the Digital Public Library of America. Previously, he worked as a data and analytics developer, architect, and engineering manager at ScribbleLive. Prior to that, Michael worked as a developer and architect on the repository and digital gallery teams at the New York Public Library, and built content management, online learning, and semantic metadata applications at Columbia University.
+  email: mdellabitta@law.harvard.edu
+  github_account_name: mdellabitta
+  image: michael-della-bitta.jpg
+  affiliated: true
+  current: true
+  section: Staff
+
 harmony-eidolon:
   name: Harmony Eidolon
   sort_name: Eidolon
