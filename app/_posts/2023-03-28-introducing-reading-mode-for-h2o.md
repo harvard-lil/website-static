@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 ---
 H2O is excited to announce the release of our “reading mode” - a new casebook view that offers students a cohesive digital reading format to facilitate deep reading. 
 
-We think better design of digital reading environments can capture the benefits of dynamic online books while orienting readers around an experience that encourages deeper analysis. Pairing that vision with [our finding](https://lil.law.harvard.edu/blog/2022/09/23/h2o-usability-study-do-students-want-physical-casebooks/) that more students are seeking digital reading options, we identified an opportunity to develop a digital reading experience that is streamlined, centralized, and most likely to encourage deep reading. 
+We think better design of digital reading environments can capture the benefits of dynamic online books while orienting readers to an experience that encourages deeper analysis. Pairing that vision with [our finding](https://lil.law.harvard.edu/blog/2022/09/23/h2o-usability-study-do-students-want-physical-casebooks/) that more students are seeking digital reading options, we identified an opportunity to develop a digital reading experience that is streamlined, centralized, and most likely to encourage deep reading. 
 
 <!--more-->
 
