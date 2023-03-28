@@ -9,7 +9,7 @@ We think better design of digital reading environments can capture the benefits 
 
 <!--more-->
 
-Reading mode transforms an H2O casebook to a format that more closely resembles an e-book. Casebooks now offer the ability to view and read an entire section at a time, a present and navigable table of contents, and a design that highlights different content types without interrupting the reading flow. Reading mode is optimized for loading speed over limited-bandwidth connections, which can be especially challenging given the average length of heavily-annotated casebooks. Attention was paid to consumption on mobile phones and tablets, devices which are rarely used for creating content, but frequently used by students when studying on the go. 
+Reading mode transforms an H2O casebook into a format that more closely resembles an e-book. Casebooks now offer the ability to view and read an entire section at a time, a navigable table of contents, and a design that highlights different content types without interrupting the reading flow. Reading mode is optimized for loading speed over limited-bandwidth connections, which can be especially challenging given the average length of heavily-annotated casebooks. Attention was paid to consumption on mobile phones and tablets, devices which are rarely used for creating content, but frequently used by students when studying on the go. 
 
 **Platform view**
 ![](https://lil-blog-media.s3.amazonaws.com/Reading_Mode_post.png)
