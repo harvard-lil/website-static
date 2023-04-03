@@ -1,12 +1,12 @@
 ---
 ### PROJECT METADATA ###
 # Required
-title: warc-embed
+title: Wacz-Exhibitor
 
 # Optional
 project_website: https://warcembed-demo.lil.tools/
 
-github_repo: https://github.com/harvard-lil/warc-embed
+github_repo: https://github.com/harvard-lil/wacz-exhibitor
 
 start_date: September 2022
 
