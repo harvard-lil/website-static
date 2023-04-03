@@ -91,9 +91,9 @@ What appears to be a bug in the way certain versions of Safari handle state part
 
 This problem should be fixed in Safari 16: in the meantime, we recommend using [replayweb.page's `noWebWorker` option](https://replayweb.page/docs/embedding#:~:text=known/trusted%20sites.-,noWebWorker,-if%20set%2C%20will) with problematic versions of Safari, which can be identified in JavaScript by the presence of `window.GestureEvent`, and the absence of `window.SharedWorker`.
 
-## Wacz-Exhibitor: our experimental boilerplate
+## wacz-exhibitor: our experimental boilerplate
 
-[Wacz-Exhibitor](https://github.com/harvard-lil/wacz-exhibitor) is LIL's experimental client-side playback integration boilerplate, which can be used to test out and explore the recommendations described in this article.
+[wacz-exhibitor](https://github.com/harvard-lil/wacz-exhibitor) is LIL's experimental client-side playback integration boilerplate, which can be used to test out and explore the recommendations described in this article.
 It consists of:
 a basic web server configuration for storing, proxying, caching and serving web archive files; and
 a pre-configured "embed" page, serving an instance of replayweb.page aimed at a given archive file.
@@ -112,4 +112,4 @@ Source code and documentation on GitHub: [https://github.com/harvard-lil/wacz-ex
 - <small>Addition of an optional `requireSubDomainIframe` attribute to ensure the player won't start unless it's embedded in a cross-origin `<iframe>`.</small>
 
 <hr>
-<small>**2023-04-03 update:** <code>Warc-Embed</code> is now <code>Wacz-Exhibitor</code>
+<small>**2023-04-03 update:** <code>warc-embed</code> is now <code>wacz-exhibitor</code>

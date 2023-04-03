@@ -1,7 +1,7 @@
 ---
 ### PROJECT METADATA ###
 # Required
-title: Wacz-Exhibitor
+title: wacz-exhibitor
 
 # Optional
 project_website: https://warcembed-demo.lil.tools/
