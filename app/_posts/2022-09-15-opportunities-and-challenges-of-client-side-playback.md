@@ -91,14 +91,14 @@ What appears to be a bug in the way certain versions of Safari handle state part
 
 This problem should be fixed in Safari 16: in the meantime, we recommend using [replayweb.page's `noWebWorker` option](https://replayweb.page/docs/embedding#:~:text=known/trusted%20sites.-,noWebWorker,-if%20set%2C%20will) with problematic versions of Safari, which can be identified in JavaScript by the presence of `window.GestureEvent`, and the absence of `window.SharedWorker`.
 
-## Warc-embed: our experimental boilerplate
+## wacz-exhibitor: our experimental boilerplate
 
-[Warc-embed](https://github.com/harvard-lil/warc-embed) is LIL's experimental client-side playback integration boilerplate, which can be used to test out and explore the recommendations described in this article.
+[wacz-exhibitor](https://github.com/harvard-lil/wacz-exhibitor) is LIL's experimental client-side playback integration boilerplate, which can be used to test out and explore the recommendations described in this article.
 It consists of:
 a basic web server configuration for storing, proxying, caching and serving web archive files; and
 a pre-configured "embed" page, serving an instance of replayweb.page aimed at a given archive file.
 
-Source code and documentation on GitHub: [https://github.com/harvard-lil/warc-embed](https://github.com/harvard-lil/warc-embed).
+Source code and documentation on GitHub: [https://github.com/harvard-lil/wacz-exhibitor](https://github.com/harvard-lil/wacz-exhibitor).
 
 <hr>
 <small>These notes have been compiled as part of a new chapter exploring this technology, but the foundation of our insight was built long ago by [Rebecca Cremona](/about/#rebecca-cremona) as she spearheaded the integration of client-side playback into Perma.cc.</small>
@@ -110,3 +110,6 @@ Source code and documentation on GitHub: [https://github.com/harvard-lil/warc-em
 - <small>Automatically using `noCache` mode in browsers that do not support the `StorageManager.estimate` API.</small>
 - <small>Automatically using `noWebWorker` mode for Safari 15 and older.</small>
 - <small>Addition of an optional `requireSubDomainIframe` attribute to ensure the player won't start unless it's embedded in a cross-origin `<iframe>`.</small>
+
+<hr>
+<small>**2023-04-03 update:** <code>warc-embed</code> is now <code>wacz-exhibitor</code>
