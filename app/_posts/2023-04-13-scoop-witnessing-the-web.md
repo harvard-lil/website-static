@@ -70,8 +70,8 @@ The first is the **provenance summary** feature, an optional attachment that con
 In addition to this provenance summary, Scoop can also preserve, as attachments, the different **SSL certificates** that were encountered during capture—a piece of information that may be crucial to confirm the “identity” of the web page that was captured.
 
 <figure>
-    <a href="https://lil-blog-media.s3.amazonaws.com/scoop-cnn-cert.webp ">
-        <img src="https://lil-blog-media.s3.amazonaws.com/scoop-cnn-cert.webp " alt="Example: A TLS certificate chain saved by Scoop during the capture of the cnn.com homepage."/>
+    <a href="https://lil-blog-media.s3.amazonaws.com/scoop-cnn-cert.webp">
+        <img src="https://lil-blog-media.s3.amazonaws.com/scoop-cnn-cert.webp" alt="Example: A TLS certificate chain saved by Scoop during the capture of the cnn.com homepage."/>
     </a>
     <figcaption>Example: A TLS certificate chain saved by Scoop during the capture of the cnn.com homepage.</figcaption>
 </figure>
