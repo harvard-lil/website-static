@@ -157,6 +157,21 @@ rebecca-kilberg:
   current: true
   section: Staff
 
+greg-leppert:
+  name: Greg Leppert
+  sort_name: Leppert
+  role: Product and Research Director
+  bio: >
+    Greg has spent his career founding and advising early stage startups, including the social shopping network Svpply, which he sold to eBay, and the naming agency Onym. Trained as a designer, Greg has also worked as a touring musician, cover designer, and letterpress printer.
+  email: gleppert@law.harvard.edu
+  website: https://leppert.me
+  twitter_account_name: leppert
+  github_account_name: leppert
+  image: greg-leppert.jpg
+  affiliated: true
+  current: true
+  section: Staff
+
 sabelo-mhlambi:
   name: Sabelo Mhlambi
   sort_name: Mhlambi
@@ -168,6 +183,21 @@ sabelo-mhlambi:
   twitter_account_name: sabelonow
   github_account_name: sabzo
   image: sabelo-mhlambi.jpg
+  affiliated: true
+  current: true
+  section: Staff
+
+kristi-mukk:
+  name: Kristi Mukk
+  sort_name: Mukk
+  role: User Support Coordinator
+  bio: >
+    Kristi has worked as an instructional designer and adjunct faculty at Simmons University. In previous roles at the New Bedford Whaling Museum, Smithsonian Institute, and University of Richmond, Kristi focused on digital humanities projects that explore how we connect the past to the present in order to imagine a more equitable future. She is passionate about empowering marginalized communities to actively shape cultural memory for future generations in a way that represents all voices.
+  email: kmukk@law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: kristi-mukk.jpg
   affiliated: true
   current: true
   section: Staff
@@ -834,15 +864,6 @@ erica-leeman:
   sort_name: Leeman
   role: Digitization Specialist
   affiliated: false
-
-greg-leppert:
-  name: Greg Leppert
-  sort_name: Leppert
-  role: Contributing developer
-  website: http://leppert.me
-  twitter_account_name: leppert
-  github_account_name: leppert
-  affiliated: true
 
 dustin-lewis:
   name: Dustin Lewis
