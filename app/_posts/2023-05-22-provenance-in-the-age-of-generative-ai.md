@@ -44,7 +44,7 @@ Maybe it is because I am an immigrant in the United States, and therefore am use
 
 Every time I travel back to the United States, I need to have my passport with me, which shows _where_ I come from, but also my green card, which shows _why_ I am here. If I were to lose these documents, my biometrics, collected earlier on, could be used to identify me and make an association between myself and my immigration status and history.
 
-Generative AI is crossing a yet-to-be-defined border between statistics and human creativity, and while this is something we should welcome, we can also ask that it identifies itself when it does so. Cryptographically-signed provenance information, both embedded in a file or archived on the server side could help achieve that goal. After all, why would we make humans jump through so many - and sometimes unjustified - hoops, but simply trust AI output?
+Generative AI is crossing a yet-to-be-defined border between statistics and human creativity, and while this is something we should welcome, we can also ask that it identify itself when it does so. Cryptographically-signed provenance information, embedded in a file or archived on the server side, could help achieve that goal. After all, why would we make humans jump through so many - and sometimes unjustified - hoops, but simply trust AI output?
 
 ## Enter C2PA 
 
