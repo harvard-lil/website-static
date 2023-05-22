@@ -18,7 +18,7 @@ That's a great point, but did ChatGPT really say that, or did I make that up to 
 
 … but what good would it do, when it’s so easy to produce convincing fakes?
 
-<!-- more -->
+<!--more-->
 
 <figure>
     <a href="https://lil-blog-media.s3.amazonaws.com/f276b0c4-02.webp">
