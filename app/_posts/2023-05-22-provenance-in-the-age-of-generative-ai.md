@@ -104,7 +104,7 @@ This would not be exclusive to one particular type of content (text or images), 
 
 The technology may be here, or close to being here, and [there seems to be momentum in the industry](https://iptc.org/news/google-announces-use-of-iptc-metadata-for-generative-ai-images/) to adopt some of the techniques I briefly described in this post. This may partly be due to growing concerns around plagiarism and copyright infringement, or because the generative AI boom, coinciding with the 2024 presidential election cycle, gives rise to fears that these technologies may augment the generation of false information in that context.
 
-In any case, I think we all know what I shouldn’t do: ask ChatGPT what it _“thinks”_ about it to close my argument. 
+In any case, I think we all know what I shouldn’t do: ask ChatGPT what it _“thinks”_ in order to close my argument. 
 
 > **Prompt**:
 > “Write a single sentence explaining why it may be dangerous to continue to deploy generative AI technologies without offering reliable ways to trace back the contents they generate to their origin.”
