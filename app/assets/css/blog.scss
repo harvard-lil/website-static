@@ -359,3 +359,15 @@ iframe {
   display: block;
   width: 100% !important;
 }
+
+// Styling fixes for figure + figcaption in blog posts
+figure {
+  margin: 0px;
+  padding: 0px;
+}
+
+figure figcaption {
+  text-align: center;
+  display: block;
+  padding-top: 0.75rem;
+}
