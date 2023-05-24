@@ -1,7 +1,7 @@
 ---
 title: 'Mysterious Search Algorithms'
 guest-author: 'William Yao'
-date: 2023-05-25
+date: 2023-05-24
 excerpt_separator: <!--more-->
 ---
 Lawyers use search algorithms on a daily or even hourly basis, but the way they work often remains mysterious. Users receive pages and pages of results from searches that ostensibly are based on some relevancy standard, seemingly guaranteeing that the most important results are all found. But that may not always be the case. This post explores the mystery of search algorithms from a legal research perspective. It examines what is wrong with algorithms being mysterious, explores our current knowledge of how they work, and makes recommendations for the future.
@@ -50,7 +50,7 @@ Beyond the legal field, [experts have called for greater algorithmic literacy an
 
 Fundamentally, legal research professors’ and librarians’ curricula should include information about the role of algorithms in legal research and warnings of the differing results that may come from different databases. They should emphasize that each search database uses a different algorithm so that researchers become aware of discrepancies between them. Algorithms may create the impression that their results are always the most relevant and that researchers need look no further. We know that is not always the case.
 
-*William Yao is a Library Innovation Lab research assistant and a student of Harvard Law School.*
+*William Yao is a Library Innovation Lab research assistant and a student at Harvard Law School.*
 
 <br><br>
 ### Sources
