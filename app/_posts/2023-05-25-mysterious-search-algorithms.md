@@ -48,6 +48,9 @@ Another recommendation is for law librarians, law schools, and even law firms to
 Beyond the legal field, [experts have called for greater algorithmic literacy and transparency more generally](https://www.pewresearch.org/internet/2017/02/08/code-dependent-pros-and-cons-of-the-algorithm-age) in the age of algorithms.  Susan Etlinger, an industry analyst at Altimeter Group, stated that we should question how our data are presented and decisions are made just as we may question how our food or clothing are made.  What assumptions are built into the algorithms? Were the algorithms sufficiently trained? Were the factors considered appropriate? These are all questions researchers should consider to better understand the algorithms they rely on. Answering these questions is especially important when each algorithm considers different factors and shows different results, even when practitioners in the particular field of study have, for example, a standardized list of cases they believe are the most important.
 
 Fundamentally, legal research professors’ and librarians’ curricula should include information about the role of algorithms in legal research and warnings of the differing results that may come from different databases. They should emphasize that each search database uses a different algorithm so that researchers become aware of discrepancies between them. Algorithms may create the impression that their results are always the most relevant and that researchers need look no further. We know that is not always the case.
+
+*William Yao is a Library Innovation Lab research assistant and a student of Harvard Law School.*
+
 <br><br>
 ### Sources
 
