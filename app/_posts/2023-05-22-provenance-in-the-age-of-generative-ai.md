@@ -73,7 +73,7 @@ A first application of that concept to generative AI came with [Adobe and Stabil
 
 [C2patool](https://github.com/contentauth/c2patool), the leading open-source solution for working with C2PA, supports [various image, video and audio formats](https://github.com/contentauth/c2patool#supported-file-formats). It also allows for signing in a _“sidecar”_ (an external file), but doesn’t yet come with a built-in solution for text-based content. 
 
-Finding a suitable file format would be the first and probably main hurdle to overcome in order for large language models (LLMs) to label their output. PDF may be a good fit, but already comes with its own signing standard, which Adobe is unlikely to bring disruption to. XML might be a good lead as well, given that c2patool already supports SVG images, which are XML-based.
+Finding a suitable file format would be the first and probably main hurdle to overcome in order for large language models (LLMs) to label their output. PDF may be a good fit, and provisions were recently added to the C2PA specification to delineate [how that integration could work](https://c2pa.org/specifications/specifications/1.3/specs/C2PA_Specification.html#_embedding_manifests_into_pdfs). As of this writing, it appears that existing tools in the C2PA ecosystem do not directly support this integration. XML might be a good lead as well, given that c2patool already supports SVG images, which are XML-based.
 
 That hurdle aside, the implementation would — in principle — be similar to what Adobe Firefly and the like seem to have chosen: creating and signing provenance information at the time of generating the output, serving that information alongside the generated content, and keeping a copy of it on the server side. 
 
@@ -113,3 +113,7 @@ In any case, I think we all know what I shouldn’t do: ask ChatGPT what it _“
 > “Without reliable methods to trace back the generated contents to their origin, the deployment of generative AI technologies poses a significant risk as it allows for potential malicious use, misinformation, and unaccountability, which can have far-reaching consequences for individuals, organizations, and society at large.”
 
 … Did it really say that, or did I make it up?
+
+<hr>
+
+<small>**2023-05-24 update:** Edited section about PDF to include existing C2PA specification provisions on PDF support.</small>
