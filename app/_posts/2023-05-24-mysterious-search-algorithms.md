@@ -17,7 +17,7 @@ Susan Nevelow Mart, Professor Emeritus at Colorado Law, has spent significant ti
 Her findings show that every algorithm is different, [as are their search results](https://legal.thomsonreuters.com/content/dam/ewp-m/documents/legal/en/pdf/other/perspectives/2020/fall/2020-fall-article-6.pdf).  She found an average of 40% of the top ten cases to be unique to each database.  She also found that around 25% of the cases only appeared in two of the databases.  This means that of the top ten cases from each database, four cases did not appear in any other database. Furthermore, if Lexis and Westlaw are compared alone, the results showed a striking 72% of unique cases.  Although law students and attorneys likely consider more than the first ten results, practically speaking, that means users of one database might be looking through a dramatically different list of cases compared to users of a different database. This might lead to them citing and quoting different cases that the others may not have even seen.
 
 <figure>
-    <a href="https://scholar.law.colorado.edu/faculty-articles/755. https://scholar.law.colorado.edu/cgi/viewcontent.cgi?article=1997&context=faculty-articles">
+    <a href="https://scholar.law.colorado.edu/faculty-articles/755">
         <img src="https://lil-blog-media.s3.amazonaws.com/Figure1-M7S.png" alt="'The Uniqueness of Cases in Each Database' Chart comparing case overlap of Casetex, Fastcase, Google Scholar, Lexis Advance, Ravel, and Westlaw"/>
     </a>
     <figcaption>From The Algorithm as a Human Artifact. Results from different databases show a high percentage of cases being unique to that database. The highest percentage of unique cases was in Westlaw, with 43% of cases unique from other databases. </figcaption>
@@ -69,7 +69,7 @@ Susan Nevelow Mart, Joe Breda, Ed Walters, Tito Sierra & Khalid Al-Kofahi, Insid
 
 Susan Nevelow Mart, Results May Vary, A.B.A. J., Mar. 2018, at 48, available at http://scholar.law.colorado.edu/articles/964/.
 
-Susan Nevelow Mart, The Algorithm as a Human Artifact: Implications for Legal [Re]Search, 109 Law Libr. J. 387 (2017), available at https://scholar.law.colorado.edu/faculty-articles/755. https://scholar.law.colorado.edu/cgi/viewcontent.cgi?article=1997&context=faculty-articles
+Susan Nevelow Mart, The Algorithm as a Human Artifact: Implications for Legal [Re]Search, 109 Law Libr. J. 387 (2017), available at https://scholar.law.colorado.edu/faculty-articles/755.
 
 Lee Rainie & Janna Anderson, Code-Dependent: Pros and Cons of the Algorithm Age, https://www.pewresearch.org/internet/2017/02/08/code-dependent-pros-and-cons-of-the-algorithm-age/.
 
