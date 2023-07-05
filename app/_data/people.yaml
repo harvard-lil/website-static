@@ -88,21 +88,6 @@ jack-cushman:
   current: true
   section: Staff
 
-liza-daly:
-  name: Liza Daly
-  sort_name: Daly
-  role: Technologist in Residence
-  bio: >
-    Liza has been a software engineer and startup founder in the digital publishing and political tech spaces, most recently as the Engineering Director for the core infrastructure team at the Democratic National Committee. She has served as a board member for the International Digital Publishing Foundation and Interactive Fiction Technology Foundation, and co-chair of the W3C Digital Publishing Interest Group.
-  email: ldaly@law.harvard.edu
-  website: https://lizadaly.com/
-  twitter_account_name: liza
-  github_account_name: lizadaly
-  image: liza-daly.jpg
-  affiliated: true
-  current: true
-  section: Staff
-
 michael-della-bitta:
   name: Michael Della Bitta
   sort_name: Della Bitta
@@ -168,21 +153,6 @@ greg-leppert:
   twitter_account_name: leppert
   github_account_name: leppert
   image: greg-leppert.jpg
-  affiliated: true
-  current: true
-  section: Staff
-
-sabelo-mhlambi:
-  name: Sabelo Mhlambi
-  sort_name: Mhlambi
-  role: Technologist in Residence
-  bio: >
-    Sabelo has held academic appointments at the Berkman-Klein Center, Stanford’s Digital Civil Society Lab, and the Carr Center for Human Rights Policy, researching the human rights implications of algorithmic technology on marginalized communities from global south perspectives. He has been developing software for over a decade, including natural language processing for African languages, open-source anti-censorship software, and content recommendation systems.
-  email: smhlambi@law.harvard.edu
-  website: https://sabelo.mhlambi.com/
-  twitter_account_name: sabelonow
-  github_account_name: sabzo
-  image: sabelo-mhlambi.jpg
   affiliated: true
   current: true
   section: Staff
@@ -520,6 +490,15 @@ emma-cushman:
   sort_name: Cushman
   role: Contributing developer
   affiliated: false
+
+liza-daly:
+  name: Liza Daly
+  sort_name: Daly
+  role: Technologist in Residence
+  website: https://lizadaly.com/
+  twitter_account_name: liza
+  github_account_name: lizadaly
+  affiliated: true
 
 julian-degroot-lutzner:
   name: Julian DeGroot-Lutzner
@@ -908,6 +887,15 @@ muira-mccammon:
   sort_name: McCammon
   role: 2016 Summer Fellow
   twitter_account_name: muira_mccammon
+  affiliated: true
+
+sabelo-mhlambi:
+  name: Sabelo Mhlambi
+  sort_name: Mhlambi
+  role: Technologist in Residence
+  website: https://sabelo.mhlambi.com/
+  twitter_account_name: sabelonow
+  github_account_name: sabzo
   affiliated: true
 
 matt-miller:
