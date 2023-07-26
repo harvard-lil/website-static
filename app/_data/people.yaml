@@ -172,6 +172,19 @@ kristi-mukk:
   current: true
   section: Staff
 
+jacob-rhoades:
+  name: Jacob Rhoades
+  sort_name: Rhoades
+  role: Senior Product Designer
+  bio: >
+    Jacob is a seasoned graphic designer with over a decade of experience in branding, illustration, and UI design. His portfolio includes collaborations with companies in travel, tech, architecture, and wellness. When not immersed in design, Jacob finds joy in family life and exploring the world on his bike.
+  email: jrhoades@law.harvard.edu
+  website: https://jacobrhoades.com/
+  image: jacob-rhoades.jpg
+  affiliated: True
+  current: True
+  section: Staff
+
 clare-stanton:
   name: Clare Stanton
   sort_name: Stanton
