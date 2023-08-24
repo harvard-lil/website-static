@@ -1562,3 +1562,9 @@ section.people-unaffiliated .list {
     color: $color-black;
   }
 }
+
+// Temporary rule for 2023 AI summit page
+body.ai .simple-section {
+  max-width: 75ch;
+  margin: auto;
+}
