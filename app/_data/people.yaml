@@ -800,6 +800,12 @@ jane-kelly:
   role: Historical & Special Collections Assistant
   affiliated: false
 
+jocelyn-kennedy:
+  name: Jocelyn Kennedy
+  sort_name: Kennedy
+  role: Executive Director of the Harvard Law School Library 
+  affiliated: true
+
 alisa-kolot:
   name: Alisa Kolot
   sort_name: Kolot
