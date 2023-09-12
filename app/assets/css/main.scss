@@ -299,7 +299,7 @@ nav {
   margin-left: -28px;
 }
 
-.hiring-announcement {
+.hiring-announcement, .banner {
   min-width: 100%;
   display: block;
   background: $color-highlight;
@@ -308,6 +308,10 @@ nav {
   padding-bottom: .5em;
   padding-left: .5em;
   font-weight: normal;
+}
+
+.banner {
+  font-size: $size-medium;
 }
 
 ////////////////////////////////////////////////
