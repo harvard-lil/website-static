@@ -616,6 +616,10 @@ section, .container {
   p {
     @include body-text;
   }
+  
+  p:first-of-type {
+    margin-top: $quad;
+  }
 
   li {
   line-height: 1.4;
@@ -647,9 +651,19 @@ section, .container {
     }
 
     h2:first-of-type {
-      margin-top: 0;
-    }
+      margin-top: $quad;
+    }  
   }
+
+  hr {
+    margin: $quad 0;
+  }
+}
+
+// Temporary rules for 2023 AI summit page
+body.ai .simple-section {
+  max-width: 75ch;
+  margin: auto;
 }
 
 ////////
@@ -1565,10 +1579,4 @@ section.people-unaffiliated .list {
   span {
     color: $color-black;
   }
-}
-
-// Temporary rule for 2023 AI summit page
-body.ai .simple-section {
-  max-width: 75ch;
-  margin: auto;
 }
