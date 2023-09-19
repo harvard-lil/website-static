@@ -7,8 +7,9 @@
 
 // basic grid to keep spacing simple and regular
 $grid: 8px;
-$double: $grid * 2;
 $half: $grid / 2;
+$double: $grid * 2;
+$quad: $grid * 4;
 
 ////////
 //  respond
