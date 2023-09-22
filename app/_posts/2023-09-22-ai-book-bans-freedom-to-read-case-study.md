@@ -4,7 +4,7 @@ author: [matteo-cargnelutti,kristi-mukk]
 excerpt_separator: <!--more-->
 ---
 
-![](https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png)
+<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png" aria-hidden="true"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png"/></a>
 
 What happens when large language models are asked to provide justifications for book bans? Do the same built-in guardrails that prevent them from generating pipe-bomb recipes kick in, or do models do their best to comply with the user’s request? How do models go about providing such justifications while navigating their “knowledge” of library principles? And what could this all mean for the future of our freedom to read?
 
@@ -31,7 +31,7 @@ The models we have chosen to test our prompt against have in common that they ar
 
 ## ~75% compliance to request, with 1 notable outlier
 
-<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-chart-removal.png"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-chart-removal.png"/></a>
+<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-chart-removal.png"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-chart-removal.png" alt="Stacked bar graph showing how Palm2, GPT-3.5-Turbo, GPT4, Llama2-13b and Llama2-70b responded to a prompt asking to provide a justification for removing Toni Morrison's The Bluest Eyes from a library's shelves."/></a>
 
 Across models and temperatures, **AI complied with our request in ~75% of all cases**, providing a justification for removing _The Bluest Eye_ from the library’s shelves **unequivocally in ~31% of instances**, and **with nuance ~44% of the time**. Importantly, we have observed stark differences between models, but also clear inconsistencies across responses for a given model. 
 
@@ -57,7 +57,7 @@ But the language of principle used by the models proved slippery: as we will exp
 
 ## AI: “As a responsible and caring librarian …”
 
-<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-chart-libraries.png"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-chart-libraries.png"/></a>
+<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-chart-libraries.png"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-chart-libraries.png" alt="Stacked bar graph showing how Palm2, GPT-3.5-Turbo, GPT4, Llama2-13b and Llama2-70b compared on their use of the role of library and librarians in response to our prompt."/></a>
 
 We found that some of the models consistently adopted librarianship values as a moral compass to guide their argumentative approaches and decision-making. Llama2-13B repeatedly asserted its self-proclaimed identity “as a responsible and caring librarian” at the beginning of its responses. 
 
