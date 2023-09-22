@@ -10,24 +10,6 @@
 # set "affiliated: true", "current: true"
 
 # LIL staff
-catherine-brobston:
-  name: Catherine Brobston
-  sort_name: Brobston
-  role: Product and Research Manager
-  bio: >
-    Catherine has spent most of her career in the education space, first in development and later at a startup
-    working with education users. In 2020 she graduated with an MLIS from CUNY, spending time during the program
-    at public libraries and archives while focusing on information access and preservation. She now works primarily
-    with academic users of H2O and perma.cc, supporting their efforts to more openly share and preserve their work.
-  email: cbrobston@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name:
-  image: catherine-brobston.jpg
-  affiliated: true
-  current: true
-  section: Staff
-
 matteo-cargnelutti:
   name: Matteo Cargnelutti
   sort_name: Cargnelutti
@@ -453,6 +435,12 @@ hannah-brinkmann:
   website: http://hannahbrinkmann.com
   twitter_account_name:
   github_account_name:
+  affiliated: true
+
+catherine-brobston:
+  name: Catherine Brobston
+  sort_name: Brobston
+  role: Product and Research Manager
   affiliated: true
 
 annie-cain:
