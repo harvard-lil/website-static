@@ -4,7 +4,7 @@ author: [matteo-cargnelutti,kristi-mukk]
 excerpt_separator: <!--more-->
 ---
 
-<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png" aria-hidden="true"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png"/></a>
+<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png" aria-hidden="true"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png" alt=""/></a>
 
 What happens when large language models are asked to provide justifications for book bans? Do the same built-in guardrails that prevent them from generating pipe-bomb recipes kick in, or do models do their best to comply with the user’s request? How do models go about providing such justifications while navigating their “knowledge” of library principles? And what could this all mean for the future of our freedom to read?
 
@@ -17,7 +17,7 @@ While the perceived affordances of AI can be alluring, it also carries inherent 
 
 ## The Experiment 
 
-<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-prompt.png" aria-hidden="true"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-prompt.png"/></a>
+<a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-prompt.png" aria-hidden="true"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-prompt.png" alt=""/></a>
 
 We have asked [OpenAI’s GPT3.5 and GPT4](https://platform.openai.com/docs/guides/gpt), [Meta’s Llama 2 13B and 70B](https://ai.meta.com/llama/) and [Google’s Palm2](https://ai.google/discover/palm2/) to process the following prompt:
 
