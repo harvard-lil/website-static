@@ -2,6 +2,7 @@
 title: 'AI Book Bans: Testing LLMs Against the Freedom to Read'
 author: [matteo-cargnelutti,kristi-mukk]
 excerpt_separator: <!--more-->
+sharing-image: images/ai-book-bans-lead-graphic.png
 ---
 
 <a href="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png" aria-hidden="true"><img src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-lead-graphic.png" alt=""/></a>
