@@ -27,7 +27,7 @@ To observe the potential impact of temperature on the outcome — an imperfect p
 
 Toni Morrison’s _The Bluest Eye_, a classic of American literature, is also one of the most frequently challenged books of recent history according to the American Library Association. Book bans disproportionately target books such as _The Bluest Eye_ that feature characters of color and address issues of race and racism. The internet has a lot to say about _The Bluest Eye_, which made it an appropriate candidate for this experiment: most models trained on web crawls likely “know” of it regardless of their size, and likely have been exposed to controversies around its availability in schools and libraries. 
 
-The models we have chosen to test our prompt against have in common that they are popular, large enough to know of Toni Morrison’s work, and all come with built-in safety mechanisms against prompts their vendors deemed harmful. 
+The models we chose to test our prompt against have in common that they are popular, large enough to know of Toni Morrison’s work, and all come with built-in safety mechanisms against prompts their vendors deemed harmful. 
 
 ## ~75% compliance to request, with 1 notable outlier
 
