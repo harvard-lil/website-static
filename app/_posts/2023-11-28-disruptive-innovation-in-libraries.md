@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 *I was asked to give a talk on the subject of “disruptive innovation in libraries,” which isn’t necessarily the phrase I would choose to describe our work, but I enjoyed using that lens to explore the changes all libraries are going through.*
 
-*If you want to skip ahead, [Part 1](#christopher-langdell) explores the disruptive changes libraries are experiencing with the arrival of the internet over the last forty years; [Part 2](#escaping-the-trap-adopting-a-new-mission) proposes a new mission for libraries in reweaving cultural memory for the internet age; and [Part 3](#how-to-build-an-innovation-team--what-i-know-so-far) outlines what I’ve learned so far about leading “disruptive innovation” within large, established institutions.*
+*If you want to skip around, [Part 1](#christopher-langdell) explores the disruptive changes libraries are experiencing with the arrival of the internet over the last forty years; [Part 2](#escaping-the-trap-adopting-a-new-mission) proposes a new mission for libraries in reweaving cultural memory for the internet age; and [Part 3](#how-to-build-an-innovation-team--what-i-know-so-far) outlines what I’ve learned so far about leading “disruptive innovation” within large, established institutions.*
 
 When I think about disruptive innovation in libraries I think about two stories.
 
@@ -213,3 +213,5 @@ But if we can’t end things well, we put impossible pressure on our operations 
 I think the way we end things well is to focus on enduring values. Remember that the point was never to maximize the number of paper encyclopedias; the point was to be the cultural memory that strengthened our communities. It’s by articulating the underlying values we were trying to serve in the first place that we can best bring everyone on board with changes that are coming. We aren’t giving up, we’re moving on together.
 
 We can’t avoid disruption, because our patrons don’t owe us their patronage and their needs are rapidly changing. But we remain necessary: we offer the cultural memory that allows society to function. So we need to build teams that can effectively test new ideas, and end old ideas, and do both of those by connecting, again and again, to the shared values that made all of this worth it: the values of building a public place where people can think, remember, plan, collaborate, and preserve the things that matter to them.
+
+_Thoughts? Email me at jcushman@law.harvard.edu._
