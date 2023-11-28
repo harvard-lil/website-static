@@ -23,13 +23,13 @@ When I think about disruptive innovation in libraries I think about two stories.
 
 One is the story of Christopher Langdell, who reinvented the library where I work when he became dean in 1870.
 
-Langdell changed _everything_ over the course of a few years: different budgets, different physical architecture, different staff, different patrons, different rules. And he did all of that by announcing a different _mission_ for the library. He announced: “The Library is to us what a laboratory is to the chemist or the physicist, and what the museum is to the naturalist,” meaning that the purpose of having a law library is to have the specimens that make it possible to learn and practice the law. He then made all of his choices by asking what would make sure that Harvard Law School had the world’s best laboratory for conducting law.
+Langdell changed _everything_ over the course of a few years: different budgets, different physical architecture, different staff, different patrons, different rules. And he did all of that by announcing a different _mission_ for the library. He announced: “The Library is to us what a laboratory is to the chemist or the physicist, and what the museum is to the naturalist,” meaning that the purpose of having a law library is to have the specimens that make it possible to learn and practice the law. He then made all of his choices by asking what would make sure that Harvard Law School had the world’s best laboratory for conducting law — for example, by having one copy of _everything_, and enough copies of the popular things that everyone could get their hands on one.
 
-These changes were deeply disruptive: he described them as changes of “so radical a character that they have produced a very complete revolution in the Library in almost every particular.” And he acknowledged in his annual report that they caused “more or less temporary inconvenience and embarrassment,” which I think is annual report language for something that caused a great deal of chaos and alarm.
+His changes were deeply disruptive: he described them as changes of “so radical a character that they have produced a very complete revolution in the Library in almost every particular.” And he acknowledged in his annual report that they caused “more or less temporary inconvenience and embarrassment,” which I think is annual report language for something that caused a great deal of chaos and disruption.
 
 But the disruptive changes worked, because they made the library essential to the law school: he wrote that “without the library, the School would lose its most important characteristics, and indeed its identity.” This was true — the law library became a primary reason for people to go to Harvard and for Harvard to be a premier law school.
 
-(These quotes all courtesy Richard Danner’s excellent article [The Legacies of Langdell and His Metaphor](https://scholarship.law.duke.edu/faculty_scholarship/3481).)
+(These quotes all from Richard Danner’s excellent article [The Legacies of Langdell and His Metaphor](https://scholarship.law.duke.edu/faculty_scholarship/3481).)
 
 For those of us who came afterward, therefore, much of our job was to make sure that Langdell’s mission at the library continued to be carried out; we had to make sure that the people who came after us did about the same, or a bit better, than the people who came before us.
 
@@ -41,7 +41,7 @@ Langdell’s story illustrates one side of disruptive innovation: when you choos
 
 <img src="https://lil-blog-media.s3.amazonaws.com/wikipedia.png" alt="Image of paper encyclopedias with an arrow pointing to the Wikipedia logo" />
 
-The second story is the transition from paper encyclopedias to Wikipedia.
+The second story is the transition from paper encyclopedias to Wikipedia, which I'm using as a shorthand for the many changes that libraries have gone through with the arrival of the internet.
 
 Before the internet, encyclopedias were essential, and so they were one reason libraries were essential: if you wanted to know a fact, you had to look it up, and if you didn’t have an encyclopedia at home, you had to get yourself to a library. Wikipedia changed that: you no longer had to go to a library to look up a fact.
 
@@ -51,9 +51,9 @@ And because we’re libraries, we don’t even get to be mad about that! As long
 
 This is the other kind of disruptive innovation: the innovation that happens to you from outside, when something about the world changes so that pursuing your mission no longer best serves your values.
 
-There are lots of other stories to tell about Wikipedia too — the reasons knowledge experts had to be justifiably skeptical of it as a resource, the miracle that it worked as well as it did, the role libraries played in making it possible, etc. And there are lots of other internet stories that have a similar shape.
+There are lots of variations of this story, like the arrival of digital journals, open journals, and preprint servers in academic libraries. And there are lots of other stories to tell about Wikipedia — the reasons knowledge experts had to be justifiably skeptical of it as a resource, the miracle that it worked as well as it did, the role libraries played in making it possible, etc.
 
-But for purposes of this talk, the thing to get in our bones is:
+But for purposes of this talk, "Wikipedia" is shorthand for something we need to get in our bones:
 
 * Patrons are finding knowledge in all kinds of new ways that better solve their problems.
 * Those new ways might seem strange or even broken to us, but we don’t get to tell people that they are solving their problems wrong.
@@ -104,9 +104,9 @@ But I think that trap is clearer and easier to see when it’s measured by a pub
 
 <img src="https://lil-blog-media.s3.amazonaws.com/if-we-dont-innovate.png" alt="If we don't innovate, we move from loss leader to cost center, and from curator to contract negotiator" />
 
-What does “essential” mean here, from the perspective of Langdell? It means something like, will giving the library less money result in lower quality admissions, lower quality faculty recruits, or less successful graduates? The way we shrink down to nothing is straightforward: on the one hand, we shift from “loss leader” to “cost center,” shifting from something that is essential to the school to bring students in the door, to something that deans push to spend less on each year. Cathy Eisenhower wrote about the changing pressure [for university libraries to turn a profit](https://www.insidehighered.com/blogs/university-venus/cost-center-profit-center-academic-libraries-and-corporatization-higher-ed), for example, in Inside Higher Ed back in 2010.
+What does “essential” mean here, in the sense Langdell made the Harvard Law School Library essential? It means something like, will giving the library less money result in lower quality admissions, lower quality faculty recruits, or less successful graduates? The way we shrink down to nothing is straightforward: on the one hand, we shift from “loss leader” to “cost center,” shifting from something that is essential to the school to bring students in the door, to something that deans push to spend less on each year. Cathy Eisenhower wrote about the changing pressure [for university libraries to turn a profit](https://www.insidehighered.com/blogs/university-venus/cost-center-profit-center-academic-libraries-and-corporatization-higher-ed), for example, in Inside Higher Ed back in 2010.
 
-And on the other hand, we shift from “curator” to “contract negotiator” — we no longer use librarian’s distinct professional skills, ethics, and competence to choose what to acquire and thus define a field, but instead subscribe to a much smaller list of databases curated by commercial vendors with very different goals and values. The things that are essential to us — things like building collections for the long term, and not just until the publisher changes the subscription terms — are no longer in our power to control.
+And on the other hand, we shift from “curator” to “contract negotiator” — we no longer use librarians' distinct professional skills, ethics, and competence to choose what to acquire, and thus define the substantive fields we work in, but instead subscribe to a much smaller list of databases curated by commercial vendors with very different goals and values. The things that are essential to us — things like building collections for the long term, and not just until the publisher changes the subscription terms — are no longer in our power to control.
 
 ## Escaping the trap: adopting a new mission
 
@@ -116,7 +116,7 @@ So we need a mission that makes us essential — just like Langdell announced th
 
 Your answer will be better than mine, but my pitch today is that our essential mission is to be the home for cultural memory.
 
-We’ve connected five billion people to the internet in the last 30 years, and we’re capturing millions of petabytes of data per year.
+Five billion people have connected to the internet in the last 30 years, generating millions of petabytes of data per year.
 
 <figure>
   <img src="https://lil-blog-media.s3.amazonaws.com/internet-users.png" alt="Timeline of internet users"/>
@@ -136,7 +136,7 @@ It’s easy to feel the opposite of that today — that connecting five billion 
 
 <img src="https://lil-blog-media.s3.amazonaws.com/opposite.png" alt="The opposite of libraries is cultural dementia." />
 
-(I’m not saying, for purposes of this talk, whether this is better or worse than it was before the internet — the truth has always been hard to discern, and social coordination problems have always been hard to solve. But it certainly is a palpable problem today.)
+(I’m not saying, for purposes of this talk, whether our "cultural dementia" is better or worse than it was before the internet — the truth has always been hard to discern, and social coordination problems have always been hard to solve. But it certainly is a palpable problem today.)
 
 Libraries are extraordinarily good at helping with this — they’re one of the few technologies where, the more of them you have in your society, the stronger, the more robust, the more flexible, the more resilient you get.
 
@@ -163,7 +163,7 @@ You don’t have to be the size of Harvard to build an innovation team. The tric
 
 When you have this process up and running, the skills you are using will go in a loop something like this:
 
-<img src="https://lil-blog-media.s3.amazonaws.com/loop.png" alt="A loop of different roles in an organization" />
+<img src="https://lil-blog-media.s3.amazonaws.com/loop.png" alt="A loop of eight different roles in an organization" />
 
 This won’t necessarily be eight people! It might be one person wearing eight hats. But if it’s working it will need skills like those eight people, so let’s talk through what these roles are bringing to the team:
 
@@ -202,7 +202,7 @@ Likewise, there are a wide variety of funding models libraries can explore, incl
 
 Finally I want to talk a bit about ending things. All successful ideas follow a course something like this:
 
-<img src="https://lil-blog-media.s3.amazonaws.com/lifecycle.png" alt="hand-drawn diagram of the lifecycle of an idea" />
+<img src="https://lil-blog-media.s3.amazonaws.com/lifecycle.png" alt="hand-drawn diagram of the lifecycle of an idea: exploration, testing, operation, sunsetting" />
 
 An innovation team is best at the exploration and testing phases, and many library practices lead to excellence at the operation phase. But the phase I think is most important is the one we’re all bad at — sunsetting.
 
