@@ -4,8 +4,6 @@
 title: Thread-Keeper
 
 # Optional
-project_website: https://social.perma.cc/
-
 github_repo: https://github.com/harvard-lil/thread-keeper
 
 start_date: November 2022
