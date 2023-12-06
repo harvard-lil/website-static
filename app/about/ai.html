@@ -1,101 +1,207 @@
 ---
 title: AI Projects at LIL 
 slug: ai
-layout: simple-page
+layout: sectioned-page
 ---
 
-<h1>{{ page.title }}</h1>
+<section>
+  <div class="sleeve">
+    <h1>{{ page.title }}</h1>
 
-<p><em>These projects are all in progress. If you’d like to keep up with them please <a href="https://law.us3.list-manage.com/subscribe?u=4290964398813d739f2398db0&id=e097736c6f">subscribe to our newsletter.</a></em></p>
-<p>
-  Generative AI offers a defining moment where information archives gain the
-  ability to answer questions about themselves; to act without human
-  intervention; and even to simulate the processes that created them.
-  From our perspective at the lab - where we bring library principles to
-  technological frontiers - anyone who is concerned with information, access,
-  and the law should be aware of and feel empowered to influence the use of
-  generative AIs. We have embarked upon a series of projects in support of that
-  belief.
+    <div class="slice">
+      <div class="slice-body">
+        <p>
+          Generative AI offers a defining moment where information
+        archives gain the ability to answer questions about
+        themselves; to act without human intervention; and even to
+        simulate the processes that created them.  From our
+        perspective at the lab - where we bring library principles to
+        technological frontiers - anyone who is concerned with
+        information, access, and the law should be aware of and feel
+        empowered to influence the use of generative AIs. We have
+        embarked upon a series of projects in support of that belief.
+        </p>
+        <p>
+          <em>These projects are all in progress. If you’d like to
+        keep up with them,
+        please <a href="https://law.us3.list-manage.com/subscribe?u=4290964398813d739f2398db0&id=e097736c6f">subscribe
+        to our newsletter.</a></em>
+        </p>
+      </div>
+    </div>
+
+    <div class="slice">
+      <h2>Table of contents</h2>
+      <div class="slice-body">
+        <ul>
+          <li><a href="#cold-data-set">Collaborative Open Legal Data (COLD) Data Set</a></li>
+          <li><a href="#one-million-books">One Million Books</a></li>
+          <li><a href="#cap-and-the-right-to-access">Caselaw Access Project and the Right to Access Edicts of Law</a></li>
+          <li><a href="#open-french-law-chatbot">Open French Law Chatbot</a></li>
+          <li><a href="#model-academic-research-agreement">Model Academic Research Agreement</a></li>
+          <li><a href="#library-data-trust">Library Data Trust</a></li>
+          <li><a href="#llms-and-book-ban-benchmark">LLMs and Book Ban Benchmark</a></li>
+          <li><a href="#creative-writing-llms">Creative Writing LLMs</a></li>
+          <li><a href="#lil-vector">LIL Vector</a></li>
+          <li><a href="#harvard-lil-ai-fund">Harvard Library Innovation Lab AI Fund</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slice">
+      <div class="slice-body">
+        <h3 id="cold-data-set">Collaborative Open Legal Data (COLD) Data Set</h3>
+        <p>
+          We are proud to announce COLD Cases, a research data set for
+          the open law community.
+        </p>
+        <p>
+          The legal nonprofit <a href="https://free.law/">Free Law
+          Project</a> maintains a wide variety of web crawlers to
+          collect and publish an ever-growing data set of public domain
+          law at
+          <a href="http://courtlistener.com/">CourtListener.com</a>.
+        </p>
+
+        <p>
+          We have collaborated with FLP to release COLD Cases as a
+          data set suitable for machine
+          learning <a href="https://huggingface.co/data sets/harvard-lil/cold-cases">available
+          on HuggingFace</a> along with
+          a <a href="https://datanutrition.org/labels/v3/?id=c29976b2-858c-4f4e-b7d0-c8ef12ce7dbe">Data
+          Nutrition Label</a> which explains the source of the data
+          and gives guidelines for ethical use. The result is
+          information about over 8 million court cases available for
+          batch processing in the context of data science, AI
+          experiments, and legal tool building.
+        </p>
+
+        <h3 id="one-million-books">One Million Books</h3>
+        <p>
+          Building on our work on the COLD Data Set, we are working
+          with the Harvard Libraries to identify more public domain
+          data sets that can support computational research and AI
+          experimentation for the public good. One project underway
+          would release a large cache of digitized books and accurate
+          metadata, in collaboration with library technologists and
+          researchers exploring consent and bias issues.
+        </p>
+
+        <h3 id="cap-and-the-right-to-access">Caselaw Access Project and the Right to Access Edicts of Law</h3>
+        <p>
+          In 2017, the Harvard Law Library kicked off the Caselaw
+          Access Project (CAP), by digitizing 360 years of U.S. case
+          law. The Library Innovation Lab transformed it into the
+          largest U.S. legal database of its time. Much of this data
+          is public and discoverable for free on LIL’s
+          site <a href="https://case.law">case.law.</a>
+        </p>
+
+        <p>
+          At the end of February 2024, this collection will become
+        fully open as a data set structured for reading by humans and
+        machines. We are collaborating with friends at LexisNexis,
+        Fastcase, and the Free Law Project to ensure the maximum
+        social benefit of this launch. We expect part of the launch
+        will include a public declaration and call for a human right
+        to access the edicts of law.
+        </p>
+
+        <h3 id="open-french-law-chatbot">Open French Law Chatbot</h3>
+        <p>
+          This experiment explores whether an open-source LLM (Llama
+        2) can act as both translator and French law expert if
+        provided with the French legal code as a vector database. The
+        case study will delve into the potential and limitations of
+        open-source LLMs and associated toolchains, and to what extent
+        embedding models and vector databases can augment and “ground”
+        the responses provided by LLMs. In addition, LIL will publish
+        the embeddings database containing the entirety of French law.
+        </p>
+
+        <h3 id="model-academic-research-agreement">Model Academic Research Agreement</h3>
+        <p>
+          We have drafted and are seeking initial partners for a Model
+        Academic Research Agreement, which would make it easier,
+        faster, and safer for academic researchers to provide advice
+        on unreleased products and models, benefiting both academia
+        and industry.
+        </p>
+
+        <h3 id="library-data-trust">Library Data Trust</h3>
+        <p>
+          Research into speculative funding structures for libraries
+          and their collections. The Library Data Trust would set up a
+          structure whereby libraries and archives digitize their
+          collections and make them available for a fee to commercial
+          users and for free to everyone else. The goal would be to
+          make more collections available to more people while
+          securing the financial future of libraries.
+        </p>
+
+        <h3 id="llms-and-book-ban-benchmark">LLMs and Book Ban Benchmark</h3>
+        <p>
+          Are LLMs champions of the freedom to read? The impetus of
+this experiment was the news that
+an <a href="https://www.popsci.com/technology/iowa-chatgpt-book-ban/"
+> Iowa school district relied on ChatGPT’s responses to determine
+which books to remove from the library.</a> We asked five different
+LLMs to provide a justification for removing Toni Morrison’s <em>The
+Bluest Eye</em> from library shelves with the objective of
+demonstrating how “guardrails” differ among models and assessing the
+impact of altering the temperature parameter. About 75% of the
+responses across all five LLMs justified removing the book from
+library
+shelves. The <a href="https://lil.law.harvard.edu/blog/2023/09/25/ai-book-bans-freedom-to-read-case-study/">case
+study</a> was published prior to Banned Books Week in October 2023.
 </p>
 
-<h3>Collaborative Open Legal Data (COLD) Dataset</h3>
-<p>
-  Today we are proud to announce COLD Cases, a research data set to support the open law community.
-</p>
-<p>
-  The legal nonprofit <a href="https://free.law/">Free Law Project</a> maintains a wide variety of web crawlers 
-to collect and publish an ever-growing dataset of public domain law at
-  <a href="http://courtlistener.com/">CourtListener.com</a>.
-</p>
+        <h3 id="creative-writing-llms">Creative Writing LLMs</h3>
+        <p>
+          This year, post-doc Katy Gero is working at the Library
+        Innovation Lab and the Variation Lab at Harvard SEAS to
+        investigate the implications of large language models in the
+        creative writing field. Over the course of her time with us
+        Katy will be undertaking research into what - if any -
+        circumstances would lead literary writers to want their own
+        work included as training data in a large language model. How
+        would they want to be credited and/or compensated? Would they
+        require restrictions on uses of the model? Are such
+        restrictions feasible? What notion of consent is appropriate
+        in this context?
+        </p>
 
-<p>
-  We have collaborated with FLP to release COLD Cases as a dataset suitable for
-  machine learning
-  <a href="https://huggingface.co/datasets/harvard-lil/cold-cases"
-    >available on HuggingFace</a
-  > along with a
-  <a
-    href="https://datanutrition.org/labels/v3/?id=c29976b2-858c-4f4e-b7d0-c8ef12ce7dbe"
-    >Data Nutrition Label</a
-  >
-  which explains the source of the data and gives guidelines for ethical use. The result is information about over 8 million court cases available for batch processing in the context of data science, AI experiments, and legal tool building.
-</p>
+        <p>
+          She will be conducting interviews within literary
+        communities and their adjacent fields, with a secondary goal
+        of producing a data set and releasing it based on the findings
+        from contributing authors. If time allows, the data set could
+        be used to train a Transformer model and begin investigations
+        into its utility compared to other available models.
+        </p>
 
-<h3>One Million Books</h3>
-<p>
-  Building on our work on the COLD Dataset, we are working with the Harvard Libraries to identify more public domain datasets that can support computational research and AI experimentation for the public good. One project underway would release a large cache of digitized books and accurate metadata, in collaboration with library technologists and with researchers exploring data set consent and bias issues.
-</p>
+        <h3 id="lil-vector">LIL Vector</h3>
+        <p>
+          lil_vector is our community server for experimenting with
+        generative AI technology. Located in LIL space, this machine
+        learning server allows us to freely explore the potential of
+        open-source AI models. But more than a shared computing
+        resource, it is a nascent community hub on which technologists
+        from LIL and beyond share resources and experiments, as we
+        collectively make sense of this AI moment.
+        </p>
 
-<h3>Caselaw Access Project and the Right to Access Edicts of Law</h3>
-<p>
-  In 2017, the Harvard Law Library kicked off the Caselaw Access Project (CAP),
-  by digitizing 360 years of U.S. case law. The Library Innovation Lab (LIL)
-  transformed it into the largest U.S. legal database of its time. Much of this
-  data is public and discoverable for free on LIL's site
-  <a href="https://case.law">case.law.</a>
-</p>
+        <h3 id="harvard-lil-ai-fund">Harvard Library Innovation Lab AI Fund </h3>
+        <p>
+          To support this and other work, we have launched a LIL AI
+        Fund to accept gifts and coordinate collaboration with law
+        firms, legal technologists, foundations, and others working at
+        the cutting edge of law, AI, libraries, and
+        society. LexisNexis is the first supporter of the Fund;
+        contact us to discuss participation.
+        </p>
 
-<p>
-  At the end of February 2024, this collection will go fully open as a dataset structured for reading by humans and machines. We are collaborating with friends at LexisNexis, Fastcase, and the Free Law Project to ensure the maximum social benefit of this launch. We expect part of the launch will include a public declaration and call for a human right to access the edicts of law.
-</p>
-
-<h3>Open French Law Chatbot</h3>
-<p>This experiment explores whether an open-source LLM (Llama 2) can act as both translator and French law expert if provided with the entirety of French codes as a vector database. The case study will delve into the potential and limitations of open-source LLMs and associated toolchains, and to what extent embedding models and vector databases can augment and “ground” the responses provided by LLMs. In addition, LIL will publish the embeddings database containing the entirety of French law. 
- </p>
-
- <h3>Model Academic Research Agreement</h3>
- <p>We have drafted and are seeking initial partners for a Model Academic Research Agreement, which would make it easier, faster, and safer for academic researchers to provide advice on unreleased products and models, benefiting both academia and industry.</p>
-
-<h3>Library Data Trust</h3>
-<p>Research into speculative funding structures for libraries and their
-collections. The Library Data Trust would set up a structure whereby libraries
-and archives digitize their collections and make them available for a fee to
-commercial users and for free to everyone else. The goals would be to make more
-collections available to more people while securing the financial future of
-libraries.</p>
-
-<h3>LLMs and Book Ban Benchmark</h3>
-<p>Are LLMs champions of the freedom to read? The impetus of this experiment was
-the news that an
-<a href="https://www.popsci.com/technology/iowa-chatgpt-book-ban/"
-  > Iowa school district relied on ChatGPT’s responses to determine which books
-  to remove from the library.</a> We asked five different LLMs to provide a
-  justification for removing Toni Morrison’s <em>The Bluest Eye</em> from library shelves
-  with the objective of demonstrating how “guardrails” differ among models and
-  assessing the impact of altering the temperature parameter. About 75% of the
-  responses across all five LLMs justified removing the book from library
-  shelves. The case study will be published as part of Banned Books Week in
-  October.
-</p>
-
-<h3>Creative Writing LLMs</h3>
-<p>This year, post-doc Katy Gero is working at the Library Innovation Lab and the Variation Lab at Harvard SEAS to investigate the implications of large language models in the creative writing field. Over the course of her time with us Katy will be undertaking research into what - if any - circumstances would lead literary writers to want their own work included as training data in a large language model. How would they want to be credited and/or compensated? Would they require restrictions on uses of the model? Are such restrictions feasible? What notion of consent is appropriate in this context?</p>
-
-<p>She will be conducting interviews within literary communities and their adjacent fields, with a secondary goal of producing a dataset and releasing it based on the findings from contributing authors. If time allows, the data set could be used to train a Transformer model and begin investigations into its utility compared to other available models.
-</p>
-
-<h3>LIL Vector</h3>
-<p>lil_vector is our community server for experimenting with generative AI technology. Located in LIL space, this machine learning server allows us to freely explore the potential of open-source AI models. But more than a shared compute resource, it is a nascent community hub on which technologists from LIL and beyond share resources and experiments, as we collectively make sense of this AI moment.</p>
-
-<h2>Harvard Library Innovation Lab AI Fund </h2>
-<p>To support this and other work, we have launched a LIL AI Fund to accept gifts and coordinate collaboration with law firms, legal technologists, foundations, and others working at the cutting edge of law, AI, libraries, and society. LexisNexis is the first supporter of the Fund; contact us to discuss participation.</p>
+      </div>
+    </div>
+  </div>
+</section>
