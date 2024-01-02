@@ -4,7 +4,7 @@
 title: Thread-Keeper
 
 # Optional
-project_website: https://social.perma.cc/
+project_website: https://museum.lil.tools/archive/social-perma-cc
 
 github_repo: https://github.com/harvard-lil/thread-keeper
 
