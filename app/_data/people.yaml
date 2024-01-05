@@ -305,26 +305,6 @@ oren-tamir:
   current: true
   section: Fellows
 
-molly-white:
-  name: Molly White
-  sort_name: White
-  role: Fellow
-  bio: >
-    Molly is a researcher, writer, and software engineer. Before
-    joining LIL she was an independent researcher focusing on issues
-    in the cryptocurrency industry; prior to that she spent six years
-    working on web software. Her interests also include free and open
-    knowledge, Wikipedia, and digital identity, and she spends a lot
-    of time thinking about how we could make the web a better place.
-  email: mwhite@law.harvard.edu
-  website: https://mollywhite.net/
-  twitter_account_name: molly0xfff
-  github_account_name: molly
-  image: molly-white.jpg
-  affiliated: true
-  current: true
-  section: Fellows
-
 
 # Former affiliates, and single-project collaborators
 # Entries should not have a "current:" key
@@ -1132,6 +1112,15 @@ reid-whitaker:
   role: 2017 Summer Fellow
   affiliated: true
   twitter_account_name: reidmwhitaker
+
+molly-white:
+  name: Molly White
+  sort_name: White
+  role: Fellow
+  website: https://mollywhite.net/
+  twitter_account_name: molly0xfff
+  github_account_name: molly
+  affiliated: true
 
 dano-williams:
   name: Dano Williams
