@@ -264,41 +264,24 @@ sankalp-bhatnagar:
   current: true
   section: Fellows
 
-oren-tamir:
-  name: Oren Tamir
-  sort_name: Tamir
+katy-ilonka-gero:
+  name: Katy Ilonka Gero
+  sort_name: Gero
   role: Fellow
-  bio: >
-    Oren received his S.J.D. and LL.M. from Harvard Law School and
-    LL.B. (magna cum laude) from the Hebrew University in
-    Jerusalem. Before his graduate studies, he clerked for Justice
-    (now Chief Justice) Esther Hayut of the Israeli Supreme Court and
-    worked for three years as an assistant attorney general in the
-    Office of Legal Counsel and Legislative Affairs in Israel’s
-    Ministry of Justice. He also serves as a Global Hauser
-    Post-doctoral fellow at NYU School of Law.
-  email: otamir@law.harvard.edu
-  image: oren-tamir.jpg
-  affiliated: true
-  current: true
-  section: Fellows
-
-molly-white:
-  name: Molly White
-  sort_name: White
-  role: Fellow
-  bio: >
-    Molly is a researcher, writer, and software engineer. Before
-    joining LIL she was an independent researcher focusing on issues
-    in the cryptocurrency industry; prior to that she spent six years
-    working on web software. Her interests also include free and open
-    knowledge, Wikipedia, and digital identity, and she spends a lot
-    of time thinking about how we could make the web a better place.
-  email: mwhite@law.harvard.edu
-  website: https://mollywhite.net/
-  twitter_account_name: molly0xfff
-  github_account_name: molly
-  image: molly-white.jpg
+  bio: >-
+    Katy is a computer scientist and creative writer. Her PhD focused
+    on how creative writers make use of language models to support
+    their writing; she is now a research fellow at LIL investigating
+    how writers feel about the use of their writing to train large
+    language models. She studies the ethical and responsible use of AI
+    technologies, and thinking through how technology can support,
+    rather than supplant, people as writers. In addition to “normal”
+    writing, she’s dallied in computational and experimental poetry,
+    and likes to play around with the web as a medium for creativity.
+  email: katy@g.harvard.edu
+  website: https://www.katygero.com/
+  twitter_account_name: katyilonka
+  image: katy-ilonka-gero.jpg
   affiliated: true
   current: true
   section: Fellows
@@ -1020,6 +1003,12 @@ sam-stites:
   twitter_account_name: samstites
   role: Machine Learning Engineer at Sentenai
 
+oren-tamir:
+  name: Oren Tamir
+  sort_name: Tamir
+  role: Fellow
+  affiliated: true
+
 zach-tan:
   name: Zach Tan
   sort_name: Tan
@@ -1110,6 +1099,15 @@ reid-whitaker:
   role: 2017 Summer Fellow
   affiliated: true
   twitter_account_name: reidmwhitaker
+
+molly-white:
+  name: Molly White
+  sort_name: White
+  role: Fellow
+  website: https://mollywhite.net/
+  twitter_account_name: molly0xfff
+  github_account_name: molly
+  affiliated: true
 
 dano-williams:
   name: Dano Williams
