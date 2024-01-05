@@ -286,25 +286,6 @@ katy-ilonka-gero:
   current: true
   section: Fellows
 
-oren-tamir:
-  name: Oren Tamir
-  sort_name: Tamir
-  role: Fellow
-  bio: >
-    Oren received his S.J.D. and LL.M. from Harvard Law School and
-    LL.B. (magna cum laude) from the Hebrew University in
-    Jerusalem. Before his graduate studies, he clerked for Justice
-    (now Chief Justice) Esther Hayut of the Israeli Supreme Court and
-    worked for three years as an assistant attorney general in the
-    Office of Legal Counsel and Legislative Affairs in Israel’s
-    Ministry of Justice. He also serves as a Global Hauser
-    Post-doctoral fellow at NYU School of Law.
-  email: otamir@law.harvard.edu
-  image: oren-tamir.jpg
-  affiliated: true
-  current: true
-  section: Fellows
-
 
 # Former affiliates, and single-project collaborators
 # Entries should not have a "current:" key
@@ -1021,6 +1002,12 @@ sam-stites:
   affiliated: false
   twitter_account_name: samstites
   role: Machine Learning Engineer at Sentenai
+
+oren-tamir:
+  name: Oren Tamir
+  sort_name: Tamir
+  role: Fellow
+  affiliated: true
 
 zach-tan:
   name: Zach Tan
