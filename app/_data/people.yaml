@@ -264,6 +264,28 @@ sankalp-bhatnagar:
   current: true
   section: Fellows
 
+katy-ilonka-gero:
+  name: Katy Ilonka Gero
+  sort_name: Gero
+  role: Fellow
+  bio: >-
+    Katy is a computer scientist and creative writer. Her PhD focused
+    on how creative writers make use of language models to support
+    their writing; she is now a research fellow at LIL investigating
+    how writers feel about the use of their writing to train large
+    language models. She studies the ethical and responsible use of AI
+    technologies, and thinking through how technology can support,
+    rather than supplant, people as writers. In addition to “normal”
+    writing, she’s dallied in computational and experimental poetry,
+    and likes to play around with the web as a medium for creativity.
+  email: katy@g.harvard.edu
+  website: https://www.katygero.com/
+  twitter_account_name: katyilonka
+  image: katy-ilonka-gero.jpg
+  affiliated: true
+  current: true
+  section: Fellows
+
 oren-tamir:
   name: Oren Tamir
   sort_name: Tamir
