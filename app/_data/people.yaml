@@ -286,6 +286,28 @@ katy-ilonka-gero:
   current: true
   section: Fellows
 
+chris-shen:
+  name: Chris Shen
+  sort_name: Shen
+  role: Research Assistant
+  bio: >-
+    Chris is a sophomore at Harvard College studying Statistics and
+    Government. He has experience working as a data analyst with
+    non-profits to Fortune 500 companies. His time as a law firm
+    intern allowed him to gain exposure to civil procedure, legal
+    research, and drafting a variety of legal documents, among other
+    things. This summer, he will be an intern at Deloitte within their
+    Risk & Financial Advisory Department, focusing on Regulatory and
+    Legal Compliance. He is interested in applying data analytics to
+    current public policy issues, financial models, and legal matters.
+  email: christopher_shen@college.harvard.edu
+  website:
+  twitter_account_name:
+  image: chris-shen.jpg
+  affiliated: true
+  current: true
+  section: Fellows
+
 
 # Former affiliates, and single-project collaborators
 # Entries should not have a "current:" key
