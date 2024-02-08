@@ -2,7 +2,7 @@
 title: The Cost of a Digital Archive
 author: rebecca-kilberg
 excerpt_separator: <!--more-->
-sharing-image: images/PermaCost_Figure.png
+sharing-image: images/perma-cost.png
 ---
 At LIL, we’ve been providing users with the ability to preserve online sources via [Perma.cc](https://perma.cc/about) since 2013. Running a digital archive puts us in the “forever business”–what’s online today may be gone tomorrow, but that Perma Link you saved should never expire. Promising to host something forever brings with it different challenges than hosting something for a month or a year. There are the technical burdens: How will we guarantee these links stay accessible even as the underlying technologies continue to develop? There are logistical concerns: Where will we put all these files? There’s also a question of cost: Just how much does it cost to store a file forever?
 
