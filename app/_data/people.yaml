@@ -222,6 +222,26 @@ ben-steinberg:
   current: true
   section: Staff
 
+ebru-yucesar:
+  name: Ebru Yucesar
+  sort_name: Yucesar
+  role: Senior Software Engineer
+  bio: >
+    Ebru is a copywriter-turned-coder with a passion for flying
+    plastic. She has been working in tech for over a decade, including
+    stints in retail and e-commerce spaces as a coder, and in
+    advertising agencies as a copywriter. Her work at LIL focuses on
+    backend development and data engineering. Outside of work, Ebru
+    enjoys playing ultimate frisbee.
+  email:  eyucesar@law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name: teovin
+  image: ebru-yucesar.jpg
+  affiliated: true
+  current: true
+  section: Staff
+
 jonathan-zittrain:
   name: Jonathan Zittrain
   sort_name: Zittrain
