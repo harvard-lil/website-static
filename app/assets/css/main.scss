@@ -660,10 +660,23 @@ section, .container {
   }
 }
 
-// Temporary rules for 2023 AI summit page
-body.ai .simple-section {
-  max-width: 75ch;
-  margin: auto;
+// Temporary rules for AI projects page
+body.ai {
+  .simple-section {
+    max-width: 75ch;
+    margin: auto;
+  }
+  
+  .slice-body {
+    ul {
+      list-style-position: outside;
+      padding-left: 0px;
+    }
+
+    li {
+      padding-bottom: 0.5rem;
+    }
+  }
 }
 
 ////////
