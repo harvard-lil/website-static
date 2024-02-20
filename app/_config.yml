@@ -15,7 +15,7 @@ timezone: Etc/GMT
 # Site settings
 title: The Library Innovation Lab at Harvard University
 description: >
-  Bringing the best of technology to the world of libraries and the best of libraries to the world of technology. And vice versa.
+  The Library Innovation Lab is growing knowledge and community by bringing library principles to technological frontiers.
 baseurl: ""
 url: "https://lil.law.harvard.edu"
 sharing-image: "thumbs/800x800r/lab-alterspace-hero-narrow.png"
