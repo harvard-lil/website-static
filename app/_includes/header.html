@@ -5,15 +5,9 @@
         We're looking for a Product & Research Manager and a Senior Software Engineer.
       </a>
     </div>
-  <header id="header-splash">
+  <header class="header-splash">
     <div>
-      <figure>
-        <img src="{{ site.baseurl }}/assets/images/header-splash-logo-ani@1x.gif"
-             srcset="{{ site.baseurl }}/assets/images/header-splash-logo-ani@1x.gif 1x,
-                     {{ site.baseurl }}/assets/images/header-splash-logo-ani@2x.gif 2x"
-             alt="Library Innovation Lab"
-             class="img-full-width">
-      </figure>
+      {% include logo.html %}
       <h1 contenteditable="true">{{ page.title | smartify }}</h1>
     </div>
     {% include nav.html %}

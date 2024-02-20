@@ -292,11 +292,9 @@ nav {
   }
 }
 
-.header-nav-logo {
-  position: absolute;
-  display: block;
-  margin-top: -2px;
-  margin-left: -28px;
+.header-splash__logo {
+	max-width: 414px;
+	margin-inline: 2rem;
 }
 
 .hiring-announcement, .banner {
@@ -1319,11 +1317,6 @@ a.link-project {
       font-weight: 700;
       padding: $double;
       padding-bottom: 95px;
-
-      figure {
-        margin: 0 auto;
-        max-width: nth($respond-breakpoints,3) + 1;
-      }
     }
   }
 
