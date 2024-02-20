@@ -295,6 +295,10 @@ nav {
 .header-splash__logo {
 	max-width: 414px;
 	margin-inline: 2rem;
+
+  @include respond(3) {
+    max-width: 700px;
+  }
 }
 
 .hiring-announcement, .banner {
