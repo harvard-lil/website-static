@@ -293,11 +293,11 @@ nav {
 }
 
 .header-splash__logo {
-	max-width: 414px;
-	margin-inline: 3rem;
+  max-width: 25.875rem; /* 414px */
+  margin-inline: 3rem;
 
   @include respond(3) {
-    max-width: 700px;
+    max-width: 43.75rem; /* 700px */
   }
 }
 
