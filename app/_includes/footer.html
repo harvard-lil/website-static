@@ -6,13 +6,7 @@
   {% endif %}
 {% endcapture %}
 
-<figure class="footer-logo">
-  <img src="{{ site.baseurl }}/assets/thumbs/351x143r/lab-logo-footer-{{ footer-file | strip }}.png"
-       srcset="{{ site.baseurl }}/assets/thumbs/351x143r/lab-logo-footer-{{ footer-file | strip }}.png 1x,
-               {{ site.baseurl }}/assets/thumbs/702x286r/lab-logo-footer-{{ footer-file | strip }}.png 2x"
-       alt="Library Innovation Lab"
-       class="img-full-width">
-</figure>
+{% include footer-logo.html %}
 <ul>
   <li><a href="{{ site.baseurl }}/">Home</a></li>
   <li><a href="{{ site.baseurl }}/about/">About</a></li>
