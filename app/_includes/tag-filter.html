@@ -1,5 +1,7 @@
 {% assign current = page.autopages.display_name|strip | default: 'all' %}
 
+{% if site.show_blog_featured_tags %}
+
 <div class="sleeve">
   <nav class="posts-filter" aria-label="Featured Tags">
     <span class="tag" {% if current == "all" %}aria-current="true"{% endif %}>
@@ -12,3 +14,5 @@
     {% endfor %}
   </nav>
 </div>
+
+{% endif %}

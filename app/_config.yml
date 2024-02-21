@@ -86,6 +86,9 @@ defaults:
       custom-footer: false
       sharing-card-type: summary
 
+# Feature Flags
+show_blog_featured_tags: true
+
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
