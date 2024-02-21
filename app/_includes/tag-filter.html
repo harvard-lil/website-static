@@ -1,0 +1,14 @@
+{% assign current = page.autopages.display_name|strip | default: 'all' %}
+
+<div class="sleeve">
+  <nav class="posts-filter" aria-label="Featured Tags">
+    <span class="tag" {% if current == "all" %}aria-current="true"{% endif %}>
+      <a href="{{ site.baseurl }}/blog/">all</a>
+    </span>
+    {% for tag in site.data.featured_tags %}
+      <span class="tag" {% if current == tag %}aria-current="true"{% endif %}>
+        <a href="{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/">{{ tag }}</a>
+      </span>
+    {% endfor %}
+  </nav>
+</div>
