@@ -10,8 +10,26 @@
 //  blog
 
 .posts-filter {
-  margin-bottom: $double * 2 !important;
   text-align: left;
+  margin-top: 0;
+  margin-bottom: $double !important;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .tag {
+    border-bottom: none;
+    color: white;
+  }
+
+
 }
 
 .posts-index {

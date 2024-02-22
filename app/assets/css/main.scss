@@ -225,7 +225,7 @@ h2 {
 ////////////////////////////////////////////////
 //  header
 
-nav {
+nav[aria-label="main"] {
   text-align: center;
 
   ul {
@@ -1340,7 +1340,7 @@ a.link-project {
     }
   }
 
-  nav {
+  nav[aria-label="main"] {
     position: absolute;
     bottom: 0;
     left: 0;

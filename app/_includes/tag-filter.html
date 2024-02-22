@@ -4,14 +4,20 @@
 
 <div class="sleeve">
   <nav class="posts-filter" aria-label="Featured Tags">
-    <span class="tag" {% if current == "all" %}aria-current="true"{% endif %}>
-      <a href="{{ site.baseurl }}/blog/">all</a>
-    </span>
-    {% for tag in site.data.featured_tags %}
-      <span class="tag" {% if current == tag %}aria-current="true"{% endif %}>
-        <a href="{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/">{{ tag }}</a>
-      </span>
-    {% endfor %}
+    <ul>
+      <li>
+        <a class="tag" href="{{ site.baseurl }}/blog/" {% if current == "all" %}aria-current="true"{% endif %}>
+          all
+        </a>
+      </li>
+      {% for tag in site.data.featured_tags %}
+        <li>
+          <a class="tag" href="{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/"{% if current == tag %}aria-current="true"{% endif %}>
+          {{ tag }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
   </nav>
 </div>
 
