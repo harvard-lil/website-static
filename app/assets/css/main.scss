@@ -325,7 +325,6 @@ body > footer {
   font-weight: 700;
   text-align: right;
   padding: $grid * 3 $double;
-  overflow: auto;
 
   ul {
     //width: 50%;
@@ -353,8 +352,12 @@ body > footer {
 .footer-logo {
   float: left;
   width: 50%;
-  max-width: $grid * 44;
-  margin: 0;
+  max-width:  10.9375rem; /*175px*/
+  margin-block-start: 0.5rem;
+
+  @include respond(4) {
+    max-width:  $grid * 35;
+  }
 }
 
 .footer-copyright {
@@ -375,34 +378,9 @@ body > footer {
   }
 }
 
-// All styles required for sticky footer:
-// if html content would normally be shorted than viewport,
-// this ensures that the footer is affixed to the bottom, while
-// maintaining normal behavior on longer pages
 html {
   min-height: 100%;
   background: $color-trans-whispergray;
-}
-body {
-  // Margin bottom equals footer height, set below
-  margin-bottom: 325px;
-  position: initial;
-}
-body > footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 325px;
-}
-
-@include respond(5) {
-  body {
-    // Margin bottom equals footer height, set below
-    margin-bottom: 236px;
-  }
-  body > footer {
-    height: 236px;
-  }
 }
 
 ////////
