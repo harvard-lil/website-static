@@ -8,8 +8,11 @@ custom-css: ['blog']
 ---
 
 <section class="posts-index">
+
+  {% include tag-filter.html %}
+
   <div class="sleeve">
-    <h1>{{ page.autopages.display_name }}</h1>
+    <h1>Posts tagged: "{{ page.autopages.display_name }}"</h1>
     {% for post in paginator.posts %}
       <div class="slice">
         <h2><time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></h2>

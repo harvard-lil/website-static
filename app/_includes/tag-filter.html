@@ -1,0 +1,24 @@
+{% assign current = page.autopages.display_name|strip | default: 'all' %}
+
+{% if site.show_blog_featured_tags %}
+
+<div class="sleeve">
+  <nav class="posts-filter" aria-label="Featured Tags">
+    <ul>
+      <li>
+        <a class="tag" href="{{ site.baseurl }}/blog/"{% if current == "all" %} aria-current="true"{% endif %}>
+          all
+        </a>
+      </li>
+      {% for tag in site.data.featured_tags %}
+        <li>
+          <a class="tag" href="{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/"{% if current == tag %} aria-current="true"{% endif %}>
+          {{ tag }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
+
+{% endif %}

@@ -9,6 +9,28 @@
 ////////////////////////////////////////////////
 //  blog
 
+.posts-filter {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: $double !important;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .tag {
+    border-bottom: none;
+    color: white;
+  }
+
+
+}
 
 .posts-index {
   article {
@@ -21,7 +43,7 @@
     border-bottom: none;
   }
 
-  .sleeve:first-of-type article {
+  .sleeve:nth-of-type(2) article {
     border-top: none;
     margin-top: 0;
   }
@@ -234,7 +256,7 @@
 }
 
 @include respond(4) {
-  article, .pagination {
+  article, .pagination, .posts-filter {
     max-width: 596px;
     margin: auto;
     margin-top: 16px;
@@ -268,6 +290,20 @@ footer {
     color: $color-white;
     background-color: $color-electricblue;
   }
+}
+
+.tag[aria-current='true'] {
+    color: $color-white;
+    background-color: $color-electricblue;
+    a {
+      border-bottom: none;
+    }
+
+    &:hover, &:focus,
+    a:hover, a:focus {
+      color: $color-white;
+      background-color: $color-highlight;
+    }
 }
 
 figure.highlight pre {
