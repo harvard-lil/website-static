@@ -687,12 +687,8 @@ body.event-stream {
     text-align: center
   }
 
-  .welcome {
-    margin-bottom: $double;
-  }
-
   iframe {
-    margin-bottom: $double;
+    margin-top: $grid * 6;
   }
 }
 
