@@ -1,7 +1,9 @@
+---
+---
 {
     "name": "The Library Innovation Lab at Harvard University",
     "icons": [
-        { "src": "/assets/images/favicon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "maskable" },
-        { "src": "/assets/images/favicon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+        { "src": "{{ site.baseurl }}/assets/images/favicon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "maskable" },
+        { "src": "{{ site.baseurl }}/assets/images/favicon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
     ]
 }
