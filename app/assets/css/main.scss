@@ -69,6 +69,21 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url('../fonts/NeueHaasGroteskDisplayPro55Roman.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro55Roman.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url('../fonts/NeueHaasGroteskDisplayPro65Medium.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro65Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 ////////////////////////////////////////////////////////////////
 // Variables, Mixins, and Placeholders
 @import "variables-mixins-placeholders";
@@ -117,6 +132,10 @@ body {
   background-color: white;
   width: 100%;
   position: relative;
+}
+
+em {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 // allow us to override some of the arcane things above
@@ -254,7 +273,7 @@ nav[aria-label="main"] {
     }
 
     &:first-of-type {
-      font-weight: 700;
+      font-weight: 600;
       span.name {
         display: block;
         text-indent: -10000px;
@@ -322,7 +341,7 @@ nav[aria-label="main"] {
 body > footer {
   background: $color-brightyellow;
   color: $color-black;
-  font-weight: 700;
+  font-weight: 600;
   text-align: right;
   padding: $grid * 3 $double;
 
@@ -413,6 +432,9 @@ html {
 
     &:hover {
       background-color: $color-white;
+    }
+    &.intro-nav-previous, &.intro-nav-next {
+      font-weight: 600;
     }
     &.intro-nav-previous {
       text-align: left;
@@ -524,7 +546,7 @@ section, .container {
 // container > sleeve > slice@pop-out-of-sleeve > sleeve > h + slice-body
 .slice {
   clear: both;
-  font-weight: 300;
+  font-weight: 500;
   overflow: auto;
   @include respond(4) { padding-top: $double; }
 
@@ -575,7 +597,7 @@ section, .container {
 
   h3, h4 {
     font-size: inherit;
-    font-weight: 500;
+    font-weight: 600;
 
     & + ul {
       padding-top: $double;
@@ -603,7 +625,7 @@ section, .container {
 
   li {
   line-height: 1.4;
-  // font-weight: 300;
+  // font-weight: 500;
   // margin-top: 0;
   // margin-bottom: 16px;
   // @include respond(4){
@@ -681,8 +703,9 @@ body.event-stream {
   h1, h2, h3, h4, h5, h6, p {
     @include hed-common;
     font-size: $size-large;
+    font-weight: 600;
+
     @include respond(4) {
-      font-weight: 300;
       font-size: $size-2xlarge;
       padding-bottom: .2em;
     }
@@ -695,11 +718,11 @@ body.event-stream {
   @include respond(4) {
     h1, h2, h3, h4, h5, h6, {
       float: left;
-      font-weight: 500;
+      font-weight: 600;
     }
     p {
       float: right;
-      font-weight: 300;
+      font-weight: 500;
     }
   }
 }
@@ -732,6 +755,7 @@ body.event-stream {
     }
 
     .logline {
+      font-weight: 600;
       margin-top: 0;
       color: $color-highlight;
     }
@@ -766,7 +790,7 @@ a.gallery-item {
   .role {
     display: block;
     font-size: $size-small;
-    font-weight: 500;
+    font-weight: 600;
     @include overline($color-trans-gray, $grid * 7, $t-margin:$grid, $r-margin:auto, $b-margin:$grid, $l-margin:auto);
   }
 
@@ -863,7 +887,7 @@ a.gallery-item {
 
   .name {
     margin-top: 0;
-    font-weight: 500;
+    font-weight: 600;
     &:after {
       display: none;
     }
@@ -880,6 +904,10 @@ a.gallery-item {
     font-weight: 500;
     color: $color-trans-darkgray;
     margin-top: 0;
+  }
+
+  .social {
+    font-weight: 600;
   }
 
   @include respond(4) {
@@ -916,7 +944,7 @@ a.gallery-item {
   margin-top: 0;
 
   .name {
-    font-weight: 700;
+    font-weight: 600;
     display: block;
   }
 
@@ -988,7 +1016,7 @@ a.gallery-item {
 //
 //   .title {
 //     @extend %lined-list-item-child;
-//     font-weight: 700;
+//     font-weight: 600;
 //     margin-top: 6px;
 //
 //     a {
@@ -1008,7 +1036,7 @@ a.gallery-item {
 //   .logline {
 //     @extend %lined-list-logline;
 //     color: $color-trans-textwhite;
-//     font-weight: 300;
+//     font-weight: 500;
 //     margin-top: 6px;
 //   }
 //
@@ -1018,7 +1046,7 @@ a.gallery-item {
 //     color: $color-trans-darkwhite;
 //     &:before {
 //       content: 'Posted by ';
-//       font-weight: 300;
+//       font-weight: 500;
 //     }
 //   }
 //
@@ -1038,7 +1066,7 @@ a.gallery-item {
 //     }
 //     .title {
 //       margin-top: 0;
-//       font-weight: 300;
+//       font-weight: 600;
 //     }
 //     .author {
 //       width: 30%;
@@ -1090,7 +1118,7 @@ section.sunset {
     @extend %lined-list-item-child;
     margin-top: $grid / 2;
     margin-bottom: 0;
-    font-weight: normal;
+    font-weight: 600;
     a {
       @include include-arrow(2px);
       @include include-arrow-white;

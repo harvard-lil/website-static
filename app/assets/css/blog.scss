@@ -83,7 +83,7 @@
 
 .post-author {
   margin-top: 6px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.4;
 
 }
@@ -94,10 +94,15 @@
   font-weight: 600;
 }
 
+.post-date {
+  font-weight: 600;
+}
+
 .post-content {
   margin-top: 0;
   padding-bottom: 2px;
-  font-weight: 300;
+  font-weight: 500;
+
   p:first-child {
     margin-top: 0;
   }
@@ -170,7 +175,7 @@
     border: 1px solid $color-trans-lightgray;
   }
   .submitted-by {
-    font-weight: 300;
+    font-weight: 500;
     margin-top: $grid;
     &:before {
       content: '/';
@@ -243,7 +248,7 @@
       width: 30%;
     }
   }
-  .text-frame { font-weight: 300; }
+  .text-frame { font-weight: 500; }
   .roundup-item .metadata {
     float: left;
     width: 70%;
