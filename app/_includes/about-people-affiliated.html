@@ -24,7 +24,7 @@
       </div>
 
       {% if person.email or person.website or person.twitter or person.github %}
-        <ul>
+        <ul class="social">
           {% if person.email %}
             <li>email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></li>
           {% endif %}
