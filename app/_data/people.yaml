@@ -70,19 +70,6 @@ jack-cushman:
   current: true
   section: Staff
 
-michael-della-bitta:
-  name: Michael Della Bitta
-  sort_name: Della Bitta
-  role: Engineering Manager
-  bio: >
-    Michael has worked in software development in the startup, library, and education spaces for over 20 years. Most recently, he was the Director of Technology at the Digital Public Library of America. Previously, he worked as a data and analytics developer, architect, and engineering manager at ScribbleLive. Prior to that, Michael worked as a developer and architect on the repository and digital gallery teams at the New York Public Library, and built content management, online learning, and semantic metadata applications at Columbia University.
-  email: mdellabitta@law.harvard.edu
-  github_account_name: mdellabitta
-  image: michael-della-bitta.jpg
-  affiliated: true
-  current: true
-  section: Staff
-
 harmony-eidolon:
   name: Harmony Eidolon
   sort_name: Eidolon
@@ -101,25 +88,6 @@ harmony-eidolon:
     open knowledge.
   email: heidolon@law.harvard.edu
   image: harmony-eidolon.jpg
-  affiliated: true
-  current: true
-  section: Staff
-
-rebecca-kilberg:
-  name: Rebecca Kilberg
-  sort_name: Kilberg
-  role: Technologist in Residence
-  bio: >
-    Rebecca has spent much of her career attempting to understand and
-    improve the functionality of public service systems. In past
-    roles, she built software and cloud infrastructure to deliver
-    government services. Her projects included improving visibility
-    into Medicaid and CHIP data and increasing educational equity with
-    the Office of Head Start. She is eager to explore data stewardship
-    in legal and library environments.
-  email: rkilberg@law.harvard.edu
-  github_account_name: kilbergr
-  image: rebecca-kilberg.jpg
   affiliated: true
   current: true
   section: Staff
@@ -551,6 +519,13 @@ julian-degroot-lutzner:
   github_account_name: jdegrootlutzner
   affiliated: true
 
+michael-della-bitta:
+  name: Michael Della Bitta
+  sort_name: Della Bitta
+  role: Engineering Manager
+  github_account_name: mdellabitta
+  affiliated: true
+
 claire-demarco:
   name: Claire DeMarco
   sort_name: DeMarco
@@ -831,6 +806,13 @@ jocelyn-kennedy:
   name: Jocelyn Kennedy
   sort_name: Kennedy
   role: Executive Director of the Harvard Law School Library 
+  affiliated: true
+
+rebecca-kilberg:
+  name: Rebecca Kilberg
+  sort_name: Kilberg
+  role: Technologist in Residence
+  github_account_name: kilbergr
   affiliated: true
 
 alisa-kolot:
