@@ -1351,6 +1351,11 @@ a.link-project {
     // &::first-line {
     //   color: black;
     // }
+    span {
+      display: block;
+      font-weight: bold;
+      color: black;
+    }
 
     @include respond(3) {
       font-size: 40px;
