@@ -323,6 +323,10 @@ nav[aria-label="main"] {
   }
 }
 
+.header-splash__description {
+  max-width: 40ch;
+}
+
 .hiring-announcement, .banner {
   min-width: 100%;
   display: block;
