@@ -19,8 +19,10 @@ custom-css: ['blog']
         <div class="slice-body">
           <a href="{{ post.url}} ">{{ post.title }}</a>
           {% if post.author %}
-            {% assign person_record = site.data.people[post.author] %}
-            <p><small>{{ person_record.name }}</small></p>
+            {% for author in post.author %}
+              {% assign person_record = site.data.people[author] %}
+              <p class="author-list"><small>{{ person_record.name }}</small></p>
+            {% endfor %}
           {% elsif post.guest-author %}
             <p><small>{{ post.guest-author }}</small></p>
           {% endif %}
