@@ -1,5 +1,5 @@
 ---
-title: The 'Library' in Library Innovation Lab
+title: The ‘Library’ in Library Innovation Lab
 author: ben-steinberg
 tags:
 - Library Principles
