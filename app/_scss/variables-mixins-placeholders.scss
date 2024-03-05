@@ -22,7 +22,7 @@ $respond-breakpoints: 320px 375px 695px 1048px 1296px;
 
 ////////
 //  typography
-$font-body: 'PostGrotesk', Helvetica, Arial, sans-serif;
+$font-body: 'NeueHaasGrotesk', Helvetica, Arial, sans-serif;
 
 //  common sizes
 $size-3xlarge: 72px;
@@ -141,14 +141,12 @@ $color-acidmint: #18F1C0;
 
 @mixin hed-common {
   line-height: 1.1;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
   @include respond(3) {
-    font-weight: 300;
     font-size: $size-2xlarge;
   }
   @include respond(4) {
-    font-weight: 500;
     font-size: $size-3xlarge;
   }
 }
@@ -157,20 +155,19 @@ $color-acidmint: #18F1C0;
   @include hed-common;
   font-size: $size-xlarge;
   margin: $grid auto;
-  font-weight: 300;
+  font-weight: 600;
 
   @include respond(4) {
     margin-top: $double;
     margin-bottom: $grid * 4;
   }
   span {
-    font-weight: 300;
     color: $color-highlight;
   }
 }
 
 @mixin heading-secondary {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: $double;
   margin-top: $grid * 3;
   @include respond(4){
@@ -180,7 +177,7 @@ $color-acidmint: #18F1C0;
 
 @mixin body-text {
   line-height: 1.4;
-  font-weight: 300;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 16px;
   @include respond(4){
@@ -190,7 +187,7 @@ $color-acidmint: #18F1C0;
 
 @mixin tiny-bold {
   font-size: $size-small;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 //  mixins for <a> styles
@@ -236,7 +233,7 @@ $color-acidmint: #18F1C0;
   text-decoration: none;
   text-align: center;
   color: $color-highlight;
-  font-weight: 700;
+  font-weight: 600;
   font-size: $size-small;
   border: 1px solid $color-highlight;
   padding: #{$padding}px;
@@ -316,7 +313,7 @@ $color-acidmint: #18F1C0;
 
 %lined-list-logline {
   @extend %lined-list-item-child;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 // Links
@@ -364,7 +361,7 @@ $color-acidmint: #18F1C0;
 %gallery-item-title {
   display: block;
   @include include-arrow(1px);
-  font-weight: 300;
+  font-weight: 600;
   margin-top: $grid;
   overflow: visible;
   &:active { color: $color-black; }
