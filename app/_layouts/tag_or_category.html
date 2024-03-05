@@ -39,7 +39,7 @@ custom-css: ['blog']
     <div class="slice">
       <div class="list-pagination">
         <div class="wrapper">
-          <div class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</div>
+          <div class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
           {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}" class="small-btn pagination" role="button">Previous</a>
           {% endif %}
