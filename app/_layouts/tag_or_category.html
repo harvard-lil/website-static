@@ -31,6 +31,7 @@ custom-css: ['blog']
 </section>
 
 <!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
 <section class="list-index-pagination">
   <div class="sleeve">
     <div class="slice">
@@ -48,3 +49,4 @@ custom-css: ['blog']
     </div>
   </div>
 </section>
+{% endif %}
