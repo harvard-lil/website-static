@@ -1,6 +1,8 @@
 ---
 title: The Network Librarian
 author: ben-steinberg
+tags:
+- Library Principles
 ---
 Last year,
 [Jack Cushman](https://lil.law.harvard.edu/about/#jack-cushman)

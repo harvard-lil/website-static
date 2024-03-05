@@ -2,6 +2,8 @@
 title: Some Thoughts on Digital Preservation
 author: ben-steinberg
 excerpt_separator: <!--more-->
+tags:
+- Library Principles
 ---
 One of the things people often ask about [Perma.cc](https://perma.cc/)
 is how we ensure the preservation of Perma links. <!--more--> There are some

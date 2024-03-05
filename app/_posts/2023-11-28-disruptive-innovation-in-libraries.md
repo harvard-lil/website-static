@@ -2,6 +2,8 @@
 title: 'Conference talk: disruptive innovation in libraries'
 author: jack-cushman
 excerpt_separator: <!--more-->
+tags:
+- Library Principles
 ---
 
 *This piece is adapted from a keynote talk I gave at Innovación y Experiencia del Usuario at Universidad Católica de Argentina on November 1, 2023.*

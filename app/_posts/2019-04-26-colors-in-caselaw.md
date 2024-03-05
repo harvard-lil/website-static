@@ -1,6 +1,8 @@
 ---
 title: Colors in Caselaw
 author: anastasia-aizman
+tags:
+- Tools
 ---
 The prospect of having the Caselaw Access Project dataset become public for the first time brings with it the obvious (and wholly necessary) ideas for data parsing: our dataset is vast and the metadata structured (read about the [process](link) to get to this), but the work of parsing the dataset is far from over. For instance, there's a lot of work to be done in parsing individual parties in CAP (like names of judges), we don't yet have a citator, and we still don't know who wins a case and who loses. And for that matter, we don't really know what "winning" and "losing" even means (if you are interested in working on any of these problems and more, start here: [https://case.law/tools/](https://case.law/tools/)). 
 

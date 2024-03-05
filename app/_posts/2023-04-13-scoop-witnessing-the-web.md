@@ -2,6 +2,8 @@
 title: "Witnessing the web is hard: Why and how we built the Scoop web archiving capture engine 🍨"
 author: matteo-cargnelutti
 excerpt_separator: <!--more-->
+tags:
+- Tools
 ---
 
 There is no one-size-fits-all when it comes to web archiving techniques, and the variety of tools and services available to capture web content illustrate the wide, ever-growing set of needs in the web archiving community. As these needs evolve, so do the web and the underlying challenges and opportunities that capturing it presents. Our decade of experience running Perma.cc has given our team a vantage point to identify emerging challenges in witnessing the web that we believe extend well beyond our core mission of preserving citations in the legal record. In an effort to expand the utility of our own service and contribute to the wider array of core tools in the web archiving community, we’ve been working on a handful of [Perma Tools](http://tools.perma.cc).

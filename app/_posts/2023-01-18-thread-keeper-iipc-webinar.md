@@ -2,6 +2,8 @@
 title: "IIPC Technical Speaker Series: Archiving Twitter"
 author: matteo-cargnelutti
 excerpt_separator: <!--more-->
+tags:
+- Tools
 ---
 I was invited by the [International Internet Preservation Consortium (IIPC)](https://netpreserve.org/) 
 to give a webinar on the topic of _"Archiving Twitter"_ on January 12.
