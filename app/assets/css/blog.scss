@@ -228,6 +228,10 @@
   }
 }
 
+p.author-list {
+  margin-bottom: 0;
+}
+
 @include respond(3) {
   .post-title {
     font-size: 40px;
