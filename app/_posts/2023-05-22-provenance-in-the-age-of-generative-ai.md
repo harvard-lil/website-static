@@ -2,6 +2,9 @@
 title: '"Did ChatGPT really say that?": Provenance in the age of Generative AI.'
 author: matteo-cargnelutti
 excerpt_separator: <!--more-->
+tags:
+- AI Research
+- Library Principles
 ---
 
 > **Prompt**:

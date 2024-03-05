@@ -2,6 +2,8 @@
 title: "Web Archiving: Opportunities and Challenges of Client-Side Playback"
 author: matteo-cargnelutti
 excerpt_separator: <!--more-->
+tags:
+- Tools
 ---
 Historically, the complexities of the backend infrastructures needed to play back and embed rich web archives on a website have limited how we explore, showcase and tell stories with the archived web. [Client-side playback](https://blog.conifer.rhizome.org/2019/10/03/client-side-replay.html) is an exciting emerging technology that lifts a lot of those restraints.
 

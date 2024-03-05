@@ -1,6 +1,8 @@
 ---
 title: "Browse the Bookshelf of U.S. Case Law: Announcing the CAP Case Browser"
 author: kelly-fitzpatrick
+tags:
+- Tools
 ---
 Today we’re announcing the [CAP case browser](https://cite.case.law/)! Browse published U.S. case law from 1658 to 2018&mdash;all 40 million pages of it.
 

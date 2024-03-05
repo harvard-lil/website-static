@@ -1,6 +1,8 @@
 ---
 title: The 'Library' in Library Innovation Lab
 author: ben-steinberg
+tags:
+- Library Principles
 ---
 A roomful of people sitting in armchairs with laptops may not appear
 at first glance to be a place where library work is happening. It

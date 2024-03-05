@@ -1,6 +1,8 @@
 ---
 title: "What Legal Hackers Can Learn From Libraries"
 author: jack-cushman
+tags:
+- Library Principles
 ---
 *This is a lightly edited transcript of a talk I gave at the 2022 Legal Hackers International Summit on September 10, 2022.*
 

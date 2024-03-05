@@ -2,6 +2,8 @@
 title: This Is Just Amazing
 author: ben-steinberg
 excerpt_separator: <!--more-->
+tags:
+- Library Principles
 ---
 The other day, I noticed this on the side of the house.
 

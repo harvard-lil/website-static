@@ -1,6 +1,8 @@
 ---
 title: Historical Trends at the Caselaw Access Project
 author: kelly-fitzpatrick
+tags:
+- Tools
 ---
 Today we’re excited to share [Historical Trends](https://case.law/trends/), a new way to explore U.S. case law made available by the [Caselaw Access Project](https://case.law/) at Harvard Law School.
 
