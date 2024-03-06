@@ -299,6 +299,7 @@ nav[aria-label="main"] {
         padding-top: 0;
         padding-bottom: 0;
         padding-right: 12px;
+        padding-left: 46px;
         @include respond(3) { padding-right: 22px; }
         @include respond(4) { padding-right: 34px; }
       }
