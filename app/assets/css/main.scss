@@ -235,7 +235,13 @@ h2 {
 
 nav[aria-label="main"] {
   text-align: center;
-  padding-left: 32px;
+
+  .header-nav-logo {
+    position: absolute;
+    display: block;
+    margin-top: -2px;
+    margin-left: -28px;
+  }
 
   ul {
     padding: 0;
