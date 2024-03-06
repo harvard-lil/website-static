@@ -683,6 +683,19 @@ body.ai {
   }
 }
 
+// Temporary rules for Transform: Justice stream page
+body.event-stream {
+  .simple-section {
+    max-width: 75ch;
+    margin: auto;
+    text-align: center
+  }
+
+  iframe {
+    margin-top: $grid * 6;
+  }
+}
+
 ////////
 // Galleries
 
