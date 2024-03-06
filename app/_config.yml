@@ -15,10 +15,10 @@ timezone: Etc/GMT
 # Site settings
 title: The Library Innovation Lab at Harvard University
 description: >
-  Bringing the best of technology to the world of libraries and the best of libraries to the world of technology. And vice versa.
+  The Library Innovation Lab is growing knowledge and community by bringing library principles to technological frontiers.
 baseurl: ""
 url: "https://lil.law.harvard.edu"
-sharing-image: "thumbs/800x800r/lab-alterspace-hero-narrow.png"
+sharing-image: "thumbs/800x800r/lil-primary-black.png"
 
 # Contact
 email: lil@law.harvard.edu
@@ -85,6 +85,9 @@ defaults:
     values:
       custom-footer: false
       sharing-card-type: summary
+
+# Feature Flags
+show_blog_featured_tags: true
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

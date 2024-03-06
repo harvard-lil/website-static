@@ -2,6 +2,8 @@
 title: Witchcraft in U.S. Caselaw
 author: anastasia-aizman
 excerpt_separator: <!--more-->
+tags:
+- Tools
 ---
 ![Witchcraft in Law](https://lil-blog-media.s3.amazonaws.com/Screen_Shot_2018-10-31_at_9.51.54_AM.png) 
 

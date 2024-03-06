@@ -3,6 +3,9 @@ title: 'WARC-GPT: An Open-Source Tool for Exploring Web Archives Using AI'
 author: [matteo-cargnelutti,kristi-mukk,clare-stanton]
 excerpt_separator: <!--more-->
 sharing-image: images/warc-gpt-banner.png
+tags:
+- AI Research
+- Tools
 ---
 
 <img src="https://lil-blog-media.s3.amazonaws.com/warc-gpt-banner.png" alt=""/>

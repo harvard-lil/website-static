@@ -69,6 +69,28 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url('../fonts/NeueHaasGroteskDisplayPro55Roman.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro55Roman.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url('../fonts/NeueHaasGroteskDisplayPro56Italic.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro56Italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url('../fonts/NeueHaasGroteskDisplayPro65Medium.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro65Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 ////////////////////////////////////////////////////////////////
 // Variables, Mixins, and Placeholders
 @import "variables-mixins-placeholders";
@@ -86,14 +108,6 @@
 
 *, *:before, *:after {
   box-sizing: inherit;
-  text-rendering: optimizeLegibility;
-  -webkit-font-variant-ligatures: common-ligatures;
-  font-variant-ligatures: common-ligatures;
-  -moz-font-feature-settings: "kern=1";
-  -webkit-font-feature-settings: "kern";
-  -moz-font-feature-settings: "kern";
-  font-feature-settings: "kern";
-  font-kerning: normal;
   overflow: hidden;
   position: relative;
 }
@@ -107,7 +121,6 @@ html, body {
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
   font-family: $font-body;
   font-size: $size-body;
   font-weight: 500;
@@ -117,11 +130,6 @@ body {
   background-color: white;
   width: 100%;
   position: relative;
-}
-
-// allow us to override some of the arcane things above
-.no-ligatures {
-  font-variant-ligatures: none;
 }
 
 // normalize sets to "bolder", which is not available with our fonts
@@ -225,8 +233,15 @@ h2 {
 ////////////////////////////////////////////////
 //  header
 
-nav {
+nav[aria-label="main"] {
   text-align: center;
+
+  .header-nav-logo {
+    position: absolute;
+    display: block;
+    margin-top: -2px;
+    margin-left: -28px;
+  }
 
   ul {
     padding: 0;
@@ -237,6 +252,12 @@ nav {
     }
   }
 
+  svg {
+    @include respond(2) {
+      margin-right: 0.5rem;
+    }
+  }
+
   li {
     @extend %vcenter-parent;
     float: left;
@@ -244,17 +265,11 @@ nav {
     font-weight: 500;
 
     &:hover {
-      a {
         color: $color-highlight;
-      }
-      // These are for the SVG logo
-      .style1, .style2 {
-        fill: $color-highlight;
-      }
     }
 
     &:first-of-type {
-      font-weight: 700;
+      font-weight: 600;
       span.name {
         display: block;
         text-indent: -10000px;
@@ -265,10 +280,12 @@ nav {
       }
       span.longname { @include hide-onmobile-then(inline); }
       a {
+        display: flex;
+        align-items: center;
         padding-top: 0;
         padding-bottom: 0;
-        padding-left: 46px;
         padding-right: 12px;
+        padding-left: 46px;
         @include respond(3) { padding-right: 22px; }
         @include respond(4) { padding-right: 34px; }
       }
@@ -292,11 +309,17 @@ nav {
   }
 }
 
-.header-nav-logo {
-  position: absolute;
-  display: block;
-  margin-top: -2px;
-  margin-left: -28px;
+.header-splash__logo {
+  max-width: 25.875rem; /* 414px */
+  margin-inline: 3rem;
+
+  @include respond(3) {
+    max-width: 43.75rem; /* 700px */
+  }
+}
+
+.header-splash__description {
+  max-width: 40ch;
 }
 
 .hiring-announcement, .banner {
@@ -320,10 +343,9 @@ nav {
 body > footer {
   background: $color-brightyellow;
   color: $color-black;
-  font-weight: 700;
+  font-weight: 600;
   text-align: right;
   padding: $grid * 3 $double;
-  overflow: auto;
 
   ul {
     //width: 50%;
@@ -351,8 +373,12 @@ body > footer {
 .footer-logo {
   float: left;
   width: 50%;
-  max-width: $grid * 44;
-  margin: 0;
+  max-width:  10.9375rem; /*175px*/
+  margin-block-start: 0.5rem;
+
+  @include respond(4) {
+    max-width:  $grid * 35;
+  }
 }
 
 .footer-copyright {
@@ -373,34 +399,9 @@ body > footer {
   }
 }
 
-// All styles required for sticky footer:
-// if html content would normally be shorted than viewport,
-// this ensures that the footer is affixed to the bottom, while
-// maintaining normal behavior on longer pages
 html {
   min-height: 100%;
   background: $color-trans-whispergray;
-}
-body {
-  // Margin bottom equals footer height, set below
-  margin-bottom: 325px;
-  position: initial;
-}
-body > footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 325px;
-}
-
-@include respond(5) {
-  body {
-    // Margin bottom equals footer height, set below
-    margin-bottom: 236px;
-  }
-  body > footer {
-    height: 236px;
-  }
 }
 
 ////////
@@ -433,6 +434,9 @@ body > footer {
 
     &:hover {
       background-color: $color-white;
+    }
+    &.intro-nav-previous, &.intro-nav-next {
+      font-weight: 600;
     }
     &.intro-nav-previous {
       text-align: left;
@@ -544,7 +548,7 @@ section, .container {
 // container > sleeve > slice@pop-out-of-sleeve > sleeve > h + slice-body
 .slice {
   clear: both;
-  font-weight: 300;
+  font-weight: 500;
   overflow: auto;
   @include respond(4) { padding-top: $double; }
 
@@ -595,7 +599,7 @@ section, .container {
 
   h3, h4 {
     font-size: inherit;
-    font-weight: 500;
+    font-weight: 600;
 
     & + ul {
       padding-top: $double;
@@ -623,7 +627,7 @@ section, .container {
 
   li {
   line-height: 1.4;
-  // font-weight: 300;
+  // font-weight: 500;
   // margin-top: 0;
   // margin-bottom: 16px;
   // @include respond(4){
@@ -701,8 +705,9 @@ body.event-stream {
   h1, h2, h3, h4, h5, h6, p {
     @include hed-common;
     font-size: $size-large;
+    font-weight: 600;
+
     @include respond(4) {
-      font-weight: 300;
       font-size: $size-2xlarge;
       padding-bottom: .2em;
     }
@@ -715,16 +720,16 @@ body.event-stream {
   @include respond(4) {
     h1, h2, h3, h4, h5, h6, {
       float: left;
-      font-weight: 500;
+      font-weight: 600;
     }
     p {
       float: right;
-      font-weight: 300;
+      font-weight: 500;
     }
   }
 }
 
-// Galttery Items
+// Gallery Items
 .gallery-item {
   @extend %gallery-item;
 
@@ -752,6 +757,7 @@ body.event-stream {
     }
 
     .logline {
+      font-weight: 600;
       margin-top: 0;
       color: $color-highlight;
     }
@@ -786,7 +792,7 @@ a.gallery-item {
   .role {
     display: block;
     font-size: $size-small;
-    font-weight: 500;
+    font-weight: 600;
     @include overline($color-trans-gray, $grid * 7, $t-margin:$grid, $r-margin:auto, $b-margin:$grid, $l-margin:auto);
   }
 
@@ -883,7 +889,7 @@ a.gallery-item {
 
   .name {
     margin-top: 0;
-    font-weight: 500;
+    font-weight: 600;
     &:after {
       display: none;
     }
@@ -900,6 +906,10 @@ a.gallery-item {
     font-weight: 500;
     color: $color-trans-darkgray;
     margin-top: 0;
+  }
+
+  .social {
+    font-weight: 600;
   }
 
   @include respond(4) {
@@ -936,7 +946,7 @@ a.gallery-item {
   margin-top: 0;
 
   .name {
-    font-weight: 700;
+    font-weight: 600;
     display: block;
   }
 
@@ -1008,7 +1018,7 @@ a.gallery-item {
 //
 //   .title {
 //     @extend %lined-list-item-child;
-//     font-weight: 700;
+//     font-weight: 600;
 //     margin-top: 6px;
 //
 //     a {
@@ -1028,7 +1038,7 @@ a.gallery-item {
 //   .logline {
 //     @extend %lined-list-logline;
 //     color: $color-trans-textwhite;
-//     font-weight: 300;
+//     font-weight: 500;
 //     margin-top: 6px;
 //   }
 //
@@ -1038,7 +1048,7 @@ a.gallery-item {
 //     color: $color-trans-darkwhite;
 //     &:before {
 //       content: 'Posted by ';
-//       font-weight: 300;
+//       font-weight: 500;
 //     }
 //   }
 //
@@ -1058,7 +1068,7 @@ a.gallery-item {
 //     }
 //     .title {
 //       margin-top: 0;
-//       font-weight: 300;
+//       font-weight: 600;
 //     }
 //     .author {
 //       width: 30%;
@@ -1110,7 +1120,7 @@ section.sunset {
     @extend %lined-list-item-child;
     margin-top: $grid / 2;
     margin-bottom: 0;
-    font-weight: normal;
+    font-weight: 600;
     a {
       @include include-arrow(2px);
       @include include-arrow-white;
@@ -1345,15 +1355,10 @@ a.link-project {
       font-weight: 700;
       padding: $double;
       padding-bottom: 95px;
-
-      figure {
-        margin: 0 auto;
-        max-width: nth($respond-breakpoints,3) + 1;
-      }
     }
   }
 
-  nav {
+  nav[aria-label="main"] {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1383,11 +1388,12 @@ a.link-project {
     font-size: 19.25px;
     font-weight: bold;
 
-    // different color for first line of slogan
-    color: $color-highlight;
-    &::first-line {
-      color: black;
-    }
+    color: black;
+    // // different color for first line of slogan
+    // color: $color-highlight;
+    // &::first-line {
+    //   color: black;
+    // }
 
     @include respond(3) {
       font-size: 40px;
@@ -1409,6 +1415,11 @@ a.link-project {
   @include respond(3) {
     border-top-width: $double * 2;
   }
+}
+
+// home page's "about" gallery
+.home .about .logline {
+  text-align: left;
 }
 
 // about page, LIL contact info tweaks

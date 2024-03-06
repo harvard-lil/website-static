@@ -9,6 +9,28 @@
 ////////////////////////////////////////////////
 //  blog
 
+.posts-filter {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: $double !important;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .tag {
+    border-bottom: none;
+    color: white;
+  }
+
+
+}
 
 .posts-index {
   article {
@@ -21,7 +43,7 @@
     border-bottom: none;
   }
 
-  .sleeve:first-of-type article {
+  .sleeve:nth-of-type(2) article {
     border-top: none;
     margin-top: 0;
   }
@@ -61,7 +83,7 @@
 
 .post-author {
   margin-top: 6px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.4;
 
 }
@@ -72,10 +94,15 @@
   font-weight: 600;
 }
 
+.post-date {
+  font-weight: 600;
+}
+
 .post-content {
   margin-top: 0;
   padding-bottom: 2px;
-  font-weight: 300;
+  font-weight: 500;
+
   p:first-child {
     margin-top: 0;
   }
@@ -148,7 +175,7 @@
     border: 1px solid $color-trans-lightgray;
   }
   .submitted-by {
-    font-weight: 300;
+    font-weight: 500;
     margin-top: $grid;
     &:before {
       content: '/';
@@ -201,6 +228,10 @@
   }
 }
 
+p.author-list {
+  margin-bottom: 0;
+}
+
 @include respond(3) {
   .post-title {
     font-size: 40px;
@@ -221,7 +252,7 @@
       width: 30%;
     }
   }
-  .text-frame { font-weight: 300; }
+  .text-frame { font-weight: 500; }
   .roundup-item .metadata {
     float: left;
     width: 70%;
@@ -234,7 +265,7 @@
 }
 
 @include respond(4) {
-  article, .pagination {
+  article, .pagination, .posts-filter {
     max-width: 596px;
     margin: auto;
     margin-top: 16px;
@@ -268,6 +299,20 @@ footer {
     color: $color-white;
     background-color: $color-electricblue;
   }
+}
+
+.tag[aria-current='true'] {
+    color: $color-white;
+    background-color: $color-electricblue;
+    a {
+      border-bottom: none;
+    }
+
+    &:hover, &:focus,
+    a:hover, a:focus {
+      color: $color-white;
+      background-color: $color-highlight;
+    }
 }
 
 figure.highlight pre {

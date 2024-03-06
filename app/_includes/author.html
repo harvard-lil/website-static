@@ -3,7 +3,7 @@
   {% for author in include.author %}
     {% assign person_record = site.data.people[author] %}
     {% if forloop.last and forloop.length > 1 %} and {% endif %}
-    <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}">{{ person_record.name }}</a>{% if forloop.last != true and forloop.length > 2 %},{% endif %}
+    <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}">{{ person_record.name }}</a>{% if forloop.last != true and forloop.length > 2 %}, {% endif %}
   {% endfor %}
   </p>
 {% elsif include.guest-author %}

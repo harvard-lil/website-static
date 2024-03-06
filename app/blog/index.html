@@ -8,6 +8,9 @@ custom-css: ['blog']
 ---
 
 <section class="posts-index">
+
+{% include tag-filter.html %}
+
 {% for post in paginator.posts %}
   <div class="sleeve">
     <article itemscope itemtype="http://schema.org/BlogPosting">

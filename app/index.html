@@ -1,10 +1,9 @@
 ---
 layout: sectioned-page
-title: We're building things in libraries.
+title: Growing knowledge and community by bringing library principles to technological frontiers.
 title-tag-complete: The Library Innovation Lab at Harvard University
-description: "Home of Perma.cc, H2O, Caselaw Access Project, and others. We're building things in libraries."
+description: "Home of Perma.cc, H2O, Caselaw Access Project, and others. The Library Innovation Lab is growing knowledge and community by bringing library principles to technological frontiers."
 slug: home
-sharing-image: images/header-splash-logo-ani@1x.gif
 sharing-card-type: summary_large_image
 custom-scripts: ['home.js']
 ---
@@ -24,10 +23,8 @@ custom-scripts: ['home.js']
     <div class="slice">
       <h3>Upcoming Event</h3>
       <div class="slice-body">
-
-
         <p>
-          <a href="{{ site.baseurl }}/about/cap-celebration"
+          <a href="{{ site.baseurl }}/about/cap-celebration/"
             >Transform: Justice</a
           >
           is a call to action during an inflection point for the world of open legal data. AI is shaking up the way we all think about the power of information and data. Free, accessible, and comprehensive access to the law is foundational to our democracy, and we believe we’re in a moment when big progress can be made. Learn more here about this public event in March 2024.
@@ -35,18 +32,42 @@ custom-scripts: ['home.js']
       </div>
     </div>
 
-    <div class="slice">
-      <h3>Democratizing Open Knowledge</h3>
-      <div class="slice-body">
-        <p><a href="{{ site.baseurl }}/about/democratizing-open-knowledge">Democratizing Open Knowledge</a> is a three-year program at the Library Innovation Lab to explore the goals articulated in Harvard Library’s <a href="https://library.harvard.edu/about/news/2021-03-24/harvard-library-advancing-open-knowledge">Advancing Open Knowledge</a> strategy from a decentralized and generative perspective.</p>
-      </div>
-    </div>
+    <div class="gallery-sq">
+      <a class="gallery-item" href="{{ site.baseurl }}/about/democratizing-open-knowledge/">
+        <figure>
+          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/haystacks-thumbnail-1.png"
+               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/haystacks-thumbnail-1.png 1x,
+                       {{ site.baseurl }}/assets/thumbs/800x600r/haystacks-thumbnail-1.png 2x"
+               alt=""
+               class="img-full-width">
+        </figure>
+        <strong class="title">Democratizing Open Knowledge</strong>
+        <span class="logline">A 3 year program to explore the goals articulated in Harvard Library's Advancing Open Knowledge strategy from a decentralized and generative perspective.</span>
+      </a>
 
-    <div class="slice">
-      <h3>AI Projects</h3>
-      <div class="slice-body">
-        <p>Generative AI offers a defining moment where information archives gain the ability to answer questions about themselves; to act without human intervention; and even to simulate the processes that created them. From our perspective at the lab - where we bring library principles to technological frontiers - anyone who is concerned with information, access, and the law should be aware of and feel empowered to influence the use of generative AIs. We have embarked upon a <a href="{{ site.baseurl }}/about/ai">series of projects</a> in support of that belief.</p>
-      </div>
+      <a class="gallery-item" href="{{ site.baseurl }}/about/ai/">
+        <figure>
+          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/timecapsule-thumbnail-3.png"
+               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/timecapsule-thumbnail-3.png 1x,
+                       {{ site.baseurl }}/assets/thumbs/800x600r/timecapsule-thumbnail-3.png 2x"
+               alt=""
+               class="img-full-width">
+        </figure>
+        <strong class="title">AI Projects</strong>
+        <span class="logline">Projects to explore how those concerned with information, access, and the law can be aware of and feel empowered to influence the use of generative AIs.</span>
+      </a>
+
+      <a class="gallery-item" href="{{ site.baseurl }}/blog/">
+        <figure>
+          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/stacklife-thumbnail-1.png"
+               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/stacklife-thumbnail-1.png 1x,
+                       {{ site.baseurl }}/assets/thumbs/800x600r/stacklife-thumbnail-1.png 2x"
+               alt=""
+               class="img-full-width">
+        </figure>
+        <strong class="title">Blog</strong>
+        <span class="logline">Publishing the results of our explorations and sharing take aways with folks across the spectrum of libraries, technology, and law is part of our mission.</span>
+      </a>
     </div>
 
     <a href="{{ site.baseurl }}/about/" role="button" aria-label="Learn more about who we are"><span>Learn more about who we are</span></a>
@@ -63,25 +84,6 @@ custom-scripts: ['home.js']
     {% include active-project-gallery.html %}
 
     <a href="{{ site.baseurl }}/projects/" role="button" aria-label="Browse all our active projects"><span>Browse all our projects</span></a>
-
-  </div>
-</section>
-
-<section class="sketches">
-  <div class="sleeve">
-
-    <h2>Sketches</h2>
-
-    <div class="slice">
-      <h3>OK, I've seen your projects. What’s a sketch?</h3>
-      <div class="slice-body">
-        <p>Before it’s a project it’s a sketch. Sketches are a way to get a handle on an idea and see where it goes. It’s what’s on our mind. Lend a hand if something here interests you, too.</p>
-      </div>
-    </div>
-
-    {% include active-sketch-gallery.html %}
-
-    <a href="{{ site.baseurl }}/sketches/" role="button" aria-label="See everything we’re sketching"><span>See everything we’re sketching</span></a>
 
   </div>
 </section>

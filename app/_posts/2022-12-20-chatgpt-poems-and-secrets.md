@@ -2,6 +2,8 @@
 title: "ChatGPT: Poems and Secrets"
 author: jack-cushman
 excerpt_separator: <!--more-->
+tags:
+- AI Research
 ---
 I've been asking
 [ChatGPT](https://openai.com/blog/chatgpt/) to write some

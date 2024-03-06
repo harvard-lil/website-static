@@ -3,6 +3,9 @@ title: 'LLMs are universal translators: on building my own translation tools for
 author: jack-cushman
 excerpt_separator: <!--more-->
 sharing-image: images/statue-of-liberty.png
+
+tags:
+- AI Research
 ---
 
 Here is a picture of the Statue of Liberty doing a TikTok dance, as painted by van Gogh, as interpreted by ChatGPT. This is very relevant to my point and we’ll come back to it.

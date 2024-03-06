@@ -8,16 +8,21 @@ custom-css: ['blog']
 ---
 
 <section class="posts-index">
+
+  {% include tag-filter.html %}
+
   <div class="sleeve">
-    <h1>{{ page.autopages.display_name }}</h1>
+    <h1>Posts tagged: "{{ page.autopages.display_name }}"</h1>
     {% for post in paginator.posts %}
       <div class="slice">
         <h2><time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></h2>
         <div class="slice-body">
           <a href="{{ post.url}} ">{{ post.title }}</a>
           {% if post.author %}
-            {% assign person_record = site.data.people[post.author] %}
-            <p><small>{{ person_record.name }}</small></p>
+            {% for author in post.author %}
+              {% assign person_record = site.data.people[author] %}
+              <p class="author-list"><small>{{ person_record.name }}</small></p>
+            {% endfor %}
           {% elsif post.guest-author %}
             <p><small>{{ post.guest-author }}</small></p>
           {% endif %}
@@ -28,12 +33,13 @@ custom-css: ['blog']
 </section>
 
 <!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
 <section class="list-index-pagination">
   <div class="sleeve">
     <div class="slice">
       <div class="list-pagination">
         <div class="wrapper">
-          <div class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</div>
+          <div class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
           {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}" class="small-btn pagination" role="button">Previous</a>
           {% endif %}
@@ -45,3 +51,4 @@ custom-css: ['blog']
     </div>
   </div>
 </section>
+{% endif %}
