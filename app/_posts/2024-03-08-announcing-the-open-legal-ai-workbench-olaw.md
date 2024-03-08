@@ -60,7 +60,7 @@ Legal AI tools are a wide open design space with the potential to help a lot of 
 
 The commercial legal research industry is undergoing the fastest period of exploration since the invention of the internet. While there has been incremental progress, the boolean search techniques still used by lawyers today would be recognizable to lawyers using LEXIS terminals in the 1970s. But now, everything is changing: commercial vendors like Westlaw, Lexis, and vLex all introduced novel AI-based search interfaces in the last year.
 
-We want to support research that happens outside the legal industry as well as inside, and research that is published publicly and peer reviewed as well as proprietary. That’s needed because lots of people need legal help who may never be profitable to serve; because lots of novel tools are now possible beyond the ideas any one company can explore; and because everyone will be better off if there is rigorous, public research available on what works and what doesn’t.
+We want to support research that happens outside the legal industry as well as inside, and research that is published publicly and peer-reviewed as well as proprietary. That’s needed because lots of people who need legal help may never be profitable to serve; because lots of novel tools are now possible beyond the ideas any one company can explore; and because everyone will be better off if there is rigorous, public research available on what works and what doesn’t.
 
 ---
 
