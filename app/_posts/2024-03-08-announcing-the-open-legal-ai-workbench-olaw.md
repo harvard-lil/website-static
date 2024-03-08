@@ -54,7 +54,7 @@ OLAW itself is not a useful legal AI tool, and we didn’t build it to be used a
 
 ## Why is OLAW needed now?
 
-Legal AI tools are a wide open design space with the potential to help a lot of people. We want to make it easier for the academic and open source communities to get involved in exploring the future of these tools.
+Legal AI tooling is a wide-open design space with the potential to help a lot of people. We want to make it easier for the academic and open source communities to get involved in exploring the future of these tools.
 
 The commercial legal research industry is undergoing the fastest period of exploration since the invention of the internet. While there has been incremental progress, the boolean search techniques still used by lawyers today would be recognizable to lawyers using LEXIS terminals in the 1970s. But now, everything is changing: commercial vendors like Westlaw, LexisNexis, and vLex all introduced novel AI-based search interfaces in the last year.
 
