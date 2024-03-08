@@ -58,7 +58,7 @@ OLAW itself is not a useful legal AI tool, and we didn’t build it to be used a
 
 Legal AI tools are a wide open design space with the potential to help a lot of people. We want to make it easier for the academic and open source communities to get involved in exploring the future of these tools.
 
-The commercial legal research industry is undergoing the fastest period of exploration since the invention of the internet. While there has been incremental progress, the boolean search techniques still used by lawyers today would be recognizable to lawyers using LEXIS terminals in the 1970s. But now, everything is changing: commercial vendors like Westlaw, Lexis, and vLex all introduced novel AI-based search interfaces in the last year.
+The commercial legal research industry is undergoing the fastest period of exploration since the invention of the internet. While there has been incremental progress, the boolean search techniques still used by lawyers today would be recognizable to lawyers using LEXIS terminals in the 1970s. But now, everything is changing: commercial vendors like Westlaw, LexisNexis, and vLex all introduced novel AI-based search interfaces in the last year.
 
 We want to support research that happens outside the legal industry as well as inside, and research that is published publicly and peer-reviewed as well as proprietary. That’s needed because lots of people who need legal help may never be profitable to serve; because lots of novel tools are now possible beyond the ideas any one company can explore; and because everyone will be better off if there is rigorous, public research available on what works and what doesn’t.
 
