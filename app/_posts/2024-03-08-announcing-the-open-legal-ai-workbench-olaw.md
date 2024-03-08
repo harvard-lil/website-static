@@ -14,7 +14,7 @@ When the Lexis corporation [first launched legal research terminals](https://en.
 
 We want academics and nonprofits at the table in discovering the next generation of legal interfaces and helping to close the justice gap. It is not at all clear yet which legal AI tools and interfaces will work effectively for people with different levels of skill, what kind of guardrails they need, and what kind of matters they can help with. We need to try a lot of ideas and effectively compare them to each other.
 
-That’s why we’re releasing a common framework for scholarly researchers to build novel interfaces and run experiments: the [Open Legal AI Workbench](https://github.com/harvard-lil/olaw) (OLAW). In technical terms, OLAW is a simple, well-documented, and extensible framework for legal AI researchers to build services based on tool-based retrieval augmented generation.
+That’s why we’re releasing a common framework for scholarly researchers to build novel interfaces and run experiments: the [Open Legal AI Workbench](https://github.com/harvard-lil/olaw) (OLAW). In technical terms, OLAW is a simple, well-documented, and extensible framework for legal AI researchers to build services using tool-based retrieval augmented generation.
 
 We’re not done building this yet, but we think it’s time to share with the legal technology and open source AI communities for feedback and collaboration. 
 
