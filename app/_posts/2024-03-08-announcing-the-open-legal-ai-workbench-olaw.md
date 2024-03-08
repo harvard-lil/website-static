@@ -78,7 +78,7 @@ We welcome the community’s input on these and other areas for improvement.
 
 ## How do I get involved?
 
-OLAW is currently best suited for programmers who can host their own web software and make their own modifications. To get started, [head over to our Github](https://github.com/harvard-lil/olaw) to get installation instructions, file issues, send pull requests, or comment in the discussion area.
+OLAW is currently best suited for programmers who can host their own web software and make their own modifications. To get started, [head over to our GitHub repo](https://github.com/harvard-lil/olaw) to get installation instructions, file issues, send pull requests, or comment in the discussion area.
 
 ---
 
