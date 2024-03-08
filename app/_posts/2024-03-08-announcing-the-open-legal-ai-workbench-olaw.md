@@ -66,7 +66,7 @@ We want to support research that happens outside the legal industry as well as i
 
 We currently have the core concept implemented: a simple, well documented testbed using tool-based retrieval augmented generation that is easy to modify. These are some directions we would like to explore next:
 
-- **Automatic benchmarking frameworks**. OLAW currently requires manual testing to evaluate the impacts of design experiments. Some impacts may be testable automatically with the help of frontier models. We would like feedback from the community on the best way to design effective benchmarks.
+- **Automatic benchmarking frameworks**. OLAW currently requires manual testing to evaluate the impacts of design experiments. Some impacts may be testable automatically; we would like feedback from the community on the best way to design effective benchmarks.
 - **Additional tools**. OLAW ships with just one tool, which runs searches against the CourtListener API. We would welcome additions of default tools that search other legal resources.
 - **Structured extension points**. We have a standard plugin-based approach to adding tools, but other extensions such as output filters or display methods require patches to the underlying source code. We would like help identifying other extension points that would benefit from standardized interfaces for testing.
 
