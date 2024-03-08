@@ -10,6 +10,8 @@ tags:
 
 <img src="https://lil-blog-media.s3.amazonaws.com/olaw-banner.png" alt=""/>
 
+> _This post is part of the Library Innovation Lab’s announcements in the context of [Transform: Justice](https://lil.law.harvard.edu/about/cap-celebration/), celebrating the full, unqualified release of the data from the [Caselaw Access Project](https://case.law)._
+
 When the Lexis corporation [first launched legal research terminals](https://en.wikipedia.org/wiki/LexisNexis#History) in the 1970s it hoped to “crack the librarian barrier,” allowing lawyers to do their own legal research from their desks instead of sending law firm librarians through paper search indexes. Today something larger is possible: we may be able to “crack the justice barrier,” allowing people to answer a larger and larger number of legal questions for themselves. [According to the Legal Services Corporation](https://justicegap.lsc.gov/), low-income Americans do not receive any or enough legal help for 92% of their civil legal problems, so there would be a huge public benefit to making legal resources more widely available.
 
 We want academics and nonprofits at the table in discovering the next generation of legal interfaces and helping to close the justice gap. It is not at all clear yet which legal AI tools and interfaces will work effectively for people with different levels of skill, what kind of guardrails they need, and what kind of matters they can help with. We need to try a lot of ideas and effectively compare them to each other.
