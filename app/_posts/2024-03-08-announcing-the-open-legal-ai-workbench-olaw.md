@@ -38,8 +38,6 @@ Out of the box, OLAW looks like this:
 
 ## What is OLAW for?
 
-OLAW itself is not a useful legal AI tool, and we didn’t build it to be used as-is.
-
 OLAW itself is not a useful legal AI tool, and we didn’t build it to be used as-is. Instead, OLAW is intended to rapidly prototype new ideas for legal tools. OLAW is an excellent platform for testing questions like:
 
 - How are legal AI tools affected by the use of different prompts, models, or finetunings?
