@@ -11,7 +11,7 @@ We will continue hosting the CAP data in bulk for researchers, and as individual
 
 <!--more-->
 
-We have transitioned the original CAP website into an archival state. The previous version of the site, along with a selection of its tools, will still be available at [old.case.law](http://old.case.law) until September of this year.
+The previous version of the site will still be available at [old.case.law](http://old.case.law) until September of this year. If there are features of the previous site that are not well covered by the current site or by CourtListener, we welcome feedback to info@case.law.
 
 This transition will allow new avenues for users to access the data produced by the Caselaw Access Project, and will consolidate efforts to create centralized access points for the law. We are very proud of the contribution that CAP has made to the open legal data movement, and will continue working to expand and support free, open, and fair access to information.
 
