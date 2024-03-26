@@ -3,7 +3,7 @@ title: Transitions for the Caselaw Access Project
 guest-author: The Library Innovation Lab Team
 excerpt_separator: <!--more-->
 ---
-The team at the Library Innovation Lab is excited to announce the original limitations on the data available for the [Caselaw Access Project](http://case.law) expired this month, and that data can now be fully released without restriction on access or use.
+The Library Innovation Lab is excited to announce that the original limitations on the data available for the [Caselaw Access Project](http://case.law) expired this month, and that data can now be fully released without restriction on access or use.
 
 As part of our original collaboration agreement with Ravel Law, Inc. (now part of Lexis-Nexis) for the Caselaw Access Project there had been access limitations on the full text and bulk data available, which have now expired. Over the next few months, we will be partnering with other organizations in the open legal data space like the [Free Law Project](http://free.law) to shepherd this data into its next phase. 
 
