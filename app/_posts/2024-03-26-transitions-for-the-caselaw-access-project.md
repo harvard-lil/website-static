@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 ---
 The Library Innovation Lab is excited to announce that the original limitations on the data available for the [Caselaw Access Project](http://case.law) expired this month, and that data can now be fully released without restriction on access or use.
 
-As part of our original collaboration agreement with Ravel Law, Inc. (now part of Lexis-Nexis) for the Caselaw Access Project there had been access limitations on the full text and bulk data available, which have now expired. Over the next few months, we will be partnering with other organizations in the open legal data space like the [Free Law Project](http://free.law) to shepherd this data into its next phase. 
+As part of our original collaboration agreement with Ravel Law, Inc. (now part of LexisNexis) for the Caselaw Access Project there had been access limitations on the full text and bulk data available, which have now expired. Over the next few months, we will be partnering with other organizations in the open legal data space like the [Free Law Project](http://free.law) to shepherd this data into its next phase. The Free Law Project already includes all CAP cases, as well as cases scraped from court websites, in its [CourtListener](https://www.courtlistener.com/) search engine.
 
 As the case.law website will no longer need to serve as the primary access point for the data, we will be **winding down services that our team has provided since the initial release of CAP in 2018, including the API. **
 
