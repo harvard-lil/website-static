@@ -3,7 +3,7 @@
 # need to be created when adding a person and placed in the thumbs dir #
 
 # When adding a current team member, add three sizes - 216x216, 432x432, 648x648 #
-# see https://github.com/harvard-lil/website-static#adding-staff-or-summer-visitors #
+# see https://github.com/harvard-lil/website-static?tab=readme-ov-file#adding-current-affiliates #
 
 
 # Currently affiliated #
@@ -135,6 +135,20 @@ jacob-rhoades:
   current: True
   section: Staff
 
+aristana-scourtas:
+  name: Aristana Scourtas
+  sort_name: Scourtas
+  role: Product and Research Manager
+  bio: >-
+    Ari comes to LIL from the world of applied AI and scientific software engineering, where she tackled topics such as wildfire smoke detection, AI reproducibility, and building open-source contributor communities. She’s held many roles in the past, including software engineer, project manager, community organizer, library assistant, and research scientist, and is thrilled to combine all of these in her new role at LIL to create tools for just access to information. She is especially excited about the intersections of information, justice, and technology.
+  email: ascourtas@law.harvard.edu
+  website:
+  github_account_name: ascourtas
+  image: aristana-scourtas.jpg
+  affiliated: True
+  current: True
+  section: Staff
+
 dakota-sexton:
   name: Dakota Sexton
   sort_name: Sexton
@@ -228,7 +242,7 @@ jonathan-zittrain:
   current: true
   section: Faculty Director
 
-# Fellows
+# Fellows and others
 sankalp-bhatnagar:
   name: Sankalp Bhatnagar
   sort_name: Bhatnagar
@@ -250,7 +264,7 @@ sankalp-bhatnagar:
   image: sankalp-bhatnagar.jpg
   affiliated: true
   current: true
-  section: Fellows
+  section: Affiliates
 
 katy-ilonka-gero:
   name: Katy Ilonka Gero
@@ -272,7 +286,22 @@ katy-ilonka-gero:
   image: katy-ilonka-gero.jpg
   affiliated: true
   current: true
-  section: Fellows
+  section: Affiliates
+
+maxwell-neely-cohen:
+  name: Maxwell Neely-Cohen
+  sort_name: Neely-Cohen
+  role: Contributing Editor
+  bio: >-
+    Max is a novelist, essayist, and editor who loves figuring out how to write about emerging fields, tools, and practices. Outside of his literary ventures, his work in theater, technology, music, video games, and dance have been acclaimed by _The New York Times_, _Frieze_, and _The Financial Times_. He is currently the publisher of The HTML Review and Wikipedian-In-Residence for the National Book Foundation. He is obsessed with libraries and archives.
+  email:
+  website: https://maxy.world/
+  twitter_account_name: nhyphenc
+  github_account_name: mncmncmnc
+  image: maxwell-neely-cohen.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
 
 chris-shen:
   name: Chris Shen
@@ -294,7 +323,7 @@ chris-shen:
   image: chris-shen.jpg
   affiliated: true
   current: true
-  section: Fellows
+  section: Affiliates
 
 
 # Former affiliates, and single-project collaborators

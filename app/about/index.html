@@ -90,7 +90,7 @@ layout: sectioned-page
       <p>The people at the Lab.</p>
     </div>
     {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
-    {% assign sections = "Faculty Director, Staff, Fellows, Research Assistants" | split: ", " %}
+    {% assign sections = "Faculty Director, Staff, Affiliates" | split: ", " %}
     {% for section in sections %}
       {% assign section_people = affiliates | where: "current", true | where: "section", section %}
       {% if section_people != empty %}
