@@ -16,7 +16,7 @@ Here’s some of what’s coming up next at the Library Innovation Lab:
 
 **[Teraflop & CAP](https://threadreaderapp.com/thread/1766157444936507837.html)**: It’s great to see work by the AI community in processing the CAP dataset for legal understanding, such as this work by Teraflop to generate text embeddings and search indexes for the data.
 
-**Future Collaborations**: We see huge potential for Harvard to be a neutral platform that can help release data that helps the whole industry. We are having interesting conversations with companies like Westlaw, LexisNexis, and vLex that see potential to this kind of partnership, and we hope to make more connections like that soon.
+**Future Collaborations**: We see potential for Harvard to be a neutral platform for releasing data that helps the whole industry. We are having conversations with companies like Westlaw, LexisNexis, and vLex that see potential in this kind of partnership, and we hope to make more connections soon.
  
 ### Empower everyone – AI, understanding, access to justice
 
