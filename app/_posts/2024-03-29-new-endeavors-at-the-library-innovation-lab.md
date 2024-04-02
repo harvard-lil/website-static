@@ -4,7 +4,7 @@ author: aadi-kulkarni
 ---
 This month, the Library Innovation Lab celebrated the [full and unqualified release](https://lil.law.harvard.edu/blog/2024/03/26/transitions-for-the-caselaw-access-project/) of the Caselaw Access Project data. We took the opportunity to gather and look to the future at [Transform: Justice on March 8th](http://lil.law.harvard.edu/about/cap-celebration). The event reminded us of what we already knew: the open legal data movement is alive and well. 
 
-In addition to hearing the story of CAP, there were also conversations between librarians, vendors, and advocates about future paths for accessing the law. Noted open-access activist Carl Malamud made his pitch for a [Full Faith and Credit Act](https://www.youtube.com/watch?v=JTIIfCp1Ufk). 
+In addition to hearing the story of CAP, librarians, vendors, and advocates had conversations about future paths for accessing the law. Noted open-access activist Carl Malamud made his pitch for a [Full Faith and Credit Act](https://www.youtube.com/watch?v=JTIIfCp1Ufk). 
 
 As we see CAP move on to a new chapter, LIL is excited to bring the same experimental mindset that allowed for such an ambitious project into other endeavors. 
 
