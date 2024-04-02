@@ -14,7 +14,7 @@ Here’s some of what’s coming up next at the Library Innovation Lab:
 
 **[COLD Cases](https://huggingface.co/datasets/harvard-lil/cold-cases)**: We’re excited to be collaborating with the [Free Law Project](http://www.free.law) on a couple of projects. First, we worked with FLP to create Cold Cases, a pipeline for standardizing and sharing bulk legal data. And now that it is able to fully leave the nest, to consolidate efforts and continue to provide access to CAP’s data it will now live alongside FLP’s other extensive resources. 
 
-**[Teraflop & CAP](https://threadreaderapp.com/thread/1766157444936507837.html)**: It’s great to already see work by the AI community in processing the CAP dataset for legal understanding, such as this work by Teraflop to generate text embeddings and search indexes for the data.
+**[Teraflop & CAP](https://threadreaderapp.com/thread/1766157444936507837.html)**: It’s great to see work by the AI community in processing the CAP dataset for legal understanding, such as this work by Teraflop to generate text embeddings and search indexes for the data.
 
 **Future Collaborations**: We see huge potential for Harvard to be a neutral platform that can help release data that helps the whole industry. We are having interesting conversations with companies like Westlaw, LexisNexis, and vLex that see potential to this kind of partnership, and we hope to make more connections like that soon.
  
