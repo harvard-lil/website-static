@@ -26,4 +26,4 @@ Here’s some of what’s coming up next at the Library Innovation Lab:
  
 ### Leveling up both of these approaches
 
-**Institutional Data Initiative**: Keep your eyes peeled for more news about an endeavor we have in the works to create a trusted conduit for helping data get from where it is to where it needs to be. The Institutional Data Initiative aims to scale the types of collaborations we discussed on Friday between knowledge institutions and industry partners. High-quality corpora and collection expertise paired with industry resources stands to grow knowledge and the public interest in lockstep with AI.
+Keep your eyes peeled for more news about the Institutional Data Initiative, a plan to create a trusted conduit for legal data for AI. By pairing high-quality corpora and collection expertise with industry resources, it aims to scale the collaborations between knowledge institutions and industry partners that we discussed at Transform: Justice. The goal is to grow both knowledge and the public interest.
