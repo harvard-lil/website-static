@@ -1,6 +1,6 @@
 ---
 title: New Endeavors at the Library Innovation Lab
-author: aadi-kulkarni
+author: clare-stanton
 ---
 This month, the Library Innovation Lab celebrated the [full and unqualified release](https://lil.law.harvard.edu/blog/2024/03/26/transitions-for-the-caselaw-access-project/) of the Caselaw Access Project data. We took the opportunity to gather and look to the future at [Transform: Justice on March 8th](http://lil.law.harvard.edu/about/cap-celebration). The event reminded us of what we already knew: the open legal data movement is alive and well. 
 
@@ -23,7 +23,5 @@ Here’s some of what’s coming up next at the Library Innovation Lab:
 **[Library Innovation Lab Artificial Intelligence Fund](http://lil.law.harvard.edu/about/ai)**: LexisNexis is the first funder of our AI fund, which has been set up to support exploration at the edge of law, AI technology, libraries, and society.
 
 **[Open Legal AI Workbench](https://lil.law.harvard.edu/blog/2024/03/08/announcing-the-open-legal-ai-workbench-olaw/)**: Our recently released Open Legal AI Workbench is a simple, well-documented, and extensible framework for legal AI researchers to build services using tool-based retrieval augmented generation. 
- 
-### Leveling up both of these approaches
 
 Keep your eyes peeled for more news about the Institutional Data Initiative, a plan to create a trusted conduit for legal data for AI. By pairing high-quality corpora and collection expertise with industry resources, it aims to scale the collaborations between knowledge institutions and industry partners that we discussed at Transform: Justice. The goal is to grow both knowledge and the public interest.
