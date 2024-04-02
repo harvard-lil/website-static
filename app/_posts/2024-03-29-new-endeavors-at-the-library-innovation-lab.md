@@ -22,7 +22,7 @@ Here’s some of what’s coming up next at the Library Innovation Lab:
 
 **[Library Innovation Lab Artificial Intelligence Fund](http://lil.law.harvard.edu/about/ai)**: LexisNexis is the first funder of our AI fund, which has been set up to support exploration at the edge of law, AI technology, libraries, and society.
 
-**[Open Legal AI Workbench](https://lil.law.harvard.edu/blog/2024/03/08/announcing-the-open-legal-ai-workbench-olaw/)**: There will be lots of innovation and creation in the legal AI space in the near future. Our recently released Open Legal AI Workbench is a simple, well-documented, and extensible framework for legal AI researchers to build services using tool-based retrieval augmented generation. 
+**[Open Legal AI Workbench](https://lil.law.harvard.edu/blog/2024/03/08/announcing-the-open-legal-ai-workbench-olaw/)**: Our recently released Open Legal AI Workbench is a simple, well-documented, and extensible framework for legal AI researchers to build services using tool-based retrieval augmented generation. 
  
 ### Leveling up both of these approaches
 
