@@ -19,17 +19,17 @@ explain a little bit of the background, and what the change is for.
 The basic idea is that we want to combine web archives with an
 existing large language model, so that the model will answer questions
 using the contents of the web archive as well as its inherent
-knowledge from pre-training. I have for many years run a wiki for
-myself and a few friends, which has served variously as social venue,
-surrogate memory, place to pile up links, storehouse of
-enthusiasms. When Matteo first announced WARC-GPT, it struck me that
-the wiki would be a good test; would the tool accurately reflect the
-content, which I know well? Would it be able to tell me anything
-surprising? And more prosaically, could I run it on my laptop?  Even
-though the wiki is exposed to the world, and I assume has been crawled
-by AI companies for inclusion into their models (despite the presence
-of a restrictive robots.txt), I don't want to send those companies
-either the raw material or my queries.
+knowledge. I have for many years run a wiki for myself and a few
+friends, which has served variously as social venue, surrogate memory,
+place to pile up links, storehouse of enthusiasms. When Matteo first
+announced WARC-GPT, it struck me that the wiki would be a good test;
+would the tool accurately reflect the content, which I know well?
+Would it be able to tell me anything surprising? And more prosaically,
+could I run it on my laptop?  Even though the wiki is exposed to the
+world, and I assume has been crawled by AI companies for inclusion
+into their models (despite the presence of a restrictive robots.txt),
+I don't want to send those companies either the raw material or my
+queries.
 
 <!--more-->
 
@@ -55,12 +55,12 @@ answer.
 
 I installed WARC-GPT by running
 
-<pre><code>
+<pre>
 git clone https://github.com/harvard-lil/warc-gpt.git
 cd warc-gpt
 poetry env use 3.11
 poetry install
-</code></pre>
+</pre>
 
 I copied
 [`.env.example`](https://github.com/harvard-lil/warc-gpt/blob/main/.env.example)
@@ -68,9 +68,9 @@ to `.env` and made a couple of changes recommended by Matteo (of which
 more later), then copied `wiki_0.warc.gz` into the `warc/`
 subdirectory of the repo. The command to process the archive is
 
-<pre><code>
+<pre>
 poetry run flask ingest
-</code></pre>
+</pre>
 
 which... took a long time. This is when I started looking at and
 trying to understand the code, specifically in
@@ -146,33 +146,38 @@ asked a question of the model.
 When Matteo suggested the change to the sentence transformer model, he
 added, "But you’ll also want to use a text generation model with a
 longer context window, such as:
-[yarn-mistral](https://ollama.com/library/yarn-mistral)"—the part of
-this system that is the pre-trained model is external to WARC-GPT; the
-application has to call out to another service. In this case, where I
-wanted to keep everything on my computer, I am running
-[Ollama](https://ollama.com/), an open-source tool for running large
-language models, and set `OLLAMA_API_URL` to
-`"http://localhost:11434"`, thereby pointing at my local instance. (I
-could also have pointed to an instance of Ollama running elsewhere,
-say on lil-vector, or pointed the system with a different variable to
-OpenAI or an OpenAI-compatible provider of models.)
+[yarn-mistral](https://ollama.com/library/yarn-mistral)"—the point
+Matteo is making here that when the sentence transformer encodes the
+input in larger pieces, the text generation model should be able to
+handle larger pieces of text. The implicit point is that the text
+generation model is external to WARC-GPT; the application has to call
+out to another service. In this case, where I wanted to keep
+everything on my computer, I am running [Ollama](https://ollama.com/),
+an open-source tool for running large language models, and set
+`OLLAMA_API_URL` to `"http://localhost:11434"`, thereby pointing at my
+local instance. (I could also have pointed to an instance of Ollama
+running elsewhere, say on lil-vector, or pointed the system with a
+different variable to OpenAI or an OpenAI-compatible provider of
+models.)
 
 Once Ollama was running, and I'd run the ingest step, I could run
 
-<pre><code>
+<pre>
 poetry run flask run
-</code></pre>
+</pre>
 
 and visit the application at http://localhost:5000/. I can pick any of
 the models I've pulled with Ollama; these vary pretty dramatically in
 speed and in quality of response. This is, obviously, another of the
 knobs to turn, along with several other settings in the interface. So
 far, I've had the best luck with `mistral:7b-instruct-v0.2-fp16`, a
-version of the Mistral model that is optimized for chat interfaces and
-is **quantized**: model parameters have been changed from
-floating-point numbers to integers in order to save space, time, and
-energy, at some cost in accuracy. The question you ask in the
-interface is yet another knob to turn, as is [the system
+version of the Mistral model that is optimized for chat
+interfaces. (Keep an eye out for models that have been **quantized**:
+model parameters have been changed from floating-point numbers to
+integers in order to save space, time, and energy, at some cost in
+accuracy. They often have names including `q2`, `q3`, `q4`, etc.) The
+question you ask in the interface is yet another knob to turn, as is
+[the system
 prompt](https://github.com/harvard-lil/warc-gpt/blob/2187fb119f6156ce72dfce240295a8429428ce6d/.env.example#L24-L62)
 specified in `.env`.
 
