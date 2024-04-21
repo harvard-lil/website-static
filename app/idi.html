@@ -1,28 +1,115 @@
 ---
 layout: sectioned-page
-title: 'The Institutional Data Initiative'
+title: 'Institutional Data Initiative'
 slug: idi
 ---
 
 <section>
-  <div class="sleeve">
+    <div class="sleeve">
 
-    <h1>{{ page.title }}</h1>
-    <div class="slice">
-        <div class="slice-body">
-            <p>
-                The Library Innovation Lab is preparing to launch the Institutional Data Initiative (IDI), a new initiative to unlock
-                and refine high quality training data at library, academic, and government institutions across the world.
-            </p>
-            <p>
-                By bridging the gap between model-makers and institutions through a world-class data practice, IDI stands to increase access to knowledge, empower
-                contributing institutions and the cultures they represent, and advance the state of the art for all builders of AI.
-            </p>
+        <h1>{{ page.title }}</h1>
+        <div class="slice">
+            <div class="slice-body">
                 <p>
-                    The Lab is currently building partnerships with institutions and model-makers ahead of a public launch. Reach out to
-                    find out more. <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    The Library Innovation Lab is preparing to launch the Institutional Data Initiative (IDI), a new
+                    effort to unlock and refine high quality training data at library, academic, and government
+                    institutions across the world.
                 </p>
+                <p>
+                    By bridging the gap between model-makers and institutions through a world-class data practice, IDI
+                    stands to increase access to knowledge, empower contributing institutions and the cultures they represent,
+                    and advance the state of the art for all builders of AI.
+                </p>
+                <p>
+                    We are currently building partnerships with institutions and model-makers ahead of a public launch.
+                    Reach out to join us: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="slice">
+            <h2>Background</h2>
+            <div class="slice-body">
+                <p>
+                    Research efforts like <a href="https://arxiv.org/abs/2306.11644">Textbooks Are All You Need</a> are
+                    shining a light on the importance of data quality in model training, but acquiring a critical mass of high-quality datasets
+                    remains a challenge. While libraries and academic institutions have spent centuries cultivating exactly this
+                    type of information, the same institutional structures and studious practices that have been critical to
+                    preserving it for generations present a challenge for model-makers developing a rapidly expanding technology.
+                </p>
+                <p>
+                    Harvard Library alone contains 20M volumes, 400M manuscripts, 10M photographs, and 1M maps, each of
+                    which were hand-selected for reasons of quality and uniqueness before being labeled for context, with most
+                    residing in the public domain. Of these, over <a href="https://library.harvard.edu/digital-collections">6M have
+                    already been digitized</a> and are made available for à la carte viewing by patrons.
+                    Similar digitization and browsing efforts, like Boston Public Library’s 1M item <a href="https://www.digitalcommonwealth.org/">Digital Commonwealth</a>,
+                    exist at hundreds of university and public libraries across the world.
+                </p>
+                <p>
+                    Because AI is poised to change the way society interacts with knowledge, these collections are not
+                    merely information on which models may be trained, they are critical snapshots of cultures and worldviews
+                    that deserve representation within them. But these corpora have yet to be made widely accessible in the shape and
+                    scale required for model training. Model-makers are each left to negotiate access with disparate
+                    institutional stakeholders, slowing access and leaving datasets inaccessible to the broader AI ecosystem. And once
+                    the data is finally acquired, each model-maker must further refine it for training. Institutions, meanwhile, are
+                    often understaffed and lack knowledge of the norms and needs of model-makers, leaving them with limited
+                    bandwidth, reservations about engaging with model-makers, and repeated inquiries for specific data preparation
+                    tasks they have yet to develop into repeatable pipelines.
+                </p>
+            </div>
+        </div>
+        <div class="slice">
+            <h2>About the Library Innovation Lab</h2>
+            <div class="slice-body">
+                <p>
+                    As an organization at the intersection of libraries and technology, the <a
+                        href="https://lil.law.harvard.edu">Library Innovation Lab</a> (LIL) at Harvard Law School
+                    Library is in a unique position to bridge this gap. When faced with these hurdles in accessing legal knowledge,
+                    LIL worked with the Harvard Law Library to launch the <a href="https://case.law">Caselaw Access Project</a> (CAP), a
+                    multi-year effort in which 360 years of U.S. case law was scanned, parsed, and structured into a
+                    <a href="http://www.nytimes.com/2015/10/29/us/harvard-law-library-sacrifices-a-trove-for-the-sake-of-a-free-database.html">first of its kind dataset</a>.
+                    The resulting corpus of 7M cases and 17B tokens has become the backbone of every major legal training dataset.
+                </p>
+                <p>
+                    Developing CAP required LIL’s rare breadth of knowledge, resources, and relationships to navigate
+                    institutional stakeholders, gain access to a one of a kind corpus, work with legal domain experts on processing
+                    the data, and build technical work-streams for scanning, analysis, and hosting. Harvard’s reputation of excellence
+                    and LIL’s place as a trusted partner—guided by public interest library values and driven to apply them using new
+                    technologies—allows these skills to be applied beyond the walls of Harvard and unlock corpora across the globe in
+                    meaningful ways.
+                </p>
+                Far from working alone, LIL’s connection to <a href="https://cyber.harvard.edu">The Berkman Klein Center</a> facilitates
+                access to a wide range of domain experts to advise in processing corpora while a relationship with the global <a href="https://networkofcenters.net">Network of Centers</a> provides an inroad
+                to a vast array of institutions and their collections.
+                </p>
+            </div>
+        </div>
+        <div class="slice">
+            <h2>Next Steps</h2>
+            <div class="slice-body">
+                <p>
+                    The Institutional Data Initiative is currently engaging institutions and model-markers to join as collaborators and
+                    contributing partners as we embark on this mission. Partner institutions will work with IDI to identify promising
+                    corpora within their collections for refinement and release, with the goal of accelerating and amplifying the mission
+                    of those institutions at each step of the process. Likewise, model-makers will contribute data refinement expertise,
+                    computational resources, and funding to enable this work.
+                    Reach out today to join us: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p>
+            </div>
         </div>
     </div>
-  </div>
 </section>
+
+<style type="text/css" media="screen">
+ .slice:first-of-type .slice-body {
+     font-size: 21px;
+ }
+    @media only screen and (min-width: 1049px) {
+        .slice:first-of-type .slice-body {
+            font-size: 24px;
+        }
+        .slice-body {
+            font-size: 20px;
+        }
+    }
+</style>
