@@ -149,6 +149,25 @@ aristana-scourtas:
   current: True
   section: Staff
 
+christopher-setzer:
+  name: Christopher Setzer
+  sort_name: Setzer
+  role: Senior Software Engineer
+  bio: >
+    Chris is a programmer and writer whose professional history includes
+    projects with NOAA's emergency oil spill response team, the New Mexico
+    state judiciary, and an effort to recover Arctic climate data from
+    historic ships' logs. Prior to joining LIL, he built tools and
+    infrastructure to help government organizations share open data. Outside
+    of work, Chris enjoys backpacking and exploring the Pacific Northwest in
+    the company of his mutt.
+  email: csetzer@law.harvard.edu
+  github_account_name: cmsetzer
+  image: christopher-setzer.jpg
+  affiliated: true
+  current: true
+  section: Staff
+
 dakota-sexton:
   name: Dakota Sexton
   sort_name: Sexton
