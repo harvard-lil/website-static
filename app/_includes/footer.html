@@ -1,23 +1,37 @@
-{% capture footer-file %}
-  {% if page.custom-footer %}
-    {{ page.slug }}
-  {% else %}
-    home
-  {% endif %}
-{% endcapture %}
-
-{% include footer-logo.html %}
-<ul>
-  <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li><a href="{{ site.baseurl }}/about/">About</a></li>
-  <li><a href="{{ site.baseurl }}/jobs/">Jobs</a></li>
-  <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-  <li><a href="{{ site.baseurl }}/sketches/">Sketches</a></li>
-  <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-  <li><a href="https://ocb.to/lawvocado">Newsletter</a></li>
-</ul>
-<div class="footer-copyright">
-  <p>&copy;2024 The President and Fellows of Harvard University</p>
-  <p>The content on this site is covered under a Creative Commons Attribution-ShareAlike 3.0 Unported license unless otherwise noted.</p>
-  <p><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy">Accessibility</a></p>
-</div>
+<footer class="bg-black text-white pt-60 pb-40 container md:grid md:grid-cols-12 md:gap-x-20 md:gap-y-26">
+  <div class="md:col-span-4 max-w-[350px]">
+    {% include footer-logo.html %}
+  </div>
+  <ul class="md:col-span-6 md:col-start-7 md:text-right md:grid md:grid-cols-2 md:gap-x-20 md:gap-y-10 text-[50px] md:leading-[100%] font-medium">
+    <li>
+      <a class="interactive-link" href="{{ site.baseurl }}/projects/">Our Work</a>
+    </li>
+    <li>
+      <a class="interactive-link" href="{{ site.baseurl }}/blog/">Blog</a>
+    </li>
+    <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/about/">About us</a>
+    </li>
+    <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/jobs/">Careers</a>
+    </li>
+    <li>
+      <a class="interactive-link" href="{{ site.baseurl }}/about/">Events</a>
+    </li>
+    <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/sketches/">Contact</a>
+    </li>
+  </ul>
+  <div class="md:col-span-12 flex items-center justify-end gap-15">
+    {% include icon-github.html %}
+    {% include icon-twitter.html %}
+    {% include icon-linkedin.html %}
+  </div>
+  <div class="w-full flex items-center justify-between gap-20 pt-24 border-t-1 border-white md:col-span-12 text-[16px]">
+    <div class="flex items-center md:gap-100">
+      <p>&copy;2024 The President and Fellows of Harvard University</p>
+      <p>Privacy Policy | Terms & Conditions</p>
+    </div>
+    <p><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy">Accessibility</a></p>
+  </div>
+</footer>

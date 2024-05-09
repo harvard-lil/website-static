@@ -1,0 +1,4 @@
+<a href="{{ include.href }}" target="{% if include.target %}{{include.target}}{% else %}_self{% endif %}" class="flex items-center gap-12 text-24">
+  <span class="interactive-link dark">{{ include.label }}</span>
+  {% include icon-right-arrow.html %}
+</a>

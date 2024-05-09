@@ -5,12 +5,16 @@ markdown: kramdown
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-postcss
 liquid:
   error_mode: strict
 sass:
   sass_dir: _scss
   style: nested
+postcss:
+  cache: false
 timezone: Etc/GMT
+
 
 # Site settings
 title: The Library Innovation Lab at Harvard University

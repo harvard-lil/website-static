@@ -1,6 +1,6 @@
 ---
 layout: sectioned-page
-title: Growing knowledge and community by bringing library principles to technological frontiers.
+title: Library Innovation Lab at Harvard University
 title-tag-complete: The Library Innovation Lab at Harvard University
 description: "Home of Perma.cc, H2O, Caselaw Access Project, and others. The Library Innovation Lab is growing knowledge and community by bringing library principles to technological frontiers."
 slug: home
@@ -8,7 +8,101 @@ sharing-card-type: summary_large_image
 custom-scripts: ['home.js']
 ---
 
-<section class="about">
+<div class="pt-[16vh] pb-[26vh] flex items-center justify-center text-[9vw] leading-[100%] container">
+  <h1>
+    <strong>Library Innovation Lab</strong> at <strong>Harvard University</strong>
+  </h1>
+</div>
+
+<div class="bg-black text-white w-full pt-80 pb-120 continer text-center flex flex-col justify-center items-center gap-32">
+  <h2 class="font-mono uppercase tracking-8 text-green text-[24px] font-normal">Our Mission</h2>
+  <h3 class="text-[54px] leading-[61px] max-w-[1120px] tracking-2">To grow knowledge and community by bringing <strong>library principles to technological frontiers.</strong></h3>
+</div>
+
+<div class="bg-blue container py-32 flex flex-col md:flex-row items-center md:justify-between gap-24">
+  <h2 class="text-[18px] tracking-8 uppercase font-medium">Follow our latest projects</h2>
+  <ul class="flex items-center gap-60 text-[24px] leading-[120%]">
+    <li>
+      {% include arrow-link.html label="Twitter" href="https://twitter.com" target="_blank" %}
+    </li>
+    <li>
+      {% include arrow-link.html label="Newsletter" href="https://law.us3.list-manage.com/subscribe?u=4290964398813d739f2398db0&id=e097736c6f" target="_blank" %}
+    </li>
+  </ul>
+</div>
+
+<div class="flex flex-col gap-80 pb-220">
+  {% include 
+    project-card.html 
+    background="bg-yellow" 
+    featured="true" 
+    title="Perma.cc" 
+    description="Perma.cc is a web preservation and citation tool that is changing the way lawyers, scholars, journalists, and the public preserve and cite to the web. Online content is incredibly ephemeral - it disappears anytime a website is changed or sunsetted - but we all rely on it and reference it all day, every day. Perma.cc was originally developed to ensure that legal citations of the web maintain their integrity even as the information originally cited may have since disappeared, but its utility expands far beyond the bounds of the law."
+    logo="/assets/images/perma-logo.svg"
+    linkOne="https://perma.cc/"
+    linkOneLabel="Visit Website"
+    linkTwo="/projects/perma-cc"
+    linkTwoLabel="Learn More"
+  %}
+  <div class="container flex flex-col gap-100">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 pb-120 border-b-1 border-black">
+      <h2 class="text-50 font-medium">Who We Are</h2>
+      <div class="md:col-span-2 text-24 leading-115 flex flex-col gap-50 pt-24">
+        <div class="flex flex-col gap-20 max-w-[650px]">
+          <p>The Library Innovation Lab is a team working at the intersection of libraries, technology, and law.</p>
+          <p>Our team combines librarians, technologists, lawyers, and more to build tools and conduct research to empower more people to access and build our shared knowledge and cultural heritage.</p>
+        </div>
+        {% include arrow-link.html label="Learn More About Who We Are" href="/about" %}
+      </div>
+    </div>
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 pb-120 border-b-1 border-black">
+      <h2 class="text-50 font-medium">Our Work</h2>
+      <div class="md:col-span-2 text-24 leading-115 flex flex-col gap-50 pt-24">
+        <div class="flex flex-col gap-20 max-w-[650px]">
+          <p>We build and explore new technology through the lens of library principles. Perma.cc, a web preservation and citation tool; H2O, an open casebook authoring and reading platform; and The Caselaw Access Project, an open database of over 6 million court opinions free and open to the public.</p>
+          <p>We also conduct research to further our understanding of certain technologies and create guides for others working in our field.</p>
+        </div>
+        {% include arrow-link.html label="View All Projects" href="/about" %}
+      </div>
+    </div>
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24">
+      <h2 class="text-50 font-medium">Contact Us</h2>
+      <div class="md:col-span-2 text-24 leading-115 flex flex-col gap-50 pt-24 flex flex-col md:grid md:grid-cols-2 gap-24 md:gap-32">
+        <div class="flex flex-col gap-50">
+          <div class="label-value">
+            <h3 class="label">Email</h3>
+            <a href="mailto:lil@law.harvard.edu" class="value interactive-link dark">lil@law.harvard.edu</a>
+          </div>
+          <div class="label-value">
+            <h3 class="label">Contact us in person</h3>
+            <address class="value flex flex-col not-italic">
+              <span>The Reginald F. Lewis Law Center</span>
+              <span>1557 Massachusetts Avenue</span>
+              <span>Cambridge, MA 02138</span>
+            </address>
+            {% include arrow-link.html label="Map" href="#" target="_blank" %}
+          </div>
+        </div>
+        <div class="flex flex-col gap-32">
+          <div class="label-value">
+            <h3 class="label">Newsletter</h3>
+            <p class="value max-w-[330px]">
+              Get updates on our latest projects and research.
+            </p>
+            {% include arrow-link.html label="Sign Up" href="#" target="_blank" %}
+          </div>
+          <div class="label-value">
+            <h3 class="label">GitHub</h3>
+            {% include arrow-link.html label="GitHub" href="#" target="_blank" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- <section class="about">
   <div class="sleeve">
 
     <h2>About</h2>
@@ -88,4 +182,4 @@ custom-scripts: ['home.js']
   </div>
 </section>
 
-<div class="easter-egg"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="sr-only sr-only-focusable"><span>You found</span> an item from our secret collection!</a></div>
+<div class="easter-egg"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="sr-only sr-only-focusable"><span>You found</span> an item from our secret collection!</a></div> -->

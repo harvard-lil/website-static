@@ -1,0 +1,26 @@
+<div class="relative block container {% if include.featured %}pt-120{% endif %}">
+  {% if include.featured %}
+    <div class="absolute w-165 h-165 top-40 left-50 z-[2] motion-safe:animate-spin">
+      <img src="/assets/images/featured-project-text.svg" class="w-full h-full object-contain" />
+    </div>
+  {% endif %}
+  <div class="{{ include.background }} flex flex-col md:grid md:grid-cols-2 relative overflow-hidden">
+    <div class="flex items-center justify-center">
+      <img class="w-full max-w-[350px]" src="{{ site.baseurl }}{{ include.logo }}" alt="{{ include.title }}" class="w-[150px] h-[150px] md:w-[200px] md:h-[200px]">
+    </div>
+    <div class="w-full p-80 flex flex-col gap-30">
+      <strong class="text-50 font-medium">{{ include.title }}</strong>
+      <p class="text-24 leading-115 max-w-[550px]">{{ include.description }}</p>
+      <div class="flex items-center gap-32 pt-20">
+        {% if include.linkOne %}
+          {% include arrow-link.html label=include.linkOneLabel href=include.linkOne target="_blank" %}
+        {% endif %}
+        {% if include.linkTwo %}
+        {% include arrow-link.html label=include.linkTwoLabel href=include.linkTwo target="_self" %}
+        {% endif %}
+      </div>
+    </div>
+    <div aria-hidden="true" class="absolute w-[150px] h-[150px] bg-white top-0 left-0 rotate-45 -translate-y-[60%] -translate-x-[60%]"></div>
+    <div aria-hidden="true" class="absolute w-[150px] h-[150px] bg-white bottom-0 right-0 rotate-45 translate-y-[60%] translate-x-[60%]"></div>
+  </div>
+</div>
