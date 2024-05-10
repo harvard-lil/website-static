@@ -10,7 +10,7 @@ layout: sectioned-page
   </div>
 </section>
 
-<div class="flex flex-col gap-56">
+<div class="flex flex-col gap-56 pb-150">
   <section class="container">
     <div class="w-full relative">
       <figure>
@@ -30,16 +30,33 @@ layout: sectioned-page
     <div class="flex flex-col gap-50 md:gap-120">
       <div class="flex flex-col items-start gap-20">
         <div class="label">Next Event</div>
-        <div class="flex flex-col md:grid md:grid-cols-3 gap-32 pb-40 md:pb-80 border-b-1 border-black">
+        <div class="flex flex-col md:grid md:grid-cols-3 gap-32 pb-60">
           <h1 class="h2">Transform: Justice March 8, 2024</h1>
           <div class="md:col-span-2 body-text max-w-[700px] pt-10 flex flex-col items-start gap-50">
             <p>
               A celebration of the full, unqualified release of the data from the Caselaw Access Project will be the anchor of an event focused on the future of the access to law movement. Speakers across government, academia, and industry will sketch out the opportunities ahead of us for expanding access to legal data and its waterfall effects across society and justice.
             </p>
-            {% include arrow-link.html label="More Info" href="/" reverse=true %}
+            {% include arrow-link.html label="More Info" href="/events/transform-justice" reverse=true %}
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  {% if site.events.size > 0 %}
+    <section class="container flex flex-col items-start gap-40">
+      <h2 class="h2">Past</h2>
+      <div class="flex flex-col items-start w-full">
+        {% for event in site.events %}
+          <div class="body-text w-full py-32 border-t-1 border-black first-of-type:border-t-0 last-of-type:border-b-1 flex grid grid-cols-12 gap-24 relative">
+            <span class="label col-span-3">{{ event.date | date: "%m/%d/%y" }}</span>
+            <span class="col-span-6">{{event.title}}</span>
+            <span class="col-span-3 flex justify-end">
+              {% include arrow-link.html label="More Info" href=event.url target=target card_link="true" %}
+            </span>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
 </div>

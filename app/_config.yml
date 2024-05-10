@@ -28,6 +28,8 @@ sharing-image: "thumbs/800x800r/lil-primary-black.png"
 email: lil@law.harvard.edu
 twitter_account_name: HarvardLIL
 twitter_url: https://twitter.com/harvardlil
+linkedin_account_name: libraryinnovationlab
+linkedin_url: https://www.linkedin.com/company/libraryinnovationlab/
 facebook_url: https://www.facebook.com/HarvardLibraryInnovationLab/
 github_account_name: harvard-lil
 github_url:  https://github.com/harvard-lil
@@ -52,6 +54,9 @@ collections:
     permalink: /sketches/:slug/
   sketches_retired:
     output: false
+  events:
+    output: true
+    permalink: /events/:slug/
 
 # Plugins
 news_feed_for:
@@ -71,6 +76,12 @@ defaults:
     values:
       layout: project
       type: project
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+      type: event
   - scope:
       path: ""
       type: sketches_active

@@ -1,4 +1,4 @@
-.post-content p {
+.post-content p:not(:has(img)) {
   padding-bottom: 20px;
 }
 
@@ -9,6 +9,7 @@
 
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   padding-bottom: 20px;
+  padding-top: 20px;
   font-weight: 500;
 }
 
@@ -25,8 +26,8 @@
 
 .post-content figure {
   width: 100%;
-  margin-bottom: 20px;
   margin-top: 20px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
