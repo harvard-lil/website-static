@@ -2,22 +2,70 @@
 layout: sectioned-page
 custom-css: ['blog']
 ---
-<section class="_posts">
-  <div class="sleeve">
-    <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
-      <header>
-        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-        <h1 class="post-title" itemprop="headline">{{ page.title | smartify }}</h1>
-        {% include author.html author=page.author guest-author=page.guest-author %}
-      </header>
 
-      <div class="post-content" itemprop="articleBody">
+<section class="container pt-80">
+  <div class="flex flex-col gap-50 md:gap-120 mb-56">
+    {% include tag-filter.html tags=page.tags %}
+    <div class="flex flex-col items-start gap-20">
+      <a href="/blog" class="label interactive-link dark reverse">Blog</a>
+      <div class="flex flex-col md:grid md:grid-cols-3 gap-32 pb-40 md:pb-80 border-b-1 border-black">
+        <h1 class="h2">{{page.title}}</h1>
+        <div class="md:col-span-2 body-text max-w-[700px] pt-10">
+          {% assign paragraphs = content | newline_to_br | split: '<br />' %}
+          {% assign first_text_paragraph = '' %}
+          {% for paragraph in paragraphs %}
+            {% assign clean_paragraph = paragraph | strip_html | strip_newlines %}
+            {% if clean_paragraph.size > 0 %}
+              {% unless clean_paragraph contains '<img' or clean_paragraph contains '<blockquote' %}
+                {% assign first_text_paragraph = clean_paragraph %}
+                {% break %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+
+          <p>
+            {{ first_text_paragraph }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container post">
+  <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-24 md:grid md:grid-cols-12 body-text pb-150">
+    <header class="md:col-span-3">
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </header>
+    <div class="md:col-span-7 flex flex-col gap-72" itemprop="articleBody">
+      {% include author.html author=page.author guest-author=page.guest-author %}
+      <div class="post-content">
         {{ content }}
       </div>
+    </div>
+  </article>
+</section>
 
-      {% include tags.html tags=page.tags categories=page.categories %}
 
-    </article> <!-- end article -->
+<section class="container pb-100 flex flex-col gap-15">
+  <div class="pb-15 border-b-1 border-black">
+    {% include arrow-link.html label="Blog Index" href="/blog" reverse=true %}
+  </div>
+  <h2 class="body-text">Related Articles</h2>
+  <div class="grid grid-cols-2 gap-16 md:grid-cols-4 md:gap-24">
+    {% assign random_posts = site.posts | where_not: "id == page.id" | sample: 4 %}
+    {% for post in random_posts %}
+      <article itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-14 relative">
+        <header class="aspect-square w-full bg-gray">
 
+        </header>
+        <div class="flex flex-col gap-8">
+          <h2 class="text-18 leading-115 font-medium" itemprop="headline">
+            <a href="{{ post.url}}" class="card-link">{{ post.title | smartify }}</a>
+          </h2>
+          <time class="text-18 leading-00" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </div>
+
+      </article>
+    {% endfor %}
   </div>
 </section>

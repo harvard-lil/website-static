@@ -11,9 +11,18 @@
         </a>
       </li> -->
       {% for tag in site.data.featured_tags %}
+        {% assign isActive = false  %}
+        {% if current == tag %}
+          {% assign isActive = true %}
+        {% endif %}
+        {% for includedTag in include.tags %}
+          {% if tag == includedTag %}
+            {% assign isActive = true %}
+          {% endif %}
+        {% endfor %}
         <li>
           <a
-            class="block label px-24 py-12 border-1 border-black text-black active:text-white active:bg-black md:hover:text-white md:hover:bg-black transition-colors duration-300 ease {% if current == tag %} bg-black text-white{% endif %}" 
+            class="block label px-24 py-12 border-1 border-black text-black active:text-white active:bg-black md:hover:text-white md:hover:bg-black transition-colors duration-300 ease {% if isActive %} bg-black text-white{% endif %}" 
             href="{% if current == tag %}{{ site.baseurl }}/blog{% else %}{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/{% endif %}"{% if current == tag %} aria-current="true"{% endif %}
           >
           {{ tag }}
