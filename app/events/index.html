@@ -10,8 +10,36 @@ layout: sectioned-page
   </div>
 </section>
 
-<div class="flex flex-col items-start gap-40 md:gap-80">
-
-  <section>Content</section>
-
+<div class="flex flex-col gap-56">
+  <section class="container">
+    <div class="w-full relative">
+      <figure>
+        <picture>
+          <source media="(min-width: 600px)"
+                  srcset="{{ site.baseurl }}/assets/images/transform-justice-banner-large.jpg"
+                  sizes="100vw">
+          <source srcset="{{ site.baseurl }}/assets/images/transform-justice-banner-small.jpg">
+          <img src="{{ site.baseurl }}/assets/images/transform-justice-banner-small.jpg"
+              alt=""
+              class="img-full-width">
+        </picture>
+      </figure>
+    </div>
+  </section>
+  <section class="container">
+    <div class="flex flex-col gap-50 md:gap-120">
+      <div class="flex flex-col items-start gap-20">
+        <div class="label">Next Event</div>
+        <div class="flex flex-col md:grid md:grid-cols-3 gap-32 pb-40 md:pb-80 border-b-1 border-black">
+          <h1 class="h2">Transform: Justice March 8, 2024</h1>
+          <div class="md:col-span-2 body-text max-w-[700px] pt-10 flex flex-col items-start gap-50">
+            <p>
+              A celebration of the full, unqualified release of the data from the Caselaw Access Project will be the anchor of an event focused on the future of the access to law movement. Speakers across government, academia, and industry will sketch out the opportunities ahead of us for expanding access to legal data and its waterfall effects across society and justice.
+            </p>
+            {% include arrow-link.html label="More Info" href="/" reverse=true %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
