@@ -7,7 +7,7 @@ slug: home
 sharing-card-type: summary_large_image
 ---
 
-<div class="pt-[16vh] pb-[26vh] flex items-center justify-center text-[9vw] leading-[100%] container">
+<div class="pt-[16vh] pb-[26vh] flex items-center justify-center text-[clamp(64px,12vw,150px)] leading-[100%] container">
   <h1>
     <strong>Library Innovation Lab</strong> at <strong>Harvard University</strong>
   </h1>
@@ -18,16 +18,18 @@ sharing-card-type: summary_large_image
   <h3 class="text-[54px] leading-[61px] max-w-[1120px] tracking-2">To grow knowledge and community by bringing <strong>library principles to technological frontiers.</strong></h3>
 </div>
 
-<div class="bg-blue container py-32 flex flex-col md:flex-row items-center md:justify-between gap-24">
-  <h2 class="text-[18px] tracking-8 uppercase font-medium">Follow our latest projects</h2>
-  <ul class="flex items-center gap-60 text-[24px] leading-[120%]">
-    <li>
-      {% include arrow-link.html label="Twitter" href="https://twitter.com" target="_blank" %}
-    </li>
-    <li>
-      {% include arrow-link.html label="Newsletter" href="https://law.us3.list-manage.com/subscribe?u=4290964398813d739f2398db0&id=e097736c6f" target="_blank" %}
-    </li>
-  </ul>
+<div class="bg-blue py-32">
+  <div class="container flex flex-col md:flex-row items-center md:justify-between gap-24">
+    <h2 class="text-[18px] tracking-8 uppercase font-medium">Follow our latest projects</h2>
+    <ul class="flex items-center gap-60 text-[24px] leading-[120%]">
+      <li>
+        {% include arrow-link.html label="Twitter" href="https://twitter.com" target="_blank" %}
+      </li>
+      <li>
+        {% include arrow-link.html label="Newsletter" href="https://law.us3.list-manage.com/subscribe?u=4290964398813d739f2398db0&id=e097736c6f" target="_blank" %}
+      </li>
+    </ul>
+  </div>
 </div>
 
 <div class="flex flex-col gap-80 pb-220">
@@ -70,7 +72,7 @@ sharing-card-type: summary_large_image
         <div class="flex flex-col gap-50">
           <div class="label-value">
             <h3 class="label">Email</h3>
-            <a href="mailto:lil@law.harvard.edu" class="value interactive-link dark">lil@law.harvard.edu</a>
+            <a href="mailto:lil@law.harvard.edu" class="value interactive-link dark reverse">lil@law.harvard.edu</a>
           </div>
           <div class="label-value">
             <h3 class="label">Contact us in person</h3>
@@ -79,7 +81,7 @@ sharing-card-type: summary_large_image
               <span>1557 Massachusetts Avenue</span>
               <span>Cambridge, MA 02138</span>
             </address>
-            {% include arrow-link.html label="Map" href="#" target="_blank" %}
+            {% include arrow-link.html label="Map" href="#" target="_blank" reverse=true %}
           </div>
         </div>
         <div class="flex flex-col gap-32">
@@ -88,11 +90,11 @@ sharing-card-type: summary_large_image
             <p class="value max-w-[330px]">
               Get updates on our latest projects and research.
             </p>
-            {% include arrow-link.html label="Sign Up" href="#" target="_blank" %}
+            {% include arrow-link.html label="Sign Up" href="#" target="_blank" reverse=true %}
           </div>
           <div class="label-value">
             <h3 class="label">GitHub</h3>
-            {% include arrow-link.html label="GitHub" href="#" target="_blank" %}
+            {% include arrow-link.html label="GitHub" href="#" target="_blank" reverse=true %}
           </div>
         </div>
       </div>

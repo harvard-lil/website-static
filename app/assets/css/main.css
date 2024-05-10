@@ -36,6 +36,8 @@ strong {
 .container {
   padding-inline: 40px;
   width: 100%;
+  max-width: 1600px;
+  margin-inline: auto;
 }
 
 @media only screen and (max-width: 768px) {
