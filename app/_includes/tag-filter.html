@@ -2,17 +2,20 @@
 
 {% if site.show_blog_featured_tags %}
 
-<div class="sleeve">
-  <nav class="posts-filter" aria-label="Featured Tags">
-    <ul>
-      <li>
-        <a class="tag" href="{{ site.baseurl }}/blog/"{% if current == "all" %} aria-current="true"{% endif %}>
+<div>
+  <nav aria-label="Featured Tags">
+    <ul class="flex items-center gap-10">
+      <!-- <li>
+        <a class="block label px-24 py-12 border-1 border-black text-black active:text-white active:bg-black md:hover:text-white md:hover:bg-black transition-colors duration-300 ease" href="{{ site.baseurl }}/blog/"{% if current == "all" %} aria-current="true"{% endif %}>
           All
         </a>
-      </li>
+      </li> -->
       {% for tag in site.data.featured_tags %}
         <li>
-          <a class="tag" href="{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/"{% if current == tag %} aria-current="true"{% endif %}>
+          <a
+            class="block label px-24 py-12 border-1 border-black text-black active:text-white active:bg-black md:hover:text-white md:hover:bg-black transition-colors duration-300 ease {% if current == tag %} bg-black text-white{% endif %}" 
+            href="{% if current == tag %}{{ site.baseurl }}/blog{% else %}{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/{% endif %}"{% if current == tag %} aria-current="true"{% endif %}
+          >
           {{ tag }}
           </a>
         </li>

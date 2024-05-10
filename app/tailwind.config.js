@@ -14,6 +14,8 @@ module.exports = {
     './events/**/*.md',
     './contact/**/*.html',
     './contact/**/*.md',
+    './blog/**/*.html',
+    './blog/**/*.md',
     './404.html',
     './*.md',
     './*.html',
@@ -67,6 +69,9 @@ module.exports = {
       borderWidth: {
         0: '0px',
         1: '1px',
+      },
+      zIndex: {
+        header: 100
       },
       // Auto generate spacing values up to 200px, will be purged if not used
       spacing: (() => {

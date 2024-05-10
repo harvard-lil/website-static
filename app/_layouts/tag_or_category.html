@@ -7,48 +7,54 @@ pagination:
 custom-css: ['blog']
 ---
 
-<section class="posts-index">
+<section class="pt-80 pb-200">
 
-  {% include tag-filter.html %}
-
-  <div class="sleeve">
-    <h1>Posts tagged: "{{ page.autopages.display_name }}"</h1>
-    {% for post in paginator.posts %}
-      <div class="slice">
-        <h2><time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></h2>
-        <div class="slice-body">
-          <a href="{{ post.url}} ">{{ post.title }}</a>
-          {% if post.author %}
-            {% for author in post.author %}
-              {% assign person_record = site.data.people[author] %}
-              <p class="author-list"><small>{{ person_record.name }}</small></p>
-            {% endfor %}
-          {% elsif post.guest-author %}
-            <p><small>{{ post.guest-author }}</small></p>
-          {% endif %}
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</section>
-
-<!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<section class="list-index-pagination">
-  <div class="sleeve">
-    <div class="slice">
-      <div class="list-pagination">
-        <div class="wrapper">
-          <div class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="small-btn pagination" role="button">Previous</a>
-          {% endif %}
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="small-btn pagination" role="button">Next</a>
-          {% endif %}
-          </div>
-      </div>
+  <div class="container flex flex-col gap-50 mb-56">
+    {% include tag-filter.html %}
+    <div class="flex flex-col gap-32 pb-40 border-b-1 border-black">
+      <h1 class="h1">Blog</h1>
+      <div>Search</div>
     </div>
   </div>
+
+  <div class="container grid gap-24 md:grid-cols-4">
+    {% for post in paginator.posts %}
+      <article itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-14 relative">
+        <header class="aspect-square w-full bg-gray">
+
+        </header>
+        <div class="flex flex-col gap-8">
+          <h2 class="text-18 leading-115 font-medium" itemprop="headline">
+            <a href="{{ post.url}}" class="card-link">{{ post.title | smartify }}</a>
+          </h2>
+          <time class="text-18 leading-00" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </div>
+
+      </article>
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+    {% assign start = paginator.page | minus: 1 | times: paginator.per_page | plus: 1 %}
+    {% assign finish = paginator.page | times: paginator.per_page | divided_by: 1 %}
+    {% assign total = paginator.total_posts %}
+
+    {% if finish > total %}
+      {% assign finish = total %}
+    {% endif %}
+    <div class="container pt-60">
+      <div class="w-full pt-20 border-t-1 border-black flex items-center justify-between body-text">
+        <span>{{start}} - {{finish}} of {{ total }}</span>
+        <div class="flex items-center gap-24">
+        {% if paginator.previous_page %}
+          {% include arrow-link.html label="Previous" href=paginator.previous_page_path arrow="back" %}
+        {% endif %}
+        {% if paginator.next_page %}
+          {% include arrow-link.html label="Next" href=paginator.next_page_path %}
+        {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
 </section>
-{% endif %}
