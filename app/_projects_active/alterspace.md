@@ -2,6 +2,8 @@
 ### PROJECT METADATA ###
 # Required
 title: Alterspace
+description: Alterspace gives library visitors control over light, color, sound, and space.
+background_class: bg-green
 
 # Optional
 project_website: https://alterspace.github.io/

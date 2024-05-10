@@ -2,6 +2,8 @@
 ### PROJECT METADATA ###
 # Required
 title: Time Capsule Encryption
+description: Time Capsule Encryption provides tools for time travel.
+background_class: bg-gray
 
 # Optional
 project_website:

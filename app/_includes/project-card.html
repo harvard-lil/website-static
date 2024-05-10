@@ -6,11 +6,11 @@
   {% endif %}
   <div class="{{ include.background }} flex flex-col md:grid md:grid-cols-2 relative overflow-hidden">
     <div class="flex items-center justify-center">
-      <img class="w-full max-w-[350px]" src="{{ site.baseurl }}{{ include.logo }}" alt="{{ include.title }}" class="w-[150px] h-[150px] md:w-[200px] md:h-[200px]">
+      <img class="w-full max-w-[350px] max-h-[300px] object-contain" src="{{ site.baseurl }}/assets/images/{{ include.logo }}" alt="{{ include.title }}" class="w-[150px] h-[150px] md:w-[200px] md:h-[200px]">
     </div>
     <div class="w-full p-80 flex flex-col gap-30">
-      <strong class="text-50 font-medium">{{ include.title }}</strong>
-      <p class="text-24 leading-115 max-w-[550px]">{{ include.description }}</p>
+      <strong class="h2">{{ include.title }}</strong>
+      <p class="body-text max-w-[550px]">{{ include.description }}</p>
       <div class="flex items-center gap-32 pt-20">
         {% if include.linkOne %}
           {% include arrow-link.html label=include.linkOneLabel href=include.linkOne target="_blank" %}

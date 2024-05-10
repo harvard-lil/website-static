@@ -2,6 +2,8 @@
 ### PROJECT METADATA ###
 # Required
 title: The Nuremberg Project
+background_class: bg-purple
+description: The Nuremberg Project is digitizing our collection of materials from the Nuremberg trials.
 
 # Optional
 project_website: https://nuremberg.law.harvard.edu/

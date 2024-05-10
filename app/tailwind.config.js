@@ -6,6 +6,10 @@ module.exports = {
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
+    './about/**/*.html',
+    './about/**/*.md',
+    './jobs/**/*.html',
+    './jobs/**/*.md',
     './*.md',
     './*.html',
   ],
@@ -18,7 +22,7 @@ module.exports = {
       yellow: '#FFF069',
       green: '#8AAFBA',
       purple: '#F0D0FF',
-      gray: '#D5D8DF',
+      gray: '#DCE2E5',
     },
     fontFamily: {
       sans: ["NeueHaasGrotesk", "sans-serif"],
@@ -50,6 +54,7 @@ module.exports = {
             letterSpacing: '0.07em',
           }
         ],
+        16: '16px',
         18: '18px',
         24: '24px',
         50: '50px',
@@ -78,5 +83,13 @@ module.exports = {
     }
   },
   plugins: [],
+  safelist: [
+    'bg-blue',
+    'bg-pink',
+    'bg-yellow',
+    'bg-green',
+    'bg-purple',
+    'bg-gray',
+  ]
 }
 

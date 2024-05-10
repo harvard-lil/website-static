@@ -1,46 +1,117 @@
 ---
-title: Projects
+title: Our Work
+subtitle: We build and explore new technology through the lens of library principles.
 slug: projects
 description: "Our projects attempt to make something better, simpler, more transparent, or more fun."
 custom-footer: true
 layout: sectioned-page
 ---
 
-<section>
-  <div class="sleeve">
-    <h1>{{ page.title }}</h1>
-    <div class="slice">
-      <h3>What do we do?</h3>
-      <div class="slice-body">
-        <p>Projects are the heart of the Library Innovation Lab. We build things. Our projects attempt to make something — big or small — better, simpler, more transparent, or more fun.</p>
+<div class="w-full">
+  <section class="container">
+    <div class="page-hero">
+      <h1 class="page-hero__title">{{ page.title }}</h1>
+      <h2 class="page-hero__subtitle">{{page.subtitle}}</h2>
+    </div>
+  </section>
+
+  <section class="container pb-80">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
+      <h2 class="h2">Active Projects</h2>
+      <div class="md:col-span-2 body-text flex flex-col gap-50 pt-24">
+        <p class="flex flex-col gap-20 max-w-[700px]">
+          Projects are the heart of the Library Innovation Lab. We build things. Our projects attempt to make something — big or small — better, simpler, more transparent, or more fun.
+        </p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  <div class="sleeve">
-    <div class="heading-pair">
-      <h2>Active Projects</h2>
-      <p>What we’re doing now.</p>
-    </div>
-    {% include active-project-gallery.html %}
-  </div>
-</section>
+  <section class="flex flex-col gap-18">
+    {% assign active_projects = site.projects_active | sort: "order" %}
+    {% for project in active_projects %}
+      {% include 
+        project-card.html 
+        background=project.background_class
+        title=project.title
+        description=project.description
+        logo=project.logo
+        linkOne=project.project_website
+        linkOneLabel="Visit Website"
+        linkTwo=project.url
+        linkTwoLabel="Learn More"
+      %}
+    {% endfor %}
+  </section>
 
-<section class="sunset">
-  <div class="sleeve">
-    <div class="heading-pair">
-      <h2>Former Projects</h2>
-      <p>Farewell, sweet friends.</p>
+  <section class="container pb-140 pt-120 flex flex-col gap-100">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
+      <h2 class="h2">Research</h2>
+      <div class="md:col-span-2 body-text flex flex-col gap-50 pt-24">
+        <div class="flex flex-col gap-20 max-w-[700px]">
+          <p>Research at LIL is structured around a variety of modes and outcomes, though it all ultimately serves our goal of fusing the library world with new technologies. We use our research to understand new - or new to us - communities and their extant work around a knowledge challenge; to tackle a particularly thorny and consequential technical problem; or to work with libraries to map the technical possibilities available to them for a particular part of their mission.</p>
+          <p>Some of our research is explicitly tied to our ongoing tentpole projects, while other explorations may become larger projects down the line.</p>
+        </div>
+      </div>
     </div>
-    <div class="projects">
+    <div class="flex flex-col gap-40">
+      <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40 w-full border-b-1 border-black pb-32">
+        <h3 class="label">AI Explorations</h3>
+        <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
+          <div class="flex flex-col items-start gap-24 body-text">
+            <a href="#" class="interactive-link dark">Librarianship of AI</a>
+            <a href="#" class="interactive-link dark">Banned Books</a>
+          </div>
+          <div class="flex flex-col items-start gap-24 body-text">
+            <a href="#" class="interactive-link dark">WARC-GPT</a>
+            <a href="#" class="interactive-link dark">French Law Chatbot</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40 w-full border-b-1 border-black pb-32">
+        <h3 class="label">Perma Tools</h3>
+        <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
+          <div class="flex flex-col items-start gap-24 body-text">
+            <a href="#" class="interactive-link dark">Scoop Repository</a>
+            <a href="#" class="interactive-link dark">WACZ Exhibitor</a>
+          </div>
+          <div class="flex flex-col items-start gap-24 body-text">
+            <a href="#" class="interactive-link dark">WARC Signing</a>
+            <a href="#" class="interactive-link dark">Lorem Ipsum</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40 w-full">
+        <h3 class="label">Ongoing</h3>
+        <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
+          <div class="flex flex-col items-start gap-24 body-text">
+            <a href="#" class="interactive-link dark">Century Scale Storage</a>
+            <a href="#" class="interactive-link dark">Democratizing Open Knowledge</a>
+          </div>
+          <div class="flex flex-col items-start gap-24 body-text">
+            <a href="#" class="interactive-link dark">Lorem Ipsum</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container bg-gray pt-80 pb-40 flex flex-col gap-40">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
+      <h2 class="h2">Past Projects</h2>
+      <div class="md:col-span-2 body-text flex flex-col gap-50 pt-24">
+        <div class="flex flex-col gap-20 max-w-[700px]">
+          <p>At the Library Innovation Lab we are also in pursuit of understanding innovation as a practice.</p>
+          <p>While not exhaustive, these are projects we have worked on, tinkered with, and ultimately sunsetted for various reasons. Each one has taught us a lesson about a particular domain, or piece of software, or community. We share lessons learned from each to be seen as case studies or used as proofs of concept for folks interested in diving deeper.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col">
       {% for project in site.projects_retired %}
-        <div class="project">
-          <h3 id="{{ project.slug }}">{{ project.title }}</h3>
-          <span>{{ project.what_does_it_do }}</span>
+        <div class="flex flex-col gap-24 md:grid md:grid-cols-3 py-40 border-t-1 border-black first-of-type:border-t-0">
+          <h3 id="{{ project.slug }}" class="label">{{ project.title }}</h3>
+          <span class="md:col-span-2 body-text">{{ project.what_does_it_do }}</span>
         </div>
       {% endfor %}
     </div>
-  </div>
-</section>
+  </section>
+</div>

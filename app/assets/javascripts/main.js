@@ -125,18 +125,81 @@ class LilMarquee extends HTMLElement {
         super();
         this.inner = this.querySelector('.marquee__inner');
         this.parts = this.inner.querySelectorAll('.marquee__part');
-        this.animate()
+        this.animate();
     }
 
     animate() {
-        gsap.to(this.parts, {xPercent: -100, repeat: -1, duration: safeDuration(60), ease: "linear"}).totalProgress(0.5);
-        gsap.set(this.inner, {xPercent: -50});
+        gsap?.to(this.parts, {xPercent: -100, repeat: -1, duration: safeDuration(60), ease: "linear"}).totalProgress(0.5);
+        gsap?.set(this.inner, {xPercent: -50});
+    }
+}
+
+class LilExpandable extends HTMLElement {
+    constructor() {
+        super();
+        this.expanded = false;
+        this.toggle = this.querySelector('.expandable__toggle');
+        this.content = this.querySelector('.expandable__content');
+
+        this.toggle.addEventListener('click', this.handleToggleClick.bind(this));
+    }
+
+    handleToggleClick() {
+        if (this.expanded) {
+            this.closeExpandable();
+        } else {
+            this.openExpandable();
+        }
+    }
+
+    closeAllExpandables() {
+        document.querySelectorAll('lil-expandable').forEach(expandable => {
+            if (expandable !== this) {
+                expandable.closeExpandable();
+            }
+        });
+    }
+
+    openExpandable() {
+        this.expanded = true;
+        this.classList.add('expanded')
+        this.content.setAttribute('aria-hidden', false);
+        this.toggle.setAttribute('aria-expanded', true);
+        this.openExpandableContent();
+        this.closeAllExpandables()
+    }
+
+    closeExpandable() {
+        this.expanded = false;
+        this.classList.remove('expanded')
+        this.content.setAttribute('aria-hidden', true);
+        this.toggle.setAttribute('aria-expanded', false);
+        this.closeExpandableContent();
+    }
+
+    openExpandableContent() {
+        gsap.to(this.content, {
+            duration: safeDuration(0.6),
+            ease: 'power4.inOut',
+            height: this.content.scrollHeight,
+            opacity: 1,
+        })
+    }
+
+    closeExpandableContent() {
+        gsap.to(this.content, {
+            duration: safeDuration(0.6),
+            ease: 'power4.inOut',
+            height: 0,
+            opacity: 0,
+        })
     }
 }
 
 function setupCustomElements() {
     customElements.define('lil-header', LilHeader);
     customElements.define('lil-marquee', LilMarquee);
+    customElements.define('lil-expandable', LilExpandable);
 }
 
 const setup = () => {

@@ -1,9 +1,328 @@
 ---
-title: Jobs
+title: Careers
 slug: jobs
 layout: sectioned-page
 ---
-<section>
+
+<section class="container">
+  <div class="page-hero simple">
+    <h1 class="page-hero__title">{{ page.title }}</h1>
+    <h2 class="page-hero__subtitle flex flex-col gap-24">
+      <span>The Library Innovation Lab is a unit of the Harvard Law School Library and shares space with the Berkman Klein Center for Internet and Society.</span>
+      <span>Joining our team means standing at the intersection of law, librarianship, and technology within an academic context. We offer a low pressure, self-directed environment with lots of room to explore, learn, collaborate, and teach.</span>
+    </h2>
+  </div>
+</section>
+
+<div class="flex flex-col gap-80 pb-200">
+  <section>
+    <figure>
+      <picture>
+        <source media="(min-width: 600px)"
+                srcset="{{ site.baseurl }}/assets/thumbs/800x450r/lab-alterspace-hero-wide.png 800w,
+                        {{ site.baseurl }}/assets/thumbs/1200x675r/lab-alterspace-hero-wide.png 1200w,
+                        {{ site.baseurl }}/assets/thumbs/1600x900r/lab-alterspace-hero-wide.png 1600w"
+                sizes="100vw">
+        <source srcset="{{ site.baseurl }}/assets/thumbs/400x400r/lab-alterspace-hero-narrow.png 1x,
+                        {{ site.baseurl }}/assets/thumbs/800x800r/lab-alterspace-hero-narrow.png 2x">
+        <img src="{{ site.baseurl }}/assets/thumbs/400x400r/lab-alterspace-hero-narrow.png"
+            alt=""
+            class="img-full-width">
+      </picture>
+      <figcaption class="inline-block container text-16 py-8">
+        <strong>Credit: Bob O’Connor</strong> With a focus on fostering collaboration and community, the modernist building has been transformed into a 21st-century work environment.
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="container flex flex-col gap-40">
+    <h2 class="h2">Background</h2>
+    <div class="md:grid md:grid-cols-12">
+      <div class="w-full md:col-span-9 md:col-start-4">
+        <lil-expandable class="expandable">
+          <button class="expandable__toggle" aria-expanded="false">
+            <span class="expandable__toggle--title">About Us</span>
+            <div class="expandable__icon">
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <div class="expandable__content">
+            <div class="expandable__content--inner">
+              <p>
+                The Library Innovation Lab is a team of librarians, programmers, artists, and lawyers with a broad mission: to
+                build open-source tools and services for open knowledge, available to everyone and in the public interest,
+                that solve emerging information problems from the perspective of the world's largest academic law library.
+                We currently support three long-running services (
+                  <a class="interactive-link dark" href="https://perma.cc">Perma</a>,
+                  <a class="interactive-link dark" href="https://opencasebook.org">H2O Open Casebook</a>, and the
+                  <a class="interactive-link dark" href="https://case.law">Caselaw Access Project</a>
+                ) as well as a range of shorter-term experiments.
+                On the tech side, we work most often with Django, Vue, and Postgres.
+              </p>
+            </div>
+          </div>
+        </lil-expandable>
+        <lil-expandable class="expandable">
+          <button class="expandable__toggle" aria-expanded="false">
+            <span class="expandable__toggle--title">Why work with us?</span>
+            <div class="expandable__icon">
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <div class="expandable__content">
+            <div class="expandable__content--inner">
+              <p>
+                LIL offers a rare mix of contemplation and action: we are a small software lab within one of the world’s
+                largest law libraries, with a mission both to try new things and to think deeply about what ought to exist
+                for the long haul. Our mission offers a range of benefits for staff:
+              </p>
+              <ul>
+                <li>Job stability and support. While we maintain the creative atmosphere and flexibility of a small innovation lab, we're backed by an established institution with strong benefits and support for employees.</li>
+                <li>Room to pursue your research agenda. We are located at the Harvard Law School Library and share a kitchen with  the Berkman Klein Center and metaLAB. Going to events, having conversations, developing your scholarly perspective, and exploring it through creative projects are encouraged. We will specifically prioritize these things at the cost of shipping the next feature.</li>
+                <li>Set your own pace. We are a small, self-directed group that depends on internal motivation rather than externally imposed crunch time.</li>
+                <li>Build open source. All of our projects are open source and otherwise designed to maximize the public benefit of our work.</li>
+                <li>Work on stuff that matters. The projects we make are measured by how they help people in the long term.</li>
+              </ul>
+              <h3 class="label" id="location">Location</h3>
+              <p>
+                We are based in a newly-renovated space on the Harvard Law School campus. Our full-time staff positions are
+                hybrid/in-person; we typically aim to be in the office Tuesday through Thursday. Contractor and fellowship
+                positions may be remote by individual arrangement.
+              </p>
+              <h3 class="label" id="ediba">Equity, diversity, inclusion, belonging and antiracism</h3>
+              <p>
+                The work and well-being of the Lab are strengthened profoundly by the
+                diversity of our community and our differences in background, culture,
+                experience, racial identity, national origin, religion, sexual orientation, and much
+                more. We actively seek and welcome applications from Black and Indigenous people and people of color;
+                women and non-binary people; the LGBTQ+ community; and people with disabilities; as well as
+                applications from researchers and practitioners from across the
+                spectrum of disciplines, methods, and life experiences.
+              </p>
+            </div>
+          </div>
+        </lil-expandable>
+        <lil-expandable class="expandable">
+          <button class="expandable__toggle" aria-expanded="false">
+            <span class="expandable__toggle--title">Location</span>
+            <div class="expandable__icon">
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <div class="expandable__content">
+            <div class="expandable__content--inner">
+              <p>
+                We are based in a newly-renovated space on the Harvard Law School campus. Our full-time staff positions are
+                hybrid/in-person; we typically aim to be in the office Tuesday through Thursday. Contractor and fellowship
+                positions may be remote by individual arrangement.
+              </p>
+            </div>
+          </div>
+        </lil-expandable>
+        <lil-expandable class="expandable">
+          <button class="expandable__toggle" aria-expanded="false">
+            <span class="expandable__toggle--title">Equity, diversity, inclusion, belonging and antiracism</span>
+            <div class="expandable__icon">
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <div class="expandable__content">
+            <div class="expandable__content--inner">
+              <p>
+                The work and well-being of the Lab are strengthened profoundly by the
+                diversity of our community and our differences in background, culture,
+                experience, racial identity, national origin, religion, sexual orientation, and much
+                more. We actively seek and welcome applications from Black and Indigenous people and people of color;
+                women and non-binary people; the LGBTQ+ community; and people with disabilities; as well as
+                applications from researchers and practitioners from across the
+                spectrum of disciplines, methods, and life experiences.
+              </p>
+            </div>
+          </div>
+        </lil-expandable>
+      </div>
+    </div>
+  </section>
+  
+  <section class="container flex flex-col gap-40">
+    <h2 class="h2">Staff Positions</h2>
+    <div class="md:grid md:grid-cols-12">
+      <div class="w-full md:col-span-9 md:col-start-4">
+        <lil-expandable class="expandable">
+          <button class="expandable__toggle" aria-expanded="false">
+            <span class="expandable__toggle--title">Engineering Director</span>
+            <div class="expandable__icon">
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <div class="expandable__content">
+            <div class="expandable__content--inner">
+              <p>Our Engineering Director leads a team of software engineers, technologists, and academic collaborators to build open source software for both experimentation and production. The ideal candidate will be ready to mentor and support an enthusiastic and creative team; get their hands dirty solving hard technical problems; and work with the rest of LIL’s senior leadership to set goals for the organization.</p>
+              <p>To apply: <a href="https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25240&siteid=5341#jobDetails=2006056_5341" class="interactive-link dark">Application form</a>. In addition to Harvard's standard application form, please provide a short cover letter explaining how your career trajectory and interests align with our work and mission.</p>
+            </div>
+          </div>
+        </lil-expandable>
+        <lil-expandable class="expandable">
+          <button class="expandable__toggle" aria-expanded="false">
+            <span class="expandable__toggle--title">Senior Software Engineer</span>
+            <div class="expandable__icon">
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <div class="expandable__content">
+            <div class="expandable__content--inner">
+              <p>Our Engineering Director leads a team of software engineers, technologists, and academic collaborators to build open source software for both experimentation and production. The ideal candidate will be ready to mentor and support an enthusiastic and creative team; get their hands dirty solving hard technical problems; and work with the rest of LIL’s senior leadership to set goals for the organization.</p>
+              <p>To apply: <a href="https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25240&siteid=5341#jobDetails=2006056_5341" class="interactive-link dark">Application form</a>. In addition to Harvard's standard application form, please provide a short cover letter explaining how your career trajectory and interests align with our work and mission.</p>
+              </p>
+            </div>
+          </div>
+        </lil-expandable>
+      </div>
+    </div>
+  </section>
+
+  <section class="container flex flex-col gap-40">
+    <h2 class="h2">Research Positions</h2>
+    <div class="md:grid md:grid-cols-12">
+      <div class="w-full md:col-span-9 md:col-start-4">
+        <lil-expandable class="expandable">
+          <button class="expandable__toggle" aria-expanded="false">
+            <span class="expandable__toggle--title">Research assistant / student fellow</span>
+            <div class="expandable__icon">
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <div class="expandable__content">
+            <div class="expandable__content--inner">
+              <p>
+                Students: thinking about legal tech, civic tech, or
+                cultural memory? We have options:
+              </p>
+              <p>
+                <strong>Research Assistants:</strong> We're seeking paid research assistants with a web
+                development background to help us build open source legal
+                tech and civic tech tools
+                like <a href="/projects/perma-cc" class="interactive-link dark">Perma.cc</a>, <a href="/projects/h2o">Opencasebook.org</a>,
+                and <a href="/projects/caselaw-access-project" class="interactive-link dark">Case.law</a>.
+              </p>
+              <p>
+                <strong>Student Fellows:</strong> We offer student fellow positions to provide mentorship to
+                students working on independent projects in the field of
+                open knowledge (legal tech, civic tech, library tech,
+                online governance, etc.). Depending on subject matter and
+                professor relationships, student fellow positions may or
+                may not offer stipend or credit; please reach out to us to
+                discuss.
+              </p>
+              <p>
+                <strong>Eligibility:</strong> Positions are open to students inside and outside Harvard,
+                with a preference for students at Harvard Law School and
+                Harvard University.
+              </p>
+              <p>
+                <strong>To apply:</strong> send a statement of interest to
+                <a href="mailto:lil@law.harvard.edu?subject=Research%20Assistant%20position" class="interactive-link dark">lil@law.harvard.edu</a>.
+              </p>
+            </div>
+          </div>
+        </lil-expandable>
+        <lil-expandable class="expandable">
+          <button class="expandable__toggle" aria-expanded="false">
+            <span class="expandable__toggle--title">Fellows</span>
+            <div class="expandable__icon">
+              <div></div>
+              <div></div>
+            </div>
+          </button>
+          <div class="expandable__content">
+            <div class="expandable__content--inner">
+              <p>
+                The Library Innovation Lab offers a small number of
+                stipended fellowships to people developing tools and
+                communities to explore the future of open knowledge.
+              </p>
+              <p>
+                <strong>Who should apply:</strong> Fellowships are a particularly good fit for people&mdash;
+                inside and outside academia!&mdash;with a track record of
+                building tools or leading communities that advance the
+                conversation about cultural knowledge and the internet,
+                and who need financial and institutional support to take
+                their next steps.
+              </p>
+              <p>
+                By "cultural knowledge and the internet," we mean
+                questions like: how do established cultural memory
+                institutions adapt to the internet age and help societies
+                reconstruct and remember their history? How do societies
+                govern themselves, coordinate solutions to problems, and
+                decide who to trust in the evolving information landscape?
+                How do we preserve today's knowledge for future
+                generations?
+              </p>
+              <p>
+                In short, who are we, how did we get here, and where are
+                we going? And who is "we" in a networked world anyway?
+              </p>
+              <p>
+                By "track record of building tools or leading
+                communities," we mean that we want to see your theory of
+                change and how it operates in the world: how have your
+                beliefs about who we are, where we came from, and where
+                we're going been translated to action, whether in code, in
+                writing, or in community organizing, and what are your
+                next steps?
+              </p>
+              <p>
+                More concretely, strong fellowship applicants could include:
+              </p>
+              <ul>
+                <li>
+                  Coders building software to help small institutions or
+                  communities run and preserve their own digital archives
+                </li>
+                <li>
+                  Librarians leading movements for internet access and
+                  digital literacy
+                </li>
+                <li>
+                  Archivists developing novel practices to empower
+                  communities not benefitting from traditional archives
+                </li>
+                <li>
+                  Artists and authors helping to explore and translate the
+                  cultural impact of new technologies
+                </li>
+              </ul>
+      
+              <p>
+                <strong>Fellowship details:</strong> Fellowships are individually arranged on a rolling basis,
+                and may be any length from a week to a year. Fellows are
+                expected to visit Harvard in person for a portion of the
+                appointment, but need not be present full time. Stipends
+                are available to support full-time work, but may be
+                prorated depending on time commitment and other sources of
+                support.
+              </p>
+              <p>
+                <strong>To apply:</strong> Email a résumé and statement of interest to
+                <a href="mailto:lil@law.harvard.edu?subject=Fellowship" class="interactive-link dark">lil@law.harvard.edu</a>.
+              </p>
+            </div>
+          </div>
+        </lil-expandable>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- <section>
   <div class="sleeve">
     <h1>{{ page.title }}</h1>
 
@@ -136,7 +455,9 @@ layout: sectioned-page
         </p>
 
         <hr>
+        
         <h3 id="fellows">Fellows</h3>
+        
         <p>
           The Library Innovation Lab offers a small number of
           stipended fellowships to people developing tools and
@@ -211,4 +532,4 @@ layout: sectioned-page
       </div>
     </div>
   </div>
-</section>
+</section> -->
