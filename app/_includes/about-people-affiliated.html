@@ -37,10 +37,10 @@
           <li><a href="mailto:{{ person.email }}" target="_blank">Email</a></li>
         {% endif %}
         {% if person.website %}
-          <li><a href="{{ person.website}}" target="_blank">Website</a></li>
+          <li><a href="{{ person.website}}" target="_blank">{% include icon-website.html %}</a></li>
         {% endif %}
         {% if person.twitter_account_name %}
-          <li><a href="https://www.twitter.com/{{ person.twitter_account_name}}" target="_blank">{% include icon-twitter.html %}</a></li>
+          <li><a href="https://www.twitter.com/{{ person.twitter_account_name}}" target="_blank">{% include icon-x.html %}</a></li>
         {% endif %}
         {% if person.github_account_name %}
           <li><a href="https://www.github.com/{{ person.github_account_name }}" target="_blank">{% include icon-github.html %}</a></li>

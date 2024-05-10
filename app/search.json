@@ -1,0 +1,31 @@
+---
+layout: null
+sitemap: false
+---
+
+{% capture json %}
+[
+  {% for doc in site.posts %}
+    {% assign content_parts = doc.content | split: '<img' %}
+    {% assign first_img_src = '' %}
+    {% if content_parts.size > 1 %}
+      {% assign first_img_part = content_parts[1] | split: '>' %}
+      {% assign img_tag = '<img' | append: first_img_part[0] | append: '>' %}
+      {% assign src_part = img_tag | split: 'src="' %}
+      {% if src_part.size > 1 %}
+        {% assign src_end = src_part[1] | split: '"' %}
+        {% assign first_img_src = src_end[0] %}
+      {% endif %}
+    {% endif %}
+    {
+      "title": {{ doc.title | jsonify }},
+      "date": {{ doc.date | date: "%B %-d, %Y" | jsonify }},
+      "content": {{ doc.content | markdownify | strip_html | jsonify }},
+      "url": {{ site.baseurl | append: doc.url | jsonify }},
+      "image": {% if first_img_src != '' %}"{{ first_img_src }}"{% else %}""{% endif %}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% endcapture %}
+
+{{ json | lstrip }}

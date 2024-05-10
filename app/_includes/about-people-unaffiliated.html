@@ -7,10 +7,10 @@
     {% if person.website or person.twitter_account_name or person.github_account_name %}
       <ul class="flex items-center gap-12 md:gap-24">
         {% if person.website %}
-          <li class="website"><a href="{{ person.website}}">Website</a></li>
+          <li class="website"><a href="{{ person.website}}">{% include icon-website.html %}</a></li>
         {% endif %}
         {% if person.twitter_account_name %}
-          <li class="twitter"><a href="https://www.twitter.com/{{ person.twitter_account_name }}">{% include icon-twitter.html %}</a></li>
+          <li class="twitter"><a href="https://www.twitter.com/{{ person.twitter_account_name }}">{% include icon-x.html %}</a></li>
         {% endif %}
         {% if person.github_account_name %}
           <li class="github"><a href="https://www.github.com/{{ person.github_account_name}}">{% include icon-github.html %}</a></li>

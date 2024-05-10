@@ -1,17 +1,20 @@
+{% assign content_parts = post.content | split: '<img' %}
+{% assign first_img_src = '' %}
+{% if content_parts.size > 1 %}
+  {% assign first_img_part = content_parts[1] | split: '>' %}
+  {% assign img_tag = '<img' | append: first_img_part[0] | append: '>' %}
+  {% assign src_part = img_tag | split: 'src="' %}
+  {% if src_part.size > 1 %}
+    {% assign src_end = src_part[1] | split: '"' %}
+    {% assign first_img_src = src_end[0] %}
+  {% endif %}
+{% endif %}
+
 <article itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-14 relative">
   <header class="aspect-square w-full bg-gray relative">
-    {% assign content_parts = post.content | split: '<img' %}
-      {% assign first_img_src = '' %}
-      {% if content_parts.size > 1 %}
-        {% assign first_img_part = content_parts[1] | split: '>' %}
-        {% assign img_tag = '<img' | append: first_img_part[0] | append: '>' %}
-        {% assign src_part = img_tag | split: 'src="' %}
-        {% if src_part.size > 1 %}
-          {% assign src_end = src_part[1] | split: '"' %}
-          {% assign first_img_src = src_end[0] %}
-          <img src="{{ first_img_src }}" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title }}" />
-        {% endif %}
-      {% endif %}
+    {% if first_img_src != '' %}
+      <img src="{{ first_img_src }}" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title }}" />
+    {% endif %}
   </header>
   <div class="flex flex-col gap-8">
     <h2 class="text-18 leading-115 font-medium" itemprop="headline">
@@ -19,5 +22,4 @@
     </h2>
     <time class="text-18 leading-00" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
   </div>
-
 </article>
