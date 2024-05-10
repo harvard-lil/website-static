@@ -4,6 +4,7 @@
 title: Time Capsule Encryption
 description: Time Capsule Encryption provides tools for time travel.
 background_class: bg-gray
+logo: timecapsule-logo.svg
 
 # Optional
 project_website:

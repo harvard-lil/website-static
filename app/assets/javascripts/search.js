@@ -1,3 +1,7 @@
+/*
+* https://github.com/daviddarnes/jekyll-search-js
+*/
+
 class jekyllSearch {
   constructor(dataSource, searchField, resultsList, siteURL) {
     this.dataSource = dataSource
@@ -42,7 +46,7 @@ class jekyllSearch {
     if(this.searchField.value === '') {
       this.resultsList.innerHTML = ''
     } else if (this.searchField.value !== '' && results.length == 0) {
-      this.resultsList.innerHTML = `<p>Sorry, nothing was found</p>`
+      this.resultsList.innerHTML = `<p class="body-text no-results col-span-2 md:col-span-4">0 results for "${this.searchField.value}"</p>`
     } else {
       this.resultsList.innerHTML = html
     }
