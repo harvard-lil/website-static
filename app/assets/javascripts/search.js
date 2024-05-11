@@ -29,7 +29,6 @@ class jekyllSearch {
   async displayResults() {
     const results = await this.findResults()
     const html = results.map(item => {
-      console.log(item)
       return `
         <article class="flex flex-col gap-8 relative">
           <header class="aspect-square w-full bg-gray relative">

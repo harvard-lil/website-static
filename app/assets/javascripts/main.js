@@ -21,6 +21,105 @@ function safeDuration(duration) {
     return prefersReducedMotion() ? 0 : duration;
 }
 
+/*
+* https://github.com/daviddarnes/jekyll-search-js
+*/
+
+class jekyllSearch {
+    constructor(dataSource, searchField, resultsList, siteURL) {
+      this.dataSource = dataSource
+      this.searchField = document.querySelector(searchField)
+      this.resultsList = document.querySelector(resultsList)
+      this.siteURL = siteURL
+  
+      this.displayResults = this.displayResults.bind(this)
+    }
+  
+    fetchedData() {
+      return fetch(this.dataSource)
+        .then(blob => blob.json())
+    }
+  
+    async findResults() {
+      const data = await this.fetchedData()
+      return data.filter(item => {
+        const regex = new RegExp(this.searchField.value, 'gi')
+        const title = item.title?.toString() || ''
+        return (title && title.match(regex)) || item.content.match(regex)
+      })
+    }
+  
+    async displayResults() {
+      const results = await this.findResults()
+      const html = results.map(item => {
+        return `
+          <article class="flex flex-col gap-8 relative">
+            <header class="aspect-square w-full bg-gray relative">
+              ${item.image && item.image !== null && item.image !== '' ? (
+                `<img src="${item.image}" class="w-full h-full object-cover absolute inset-0" alt="${item.title}" />`
+              ) : ''}
+            </header>
+            <h2 class="text-18 leading-115 font-medium" itemprop="headline">
+              <a href="${item.url}" class="card-link">${item.title}</a>
+            </h2>
+            <time class="text-18 leading-00" datetime="${item.date}">${item.date}</time>
+          </article>`
+        }).join('')
+      if(this.searchField.value === '') {
+        this.resultsList.innerHTML = ''
+      } else if (this.searchField.value !== '' && results.length == 0) {
+        this.resultsList.innerHTML = `<p class="body-text no-results col-span-2 md:col-span-4">0 results for "${this.searchField.value}"</p>`
+      } else {
+        this.resultsList.innerHTML = html
+      }
+    }
+  
+    init() {
+      const url = new URL(document.location)
+      if (url.searchParams.get("search")) {
+        this.searchField.value = url.searchParams.get("search")
+        this.displayResults()
+      }
+
+      this.searchField.addEventListener('keyup', () => {
+        this.displayResults()
+        if (this.searchField.value && this.searchField.value !== '') {
+          url.searchParams.set("search", this.searchField.value)
+          window.history.pushState('', '', url.href)
+        } else {
+          url.searchParams.delete("search")
+          window.history.pushState('', '', url.href)
+        }
+      })
+      this.searchField.addEventListener('keypress', event => {
+        if (event.keyCode == 13) {
+          event.preventDefault()
+        }
+      })
+    }
+}
+
+class LilSearch extends HTMLElement {
+    constructor() {
+        super();
+        this.searchFile = '/search.json'
+        this.searchInputSelector = '#search'
+        this.searchResultsSelector = '#list'
+        this.search = new jekyllSearch(
+            this.searchFile,
+            this.searchInputSelector,
+            this.searchResultsSelector,
+        );
+
+        this.init();
+    }
+
+    init() {
+        this.search.init();
+    }
+}
+  
+
 class LilHeader extends HTMLElement {
     constructor() {
         super();
@@ -28,9 +127,17 @@ class LilHeader extends HTMLElement {
         this.menuButton = this.querySelector('.menu-button');
         this.menu = this.querySelector('.nav-menu');
         this.overlay = this.querySelector('.nav-menu__overlay');
+        this.links = this.querySelectorAll('.nav-menu a');
 
         this.menuButton.addEventListener('click', this.toggleMenu.bind(this));
         this.overlay.addEventListener('click', this.toggleMenu.bind(this));
+        this.setupLinkEvents();
+    }
+
+    setupLinkEvents() {
+        this.links.forEach(link => {
+            link.addEventListener('click', this.toggleMenu.bind(this));
+        });
     }
 
     closeOnEscape(event) {
@@ -200,11 +307,21 @@ function setupCustomElements() {
     customElements.define('lil-header', LilHeader);
     customElements.define('lil-marquee', LilMarquee);
     customElements.define('lil-expandable', LilExpandable);
+    customElements.define('lil-search', LilSearch);
+}
+
+function setupSwup() {
+    const swup = new Swup({
+        plugins: [new SwupHeadPlugin()],
+    });
+    
+    swup.hooks.on('visit:end', setup)
 }
 
 const setup = () => {
     setVh();
     setupCustomElements();
+    setupSwup();
 }
 
 (function() {
