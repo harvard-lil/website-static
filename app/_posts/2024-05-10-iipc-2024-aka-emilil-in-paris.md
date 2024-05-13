@@ -2,7 +2,7 @@
 title: "IIPC 2024 aka EmiLIL in Paris\_"
 author: clare-stanton
 ---
-The Perma Team has landed back in the US after our annual trip to the [International Internet Preservation Consortium](https://netpreserve.org)’s Web Archiving Conference. This year the IIPC gathered at the The Bibliothèque nationale de France, in Paris. 
+The Perma Team has landed back in the US after our annual trip to the [International Internet Preservation Consortium](https://netpreserve.org)’s Web Archiving Conference. This year the IIPC gathered at the Bibliothèque Nationale de France, in Paris. 
 
 Each year this is a gathering of colleagues from around the globe who are working in the web archiving space, ranging from institutions responsible for legal deposits, to researchers working with collections, to folks who are building the core tools used for web archiving. 
 
