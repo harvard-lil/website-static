@@ -5,11 +5,13 @@ layout: default
 
   {% include header.html %}
 
-  <main id="swup" class="transition-main">
-    {{ content }}
-  </main>
+  <div id="swup" class="transition-main">
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
 
-  {% include footer.html %}
 
   <script src="{{ site.baseurl }}/assets/javascripts/main.js"></script>
   {% include custom-scripts.html %}

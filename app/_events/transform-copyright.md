@@ -1,7 +1,7 @@
 ---
 title: "Transform: Copyright"
 date: 2024-04-22 19:05:36+00:00
-short_description: "An invite-only workshop investigating potential resolutions to intensifying controversies pertaining to generative AI and copyright. "
+short_description: "An invite-only workshop for experts trying to reconcile the tensions between AI development and copyright."
 description: "Transform: Copyright was a closed-door gathering of experts from intersecting fields grappling with the interaction of generative AI and copyright."
 custom-css: ['blog']
 ---
