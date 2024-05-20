@@ -2,7 +2,7 @@ version: '2'
 services:
   jekyll:
     image: tiryoh/jekyll:4.2.1
-    command: jekyll serve --livereload
+    command: jekyll build --watch
     tty: true
     volumes:
         - ./app:/srv/jekyll
