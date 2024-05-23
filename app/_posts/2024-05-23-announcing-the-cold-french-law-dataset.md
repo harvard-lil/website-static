@@ -21,7 +21,7 @@ In a field where the volume of data is so important, it’s useful to understand
 
 Over the course of two months the CoCounsel team ran all ~800,000 articles through a translation pipeline that took each individual entry and translated it from its original French into English using OpenAI’s GPT-4 large language model. One hurdle was the variety of important metadata for each entry that was also in French, and a desire to retain each of the articles in its fullest form.
 
-Via GPT-4’s function calling feature, the pipeline was able to translate the full entries, and allowed for each relevant column of an entry to be translated in a single call (or couple of calls in the limited cases where entries were longer than 2,500 tokens.) This saved weeks of processing. Additionally, this technique outputs individual JSON files for each of the law articles.
+Via GPT-4’s function-calling feature, the pipeline was able to translate the full entries, and allowed each column of an entry to be translated in a single call (or couple of calls in the limited cases where entries were longer than 2,500 tokens.) This saved weeks of processing. Additionally, this technique outputs individual JSON files for each of the law articles.
 
 With this approach, we were able to run the pipeline for just a few hours each night, and the structure of the dataset remained intact.
 
