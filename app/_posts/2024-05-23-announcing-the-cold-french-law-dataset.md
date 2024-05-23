@@ -5,7 +5,7 @@ tags:
 - ai
 - research
 ---
-![COLD French Law banner](https://lil-blog-media.s3.amazonaws.com/COLDfrenchlaw.webp)
+<a href="https://huggingface.co/datasets/harvard-lil/cold-french-law"><img src="https://lil-blog-media.s3.amazonaws.com/COLDfrenchlaw.webp" alt="COLD French Law Banner"/></a>
 
 There is a new addition to the [Collaborative Open Legal Data collection](https://huggingface.co/harvard-lil): a set of over 800,000 articles extracted from the [LEGI dataset](https://www.data.gouv.fr/fr/datasets/legi-codes-lois-et-reglements-consolides/), one of France’s official open law repositories, that were programmatically identified as “currently applicable French law” by our [pipeline](https://github.com/harvard-lil/cold-french-law-pipeline).
 
