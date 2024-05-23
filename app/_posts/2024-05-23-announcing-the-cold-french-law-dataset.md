@@ -39,4 +39,5 @@ The final prompt that was engineered by our colleagues is shared below.
 
 [COLD French Law CLI pipeline on Github](https://github.com/harvard-lil/cold-french-law-pipeline)
 
-[Other COLD data ](https://huggingface.co/datasets/harvard-lil/cold-cases)
+See also: [COLD Cases Dataset](https://huggingface.co/datasets/harvard-lil/cold-cases)
+
