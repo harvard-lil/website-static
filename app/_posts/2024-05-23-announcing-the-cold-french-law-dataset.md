@@ -15,7 +15,7 @@ COLD French Law was initially compiled to be used in a forthcoming experiment at
 
 ---
 ## The Process
-As part of these release notes we would like to share details about the process used to translate the articles contained in the dataset.
+As part of these release notes, we would like to share details about the process used to translate the articles contained in the dataset.
 
 In a field where the volume of data is so important, it’s useful to understand the plausibility of working with a dataset in one language with an LLM trained in another. This process revealed some techniques for not only reliably translating a large set of documents, but also for doing so efficiently. We do not plan to maintain this dataset outside of the needs of our experiments, and are therefore sharing the details of the pipeline so that others may update the data in the future if needed.
 
