@@ -25,7 +25,7 @@ Via GPT-4’s function calling feature, the pipeline was able to translate the f
 
 With this approach, we were able to run the pipeline for just a few hours each night, and the structure of the dataset remained intact.
 
-Over the course of this process adjustments were made to the prompt based on the expertise of the CoCounsel team and feedback provided by Timothée Charmeil, an [LL.M. candidate at HLS](https://hls.harvard.edu/graduate-program/ll-m-program/), who quality tested samples of the initial outputs.
+Over the course of this process adjustments were made to the prompt based on the expertise of the CoCounsel team and feedback provided by **Timothée Charmeil**, an [LL.M. candidate at HLS](https://hls.harvard.edu/graduate-program/ll-m-program/), who quality tested samples of the initial outputs.
 
 The final prompt that was engineered by our colleagues is shared below.
 
