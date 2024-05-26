@@ -1,18 +1,19 @@
 version: '2'
 services:
   jekyll:
-    image: tiryoh/jekyll:4.2.1
+    build: .
     command: jekyll build --watch
     tty: true
     volumes:
-        - ./app:/srv/jekyll
-        - ./build:/srv/build
-        - ./bundle:/usr/local/bundle:delegated
+      - ./app:/srv/jekyll
+      - /srv/jekyll/node_modules
+      - ./build:/srv/build
+      - ./bundle:/usr/local/bundle:delegated
   server:
     image: nginx:1.14.2
     ports:
-        - "127.0.0.1:8080:8080"
+      - "127.0.0.1:8080:8080"
     volumes:
-        - ./build:/usr/share/nginx/html
-        - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-        - ./nginx/logs:/var/log/nginx
+      - ./build:/usr/share/nginx/html
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/logs:/var/log/nginx

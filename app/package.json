@@ -16,7 +16,7 @@
     "url": "https://github.com/harvard-lil/website-static/issues"
   },
   "homepage": "https://github.com/harvard-lil/website-static#readme",
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "postcss-import": "^16.1.0",
