@@ -2,8 +2,7 @@
 title: Announcing the COLD French Law Dataset
 guest-author: The Library Innovation Lab Team
 tags:
-- ai
-- research
+- ai research
 ---
 <a href="https://huggingface.co/datasets/harvard-lil/cold-french-law"><img src="https://lil-blog-media.s3.amazonaws.com/COLDfrenchlaw.webp" alt="COLD French Law Banner"/></a>
 
