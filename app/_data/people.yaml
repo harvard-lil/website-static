@@ -285,6 +285,19 @@ sankalp-bhatnagar:
   current: true
   section: Affiliates
 
+george-he:
+  name: George He
+  sort_name: He
+  role: Summer Fellow
+  bio: >-
+    George He is a Harvard Law School graduate, and has experience as a software engineer and AI researcher. He has worked at large tech companies and startups alike, leading infrastructure and AI-focused projects. He is driven by a passion for streamlining adoption of new technology, and his research at LIL focuses on generative media.
+  website: https://georgehe.me/
+  github_account_name: georgehe4
+  image: george-he.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
+
 katy-ilonka-gero:
   name: Katy Ilonka Gero
   sort_name: Gero
