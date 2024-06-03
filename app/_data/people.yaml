@@ -262,29 +262,6 @@ jonathan-zittrain:
   section: Faculty Director
 
 # Fellows and others
-sankalp-bhatnagar:
-  name: Sankalp Bhatnagar
-  sort_name: Bhatnagar
-  role: Fellow
-  bio: >
-    Sankalp Bhatnagar gained his first exposure to the work of legal
-    design in a seminar on law, justice, and design at Harvard Law
-    School, after which he taught and led efforts to advance this
-    field and its directions at Northeastern University School of
-    Law. He is joining the Library Innovation Lab as a research fellow
-    for the academic year to carry out a project in partnership with
-    NuLawLab, where he is a senior researcher and has previously been
-    a research resident. Sankalp is designing a workbook of exercises
-    for law students tasked with crafting and choosing between legal
-    alternatives, which he envisions as a resource not only for future
-    lawyers or judges, but innovators, upstanders, and leaders today.
-  email: sbhatnagar@law.harvard.edu
-  website: http://www.linkedin.com/in/sankalpbisme
-  image: sankalp-bhatnagar.jpg
-  affiliated: true
-  current: true
-  section: Affiliates
-
 george-he:
   name: George He
   sort_name: He
@@ -430,6 +407,13 @@ karen-beck:
   sort_name: Beck
   role: Manager, Historical & Special Collections
   affiliated: false
+
+sankalp-bhatnagar:
+  name: Sankalp Bhatnagar
+  sort_name: Bhatnagar
+  role: Fellow
+  website: http://www.linkedin.com/in/sankalpbisme
+  affiliated: true
 
 anna-bialas:
   name: Anna Bialas
