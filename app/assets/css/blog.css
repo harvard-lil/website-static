@@ -59,7 +59,7 @@
 }
 
 .post-content a:after {
-  content: '';
+  content: "\00a0";
   position: absolute;
   bottom: 2px;
   left: 0;

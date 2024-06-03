@@ -144,7 +144,7 @@ lil-header.expanded .nav-menu__overlay {
 }
 
 .interactive-link:after {
-  content: '';
+  content: "\00a0";
   position: absolute;
   bottom: 2px;
   left: 0;
@@ -246,7 +246,7 @@ lil-header.expanded .nav-menu__overlay {
 }
 
 .card-link:after {
-  content: '';
+  content: "\00a0";
   position: absolute;
   z-index: 5;
   inset: 0;

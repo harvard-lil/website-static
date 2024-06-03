@@ -2,7 +2,7 @@
   "name": "harvard-lil",
   "version": "1.0.0",
   "description": "Harvard Library Innovation Lab Website",
-  "main": "index.js",
+  "main": "assets/javascripts/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
