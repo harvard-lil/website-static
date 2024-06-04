@@ -59,7 +59,7 @@ strong {
   width: 100%;
   position: absolute;
   top: 50%;
-  transform: translateY(calc(50% + 8px)) rotate(0deg);
+  transform: translateY(calc(-50% + 8px)) rotate(0deg);
   @apply bg-black;
   height: 4px;
   left: 0;
@@ -67,17 +67,17 @@ strong {
 }
 
 .menu-button__bar:nth-child(2) {
-  transform: translateY(calc(50% - 8px));
+  transform: translateY(calc(-50% - 8px));
 }
 
 lil-header.expanded .menu-button .menu-button__bar {
-  transform: translateY(50%) rotate(45deg);
+  transform: translateY(-50%) rotate(45deg);
   background-color: white;
   transition: background-color 300ms ease 300ms, transform 300ms ease;
 }
 
 lil-header.expanded .menu-button .menu-button__bar:nth-child(2) {
-  transform: translateY(50%) rotate(-45deg);
+  transform: translateY(-50%) rotate(-45deg);
 }
 
 lil-header svg {
@@ -335,6 +335,14 @@ lil-header.expanded .nav-menu__overlay {
   max-width: 800px;
 }
 
+html.is-changing .transition-main {
+  transition: opacity 350ms ease-in-out;
+}
+
+html.is-animating .transition-main {
+  opacity: 0;
+}
+
 @media (max-width: 768px) {
   .page-hero {
     padding-bottom: 40px;
@@ -353,18 +361,46 @@ lil-header.expanded .nav-menu__overlay {
   .h2 {
     font-size: 28px;
   }
+
+  .menu-button {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .menu-button__bar {
+    transform: translateY(calc(-50% + 6px)) rotate(0deg);
+  }
+  
+  .menu-button__bar:nth-child(2) {
+    transform: translateY(calc(-50% - 6px));
+  }
+
+  .label, .page-hero__eyebrow {
+    font-size: 16px;
+  }
+
+  .label-value .value {
+    font-size: 18px;
+  }
+
+  .nav-menu {
+    padding-block: 40px;
+    min-height: 100vh;
+  }
+  
+  .nav-menu__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 500;
+  }
 }
 
 @media (prefers-reduced-motion) {
   *, *:after, *:before {
     transition: none !important;
   }
-}
-
-html.is-changing .transition-main {
-  transition: opacity 350ms ease-in-out;
-}
-
-html.is-animating .transition-main {
-  opacity: 0;
 }

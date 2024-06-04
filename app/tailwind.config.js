@@ -61,10 +61,13 @@ module.exports = {
             letterSpacing: '0.07em',
           }
         ],
-        16: '16px',
-        18: '18px',
-        24: '24px',
-        50: '50px',
+        ...new Array(401)
+          .fill()
+          .map((_, i) => i)
+          .reduce((acc, val) => {
+            acc[val] = `${val}px`
+            return acc
+          }, {}),
       },
       borderWidth: {
         0: '0px',
@@ -74,13 +77,15 @@ module.exports = {
         header: 100
       },
       // Auto generate spacing values up to 200px, will be purged if not used
-      spacing: (() => {
-        let spacing = {};
-        for (let i = 0; i <= 300; i++) {
-          spacing[i] = `${i}px`;
-        }
-        return spacing;
-      })(),
+      spacing: {
+        ...new Array(401)
+          .fill()
+          .map((_, i) => i)
+          .reduce((acc, val) => {
+            acc[val] = `${val}px`
+            return acc
+          }, {}),
+      }
     },
     keyframes: {
       'rotate': {
