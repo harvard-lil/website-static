@@ -206,7 +206,7 @@ lil-header.expanded .nav-menu__overlay {
 }
 
 .page-hero__title {
-  font-size: clamp(64px, 12vw, 140px);
+  font-size: clamp(52px, 12vw, 140px);
   font-weight: 500;
   line-height: 100%;
   padding-bottom: 12px;
@@ -278,6 +278,8 @@ lil-header.expanded .nav-menu__overlay {
 .expandable__toggle--title {
   max-width: 450px;
   text-align: left;
+  line-height: 120%;
+  flex: 1;
 }
 
 .expandable__icon {
@@ -369,6 +371,7 @@ html.is-animating .transition-main {
   
   .menu-button__bar {
     transform: translateY(calc(-50% + 6px)) rotate(0deg);
+    height: 3px;
   }
   
   .menu-button__bar:nth-child(2) {
@@ -396,6 +399,45 @@ html.is-animating .transition-main {
     font-size: 32px;
     line-height: 32px;
     font-weight: 500;
+  }
+
+  .page-hero__title {
+    padding-bottom: 0;
+  }
+
+  .interactive-link {
+    text-decoration: underline;
+  }
+  
+  .interactive-link:after {
+    display: none;
+  }
+
+  .nav-menu__list a, .footer-nav a {
+    text-decoration: none;
+  }
+
+  .expandable__toggle {
+    font-size: 16px;
+    padding-block: 16px;
+  }
+
+  .expandable__toggle--title {
+    max-width: 300px;
+  }
+
+  .expandable__icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .expandable__icon div {
+    width: 14px;
+  }
+
+  .expandable__content--inner {
+    padding-bottom: 32px;
+    padding-top: 10px;
   }
 }
 

@@ -17,9 +17,9 @@
     {% endif %}
   </header>
   <div class="flex flex-col gap-8">
-    <h2 class="text-18 leading-115 font-medium" itemprop="headline">
+    <h2 class="text-16 md:text-18 leading-120 font-medium" itemprop="headline">
       <a href="{{ include.post.url}}" class="card-link">{{ include.post.title | smartify }}</a>
     </h2>
-    <time class="text-18 leading-00" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+    <time class="text-16 md:text-18 leading-100" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
   </div>
 </article>

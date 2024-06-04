@@ -1,12 +1,12 @@
 {% assign person = include.person %}
 
-  <div class="flex flex-col gap-28 relative py-50" id="{{ person.name | slugify }}">
+  <div class="flex flex-col gap-28 relative py-32 md:py-50" id="{{ person.name | slugify }}">
     {% if include.border == 'true' %}
-      <div class="hidden md:block absolute md:-right-30 lg:-right-60 top-0 w-1 h-full bg-black"></div>
+      <div class="hidden md:block absolute md:-right-30 lg:-right-60 -top-10 md:top-0 w-1 h-full bg-black"></div>
     {% endif %}
 
     {% if include.tag != 'false' %}
-      <h3 class="label absolute top-0 left-0">{{ include.tag }}</h3>
+      <h3 class="label absolute -top-10 md:top-0 left-0">{{ include.tag }}</h3>
     {% endif %}
 
     <figure>

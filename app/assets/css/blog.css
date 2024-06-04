@@ -20,6 +20,8 @@
 
 .post-content iframe {
   width: 100%;
+  height: auto;
+  aspect-ratio: 16/10;
   margin: 0;
   padding: 0;
 }
