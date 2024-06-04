@@ -54,13 +54,6 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        'announcement': [
-          '16px',
-          {
-            lineHeight: '18px',
-            letterSpacing: '0.07em',
-          }
-        ],
         ...new Array(401)
           .fill()
           .map((_, i) => i)
