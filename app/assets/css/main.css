@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "NeueHaasGrotesk";
-  src: url('../fonts/NeueHaasGroteskDisplayPro55Roman.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro55Roman.woff') format('woff');
+  src: url('../fonts/NeueHaasGroteskTextPro55Roman.woff2') format('woff2'), url('..fonts/NeueHaasGroteskTextPro55Roman.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -82,8 +82,12 @@ lil-header.expanded .menu-button .menu-button__bar:nth-child(2) {
 
 lil-header svg {
   transition: color 300ms ease;
-  transition-delay: 400ms;
+  /* transition-delay: 400ms; */
   color: #121212;
+}
+
+lil-header a:hover svg {
+  color: #8AAFBA;
 }
 
 lil-header.expanded svg {
@@ -97,17 +101,22 @@ lil-header.expanded svg {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 800px;
+  max-height: 100svh;
+  overflow: scroll;
   @apply bg-black;
   @apply text-white;
   z-index: 1;
+  padding-block: 40px;
+  clip-path: inset(0% 0% 100% 0%);
+}
+
+.nav-menu__inner {
   display: flex;
   flex-direction: column;
   gap: 50px;
   align-items: center;
+  min-height: 800px;
   justify-content: end;
-  padding-block: 40px;
-  clip-path: inset(0% 0% 100% 0%);
 }
 
 .nav-menu__list {
@@ -230,7 +239,7 @@ lil-header.expanded .nav-menu__overlay {
 
 .body-text, .expandable__content {
   font-size: 24px;
-  line-height: 120%;
+  line-height: 140%;
 }
 
 .h1 {
