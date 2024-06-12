@@ -262,6 +262,20 @@ jonathan-zittrain:
   section: Faculty Director
 
 # Fellows and others
+nayun-eom:
+  name: Nayun Eom
+  sort_name: Eom
+  role: Summer Research Assistant
+  bio: >-
+    Nayun is a PhD student in sociology at Harvard. Her curiosities revolve around how increasingly advanced AI systems change human-to-human relationships. Her research broadly spans the impact of AI for workers, creatives, and caregivers.
+  email: neom@fas.harvard.edu
+  website:
+  github_account_name:
+  image: nayun-eom.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
+
 george-he:
   name: George He
   sort_name: He
