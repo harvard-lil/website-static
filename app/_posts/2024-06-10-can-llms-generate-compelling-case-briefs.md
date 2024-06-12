@@ -75,7 +75,7 @@ However, an additional evaluative prompt now standardizes outputs and ensures cr
 </figure>
 
 
-See: [Initial and Evaluative prompts](/assets/misc/2024-06-10-can-llms-generate-compelling-case-briefs-prompts.pdf)
+See: [Initial and Evaluative prompts](https://lil-blog-media.s3.amazonaws.com/2024-06-10-can-llms-generate-compelling-case-briefs-prompts.pdf)
 
 Finally, after testing various temperature and max_token levels, I settled on the values 0.1 and 1500, respectively. I discovered that lower temperatures best suit the professional nature of legal writing, and a 1500 maximum output window allowed the LLM to produce all necessary elements of a case brief without including additional “fluff”.
 
@@ -85,18 +85,18 @@ To test this apparatus, I picked five fundamental constitutional law cases from 
 
 Results of each case brief are below.
 
-- [Marbury v. Madison (1803)](/assets/misc/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief01.pdf)
-- [Dred Scott v. Sandford (1857)](/assets/misc/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief02.pdf)
-- [Plessy v. Ferguson (1896)](/assets/misc/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief03.pdf)
-- [Brown v. Board of Education (1954)](/assets/misc/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief04.pdf)
-- [Miranda v. Arizona (1966)](/assets/misc/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief05.pdf)
+- [Marbury v. Madison (1803)](https://lil-blog-media.s3.amazonaws.com/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief01.pdf)
+- [Dred Scott v. Sandford (1857)](https://lil-blog-media.s3.amazonaws.com/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief02.pdf)
+- [Plessy v. Ferguson (1896)](https://lil-blog-media.s3.amazonaws.com/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief03.pdf)
+- [Brown v. Board of Education (1954)](https://lil-blog-media.s3.amazonaws.com/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief04.pdf)
+- [Miranda v. Arizona (1966)](https://lil-blog-media.s3.amazonaws.com/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief05.pdf)
 
 Of course, I also tested the model on cases no LLM had ever seen before. This would ensure that our approach could still produce quality briefs past the knowledge cut-off for our model, which was December 2023 in this case. These include _Trump v. Anderson (2024)_ and _Lindke v. Freed (2024)_. 
 
 Results of each case brief are below, with attributes –– temperature = 0.1. max_bits = 1500.
 
-- [Trump v. Anderson (2024)](/assets/misc/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief06.pdf)
-- [Lindke v. Freed (2024)](/assets/misc/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief07.pdf)
+- [Trump v. Anderson (2024)](https://lil-blog-media.s3.amazonaws.com/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief06.pdf)
+- [Lindke v. Freed (2024)](https://lil-blog-media.s3.amazonaws.com/2024-06-10-can-llms-generate-compelling-case-briefs-casebrief07.pdf)
 
 Applying a critical eye to the case briefs, I see a successful adherence to structure and how the model has outputted case details consistently. There is also a clearly succinct tone that allows students to grasp core rulings and their significance without getting overrun with excessive details. This is particularly useful for discussion review and exam preparation. Further, I find the contextual knowledge presented, such as in _Dred Scott v. Sandford_, allow students to understand cases beyond mere fact and holding but also broader implications.
 
