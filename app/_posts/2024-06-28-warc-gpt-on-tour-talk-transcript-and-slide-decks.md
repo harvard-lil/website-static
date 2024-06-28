@@ -7,7 +7,7 @@ tags:
 ---
 <img src="https://lil-blog-media.s3.amazonaws.com/warc-gpt-banner.png" alt=""/>
 
-Over the past couple of months, my colleague Kristi Mukk and I had the opportunity to talk about [WARC-GPT](https://lil.law.harvard.edu/blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/) and the concept of Librarianship of AI to the greater [GLAM](https://en.wikipedia.org/wiki/GLAM_(cultural_heritage) community: 
+Over the past couple of months, my colleague Kristi Mukk and I had the opportunity to talk about [WARC-GPT](https://lil.law.harvard.edu/blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/) and the concept of Librarianship of AI to the greater [GLAM](https://en.wikipedia.org/wiki/GLAM_(cultural_heritage)) community: 
 
 * In March, at an event organized by Harvard Library about [AI at Harvard Library](https://libcal.library.harvard.edu/event/12113771).
 * In April, at the [2024 Web Archiving Conference of the International Internet Preservation Consortium ](https://netpreserve.org/ga2024/)(IIPC), which was held in Paris.
