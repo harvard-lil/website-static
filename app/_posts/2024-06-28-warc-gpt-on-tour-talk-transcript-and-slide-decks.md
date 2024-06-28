@@ -10,7 +10,7 @@ tags:
 Over the past couple of months, my colleague Kristi Mukk and I had the opportunity to talk about [WARC-GPT](https://lil.law.harvard.edu/blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/) and the concept of Librarianship of AI to the greater [GLAM](https://en.wikipedia.org/wiki/GLAM_(cultural_heritage)) community: 
 
 * In March, at an event organized by Harvard Library about [AI at Harvard Library](https://libcal.library.harvard.edu/event/12113771).
-* In April, at the [2024 Web Archiving Conference of the International Internet Preservation Consortium ](https://netpreserve.org/ga2024/)(IIPC), which was held in Paris.
+* In April, at the [2024 Web Archiving Conference of the International Internet Preservation Consortium](https://netpreserve.org/ga2024/) (IIPC), which was held in Paris.
 * In May, at a community call organized by [AI4LAM](https://github.com/AI4LAM).
 * In June, at an event organized by the [Web Archiving section of the Society of American Archivists](https://connect.archivists.org/discussion/discussion-web-archiving-and-ai-1).
 
