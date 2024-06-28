@@ -27,14 +27,7 @@ This project is part of our [ongoing series exploring how artificial intelligenc
 Here's an excerpt from the talk we gave at an event organized by the [Web Archiving section of the Society of American Archivists](https://connect.archivists.org/discussion/discussion-web-archiving-and-ai-1) on June 14th, 2024:
 
 <div class="embed-container">
-  <iframe src="https://vimeo.com/964817363"
-          width="640"
-          height="480"
-          frameborder="0"
-          webkitallowfullscreen
-          mozallowfullscreen
-          allowfullscreen>
-  </iframe>
+  <iframe src="https://player.vimeo.com/video/964817363?h=252032cc56" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
