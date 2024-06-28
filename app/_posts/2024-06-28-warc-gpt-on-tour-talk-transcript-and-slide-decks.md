@@ -1,6 +1,6 @@
 ---
 title: "WARC-GPT \u201Con tour\u201D: Talk transcript and slide decks"
-author: matteo-cargnelutti
+author: matteo-cargnelutti,kristi-mukk,clare-stanton
 excerpt_separator: <!--more-->
 tags:
 - AI Research
