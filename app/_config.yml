@@ -48,7 +48,8 @@ collections:
     output: true
     permalink: /projects/:slug/
   projects_retired:
-    output: false
+    output: true
+    permalink: /projects/:slug/
   sketches_active:
     output: true
     permalink: /sketches/:slug/
@@ -57,6 +58,9 @@ collections:
   events:
     output: true
     permalink: /events/:slug/
+  research:
+    output: true
+    permalink: /research/:slug/
 
 # Plugins
 news_feed_for:
@@ -78,10 +82,22 @@ defaults:
       type: project
   - scope:
       path: ""
+      type: projects_retired
+    values:
+      layout: project
+      type: project
+  - scope:
+      path: ""
       type: events
     values:
       layout: event
       type: event
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
+      type: research
   - scope:
       path: ""
       type: sketches_active
