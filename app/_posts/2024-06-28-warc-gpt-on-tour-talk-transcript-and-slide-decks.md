@@ -54,7 +54,7 @@ At the same time, this all feels very much underwhelming:
 * But if veracity is a concern, so is accuracy, and impressive AI output doesn't always stand the test of scrutiny, as you might be able to see in the example I generated and pasted here.
 
 But overall, this moment feels disempowering:
-* We're being told that AI will do everything and it's opposite, that it's going to take all the jobs and create all the jobs, create an economic boom and economic collapse ... but rarely are we told that we have a role to play in shaping what AI can and will do for us.
+* We're being told that AI will do everything and its opposite, that it's going to take all the jobs and create all the jobs, create an economic boom and economic collapse ... but rarely are we told that we have a role to play in shaping what AI can and will do for us.
 * We're constantly exposed to ethereal imagery of superhuman intelligence, showing AI as a sort of unstoppable force. Most news articles I read about AI feature an illustration like one of the three I generated for this slide, and I don't think this helps me feel empowered to experiment with AI.
 
 What we're trying to do is to take a step back and wonder: 
@@ -111,7 +111,7 @@ By the way WARC-GPT comes with a feature that lets you generate that kind of plo
 
 It also lets you configure deeply how this RAG pipeline works, as there is no one size fits all.
 
-**Kristi: **We put WARC-GPT to the test with a small experiment to see if it behaved as designed. We were particularly interested in seeing how WARC-GPT might be able to highlight the utility and value of web archives by allowing users to access web archives in a new way, potentially offering a different starting point for scholarly inquiry. How might WARC-GPT help reveal connections that may have been hidden or hard to find, or help you find relevant resources more quickly? 
+**Kristi:** We put WARC-GPT to the test with a small experiment to see if it behaved as designed. We were particularly interested in seeing how WARC-GPT might be able to highlight the utility and value of web archives by allowing users to access web archives in a new way, potentially offering a different starting point for scholarly inquiry. How might WARC-GPT help reveal connections that may have been hidden or hard to find, or help you find relevant resources more quickly? 
 
 So we put together a small thematic collection of 78 URLs about the lunar landing missions of India and Russia in 2023, and we chose this topic because the model we were using for this experiment was likely unaware of recent developments in these missions as the model was trained and released before the missions were launched and completed. For our experiment, we used WARC-GPT’s default configuration using Mistral 7B as our model at temperature 0.0 on a set of 10 questions in a zero-shot prompting scenario, comparing both with and without RAG. 
 
