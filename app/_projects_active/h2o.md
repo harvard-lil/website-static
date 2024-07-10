@@ -10,7 +10,7 @@ description: H2O Open Casebook is a platform for legal educators who want to fin
 project_website: https://opencasebook.org/
 github_repo: https://github.com/harvard-lil/h2o
 start_date:
-order: 1
+order: 2
 
 ### MEDIA ###
 # Required

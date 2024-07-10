@@ -10,7 +10,7 @@ description: The Caselaw Access Project is an online database of over 6 million 
 project_website: https://case.law/
 github_repo: https://github.com/harvard-lil/capstone
 start_date:
-order: 0
+order: 1
 ### MEDIA ###
 # Required
 

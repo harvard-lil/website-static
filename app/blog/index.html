@@ -24,8 +24,11 @@ custom-css: ['blog']
 
     <div class="post-grids__default">
       <div class="container grid grid-cols-2 gap-x-8 gap-y-20 md:gap-y-24 md:gap-x-24 md:grid-cols-4">
+        {% assign last_random_number = nil %}
         {% for post in paginator.posts %}
-          {% include post-card.html post=post %}
+          {% assign random_number = 5 | random_number: last_random_number %}
+          {% include post-card.html post=post thumb_index=random_number %}
+          {% assign last_random_number = random_number %}
         {% endfor %}
       </div>
 
