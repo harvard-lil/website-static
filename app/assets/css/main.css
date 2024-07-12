@@ -396,7 +396,7 @@ html.is-animating .transition-main {
 
   .nav-menu {
     padding-block: 40px;
-    min-height: 100vh;
+    min-height: 100svh;
   }
   
   .nav-menu__list {
