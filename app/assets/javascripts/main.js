@@ -26,11 +26,11 @@ function safeDuration(duration) {
 */
 
 class jekyllSearch {
-    constructor(dataSource, searchField, resultsList, siteURL) {
+    constructor(dataSource, searchField, resultsList, form) {
       this.dataSource = dataSource
       this.searchField = document.querySelector(searchField)
       this.resultsList = document.querySelector(resultsList)
-      this.siteURL = siteURL
+      this.form = form
   
       this.displayResults = this.displayResults.bind(this)
     }
@@ -73,6 +73,12 @@ class jekyllSearch {
         this.resultsList.innerHTML = html
       }
     }
+
+    reset() {
+        this.resultsList.innerHTML = ''
+        const url = window.location.href?.split('?')[0]
+        window.history.pushState('', '', url);
+    }
   
     init() {
       const url = new URL(document.location)
@@ -81,16 +87,22 @@ class jekyllSearch {
         this.displayResults()
       }
 
-      this.searchField.addEventListener('keyup', () => {
+      this.searchField?.addEventListener('search', () => {
+        this.reset();
+      })
+
+      this.form?.addEventListener('submit', (event) => {
+        event.preventDefault();
         this.displayResults()
         if (this.searchField.value && this.searchField.value !== '') {
-          url.searchParams.set("search", this.searchField.value)
-          window.history.pushState('', '', url.href)
+            url.searchParams.set("search", this.searchField.value)
+            window.history.pushState('', '', url.href)
         } else {
-          url.searchParams.delete("search")
-          window.history.pushState('', '', url.href)
+            url.searchParams.delete("search")
+            window.history.pushState('', '', url.href)
         }
       })
+
       this.searchField.addEventListener('keypress', event => {
         if (event.keyCode == 13) {
           event.preventDefault()
@@ -105,10 +117,12 @@ class LilSearch extends HTMLElement {
         this.searchFile = '/search.json'
         this.searchInputSelector = '#search'
         this.searchResultsSelector = '#list'
+        this.form = this.querySelector('form');
         this.search = new jekyllSearch(
             this.searchFile,
             this.searchInputSelector,
             this.searchResultsSelector,
+            this.form
         );
 
         this.init();
