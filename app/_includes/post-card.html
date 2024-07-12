@@ -14,10 +14,12 @@
   <header class="aspect-square w-full bg-gray relative">
     {% if first_img_src != '' %}
       <img src="{{ first_img_src }}" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title }}" />
-    {% else if include.post.thumbnail %}
-      <img src="{{ include.post.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title }}" />
     {% else %}
-      <img src="/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title }}" />
+      {% if include.post.thumbnail %}
+        <img src="{{ include.post.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title }}" />
+      {% else %}
+        <img src="/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title }}" />
+      {% endif %}
     {% endif %}
   </header>
   <div class="flex flex-col gap-8">

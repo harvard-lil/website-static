@@ -128,22 +128,36 @@ class LilHeader extends HTMLElement {
         this.menu = this.querySelector('.nav-menu');
         this.overlay = this.querySelector('.nav-menu__overlay');
         this.links = this.querySelectorAll('.nav-menu a');
+        this.logo = this.querySelector('.logo');
 
         this.menuButton.addEventListener('click', this.toggleMenu.bind(this));
         this.overlay.addEventListener('click', this.toggleMenu.bind(this));
-        this.setupLinkEvents();
+        this.addEventListeners();
     }
 
-    setupLinkEvents() {
-        this.links.forEach(link => {
+    addEventListeners() {
+        this.links?.forEach(link => {
             link.addEventListener('click', this.toggleMenu.bind(this));
         });
+
+        this.logo?.addEventListener('click', this.closeMenu.bind(this));
     }
 
     closeOnEscape(event) {
         if (event.key === 'Escape' && this.expanded) {
             this.toggleMenu();
         }
+    }
+
+    closeMenu() {
+        this.expanded = false;
+        this.menuButton.setAttribute('aria-expanded', this.expanded);
+        this.menu.setAttribute('aria-hidden', !this.expanded);
+        document.body.style.overflow = 'auto';
+        window.removeEventListener('keydown', this.closeOnEscape.bind(this));
+        this.classList.remove('expanded');
+        this.menuButton.setAttribute('aria-label', 'Open menu');
+        this.menuCloseAnimation()
     }
 
     toggleMenu() {

@@ -103,19 +103,18 @@ lil-header.expanded svg {
   width: 100%;
   max-height: 100svh;
   overflow: scroll;
-  @apply bg-black;
-  @apply text-white;
+  @apply bg-black text-white flex flex-col justify-end md:block;
   z-index: 1;
   padding-block: 40px;
   clip-path: inset(0% 0% 100% 0%);
 }
 
 .nav-menu__inner {
+  @apply md:min-h-[800px];
   display: flex;
   flex-direction: column;
   gap: 50px;
   align-items: center;
-  min-height: 800px;
   justify-content: end;
 }
 
