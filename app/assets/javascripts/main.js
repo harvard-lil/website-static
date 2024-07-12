@@ -26,10 +26,11 @@ function safeDuration(duration) {
 */
 
 class jekyllSearch {
-    constructor(dataSource, searchField, resultsList, form) {
+    constructor(dataSource, searchField, resultsList, form, clearButton) {
       this.dataSource = dataSource
       this.searchField = document.querySelector(searchField)
       this.resultsList = document.querySelector(resultsList)
+      this.clearButton = document.querySelector(clearButton)
       this.form = form
   
       this.displayResults = this.displayResults.bind(this)
@@ -76,6 +77,7 @@ class jekyllSearch {
 
     reset() {
         this.resultsList.innerHTML = ''
+        this.searchField.value = ''
         const url = window.location.href?.split('?')[0]
         window.history.pushState('', '', url);
     }
@@ -87,7 +89,7 @@ class jekyllSearch {
         this.displayResults()
       }
 
-      this.searchField?.addEventListener('search', () => {
+      this.clearButton?.addEventListener('click', () => {
         this.reset();
       })
 
@@ -118,11 +120,13 @@ class LilSearch extends HTMLElement {
         this.searchInputSelector = '#search'
         this.searchResultsSelector = '#list'
         this.form = this.querySelector('form');
+        this.clearButtonSelector = '[data-clear-button]'
         this.search = new jekyllSearch(
             this.searchFile,
             this.searchInputSelector,
             this.searchResultsSelector,
-            this.form
+            this.form,
+            this.clearButtonSelector
         );
 
         this.init();
