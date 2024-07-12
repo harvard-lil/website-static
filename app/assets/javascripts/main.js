@@ -342,8 +342,6 @@ function setupSwup() {
     const swup = new Swup({
         plugins: [new SwupHeadPlugin()],
     });
-    
-    swup.hooks.on('visit:end', setup)
 }
 
 const setup = () => {
