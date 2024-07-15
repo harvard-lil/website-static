@@ -3,7 +3,7 @@ layout: sectioned-page
 custom-css: ['blog']
 ---
 
-<section class="container pt-50 md:pt-80">
+<section class="container pt-50 md:pt-80 pb-100">
   <div class="flex flex-col gap-50 md:gap-120 mb-14 md:mb-56">
     {% include tag-filter.html tags=page.tags %}
     <div class="flex flex-col items-start gap-10 md:gap-20">
@@ -38,19 +38,4 @@ custom-css: ['blog']
       </div>
     </div>
   </article>
-</section>
-<section class="container pb-100 flex flex-col gap-15">
-  <div class="pb-15 border-b-1 border-black">
-    {% include arrow-link.html label="Blog Index" href="/blog" reverse=true %}
-  </div>
-  <h2 class="body-text">Related Articles</h2>
-  <div class="grid grid-cols-2 gap-16 md:grid-cols-4 md:gap-24">
-    {% assign random_posts = site.posts | where_not: "id == page.id" | sample: 4 %}
-    {% assign last_random_number = nil %}
-    {% for post in random_posts %}
-      {% assign random_number = 5 | random_number: last_random_number %}
-      {% include post-card.html post=post thumb_index=random_number %}
-      {% assign last_random_number = random_number %}
-    {% endfor %}
-  </div>
 </section>
