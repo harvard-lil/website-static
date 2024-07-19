@@ -149,6 +149,25 @@ aristana-scourtas:
   current: True
   section: Staff
 
+christopher-setzer:
+  name: Christopher Setzer
+  sort_name: Setzer
+  role: Senior Software Engineer
+  bio: >
+    Chris is a programmer and writer whose professional history includes
+    projects with NOAA's emergency oil spill response team, the New Mexico
+    state judiciary, and an effort to recover Arctic climate data from
+    historic ships' logs. Prior to joining LIL, he built tools and
+    infrastructure to help government organizations share open data. Outside
+    of work, Chris enjoys backpacking and exploring the Pacific Northwest in
+    the company of his mutt.
+  email: csetzer@law.harvard.edu
+  github_account_name: cmsetzer
+  image: christopher-setzer.jpg
+  affiliated: true
+  current: true
+  section: Staff
+
 dakota-sexton:
   name: Dakota Sexton
   sort_name: Sexton
@@ -243,25 +262,29 @@ jonathan-zittrain:
   section: Faculty Director
 
 # Fellows and others
-sankalp-bhatnagar:
-  name: Sankalp Bhatnagar
-  sort_name: Bhatnagar
-  role: Fellow
-  bio: >
-    Sankalp Bhatnagar gained his first exposure to the work of legal
-    design in a seminar on law, justice, and design at Harvard Law
-    School, after which he taught and led efforts to advance this
-    field and its directions at Northeastern University School of
-    Law. He is joining the Library Innovation Lab as a research fellow
-    for the academic year to carry out a project in partnership with
-    NuLawLab, where he is a senior researcher and has previously been
-    a research resident. Sankalp is designing a workbook of exercises
-    for law students tasked with crafting and choosing between legal
-    alternatives, which he envisions as a resource not only for future
-    lawyers or judges, but innovators, upstanders, and leaders today.
-  email: sbhatnagar@law.harvard.edu
-  website: http://www.linkedin.com/in/sankalpbisme
-  image: sankalp-bhatnagar.jpg
+nayun-eom:
+  name: Nayun Eom
+  sort_name: Eom
+  role: Summer Research Assistant
+  bio: >-
+    Nayun is a PhD student in sociology at Harvard. Her curiosities revolve around how increasingly advanced AI systems change human-to-human relationships. Her research broadly spans the impact of AI for workers, creatives, and caregivers.
+  email: neom@fas.harvard.edu
+  website:
+  github_account_name:
+  image: nayun-eom.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
+
+george-he:
+  name: George He
+  sort_name: He
+  role: Summer Fellow
+  bio: >-
+    George He is a Harvard Law School graduate, and has experience as a software engineer and AI researcher. He has worked at large tech companies and startups alike, leading infrastructure and AI-focused projects. He is driven by a passion for streamlining adoption of new technology, and his research at LIL focuses on generative media.
+  website: https://georgehe.me/
+  github_account_name: georgehe4
+  image: george-he.jpg
   affiliated: true
   current: true
   section: Fellows
@@ -291,7 +314,7 @@ katy-ilonka-gero:
 maxwell-neely-cohen:
   name: Maxwell Neely-Cohen
   sort_name: Neely-Cohen
-  role: Contributing Editor
+  role: Fellow and Contributing Editor
   bio: >-
     Max is a novelist, essayist, and editor who loves figuring out how to write about emerging fields, tools, and practices. Outside of his literary ventures, his work in theater, technology, music, video games, and dance have been acclaimed by _The New York Times_, _Frieze_, and _The Financial Times_. He is currently the publisher of The HTML Review and Wikipedian-In-Residence for the National Book Foundation. He is obsessed with libraries and archives.
   email:
@@ -398,6 +421,13 @@ karen-beck:
   sort_name: Beck
   role: Manager, Historical & Special Collections
   affiliated: false
+
+sankalp-bhatnagar:
+  name: Sankalp Bhatnagar
+  sort_name: Bhatnagar
+  role: 2022-2024 Research Fellow
+  website: http://www.linkedin.com/in/sankalpbisme
+  affiliated: true
 
 anna-bialas:
   name: Anna Bialas
