@@ -1,23 +1,39 @@
-{% capture footer-file %}
-  {% if page.custom-footer %}
-    {{ page.slug }}
-  {% else %}
-    home
-  {% endif %}
-{% endcapture %}
+<footer class="bg-black text-white pt-60 pb-40">
+  <div class="container flex flex-wrap md:grid md:grid-cols-12 md:gap-x-20 md:gap-y-26">
+    <a href="/" class="block relative w-full max-w-[160px] md:col-span-4 md:max-w-[340px]">
+      {% include footer-logo.html %}
+    </a>
+    <ul class="footer-nav flex-1 text-right md:text-left md:col-span-6 md:col-start-7 md:text-right md:grid md:grid-cols-2 md:gap-x-20 md:gap-y-10 text-28 md:text-50 leading-[120%] md:leading-[100%] font-medium">
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/projects/">Our Work</a>
+      </li>
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/blog/">Blog</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/about/">About Us</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/jobs/">Careers</a>
+      </li>
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/events/">Events</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/contact/">Contact</a>
+      </li>
+    </ul>
+    <div class="md:col-span-12 flex items-center justify-end gap-15 w-full self-end pt-32 pb-40 md:pt-0 md:pb-0">
+      <a href="{{ site.github_url}}" target="_blank">{% include icon-github.html %}</a>
+      <a href="{{ site.twitter_url }}" target="_blank">{% include icon-x.html %}</a>
+      <a href="{{ site.linkedin_url }}" target="_blank">{% include icon-linkedin.html %}</a>
+    </div>
+    <div class="w-full flex flex-col md:flex-row md:items-center md:justify-between md:gap-20 pt-24 border-t-1 border-white md:col-span-12 text-12 md:text-16">
+      <div class="flex flex-col md:flex-row md:items-center md:gap-100">
+        <p>&copy;2024 The President and Fellows of Harvard University</p>
+      </div>
+      <p><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy">Accessibility</a></p>
+    </div>
+  </div>
+</footer>
 
-{% include footer-logo.html %}
-<ul>
-  <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li><a href="{{ site.baseurl }}/about/">About</a></li>
-  <li><a href="{{ site.baseurl }}/jobs/">Jobs</a></li>
-  <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-  <li><a href="{{ site.baseurl }}/sketches/">Sketches</a></li>
-  <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-  <li><a href="https://ocb.to/lawvocado">Newsletter</a></li>
-</ul>
-<div class="footer-copyright">
-  <p>&copy;2024 The President and Fellows of Harvard University</p>
-  <p>The content on this site is covered under a Creative Commons Attribution-ShareAlike 3.0 Unported license unless otherwise noted.</p>
-  <p><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy">Accessibility</a></p>
-</div>

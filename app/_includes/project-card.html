@@ -1,0 +1,26 @@
+<div class="relative block container {% if include.featured %}pt-80 md:pt-120{% endif %}">
+  {% if include.featured %}
+    <div class="absolute w-72 h-72 md:w-165 md:h-165 top-45 left-24 md:top-40 md:left-50 z-[2] motion-safe:animate-spin">
+      <img src="/assets/images/featured-project-text.svg" class="w-full h-full object-contain" />
+    </div>
+  {% endif %}
+  <div class="{{ include.background }} pt-60 pb-20 md:pt-0 md:pb-0 flex flex-col md:grid md:grid-cols-2 md:items-center relative overflow-hidden md:min-h-[550px]">
+    <div class="flex items-start justify-start md:items-center md:justify-center px-28 md:px-0 pb-28 md:pb-0">
+      <img class="w-full max-w-[200px] max-h-[140px] md:max-w-[350px] md:max-h-[300px] object-contain object-left md:object-center" src="{{ site.baseurl }}/assets/images/{{ include.logo }}" alt="{{ include.title }}" class="w-[150px] h-[150px] md:w-[200px] md:h-[200px]">
+    </div>
+    <div class="w-full p-28 md:p-80 flex flex-col gap-18 md:gap-30">
+      <strong class="h2">{{ include.title }}</strong>
+      <p class="body-text max-w-[550px]">{{ include.description }}</p>
+      <div class="flex flex-col md:flex-row md:items-center gap-18 md:gap-32 pt-10 md:pt-20">
+        {% if include.linkOne %}
+          {% include arrow-link.html label=include.linkOneLabel href=include.linkOne target="_blank" %}
+        {% endif %}
+        {% if include.linkTwo %}
+        {% include arrow-link.html label=include.linkTwoLabel href=include.linkTwo target="_self" %}
+        {% endif %}
+      </div>
+    </div>
+    <div aria-hidden="true" class="absolute w-[150px] h-[150px] bg-white top-0 left-0 rotate-45 -translate-y-[75%] -translate-x-[75%] md:-translate-y-[60%] md:-translate-x-[60%]"></div>
+    <div aria-hidden="true" class="absolute w-[150px] h-[150px] bg-white bottom-0 right-0 rotate-45 translate-x-[75%] translate-y-[75%] md:translate-y-[60%] md:translate-x-[60%]"></div>
+  </div>
+</div>

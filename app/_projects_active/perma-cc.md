@@ -2,12 +2,15 @@
 ### PROJECT METADATA ###
 # Required
 title: Perma.cc
+logo: perma-logo.svg
+background_class: bg-yellow
+description: Perma.cc is a web preservation and citation tool that is changing the way lawyers, scholars, journalists, and the public preserve and cite to the web. Online content is incredibly ephemeral - it disappears anytime a website is changed or sunsetted - but we all rely on it and reference it all day, every day. Perma.cc was originally developed to ensure that legal citations of the web maintain their integrity even as the information originally cited may have since disappeared, but its utility expands far beyond the bounds of the law.
 
 # Optional
 project_website: https://perma.cc/
 github_repo: https://github.com/harvard-lil/perma
 start_date:
-order: 3
+order: 0
 ### MEDIA ###
 # Required
 

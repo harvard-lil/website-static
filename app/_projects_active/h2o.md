@@ -1,13 +1,16 @@
 ---
 ### PROJECT METADATA ###
 # Required
-title: H2O
+title: H2O Open Casebook
+logo: h20-logo.svg
+background_class: bg-blue
+description: H2O Open Casebook is a platform for legal educators who want to find or create open, customizable casebooks for free. Students will spend several thousand dollars on casebooks by the time they graduate even though the bulk of the content - the cases - are in the public domain and should be freely accessible. Legal education is also changing quickly, and commercial, hardbound casebooks can’t keep up. H2O allows instructors to find open casebooks they can use or adapt, or create their own from scratch.
 
 # Optional
 project_website: https://opencasebook.org/
 github_repo: https://github.com/harvard-lil/h2o
 start_date:
-order: 1
+order: 2
 
 ### MEDIA ###
 # Required

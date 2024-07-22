@@ -1,0 +1,63 @@
+---
+title: Events
+slug: events
+layout: sectioned-page
+---
+
+<section class="container">
+  <div class="page-hero">
+    <h1 class="page-hero__title">{{ page.title }}</h1>
+  </div>
+</section>
+
+<div class="flex flex-col gap-56 pb-150">
+  <section class="container">
+    <div class="w-full relative">
+      <figure>
+        <picture>
+          <source media="(min-width: 600px)"
+                  srcset="{{ site.baseurl }}/assets/images/transform-justice-banner-large.jpg"
+                  sizes="100vw">
+          <source srcset="{{ site.baseurl }}/assets/images/transform-justice-banner-small.jpg">
+          <img src="{{ site.baseurl }}/assets/images/transform-justice-banner-small.jpg"
+              alt=""
+              class="img-full-width">
+        </picture>
+      </figure>
+    </div>
+  </section>
+  <section class="container">
+    <div class="flex flex-col gap-50 md:gap-120">
+      <div class="flex flex-col items-start gap-20">
+        <div class="label">Next Event</div>
+        <div class="flex flex-col md:grid md:grid-cols-3 gap-32 pb-60">
+          <h1 class="h2">Transform: Justice March 8, 2024</h1>
+          <div class="md:col-span-2 body-text max-w-[700px] pt-10 flex flex-col items-start gap-50">
+            <p>
+              A celebration of the full, unqualified release of the data from the Caselaw Access Project will be the anchor of an event focused on the future of the access to law movement. Speakers across government, academia, and industry will sketch out the opportunities ahead of us for expanding access to legal data and its waterfall effects across society and justice.
+            </p>
+            {% include arrow-link.html label="More Info" href="/events/transform-justice" reverse=true %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% if site.events.size > 0 %}
+    <section class="container flex flex-col items-start gap-40">
+      <h2 class="h2">Past</h2>
+      <div class="flex flex-col items-start w-full">
+        {% assign events = site.events | sort: 'date' | reverse %}
+        {% for event in events %}
+          <div class="body-text w-full py-32 border-t-1 border-black first-of-type:border-t-0 last-of-type:border-b-1 flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative md:items-center">
+            <span class="label col-span-3">{{ event.date | date: "%m/%d/%y" }}</span>
+            <span class="col-span-6"><strong>{{event.title}}</strong> - {{event.short_description}}</span>
+            <span class="col-span-3 flex md:justify-end pt-20 md:pt-0">
+              {% include arrow-link.html label="More Info" href=event.url target=target card_link="true" %}
+            </span>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</div>

@@ -1,0 +1,49 @@
+---
+title: Contact
+slug: contact
+description: Follow us on Twitter or shoot us an email if you’re interested in any of our projects or sketches. All of our code is open source. Send a pull request on GitHub if you want to collaborate.
+layout: sectioned-page
+---
+
+<section class="container">
+  <div class="page-hero">
+    <h1 class="page-hero__title">{{ page.title }}</h1>
+    <h2 class="page-hero__subtitle">{{page.description}}</h2>
+  </div>
+</section>
+
+<section class="container pb-100 md:pb-200">
+  <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
+    <h2 class="h2">Get in touch</h2>
+    <div class="md:col-span-2 body-text flex flex-col gap-50 pt-24 flex flex-col md:grid md:grid-cols-2 gap-24 md:gap-32">
+      <div class="flex flex-col gap-50">
+        <div class="label-value">
+          <h3 class="label">Email</h3>
+          <a href="mailto:lil@law.harvard.edu" class="value interactive-link dark reverse">lil@law.harvard.edu</a>
+        </div>
+        <div class="label-value">
+          <h3 class="label">Contact us in person</h3>
+          <address class="value flex flex-col not-italic">
+            <span>The Reginald F. Lewis Law Center</span>
+            <span>1557 Massachusetts Avenue</span>
+            <span>Cambridge, MA 02138</span>
+          </address>
+          {% include arrow-link.html label="Map" href="#" target="_blank" reverse=true %}
+        </div>
+      </div>
+      <div class="flex flex-col gap-32">
+        <div class="label-value">
+          <h3 class="label">Newsletter</h3>
+          <p class="value max-w-[330px]">
+            Get updates on our latest projects and research.
+          </p>
+          {% include arrow-link.html label="Sign Up" href="https://ocb.to/lawvocado" target="_blank" reverse=true %}
+        </div>
+        <div class="label-value">
+          <h3 class="label">GitHub</h3>
+          {% include arrow-link.html label="GitHub" href=site.github_url target="_blank" reverse=true %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

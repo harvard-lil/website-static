@@ -1,0 +1,23 @@
+---
+layout: sectioned-page
+custom-css: ['blog']
+---
+
+<section class="container">
+  <div class="page-hero">
+    <div class="page-hero__eyebrow">
+      <a href="/projects/" class="interactive-link dark">Research</a>
+    </div>
+    <h1 class="page-hero__title">{{ page.title }}</h1>
+  </div>
+</section>
+
+<section class="container post">
+  <article role="article" class="flex flex-col gap-24 md:grid md:grid-cols-12 body-text pb-150">
+    <div class="md:col-span-8 md:col-start-3 flex flex-col gap-72" itemprop="articleBody">
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </div>
+  </article>
+</section>

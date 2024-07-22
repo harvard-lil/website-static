@@ -5,12 +5,16 @@ markdown: kramdown
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-postcss
 liquid:
   error_mode: strict
 sass:
   sass_dir: _scss
   style: nested
+postcss:
+  cache: false
 timezone: Etc/GMT
+
 
 # Site settings
 title: The Library Innovation Lab at Harvard University
@@ -24,6 +28,8 @@ sharing-image: "thumbs/800x800r/lil-primary-black.png"
 email: lil@law.harvard.edu
 twitter_account_name: HarvardLIL
 twitter_url: https://twitter.com/harvardlil
+linkedin_account_name: libraryinnovationlab
+linkedin_url: https://www.linkedin.com/company/libraryinnovationlab/
 facebook_url: https://www.facebook.com/HarvardLibraryInnovationLab/
 github_account_name: harvard-lil
 github_url:  https://github.com/harvard-lil
@@ -42,12 +48,19 @@ collections:
     output: true
     permalink: /projects/:slug/
   projects_retired:
-    output: false
+    output: true
+    permalink: /projects/:slug/
   sketches_active:
     output: true
     permalink: /sketches/:slug/
   sketches_retired:
     output: false
+  events:
+    output: true
+    permalink: /events/:slug/
+  research:
+    output: true
+    permalink: /research/:slug/
 
 # Plugins
 news_feed_for:
@@ -67,6 +80,24 @@ defaults:
     values:
       layout: project
       type: project
+  - scope:
+      path: ""
+      type: projects_retired
+    values:
+      layout: project
+      type: project
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+      type: event
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
+      type: research
   - scope:
       path: ""
       type: sketches_active
@@ -104,7 +135,7 @@ pagination:
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 10
+  per_page: 12
 
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/page/:num/' # Pages are index.html inside this folder (default)

@@ -1,91 +1,104 @@
 ---
 layout: sectioned-page
-title: Growing knowledge and community by bringing library principles to technological frontiers.
-title-tag-complete: The Library Innovation Lab at Harvard University
+title: Library Innovation Lab at Harvard University
+title-tag-complete: The Library Innovation Lab at Harvard Law School
 description: "Home of Perma.cc, H2O, Caselaw Access Project, and others. The Library Innovation Lab is growing knowledge and community by bringing library principles to technological frontiers."
 slug: home
 sharing-card-type: summary_large_image
-custom-scripts: ['home.js']
 ---
 
-<section class="about">
-  <div class="sleeve">
+<div class="pt-50 pb-40 md:pt-[16vh] md:pb-[26vh] flex items-center justify-center text-[clamp(52px,10vw,150px)] leading-[100%] container">
+  <h1>
+    <strong>Library Innovation Lab</strong> at <strong>Harvard Law School</strong>
+  </h1>
+</div>
 
-    <h2>About</h2>
+<div class="bg-black text-white w-full pt-32 pb-32 md:pt-120 md:pb-160 continer text-center flex flex-col justify-center items-center gap-20 md:gap-32">
+  <h2 class="font-mono uppercase tracking-8 text-green text-16 md:text-24 font-normal">Our Mission</h2>
+  <h3 class="text-28 md:text-54 leading-120 max-w-[1120px] tracking-2">To grow knowledge and community by bringing <strong>library principles to technological frontiers.</strong></h3>
+</div>
 
-    <div class="slice">
-      <h3>What’s the Library Innovation Lab?</h3>
-      <div class="slice-body">
-        <p>The Library Innovation Lab is a forward-looking group of thinkers and doers working at the intersection of libraries, technology, and law.</p>
+<div class="bg-blue py-32">
+  <div class="container flex flex-col md:flex-row md:items-center md:justify-between gap-16 md:gap-24">
+    <h2 class="text-14 md:text-18 tracking-8 uppercase font-medium">Follow our latest projects</h2>
+    <ul class="flex items-center gap-60 text-[24px] leading-[120%]">
+      <li>
+        {% include arrow-link.html label="Twitter" href="https://twitter.com" target="_blank" %}
+      </li>
+      <li>
+        {% include arrow-link.html label="Newsletter" href="https://ocb.to/lawvocado" target="_blank" %}
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="flex flex-col gap-50 md:gap-80 pb-120 md:pb-220">
+  {% include 
+    project-card.html 
+    background="bg-yellow" 
+    featured="true" 
+    title="Perma.cc" 
+    description="Perma.cc is a web preservation and citation tool that is changing the way lawyers, scholars, journalists, and the public preserve and cite to the web. Online content is incredibly ephemeral - it disappears anytime a website is changed or sunsetted - but we all rely on it and reference it all day, every day. Perma.cc was originally developed to ensure that legal citations of the web maintain their integrity even as the information originally cited may have since disappeared, but its utility expands far beyond the bounds of the law."
+    logo="perma-logo.svg"
+    linkOne="https://perma.cc/"
+    linkOneLabel="Visit Website"
+    linkTwo="/projects/perma-cc"
+    linkTwoLabel="Learn More"
+  %}
+  <div class="container flex flex-col gap-50 md:gap-100">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 pb-50 md:pb-120 border-b-1 border-black">
+      <h2 class="h2">Who We Are</h2>
+      <div class="md:col-span-2 body-text flex flex-col gap-28 md:gap-50 md:pt-24">
+        <div class="flex flex-col gap-20 max-w-[650px]">
+          <p>The Library Innovation Lab is a team working at the intersection of libraries, technology, and law.</p>
+          <p>Our team combines librarians, technologists, lawyers, and more to build tools and conduct research to empower more people to access and build our shared knowledge and cultural heritage.</p>
+        </div>
+        {% include arrow-link.html label="Learn More About Who We Are" href="/about" %}
       </div>
     </div>
-
-    <div class="slice">
-      <h3>Transform: Justice</h3>
-      <div class="slice-body">
-        <p>
-          <a href="{{ site.baseurl }}/about/cap-celebration/"
-            >Transform: Justice</a
-          >
-          is a call to action during an inflection point for the world of open legal data. AI is shaking up the way we all think about the power of information and data. Free, accessible, and comprehensive access to the law is foundational to our democracy, and we believe we’re in a moment when big progress can be made. Learn more here about this event, held in March 2024.
-        </p>
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-32 md:gap-40 pb-50 md:pb-120 border-b-1 border-black">
+      <h2 class="h2">Our Work</h2>
+      <div class="md:col-span-2 body-text flex flex-col gap-50 pt-24">
+        <div class="flex flex-col gap-20 max-w-[650px]">
+          <p>We build and explore new technology through the lens of library principles. Perma.cc, a web preservation and citation tool; H2O, an open casebook authoring and reading platform; and The Caselaw Access Project, an open database of over 6 million court opinions free and open to the public.</p>
+          <p>We also conduct research to further our understanding of certain technologies and create guides for others working in our field.</p>
+        </div>
+        {% include arrow-link.html label="View All Projects" href="/projects" %}
       </div>
     </div>
-
-    <div class="gallery-sq">
-      <a class="gallery-item" href="{{ site.baseurl }}/about/democratizing-open-knowledge/">
-        <figure>
-          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/haystacks-thumbnail-1.png"
-               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/haystacks-thumbnail-1.png 1x,
-                       {{ site.baseurl }}/assets/thumbs/800x600r/haystacks-thumbnail-1.png 2x"
-               alt=""
-               class="img-full-width">
-        </figure>
-        <strong class="title">Democratizing Open Knowledge</strong>
-        <span class="logline">A 3 year program to explore the goals articulated in Harvard Library's Advancing Open Knowledge strategy from a decentralized and generative perspective.</span>
-      </a>
-
-      <a class="gallery-item" href="{{ site.baseurl }}/about/ai/">
-        <figure>
-          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/timecapsule-thumbnail-3.png"
-               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/timecapsule-thumbnail-3.png 1x,
-                       {{ site.baseurl }}/assets/thumbs/800x600r/timecapsule-thumbnail-3.png 2x"
-               alt=""
-               class="img-full-width">
-        </figure>
-        <strong class="title">AI Projects</strong>
-        <span class="logline">Projects to explore how those concerned with information, access, and the law can be aware of and feel empowered to influence the use of generative AIs.</span>
-      </a>
-
-      <a class="gallery-item" href="{{ site.baseurl }}/blog/">
-        <figure>
-          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/stacklife-thumbnail-1.png"
-               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/stacklife-thumbnail-1.png 1x,
-                       {{ site.baseurl }}/assets/thumbs/800x600r/stacklife-thumbnail-1.png 2x"
-               alt=""
-               class="img-full-width">
-        </figure>
-        <strong class="title">Blog</strong>
-        <span class="logline">Publishing the results of our explorations and sharing take aways with folks across the spectrum of libraries, technology, and law is part of our mission.</span>
-      </a>
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
+      <h2 class="h2">Contact Us</h2>
+      <div class="md:col-span-2 body-text flex flex-col pt-24 flex flex-col md:grid md:grid-cols-2 gap-40">
+        <div class="flex flex-col gap-40 md:gap-50">
+          <div class="label-value">
+            <h3 class="label">Email</h3>
+            <a href="mailto:lil@law.harvard.edu" class="value interactive-link dark reverse">lil@law.harvard.edu</a>
+          </div>
+          <div class="label-value">
+            <h3 class="label">Contact us in person</h3>
+            <address class="value flex flex-col not-italic">
+              <span>The Reginald F. Lewis Law Center</span>
+              <span>1557 Massachusetts Avenue</span>
+              <span>Cambridge, MA 02138</span>
+            </address>
+            {% include arrow-link.html label="Map" href="#" target="_blank" reverse=true %}
+          </div>
+        </div>
+        <div class="flex flex-col gap-40 md:gap-50">
+          <div class="label-value">
+            <h3 class="label">Newsletter</h3>
+            <p class="value max-w-[330px]">
+              Get updates on our latest projects and research.
+            </p>
+            {% include arrow-link.html label="Sign Up" href="https://ocb.to/lawvocado" target="_blank" reverse=true %}
+          </div>
+          <div class="label-value">
+            <h3 class="label">GitHub</h3>
+            {% include arrow-link.html label="GitHub" href=site.github_url target="_blank" reverse=true %}
+          </div>
+        </div>
+      </div>
     </div>
-
-    <a href="{{ site.baseurl }}/about/" role="button" aria-label="Learn more about who we are"><span>Learn more about who we are</span></a>
-
   </div>
-</section>
 
-<section class="projects">
-
-  <div class="sleeve">
-
-    <h2>Projects</h2>
-
-    {% include active-project-gallery.html %}
-
-    <a href="{{ site.baseurl }}/projects/" role="button" aria-label="Browse all our active projects"><span>Browse all our projects</span></a>
-
-  </div>
-</section>
-
-<div class="easter-egg"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="sr-only sr-only-focusable"><span>You found</span> an item from our secret collection!</a></div>
+</div>

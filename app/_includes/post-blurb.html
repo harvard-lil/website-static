@@ -1,0 +1,16 @@
+{% assign paragraphs = include.content | split: '</p>' %}
+  {% assign first_text_paragraph = '' %}
+  {% for paragraph in paragraphs %}
+    {% assign clean_paragraph = paragraph | replace: '<', ' <' | replace: '>', '> ' | strip_html | strip_newlines %}
+    {% assign clean_paragraph = clean_paragraph %}
+    {% if clean_paragraph.size > 0 %}
+      {% unless clean_paragraph contains '<img' or clean_paragraph contains '<blockquote' %}
+        {% assign first_text_paragraph = clean_paragraph %}
+        {% break %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+<p>
+  {{ first_text_paragraph }}
+</p>

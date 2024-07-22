@@ -1,0 +1,12 @@
+<a
+  href="{{ include.href }}"
+  target="{% if include.target %}{{include.target}}{% else %}_self{% endif %}"
+  class="flex items-center gap-12 body-text {% if include.card_link %}card-link{% endif %}">
+  {% if include.arrow == 'back' %}
+    {% include icon-left-arrow.html %}
+  {% endif %}
+  <span class="interactive-link dark {% if include.reverse %}reverse{% endif %}">{{ include.label }}</span>
+  {% if include.arrow != 'back' %}
+    {% include icon-right-arrow.html %}
+  {% endif %}
+</a>

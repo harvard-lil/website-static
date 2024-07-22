@@ -2,6 +2,7 @@
 title: A modest improvement to WARC-GPT
 author: ben-steinberg
 excerpt_separator: <!--more-->
+blurb: I just made a minor change to WARC-GPT, the tool Matteo Cargnelutti wrote for querying web archives with AI. I’ll explain a little bit of the background, and what the change is for.
 tags:
 - AI Research
 - Tools

@@ -7,47 +7,53 @@ pagination:
 custom-css: ['blog']
 ---
 
-<section class="posts-index">
+<section class="pt-40 md:pt-80 pb-40 md:pb-200">
 
-{% include tag-filter.html %}
+  <div class="container flex flex-col gap-50 mb-56">
+    {% include tag-filter.html %}
+    <div class="flex flex-col gap-32 pb-40 border-b-1 border-black">
+      <h1 class="h1">Blog</h1>
+      {% include blog-search.html %}
+    </div>
+  </div>
 
-{% for post in paginator.posts %}
-  <div class="sleeve">
-    <article itemscope itemtype="http://schema.org/BlogPosting">
-      <header>
-        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-        <h2 class="post-title" itemprop="headline">
-          <a href="{{ post.url}} ">{{ post.title | smartify }}</a>
-        </h2>
-        {% include author.html author=post.author guest-author=post.guest-author %}
-      </header>
+  <div class="w-full post-grids">
 
-      <div class="post-content" itemprop="articleBody">
-        {% if post.no-excerpt %}
-          {{ post.content | liquify | markdownify }}
-        {% else %}
-          {{ post.excerpt | liquify | markdownify }}
-          <a class="read-more" href="{{ post.url }}">Read more <span class="sr-only">of "{{ post.title }}"</span></a>
-        {% endif%}
+    <div id="list" class="container grid grid-cols-2 gap-16 md:gap-24 md:grid-cols-4 post-grids__search-results">
+    </div>
+
+    <div class="post-grids__default">
+      <div class="container grid grid-cols-2 gap-x-8 gap-y-20 md:gap-y-24 md:gap-x-24 md:grid-cols-4">
+        {% assign last_random_number = nil %}
+        {% for post in paginator.posts %}
+          {% assign random_number = 5 | random_number: last_random_number %}
+          {% include post-card.html post=post thumb_index=random_number %}
+          {% assign last_random_number = random_number %}
+        {% endfor %}
       </div>
 
-      {% include tags.html tags=post.tags categories=post.categories %}
+      {% if paginator.total_pages > 1 %}
+        {% assign start = paginator.page | minus: 1 | times: paginator.per_page | plus: 1 %}
+        {% assign finish = paginator.page | times: paginator.per_page | divided_by: 1 %}
+        {% assign total = paginator.total_posts %}
 
-    </article> <!-- end article -->
-
-  </div>
-{% endfor %}
-
-  <!-- Pagination links -->
-  <div class="pagination sleeve">
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    <div>
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="small-btn" role="button">Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="small-btn" role="button">Next</a>
-    {% endif %}
+        {% if finish > total %}
+          {% assign finish = total %}
+        {% endif %}
+        <div class="container pt-50 md:pt-60">
+          <div class="w-full pt-14 md:pt-20 border-t-1 border-black flex items-center justify-between body-text">
+            <span>{{start}} - {{finish}} of {{ total }}</span>
+            <div class="flex items-center gap-24">
+            {% if paginator.previous_page %}
+              {% include arrow-link.html label="Previous" href=paginator.previous_page_path arrow="back" %}
+            {% endif %}
+            {% if paginator.next_page %}
+              {% include arrow-link.html label="Next" href=paginator.next_page_path %}
+            {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
     </div>
   </div>
 

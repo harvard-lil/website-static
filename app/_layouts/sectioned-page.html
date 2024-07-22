@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-<body class="{{ page.type }} {{ page.slug }}">
+<body class="{{ page.type }} {{ page.slug }} bg-white font-sans font-normal">
 
   {% include header.html %}
 
-  {{ content }}
+  <div id="swup" class="transition-main">
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
 
-  <footer>
-    <div class="sleeve">
-      {% include footer.html %}
-    </div>
-  </footer>
 
   <script src="{{ site.baseurl }}/assets/javascripts/main.js"></script>
   {% include custom-scripts.html %}

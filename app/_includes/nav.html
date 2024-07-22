@@ -1,28 +1,32 @@
-<nav aria-label="main">
-  <ul>
-    <li>
-      <a href="{{ site.baseurl }}/">
-        <svg class="header-nav-logo" aria-hidden="true" width="18" height="24" viewBox="0 0 18 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 3.42857H13.7143V24L17.1429 20.5714V0H3.42857L0 3.42857Z"/>
-          <path d="M6.85714 6.85714H3.42857V20.5714H10.2857V17.1429H6.85714V6.85714Z"/>
-        </svg>
-        <span class="name"><span class="longname">Library Innovation </span>Lab</span>
-      </a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/about/">About</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/jobs/">Jobs</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/projects/">Projects</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/sketches/">Sketches</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/blog/">Blog</a>
-    </li>
-  </ul>
+<nav aria-label="main" class="nav-menu">
+  <div class="nav-menu__inner">
+    <ul class="nav-menu__list container">
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/projects/">Our Work</a>
+      </li>
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/blog/">Blog</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/about/">About</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/jobs/">Careers</a>
+      </li>
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/events/">Events</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/contact/">Contact</a>
+      </li>
+    </ul>
+    <div class="w-full container nav-menu__socials">
+      <div class="border-t-1 border-white flex items-center gap-15 pt-20">
+        <a href="{{ site.github_url}}" target="_blank">{% include icon-github.html %}</a>
+        <a href="{{ site.twitter_url }}" target="_blank">{% include icon-x.html %}</a>
+        <a href="{{ site.linkedin_url }}" target="_blank">{% include icon-linkedin.html %}</a>
+      </div>
+    </div>
+  </div>
 </nav>
+<div aria-hidden="true" class="nav-menu__overlay"></div>

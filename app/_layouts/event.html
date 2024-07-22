@@ -1,0 +1,32 @@
+---
+layout: sectioned-page
+custom-css: ['blog']
+---
+
+<section class="container pt-80">
+  <div class="flex flex-col gap-50 md:gap-120 mb-56">
+    <div class="flex flex-col items-start gap-20">
+      <a href="/events" class="label interactive-link dark reverse">Events</a>
+      <div class="flex flex-col md:grid md:grid-cols-3 gap-32 pb-40 md:pb-80 border-b-1 border-black">
+        <h1 class="h2">
+          {{page.title}}
+          <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        </h1>
+        <div class="md:col-span-2 body-text max-w-[700px] pt-10">
+          <p>
+            {{ page.description}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container post">
+  <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-24 md:grid md:grid-cols-12 body-text pb-150">
+    <div class="md:col-span-8 md:col-start-3 flex flex-col gap-72" itemprop="articleBody">
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </div>
+  </article>
+</section>

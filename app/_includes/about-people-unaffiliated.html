@@ -1,21 +1,21 @@
 {% assign person = include.person %}
 
-  <div class="person-unaffiliated" id="{{ person.name| slugify }}">
-    <div class="basics">
-      <strong class="name">{{ person.name }}</strong>
-      <span class="role">{{ person.role }}</span>
-    </div>
+<div class="body-text w-full py-32 border-t-1 border-black flex grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-24 relative">
+  <span class="label md:col-span-3">{{person.name}}</span>
+  <span class="md:col-span-6">{{person.role}}</span>
+  <span class="pt-20 md:pt-0 md:col-span-3 flex md:justify-end">
     {% if person.website or person.twitter_account_name or person.github_account_name %}
-      <ul class="social">
+      <ul class="flex items-center gap-12 md:gap-24">
         {% if person.website %}
-          <li class="website"><a href="{{ person.website}}">{{ person.website }}</a></li>
+          <li class="website"><a href="{{ person.website}}">{% include icon-website.html %}</a></li>
         {% endif %}
         {% if person.twitter_account_name %}
-          <li class="twitter"><a href="https://www.twitter.com/{{ person.twitter_account_name }}">{{ person.twitter_account_name }}</a></li>
+          <li class="twitter"><a href="https://www.twitter.com/{{ person.twitter_account_name }}">{% include icon-x.html %}</a></li>
         {% endif %}
         {% if person.github_account_name %}
-          <li class="github"><a href="https://www.github.com/{{ person.github_account_name}}">{{ person.github_account_name }}</a></li>
+          <li class="github"><a href="https://www.github.com/{{ person.github_account_name}}">{% include icon-github.html %}</a></li>
         {% endif %}
       </ul>
     {% endif %}
-  </div>
+  </span>
+</div>
