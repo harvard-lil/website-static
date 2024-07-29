@@ -9,9 +9,9 @@ jobs:
     if: github.event_name == 'pull_request' || github.repository == 'harvard-lil/website-static'
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('app/Gemfile.lock') }}
@@ -30,6 +30,7 @@ jobs:
           sudo mkdir -m 777 build
           ls bundle || sudo mkdir -m 777 bundle
           sudo mkdir -m 777 app/.jekyll-cache
+          docker compose run jekyll npm install
 
       - name: Test
         run: |
