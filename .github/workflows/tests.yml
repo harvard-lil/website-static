@@ -30,6 +30,7 @@ jobs:
           sudo mkdir -m 777 build
           ls bundle || sudo mkdir -m 777 bundle
           sudo mkdir -m 777 app/.jekyll-cache
+          docker compose run jekyll npm install
 
       - name: Test
         run: |
