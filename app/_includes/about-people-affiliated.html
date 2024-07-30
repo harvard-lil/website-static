@@ -10,7 +10,7 @@
     {% endif %}
 
     <figure>
-      <img class="w-full relative overflow-hidden rounded-full" src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
+      <img class="w-full relative overflow-hidden rounded-full img-full-width" src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
            srcset=" {{ site.baseurl }}/assets/thumbs/216x216c/{{ person.image }} 216w,
                     {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }} 432w,
                     {{ site.baseurl }}/assets/thumbs/648x648c/{{ person.image }} 648w"
@@ -18,8 +18,7 @@
                    (min-width:1049px) 30vw,
                    (min-width:640px) 180px,
                     30vw"
-           alt="{{ person.name }}"
-           class="img-full-width">
+           alt="{{ person.name }}">
     </figure>
 
     <div class="flex flex-col items-start">
