@@ -55,7 +55,7 @@ jobs:
               git config user.name "GitHub Actions"
               git add app/_layouts/default.html app/_includes/custom-css.html
               git commit -m 'Increment CSS cache-buster [skip ci]'
-              git push origin develop || exit 1
+              git push origin redesign || exit 1
           fi
           export DEPLOY_CONTENT='{"GITHUB_RUN_NUMBER":"'$GITHUB_RUN_NUMBER'","GITHUB_SHA":"'$GITHUB_SHA'","GITHUB_REF":"'$GITHUB_REF'","GITHUB_REPOSITORY":"'$GITHUB_REPOSITORY'","GITHUB_ACTOR":"'$GITHUB_ACTOR'"}' ;
           export DEPLOY_SIG="sha1=`echo -n "$DEPLOY_CONTENT" | openssl sha1 -hmac $DEPLOY_KEY | sed 's/^.* //'`" ;
