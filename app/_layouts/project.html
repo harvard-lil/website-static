@@ -54,7 +54,7 @@ layout: sectioned-page
             {% endif %}
             {% assign target = "_blank" %}
             {% if article.type == "press" %}
-              {% assign target = "" %}
+              {% assign target = "_self" %}
             {% endif %}
             <span class="col-span-3 flex justify-end">
               {% include arrow-link.html label=label href=article.url target=target card_link="true" %}

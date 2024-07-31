@@ -36,15 +36,16 @@ jobs:
         run: |
           bash ./scripts/run-tests.sh
 
-      - name: Deploy
-        if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+      - name: Deploy to stage
+        if: github.event_name == 'push' && github.ref == 'refs/heads/redesign'
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-          DEPLOY_URL: ${{ secrets.DEPLOY_URL }}
+          DEPLOY_URL: ${{ secrets.STAGE_DEPLOY_URL }}
           DEPLOY_HEADER: ${{ secrets.DEPLOY_HEADER }}
+          LIVE_SITE: ${{ secrets.LIVE_SITE }}
         run: |
           set -x
-          CSS_BUST=$(find build/assets/css -type f -exec bash -c 'if [[ `diff {} <(curl -s "https://lil.law.harvard.edu/$(echo "{}" | cut -c 7-)")` ]]; then echo "bust ({})"; fi' \;)
+          CSS_BUST=$(find build/assets/css -type f -exec bash -c 'if [[ `diff {} <(curl -s "https://$LIVE_SITE/$(echo "{}" | cut -c 7-)")` ]]; then echo "bust ({})"; fi' \;)
           if [[ $CSS_BUST ]] ; then
               COUNTER=`grep cache-buster app/_layouts/default.html | sed -r 's/.*cache-buster=([0-9]+).*/\1/'`
               let NEWCOUNTER=$COUNTER+1
@@ -56,6 +57,18 @@ jobs:
               git commit -m 'Increment CSS cache-buster [skip ci]'
               git push origin develop || exit 1
           fi
+          export DEPLOY_CONTENT='{"GITHUB_RUN_NUMBER":"'$GITHUB_RUN_NUMBER'","GITHUB_SHA":"'$GITHUB_SHA'","GITHUB_REF":"'$GITHUB_REF'","GITHUB_REPOSITORY":"'$GITHUB_REPOSITORY'","GITHUB_ACTOR":"'$GITHUB_ACTOR'"}' ;
+          export DEPLOY_SIG="sha1=`echo -n "$DEPLOY_CONTENT" | openssl sha1 -hmac $DEPLOY_KEY | sed 's/^.* //'`" ;
+          curl -X POST "$DEPLOY_URL" --data "$DEPLOY_CONTENT" -H "Content-Type: application/json" -H "$DEPLOY_HEADER: $DEPLOY_SIG" ;
+
+      - name: Deploy to prod
+        if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_URL: ${{ secrets.DEPLOY_URL }}
+          DEPLOY_HEADER: ${{ secrets.DEPLOY_HEADER }}
+        run: |
+          set -x
           export DEPLOY_CONTENT='{"GITHUB_RUN_NUMBER":"'$GITHUB_RUN_NUMBER'","GITHUB_SHA":"'$GITHUB_SHA'","GITHUB_REF":"'$GITHUB_REF'","GITHUB_REPOSITORY":"'$GITHUB_REPOSITORY'","GITHUB_ACTOR":"'$GITHUB_ACTOR'"}' ;
           export DEPLOY_SIG="sha1=`echo -n "$DEPLOY_CONTENT" | openssl sha1 -hmac $DEPLOY_KEY | sed 's/^.* //'`" ;
           curl -X POST "$DEPLOY_URL" --data "$DEPLOY_CONTENT" -H "Content-Type: application/json" -H "$DEPLOY_HEADER: $DEPLOY_SIG" ;

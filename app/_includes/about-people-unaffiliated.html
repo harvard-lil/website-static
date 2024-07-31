@@ -5,17 +5,17 @@
   <span class="md:col-span-6">{{person.role}}</span>
   <span class="pt-20 md:pt-0 md:col-span-3 flex md:justify-end">
     {% if person.website or person.twitter_account_name or person.github_account_name %}
-      <ul class="flex items-center gap-12 md:gap-24">
+      <span class="flex items-center gap-12 md:gap-24">
         {% if person.website %}
-          <li class="website"><a href="{{ person.website}}">{% include icon-website.html %}</a></li>
+          <span class="website"><a href="{{ person.website}}">{% include icon-website.html %}</a></span>
         {% endif %}
         {% if person.twitter_account_name %}
-          <li class="twitter"><a href="https://www.twitter.com/{{ person.twitter_account_name }}">{% include icon-x.html %}</a></li>
+          <span class="twitter"><a href="https://www.twitter.com/{{ person.twitter_account_name }}">{% include icon-x.html %}</a></span>
         {% endif %}
         {% if person.github_account_name %}
-          <li class="github"><a href="https://www.github.com/{{ person.github_account_name}}">{% include icon-github.html %}</a></li>
+          <span class="github"><a href="https://www.github.com/{{ person.github_account_name}}">{% include icon-github.html %}</a></span>
         {% endif %}
-      </ul>
+      </span>
     {% endif %}
   </span>
 </div>
