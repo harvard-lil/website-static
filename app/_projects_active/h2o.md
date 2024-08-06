@@ -4,7 +4,7 @@
 title: H2O Open Casebook
 logo: h20-logo.svg
 background_class: bg-blue
-description: H2O Open Casebook is a platform for legal educators who want to find or create open, customizable casebooks for free. Students will spend several thousand dollars on casebooks by the time they graduate even though the bulk of the content - the cases - are in the public domain and should be freely accessible. Legal education is also changing quickly, and commercial, hardbound casebooks can’t keep up. H2O allows instructors to find open casebooks they can use or adapt, or create their own from scratch.
+description: H2O Open Casebook is a platform for legal educators who want to find or create open, customizable casebooks for free.
 
 # Optional
 project_website: https://opencasebook.org/
@@ -50,7 +50,7 @@ what_does_it_do: >
 
 # Optional
 why_does_it_exist: |
-  Traditional textbooks, especially legal casebooks, are heavy, expensive and inflexible.
+  Traditional textbooks, especially legal casebooks, are heavy, expensive and inflexible. Students will spend several thousand dollars on casebooks by the time they graduate even though the bulk of the content - the cases - are in the public domain and should be freely accessible. Legal education is also changing quickly, and commercial, hardbound casebooks can’t keep up. H2O allows instructors to find open casebooks they can use or adapt, or create their own from scratch.
 
 who_contributed:
   - tom-boone

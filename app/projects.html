@@ -20,7 +20,7 @@ layout: sectioned-page
       <h2 class="h2">Research</h2>
       <div class="md:col-span-2 body-text flex flex-col gap-50 md:pt-24">
         <div class="flex flex-col gap-20 max-w-[700px]">
-          <p>Research at LIL is structured around a variety of modes and outcomes, though it all ultimately serves our goal of fusing the library world with new technologies. We use our research to understand new - or new to us - communities and their extant work around a knowledge challenge; to tackle a particularly thorny and consequential technical problem; or to work with libraries to map the technical possibilities available to them for a particular part of their mission.</p>
+          <p>Research at LIL is structured around a variety of modes and outcomes, though it all ultimately serves our goal of fusing the library world with new technologies.</p>
           <p>Some of our research is explicitly tied to our ongoing tentpole projects, while other explorations may become larger projects down the line.</p>
         </div>
       </div>
@@ -66,7 +66,7 @@ layout: sectioned-page
       <h2 class="h2">Platforms</h2>
       <div class="md:col-span-2 body-text flex flex-col gap-50 md:pt-24">
         <p class="flex flex-col gap-20 max-w-[700px]">
-          Projects are the heart of the Library Innovation Lab. We build things. Our projects attempt to make something — big or small — better, simpler, more transparent, or more fun.
+          Tools are the heart of the Library Innovation Lab. We build things. Our platforms each have their own user base and long-term goals.
         </p>
       </div>
     </div>
@@ -75,8 +75,8 @@ layout: sectioned-page
   <section class="flex flex-col gap-18 pb-40 md:pb-140">
     {% assign active_projects = site.projects_active | sort: "order" %}
     {% for project in active_projects %}
-      {% include 
-        project-card.html 
+      {% include
+        project-card.html
         background=project.background_class
         title=project.title
         description=project.description
@@ -95,8 +95,8 @@ layout: sectioned-page
         <h2 class="h2">Past Projects</h2>
         <div class="md:col-span-2 body-text flex flex-col gap-50 md:pt-24">
           <div class="flex flex-col gap-20 max-w-[700px]">
-            <p>At the Library Innovation Lab we are also in pursuit of understanding innovation as a practice.</p>
-            <p>While not exhaustive, these are projects we have worked on, tinkered with, and ultimately sunsetted for various reasons. Each one has taught us a lesson about a particular domain, or piece of software, or community. We share lessons learned from each to be seen as case studies or used as proofs of concept for folks interested in diving deeper.</p>
+            <p>At the Library Innovation Lab we are also in pursuit of understanding exploration as a practice.</p>
+            <p>While not exhaustive, these are projects we have worked on, tinkered with, and ultimately sunsetted for various reasons.</p>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
 title: Caselaw Access Project
 background_class: bg-pink
 logo: caselaw-logo.svg
-description: The Caselaw Access Project is an online database of over 6 million U.S. court opinions, the bulk of which were scanned from Harvard’s centuries old collection of court reporters. The collection is organized for computational research, the kind that allows researchers to look at the cases as a corpus to understand how the law has changed over time. Cases can also be viewed individually and are indexed in Google to improve the public’s free and open access to the legal documents that govern our lives.
+description: The Caselaw Access Project is an online database of over 6 million U.S. court opinions, the bulk of which were scanned from Harvard’s centuries-old collection of court reporters.
 
 # Optional
 project_website: https://case.law/
