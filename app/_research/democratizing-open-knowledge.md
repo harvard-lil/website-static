@@ -1,6 +1,5 @@
 ---
 title: "Democratizing Open Knowledge"
-custom-css: ['blog']
 ---
 
 <p>Democratizing Open Knowledge is a three-year program at the Library Innovation Lab to explore the goals articulated in Harvard Library's <a href="https://library.harvard.edu/about/news/2021-03-24/harvard-library-advancing-open-knowledge">Advancing Open Knowledge</a> strategy from a decentralized and generative perspective. If you like what you see here and want to collaborate, <a href="{{ site.baseurl }}/about">get in touch</a>!</p>
