@@ -104,12 +104,6 @@ class jekyllSearch {
             window.history.pushState('', '', url.href)
         }
       })
-
-      this.searchField.addEventListener('keypress', event => {
-        if (event.keyCode == 13) {
-          event.preventDefault()
-        }
-      })
     }
 }
 
