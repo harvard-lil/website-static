@@ -7,7 +7,9 @@ custom-css: ['blog']
   <div class="flex flex-col gap-50 md:gap-120 mb-14 md:mb-56">
     {% include tag-filter.html tags=page.tags %}
     <div class="flex flex-col items-start gap-10 md:gap-20">
-      <a href="/blog" class="label interactive-link dark reverse">Blog</a>
+      <nav aria-label="breadcrumbs">
+        <a href="/blog" class="label interactive-link dark reverse">Blog</a>
+      </nav>
       <div class="flex flex-col md:grid md:grid-cols-3 gap-14 md:gap-32 pb-40 md:pb-80 border-b-1 border-black">
         <h1 class="h2">{{page.title}}</h1>
         <div class="md:col-span-2 body-text max-w-[700px] md:pt-10">
