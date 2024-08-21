@@ -1,8 +1,7 @@
 <lil-search>
-  <form class="flex items-center gap-8 md:gap-20 md:grid md:grid-cols-2">
+  <form role='search' aria-label="blog posts" class="flex items-center gap-8 md:gap-20 md:grid md:grid-cols-2">
     <div class="relative md:col-span-1 flex-1">
-      <label for="search" class="sr-only">Search for blog posts</label>
-      <input id="search" type="text" class="peer rounded-[0px] w-full border-1 border-black px-12 py-8 md:px-24 md:py-12 text-16 md:text-18 focus:outline-none focus:border-[blue]" placeholder="Search for anything" />
+      <input id="search" autocomplete="off" type="text" class="peer rounded-[0px] w-full border-1 border-black px-12 py-8 md:px-24 md:py-12 text-16 md:text-18 focus:outline-none focus:border-[blue]" aria-label="Search for blog posts" placeholder="Search for blog posts" aria-description="search results will appear below" />
       <button type="button" data-clear-button class="peer-placeholder-shown:hidden cursor-pointer absolute top-1/2 right-20 -translate-y-1/2" aria-label="Clear search">
         <span aria-hidden class="block w-16 h-16 relative">
           <span class="block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[2px] bg-black rotate-45"></span>

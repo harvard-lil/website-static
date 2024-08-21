@@ -26,10 +26,11 @@ function safeDuration(duration) {
 */
 
 class jekyllSearch {
-    constructor(dataSource, searchField, resultsList, form, clearButton) {
+    constructor(dataSource, searchField, resultsList, resultsSummary, form, clearButton) {
       this.dataSource = dataSource
       this.searchField = document.querySelector(searchField)
       this.resultsList = document.querySelector(resultsList)
+      this.resultsSummary = document.querySelector(resultsSummary)
       this.clearButton = document.querySelector(clearButton)
       this.form = form
   
@@ -69,8 +70,10 @@ class jekyllSearch {
       if(this.searchField.value === '') {
         this.resultsList.innerHTML = ''
       } else if (this.searchField.value !== '' && results.length == 0) {
+        this.resultsSummary.innerHTML = '0 results found'
         this.resultsList.innerHTML = `<p class="body-text no-results col-span-2 md:col-span-4">0 results for "${this.searchField.value}"</p>`
       } else {
+        this.resultsSummary.innerHTML = `${results.length} results found`
         this.resultsList.innerHTML = html
       }
     }
@@ -78,8 +81,10 @@ class jekyllSearch {
     reset() {
         this.resultsList.innerHTML = ''
         this.searchField.value = ''
+        this.resultsSummary.innerHTML = 'Search cleared'
         const url = window.location.href?.split('?')[0]
         window.history.pushState('', '', url);
+        this.searchField.focus()
     }
   
     init() {
@@ -113,12 +118,14 @@ class LilSearch extends HTMLElement {
         this.searchFile = '/search.json'
         this.searchInputSelector = '#search'
         this.searchResultsSelector = '#list'
+        this.searchSummarySelector = '#summary'
         this.form = this.querySelector('form');
         this.clearButtonSelector = '[data-clear-button]'
         this.search = new jekyllSearch(
             this.searchFile,
             this.searchInputSelector,
             this.searchResultsSelector,
+            this.searchSummarySelector,
             this.form,
             this.clearButtonSelector
         );
