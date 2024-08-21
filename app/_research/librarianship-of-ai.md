@@ -1,6 +1,5 @@
 ---
 title: "Librarianship of AI"
-custom-css: ['blog']
 ---
 
 For the past year or so, we have been using the term "Librarianship of AI" to describe an emerging practice and guiding framework for sense making in the AI realm via the lens of librarianship. We define Librarianship of AI as “the study of models, their implementation, usage and behavior as a way of helping users make informed decisions and empowering them to use AI responsibly.”

@@ -1,6 +1,5 @@
 ---
 title: "Scoop Capture Engine"
-custom-css: ['blog']
 ---
 
 [Part of Perma Tools](https://tools.perma.cc/)

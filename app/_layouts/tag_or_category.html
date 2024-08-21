@@ -1,10 +1,8 @@
 ---
 layout: sectioned-page
-title-tag: Blog
-slug: blog
 pagination:
   enabled: true
-custom-css: ['blog']
+custom-css: ['blog-search']
 ---
 
 <section class="pt-40 md:pt-80 pb-40 md:pb-200">
@@ -15,6 +13,10 @@ custom-css: ['blog']
       <h1 class="h1">Blog</h1>
       {% include blog-search.html %}
     </div>
+  </div>
+
+  <div aria-live="assertive" aria-atomic="true" class="sr-only">
+    <div id="summary"></div>
   </div>
 
   <div class="w-full post-grids">
@@ -40,7 +42,7 @@ custom-css: ['blog']
         {% if finish > total %}
           {% assign finish = total %}
         {% endif %}
-        <div class="container pt-50 md:pt-60">
+        <nav aria-label="results list pagination" class="container pt-50 md:pt-60">
           <div class="w-full pt-14 md:pt-20 border-t-1 border-black flex items-center justify-between body-text">
             <span>{{start}} - {{finish}} of {{ total }}</span>
             <div class="flex items-center gap-24">
@@ -52,7 +54,7 @@ custom-css: ['blog']
             {% endif %}
             </div>
           </div>
-        </div>
+        </nav>
       {% endif %}
     </div>
   </div>

@@ -3,7 +3,6 @@ title: "Transform: Justice"
 date: 2024-03-08 19:05:36+00:00
 short_description: "A celebration of the full, unqualified release of data from the Caselaw Access Project."
 description: "A celebration of the full, unqualified release of the data from the Caselaw Access Project will be the anchor of an event focused on the future of the access to law movement. Speakers across government, academia, and industry will sketch out the opportunities ahead of us for expanding access to legal data and its waterfall effects across society and justice."
-custom-css: ['blog']
 ---
 
 <img src="{{ site.baseurl }}/assets/images/transform-justice-banner-small.jpg" alt=""/>

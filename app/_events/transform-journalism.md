@@ -3,7 +3,6 @@ title: "Transform: Journalism"
 date: 2024-10-23 19:05:36+00:00
 short_description: "An invite-only workshop for experts trying to reconcile the tensions between AI growth and journalism."
 description: "Transform: Journalism was a closed-door gathering of experts from intersecting fields grappling with the interaction of generative AI and journalism."
-custom-css: ['blog']
 ---
 
 AI is poised to fundamentally change journalism—its practice, its economics, and its import. In a world where media is so easily generated, how can the relationship between AI and journalism be structured to reaffirm our ability to establish, value, and communicate truth?

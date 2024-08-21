@@ -3,7 +3,6 @@ title: "Harvard Law AI Summit"
 date: 2023-09-19 19:05:36+00:00
 short_description: "A closed-door gathering of experts exploring AI as a new form of knowledge."
 description: "The Harvard Law AI Summit was an invitation-only gathering across the spectrum of law, government, AI research, civil society and social science. The summit explored how AI as a new form of knowledge is poised to challenge and reshape institutions."
-custom-css: ['blog']
 ---
 
 The Harvard Law AI Summit was an invitation-only gathering across the spectrum of law, government, AI research, civil society and social science. The summit explored how AI as a new form of knowledge is poised to challenge and reshape institutions.
