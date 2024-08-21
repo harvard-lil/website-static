@@ -44,7 +44,7 @@ custom-css: ['blog']
         {% if finish > total %}
           {% assign finish = total %}
         {% endif %}
-        <div class="container pt-50 md:pt-60">
+        <nav aria-label="results list pagination" class="container pt-50 md:pt-60">
           <div class="w-full pt-14 md:pt-20 border-t-1 border-black flex items-center justify-between body-text">
             <span>{{start}} - {{finish}} of {{ total }}</span>
             <div class="flex items-center gap-24">
@@ -56,7 +56,7 @@ custom-css: ['blog']
             {% endif %}
             </div>
           </div>
-        </div>
+        </nav>
       {% endif %}
     </div>
   </div>
