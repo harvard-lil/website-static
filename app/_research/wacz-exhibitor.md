@@ -1,6 +1,5 @@
 ---
 title: "WACZ Exhibitor"
-custom-css: ['blog']
 ---
 
 [Part of Perma Tools](https://tools.perma.cc/)

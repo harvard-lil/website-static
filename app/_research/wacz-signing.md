@@ -1,6 +1,5 @@
 ---
 title: "WACZ Signing"
-custom-css: ['blog']
 ---
 
 [Part of Perma Tools](https://tools.perma.cc/)

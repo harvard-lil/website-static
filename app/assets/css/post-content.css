@@ -77,10 +77,3 @@
   transform: scaleX(0);
   transform-origin: 100% 100%;
 }
-
-/* if post-grids__search-results, which is the sibling before post-grids__default, has any articles as children hide post-grids__default */
-
-.post-grids__search-results:has(article) ~ .post-grids__default, .post-grids__search-results:has(.no-results) ~ .post-grids__default {
-  display: none;
-}
-
