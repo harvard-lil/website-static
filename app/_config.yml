@@ -144,7 +144,7 @@ pagination:
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ':title - page :num'
+  title: 'Page :num of :max | :title'
 
   # Limit how many pagenated pages to create (default: 0, means all)
   limit: 0
@@ -187,7 +187,7 @@ autopages:
     layouts:
       - 'tag_or_category.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
-    title: 'Posts in category :cat'
+    title: 'Posts in category ":cat" | Blog'
     # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
     permalink: '/blog/category/:cat/'
@@ -202,7 +202,7 @@ autopages:
   tags:
     layouts:
       - 'tag_or_category.html'
-    title: 'Posts tagged with :tag' # :tag is replaced by the tag name
+    title: 'Posts tagged ":tag" | Blog' # :tag is replaced by the tag name
     permalink: '/blog/tag/:tag/'
     slugify:
       mode: raw
