@@ -1,5 +1,13 @@
+{% assign is_relative = include.href  | startswith: "/" %}
+{% capture href %}
+  {% if is_relative %}
+    {{ site.baseurl }}{{ include.href }}
+  {% else %}
+    {{ include.href }}
+  {% endif %}
+{% endcapture %}
 <a
-  href="{{ include.href }}"
+  href="{{ href | strip }}"
   target="{% if include.target %}{{include.target}}{% else %}_self{% endif %}"
   class="flex items-center gap-12 body-text {% if include.card_link %}card-link{% endif %}">
   {% if include.arrow == 'back' %}

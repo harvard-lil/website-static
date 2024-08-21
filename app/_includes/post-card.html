@@ -18,7 +18,7 @@
       {% if include.post.thumbnail %}
         <img src="{{ include.post.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title | smartify }}" />
       {% else %}
-        <img src="/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title | smartify }}" />
+        <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title | smartify }}" />
       {% endif %}
     {% endif %}
   </header>
