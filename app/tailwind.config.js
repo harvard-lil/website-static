@@ -33,7 +33,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ["NeueHaasGrotesk", "sans-serif"],
-      mono: ["DM Mono", "monospace"],
+      mono: ["DMMono", "monospace"],
     },
     fontWeight: {
       normal: 400,

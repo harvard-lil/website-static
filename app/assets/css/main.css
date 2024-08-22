@@ -27,7 +27,7 @@
 
 /* latin-ext */
 @font-face {
-  font-family: 'DM Mono';
+  font-family: 'DMMono';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -36,7 +36,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'DM Mono';
+  font-family: 'DMMono';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
