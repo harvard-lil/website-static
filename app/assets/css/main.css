@@ -184,6 +184,17 @@ lil-header.expanded .nav-menu__overlay {
   transform-origin: 100% 100%;
 }
 
+/* mimics .interactive-link pseudo-underlining, in a way that works on wrapping text */
+.interactive-link-inline:hover, .interactive-link-inline.reverse {
+  text-decoration: underline;
+  text-decoration-thickness: .1ch;
+  text-underline-offset: 5px;
+}
+
+.interactive-link-inline.reverse:hover {
+  text-decoration: none;
+}
+
 .label-value {
   display: flex;
   flex-direction: column;
