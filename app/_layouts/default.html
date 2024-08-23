@@ -14,12 +14,9 @@
     <link rel="manifest" href="{{ site.baseurl }}/manifest.webmanifest">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?cache-buster=24">
     <link rel="alternate" href="{{ site.baseurl }}/blog/feed/" type="application/rss+xml" title="RSS Feed">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://unpkg.com/swup@4"></script>
-    <script src="https://unpkg.com/@swup/head-plugin@2"></script>
+    <script src="{{ site.baseurl }}/assets/lib/gsap@3.12.5/gsap.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/lib/swup@4.7.0/Swup.umd.js"></script>
+    <script src="{{ site.baseurl }}/assets/lib/swup-head-plugin@2.2.0/index.umd.js"></script>
     {% include custom-css.html %}
   </head>
   {{ content }}
