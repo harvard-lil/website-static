@@ -1,5 +1,5 @@
 ---
-category: projects
+category: platforms
 retired: true
 retired_date:
 layout: project
