@@ -76,10 +76,10 @@ layout: sectioned-page
     {% assign active_projects = site.projects_active | sort: "order" %}
     {% for project in active_projects %}
       {% capture linkOneLabel %}
-        Visit <span class="sr-only">{{ project.title }}'s</span> Website
+        <span class="sr-only">{{ project.title }}, Visit</span> Website
       {% endcapture %}
       {% capture linkTwoLabel %}
-        Learn More <span class="sr-only"> About {{ project.title }}</span>
+        <span class="sr-only">{{ project.title }},</span> Learn More
       {% endcapture %}
       {% include
         project-card.html
@@ -109,7 +109,7 @@ layout: sectioned-page
       <div class="flex flex-col">
         {% for project in site.projects_retired %}
           {% capture linkLabel %}
-            Learn More <span class="sr-only"> About {{ project.title }}</span>
+            <span class="sr-only">{{ project.title }}, </span>Learn More
           {% endcapture %}
           <div class="body-text w-full py-32 border-t-1 border-black first-of-type:border-t-0 last-of-type:border-b-1 flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative md:items-center">
             <h3 class="label col-span-3">{{ project.title }}</h3>
