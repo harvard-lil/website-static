@@ -9,7 +9,7 @@ categories:
 
 The [Harvard Library Innovation Lab]({{ site.baseurl }}/) is looking for a devops engineer to help us build tools to explore the open internet and see deep into the future of libraries.
 
-Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of [our current efforts]({{ site.baseurl }}/projects).
+Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of [our current efforts]({{ site.baseurl }}/our-work/).
 
 ![image01](https://lil-blog-media.s3.amazonaws.com/2015/10/image01.png)
 [Perma.cc](https://perma.cc), a web archiving service that is powered by libraries

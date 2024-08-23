@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
 
 ## Background
 
-We recently announced [Free the Law]({{ site.baseurl }}/projects/caselaw-access-project/), our project to scan every legal decision ever published in the United States. We're generating the first consistent, comprehensive, and open database of American law, from the colonial era right up to 2015. You can read the [New York Times coverage of the project here](http://www.nytimes.com/2015/10/29/us/harvard-law-library-sacrifices-a-trove-for-the-sake-of-a-free-database.html).
+We recently announced [Free the Law]({{ site.baseurl }}/our-work/caselaw-access-project/), our project to scan every legal decision ever published in the United States. We're generating the first consistent, comprehensive, and open database of American law, from the colonial era right up to 2015. You can read the [New York Times coverage of the project here](http://www.nytimes.com/2015/10/29/us/harvard-law-library-sacrifices-a-trove-for-the-sake-of-a-free-database.html).
 
 By the end of this project we'll have millions of cases in the dataset &mdash; no one knows exactly how many. We're scanning and processing tens of thousands of pages a day, and will soon have entire states completed.
 

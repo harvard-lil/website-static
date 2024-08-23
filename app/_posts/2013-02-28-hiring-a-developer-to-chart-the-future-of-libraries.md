@@ -18,7 +18,7 @@ We are a tightly knit team of six and are passionate about solving problems, hav
 
 <!--more-->
 
-The best way to get a feel for what we do is by looking at [our projects]({{ site.baseurl }}/projects/).
+The best way to get a feel for what we do is by looking at [our projects]({{ site.baseurl }}/our-work/).
 
 **A sample of our work**
 
