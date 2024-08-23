@@ -1,0 +1,23 @@
+---
+layout: sectioned-page
+custom-css: ['post-content']
+---
+
+<section class="container">
+  <div class="page-hero">
+    <nav aria-label="breadcrumbs" class="page-hero__eyebrow">
+      <a href="{{ site.baseurl }}/our-work/" class="interactive-link dark">Our Work > {{ page.category }}</a>
+    </nav>
+    <h1 class="page-hero__title">{{ page.title }}</h1>
+  </div>
+</section>
+
+<section class="container post">
+  <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-24 md:grid md:grid-cols-12 body-text pb-150">
+    <div class="md:col-span-8 md:col-start-3 flex flex-col gap-72" itemprop="articleBody">
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </div>
+  </article>
+</section>
