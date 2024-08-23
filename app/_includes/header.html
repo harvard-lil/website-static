@@ -14,7 +14,10 @@
     <div class="flex items-center justify-between">
       <div aria-hidden class="opacity-0 w-[40px] md:w-[56px]"></div>
       <a href="/" class="logo">
-        {% include header-splash-logo.html %}
+        <span class="sr-only">Home</span>
+        <span aria-hidden="true">
+          {% include header-splash-logo.html %}
+        </span>
       </a>
       <button class="menu-button" aria-expanded="false" aria-label="Open menu">
         <span class="menu-button__bar"></span>
