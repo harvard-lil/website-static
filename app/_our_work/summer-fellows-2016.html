@@ -1,10 +1,11 @@
 ---
-title: Summer 2016 Fellows
-slug: fellows-2016
-layout: simple-page
----
+category: programs
+retired: true
+retired_date:
 
-<h1>{{ page.title }}</h1>
+title: Summer 2016 Fellows Program
+slug: fellows-2016
+---
 
 <p>The Fellows Program brought together 7 independent thinkers to pursue their research over the course of 12 weeks at Harvard Law School's Library, Langdell Hall. Their results range from book chapters to web applications to board games &mdash; and, ultimately, an immeasurable amount of inspiration that extends far beyond the walls of Langdell.</p>
 
@@ -12,18 +13,13 @@ layout: simple-page
 
 {% for fellow in site.data.fellows_summer_2016 %}
   {% assign person_record = site.data.people[fellow.fellow] %}
-  <div class="fellow" id="{{ person_record.name | slugify }}">
-    <div class="intro">
-      <img src=" {{site.baseurl}}/assets/thumbs/150x150/{{person_record.image}}"
-           alt="{{person_record.name}}">
-      <div class="summary">
-        <h2>{{ person_record.name }}</h2>
-        {{ fellow.logline | strip | markdownify }}
-        {% if fellow.blog_post %}
-          <a href="{{ fellow.blog_post }}" class="small-btn" role="button">{{fellow.blog_post_label}}</a>
-        {% endif %}
-      </div>
-    </div>
+  <div id="{{ person_record.name | slugify }}">
+    <h2>{{ person_record.name }}</h2>
+    <span class="italic">{{ fellow.logline | strip | markdownify }}</span>
+    {% if fellow.blog_post %}
+      <a href="{{ fellow.blog_post }}">{{fellow.blog_post_label}}</a>
+    {% endif %}
+
 
     <h3> Overview </h3>
     {{ fellow.overview | strip | markdownify }}
@@ -43,4 +39,5 @@ layout: simple-page
       </ul>
     {% endif %}
   </div>
+  <hr>
 {% endfor %}

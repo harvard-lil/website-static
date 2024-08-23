@@ -8,9 +8,29 @@
 }
 
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+  font-size: initial;
   padding-bottom: 20px;
   padding-top: 20px;
   font-weight: 500;
+}
+
+.post-content h1 {
+  font-size: 2em;
+}
+.post-content h2 {
+  font-size: 1.5em;
+}
+.post-content h3 {
+  font-size: 1.3em;
+}
+.post-content h4 {
+  font-size: 1em;
+}
+.post-content h5 {
+  font-size: 0.8em;
+}
+.post-content h6 {
+  font-size: 0.7em;
 }
 
 .post-content img {
