@@ -38,7 +38,7 @@ layout: sectioned-page
             <p>
               To answer this question, The Library Innovation Lab is hosting Transform: Journalism, a one-day gathering of key decision-makers and stakeholders from model-makers and journalism agencies to academia and news publications. This private workshop aims to identify a set of shared values and collaborative opportunities that might guide the evolution of AI and journalism toward the sustainable cultivation of truth.
             </p>
-            {% include arrow-link.html label="More Info" href="/events/transform-journalism" reverse=true %}
+            {% include arrow-link.html label='<span class="sr-only">Transform: Journalism,</span> More Info' href="/events/transform-journalism" reverse=true %}
           </div>
         </div>
       </div>
@@ -51,11 +51,14 @@ layout: sectioned-page
       <div class="flex flex-col items-start w-full">
         {% assign events = site.events | sort: 'date' | reverse %}
         {% for event in events %}
+          {% capture linkLabel %}
+            <span class="sr-only"> {{ event.title }},</span> More Info
+          {% endcapture %}
           <div class="body-text w-full py-32 border-t-1 border-black first-of-type:border-t-0 last-of-type:border-b-1 flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative md:items-center">
             <span class="label col-span-3">{{ event.date | date: "%m/%d/%y" }}</span>
             <span class="col-span-6"><strong>{{event.title}}</strong> - {{event.short_description}}</span>
             <span class="col-span-3 flex md:justify-end pt-20 md:pt-0">
-              {% include arrow-link.html label="More Info" href=event.url target=target card_link="true" %}
+              {% include arrow-link.html label=linkLabel href=event.url target=target card_link="true" %}
             </span>
           </div>
         {% endfor %}
