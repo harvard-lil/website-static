@@ -32,12 +32,14 @@ layout: sectioned-page
         {{ page.what_does_it_do | markdownify }}
       </div>
     </div>
-    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
-      <h2 class="h2">Why does  {{page.title}} exits?</h2>
-      <div class="md:col-span-2 body-text flex flex-col gap-32 pt-20 max-w-[700px]">
-        {{ page.why_does_it_exist | markdownify }}
+    {% if page.why_does_it_exist %}
+      <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
+        <h2 class="h2">Why does  {{page.title}} exits?</h2>
+        <div class="md:col-span-2 body-text flex flex-col gap-32 pt-20 max-w-[700px]">
+          {{ page.why_does_it_exist | markdownify }}
+        </div>
       </div>
-    </div>
+    {% endif %}
   </section>
 
   {% if page.hero_image %}
