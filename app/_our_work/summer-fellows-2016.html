@@ -15,7 +15,7 @@ slug: fellows-2016
   {% assign person_record = site.data.people[fellow.fellow] %}
   <div id="{{ person_record.name | slugify }}">
     <h2>{{ person_record.name }}</h2>
-    <span class="italic">{{ fellow.logline | strip | markdownify }}</span>
+    <div class="italic">{{ fellow.logline | strip | markdownify }}</div>
     {% if fellow.blog_post %}
       <a href="{{ fellow.blog_post }}">{{fellow.blog_post_label}}</a>
     {% endif %}
