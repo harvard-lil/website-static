@@ -168,20 +168,6 @@ christopher-setzer:
   current: true
   section: Staff
 
-dakota-sexton:
-  name: Dakota Sexton
-  sort_name: Sexton
-  role: Senior Software Engineer
-  bio: > 
-    Trained as a creative writer with a BFA in fiction writing, Dakota is passionate about exploring the odd and exciting borderlands between software development, storytelling, and design. In the past, their creative work has ranged from illustrated letterpress coasters about easily overlooked — yet edible — plants to a participatory website that promotes appreciation of the beautiful blob we call the moon. They join LIL as a developer motivated to promote accessibility, participatory learning, and open access to information.
-  email: dsexton@law.harvard.edu
-  website: https://tinykitelab.com/
-  github_account_name: tinykite
-  image: dakota-sexton.jpg
-  affiliated: True
-  current: True
-  section: Staff
-    
 clare-stanton:
   name: Clare Stanton
   sort_name: Stanton
@@ -1053,6 +1039,14 @@ lori-schulsinger:
   sort_name: Schulsinger
   role: Collection Development Coordinator
   affiliated: false
+
+dakota-sexton:
+  name: Dakota Sexton
+  sort_name: Sexton
+  role: Senior Software Engineer
+  website: https://tinykitelab.com/
+  github_account_name: tinykite
+  affiliated: True
 
 satvik-shukla:
   name: Satvik Shukla
