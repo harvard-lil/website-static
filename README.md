@@ -9,7 +9,7 @@ Install and Run
 
 3. `cd website-static`
 
-4. Fire up the web server and build the site: `docker-compose up`
+4. Fire up the web server and build the site: `docker compose up`
 
 5. Check out what you built:
    -  Docker: head to http://localhost:8080/
@@ -32,10 +32,10 @@ Install and Run
 
   Errors: if the build errors out (scss syntax errors, incorrect variable names, etc.), the automatic rebuilding process may stop working.
 
-  To manually rebuild the site/restart the automatic rebuilding process, press `control + c` and then run `docker-compose up` again.
+  To manually rebuild the site/restart the automatic rebuilding process, press `control + c` and then run `docker compose up` again.
 
 
-7. When you are done, press `control + c` and then run `docker-compose down`. Then, optionally:
+7. When you are done, press `control + c` and then run `docker compose down`. Then, optionally:
   - Docker: quit the Docker app
   - Docker Machine/Toolbox: run `docker-machine stop`
 
