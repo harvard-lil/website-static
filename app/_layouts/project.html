@@ -27,7 +27,7 @@ layout: sectioned-page
       </div>
     </div>
     <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
-      <h2 class="h2">Why does  {{page.title}} exits?</h2>
+      <h2 class="h2">Why does {{page.title}} exist?</h2>
       <div class="md:col-span-2 body-text flex flex-col gap-32 pt-20 max-w-[700px]">
         {{ page.why_does_it_exist | markdownify }}
       </div>
@@ -46,19 +46,10 @@ layout: sectioned-page
         {% for article in news %}
           <div class="body-text w-full py-32 border-t-1 border-black last-of-type:border-b-1 flex grid grid-cols-12 gap-24 relative">
             <!-- format date as 02.12.24 -->
-            <span class="label col-span-3">{{ article.date | date: "%m/%d/%y" }}</span>
-            <span class="col-span-6">{{article.title}}</span>
-            {% assign label = "Read Blog Post" %}
-            {% if article.type == "press" %}
-              {% assign label = "Visit Article" %}
-            {% endif %}
-            {% assign target = "_blank" %}
-            {% if article.type == "press" %}
-              {% assign target = "_self" %}
-            {% endif %}
-            <span class="col-span-3 flex justify-end">
-              {% include arrow-link.html label=label href=article.url target=target card_link="true" %}
+            <span class="label col-span-3">
+              <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
             </span>
+            <span class="col-span-6">{% include arrow-link-inline.html label=article.title href=article.url target="_blank"%}</span>
           </div>
         {% endfor %}
       </div>
