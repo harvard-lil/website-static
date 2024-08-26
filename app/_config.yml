@@ -85,7 +85,6 @@ defaults:
   - scope:
       path: ""
     values:
-      custom-footer: false
       sharing-card-type: summary
 
 # Feature Flags
