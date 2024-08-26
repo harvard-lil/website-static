@@ -92,21 +92,6 @@ harmony-eidolon:
   current: true
   section: Staff
 
-greg-leppert:
-  name: Greg Leppert
-  sort_name: Leppert
-  role: Product and Research Director
-  bio: >
-    Greg has spent his career founding and advising early stage startups, including the social shopping network Svpply, which he sold to eBay, and the naming agency Onym. Trained as a designer, Greg has also worked as a touring musician, cover designer, and letterpress printer.
-  email: gleppert@law.harvard.edu
-  website: https://leppert.me
-  twitter_account_name: leppert
-  github_account_name: leppert
-  image: greg-leppert.jpg
-  affiliated: true
-  current: true
-  section: Staff
-
 kristi-mukk:
   name: Kristi Mukk
   sort_name: Mukk
@@ -168,31 +153,16 @@ christopher-setzer:
   current: true
   section: Staff
 
-dakota-sexton:
-  name: Dakota Sexton
-  sort_name: Sexton
-  role: Senior Software Engineer
-  bio: > 
-    Trained as a creative writer with a BFA in fiction writing, Dakota is passionate about exploring the odd and exciting borderlands between software development, storytelling, and design. In the past, their creative work has ranged from illustrated letterpress coasters about easily overlooked — yet edible — plants to a participatory website that promotes appreciation of the beautiful blob we call the moon. They join LIL as a developer motivated to promote accessibility, participatory learning, and open access to information.
-  email: dsexton@law.harvard.edu
-  website: https://tinykitelab.com/
-  github_account_name: tinykite
-  image: dakota-sexton.jpg
-  affiliated: True
-  current: True
-  section: Staff
-    
 clare-stanton:
   name: Clare Stanton
   sort_name: Stanton
-  role: Product and Research Manager
+  role: Product and Research Director
   bio: >
     Clare's true occupation is as a milliner, creating multiple hats for herself everywhere she goes.
     She's worked in every department of a photography gallery, as the event coordinator/alumni liaison/substitute teacher
     at a small independent school, as the database maintainer/research assistant/calendar
-    keeper for a group of innovation and management researchers, and now as the compost watchdog/vinyl cutter
-    whisperer/side-project logistics manager at LIL. She also is the outreach and communications lead for Perma.cc and
-    has an MLIS from Simmons University.
+    keeper for a group of innovation and management researchers, as the compost watchdog/vinyl cutter
+    whisperer/side-project logistics manager at LIL, the outreach and communications lead for Perma.cc, and now LIL's Product and Research Director. She has an MLIS from Simmons University.
   email: cstanton@law.harvard.edu
   website:
   twitter_account_name: clare__stanton
@@ -931,6 +901,16 @@ erica-leeman:
   role: Digitization Specialist
   affiliated: false
 
+greg-leppert:
+  name: Greg Leppert
+  sort_name: Leppert
+  role: Product and Research Director
+  email: gleppert@law.harvard.edu
+  website: https://leppert.me
+  twitter_account_name: leppert
+  github_account_name: leppert
+  affiliated: true
+
 dustin-lewis:
   name: Dustin Lewis
   sort_name: Lewis
@@ -1053,6 +1033,14 @@ lori-schulsinger:
   sort_name: Schulsinger
   role: Collection Development Coordinator
   affiliated: false
+
+dakota-sexton:
+  name: Dakota Sexton
+  sort_name: Sexton
+  role: Senior Software Engineer
+  website: https://tinykitelab.com/
+  github_account_name: tinykite
+  affiliated: True
 
 satvik-shukla:
   name: Satvik Shukla
