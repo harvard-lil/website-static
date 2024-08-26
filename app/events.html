@@ -11,34 +11,40 @@ layout: sectioned-page
 </section>
 
 <div class="flex flex-col gap-56 pb-150">
+
+  {% assign next_event = site.events | where_exp: 'item','item.date >= site.time' | sort: 'date' | first %}
+
+  {% if next_event.banner %}
   <section class="container">
     <div class="w-full relative">
       <figure>
         <picture>
+          {% if next_event.banner_large %}
           <source media="(min-width: 600px)"
-                  srcset="{{ site.baseurl }}/assets/images/TJ-SiteBanner-large.jpg">
-          <source srcset="{{ site.baseurl }}/assets/images/TJ-SiteBanner-small.jpg">
-          <img src="{{ site.baseurl }}/assets/images/TJ-SiteBanner-small.jpg"
+                  srcset="{{ site.baseurl }}/assets/images/{{ next_event.banner_large }}">
+          {% endif %}
+          <source srcset="{{ site.baseurl }}/assets/images/{{ next_event.banner }}">
+          <img src="{{ site.baseurl }}/assets/images/{{ next_event.banner }}"
               alt=""
               class="img-full-width">
         </picture>
       </figure>
     </div>
   </section>
+  {% endif %}
+
   <section class="container">
     <div class="flex flex-col gap-50 md:gap-120">
       <div class="flex flex-col items-start gap-20">
         <div class="label">Next Event</div>
         <div class="flex flex-col md:grid md:grid-cols-3 gap-32 pb-60">
-          <h1 class="h2">Transform: Journalism - Fall 2024</h1>
+          <h1 class="h2">{{ next_event.title }} - {{ next_event.date_informal }}</h1>
           <div class="md:col-span-2 body-text max-w-[700px] pt-10 flex flex-col items-start gap-50">
-            <p>
-              AI is poised to fundamentally change journalism—its practice, its economics, and its import. In a world where media is so easily generated, how can the relationship between AI and journalism be structured to reaffirm our ability to establish, value, and communicate truth?
-            </p>
-            <p>
-              To answer this question, The Library Innovation Lab is hosting Transform: Journalism, a one-day gathering of key decision-makers and stakeholders from model-makers and journalism agencies to academia and news publications. This private workshop aims to identify a set of shared values and collaborative opportunities that might guide the evolution of AI and journalism toward the sustainable cultivation of truth.
-            </p>
-            {% include arrow-link.html label='<span class="sr-only">Transform: Journalism,</span> More Info' href="/events/transform-journalism" reverse=true %}
+            {{ next_event.excerpt }}
+            {% capture linkLabel %}
+              <span class="sr-only">{{ next_event.title }},</span> More Info
+            {% endcapture %}
+            {% include arrow-link.html label=linkLabel href=next_event.url reverse=true %}
           </div>
         </div>
       </div>
