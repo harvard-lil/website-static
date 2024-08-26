@@ -92,21 +92,6 @@ harmony-eidolon:
   current: true
   section: Staff
 
-greg-leppert:
-  name: Greg Leppert
-  sort_name: Leppert
-  role: Product and Research Director
-  bio: >
-    Greg has spent his career founding and advising early stage startups, including the social shopping network Svpply, which he sold to eBay, and the naming agency Onym. Trained as a designer, Greg has also worked as a touring musician, cover designer, and letterpress printer.
-  email: gleppert@law.harvard.edu
-  website: https://leppert.me
-  twitter_account_name: leppert
-  github_account_name: leppert
-  image: greg-leppert.jpg
-  affiliated: true
-  current: true
-  section: Staff
-
 kristi-mukk:
   name: Kristi Mukk
   sort_name: Mukk
@@ -176,9 +161,8 @@ clare-stanton:
     Clare's true occupation is as a milliner, creating multiple hats for herself everywhere she goes.
     She's worked in every department of a photography gallery, as the event coordinator/alumni liaison/substitute teacher
     at a small independent school, as the database maintainer/research assistant/calendar
-    keeper for a group of innovation and management researchers, and now as the compost watchdog/vinyl cutter
-    whisperer/side-project logistics manager at LIL. She also is the outreach and communications lead for Perma.cc and
-    has an MLIS from Simmons University.
+    keeper for a group of innovation and management researchers, as the compost watchdog/vinyl cutter
+    whisperer/side-project logistics manager at LIL, the outreach and communications lead for Perma.cc, and now LIL's Product and Research Director. She has an MLIS from Simmons University.
   email: cstanton@law.harvard.edu
   website:
   twitter_account_name: clare__stanton
@@ -916,6 +900,16 @@ erica-leeman:
   sort_name: Leeman
   role: Digitization Specialist
   affiliated: false
+
+greg-leppert:
+  name: Greg Leppert
+  sort_name: Leppert
+  role: Product and Research Director
+  email: gleppert@law.harvard.edu
+  website: https://leppert.me
+  twitter_account_name: leppert
+  github_account_name: leppert
+  affiliated: true
 
 dustin-lewis:
   name: Dustin Lewis
