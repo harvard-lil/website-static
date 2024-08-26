@@ -45,66 +45,36 @@ blog_feed_title: The Harvard Library Innovation Lab
 
 # Collections
 collections:
-  projects_active:
+  our_work:
     output: true
-    permalink: /projects/:slug/
-  projects_retired:
-    output: true
-    permalink: /projects/:slug/
-  sketches_active:
-    output: true
-    permalink: /sketches/:slug/
-  sketches_retired:
+    permalink: /our-work/:slug/
+  our_work_pageless:
     output: false
   events:
     output: true
     permalink: /events/:slug/
-  research:
-    output: true
-    permalink: /research/:slug/
 
 # Plugins
 news_feed_for:
-  - projects_active
-  - projects_retired
-  - sketches_active
+  - our_work
 
 contributors_feed_for:
-  - projects_active
-  - projects_retired
+  - our_work
 
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: projects_active
+      type: our_work
     values:
-      layout: project
-      type: project
-  - scope:
-      path: ""
-      type: projects_retired
-    values:
-      layout: project
-      type: project
+      layout: our_work
+      type: our_work
   - scope:
       path: ""
       type: events
     values:
       layout: event
       type: event
-  - scope:
-      path: ""
-      type: research
-    values:
-      layout: research
-      type: research
-  - scope:
-      path: ""
-      type: sketches_active
-    values:
-      layout: project
-      type: sketch
   - scope:
       path: ""
       type: posts

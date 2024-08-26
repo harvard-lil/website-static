@@ -12,7 +12,7 @@ We have a data management dilemma, and we hope that you &mdash; data-smart peopl
 
 ## About The Project
 
-The Caselaw Access Project or CAP, previously known as Free The Law, is making all U.S. case law freely accessible online. For more information, see  [our project page]({{ site.baseurl }}/projects/caselaw-access-project), and [this New York Times article](http://www.nytimes.com/2015/10/29/us/harvard-law-library-sacrifices-a-trove-for-the-sake-of-a-free-database.html).
+The Caselaw Access Project or CAP, previously known as Free The Law, is making all U.S. case law freely accessible online. For more information, see  [our project page]({{ site.baseurl }}/our-work/caselaw-access-project), and [this New York Times article](http://www.nytimes.com/2015/10/29/us/harvard-law-library-sacrifices-a-trove-for-the-sake-of-a-free-database.html).
 
 ## Our Tracking Task
 

@@ -5,7 +5,7 @@ layout: sectioned-page
 <section class="container">
   <div class="page-hero">
     <nav aria-label="breadcrumbs" class="page-hero__eyebrow">
-      <a href="{{ site.baseurl }}/projects/" class="interactive-link dark">Projects</a>
+      <a href="{{ site.baseurl }}/our-work/" class="interactive-link dark">Our Work > {{ page.category }}</a>
     </nav>
     <h1 class="page-hero__title">{{ page.title }}</h1>
     <h2 class="page-hero__subtitle">{{page.what_does_it_do}}</h2>
@@ -16,7 +16,7 @@ layout: sectioned-page
 
   <section class="container flex flex-col gap-120">
     <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
-      <h2 class="h2">Where can I find {{page.title}}</h2>
+      <h2 class="h2">Where can I find {{page.title}}?</h2>
       <div class="md:col-span-2 body-text flex flex-col gap-32 pt-20 max-w-[700px]">
         {% if page.project_website %}
           {% include arrow-link.html label=page.project_website href=page.project_website target="_blank" %}
@@ -27,11 +27,19 @@ layout: sectioned-page
       </div>
     </div>
     <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
-      <h2 class="h2">Why does {{page.title}} exist?</h2>
+      <h2 class="h2">What does {{page.title}} do?</h2>
       <div class="md:col-span-2 body-text flex flex-col gap-32 pt-20 max-w-[700px]">
-        {{ page.why_does_it_exist | markdownify }}
+        {{ page.what_does_it_do | markdownify }}
       </div>
     </div>
+    {% if page.why_does_it_exist %}
+      <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
+        <h2 class="h2">Why does {{page.title}} exist?</h2>
+        <div class="md:col-span-2 body-text flex flex-col gap-32 pt-20 max-w-[700px]">
+          {{ page.why_does_it_exist | markdownify }}
+        </div>
+      </div>
+    {% endif %}
   </section>
 
   {% if page.hero_image %}
