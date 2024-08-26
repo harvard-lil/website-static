@@ -22,9 +22,18 @@
     </ul>
     <div class="w-full container nav-menu__socials">
       <div class="border-t-1 border-white flex items-center gap-15 pt-20">
-        <a href="{{ site.github_url}}" target="_blank">{% include icon-github.html %}</a>
-        <a href="{{ site.twitter_url }}" target="_blank">{% include icon-x.html %}</a>
-        <a href="{{ site.linkedin_url }}" target="_blank">{% include icon-linkedin.html %}</a>
+        <a href="{{ site.github_url}}" target="_blank">
+          <span class="sr-only">LIL on Github</span>
+          <span aria-hidden="true">{% include icon-github.html %}</span>
+        </a>
+        <a href="{{ site.twitter_url }}" target="_blank">
+          <span class="sr-only">LIL on Twitter</span>
+          <span aria-hidden="true">{% include icon-x.html %}</span>
+        </a>
+        <a href="{{ site.linkedin_url }}" target="_blank">
+          <span class="sr-only">LIL on LinkedIn</span>
+          <span aria-hidden="true">{% include icon-linkedin.html %}</span>
+        </a>
       </div>
     </div>
   </div>

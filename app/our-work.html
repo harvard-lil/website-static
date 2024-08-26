@@ -75,6 +75,12 @@ layout: sectioned-page
   <section class="flex flex-col gap-18 pb-40 md:pb-140">
     {% assign active_platforms = site.our_work | where:"category","platforms" | where:"retired",false | sort: "order" %}
     {% for platform in active_platforms %}
+      {% capture linkOneLabel %}
+        <span class="sr-only">{{ platform.title }}, Visit</span> Website
+      {% endcapture %}
+      {% capture linkTwoLabel %}
+        <span class="sr-only">{{ platform.title }},</span> Learn More
+      {% endcapture %}
       {% include
         project-card.html
         background=platform.background_class
@@ -82,9 +88,9 @@ layout: sectioned-page
         description=platform.description
         logo=platform.logo
         linkOne=platform.project_website
-        linkOneLabel="Visit Website"
+        linkOneLabel=linkOneLabel
         linkTwo=platform.url
-        linkTwoLabel="Learn More"
+        linkTwoLabel=linkTwoLabel
       %}
     {% endfor %}
   </section>
@@ -109,8 +115,11 @@ layout: sectioned-page
             <h3 class="label col-span-3">{{ project.title }}</h3>
             <span class="col-span-6">{{ project.what_does_it_do }}</span>
             {% if project.collection == 'our_work' %}
+              {% capture linkLabel %}
+                <span class="sr-only">{{ project.title }}, </span>Learn More
+              {% endcapture %}
               <span class="col-span-3 flex md:justify-end pt-20 md:pt-0">
-                {% include arrow-link.html label="Learn More" href=project.url target=target card_link="true" %}
+                {% include arrow-link.html label=linkLabel href=project.url target=target card_link="true" %}
               </span>
             {% endif %}
           </div>

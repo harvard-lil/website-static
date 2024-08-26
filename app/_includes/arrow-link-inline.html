@@ -1,0 +1,11 @@
+<a
+  href="{{ include.href }}"
+  target="{% if include.target %}{{include.target}}{% else %}_self{% endif %}"
+  class="body-text dark">
+    <span class="interactive-link-inline align-middle pr-4 {% if include.reverse %}reverse{% endif %}">{{ include.label|strip }}</span>
+    {% if include.arrow == 'back' %}
+      {% include icon-left-arrow.html inline=true%}
+    {% else %}
+      {% include icon-right-arrow.html inline=true%}
+    {% endif %}
+</a>

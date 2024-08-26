@@ -33,16 +33,36 @@
     {% if person.email or person.website or person.twitter or person.github %}
       <ul class="flex items-center gap-12 md:gap-24">
         {% if person.email %}
-          <li><a href="mailto:{{ person.email }}" target="_blank">{% include icon-email.html %}</a></li>
+          <li>
+            <a href="mailto:{{ person.email }}" target="_blank">
+              <span class="sr-only">{{ person.name }}'s email</span>
+              <span aria-hidden="true">{% include icon-email.html %}</span>
+            </a>
+          </li>
         {% endif %}
         {% if person.website %}
-          <li><a href="{{ person.website}}" target="_blank">{% include icon-website.html %}</a></li>
+          <li>
+            <a href="{{ person.website}}" target="_blank">
+              <span class="sr-only">{{ person.name }}'s website</span>
+              <span aria-hidden="true">{% include icon-website.html %}</span>
+            </a>
+          </li>
         {% endif %}
         {% if person.twitter_account_name %}
-          <li><a href="https://www.twitter.com/{{ person.twitter_account_name}}" target="_blank">{% include icon-x.html %}</a></li>
+          <li>
+            <a href="https://www.twitter.com/{{ person.twitter_account_name}}" target="_blank">
+              <span class="sr-only">{{ person.name }} on Twitter</span>
+              <span aria-hidden="true">{% include icon-x.html %}</span>
+            </a>
+          </li>
         {% endif %}
         {% if person.github_account_name %}
-          <li><a href="https://www.github.com/{{ person.github_account_name }}" target="_blank">{% include icon-github.html %}</a></li>
+          <li>
+            <a href="https://www.github.com/{{ person.github_account_name }}" target="_blank">
+              <span class="sr-only">{{ person.name }} on Github</span>
+              <span aria-hidden="true">{% include icon-github.html %}</span>
+            </a>
+          </li>
         {% endif %}
       </ul>
     {% endif %}
