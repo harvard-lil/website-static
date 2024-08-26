@@ -49,7 +49,7 @@ layout: sectioned-page
     <section class="container flex flex-col items-start gap-40">
       <h2 class="h2">Past</h2>
       <div class="flex flex-col items-start w-full">
-        {% assign events = site.events | sort: 'date' | reverse %}
+        {% assign events = site.events | where_exp: 'item','item.date < site.time' | sort: 'date' | reverse %}
         {% for event in events %}
           {% capture linkLabel %}
             <span class="sr-only"> {{ event.title }},</span> More Info
