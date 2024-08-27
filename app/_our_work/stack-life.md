@@ -60,6 +60,4 @@ who_contributed:
   - annie-cain
 
 ### Override Jekyll Defaults ###
-custom-footer: true
-
 ---

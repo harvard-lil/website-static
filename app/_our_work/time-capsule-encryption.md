@@ -63,6 +63,4 @@ who_contributed:
   - jonathan-zittrain
 
 ### Override Jekyll Defaults ###
-custom-footer: true
-
 ---

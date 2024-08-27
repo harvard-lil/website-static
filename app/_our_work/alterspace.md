@@ -64,6 +64,5 @@ who_contributed:
 
 ### Override Jekyll Defaults ###
 title-tag: Alterspace
-custom-footer: false
 
 ---

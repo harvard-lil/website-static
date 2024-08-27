@@ -80,6 +80,4 @@ who_contributed:
 
 ### Override Jekyll Defaults ###
 title-tag: H2O
-custom-footer: true
-
 ---
