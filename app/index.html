@@ -33,18 +33,30 @@ sharing-card-type: summary_large_image
 </div>
 
 <div class="flex flex-col gap-50 md:gap-80 pb-120 md:pb-220">
-  {% include
-    project-card.html
-    background="bg-yellow"
-    featured="true"
-    title="Perma.cc"
-    description="Perma.cc is a web preservation and citation tool that is changing the way lawyers, scholars, journalists, and the public preserve and cite to the web."
-    logo="perma-logo.svg"
-    linkOne="https://perma.cc/"
-    linkOneLabel='Visit <span class="sr-only">Perma.cc</span> Website'
-    linkTwo="/our-work/perma-cc/"
-    linkTwoLabel='Learn More <span class="sr-only">About Perma.cc</span>'
-  %}
+  {% assign featured_projects = site.our_work | where:"featured",true | sort: "order" %}
+  <div class="flex flex-col">
+    {% for project in featured_projects %}
+      {% capture linkOneLabel %}
+        <span class="sr-only">{{ project.title }}, Visit</span> Website
+      {% endcapture %}
+      {% capture linkTwoLabel %}
+        <span class="sr-only">{{ project.title }},</span> Learn More
+      {% endcapture %}
+      {% include
+        project-card.html
+        featured=true
+        background=project.background_class
+        title=project.title
+        description=project.description
+        logo=project.logo
+        linkOne=project.project_website
+        linkOneLabel=linkOneLabel
+        linkTwo=project.url
+        linkTwoLabel=linkTwoLabel
+      %}
+    {% endfor %}
+  </div>
+
   <div class="container flex flex-col gap-50 md:gap-100">
     <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 pb-50 md:pb-120 border-b-1 border-black">
       <h2 class="h2">Who We Are</h2>
