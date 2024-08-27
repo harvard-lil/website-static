@@ -25,39 +25,34 @@ layout: sectioned-page
         </div>
       </div>
     </div>
+
     <div class="flex flex-col gap-24 md:gap-40">
-      <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 w-full border-b-1 border-black pb-40 md:pb-32">
-        <h3 class="label">AI Explorations</h3>
-        <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
-          <div class="flex flex-col items-start gap-24 body-text">
-            <a href="./librarianship-of-ai/" class="interactive-link dark reverse">Librarianship of AI</a>
-            <a href="{{ site.baseurl }}/blog/2023/09/25/ai-book-bans-freedom-to-read-case-study/" class="interactive-link dark reverse">Banned Books</a>
-          </div>
-          <div class="flex flex-col items-start gap-24 body-text">
-            <a href="{{ site.baseurl }}/blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/" class="interactive-link dark reverse">WARC-GPT</a>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 w-full border-b-1 border-black pb-40 md:pb-32">
-        <h3 class="label">Perma Tools</h3>
-        <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
-          <div class="flex flex-col items-start gap-24 body-text">
-            <a href="./scoop-capture-engine/" class="interactive-link dark reverse">Scoop Capture Engine</a>
-            <a href="./wacz-exhibitor/" class="interactive-link dark reverse">WACZ Exhibitor</a>
-          </div>
-          <div class="flex flex-col items-start gap-24 body-text">
-            <a href="./wacz-signing/" class="interactive-link dark reverse">WACZ Signing</a>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 w-full">
-        <h3 class="label">Upcoming</h3>
-        <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
-          <div class="flex flex-col items-start gap-24 body-text">
-            <a href="./democratizing-open-knowledge/" class="interactive-link dark reverse">Democratizing Open Knowledge</a>
+
+      {% assign research = site.our_work | where:"category","research" | where:"retired",false %}
+      {% assign active_research =  research | concat: site.data.additional_research %}
+      {% assign subcategories = active_research | map: 'subcategory' | join: ',' | split: ',' | uniq | sort %}
+
+      {% for category in subcategories %}
+        <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 w-full {% if forloop.last == false %} border-b-1 border-black pb-40 md:pb-32 {% endif %}">
+          <h3 class="label">{{ category }}</h3>
+          <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
+            {% assign this_research = active_research | where:"subcategory",category | sort: 'order' %}
+            {% assign column_length = this_research.size | divided_by: 2 | plus: 1 %}
+            {% assign first_half = this_research | slice:0, column_length %}
+            {% assign second_half = this_research | slice:column_length %}
+            <div class="flex flex-col items-start gap-24 body-text">
+              {% for project in first_half %}
+                <a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a>
+              {% endfor %}
+            </div>
+            <div class="flex flex-col items-start gap-24 body-text">
+              {% for project in second_half %}
+                <a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a>
+              {% endfor %}
+            </div>
           </div>
         </div>
-      </div>
+      {% endfor %}
     </div>
   </section>
 
