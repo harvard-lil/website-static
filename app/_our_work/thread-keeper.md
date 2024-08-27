@@ -1,7 +1,7 @@
 ---
 category: projects
 retired: true
-retired_date:
+retired_date: 2023-12-05
 layout: project
 
 ### PROJECT METADATA ###

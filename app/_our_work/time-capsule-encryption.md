@@ -1,7 +1,7 @@
 ---
 category: projects
 retired: true
-retired_date:
+retired_date: 2022-07-21
 layout: project
 
 ### PROJECT METADATA ###
@@ -12,7 +12,7 @@ background_class: bg-gray
 logo: timecapsule-logo.svg
 
 # Optional
-project_website:
+project_website: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4124742
 github_repo: https://github.com/harvard-lil/tce_server
 start_date:
 order: 6

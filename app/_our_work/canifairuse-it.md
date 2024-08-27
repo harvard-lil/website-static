@@ -1,7 +1,7 @@
 ---
 category: projects
 retired: true
-retired_date:
+retired_date: 2017-10-11
 layout: project
 
 ### PROJECT METADATA ###
@@ -9,7 +9,7 @@ layout: project
 title: CanIFairUse.It
 
 # Optional
-project_website: https://www.newschallenge.org/challenge/how-might-libraries-serve-21st-century-information-needs/submissions/canifairuseit-crowdsourcing-fair-use-knowledge
+project_website: https://web.archive.org/web/20170305025536/https://www.newschallenge.org/challenge/how-might-libraries-serve-21st-century-information-needs/submissions/canifairuseit-crowdsourcing-fair-use-knowledge
 
 github_repo:
 
