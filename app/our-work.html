@@ -36,10 +36,19 @@ layout: sectioned-page
         <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 w-full {% if forloop.last == false %} border-b-1 border-black pb-40 md:pb-32 {% endif %}">
           <h3 class="label">{{ category }}</h3>
           <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
+
             {% assign this_research = active_research | where:"subcategory",category | sort: 'order' %}
-            {% assign column_length = this_research.size | divided_by: 2 | plus: 1 %}
+
+            {% assign is_even_length = this_research.size | is_even %}
+            {% if is_even_length %}
+              {% assign column_length = this_research.size | divided_by: 2 %}
+            {% else %}
+              {% assign column_length = this_research.size | divided_by: 2 | plus: 1 %}
+            {% endif %}
+
             {% assign first_half = this_research | slice:0, column_length %}
-            {% assign second_half = this_research | slice:column_length %}
+            {% assign second_half = this_research | slice:column_length, this_research.size %}
+
             <div class="flex flex-col items-start gap-24 body-text">
               {% for project in first_half %}
                 <a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a>
