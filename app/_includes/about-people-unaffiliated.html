@@ -1,6 +1,6 @@
 {% assign person = include.person %}
 
-<div class="body-text w-full py-32 border-t-1 border-black flex grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-24 relative">
+<div class="body-text w-full py-32 border-t-1 border-black flex grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-24 relative" id="{{ person.name | slugify }}">
   <div class="label md:col-span-3">{{person.name}}</div>
   <div class="md:col-span-6">{{person.role}}</div>
   <div class="pt-20 md:pt-0 md:col-span-3 flex md:justify-end">
