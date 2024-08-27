@@ -108,7 +108,7 @@ layout: default
       <div class="flex flex-col">
         {% assign retired_projects_with_pages = site.our_work | where:"retired",true %}
         {% assign retired_projects_without_pages = site.our_work_pageless | where:"retired",true %}
-        {% assign retired_projects = retired_projects_with_pages | concat: retired_projects_without_pages | sort: "title" %}
+        {% assign retired_projects = retired_projects_with_pages | concat: retired_projects_without_pages | sort: "retired_date" | reverse %}
         {% for project in retired_projects %}
           <div class="body-text w-full py-32 border-t-1 border-black first-of-type:border-t-0 last-of-type:border-b-1 flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative md:items-center">
             <h3 class="label col-span-3">{{ project.title }}</h3>
