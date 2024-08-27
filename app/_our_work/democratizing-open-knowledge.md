@@ -1,6 +1,6 @@
 ---
 category: research
-subtype: upcoming
+subcategory: Upcoming
 retired: false
 retired_date:
 
