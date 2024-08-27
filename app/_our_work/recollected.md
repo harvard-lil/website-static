@@ -49,7 +49,7 @@ video:
 
 # Required
 what_does_it_do: >
-  Collects stories from people about the things that would hurt for them to lose   
+  Collects stories from people about the things that would hurt for them to lose.
 
 # Optional
 why_does_it_exist: >

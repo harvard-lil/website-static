@@ -49,7 +49,7 @@ video:
 
 # Required
 what_does_it_do: >
-  Crowdsourced fair use predictions
+  Crowdsourced fair use predictions.
 
 # Optional
 why_does_it_exist:
