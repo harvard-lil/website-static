@@ -1,7 +1,7 @@
 ---
 category: projects
 retired: true
-retired_date:
+retired_date: 2023-12-05
 layout: project
 
 ### PROJECT METADATA ###
@@ -49,7 +49,7 @@ video:
 
 # Required
 what_does_it_do: >
-  High-fidelity capture of Twitter threads as sealed PDFs
+  High-fidelity capture of Twitter threads as sealed PDFs.
 
 # # Optional
 # why_does_it_exist: >

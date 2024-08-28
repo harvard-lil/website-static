@@ -1,7 +1,7 @@
 ---
 category: platforms
 retired: true
-retired_date:
+retired_date: 2017-01-20
 layout: project
 
 ### PROJECT METADATA ###
