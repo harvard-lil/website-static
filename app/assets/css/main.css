@@ -314,7 +314,7 @@ lil-header.expanded .nav-menu__overlay {
 }
 
 .expandable__toggle--title {
-  max-width: 450px;
+/*  max-width: 450px;*/
   text-align: left;
   line-height: 120%;
   flex: 1;
@@ -360,11 +360,11 @@ lil-header.expanded .nav-menu__overlay {
   transition: transform 300ms ease;
 }
 
-.expandable__content {
+/*.expandable__content {
   opacity: 0;
   height: 0;
   overflow: hidden;
-}
+}*/
 
 .expandable__content--inner {
   padding-bottom: 50px;
