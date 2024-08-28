@@ -1,6 +1,6 @@
 ---
 category: research
-subtype: perma tools
+subcategory: Perma Tools
 retired: false
 retired_date:
 

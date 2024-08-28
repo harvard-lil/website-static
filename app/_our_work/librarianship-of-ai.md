@@ -1,6 +1,6 @@
 ---
 category: research
-subtype: ai explorations
+subcategory: AI Explorations
 retired: false
 retired_date:
 
