@@ -460,9 +460,9 @@ html.is-animating .transition-main {
     padding-block: 16px;
   }
 
-  .expandable__toggle--title {
+/*  .expandable__toggle--title {
     max-width: 300px;
-  }
+  }*/
 
   .expandable__icon {
     width: 28px;
