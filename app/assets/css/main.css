@@ -130,7 +130,7 @@ lil-header.expanded svg {
 
 .nav-menu__inner {
   @apply md:min-h-[800px];
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 50px;
   align-items: center;
@@ -164,6 +164,11 @@ lil-header.expanded .nav-menu__overlay {
   opacity: 1;
   visibility: visible;
   transition: opacity 500ms ease 300ms, visibility 500ms ease 300ms;
+}
+
+lil-header.expanded .nav-menu__inner {
+  display: flex;
+  transition: display 500ms ease 300ms
 }
 
 .interactive-link {
