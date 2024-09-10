@@ -38,4 +38,4 @@ Undergraduate curricula were the focus of Adaeze's summer. Where and how is the 
 
 Since 2018, our team has been integrating primary legal documents, including caselaw and the U.S. Code, directly into [H2O](https://opencasebook.org/), our open casebook platform, to make the creation of legal teaching materials even more seamless and powerful. This summer, Aadi continued that work by exploring ways in which H2O could include state code in a casebook—extending content capabilities for all of our users. Along the way, Aadi learned a lot about open-source communities and the process of integrating public materials into our platform.
 
-If you're interested in our visiting research opportunities, make sure to [follow us on Twitter](https://twitter.com/HarvardLIL). You should also feel free to reach out to us at [lil@law.harvard.edu](mailto:lil@law.harvard.edu)!
+If you're interested in our visiting research opportunities, make sure to [follow us on Twitter](https://twitter.com/HarvardLIL). You should also feel free to reach out to us at [{{ site.email }}](mailto:{{ site.email }})!

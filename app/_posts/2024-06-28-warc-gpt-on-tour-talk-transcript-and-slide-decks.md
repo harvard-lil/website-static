@@ -154,4 +154,4 @@ Web archive playback within WARC-GPT would also allow for easier source verifica
 
 Lastly, with the rapid pace of AI development, it’s likely that we will need to adapt to new capabilities. Some of the challenges we encounter with RAG today such as context window length could improve in the future. 
 
-Have a question or idea, want to collaborate? Get in touch with us at lil@law.harvard.edu. Thank you! 
+Have a question or idea, want to collaborate? Get in touch with us at {{ site.email }}. Thank you!
