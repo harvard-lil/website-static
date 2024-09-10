@@ -279,6 +279,7 @@ class LilExpandable extends HTMLElement {
         super();
         this.expanded = false;
         this.toggle = this.querySelector('.expandable__toggle');
+        this.button = this.querySelector('.expandable__icon');
         this.content = this.querySelector('.expandable__content');
 
         this.toggle.addEventListener('click', this.handleToggleClick.bind(this));
@@ -303,8 +304,7 @@ class LilExpandable extends HTMLElement {
     openExpandable() {
         this.expanded = true;
         this.classList.add('expanded')
-        this.content.setAttribute('aria-hidden', false);
-        this.toggle.setAttribute('aria-expanded', true);
+        this.button.setAttribute('aria-expanded', true);
         this.openExpandableContent();
         this.closeAllExpandables()
     }
@@ -312,8 +312,7 @@ class LilExpandable extends HTMLElement {
     closeExpandable() {
         this.expanded = false;
         this.classList.remove('expanded')
-        this.content.setAttribute('aria-hidden', true);
-        this.toggle.setAttribute('aria-expanded', false);
+        this.button.setAttribute('aria-expanded', false);
         this.closeExpandableContent();
     }
 
