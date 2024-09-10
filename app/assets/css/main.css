@@ -366,6 +366,7 @@ lil-header.expanded .nav-menu__inner {
 }
 
 .expandable__content {
+  display: none;
   opacity: 0;
   height: 0;
   overflow: hidden;

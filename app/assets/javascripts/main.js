@@ -318,6 +318,7 @@ class LilExpandable extends HTMLElement {
     }
 
     openExpandableContent() {
+        this.content.style.display = 'block';
         gsap.to(this.content, {
             duration: safeDuration(0.6),
             ease: 'power4.inOut',
@@ -333,6 +334,12 @@ class LilExpandable extends HTMLElement {
             height: 0,
             opacity: 0,
         })
+        gsap.to(this.content, {
+            duration: safeDuration(0.6),
+            ease: 'power4.inOut',
+            display: 'none',
+        })
+
     }
 }
 
