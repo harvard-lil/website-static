@@ -352,6 +352,9 @@ function setupCustomElements() {
 function setupSwup() {
     const swup = new Swup({
         plugins: [new SwupHeadPlugin()],
+        skipPopStateHandling: (event) => {
+          event.url?.contains('blog') || event.state?.source !== 'swup'
+        },
     });
 }
 
