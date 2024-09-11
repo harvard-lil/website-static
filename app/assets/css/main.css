@@ -359,7 +359,7 @@ lil-header.expanded .nav-menu__inner {
   transition: transform 300ms ease;
 }
 
-.expandable__icon div {
+.expandable__icon span {
   width: 18px;
   height: 1.5px;
   background: #121212;
@@ -370,7 +370,7 @@ lil-header.expanded .nav-menu__inner {
   transition: transform 300ms ease;
 }
 
-.expandable__icon div:nth-child(1) {
+.expandable__icon span:nth-child(1) {
   transform: translate(-50%, -50%) rotate(90deg);
   transition: transform 300ms ease;
 }
@@ -385,12 +385,13 @@ lil-header.expanded .nav-menu__inner {
   transition: transform 300ms ease;
 }
 
-.expandable.expanded .expandable__icon div:nth-child(2) {
+.expandable.expanded .expandable__icon span:nth-child(2) {
   transform: translate(-50%, -50%) rotate(-90deg);
   transition: transform 300ms ease;
 }
 
 .expandable__content {
+  display: none;
   opacity: 0;
   height: 0;
   overflow: hidden;
@@ -499,7 +500,7 @@ html.is-animating .transition-main {
     height: 28px;
   }
 
-  .expandable__icon div {
+  .expandable__icon span {
     width: 14px;
   }
 
