@@ -50,12 +50,12 @@ layout: default
 
             <div class="flex flex-col items-start gap-24 body-text">
               {% for project in first_half %}
-                <a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a>
+                <span><a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a></span>
               {% endfor %}
             </div>
             <div class="flex flex-col items-start gap-24 body-text">
               {% for project in second_half %}
-                <a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a>
+                <span><a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a></span>
               {% endfor %}
             </div>
           </div>
