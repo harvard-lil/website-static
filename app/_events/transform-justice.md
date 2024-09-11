@@ -3,9 +3,10 @@ title: "Transform: Justice"
 date: 2024-03-08 19:05:36+00:00
 short_description: "A celebration of the full, unqualified release of data from the Caselaw Access Project."
 description: "A celebration of the full, unqualified release of the data from the Caselaw Access Project will be the anchor of an event focused on the future of the access to law movement. Speakers across government, academia, and industry will sketch out the opportunities ahead of us for expanding access to legal data and its waterfall effects across society and justice."
----
 
-<img src="{{ site.baseurl }}/assets/images/transform-justice-banner-small.jpg" alt=""/>
+banner: transform-justice-banner-small.jpg
+banner_large: transform-justice-banner-large.jpg
+---
 
 The Library Innovation Lab hosted Transform: Justice at the Harvard Law School on March 8, 2024. A celebration of the full, unqualified release of the data from the <a href="https://case.law">Caselaw Access Project</a> was the anchor of a gathering focused on the future of the access to law movement. Speakers across government, academia, and industry sketched out the opportunities ahead of us for expanding access to legal data and its waterfall effects across society and justice.
 

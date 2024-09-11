@@ -21,10 +21,10 @@ layout: default
             <picture>
               {% if next_event.banner_large %}
               <source media="(min-width: 600px)"
-                      srcset="{{ site.baseurl }}/assets/images/{{ next_event.banner_large }}">
+                      srcset="{{ site.baseurl }}/assets/images/events/{{ next_event.banner_large }}">
               {% endif %}
-              <source srcset="{{ site.baseurl }}/assets/images/{{ next_event.banner }}">
-              <img src="{{ site.baseurl }}/assets/images/{{ next_event.banner }}"
+              <source srcset="{{ site.baseurl }}/assets/images/events/{{ next_event.banner }}">
+              <img src="{{ site.baseurl }}/assets/images/events/{{ next_event.banner }}"
                   alt=""
                   class="img-full-width">
             </picture>
