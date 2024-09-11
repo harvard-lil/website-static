@@ -36,7 +36,7 @@ layout: default
           <h3 class="label">{{ category }}</h3>
           <div class="grid grid-cols-2 gap-16 md:gap-24 md:col-span-2 max-w-[900px]">
 
-            {% assign this_research = active_research | where:"subcategory",category | sort: 'order' %}
+            {% assign this_research = active_research | where:"subcategory",category | sort: 'title' %}
 
             {% assign is_even_length = this_research.size | is_even %}
             {% if is_even_length %}
