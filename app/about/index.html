@@ -53,7 +53,7 @@ layout: default
 
   <section class="container flex flex-col gap-50">
     <h2 class="h2 pb-50">The People at the Lab</h2>
-    <div class="grid md:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-120">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
       {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
       {% assign sections = "Faculty Director, Staff" | split: ", " %}
       {% for section in sections %}
@@ -71,7 +71,7 @@ layout: default
     </div>
     <div class="flex flex-col gap-32 pt-50 border-t-1 border-black">
       <h2 class="h2">Fellows</h2>
-      <div class="grid md:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-120">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
         {% assign fellows = site.data.people | where: "affiliated", true | sort: "sort_name" %}
         {% assign sections = "Fellows" | split: ", " %}
         {% for section in sections %}

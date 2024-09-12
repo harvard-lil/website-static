@@ -78,6 +78,10 @@ module.exports = {
             acc[val] = `${val}px`
             return acc
           }, {}),
+      },
+      screens: {
+        'sm': '576px',
+        'md': '992px',
       }
     },
     keyframes: {
