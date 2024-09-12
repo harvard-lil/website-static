@@ -32,7 +32,7 @@ sharing-card-type: summary_large_image
   </div>
 </div>
 
-<div class="flex flex-col gap-50 md:gap-80 pb-120 md:pb-220">
+<div class="flex flex-col gap-50 md:gap-80">
   {% assign featured_projects = site.our_work | where:"featured",true | sort: "order" %}
   <div class="flex flex-col">
     {% for project in featured_projects %}
