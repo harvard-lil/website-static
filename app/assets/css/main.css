@@ -474,13 +474,13 @@ html.is-animating .transition-main {
     padding-bottom: 0;
   }
 
-  .interactive-link {
+/*  .interactive-link {
     text-decoration: underline;
   }
   
   .interactive-link:after {
     display: none;
-  }
+  }*/
 
   .nav-menu__list a, .footer-nav a {
     text-decoration: none;
