@@ -5,7 +5,7 @@ markdown: kramdown
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
-  - jekyll-postcss
+  - jekyll-postcss-v2
 liquid:
   error_mode: strict
 sass:
