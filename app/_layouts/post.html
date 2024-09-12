@@ -12,13 +12,6 @@ custom-css: ['post-content']
       </nav>
       <div class="flex flex-col md:grid md:grid-cols-3 gap-14 md:gap-32 pb-40 md:pb-80 border-b-1 border-black">
         <h1 class="h2">{{page.title}}</h1>
-        <div class="md:col-span-2 body-text max-w-[700px] md:pt-10">
-          {% if page.blurb %}
-            {{ page.blurb }}
-          {% else %}
-            {% include post-blurb.html content=content %}
-          {% endif %}
-        </div>
       </div>
     </div>
   </div>
