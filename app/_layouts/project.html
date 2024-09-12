@@ -58,6 +58,11 @@ layout: default
               <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
             </span>
             <span class="col-span-6">{% include arrow-link-inline.html label=article.title href=article.url target="_blank"%}</span>
+            {% if article.archived_url %}
+              <span class="col-span-3">
+                <a class="interactive-link float-right" href="{{ article.archived_url}}"><img class="inline h-[20px]" src="{{ site.baseurl }}/assets/images/perma-logo.svg" alt="Archived at Perma.cc: {{ article.title | xml_escape }}"></a>
+              </span>
+            {% endif %}
           </div>
         {% endfor %}
       </div>
