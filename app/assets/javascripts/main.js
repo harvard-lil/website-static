@@ -171,14 +171,6 @@ class LilHeader extends HTMLElement {
         }
     }
 
-    setTabindex(index) {
-        /* the menu uses transitions, so we can't use display: none to
-        remove elements from the tab order */
-        this.links?.forEach(link => {
-            link.setAttribute('tabindex', index);
-        });
-    }
-
     closeMenu() {
         this.expanded = false;
         this.menuButton.setAttribute('aria-expanded', this.expanded);
