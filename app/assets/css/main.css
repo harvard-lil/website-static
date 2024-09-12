@@ -61,26 +61,22 @@ html {
   width: 100%;
   max-width: 1600px;
   margin-inline: auto;
-}
-
-@media only screen and (max-width: 768px) {
-  .container {
+  @media only screen and (max-width: 768px) {
     padding-inline: 20px;
   }
 }
 
 .logo {
   z-index: 10;
-}
-
-lil-header.expanded .logo {
-  /* we cannot interleave z-indexes inside and outside the menu dropdown,
-  so adding some drop shadow to the logo is the next best thing to handle
-  cases where the window is short, the menu is scrolled, and menu items
-  overlap the logo */
-  transition: filter 0.1s ease;
-  transition-delay: 1s;
-  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.6));
+  lil-header.expanded & {
+    /* we cannot interleave z-indexes inside and outside the menu dropdown,
+    so adding some drop shadow to the logo is the next best thing to handle
+    cases where the window is short, the menu is scrolled, and menu items
+    overlap the logo */
+    transition: filter 0.1s ease;
+    transition-delay: 1s;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.6));
+  }
 }
 
 .menu-button {
@@ -89,32 +85,32 @@ lil-header.expanded .logo {
   position: relative;
   z-index: 10;
   display: block;
-}
 
-.menu-button__bar {
-  display: inline-block;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(calc(-50% + 8px)) rotate(0deg);
-  @apply bg-black;
-  height: 4px;
-  left: 0;
-  transition: background-color 300ms ease 400ms, transform 300ms ease;
-}
+  &__bar {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(calc(-50% + 8px)) rotate(0deg);
+    @apply bg-black;
+    height: 4px;
+    left: 0;
+    transition: background-color 300ms ease 400ms, transform 300ms ease;
 
-lil-header.expanded .menu-button__bar {
-  transform: translateY(-50%) rotate(45deg);
-  background-color: white;
-  transition: background-color 300ms ease 300ms, transform 300ms ease;
-} 
+    lil-header.expanded & {
+      transform: translateY(-50%) rotate(45deg);
+      background-color: white;
+      transition: background-color 300ms ease 300ms, transform 300ms ease;
+    }
 
-.menu-button__bar:nth-child(2) {
-  transform: translateY(calc(-50% - 8px));
-}
+    &:nth-child(2) {
+      transform: translateY(calc(-50% - 8px));
 
-lil-header.expanded .menu-button .menu-button__bar:nth-child(2) {
-  transform: translateY(-50%) rotate(-45deg);
+      lil-header.expanded & {
+        transform: translateY(-50%) rotate(-45deg);
+      }
+    }
+  }
 }
 
 lil-header svg {
