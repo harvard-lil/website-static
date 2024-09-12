@@ -1,3 +1,6 @@
+---
+---
+
 @tailwind base;
 @tailwind utilities;
 
@@ -71,7 +74,7 @@ html {
 }
 
 lil-header.expanded .logo {
-  /* we can't interleave z-indexes inside and outside the menu dropdown,
+  /* we cannot interleave z-indexes inside and outside the menu dropdown,
   so adding some drop shadow to the logo is the next best thing to handle
   cases where the window is short, the menu is scrolled, and menu items
   overlap the logo */
