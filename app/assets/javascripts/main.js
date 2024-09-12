@@ -144,10 +144,13 @@ class LilHeader extends HTMLElement {
         super();
         this.expanded = false;
         this.menuButton = this.querySelector('.menu-button');
-        this.menu = this.querySelector('.nav-menu');
         this.overlay = this.querySelector('.nav-menu__overlay');
-        this.links = this.querySelectorAll('.nav-menu a');
         this.logo = this.querySelector('.logo');
+        this.header = this.querySelector('header');
+
+        this.menu = this.querySelector('.nav-menu');
+        this.links = this.menu.querySelectorAll('a');
+        this.inner = this.menu.querySelector('.nav-menu__inner');
 
         this.menuButton.addEventListener('click', this.toggleMenu.bind(this));
         this.overlay.addEventListener('click', this.toggleMenu.bind(this));
@@ -187,6 +190,7 @@ class LilHeader extends HTMLElement {
         if (this.expanded) {
             document.body.style.overflow = 'hidden';
             window.addEventListener('keydown', this.closeOnEscape.bind(this));
+            this.inner.style.paddingTop = `${this.header.getBoundingClientRect().bottom+40}px`;
             this.classList.add('expanded');
             this.menuButton.setAttribute('aria-label', 'Close menu');
             this.menuOpenAnimation()
@@ -201,6 +205,9 @@ class LilHeader extends HTMLElement {
     }
 
     menuOpenAnimation() {
+        // when closed, menu will be none to keep out of tab order
+        gsap.to(this.menu, {duration: 0, display: 'flex'})
+
         gsap.to(this.menu, {
             duration: safeDuration(0.95),
             ease: 'expo.inOut',
@@ -257,6 +264,8 @@ class LilHeader extends HTMLElement {
             opacity: 0,
             y: -40,
         })
+
+        gsap.to(this.menu, {duration: safeDuration(0.6), display: 'none'})
     }
 }
 
