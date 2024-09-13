@@ -9,16 +9,11 @@ custom-css: ['post-content']
       <nav aria-label="breadcrumbs">
         <a href="/events" class="label interactive-link dark reverse">Events</a>
       </nav>
-      <div class="flex flex-col md:grid md:grid-cols-3 gap-32 pb-40 md:pb-80 border-b-1 border-black">
+      <div class="flex flex-col md:grid gap-32 pb-40 border-b-1 border-black">
         <h1 class="h2">
           {{page.title}}
           <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         </h1>
-        <div class="md:col-span-2 body-text max-w-[700px] pt-10">
-          <p>
-            {{ page.description}}
-          </p>
-        </div>
       </div>
     </div>
   </div>
