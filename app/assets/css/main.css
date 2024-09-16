@@ -459,7 +459,7 @@ html.is-animating .transition-main {
   opacity: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 859px) {
   .page-hero {
     padding-bottom: 40px;
     margin-bottom: 40px;
