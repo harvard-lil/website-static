@@ -1,17 +1,17 @@
-<div class="relative block container {% if include.featured %}pt-80 tbl:pt-120{% endif %}">
+<div class="relative block container {% if include.featured %}pt-84 tbl:pt-120{% endif %}">
   {% if include.featured %}
-    <div class="absolute w-72 h-72 tbl:w-165 tbl:h-165 top-45 left-24 tbl:top-40 tbl:left-50 z-[2] motion-safe:animate-spin">
+    <div class="absolute w-72 h-72 tbl:w-165 tbl:h-165 top-48 left-12 sm:left-0 tbl:top-36 z-[2] motion-safe:animate-spin">
       <img src="{{ site.baseurl }}/assets/images/featured-project-text.svg" class="w-full h-full object-contain" alt="Featured Project" />
     </div>
   {% endif %}
   <div class="{{ include.background }} pt-36 pb-12 tbl:pt-0 tbl:pb-0 flex flex-col tbl:grid tbl:grid-cols-2 tbl:items-center relative overflow-hidden">
-    <div class="flex items-start justify-start tbl:items-center tbl:justify-center px-28 tbl:px-0">
-      <img class="w-full max-w-[135px] min-h-[140px] max-h-[140px] tbl:max-w-[350px] tbl:max-h-[300px] object-contain object-left tbl:object-center" src="{{ site.baseurl }}/assets/images/{{ include.logo }}" alt="{{ include.title }}">
+    <div class="flex items-start justify-start tbl:items-center tbl:justify-center px-24 tbl:px-0">
+      <img class="w-full max-w-[132px] min-h-[132px] max-h-[132px] pb-12 tbl:max-w-[348px] tbl:max-h-[300px] tbl:pb-0 object-contain object-left tbl:object-center" src="{{ site.baseurl }}/assets/images/{{ include.logo }}" alt="{{ include.title }}">
     </div>
-    <div class="w-full p-28 pt-0 tbl:p-80 flex flex-col gap-18 tbl:gap-30">
+    <div class="w-full p-24 pt-0 tbl:p-72 flex flex-col gap-18 tbl:gap-32">
       <strong class="h2">{{ include.title }}</strong>
       <p class="body-text">{{ include.description }}</p>
-      <div class="flex flex-col tbl:flex-row tbl:items-center gap-18 tbl:gap-32 pt-10 tbl:pt-20 whitespace-nowrap">
+      <div class="flex flex-col tbl:flex-row tbl:items-center gap-18 tbl:gap-32 pt-12 tbl:pt-24 whitespace-nowrap">
         {% if include.linkOne %}
           <span>{% include arrow-link-inline.html label=include.linkOneLabel href=include.linkOne target="_blank" reverse=true %}</span>
         {% endif %}
