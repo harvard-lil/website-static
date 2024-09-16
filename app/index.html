@@ -7,32 +7,45 @@ slug: home
 sharing-card-type: summary_large_image
 ---
 
-<div class="pt-50 pb-40 md:pt-[16vh] md:pb-[26vh] flex items-center justify-center text-[clamp(52px,10vw,150px)] leading-[100%] container">
+<div class="pt-36 pb-32 sm:pt-96 sm:pb-132  md:pt-156 md:pb-228 max-w-[92%] sm:max-w-[88%] xl:max-w-[1190px] m-auto text-[clamp(52px,8.5vw,120px)] leading-[clamp(52px,8.5vw,120px)] sm:text-center">
   <h1>
     <strong>Library Innovation Lab</strong> at <strong>Harvard Law School</strong>
   </h1>
 </div>
 
-<div class="bg-black text-white w-full pt-32 pb-32 md:pt-120 md:pb-160 continer text-center flex flex-col justify-center items-center gap-20 md:gap-32">
+<div class="bg-black text-white w-full py-48 md:pt-72 md:pb-120 continer text-center flex flex-col justify-center items-center gap-20 md:gap-32">
   <div class="font-mono uppercase tracking-8 text-green text-16 md:text-24 font-normal">Our Mission</div>
-  <div contenteditable class="text-28 md:text-54 leading-120 max-w-[1120px] tracking-2">To grow knowledge and community by bringing <strong>library principles to technological frontiers.</strong></div>
+  <div contenteditable class="text-28 md:text-54 leading-120 max-w-[1200px] mx-12">To grow knowledge and community by bringing <strong>library principles</strong> to <strong>technological frontiers.</strong></div>
 </div>
 
 <div class="bg-blue py-32">
-  <div class="container flex flex-col md:flex-row md:items-center md:justify-between gap-16 md:gap-24">
+  <div class="container flex flex-col sm:flex-row sm:items-center sm:justify-between gap-12 md:gap-24">
     <h2 class="text-14 md:text-18 tracking-8 uppercase font-medium">Follow our latest projects</h2>
     <ul class="flex items-center gap-60 text-[24px] leading-[120%]">
       <li>
-        {% include arrow-link.html label="Twitter" href="https://twitter.com" target="_blank" %}
+        {% include arrow-link.html label="Twitter" href="https://twitter.com" target="_blank" reverse=true %}
       </li>
       <li>
-        {% include arrow-link.html label="Newsletter" href="https://ocb.to/lawvocado" target="_blank" %}
+        {% include arrow-link.html label="Newsletter" href="https://ocb.to/lawvocado" target="_blank" reverse=true %}
       </li>
     </ul>
   </div>
 </div>
 
-<div class="flex flex-col gap-50 md:gap-80">
+<div class="container flex flex-col gap-50 md:gap-100">
+  <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 mt-36 sm:mt-48">
+    <h2 class="h2">Who We Are</h2>
+    <div class="md:col-span-2 body-text flex flex-col gap-28 md:gap-50 md:pt-24">
+      <div class="flex flex-col gap-20 max-w-[650px]">
+        <p>The Library Innovation Lab is a team working at the intersection of libraries, technology, and law.</p>
+        <p>Our team combines librarians, technologists, lawyers, and more to build tools and conduct research to empower more people to access and build our shared knowledge and cultural heritage.</p>
+      </div>
+      {% include arrow-link.html label="Learn More About Who We Are" href="/about/" reverse=true %}
+    </div>
+  </div>
+</div>
+
+<div class="flex flex-col gap-50 md:gap-60 -mt-12 sm:mt-0 md:-mt-28">
   {% assign featured_projects = site.our_work | where:"featured",true | sort: "order" %}
   <div class="flex flex-col">
     {% for project in featured_projects %}
@@ -58,24 +71,14 @@ sharing-card-type: summary_large_image
   </div>
 
   <div class="container flex flex-col gap-50 md:gap-100">
-    <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 pb-50 md:pb-120 border-b-1 border-black">
-      <h2 class="h2">Who We Are</h2>
-      <div class="md:col-span-2 body-text flex flex-col gap-28 md:gap-50 md:pt-24">
-        <div class="flex flex-col gap-20 max-w-[650px]">
-          <p>The Library Innovation Lab is a team working at the intersection of libraries, technology, and law.</p>
-          <p>Our team combines librarians, technologists, lawyers, and more to build tools and conduct research to empower more people to access and build our shared knowledge and cultural heritage.</p>
-        </div>
-        {% include arrow-link.html label="Learn More About Who We Are" href="/about/" %}
-      </div>
-    </div>
-    <div class="flex flex-col md:grid md:grid-cols-3 gap-32 md:gap-40 pb-50 md:pb-120 border-b-1 border-black">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-50 pb-50 md:pb-72 border-b-1 border-black">
       <h2 class="h2">Our Work</h2>
-      <div class="md:col-span-2 body-text flex flex-col gap-50 pt-24">
+      <div class="md:col-span-2 body-text flex flex-col gap-28 md:gap-50">
         <div class="flex flex-col gap-20 max-w-[650px]">
           <p>We build and explore new technology through the lens of library principles.</p>
           <p>Conducting research to further our understanding of certain technologies allows us to share our knowledge with those in the library field, or those in industry interested in making their tech more private, secure, or focused on the long term.</p>
         </div>
-        {% include arrow-link.html label="View All Projects" href="/our-work/" %}
+        {% include arrow-link.html label="View All Projects" href="/our-work/" reverse=true %}
       </div>
     </div>
   </div>

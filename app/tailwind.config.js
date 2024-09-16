@@ -80,8 +80,9 @@ module.exports = {
           }, {}),
       },
       screens: {
-        'sm': '576px',
+        'sm': '586px',
         'md': '992px',
+        'xl': '1300px'
       }
     },
     keyframes: {
