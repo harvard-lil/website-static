@@ -6,7 +6,7 @@
   {% endif %}
   <div class="{{ include.background }} pt-36 pb-12 md:pt-0 md:pb-0 flex flex-col md:grid md:grid-cols-2 md:items-center relative overflow-hidden md:min-h-[550px]">
     <div class="flex items-start justify-start md:items-center md:justify-center px-28 md:px-0 pb-18 md:pb-0">
-      <img class="w-full max-w-[200px] max-h-[140px] md:max-w-[350px] md:max-h-[300px] object-contain object-left md:object-center w-[150px] h-[150px] md:w-[200px] md:h-[200px]" src="{{ site.baseurl }}/assets/images/{{ include.logo }}" alt="{{ include.title }}">
+      <img class="w-full max-w-[200px] min-h-[140px] max-h-[140px] md:max-w-[350px] md:max-h-[300px] object-contain object-left md:object-center" src="{{ site.baseurl }}/assets/images/{{ include.logo }}" alt="{{ include.title }}">
     </div>
     <div class="w-full p-28 pt-0 md:p-80 flex flex-col gap-18 md:gap-30">
       <strong class="h2">{{ include.title }}</strong>
