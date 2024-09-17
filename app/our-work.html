@@ -114,7 +114,7 @@ layout: default
         {% assign retired_projects_without_pages = site.our_work_pageless | where:"retired",true %}
         {% assign retired_projects = retired_projects_with_pages | concat: retired_projects_without_pages | sort: "retired_date" | reverse %}
         {% for project in retired_projects %}
-          <div class="body-text w-full py-32 border-t-1 border-black first-of-type:border-t-0 last-of-type:border-b-1 flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative md:items-center">
+          <div class="body-text w-full py-32 {% unless forloop.first %}border-t-1 {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative md:items-center">
             <h3 class="label col-span-3">{{ project.title }}</h3>
             <span class="col-span-6">{{ project.what_does_it_do }}</span>
             {% if project.collection == 'our_work' %}
