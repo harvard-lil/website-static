@@ -77,6 +77,13 @@ html {
 
 @media only screen and (min-width: 586px) {
   .container {
+    max-width: min(60ch, 100vw - 80px);
+    padding-inline: 0;
+  }
+}
+
+@media only screen and (min-width: 860px) {
+  .container {
     max-width: calc(100vw - 80px);
     padding-inline: 0;
   }
@@ -459,7 +466,7 @@ html.is-animating .transition-main {
   opacity: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 859px) {
   .page-hero {
     padding-bottom: 40px;
     margin-bottom: 40px;

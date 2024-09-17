@@ -52,6 +52,14 @@ module.exports = {
       140: '140%',
       150: '150%',
     },
+    screens: {
+      'sm': '586px',
+      'tbl': '860px',
+      'md': '992px',
+      'lg': '1030px',
+      'xl': '1300px',
+      '2xl': '1520px'
+    },
     extend: {
       fontSize: {
         ...new Array(401)
@@ -78,12 +86,6 @@ module.exports = {
             acc[val] = `${val}px`
             return acc
           }, {}),
-      },
-      screens: {
-        'sm': '586px',
-        'md': '992px',
-        'xl': '1300px',
-        '2xl': '1520px'
       }
     },
     keyframes: {
