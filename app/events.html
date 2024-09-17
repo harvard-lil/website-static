@@ -83,7 +83,7 @@ layout: default
           {% capture linkLabel %}
             <span class="sr-only"> {{ event.title }},</span> More Info
           {% endcapture %}
-          <div class="body-text w-full py-32 border-t-1 border-black first-of-type:border-t-0 last-of-type:border-b-1 flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative md:items-center">
+          <div class="body-text w-full py-32 {% unless forloop.first %}border-t-1 {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative md:items-center">
             <span class="label col-span-3">{{ event.date | date: "%m/%d/%y" }}</span>
             <span class="col-span-6"><strong>{{event.title}}</strong> - {{event.short_description}}</span>
             <span class="col-span-3 flex md:justify-end pt-20 md:pt-0">
