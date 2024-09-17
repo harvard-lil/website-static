@@ -56,7 +56,7 @@ html {
   scrollbar-gutter: stable;
 }
 
-.container {
+.nav-container {
   padding-inline: 40px;
   width: 100%;
   max-width: 1600px;
@@ -64,8 +64,27 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-  .container {
+  .nav-container {
     padding-inline: 20px;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+@media only screen and (min-width: 586px) {
+  .container {
+    max-width: calc(100vw - 80px);
+    padding-inline: 0;
+  }
+}
+
+@media only screen and (min-width: 1521px) {
+  .container {
+    max-width: 1440px;
   }
 }
 

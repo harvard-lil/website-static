@@ -82,7 +82,8 @@ module.exports = {
       screens: {
         'sm': '586px',
         'md': '992px',
-        'xl': '1300px'
+        'xl': '1300px',
+        '2xl': '1520px'
       }
     },
     keyframes: {
