@@ -7,8 +7,8 @@ short_description: "An invite-only workshop for experts trying to reconcile the 
 description: "Transform: Journalism will be a closed-door gathering of experts from intersecting fields grappling with the interaction of generative AI and journalism."
 
 # optional
-banner: transform-journalism-banner-small.jpg
-banner_large: transform-journalism-banner-large.jpg
+banner: transform-journalism-sm.png
+banner_large: transform-journalism-lg.png
 excerpt_separator: <!--more-->
 ---
 
