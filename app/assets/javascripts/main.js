@@ -21,10 +21,14 @@ function safeDuration(duration) {
     return prefersReducedMotion() ? 0 : duration;
 }
 
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+function createCycler(min, max) {
+    let current = min;
+
+    return function() {
+        const returnValue = current; // Store the current value to return
+        current = current < max ? current + 1 : 1; // Cycle through 1-6
+        return returnValue; // Return the current value
+    };
 }
 
 /*
@@ -59,13 +63,14 @@ class jekyllSearch {
   
     async displayResults() {
       const results = await this.findResults()
+      const cycler = createCycler(1,6);
       const html = results.map(item => {
         return `
           <article class="flex flex-col gap-8 relative">
             <header class="aspect-square w-full bg-gray relative">
               ${item.image && item.image !== null && item.image !== '' ? (
                 `<object data="${item.image}" class="w-full h-full object-cover absolute inset-0">
-                    <img src="/assets/images/blog-thumbnail-${getRandomInt(1,6)}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
+                    <img src="/assets/images/blog-thumbnail-${cycler()}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
                  </object>`
               ) : ''}
             </header>
