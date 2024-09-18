@@ -21,6 +21,12 @@ function safeDuration(duration) {
     return prefersReducedMotion() ? 0 : duration;
 }
 
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 /*
 * https://github.com/daviddarnes/jekyll-search-js
 */
@@ -58,7 +64,9 @@ class jekyllSearch {
           <article class="flex flex-col gap-8 relative">
             <header class="aspect-square w-full bg-gray relative">
               ${item.image && item.image !== null && item.image !== '' ? (
-                `<img src="${item.image}" class="w-full h-full object-cover absolute inset-0" alt="${item.title}" />`
+                `<object data="${item.image}" class="w-full h-full object-cover absolute inset-0">
+                    <img src="/assets/images/blog-thumbnail-${getRandomInt(1,6)}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
+                 </object>`
               ) : ''}
             </header>
             <h2 class="text-18 leading-115 font-medium" itemprop="headline">

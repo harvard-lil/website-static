@@ -10,16 +10,17 @@
   {% endif %}
 {% endif %}
 
+<!-- NB: this HTML is not used when rendering search results. That markup is in a string in main.js  -->
 <article itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-14 relative">
   <header class="aspect-square w-full bg-gray relative">
-    {% if first_img_src != '' %}
-      <img src="{{ first_img_src }}" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title | smartify }}" />
+    {% if include.post.thumbnail %}
+      <img src="{{ include.post.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="" />
+    {% elsif first_img_src != '' %}
+      <object data="{{ first_img_src }}" class="w-full h-full object-cover absolute inset-0">
+        <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
+      </object>
     {% else %}
-      {% if include.post.thumbnail %}
-        <img src="{{ include.post.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title | smartify }}" />
-      {% else %}
-        <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="{{ post.title | smartify }}" />
-      {% endif %}
+      <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
     {% endif %}
   </header>
   <div class="flex flex-col gap-8">
