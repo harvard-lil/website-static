@@ -52,7 +52,7 @@ layout: default
       <h2 class="h2">News</h2>
       <div class="flex flex-col items-start w-full">
         {% for article in news %}
-          <div class="body-text w-full py-32 border-t-1 border-black last-of-type:border-b-1 flex grid grid-cols-12 gap-24 relative">
+          <div class="body-text w-full py-32 {% unless forloop.first %}border-t-1{% endunless %} flex grid grid-cols-12 gap-24 relative">
             <!-- format date as 02.12.24 -->
             <span class="label col-span-3">
               <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
