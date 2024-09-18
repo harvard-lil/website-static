@@ -1,0 +1,26 @@
+<div class="relative block container {% if include.featured %}pt-84 tbl:pt-120 md:pt-84{% endif %}">
+  {% if include.featured %}
+    <div class="absolute w-72 h-72 tbl:w-136 tbl:h-136 md:w-165 md:h-165 top-48 left-12 sm:left-0 tbl:top-52 md:top-0 z-[2] motion-safe:animate-spin">
+      <img src="{{ site.baseurl }}/assets/images/featured-project-text.svg" class="w-full h-full object-contain" alt="Featured Project" />
+    </div>
+  {% endif %}
+  <div class="{{ include.background }} pt-36 pb-12 tbl:pt-0 tbl:pb-0 flex flex-col tbl:grid tbl:grid-cols-2 tbl:items-center relative overflow-hidden">
+    <div class="flex items-start justify-start tbl:items-center tbl:justify-center px-24 tbl:px-0">
+      <img class="w-full max-w-[132px] min-h-[132px] max-h-[132px] pb-12 tbl:max-w-[348px] tbl:max-h-[300px] tbl:pb-0 object-contain object-left tbl:object-center" src="{{ site.baseurl }}/assets/images/{{ include.logo }}" alt="{{ include.title }}">
+    </div>
+    <div class="w-full p-24 pt-0 tbl:p-72 flex flex-col gap-18 tbl:gap-32">
+      <strong class="h2">{{ include.title }}</strong>
+      <p class="body-text">{{ include.description }}</p>
+      <div class="flex flex-col tbl:flex-row tbl:items-center gap-18 tbl:gap-32 pt-12 tbl:pt-24 whitespace-nowrap">
+        {% if include.linkOne %}
+          <span>{% include arrow-link-inline.html label=include.linkOneLabel href=include.linkOne target="_blank" reverse=true %}</span>
+        {% endif %}
+        {% if include.linkTwo %}
+          <span>{% include arrow-link-inline.html label=include.linkTwoLabel href=include.linkTwo target="_self" reverse=true %}</span>
+        {% endif %}
+      </div>
+    </div>
+    <div aria-hidden="true" class="absolute w-[150px] h-[150px] bg-white top-0 left-0 rotate-45 -translate-y-[75%] -translate-x-[75%] tbl:-translate-y-[60%] tbl:-translate-x-[60%]"></div>
+    <div aria-hidden="true" class="absolute w-[150px] h-[150px] bg-white bottom-0 right-0 rotate-45 translate-x-[75%] translate-y-[75%] tbl:translate-y-[60%] tbl:translate-x-[60%]"></div>
+  </div>
+</div>

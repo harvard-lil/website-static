@@ -1,91 +1,86 @@
 ---
-layout: sectioned-page
-title: Growing knowledge and community by bringing library principles to technological frontiers.
-title-tag-complete: The Library Innovation Lab at Harvard University
+layout: default
+title: Library Innovation Lab at Harvard University
+title-tag-complete: The Library Innovation Lab at Harvard Law School
 description: "Home of Perma.cc, H2O, Caselaw Access Project, and others. The Library Innovation Lab is growing knowledge and community by bringing library principles to technological frontiers."
 slug: home
 sharing-card-type: summary_large_image
-custom-scripts: ['home.js']
 ---
 
-<section class="about">
-  <div class="sleeve">
+<div class="pt-36 pb-32 sm:pt-96 sm:pb-132  md:pt-156 md:pb-228 max-w-[92%] sm:max-w-[88%] xl:max-w-[1190px] m-auto text-[clamp(52px,8.5vw,120px)] leading-[clamp(52px,8.5vw,120px)] sm:text-center">
+  <h1>
+    <strong>Library Innovation Lab</strong> at <strong>Harvard Law School</strong>
+  </h1>
+</div>
 
-    <h2>About</h2>
+<div class="bg-black text-white w-full py-48 md:pt-72 md:pb-120 continer text-center flex flex-col justify-center items-center gap-20 md:gap-32">
+  <div class="font-mono uppercase tracking-8 text-green text-16 md:text-24 font-normal">Our Mission</div>
+  <div contenteditable class="text-28 md:text-54 leading-120 max-w-[1200px] mx-12">To grow knowledge and community by bringing <strong>library principles</strong> to <strong>technological frontiers.</strong></div>
+</div>
 
-    <div class="slice">
-      <h3>What’s the Library Innovation Lab?</h3>
-      <div class="slice-body">
-        <p>The Library Innovation Lab is a forward-looking group of thinkers and doers working at the intersection of libraries, technology, and law.</p>
+<div class="bg-blue py-32">
+  <div class="container flex flex-col sm:flex-row sm:items-center sm:justify-between gap-12 md:gap-24">
+    <h2 class="text-14 md:text-18 tracking-8 uppercase font-medium">Follow our latest projects</h2>
+    <ul class="flex items-center gap-60 text-[24px] leading-[120%]">
+      <li>
+        {% include arrow-link.html label="Twitter" href="https://twitter.com" target="_blank" reverse=true %}
+      </li>
+      <li>
+        {% include arrow-link.html label="Newsletter" href="https://ocb.to/lawvocado" target="_blank" reverse=true %}
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="container flex flex-col gap-50 md:gap-100">
+  <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 mt-36 sm:mt-48">
+    <h2 class="h2">Who We Are</h2>
+    <div class="md:col-span-2 body-text flex flex-col gap-28 md:gap-50 md:pt-24">
+      <div class="flex flex-col gap-20">
+        <p>The Library Innovation Lab is a team working at the intersection of libraries, technology, and law.</p>
+        <p>Our team combines librarians, technologists, lawyers, and more to build tools and conduct research to empower more people to access and build our shared knowledge and cultural heritage.</p>
+      </div>
+      {% include arrow-link.html label="Learn More About Who We Are" href="/about/" reverse=true %}
+    </div>
+  </div>
+</div>
+
+<div class="flex flex-col gap-50 md:gap-60 -mt-12 sm:mt-0 md:-mt-18">
+  {% assign featured_projects = site.our_work | where:"featured",true | sort: "order" %}
+  <div class="flex flex-col">
+    {% for project in featured_projects %}
+      {% capture linkOneLabel %}
+        <span class="sr-only">{{ project.title }}, Visit</span> Website
+      {% endcapture %}
+      {% capture linkTwoLabel %}
+        <span class="sr-only">{{ project.title }},</span> Learn More
+      {% endcapture %}
+      {% include
+        project-card.html
+        featured=true
+        background=project.background_class
+        title=project.title
+        description=project.description
+        logo=project.logo
+        linkOne=project.project_website
+        linkOneLabel=linkOneLabel
+        linkTwo=project.url
+        linkTwoLabel=linkTwoLabel
+      %}
+    {% endfor %}
+  </div>
+
+  <div class="container flex flex-col gap-50 md:gap-100">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-50 pb-50 md:pb-72 border-b-1 border-black">
+      <h2 class="h2">Our Work</h2>
+      <div class="md:col-span-2 body-text flex flex-col gap-28 md:gap-50">
+        <div class="flex flex-col gap-20">
+          <p>We build and explore new technology through the lens of library principles.</p>
+          <p>Conducting research to further our understanding of certain technologies allows us to share our knowledge with those in the library field, or those in industry interested in making their tech more private, secure, or focused on the long term.</p>
+        </div>
+        {% include arrow-link.html label="View All Projects" href="/our-work/" reverse=true %}
       </div>
     </div>
-
-    <div class="slice">
-      <h3>Transform: Justice</h3>
-      <div class="slice-body">
-        <p>
-          <a href="{{ site.baseurl }}/about/cap-celebration/"
-            >Transform: Justice</a
-          >
-          is a call to action during an inflection point for the world of open legal data. AI is shaking up the way we all think about the power of information and data. Free, accessible, and comprehensive access to the law is foundational to our democracy, and we believe we’re in a moment when big progress can be made. Learn more here about this event, held in March 2024.
-        </p>
-      </div>
-    </div>
-
-    <div class="gallery-sq">
-      <a class="gallery-item" href="{{ site.baseurl }}/about/democratizing-open-knowledge/">
-        <figure>
-          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/haystacks-thumbnail-1.png"
-               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/haystacks-thumbnail-1.png 1x,
-                       {{ site.baseurl }}/assets/thumbs/800x600r/haystacks-thumbnail-1.png 2x"
-               alt=""
-               class="img-full-width">
-        </figure>
-        <strong class="title">Democratizing Open Knowledge</strong>
-        <span class="logline">A 3 year program to explore the goals articulated in Harvard Library's Advancing Open Knowledge strategy from a decentralized and generative perspective.</span>
-      </a>
-
-      <a class="gallery-item" href="{{ site.baseurl }}/about/ai/">
-        <figure>
-          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/timecapsule-thumbnail-3.png"
-               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/timecapsule-thumbnail-3.png 1x,
-                       {{ site.baseurl }}/assets/thumbs/800x600r/timecapsule-thumbnail-3.png 2x"
-               alt=""
-               class="img-full-width">
-        </figure>
-        <strong class="title">AI Projects</strong>
-        <span class="logline">Projects to explore how those concerned with information, access, and the law can be aware of and feel empowered to influence the use of generative AIs.</span>
-      </a>
-
-      <a class="gallery-item" href="{{ site.baseurl }}/blog/">
-        <figure>
-          <img src="{{ site.baseurl }}/assets/thumbs/400x300r/stacklife-thumbnail-1.png"
-               srcset="{{ site.baseurl }}/assets/thumbs/400x300r/stacklife-thumbnail-1.png 1x,
-                       {{ site.baseurl }}/assets/thumbs/800x600r/stacklife-thumbnail-1.png 2x"
-               alt=""
-               class="img-full-width">
-        </figure>
-        <strong class="title">Blog</strong>
-        <span class="logline">Publishing the results of our explorations and sharing take aways with folks across the spectrum of libraries, technology, and law is part of our mission.</span>
-      </a>
-    </div>
-
-    <a href="{{ site.baseurl }}/about/" role="button" aria-label="Learn more about who we are"><span>Learn more about who we are</span></a>
-
   </div>
-</section>
-
-<section class="projects">
-
-  <div class="sleeve">
-
-    <h2>Projects</h2>
-
-    {% include active-project-gallery.html %}
-
-    <a href="{{ site.baseurl }}/projects/" role="button" aria-label="Browse all our active projects"><span>Browse all our projects</span></a>
-
-  </div>
-</section>
-
-<div class="easter-egg"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="sr-only sr-only-focusable"><span>You found</span> an item from our secret collection!</a></div>
+  {% include contact-section.html heading="Contact Us" %}
+</div>

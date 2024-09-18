@@ -1,23 +1,49 @@
-{% capture footer-file %}
-  {% if page.custom-footer %}
-    {{ page.slug }}
-  {% else %}
-    home
-  {% endif %}
-{% endcapture %}
+<footer aria-label="page footer" class="bg-black text-white pt-24 pb-24 sm:pt-60 sm:pb-40">
+  <div class="nav-container flex flex-wrap sm:grid sm:grid-cols-12 sm:gap-x-20 sm:gap-y-26">
+    <a href="/" class="block relative w-full max-w-[160px] sm:col-span-4 sm:max-w-[340px]">
+      <span class="sr-only">Home</span>
+      <span aria-hidden="true">{% include footer-logo.html %}</span>
+    </a>
+    <ul class="footer-nav flex-1 text-right sm:text-left sm:col-span-6 sm:col-start-7 sm:text-right sm:grid sm:grid-cols-2 sm:gap-x-20 sm:gap-y-10 text-28 md:text-50 leading-[120%] sm:leading-[100%] font-medium">
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/our-work/">Our Work</a>
+      </li>
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/blog/">Blog</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/about/">About Us</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/jobs/">Careers</a>
+      </li>
+      <li>
+        <a class="interactive-link" href="{{ site.baseurl }}/events/">Events</a>
+      </li>
+      <li>
+          <a class="interactive-link" href="{{ site.baseurl }}/contact/">Contact</a>
+      </li>
+    </ul>
+    <div class="sm:col-span-12 flex items-center justify-end gap-15 w-full self-end pt-32 pb-40 sm:pt-0 sm:pb-0">
+      <a href="{{ site.github_url}}" target="_blank">
+        <span class="sr-only">LIL on Github</span>
+        <span aria-hidden="true">{% include icon-github.html %}</span>
+      </a>
+      <a href="{{ site.twitter_url }}" target="_blank">
+        <span class="sr-only">LIL on Twitter</span>
+        <span aria-hidden="true">{% include icon-x.html %}</span>
+      </a>
+      <a href="{{ site.linkedin_url }}" target="_blank">
+        <span class="sr-only">LIL on LinkedIn</span>
+        <span aria-hidden="true">{% include icon-linkedin.html %}</span>
+      </a>
+    </div>
+    <div class="w-full flex flex-col sm:flex-row sm:items-center sm:justify-between sm:gap-20 pt-24 border-t-1 border-white sm:col-span-12 text-12 sm:text-16">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:gap-100">
+        <p>&copy;2024 The President and Fellows of Harvard University</p>
+      </div>
+      <p><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy">Accessibility</a></p>
+    </div>
+  </div>
+</footer>
 
-{% include footer-logo.html %}
-<ul>
-  <li><a href="{{ site.baseurl }}/">Home</a></li>
-  <li><a href="{{ site.baseurl }}/about/">About</a></li>
-  <li><a href="{{ site.baseurl }}/jobs/">Jobs</a></li>
-  <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-  <li><a href="{{ site.baseurl }}/sketches/">Sketches</a></li>
-  <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-  <li><a href="https://ocb.to/lawvocado">Newsletter</a></li>
-</ul>
-<div class="footer-copyright">
-  <p>&copy;2024 The President and Fellows of Harvard University</p>
-  <p>The content on this site is covered under a Creative Commons Attribution-ShareAlike 3.0 Unported license unless otherwise noted.</p>
-  <p><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy">Accessibility</a></p>
-</div>

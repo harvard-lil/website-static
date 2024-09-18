@@ -1,119 +1,126 @@
 ---
-title: About the Lab
+title: About Us
 slug: about
-custom-footer: true
-layout: sectioned-page
+description: Our mission is to grow knowledge and community by bringing library principles to technological frontiers.
+layout: default
 ---
 
-<section>
-  <div class="sleeve">
+<section class="container">
+  <div class="page-hero">
+    <h1 class="page-hero__title">{{ page.title }}</h1>
+    <h2 class="page-hero__subtitle">{{page.description}}</h2>
+  </div>
+</section>
 
-    <h1>{{ page.title }}</h1>
+<div class="flex flex-col items-start gap-40 md:gap-80">
 
-    <div class="slice">
-      <h3>What does the Library Innovation Lab do?</h3>
-      <div class="slice-body">
-        We are a software and design lab tucked inside the world's largest academic law library, building tools and
-        communities for open knowledge. We build open-source software and web services, available to everyone and in
-        the public interest, to explore and to solve emerging information problems from our shared perspective as
-        librarians, programmers, artists, and lawyers.
-        We currently support three long-running services (
-          <a href="https://perma.cc">Perma</a>,
-          <a href="https://opencasebook.org">H2O Open Casebook</a>, and the
-          <a href="https://case.law">Caselaw Access Project</a>
-        ) as well as a range of shorter term experiments.
+  <section class="container">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40">
+      <h2 class="h2">Who We Are</h2>
+      <div class="md:col-span-2 body-text flex flex-col gap-32 md:pt-20 max-w-[700px]">
+        <p>We are a team of librarians, technologists, lawyers, designers, and more, and we work out of the Harvard Law School Library.</p>
+        <p>We believe that libraries play a fundamental role in humanity as open, privacy-respecting, and sustainable information spaces. We also believe technology holds great power to break down barriers to information creation, preservation, and use.</p>
       </div>
     </div>
+  </section>
 
-    <div class="slice">
-      <h3>How can I get in touch with the Lab?</h3>
-      <div class="slice-body">
-        <div class="contact-intro">
-          <p>Follow us on Twitter or shoot us an email if you’re interested in any of our projects or sketches. All of our code is open source. Send a pull request on GitHub if you want to collaborate.</p>
+  <section>
+    <figure>
+      <picture>
+        <img src="{{ site.baseurl }}/assets/images/lewis-center-web.png"
+            alt=""
+            class="img-full-width aspect-[1/.45] object-cover overflow-hidden">
+      </picture>
+      <figcaption class="block container text-16 py-8">
+        <strong>Credit: Bob O’Connor</strong> With a focus on fostering collaboration and community, the modernist building has been transformed into a 21st-century work environment.
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="bg-green py-80 w-full">
+    <div class="container flex flex-col md:grid md:grid-cols-2 gap-32 md:gap-100 md:items-center">
+      <h2 class="h2">Library principles can manifest in any technology and provide a roadmap to mindful building.</h2>
+      <div class="flex flex-col gap-20 md:gap-30 body-text">
+        <h3 class="label">Those we seek to cultivate</h3>
+        <div class="flex flex-col gap-16 md:gap-24 max-w-[520px]">
+          <p>Collection, curation, and preservation of knowledge and its provenance</p>
+          <p>Equal and private access to knowledge</p>
+          <p>Community service, building, and empowerment through knowledge</p>
         </div>
-
-        <h4>Contact us online:</h4>
-        <ul id="about-specs">
-          <li>twitter: <a href="{{ site.twitter_url }}">@{{  site.twitter_account_name }}</a></li>
-          <li>github: <a href="{{ site.github_url }}">{{ site.github_account_name }}</a></li>
-          <li>email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-
-        <h4>Contact us in person:</h4>
-        <p id="about-address">
-          {{ site.address_name }}<br />
-          {{ site.address_street1 }}<br />
-          {{ site.address_street2 }} <span class="map"><a href="{{ site.address_map_url }}">Map</a></span><br />
-          {{ site.address_city_state }}
-        </p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  <div class="project-hero">
-    <picture>
-      <source media="(min-width: 600px)"
-              srcset="{{ site.baseurl }}/assets/thumbs/800x450r/lab-alterspace-hero-wide.png 800w,
-                      {{ site.baseurl }}/assets/thumbs/1200x675r/lab-alterspace-hero-wide.png 1200w,
-                      {{ site.baseurl }}/assets/thumbs/1600x900r/lab-alterspace-hero-wide.png 1600w"
-              sizes="100vw">
-      <source srcset="{{ site.baseurl }}/assets/thumbs/400x400r/lab-alterspace-hero-narrow.png 1x,
-                      {{ site.baseurl }}/assets/thumbs/800x800r/lab-alterspace-hero-narrow.png 2x">
-      <img src="{{ site.baseurl }}/assets/thumbs/400x400r/lab-alterspace-hero-narrow.png"
-           alt=""
-           class="img-full-width">
-    </picture>
-  </div>
-
-  <div class="sleeve">
-    <div class="slice">
-      <h3>What’s our story?</h3>
-      <div class="slice-body">
-        <p>We’re a dynamic group of thinkers and doers working to make libraries better by exploring the countless, dimly lit pathways that connect libraries to the larger world.</p>
-
-        <p>We focus our energy on a handful of large multi-year projects and a number of small projects we call sketches. Our large projects are ambitious undertakings that reflect our long-term mission and efforts. Sketches are experiments and provocations that are often driven by one or two folks in the Lab.</p>
-
-        <p>We’re stationed in the Harvard Law School Library and benefit greatly from the deep legal thinking and scholarship that surrounds us. We often approach library challenges using our law school library lens, but we work hard to make sure our local efforts have broad application. Libraries are universal.</p>
-
-        <p>Our group’s culture is freewheelin’ and open. We welcome new ideas and new collaborations. Let’s work together to make libraries better.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="people-affiliated">
-  <div class="sleeve">
-    <div class="heading-pair">
-      <h2>Who we are</h2>
-      <p>The people at the Lab.</p>
-    </div>
-    {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
-    {% assign sections = "Faculty Director, Staff, Affiliates" | split: ", " %}
-    {% for section in sections %}
-      {% assign section_people = affiliates | where: "current", true | where: "section", section %}
-      {% if section_people != empty %}
-        <h3>{{ section }}</h3>
-        {% for person in section_people %}
-          {% include about-people-affiliated.html person=person %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
-
-<section class="people-unaffiliated">
-  <div class="sleeve">
-    <div class="heading-pair">
-      <h2>Past Affiliates</h2>
-    </div>
-
-    <div class="list">
-      {% assign old_friends = affiliates | where: "current", nil %}
-      {% for person in old_friends %}
-        {% include about-people-unaffiliated.html person=person %}
+  <section class="container flex flex-col gap-50">
+    <h2 class="h2 pb-50">The People at the Lab</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
+      {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
+      {% assign sections = "Faculty Director, Staff" | split: ", " %}
+      {% for section in sections %}
+        {% assign border = 'false' %}
+        {% if forloop.index0 == 0 %}{% assign border = 'true' %}{% endif %}
+        {% assign section_people = affiliates | where: "current", true | where: "section", section %}
+        {% if section_people != empty %}
+          {% for person in section_people %}
+            {% assign tag = 'false' %}
+            {% if forloop.index0 == 0 %}{% assign tag = section %}{% endif %}
+            {% include about-people-affiliated.html person=person tag=tag border=border %}
+          {% endfor %}
+        {% endif %}
       {% endfor %}
     </div>
-  </div>
-</section>
+    <div class="flex flex-col gap-32 pt-50 border-t-1 border-black">
+      <h2 class="h2">Fellows</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
+        {% assign fellows = site.data.people | where: "affiliated", true | sort: "sort_name" %}
+        {% assign sections = "Fellows" | split: ", " %}
+        {% for section in sections %}
+          {% assign fellows_people = fellows | where: "current", true | where: "section", section %}
+          {% if fellows_people != empty %}
+            {% for person in fellows_people %}
+              {% include about-people-affiliated.html person=person %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="w-full bg-purple">
+    <div class="container flex items-center justify-between gap-20 py-20">
+      <div>
+        {% include header-splash-logo.html %}
+      </div>
+      <div>
+        {% include arrow-link.html label="View Open Positions" href="/jobs" %}
+      </div>
+      <div class="w-40">
+      </div>
+    </div>
+    <section class="bg-gray pt-80 pb-40 w-full">
+      <div class="container flex flex-col gap-80">
+        <h2 class="h2">Past Affiliates</h2>
+        <div class="flex flex-col items-start w-full">
+          {% assign old_friends = affiliates | where: "current", nil %}
+          {% for person in old_friends %}
+            {% include about-people-unaffiliated.html person=person %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="container pb-120 md:pb-220 flex flex-col gap-80 md:gap-160">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
+      <h2 class="h2">Supported By</h2>
+    </div>
+    <div class="flex flex-wrap gap-x-[10vw] gap-y-100 items-center justify-center max-w-[500px] mx-auto">
+      <img src="/assets/images/harvard-law-school-logo.png" alt="Harvard Law School Logo" />
+      <img src="/assets/images/ffdw-logo.png" alt="Filecoin Foundation for the Decentralized Web Logo" />
+      <img src="/assets/images/lexisnexis-logo.png" alt="LexisNexis Logo" />
+      <img src="/assets/images/openai-logo.png" alt="OpenAI Logo" />
+      <img src="/assets/images/meta-logo.png" alt="Meta Logo" />
+    </div>
+  </section>
+
+</div>

@@ -1,0 +1,27 @@
+{
+  "name": "harvard-lil",
+  "version": "1.0.0",
+  "description": "Harvard Library Innovation Lab Website",
+  "main": "assets/javascripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harvard-lil/website-static.git"
+  },
+  "author": "Harvard LIL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harvard-lil/website-static/issues"
+  },
+  "homepage": "https://github.com/harvard-lil/website-static#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.45",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
+    "postcss-scss": "^4.0.9",
+    "tailwindcss": "^3.4.3"
+  }
+}

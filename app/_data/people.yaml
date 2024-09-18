@@ -3,7 +3,7 @@
 # need to be created when adding a person and placed in the thumbs dir #
 
 # When adding a current team member, add three sizes - 216x216, 432x432, 648x648 #
-# see https://github.com/harvard-lil/website-static?tab=readme-ov-file#adding-current-affiliates #
+# see https://github.com/harvard-lil/website-static?tab=readme-ov-file#adding-current-Fellows #
 
 
 # Currently affiliated #
@@ -243,7 +243,7 @@ george-he:
   image: george-he.jpg
   affiliated: true
   current: true
-  section: Affiliates
+  section: Fellows
 
 katy-ilonka-gero:
   name: Katy Ilonka Gero
@@ -265,7 +265,7 @@ katy-ilonka-gero:
   image: katy-ilonka-gero.jpg
   affiliated: true
   current: true
-  section: Affiliates
+  section: Fellows
 
 maxwell-neely-cohen:
   name: Maxwell Neely-Cohen
@@ -280,7 +280,7 @@ maxwell-neely-cohen:
   image: maxwell-neely-cohen.jpg
   affiliated: true
   current: true
-  section: Affiliates
+  section: Fellows
 
 chris-shen:
   name: Chris Shen
@@ -302,10 +302,10 @@ chris-shen:
   image: chris-shen.jpg
   affiliated: true
   current: true
-  section: Affiliates
+  section: Fellows
 
 
-# Former affiliates, and single-project collaborators
+# Former Fellows, and single-project collaborators
 # Entries should not have a "current:" key
 # Former LIL staff, fellows, RAs should have "affiliated: true"
 

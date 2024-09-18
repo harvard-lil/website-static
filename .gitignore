@@ -7,3 +7,5 @@ build/
 bundle
 apache/logs
 nginx/logs
+app/node_modules/
+
