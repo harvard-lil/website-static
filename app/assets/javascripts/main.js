@@ -21,6 +21,16 @@ function safeDuration(duration) {
     return prefersReducedMotion() ? 0 : duration;
 }
 
+function createCycler(min, max) {
+    let current = min;
+
+    return function() {
+        const returnValue = current; // Store the current value to return
+        current = current < max ? current + 1 : 1; // Cycle through 1-6
+        return returnValue; // Return the current value
+    };
+}
+
 /*
 * https://github.com/daviddarnes/jekyll-search-js
 */
@@ -53,12 +63,15 @@ class jekyllSearch {
   
     async displayResults() {
       const results = await this.findResults()
+      const cycler = createCycler(1,6);
       const html = results.map(item => {
         return `
           <article class="flex flex-col gap-8 relative">
             <header class="aspect-square w-full bg-gray relative">
               ${item.image && item.image !== null && item.image !== '' ? (
-                `<img src="${item.image}" class="w-full h-full object-cover absolute inset-0" alt="${item.title}" />`
+                `<object data="${item.image}" class="w-full h-full object-cover absolute inset-0">
+                    <img src="/assets/images/blog-thumbnail-${cycler()}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
+                 </object>`
               ) : ''}
             </header>
             <h2 class="text-18 leading-115 font-medium" itemprop="headline">
