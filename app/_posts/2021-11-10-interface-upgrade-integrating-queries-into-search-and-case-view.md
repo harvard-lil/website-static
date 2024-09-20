@@ -3,7 +3,7 @@ title: Interface Upgrade | Integrating Queries into Search and Case View
 author: andy-gu
 date: 2021-11-10 02:00:00+00:00
 tags:
-- Fellows' Research
+- Fellows’ Research
 ---
 With expanded feature capabilities, users may find writing these queries to be more difficult, especially as researchers increase the complexity of their investigations. To make usage easier, we have integrated the [Trends](https://case.law/trends/) query language into the [Search](https://case.law/search/) and [Case View](https://cite.case.law/) features. From a search query, users can click the Trends button, upon which our servers will automatically convert an existing query into a Trends timeline.
 

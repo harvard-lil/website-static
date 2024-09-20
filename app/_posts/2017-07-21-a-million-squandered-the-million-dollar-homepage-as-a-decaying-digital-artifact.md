@@ -11,7 +11,7 @@ tags:
 - link rot
 - million dollar homepage
 - perma
-- Fellows' Research
+- Fellows’ Research
 ---
 
 In 2005, British student Alex Tew had a million-dollar idea. He launched [www.MillionDollarHomepage.com](http://www.milliondollarhomepage.com/), a website that presented initial visitors with nothing but a 1000×1000 canvas of blank pixels. At the cost of $1/pixel, visitors could permanently claim 10×10 blocks of pixels and populate them however they’d like. Pixel blocks could also be embedded with URLs and tooltip text of the buyer’s choosing.
