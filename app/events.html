@@ -10,7 +10,7 @@ layout: default
   </div>
 </section>
 
-<div class="flex flex-col gap-56 pb-72 md:pb-84">
+<div class="flex flex-col gap-56">
 
   {% assign next_event = site.events | where_exp: 'item','item.date >= site.time' | sort: 'date' | first %}
   {% if next_event %}
