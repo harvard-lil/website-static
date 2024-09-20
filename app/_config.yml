@@ -161,7 +161,7 @@ autopages:
     # the pagination permalink path is then appended to this permalink structure
     permalink: '/blog/category/:cat/'
     slugify:
-      mode: raw
+      mode: default
       cased: true
 
   collections:
@@ -174,5 +174,5 @@ autopages:
     title: 'Posts tagged ":tag" | Blog' # :tag is replaced by the tag name
     permalink: '/blog/tag/:tag/'
     slugify:
-      mode: raw
+      mode: default
       cased: true

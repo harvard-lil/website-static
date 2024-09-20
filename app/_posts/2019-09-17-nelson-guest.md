@@ -2,7 +2,7 @@
 title: "Guest Post: Do Elected and Appointed Judges Write Opinions Differently?"
 guest-author: "Michael Nelson and Steven Morgan"
 tags:
-- Fellows Research
+- Fellows’ Research
 ---
 [Unlike anywhere else in the world](https://www.jstor.org/stable/10.1086/679017), most judges in the United States today are elected. But it hasn’t always been this way. [Over the past two centuries](https://www.jstor.org/stable/40648483?seq=1#metadata_info_tab_contents), the American states have taken a variety of different paths, alternating through a variety of elective and appointive methods.  [Opponents](https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=1337&context=facpub) of judicial elections charge that these institutions detract from judicial independence, harm the legitimacy of the judiciary, and put unqualified jurists on the bench; [those](https://www.amazon.com/Elections-Controversies-Electoral-Democracy-Representation/dp/0415991331) who support judicial elections counter that, by publicly involving the American people in the process of judicial selection, judicial elections can enhance judicial legitimacy. To say this has been an intense debate of academic, political, and popular interest is an [understatement](https://www.repository.law.indiana.edu/cgi/viewcontent.cgi?article=1052&context=facpub).
 
