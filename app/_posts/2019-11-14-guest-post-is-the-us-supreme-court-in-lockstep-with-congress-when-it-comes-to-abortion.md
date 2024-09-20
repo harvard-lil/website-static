@@ -3,7 +3,7 @@ title: "Guest Post: Is the US Supreme Court in lockstep with Congress when it co
 guest-author: "Abdul Abdulrahim"
 excerpt_separator: <!--more-->
 tags:
-- Fellows Research
+- Fellows' Research
 ---
 *This guest post is part of the CAP Research Community Series. This series highlights research, applications, and projects created with Caselaw Access Project data.*
 

@@ -3,7 +3,7 @@ title: 'Guest Post: An Empirical Study of Statutory Interpretation in Tax Law'
 guest-author: Jonathan H. Choi
 excerpt_separator: <!--more-->
 tags:
-- Fellows Research
+- Fellows' Research
 ---
 *This guest post is part of the CAP Research Community Series. This series highlights research, applications, and projects created with Caselaw Access Project data.*
 
