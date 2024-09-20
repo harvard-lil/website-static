@@ -89,7 +89,7 @@ module.exports = {
       },
       footerPadding: {
         sm: '72px',
-        lg: '84px'
+        md: '84px'
       },
     },
     keyframes: {
