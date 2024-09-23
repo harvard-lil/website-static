@@ -86,7 +86,11 @@ module.exports = {
             acc[val] = `${val}px`
             return acc
           }, {}),
-      }
+      },
+      footerPadding: {
+        sm: '72px',
+        md: '120px'
+      },
     },
     keyframes: {
       'rotate': {
