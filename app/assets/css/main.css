@@ -468,8 +468,8 @@ html.is-animating .transition-main {
 
 @media (max-width: 859px) {
   .page-hero {
-    padding-bottom: 40px;
-    margin-bottom: 40px;
+    padding-bottom: 36px;
+    margin-bottom: 36px;
     padding-top: 60px;
   }
   
