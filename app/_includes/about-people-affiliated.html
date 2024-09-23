@@ -1,6 +1,6 @@
 {% assign person = include.person %}
 
-  <div class="flex flex-col gap-28 relative py-32 lg:py-50" id="{{ person.name | slugify }}">
+  <div class="flex flex-col gap-24 relative pt-32 lg:pt-48" id="{{ person.name | slugify }}">
     {% if include.border == 'true' %}
       <div class="hidden md:block absolute md:-right-30 lg:-right-60 -top-10 md:top-0 w-1 h-full bg-black"></div>
     {% endif %}
@@ -10,7 +10,7 @@
     {% endif %}
 
     <figure>
-      <img class="w-full relative overflow-hidden rounded-full max-w-[75%] m-auto" src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
+      <img class="w-full relative overflow-hidden rounded-full max-w-[75%] sm:max-w-[100%] mx-auto" src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
            srcset=" {{ site.baseurl }}/assets/thumbs/216x216c/{{ person.image }} 216w,
                     {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }} 432w,
                     {{ site.baseurl }}/assets/thumbs/648x648c/{{ person.image }} 648w"
