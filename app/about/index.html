@@ -12,12 +12,12 @@ layout: default
   </div>
 </section>
 
-<div class="flex flex-col items-start gap-40 md:gap-80">
+<div class="flex flex-col items-start gap-36 md:gap-72">
 
-  <section class="container">
-    <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40">
+  <section class="container md:mb-12">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
       <h2 class="h2">Who We Are</h2>
-      <div class="md:col-span-2 body-text flex flex-col gap-32 md:pt-20 max-w-[700px]">
+      <div class="md:col-span-2 body-text flex flex-col gap-24 md:pt-20 max-w-[700px]">
         <p>We are a team of librarians, technologists, lawyers, designers, and more, and we work out of the Harvard Law School Library.</p>
         <p>We believe that libraries play a fundamental role in humanity as open, privacy-respecting, and sustainable information spaces. We also believe technology holds great power to break down barriers to information creation, preservation, and use.</p>
       </div>
@@ -37,7 +37,7 @@ layout: default
     </figure>
   </section>
 
-  <section class="bg-green py-80 w-full">
+  <section class="bg-green py-48 md:py-72 w-full">
     <div class="container flex flex-col md:grid md:grid-cols-2 gap-32 md:gap-100 md:items-center">
       <h2 class="h2">Library principles can manifest in any technology and provide a roadmap to mindful building.</h2>
       <div class="flex flex-col gap-20 md:gap-30 body-text">
@@ -51,9 +51,9 @@ layout: default
     </div>
   </section>
 
-  <section class="container flex flex-col gap-50">
-    <h2 class="h2 pb-50">The People at the Lab</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
+  <section class="container ">
+    <h2 class="h2 mt-12 mb-48 md:mb-72">The People at the Lab</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120 pb-48 md:pb-72">
       {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
       {% assign sections = "Faculty Director, Staff" | split: ", " %}
       {% for section in sections %}
@@ -69,7 +69,7 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
-    <div class="flex flex-col gap-32 pt-50 border-t-1 border-black">
+    <div class="pt-48 md:pt-72 border-t-1 border-black">
       <h2 class="h2">Fellows</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
         {% assign fellows = site.data.people | where: "affiliated", true | sort: "sort_name" %}
@@ -87,19 +87,19 @@ layout: default
   </section>
 
   <section class="w-full bg-purple">
-    <div class="container flex items-center justify-between gap-20 py-20">
+    <div class="container flex items-center justify-between gap-20 py-24">
       <div>
         {% include header-splash-logo.html %}
       </div>
       <div>
-        {% include arrow-link.html label="View Open Positions" href="/jobs" %}
+        {% include arrow-link.html label="View Open Positions" href="/jobs/" %}
       </div>
       <div class="w-40">
       </div>
     </div>
-    <section class="bg-gray pt-80 pb-40 w-full">
-      <div class="container flex flex-col gap-80">
-        <h2 class="h2">Past Affiliates</h2>
+    <section class="bg-gray pt-48 pb-6 tbl:pt-60 tbl:pb-24 w-full">
+      <div class="container">
+        <h2 class="h2 tbl:mt-12 tbl:mb-24">Past Affiliates</h2>
         <div class="flex flex-col items-start w-full">
           {% assign old_friends = affiliates | where: "current", nil %}
           {% for person in old_friends %}
@@ -110,16 +110,12 @@ layout: default
     </section>
   </section>
 
-  <section class="container flex flex-col gap-80 md:gap-160">
-    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40">
-      <h2 class="h2">Supported By</h2>
-    </div>
-    <div class="flex flex-wrap gap-x-[10vw] gap-y-100 items-center justify-center max-w-[500px] mx-auto">
-      <img src="/assets/images/harvard-law-school-logo.png" alt="Harvard Law School Logo" />
-      <img src="/assets/images/ffdw-logo.png" alt="Filecoin Foundation for the Decentralized Web Logo" />
-      <img src="/assets/images/lexisnexis-logo.png" alt="LexisNexis Logo" />
-      <img src="/assets/images/openai-logo.png" alt="OpenAI Logo" />
-      <img src="/assets/images/meta-logo.png" alt="Meta Logo" />
+  <section class="container">
+    <h2 class="h2 mt-12 md:mt-0 mb-48 tbl:mb-36 md:mb-60">Supported By</h2>
+    <div class="flex flex-wrap flex-col tbl:grid tbl:grid-cols-2 xl:grid-cols-3 gap-y-24 sm:gap-y-36 tbl:gap-y-18 md:gap-y-36 lg:gap-y-48 items-center justify-center">
+      {% for supporter in site.data.supporters %}
+        <div class="tbl:m-auto"><img class="max-w-[50vw] sm:max-w-auto" src="/assets/images/{{ supporter.logo }}" alt="{{ supporter.name }} Logo" /></div>
+      {% endfor %}
     </div>
   </section>
 
