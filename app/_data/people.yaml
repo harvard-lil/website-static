@@ -232,18 +232,6 @@ jonathan-zittrain:
   section: Faculty Director
 
 # Fellows and others
-george-he:
-  name: George He
-  sort_name: He
-  role: Summer Fellow
-  bio: >-
-    George He is a Harvard Law School graduate, and has experience as a software engineer and AI researcher. He has worked at large tech companies and startups alike, leading infrastructure and AI-focused projects. He is driven by a passion for streamlining adoption of new technology, and his research at LIL focuses on generative media.
-  website: https://georgehe.me/
-  github_account_name: georgehe4
-  image: george-he.jpg
-  affiliated: true
-  current: true
-  section: Affiliates
 
 katy-ilonka-gero:
   name: Katy Ilonka Gero
@@ -278,28 +266,6 @@ maxwell-neely-cohen:
   twitter_account_name: nhyphenc
   github_account_name: mncmncmnc
   image: maxwell-neely-cohen.jpg
-  affiliated: true
-  current: true
-  section: Affiliates
-
-chris-shen:
-  name: Chris Shen
-  sort_name: Shen
-  role: Research Assistant
-  bio: >-
-    Chris is a sophomore at Harvard College studying Statistics and
-    Government. He has experience working as a data analyst with
-    non-profits to Fortune 500 companies. His time as a law firm
-    intern allowed him to gain exposure to civil procedure, legal
-    research, and drafting a variety of legal documents, among other
-    things. This summer, he will be an intern at Deloitte within their
-    Risk & Financial Advisory Department, focusing on Regulatory and
-    Legal Compliance. He is interested in applying data analytics to
-    current public policy issues, financial models, and legal matters.
-  email: christopher_shen@college.harvard.edu
-  website:
-  twitter_account_name:
-  image: chris-shen.jpg
   affiliated: true
   current: true
   section: Affiliates
@@ -739,6 +705,18 @@ andy-gu:
   github_account_name: 4ndygu
   affiliated: true
 
+george-he:
+  name: George He
+  sort_name: He
+  role: Summer Fellow
+  bio: >
+    George He is a Harvard Law School graduate, and has experience as a software engineer and AI researcher. He has worked at large tech companies and startups alike, leading infrastructure and AI-focused projects. He is driven by a passion for streamlining adoption of new technology, and his research at LIL focuses on generative media.
+  website: https://georgehe.me/
+  github_account_name: georgehe4
+  image: george-he.jpg
+  affiliated: true
+  section: Affiliates
+
 evelin-heidel:
   name: Evelin Heidel
   sort_name: Heidel
@@ -1036,6 +1014,27 @@ dakota-sexton:
   website: https://tinykitelab.com/
   github_account_name: tinykite
   affiliated: True
+
+chris-shen:
+  name: Chris Shen
+  sort_name: Shen
+  role: Research Assistant
+  bio: >
+    Chris is a sophomore at Harvard College studying Statistics and
+    Government. He has experience working as a data analyst with
+    non-profits to Fortune 500 companies. His time as a law firm
+    intern allowed him to gain exposure to civil procedure, legal
+    research, and drafting a variety of legal documents, among other
+    things. This summer, he will be an intern at Deloitte within their
+    Risk & Financial Advisory Department, focusing on Regulatory and
+    Legal Compliance. He is interested in applying data analytics to
+    current public policy issues, financial models, and legal matters.
+  email: christopher_shen@college.harvard.edu
+  website:
+  twitter_account_name:
+  image: chris-shen.jpg
+  affiliated: true
+  section: Affiliates
 
 satvik-shukla:
   name: Satvik Shukla
