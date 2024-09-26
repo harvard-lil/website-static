@@ -708,12 +708,11 @@ andy-gu:
 george-he:
   name: George He
   sort_name: He
-  role: Summer Fellow
+  role: 2024 Summer Fellow
   bio: >
     George He is a Harvard Law School graduate, and has experience as a software engineer and AI researcher. He has worked at large tech companies and startups alike, leading infrastructure and AI-focused projects. He is driven by a passion for streamlining adoption of new technology, and his research at LIL focuses on generative media.
   website: https://georgehe.me/
   github_account_name: georgehe4
-  image: george-he.jpg
   affiliated: true
   section: Affiliates
 
@@ -1032,7 +1031,6 @@ chris-shen:
   email: christopher_shen@college.harvard.edu
   website:
   twitter_account_name:
-  image: chris-shen.jpg
   affiliated: true
   section: Affiliates
 
