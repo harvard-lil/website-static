@@ -11,7 +11,7 @@ tags:
 - link rot
 - million dollar homepage
 - perma
-- Fellows Research
+- Fellows’ Research
 ---
 
 In 2005, British student Alex Tew had a million-dollar idea. He launched [www.MillionDollarHomepage.com](http://www.milliondollarhomepage.com/), a website that presented initial visitors with nothing but a 1000×1000 canvas of blank pixels. At the cost of $1/pixel, visitors could permanently claim 10×10 blocks of pixels and populate them however they’d like. Pixel blocks could also be embedded with URLs and tooltip text of the buyer’s choosing.
@@ -38,7 +38,7 @@ Still, the canvas remains a largely intact record of the aesthetics and commerci
 
 ## The Links
 
-Internet links are not always permanent. As pages are deleted or renamed, backends are restructured, and domain namespaces change hands, previously reachable content and resources can be replaced by 404 pages. This “link rot” is the target of the Library Innovation Lab’s [Perma.cc project](http://lil.law.harvard.edu/projects/perma-cc/), which allows individuals and institutions to create archived snapshots of webpages hosted at a trustable, static URLs.
+Internet links are not always permanent. As pages are deleted or renamed, backends are restructured, and domain namespaces change hands, previously reachable content and resources can be replaced by 404 pages. This “link rot” is the target of the Library Innovation Lab’s [Perma.cc project](http://lil.law.harvard.edu/our-work/perma-cc/), which allows individuals and institutions to create archived snapshots of webpages hosted at a trustable, static URLs.
 
 Over the decade or so since the Million Dollar Homepage sold its last pixel, link rot has ravaged the site’s embedded links. Of the 2,816 links that embedded on the page (accounting for a total of 999,400 pixels), 547 are entirely unreachable at this time. A further 489 redirect to a different domain or to a domain resale portal, leaving 1,780 reachable links. Most of the domains to which these links correspond are for sale or devoid of content.
 

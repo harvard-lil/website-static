@@ -24,4 +24,4 @@ Next, we dissected several cases which would eventually be heard by the US Supre
 
 ![](https://lil-blog-media.s3.amazonaws.com/3.jpg)
 
-In our [Caselaw Access Project](http://lil.law.harvard.edu/projects/caselaw-access-project/), we’re working on friendlier, faster, totally open, and more data-focused systems for courts to publish opinions. For more information, please send an email to: [{{ site.email }}]({{ site.email }}).
+In our [Caselaw Access Project](http://lil.law.harvard.edu/our-work/caselaw-access-project/), we’re working on friendlier, faster, totally open, and more data-focused systems for courts to publish opinions. For more information, please send an email to: [{{ site.email }}]({{ site.email }}).

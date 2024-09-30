@@ -1,9 +1,16 @@
 {% assign person = include.person %}
 
-  <div class="gallery-item-person" id="{{ person.name | slugify }}">
+  <div class="flex flex-col gap-24 relative pt-32 lg:pt-48" id="{{ person.name | slugify }}">
+    {% if include.border == 'true' %}
+      <div class="hidden md:block absolute md:-right-30 lg:-right-60 -top-10 md:top-0 w-1 h-full bg-black"></div>
+    {% endif %}
+
+    {% if include.tag != 'false' %}
+      <h3 class="label absolute -top-10 md:top-0 left-0">{{ include.tag }}</h3>
+    {% endif %}
 
     <figure>
-      <img src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
+      <img class="w-full relative overflow-hidden rounded-full max-w-[75%] sm:max-w-[100%] mx-auto" src=" {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }}"
            srcset=" {{ site.baseurl }}/assets/thumbs/216x216c/{{ person.image }} 216w,
                     {{ site.baseurl }}/assets/thumbs/432x432c/{{ person.image }} 432w,
                     {{ site.baseurl }}/assets/thumbs/648x648c/{{ person.image }} 648w"
@@ -11,33 +18,52 @@
                    (min-width:1049px) 30vw,
                    (min-width:640px) 180px,
                     30vw"
-           alt="{{ person.name }}"
-           class="img-full-width">
+           alt="{{ person.name }}">
     </figure>
 
-    <div class="info">
-
-      <strong class="name">{{ person.name }}</strong>
-      <span class="role">{{ person.role }}</span>
-      <div class="bio">
-        {{ person.bio | strip | markdownify }}
-      </div>
-
-      {% if person.email or person.website or person.twitter or person.github %}
-        <ul class="social">
-          {% if person.email %}
-            <li>email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></li>
-          {% endif %}
-          {% if person.website %}
-            <li>website: <a href="{{ person.website}}">{{ person.website }}</a></li>
-          {% endif %}
-          {% if person.twitter_account_name %}
-            <li>twitter: <a href="https://www.twitter.com/{{ person.twitter_account_name}}">@{{ person.twitter_account_name }}</a></li>
-          {% endif %}
-          {% if person.github_account_name %}
-            <li>github: <a href="https://www.github.com/{{ person.github_account_name }}">{{ person.github_account_name }}</a></li>
-          {% endif %}
-        </ul>
-      {% endif %}
+    <div class="flex flex-col items-start">
+      <strong class="text-24 leading-120">{{ person.name }}</strong>
+      <span class="text-18 leading-120">{{ person.role }}</span>
     </div>
+
+    <div class="text-16 leading-140">
+      {{ person.bio | strip | markdownify }}
+    </div>
+
+    {% if person.email or person.website or person.twitter or person.github %}
+      <ul class="flex items-center gap-12 md:gap-24">
+        {% if person.email %}
+          <li>
+            <a href="mailto:{{ person.email }}" target="_blank">
+              <span class="sr-only">{{ person.name }}'s email</span>
+              <span aria-hidden="true">{% include icon-email.html %}</span>
+            </a>
+          </li>
+        {% endif %}
+        {% if person.website %}
+          <li>
+            <a href="{{ person.website}}" target="_blank">
+              <span class="sr-only">{{ person.name }}'s website</span>
+              <span aria-hidden="true">{% include icon-website.html %}</span>
+            </a>
+          </li>
+        {% endif %}
+        {% if person.twitter_account_name %}
+          <li>
+            <a href="https://www.twitter.com/{{ person.twitter_account_name}}" target="_blank">
+              <span class="sr-only">{{ person.name }} on Twitter</span>
+              <span aria-hidden="true">{% include icon-x.html %}</span>
+            </a>
+          </li>
+        {% endif %}
+        {% if person.github_account_name %}
+          <li>
+            <a href="https://www.github.com/{{ person.github_account_name }}" target="_blank">
+              <span class="sr-only">{{ person.name }} on Github</span>
+              <span aria-hidden="true">{% include icon-github.html %}</span>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    {% endif %}
   </div>

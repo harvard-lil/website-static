@@ -32,4 +32,4 @@ Our projects range in scope from fast-moving prototypes to long-term innovations
 
 This is a term limited position running through Spring and Summer semesters (January-August 2015).
 
-Find details and apply for the position by searching for 34346BR in the [Harvard Recruitment Management System](https://sjobs.brassring.com/TGWebHost/home.aspx?partnerid=25240&siteid=5341). If you have questions, email us directly at [lil@law.harvard.edu](mailto:lil@law.harvard.edu).
+Find details and apply for the position by searching for 34346BR in the [Harvard Recruitment Management System](https://sjobs.brassring.com/TGWebHost/home.aspx?partnerid=25240&siteid=5341). If you have questions, email us directly at [{{ site.email }}](mailto:{{ site.email }}).

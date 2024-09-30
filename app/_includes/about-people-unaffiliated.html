@@ -1,21 +1,36 @@
 {% assign person = include.person %}
 
-  <div class="person-unaffiliated" id="{{ person.name| slugify }}">
-    <div class="basics">
-      <strong class="name">{{ person.name }}</strong>
-      <span class="role">{{ person.role }}</span>
-    </div>
-    {% if person.website or person.twitter_account_name or person.github_account_name %}
-      <ul class="social">
+<div class="body-text w-full py-30 {% unless forloop.first %}border-t-1{% endunless %} border-black flex grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-24 relative" id="{{ person.name | slugify }}">
+  <div class="label md:col-span-3">{{person.name}}</div>
+  <div class="md:col-span-6">{{person.role}}</div>
+  {% if person.website or person.twitter_account_name or person.github_account_name %}
+  <div class="pt-6 md:pt-0 md:col-span-3 flex md:justify-end">
+      <ul class="flex items-center gap-12 md:gap-24">
         {% if person.website %}
-          <li class="website"><a href="{{ person.website}}">{{ person.website }}</a></li>
+          <li class="website">
+            <a href="{{ person.website}}">
+              <span class="sr-only">{{ person.name }}'s website</span>
+              <span aria-hidden="true">{% include icon-website.html %}</span>
+            </a>
+          </li>
         {% endif %}
         {% if person.twitter_account_name %}
-          <li class="twitter"><a href="https://www.twitter.com/{{ person.twitter_account_name }}">{{ person.twitter_account_name }}</a></li>
+          <li class="twitter">
+            <a href="https://www.twitter.com/{{ person.twitter_account_name }}">
+              <span class="sr-only">{{ person.name }} on Twitter</span>
+              <span aria-hidden="true">{% include icon-x.html %}</span>
+            </a>
+          </li>
         {% endif %}
         {% if person.github_account_name %}
-          <li class="github"><a href="https://www.github.com/{{ person.github_account_name}}">{{ person.github_account_name }}</a></li>
+          <li class="github">
+            <a href="https://www.github.com/{{ person.github_account_name}}">
+              <span class="sr-only">{{ person.name }} on Github</span>
+              <span aria-hidden="true">{% include icon-github.html %}</span>
+            </a>
+          </li>
         {% endif %}
       </ul>
-    {% endif %}
   </div>
+  {% endif %}
+</div>

@@ -1,23 +1,36 @@
 ---
-layout: sectioned-page
-custom-css: ['blog']
+layout: default
+custom-css: ['post-content']
 ---
-<section class="_posts">
-  <div class="sleeve">
-    <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
-      <header>
-        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-        <h1 class="post-title" itemprop="headline">{{ page.title | smartify }}</h1>
-        {% include author.html author=page.author guest-author=page.guest-author %}
-      </header>
 
-      <div class="post-content" itemprop="articleBody">
+<section class="container pt-50 md:pt-80">
+  <div class="flex flex-col gap-50 md:gap-120 mb-14 md:mb-56">
+    {% include tag-filter.html tags=page.tags %}
+    <div class="flex flex-col items-start gap-10 md:gap-20">
+      <nav aria-label="breadcrumbs">
+        <a href="{{ site.baseurl }}/blog/" class="label interactive-link dark reverse">Blog</a>
+      </nav>
+      <div class="w-full flex flex-col md:grid gap-14 md:gap-32 pb-40 border-b-1 border-black">
+        <h1 class="h2">{{page.title}}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container post">
+  <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-24 md:grid md:grid-cols-12 body-text">
+    <header class="grid grid-cols-2 md:flex md:col-span-3">
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <div class="md:hidden">
+        {% include author.html author=page.author guest-author=page.guest-author %}
+      </div>
+    </header>
+    <div class="md:col-span-7 flex flex-col gap-32 md:gap-72" itemprop="articleBody">
+      <div class="hidden md:block">
+        {% include author.html author=page.author guest-author=page.guest-author %}
+      </div>
+      <div class="post-content">
         {{ content }}
       </div>
-
-      {% include tags.html tags=page.tags categories=page.categories %}
-
-    </article> <!-- end article -->
-
-  </div>
+    </div>
+  </article>
 </section>

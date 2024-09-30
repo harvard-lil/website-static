@@ -5,12 +5,17 @@ markdown: kramdown
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-postcss-v2
 liquid:
   error_mode: strict
 sass:
   sass_dir: _scss
   style: nested
+postcss:
+  cache: false
 timezone: Etc/GMT
+future: true
+
 
 # Site settings
 title: The Library Innovation Lab at Harvard University
@@ -24,6 +29,8 @@ sharing-image: "thumbs/800x800r/lil-primary-black.png"
 email: lil@law.harvard.edu
 twitter_account_name: HarvardLIL
 twitter_url: https://twitter.com/harvardlil
+linkedin_account_name: libraryinnovationlab
+linkedin_url: https://www.linkedin.com/company/libraryinnovationlab/
 facebook_url: https://www.facebook.com/HarvardLibraryInnovationLab/
 github_account_name: harvard-lil
 github_url:  https://github.com/harvard-lil
@@ -38,41 +45,36 @@ blog_feed_title: The Harvard Library Innovation Lab
 
 # Collections
 collections:
-  projects_active:
+  our_work:
     output: true
-    permalink: /projects/:slug/
-  projects_retired:
+    permalink: /our-work/:slug/
+  our_work_pageless:
     output: false
-  sketches_active:
+  events:
     output: true
-    permalink: /sketches/:slug/
-  sketches_retired:
-    output: false
+    permalink: /events/:slug/
 
 # Plugins
 news_feed_for:
-  - projects_active
-  - projects_retired
-  - sketches_active
+  - our_work
 
 contributors_feed_for:
-  - projects_active
-  - projects_retired
+  - our_work
 
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: projects_active
+      type: our_work
     values:
-      layout: project
-      type: project
+      layout: our_work
+      type: our_work
   - scope:
       path: ""
-      type: sketches_active
+      type: events
     values:
-      layout: project
-      type: sketch
+      layout: event
+      type: event
   - scope:
       path: ""
       type: posts
@@ -83,7 +85,6 @@ defaults:
   - scope:
       path: ""
     values:
-      custom-footer: false
       sharing-card-type: summary
 
 # Feature Flags
@@ -104,7 +105,7 @@ pagination:
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 10
+  per_page: 12
 
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/page/:num/' # Pages are index.html inside this folder (default)
@@ -112,7 +113,7 @@ pagination:
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ':title - page :num'
+  title: 'Page :num of :max | :title'
 
   # Limit how many pagenated pages to create (default: 0, means all)
   limit: 0
@@ -155,12 +156,12 @@ autopages:
     layouts:
       - 'tag_or_category.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
-    title: 'Posts in category :cat'
+    title: 'Posts in category ":cat" | Blog'
     # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
     permalink: '/blog/category/:cat/'
     slugify:
-      mode: raw
+      mode: default
       cased: true
 
   collections:
@@ -170,8 +171,8 @@ autopages:
   tags:
     layouts:
       - 'tag_or_category.html'
-    title: 'Posts tagged with :tag' # :tag is replaced by the tag name
+    title: 'Posts tagged ":tag" | Blog' # :tag is replaced by the tag name
     permalink: '/blog/tag/:tag/'
     slugify:
-      mode: raw
+      mode: default
       cased: true
