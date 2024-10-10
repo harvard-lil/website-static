@@ -233,6 +233,19 @@ jonathan-zittrain:
 
 # Fellows and others
 
+jim-cowie:
+  name: Jim Cowie
+  sort_name: Cowie
+  role: Fellow
+  bio: >-
+    Jim is a data scientist and entrepreneur, and a dual fellow with the Berkman Klein Center for Internet & Society.  After an early career in DARPA-sponsored high performance computing, Jim founded Renesys, the Internet Intelligence Authority, and later served as Chief Scientist at DynDNS. His current research focuses on the Internet History Initiative, a noncommercial effort to preserve and curate the historical datasets that document the Internet’s regional evolution, making their stories accessible to future historians and other audiences beyond the Internet’s traditional technical core community.
+  website: https://internethistoryinitiative.org/
+  mastodon_url: https://social.secret-wg.org/@jimcowie
+  image: jim-cowie.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
+
 katy-ilonka-gero:
   name: Katy Ilonka Gero
   sort_name: Gero
