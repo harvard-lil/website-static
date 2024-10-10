@@ -35,9 +35,7 @@
             <li>twitter: <a href="https://www.twitter.com/{{ person.twitter_account_name}}">@{{ person.twitter_account_name }}</a></li>
           {% endif %}
           {% if person.mastodon_url %}
-            {% assign mastodon_url_parts = person.mastodon_url | split: "/" %}
-            {% assign mastodon_handle = mastodon_url_parts[3] | append: "@" | append: mastodon_url_parts[2] %}
-            <li>mastodon: <a href="{{ person.mastodon_url }}">{{ mastodon_handle }}</a></li>
+            <li>mastodon: <a href="{{ person.mastodon_url }}">{{ person.mastodon_url | to_handle }}</a></li>
           {% endif %}
           {% if person.github_account_name %}
             <li>github: <a href="https://www.github.com/{{ person.github_account_name }}">{{ person.github_account_name }}</a></li>
