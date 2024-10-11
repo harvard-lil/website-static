@@ -499,6 +499,7 @@ liza-daly:
   role: Technologist in Residence
   website: https://lizadaly.com/
   twitter_account_name: liza
+  mastodon_url: https://post.lurk.org/@liza
   github_account_name: lizadaly
   affiliated: true
 
