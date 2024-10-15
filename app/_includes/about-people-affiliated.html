@@ -56,6 +56,14 @@
             </a>
           </li>
         {% endif %}
+        {% if person.mastodon_url %}
+          <li>
+            <a href="{{ person.mastodon_url }}" target="_blank">
+              <span class="sr-only">{{ person.mastodon_url | to_handle }} on Mastodon</span>
+              <span aria-hidden="true">{% include icon-mastodon.html %}</span>
+            </a>
+          </li>
+        {% endif %}
         {% if person.github_account_name %}
           <li>
             <a href="https://www.github.com/{{ person.github_account_name }}" target="_blank">
