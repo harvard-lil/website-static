@@ -22,6 +22,9 @@
             </a>
           </li>
         {% endif %}
+        {% if person.mastodon_url %}
+          <li class="mastodon"><a href="{{ person.mastodon_url }}">{{ person.mastodon_url | to_handle }}</a></li>
+        {% endif %}
         {% if person.github_account_name %}
           <li class="github">
             <a href="https://www.github.com/{{ person.github_account_name}}">

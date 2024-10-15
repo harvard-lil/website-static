@@ -1,0 +1,1622 @@
+---
+---
+
+////////////////////////////////////////////////
+
+//  dan o. williams
+//  library innovation lab scss
+//  styles.scss > ../css/styles.css
+//  August 2015
+//
+//  (subsequently revised in 12/16 by other LIL developers)
+
+
+// See commentary around containers/sleeves/slices for
+// info on how the theme works
+
+////////////////////////////////////////////////
+//  fonts
+//  normalize
+//  variables, mixins, and placeholders
+//  select bootstrap classes
+//  general body
+//  header
+//  footer
+//  project/sketch nav
+//  containers, slices, and sleeves
+//  galleries
+//  roundup
+//  project/sketch pages
+//  page specific overrides
+
+
+////////////////////////////////////////////////
+//  font loading
+
+//  uses the Fontspring @font-face syntax
+//  see http://www.paulirish.com/2009/bulletproof-font-face-implementation-syntax
+//  our face (Post Grotesk) has no ttf version, so that part of the Fontsquirrel syntax is omitted
+
+@font-face {
+  font-family: 'PostGrotesk';
+  src:  url('../fonts/PostGrotesk-Book.eot?') format('eot'),
+  url('../fonts/PostGrotesk-Book.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PostGrotesk';
+  src:  url('../fonts/PostGrotesk-BookItalic.eot?') format('eot'),
+  url('../fonts/PostGrotesk-BookItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PostGrotesk';
+  src:  url('../fonts/PostGrotesk-Medium.eot?') format('eot'),
+  url('../fonts/PostGrotesk-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PostGrotesk';
+  src:  url('../fonts/PostGrotesk-Bold.eot?') format('eot'),
+  url('../fonts/PostGrotesk-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url('../fonts/NeueHaasGroteskDisplayPro55Roman.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro55Roman.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url('../fonts/NeueHaasGroteskDisplayPro56Italic.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro56Italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url('../fonts/NeueHaasGroteskDisplayPro65Medium.woff2') format('woff2'), url('..fonts/NeueHaasGroteskDisplayPro65Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+////////////////////////////////////////////////////////////////
+// Variables, Mixins, and Placeholders
+@import "variables-mixins-placeholders";
+
+////////////////////////////////////////////////////////////////
+// Normalize
+@import "normalize";
+
+////////
+// Nice Things from Bootstrap
+@import "bootstrap-helpers";
+
+////////////////////////////////////////////////////////////////
+// General Body
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  overflow: hidden;
+  position: relative;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow: auto;
+}
+
+body {
+  font-family: $font-body;
+  font-size: $size-body;
+  font-weight: 500;
+  line-height: 1.2;
+  color: $color-black;
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+  position: relative;
+}
+
+// normalize sets to "bolder", which is not available with our fonts
+b, strong {
+  font-weight: bold;
+}
+
+// Prevent linked urls from breaking layouts
+a {
+  word-wrap: break-word !important;
+}
+
+a {
+  color: $color-black;
+  text-decoration: none;
+  &:link { color: inherit; }
+  &:visited { color: inherit; }
+  &:hover { color: inherit; }
+  &:active { color: inherit; }
+}
+
+a[role='button'] {
+  @include button-basic(20);
+  width: $grid * 29;
+  margin: $grid * 3 auto $double auto;
+  span { @include include-arrow(1px); }
+  &:active {
+    span  { @include include-arrow-white; }
+  }
+}
+
+a.small-btn {
+  padding: 10px;
+  margin: 15px 0 0 0;
+
+  &:hover{
+    padding: 9px;
+  }
+}
+
+p a, section a, main a {
+  @extend %link-inline;
+}
+
+.image-link, .image-link a {
+  @include link-none($color-black);
+}
+
+li p {
+  display: inline;
+}
+
+.lil-list {
+  font-size: $size-small;
+}
+
+ul {
+  margin: 0;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom:1em;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-bottom:1em;
+}
+
+.img-full-width {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+  @include heading-primary;
+}
+
+h2 {
+  @include heading-secondary;
+}
+
+/* via https://www.abeautifulsite.net/how-to-embed-youtubevimeo-videos-responsively */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+////////////////////////////////////////////////
+//  header
+
+nav[aria-label="main"] {
+  text-align: center;
+
+  .header-nav-logo {
+    position: absolute;
+    display: block;
+    margin-top: -2px;
+    margin-left: -28px;
+  }
+
+  ul {
+    padding: 0;
+    margin-bottom: 0;
+    @include respond(3) {
+      display: inline-block;
+      margin-bottom: -$half;
+    }
+  }
+
+  svg {
+    @include respond(2) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  li {
+    @extend %vcenter-parent;
+    float: left;
+    font-size: $size-body;
+    font-weight: 500;
+
+    &:hover {
+        color: $color-highlight;
+    }
+
+    &:first-of-type {
+      font-weight: 600;
+      span.name {
+        display: block;
+        text-indent: -10000px;
+        @include respond(2) {
+          display: inline;
+          text-indent: 0;
+        }
+      }
+      span.longname { @include hide-onmobile-then(inline); }
+      a {
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 12px;
+        padding-left: 46px;
+        @include respond(3) { padding-right: 22px; }
+        @include respond(4) { padding-right: 34px; }
+      }
+    }
+
+    &:nth-child(n+5) { @include hide-onmobile-then(table); }
+    &:nth-child(n+6) { @include hide-ontablet-then(table); }
+
+    a {
+      @extend %vcenter-child;
+      @include link-highlight($color-black, $color-highlight);
+      padding: 0 $grid;
+      height: $grid * 6;
+      @include respond(2) { height: $grid * 7; }
+      @include respond(3) {
+        padding: 0 21px;
+        height: $grid * 11;
+      }
+      @include respond(4) { padding: 0 28px; }
+    }
+  }
+}
+
+.header-splash__logo {
+  max-width: 25.875rem; /* 414px */
+  margin-inline: 3rem;
+
+  @include respond(3) {
+    max-width: 43.75rem; /* 700px */
+  }
+}
+
+.header-splash__description {
+  max-width: 40ch;
+}
+
+.hiring-announcement, .banner {
+  min-width: 100%;
+  display: block;
+  background: $color-highlight;
+  color: $color-white;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: .5em;
+  font-weight: normal;
+}
+
+.banner {
+  font-size: $size-medium;
+}
+
+////////////////////////////////////////////////
+//  footer
+
+body > footer {
+  background: $color-brightyellow;
+  color: $color-black;
+  font-weight: 600;
+  text-align: right;
+  padding: $grid * 3 $double;
+
+  ul {
+    //width: 50%;
+    float: right;
+    list-style-type: none;
+    margin-bottom: 0;
+  }
+
+  li {
+    @include respond(5) {
+      display: inline-block;
+      margin-left: $grid * 3;
+      margin-top: $grid;
+    }
+
+    a {
+      @include link-underline($color-black, $color-white);
+      text-decoration: none;
+      display: inline-block;
+      padding: 1px 0;
+    }
+  }
+}
+
+.footer-logo {
+  float: left;
+  width: 50%;
+  max-width:  10.9375rem; /*175px*/
+  margin-block-start: 0.5rem;
+
+  @include respond(4) {
+    max-width:  $grid * 35;
+  }
+}
+
+.footer-copyright {
+  margin-top: $double;
+  font-size: $size-small;
+  clear: both;
+  float: right;
+
+  @include respond(5) {
+    width: 50%;
+    margin-top: $grid * 6;
+    clear: none;
+  }
+
+  p {
+    margin-top: $grid;
+    margin-bottom: 0;
+  }
+}
+
+html {
+  min-height: 100%;
+  background: $color-trans-whispergray;
+}
+
+////////
+//  Nav for next/previous page (for projects and sketches)
+
+.prev-next {
+  @extend %vcenter-parent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid $color-trans-lightgray;
+  border-top: 1px solid $color-trans-lightgray;
+  width: 100%;
+  @include respond(4) {
+    top: 45%;
+    border: none;
+    overflow: visible;
+    margin-top: $grid * 2;
+  }
+
+  a {
+    border-bottom: none;
+    @include link-highlight($color-black, $color-highlight);
+    @extend %vcenter-child;
+    width: 50%;
+    height: $grid * 5;
+    font-size: $size-small;
+    padding: 0 19px;
+
+    &:hover {
+      background-color: $color-white;
+    }
+    &.intro-nav-previous, &.intro-nav-next {
+      font-weight: 600;
+    }
+    &.intro-nav-previous {
+      text-align: left;
+      @include respond(4) { float: left; }
+    }
+    &.intro-nav-next {
+      text-align: right;
+      border-left: 1px solid $color-trans-lightgray;
+      @include respond(4) {
+        float: right;
+        padding-left: 0;
+        padding-right: $double;
+        border-left: none;
+      }
+    }
+
+    .title {
+      display: block;
+      color: #777;
+      @include respond(3) {
+        display: inline;
+        &:before { content: ': '; }
+      }
+      @include respond(4) {
+        display: block;
+        &:before { content: none; }
+      }
+    }
+
+
+    @include respond(2) {
+      height: $grid * 7;
+    }
+    @include respond(4) {
+      display: block;
+      @include link-highlight($color-black, $color-highlight);
+      width: 10em;
+      height: auto;
+      padding: $grid 0 0 $double;
+      z-index: 1;
+      font-size: $size-small;
+      border-top: 1px solid $color-black;
+      &:hover {
+        border-color: $color-highlight;
+        background-color: transparent;
+        span {
+          color: $color-black;
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////////////////////////
+//  Containers, sleeves, and slices
+
+// containers ensure appropriate padding at all screen sizes,
+// and apply full-width background
+//
+// for convenience, all <section>s are containers
+section, .container {
+  padding: $grid * 3 $double;
+  background-color: $color-trans-whispergray;
+  @include respond(3) { padding: $grid * 4 $double * 2; }
+  @include respond(4) { padding-top: $grid * 6; }
+}
+
+// "sleeves" force their contents to a comfortable reading width at all
+// screen sizes.
+//
+// they are normally the immediate children of containers.
+// they are also used to wrap the contents of special slices.
+// see below for details.
+.sleeve {
+  overflow: visible;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 $double;
+  @include respond(3) {
+    max-width: 596px;
+    padding: 0 2 * $double;
+  }
+  @include respond(4) {
+    max-width: nth($respond-breakpoints,4);
+    padding: 0;
+  }
+}
+
+// "slices" are special two-column sections of content, where the
+// section heading is right-aligned in the first column, and the body
+// text is left-aligned in the second column (desktop only). at mobile
+// sizes, the content expands to fill its sleeve. for an
+// example, look at the top half of a project page.
+//
+// slices should be children of a sleeve, which is itself a child of a
+// of a container.
+//
+// slices normally contain exactly two children: a heading, and a
+// div with class slice-body which wraps the remainder of the slice's
+// content.
+//
+// special case: you might have content that should look like its own
+// container at mobile sizes, but should look like a slice of a parent
+// container at desktop size. for example, observe the contact section
+// at the bottom of a project page.
+//
+// to get that effect, apply the "pop-out-of-sleeve" mixin to the slice,
+// and then wrap the slice's content in another sleeve.
+// container > sleeve > slice@pop-out-of-sleeve > sleeve > h + slice-body
+.slice {
+  clear: both;
+  font-weight: 500;
+  overflow: auto;
+  @include respond(4) { padding-top: $double; }
+
+  > h2, > h3 {
+    @include heading-secondary;
+    @include respond(4){
+      @include overline($color-black, $grid * 6, $b-margin:$grid);
+      font-size: $size-body;
+      width: $grid * 24;
+      float: left;
+      margin-left: $grid * 24;
+    }
+  }
+}
+
+.slice-body {
+  @include respond(4) {
+    // if .slice-body follows a heading, give it normal margin
+    h2 + &, h3 + & {
+      margin-left: 0;
+    }
+    // if it doesn't follow a heading, give it extra margin so it aligns with slices that do have headings
+    margin-left: $grid * 48;
+  }
+
+  overflow: visible;
+  line-height: 1.4;
+  @include respond(4){
+    font-size: $size-large;
+    padding-left: $grid * 3;
+    padding-right: $grid * 10;
+    padding-top: 26px;
+    overflow: auto;
+  }
+
+  // use a slightly larger line-height on mobile,
+  // so that if the li contains links, their
+  // border-style underline has enough room to display
+  // (test with mobile safari)
+  li {
+    line-height: 1.6;
+  }
+  @include respond(3) {
+    li {
+      line-height: 1.4;
+    }
+  }
+
+  h3, h4 {
+    font-size: inherit;
+    font-weight: 600;
+
+    & + ul {
+      padding-top: $double;
+    }
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: $double;
+  }
+}
+
+// "simple sections" are a plain-rendering alternative to sleeves.
+//
+// simple sections should be children of sleeves, but other than that,
+// require no particular structure or content
+.simple-section {
+  p {
+    @include body-text;
+  }
+  
+  p:first-of-type {
+    margin-top: $quad;
+  }
+
+  li {
+  line-height: 1.4;
+  // font-weight: 500;
+  // margin-top: 0;
+  // margin-bottom: 16px;
+  // @include respond(4){
+  //   font-size: $size-large;
+  // }
+  }
+
+  h3 {
+    @include body-text;
+    font-weight: bold;
+    margin-top: $grid * 3;
+    @include respond(4){
+      font-size: 20px;
+    }
+  }
+
+  @include respond(4) {
+    overflow: visible;
+    margin-left: $grid;
+
+    h1 {
+      margin-bottom: 0;
+      margin-left: $grid * -1;
+      @include underline($color-black,  $grid * 6, $grid * 2, $b-margin: $grid, $l-margin: $grid);
+    }
+
+    h2:first-of-type {
+      margin-top: $quad;
+    }  
+  }
+
+  hr {
+    margin: $quad 0;
+  }
+}
+
+// Temporary rules for AI projects page
+body.ai {
+  .simple-section {
+    max-width: 75ch;
+    margin: auto;
+  }
+  
+  .slice-body {
+    ul {
+      list-style-position: outside;
+      padding-left: 0px;
+    }
+
+    li {
+      padding-bottom: 0.5rem;
+    }
+  }
+}
+
+// Temporary rules for Transform: Justice stream page
+body.event-stream {
+  .simple-section {
+    max-width: 75ch;
+    margin: auto;
+    text-align: center
+  }
+
+  iframe {
+    margin-top: $grid * 6;
+  }
+}
+
+////////
+// Galleries
+
+// Wrapper to group a section title with a subtitle.
+// Looks best over a gallery.
+.heading-pair {
+  h1, h2, h3, h4, h5, h6, p {
+    @include hed-common;
+    font-size: $size-large;
+    font-weight: 600;
+
+    @include respond(4) {
+      font-size: $size-2xlarge;
+      padding-bottom: .2em;
+    }
+  }
+
+  p {
+    color: $color-highlight;
+  }
+
+  @include respond(4) {
+    h1, h2, h3, h4, h5, h6, {
+      float: left;
+      font-weight: 600;
+    }
+    p {
+      float: right;
+      font-weight: 500;
+    }
+  }
+}
+
+// Gallery Items
+.gallery-item {
+  @extend %gallery-item;
+
+  figure {
+    margin: 0;
+  }
+
+  .title {
+    @extend %gallery-item-title;
+  }
+
+  .logline {
+    display: block;
+    margin-top: $grid;
+  }
+
+  ul {
+    margin-top: $grid;
+    font-size: $size-small;
+    padding: 0 $grid /2;
+    list-style-type: none;
+
+    .date {
+      padding-top: 4px;
+    }
+
+    .logline {
+      font-weight: 600;
+      margin-top: 0;
+      color: $color-highlight;
+    }
+  }
+}
+
+a.gallery-item {
+  border-bottom: none;
+}
+
+.gallery-item-person {
+  @extend %gallery-item;
+  width: 49%;
+  border-top: none;
+  padding: 0 $grid;
+  @include respond(4) {
+    padding: 0 $double;
+    padding-top: 0;
+    width: 32.3%;
+  }
+
+  figure {
+    @extend %thumb-rounded;
+    margin: 0;
+  }
+
+  .name {
+    @extend %gallery-item-title;
+    @include respond(4) { font-size: $size-body; }
+  }
+
+  .role {
+    display: block;
+    font-size: $size-small;
+    font-weight: 600;
+    @include overline($color-trans-gray, $grid * 7, $t-margin:$grid, $r-margin:auto, $b-margin:$grid, $l-margin:auto);
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: $size-small;
+    li { margin-top: $grid; }
+    a {
+      @include include-arrow(1px);
+      @include link-highlight($color-highlight, $color-black);
+      &:hover { @include include-arrow-black; }
+      &:active { @include include-arrow-highlight; }
+    }
+  }
+}
+
+// Gallery items may optionally be contained inside one of these wrappers
+.gallery-sq {
+  max-width: nth($respond-breakpoints,5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $double * 2;
+  text-align: left;
+  @include respond(3) {
+    margin-left: -$double;
+    margin-right: -$double;
+  }
+  @include respond(4) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.gallery-crl {
+  max-width: nth($respond-breakpoints,5);
+  margin-left: -14px;
+  margin-right: -14px;
+  margin-top: $grid * 4;
+  overflow: auto;
+  text-align: center;
+  @include respond(3) {
+    margin-left: -$double;
+    margin-right: -$double;
+  }
+  @include respond(4) {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .gallery-item {
+    width: 49%;
+    padding: 0 $grid;
+    @include respond(3) {
+      width: $grid * 25; }
+    @include respond(4) {
+      padding: 0 $double;
+    }
+    border-top: none;
+  }
+
+  figure {
+    @extend %thumb-rounded;
+  }
+}
+
+.gallery-thirds .gallery-item {
+  width: 32%
+}
+
+// The people gallery on the about page has a very fancy gallery:
+// a gallery of circles at desktop size, but a lined list at smaller
+// screen sizes
+.about .gallery-item-person {
+  @extend %lined-list-item;
+  display: inline-block;
+  border-top-color: $color-trans-lightgray;
+  float: none;
+  width: 100%;
+  padding-top: $double * 2 !important;
+  margin: 0 !important;
+  figure {
+    float: left;
+    width: 30%;
+  }
+
+  .info {
+    width: 70%;
+    text-align: left;
+    padding-top: $grid;
+    padding-left: $double;
+    padding-right: $double;
+  }
+
+  .name {
+    margin-top: 0;
+    font-weight: 600;
+    &:after {
+      display: none;
+    }
+  }
+
+  .role:before {
+    margin-left: 1px;
+  }
+
+  .bio {
+    line-height: 1.4;
+    max-width: 40em;
+    font-size: $size-small;
+    font-weight: 500;
+    color: $color-trans-darkgray;
+    margin-top: 0;
+  }
+
+  .social {
+    font-weight: 600;
+  }
+
+  @include respond(4) {
+    width: 33%;
+    max-width: nth($respond-breakpoints,4) + (6 * $double);
+    border-top: none;
+    margin-top: 0;
+    padding: 0 $grid;
+
+    figure {
+      float: none;
+      width: 100%;
+    }
+
+    .info {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+
+    .role:before {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+// Unaffiliated people list (used on About page and in Project pages)
+.person-unaffiliated {
+  @extend %lined-list-item;
+  border-bottom: none;
+  border-top-color: $color-black;
+  font-size: $size-small;
+  margin-top: 0;
+
+  .name {
+    font-weight: 600;
+    display: block;
+  }
+
+  .role {
+    color: $color-trans-darkgray;
+    display: block;
+  }
+
+  .basics {
+    float: left;
+  }
+
+  .social {
+    float: right;
+    top: 1px;
+    margin-bottom: 0;
+    li {
+      display: inline;
+      a {
+        overflow: hidden;
+        text-indent: -10000px;
+        height: 24px;
+        width: 25px;
+        margin-left: $grid;
+        float: right;
+        background-size: auto 24px;
+        background-position-x: 0;
+        background-repeat: no-repeat;
+        border-bottom: none;
+        &:hover { background-position-x: -56px; }
+        &:active { background-position-x: 0; }
+      }
+    }
+    .website a {
+      background-image: url('../images/website-sprite.svg');
+    }
+    .twitter a {
+      background-image: url('../images/twitter-sprite.svg');
+    }
+    .mastodon a {
+      background-image: url('../images/mastodon-sprite.svg');
+    }
+    .github a {
+      background-image: url('../images/github-sprite.svg');
+    }
+  }
+}
+
+////////
+//  roundup
+//  these styles are quite nice, but are not in use at the moment
+//
+// .roundup {
+//   background-color: $color-black;
+//   color: white;
+//
+//   .heading-pair p {
+//     color: $color-yellow;
+//   }
+//
+//   .post {
+//     @extend %lined-list-item;
+//   }
+//
+//   .date {
+//     @include tiny-bold;
+//   }
+//
+//   .content {
+//     margin-top: $grid / 2;
+//   }
+//
+//   .title {
+//     @extend %lined-list-item-child;
+//     font-weight: 600;
+//     margin-top: 6px;
+//
+//     a {
+//       border-bottom: none;
+//       @include underline-on-hover;
+//       @include include-arrow(1px);
+//       &:link { color: $color-highlight; }
+//       &:visited { color: $color-highlight}
+//       &:hover { color: $color-highlight; }
+//       &:active {
+//         color: $color-active;
+//         @include include-arrow-white;
+//       }
+//     }
+//   }
+//
+//   .logline {
+//     @extend %lined-list-logline;
+//     color: $color-trans-textwhite;
+//     font-weight: 500;
+//     margin-top: 6px;
+//   }
+//
+//   .author {
+//     @include tiny-bold;
+//     margin-top: $grid;
+//     color: $color-trans-darkwhite;
+//     &:before {
+//       content: 'Posted by ';
+//       font-weight: 500;
+//     }
+//   }
+//
+//   @include respond(4) {
+//     .date, .content, .author {
+//       float: left;
+//     }
+//     .date {
+//       width: 30%;
+//     }
+//     .content {
+//       width: 40%;
+//       margin-top: 0;
+//     }
+//     .title, .logline {
+//       font-size: 20px;
+//     }
+//     .title {
+//       margin-top: 0;
+//       font-weight: 600;
+//     }
+//     .author {
+//       width: 30%;
+//       padding-left: $double * 2;
+//       margin-top: 0;
+//     }
+//     .date, .author {
+//       margin-top: 4px;
+//     }
+//   }
+// }
+//
+// #hopper {
+//   margin-top: $double * 2;
+//   clear: both;
+// }
+
+/////////
+//  project/sketch gallery pages
+
+// currently, the gallery of sketches has no title,
+// since there are only active sketches. the default padding
+// looks best when there is a title. so, removing it.
+.sketches section:first-of-type + section {
+  padding-top: 0;
+}
+
+// former projects
+section.sunset {
+  background-color: $color-sunset;
+
+  .heading-pair p {
+    color: $color-white;
+  }
+
+  .projects {
+    margin-top: $double;
+    margin-bottom: $double;
+  }
+
+  .project {
+    @extend %lined-list-item;
+    span {
+      @extend %lined-list-logline;
+    }
+  }
+
+  h3 {
+    @extend %lined-list-item-child;
+    margin-top: $grid / 2;
+    margin-bottom: 0;
+    font-weight: 600;
+    a {
+      @include include-arrow(2px);
+      @include include-arrow-white;
+      @include link-highlight($color-white, $color-black);
+      &:hover { @include include-arrow-black; }
+    }
+  }
+}
+
+////////////////////////////////////////////////
+//  project/sketch pages
+
+.project section:first-of-type,
+.sketch section:first-of-type {
+  padding-top: $grid * 8;
+  padding-bottom: 0;
+  position: relative;
+  @include respond(2) { padding-top: $grid * 9; }
+  @include respond(3) { padding-top: $grid * 11; }
+  @include respond(4) { padding-top: $grid * 6; }
+
+}
+
+a.link-project {
+  border-bottom: none;
+  @include include-arrow(1px);
+  @include link-highlight($color-highlight, $color-blue);
+}
+
+.project-hero {
+  margin: 0 (-$double) 0  (-$double);
+  @include respond(3) {
+    margin-left: -$double * 2;
+    margin-right: -$double * 2;
+  }
+  & + .slice {
+    padding-top: $double;
+    @include respond(4) { padding-top: $double * 3; }
+  }
+}
+
+.slice.project-people{
+  @include pop-out-of-sleeve($color-trans-whispergray);
+  padding-top: $grid;
+  .gallery { text-align: left; }
+  @include respond(3) {
+    padding-top: $grid * 4;
+  }
+  @include respond(4) {
+    background-color: white;
+    padding-top: $grid * 6;
+  }
+}
+
+.slice.github {
+  margin-top: 0;
+  text-align: center;
+  a[role='button'] {
+    display: inline-block;
+    width: 232px;
+
+    &:before {
+      content: '';
+      height: 32px;
+      width: 33px;
+      display: inline-block;
+      background-image: url('../images/icon-github-sprite.svg');
+      background-position-x: 0;
+      vertical-align: middle;
+      bottom: 2px;
+      margin-right: 8px;
+    }
+  }
+}
+
+.additional-contributors {
+  max-width: nth($respond-breakpoints,5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $double;
+  margin-bottom: $grid * 3;
+  text-align: left;
+  @include respond(3) {
+    margin-left: -$double;
+    margin-right: -$double;
+  }
+  @include respond(4) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h4 {
+    font-size: $size-body;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: $double;
+
+    &::before {
+      border-bottom: none;
+    }
+  }
+}
+
+.slice.news {
+  @include pop-out-of-sleeve($color-warmgray);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: $double;
+  @include respond(4) {
+    background-color: white;
+  }
+
+  .news-item {
+    @extend %lined-list-item;
+    border-color: $color-trans-lightgray;
+
+    &.blog  {
+      .category,
+      .title:hover {
+        color: $color-pink;
+      }
+    }
+
+    &.press {
+      .category,
+      .title:hover {
+        color: $color-blue;
+      }
+      .publication {
+        color: $color-blue;
+        &:before {
+          content: 'in ';
+          color: $color-black;
+        }
+      }
+    }
+
+    .title {
+      @extend %lined-list-item-child;
+      @include include-arrow(1px);
+      font-weight: 700;
+      &:active { color: $color-black; }
+    }
+
+    .category,
+    .date,
+    .publication {
+      @include tiny-bold;
+    }
+
+    .publication:hover, .publication:focus {
+      text-decoration: underline;
+    }
+  }
+
+  a {
+    border-bottom: none;
+
+    &:first-child {
+      margin-top: $grid * 3;
+      @include respond(4) {
+        margin-top: -2px;
+      }
+    }
+
+    &:hover {
+      color: unset;
+    }
+
+  }
+
+  .cc {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    overflow: hidden;
+    background-image: url('../images/perma-ui-8-small.png');
+    background-size: 89px 7px;
+    background-repeat: no-repeat;
+    background-position: -74px center;
+    position: relative;
+    bottom: -3px;
+    padding: 0 !important;
+    background-color: $color-blue;
+    border: 2px solid $color-blue;
+    border-radius: 2px;
+    &:hover, &:focus {
+      text-decoration: none;
+      border-color: $color-black;
+      background-color: $color-black;
+    }
+    &:active {
+      border-color: $color-black;
+      background-color: $color-black;
+    }
+  }
+
+  .blog .cc {
+    background-color: $color-pink;
+    border-color: $color-pink;
+  }
+}
+
+.slice.contact {
+  @include pop-out-of-sleeve($color-black);
+  color: $color-white;
+  margin-top: 0;
+  margin-bottom: -$grid * 3;
+  padding-bottom: $grid * 2;
+  @include respond(3) { margin-bottom: -$grid * 4; }
+  @include respond(4) {
+    background-color: white;
+    color: $color-black;
+    padding-bottom: $grid * 10;
+  }
+}
+
+////////
+// Page-Specific Overrides
+
+// home page header
+.home {
+  header {
+    @extend %vcenter-parent;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+
+    div {
+      @extend %vcenter-child;
+      text-align: center;
+      font-weight: 700;
+      padding: $double;
+      padding-bottom: 95px;
+    }
+  }
+
+  nav[aria-label="main"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    ul {
+      padding: $double 0 $double 0;
+      overflow: auto;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      float: none;
+      &:first-child {
+        display: none;
+      }
+      &:nth-child(n+6) {
+        @include hide-ontablet-then(inline-block);
+      }
+    }
+  }
+
+  h1 {
+    margin-top: $double * 2;
+    margin-bottom: 0;
+    font-size: 19.25px;
+    font-weight: bold;
+
+    color: black;
+    // // different color for first line of slogan
+    // color: $color-highlight;
+    // &::first-line {
+    //   color: black;
+    // }
+
+    @include respond(3) {
+      font-size: 40px;
+      margin-top: $grid * 10;
+    }
+  }
+}
+
+// home page headings
+.home h2:not(.roundup-header) {
+    @include hed-common;
+    font-size: $size-large;
+}
+
+// home page special sections
+.home .projects,
+.home .sketches {
+  border-top: $double solid white;
+  @include respond(3) {
+    border-top-width: $double * 2;
+  }
+}
+
+// home page's "about" gallery
+.home .about .logline {
+  text-align: left;
+}
+
+// about page, LIL contact info tweaks
+#about-specs, #about-address {
+  clear: both;
+  padding-left: 0;
+  @include respond(4){
+    font-weight: 500;
+    font-size: $size-body;
+  }
+}
+#about-specs {
+  padding-top: 0;
+  a {
+    @include link-none($color-highlight);
+    @extend %link-arrow;
+  }
+}
+#about-address {
+  padding-top: 0;
+  margin-bottom: $grid * 2;
+}
+
+.map a {
+  @include link-none($color-highlight);
+  text-decoration: underline;
+  font-size: $size-small;
+}
+
+//  about page, spacing and separation of containers
+section.people-affiliated {
+  margin-bottom: $double * 2;
+}
+section.people-affiliated,
+section.people-unaffiliated {
+  border-top: $double solid $color-warmgray;
+}
+section.people-unaffiliated .list {
+  margin-top: $double * 2;
+}
+
+// project page overide colors
+.project .person-unaffiliated {
+  border-color: $color-trans-lightgray;
+
+  .name {
+    @include include-arrow(1px);
+    &:hover { color: $color-highlight; }
+  }
+}
+
+// project page, contributors currently affiliated with LIL
+// have bolded names
+.project .gallery-item-person  .name {
+  font-weight: bold;
+}
+
+// sketch page override colors
+.sketch section {
+  background-color: $color-black;
+
+  &:first-of-type{
+    background-color: $color-black;
+    color: white;
+  }
+
+  .prev-next {
+    border-color: $color-highlight;
+    border-top: none;
+    color: white;
+
+    a {
+      @include link-highlight($color-white, $color-highlight);
+      &:hover {
+        background-color: $color-trans-lightgray;
+        color: $color-yellow;
+        span { color: $color-highlight; }
+      }
+      &:active {
+        background-color: $color-highlight;
+        color: $color-black;
+        span { color: $color-black; }
+      }
+      @include respond(4) {
+        border-color: $color-white;
+        &:hover {
+          border-color: $color-highlight;
+          background-color: transparent;
+          color: $color-highlight !important;
+          span { color: $color-highlight; }
+        }
+      }
+    }
+  }
+
+  h2:before {
+    border-color: $color-highlight;
+  }
+
+  .slice.contact {
+    background-color: transparent;
+    color: $color-white;
+  }
+
+}
+
+// both sketch section on home page,
+// and sketch gallery page
+// spacing tweaks
+.sketches .gallery-crl {
+  @include respond(4) {
+    margin: $grid * 5 auto 0 auto;
+    text-align: center;
+  }
+
+  .gallery-item {
+    @include respond(3) {
+      width: 175px;
+    }
+    @include respond(4) {
+      width: 300px;
+    }
+  }
+}
+
+// the fellows people cards
+.fellow {
+  margin-bottom: 24px;
+
+  .intro {
+    border-top: 1px solid $color-trans-lightgray;
+    border-bottom: 1px solid $color-trans-lightgray;
+    width: 100%;
+    padding: 16px 0;
+  }
+  img {
+    @extend %thumb-rounded;
+    display: inline-block;
+    width: 150px;
+    float: left;
+  }
+  .summary {
+    display: inline-block;
+    float: right;
+    overflow: visible;
+    width: calc(100% - 174px);
+    margin-left: 24px;
+    h2 {
+      margin-top: 16px;
+    }
+    p {
+      font-size: .8em;
+    }
+    @include respond(4){
+      max-width: 75%;
+      margin-right: calc(25% - 174px);
+      h2 {
+        margin-top: 24px;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+  .small-btn {
+    margin-bottom: 9px;
+  }
+}
+
+// the fellows-2016 video
+.fellows-2016 .embed-container {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+// Footer Colors
+.projects footer { background-color: $color-acidmint; }
+
+.project footer { background-color: $color-highlight; }
+
+.about footer { background-color: $color-electricblue; }
+
+// Easter Egg
+.easter-egg {
+  text-align: center;
+  a {
+    color: $color-electricblue;
+  }
+  a:focus {
+    display: inline-block;
+    margin-bottom: 32px;
+    outline: 0;
+  }
+  span {
+    color: $color-black;
+  }
+}
