@@ -31,216 +31,39 @@ layout: default
     <h2 class="h2">Background</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
-        <lil-expandable class="expandable">
-          <div class="expandable__toggle">
-            <h3 id="about-us" class="expandable__toggle--title">About Us</h3>
-            <button type="button" class="expandable__icon" aria-expanded="false" aria-labelledby="about-us">
-              <span></span>
-              <span></span>
-            </button>
-          </div>
-          <div class="expandable__content">
-            <div class="expandable__content--inner">
-              <p>
-                The Library Innovation Lab is a team of librarians, programmers, artists, and lawyers with a broad mission: to
-                build open-source tools and services to advance open knowledge.</p>
-              <p>We currently support three long-running services (
-                  <a class="interactive-link dark reverse" href="https://perma.cc">Perma</a>,
-                  <a class="interactive-link dark reverse" href="https://opencasebook.org">H2O Open Casebook</a>, and the
-                  <a class="interactive-link dark reverse" href="https://case.law">Caselaw Access Project</a> ) as well as a range of shorter-term experiments.
-              </p>
-            </div>
-          </div>
-        </lil-expandable>
-        <lil-expandable class="expandable">
-          <div class="expandable__toggle">
-            <h3 id="why" class="expandable__toggle--title">Why work with us?</h3>
-            <button type="button" class="expandable__icon" aria-expanded="false" aria-labelledby="why">
-              <span></span>
-              <span></span>
-            </button>
-          </div>
-          <div class="expandable__content">
-            <div class="expandable__content--inner">
-              <p>
-                <strong>Job stability and support.</strong> While we maintain the creative atmosphere and flexibility of a small innovation lab, we're backed by an established institution with strong benefits and support for employees.</p>
-              <p>
-                <strong>Room to pursue your research agenda.</strong> We are located at the Harvard Law School Library and share a kitchen with  the Berkman Klein Center and metaLAB. Going to events, having conversations, developing your scholarly perspective, and exploring it through creative projects are encouraged. We will specifically prioritize these things at the cost of shipping the next feature.</p>
-              <p>
-                <strong>Set your own pace.</strong> We are a small, self-directed group that depends on internal motivation rather than externally imposed crunch time.</p>
-              <p>
-                <strong>Build open source.</strong> All of our projects are open source and otherwise designed to maximize the public benefit of our work.</p>
-              <p>
-                <strong>Work on stuff that matters.</strong> The projects we make are measured by how they help people in the long term.</p>
-            </div>
-          </div>
-        </lil-expandable>
-        <lil-expandable class="expandable">
-          <div class="expandable__toggle">
-            <h3 id="location" class="expandable__toggle--title">Location</h3>
-            <button type="button" class="expandable__icon" aria-expanded="false" aria-labelledby="location">
-              <span></span>
-              <span></span>
-            </button>
-          </div>
-          <div class="expandable__content">
-            <div class="expandable__content--inner">
-              <p>The Library Innovation Lab is a unit of the Harvard Law School Library and shares space with the Berkman Klein Center for Internet and Society.</p>
-              <p>
-                We are based in a newly-renovated space on the Harvard Law School campus. Our full-time staff positions are hybrid/in-person; we typically aim to be in the office Tuesday through Thursday. Contractor and fellowship
-                positions may be remote by individual arrangement.
-              </p>
-            </div>
-          </div>
-        </lil-expandable>
-        <lil-expandable class="expandable">
-          <div class="expandable__toggle">
-            <h3 id="ediba" class="expandable__toggle--title">Equity, diversity, inclusion, belonging and antiracism</h3>
-            <button type="button" class="expandable__icon" aria-expanded="false" aria-labelledby="ediba">
-              <span></span>
-              <span></span>
-            </button>
-          </div>
-          <div class="expandable__content">
-            <div class="expandable__content--inner">
-              <p>
-                The work and well-being of the Lab are strengthened profoundly by the
-                diversity of our community and our differences in background, culture,
-                experience, racial identity, national origin, religion, sexual orientation, and much
-                more. We actively seek and welcome applications from Black and Indigenous people and people of color;
-                women and non-binary people; the LGBTQ+ community; and people with disabilities; as well as
-                applications from researchers and practitioners from across the
-                spectrum of disciplines, methods, and life experiences.
-              </p>
-            </div>
-          </div>
-        </lil-expandable>
+      {% assign background_sections = site.jobs | where:"category","background" | sort: "order" %}
+        {% for section in background_sections %}
+          {% include job.html title=section.title content=section.content %}
+        {% endfor %}
       </div>
     </div>
   </section>
 
+  {% assign staff_sections = site.jobs | where:"category","staff" | sort: "order" %}
+  {% if staff_sections.size > 0 %}
   <section class="container flex flex-col gap-24 md:gap-40">
     <h2 class="h2">Staff Positions</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
-        <lil-expandable class="expandable">
-          <div class="expandable__toggle" >
-            <h3 id="sem" class="expandable__toggle--title">Software Engineering Manager</h3>
-            <button type="button" class="expandable__icon" aria-expanded="false" aria-labelledby="sem">
-              <span></span>
-              <span></span>
-            </button>
-          </div>
-          <div class="expandable__content">
-            <div class="expandable__content--inner">
-              <p>Our Software Engineering Manager leads a team of software engineers, technologists, and academic collaborators to build open source software for both experimentation and production. The ideal candidate will be ready to mentor and support an enthusiastic and creative team; get their hands dirty solving hard technical problems; and work with the rest of LIL’s senior leadership to set goals for the organization.</p>
-              <p>To apply: <a href="https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25240&siteid=5341#jobDetails=2009078_5341" class="interactive-link dark reverse">Application form</a>. In addition to Harvard's standard application form, please provide a short cover letter explaining how your career trajectory and interests align with our work and mission.</p>
-            </div>
-          </div>
-        </lil-expandable>
+        {% for section in staff_sections %}
+          {% include job.html title=section.title content=section.content %}
+        {% endfor %}
       </div>
     </div>
   </section>
+  {% endif %}
 
+  {% assign research_sections = site.jobs | where:"category","research" | sort: "order" %}
+  {% if research_sections.size > 0 %}
   <section class="container flex flex-col gap-24 md:gap-40">
     <h2 class="h2">Research Positions</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
-        <lil-expandable class="expandable">
-          <div class="expandable__toggle">
-            <h3 id="research-assistant" class="expandable__toggle--title">Research assistant / student fellow</h3>
-            <button type="button" class="expandable__icon" aria-expanded="false" aria-labelledby="research-assistant">
-              <span></span>
-              <span></span>
-            </button>
-          </div>
-          <div class="expandable__content">
-            <div class="expandable__content--inner">
-              <p>
-                Thinking about legal tech, civic tech, or
-                cultural memory? We have options.
-              </p>
-              <p>
-                <strong>Research Assistants:</strong> We're seeking paid research assistants with a web
-                development background to help us build open source legal
-                tech and civic tech tools like <a href="/our-work/perma-cc" class="interactive-link dark reverse">Perma.cc</a>, <a href="/our-work/h2o/opencasebook.org" class="interactive-link dark reverse">opencasebook.org</a>,
-                and <a href="/our-work/caselaw-access-project" class="interactive-link dark reverse">Case.law</a>.
-              </p>
-              <p>
-                <strong>Student Fellows:</strong> We offer student fellow positions to provide mentorship to
-                students working on independent projects in the field of
-                open knowledge (legal tech, civic tech, library tech,
-                online governance, etc.). Depending on subject matter and
-                professor relationships, student fellow positions may or
-                may not offer stipend or credit; please reach out to us to
-                discuss.
-              </p>
-              <p>
-                <strong>Eligibility:</strong> Positions are open to students inside and outside Harvard,
-                with a preference for students at Harvard Law School and
-                Harvard University.
-              </p>
-              <p>
-                <strong>To apply:</strong> send a statement of interest to
-                <a href="mailto:{{ site.email }}?subject=Research%20Assistant%20position" class="interactive-link dark reverse">{{ site.email }}</a>.
-              </p>
-            </div>
-          </div>
-        </lil-expandable>
-        <lil-expandable class="expandable">
-          <div class="expandable__toggle" >
-            <h3 id="fellows" class="expandable__toggle--title">Fellows</h3>
-            <button type="button" class="expandable__icon" aria-expanded="false" aria-labelledby="fellows">
-              <span></span>
-              <span></span>
-            </button>
-          </div>
-          <div class="expandable__content">
-            <div class="expandable__content--inner">
-              <p>
-                The Library Innovation Lab offers a small number of
-                stipended fellowships to people developing tools and
-                communities to explore the future of open knowledge.
-              </p>
-              <p>
-                <strong>Who should apply:</strong> Fellowships are a particularly good fit for people&mdash;
-                inside and outside academia!&mdash;with a track record of
-                building tools or leading communities that advance the
-                conversation about cultural knowledge and the internet,
-                and who need financial and institutional support to take
-                their next steps.
-              </p>
-              <p>
-                By "cultural knowledge and the internet," we mean
-                questions like: how do established cultural memory
-                institutions adapt to the internet age and help societies
-                reconstruct and remember their history? How do societies
-                govern themselves, coordinate solutions to problems, and
-                decide who to trust in the evolving information landscape?
-                How do we preserve today's knowledge for future
-                generations?
-              </p>
-              <p>
-                In short, who are we, how did we get here, and where are
-                we going? And who is "we" in a networked world anyway?
-              </p>
-              <p>
-                <strong>Fellowship details:</strong> Fellowships are individually arranged on a rolling basis,
-                and may be any length from a week to a year. Fellows are
-                expected to visit Harvard in person for a portion of the
-                appointment, but need not be present full time. Stipends
-                are available to support full-time work, but may be
-                prorated depending on time commitment and other sources of
-                support.
-              </p>
-              <p>
-                <strong>To apply:</strong> Email a résumé and statement of interest to
-                <a href="mailto:{{ site.email }}?subject=Fellowship" class="interactive-link dark reverse">{{ site.email }}</a>.
-              </p>
-            </div>
-          </div>
-        </lil-expandable>
+        {% for section in research_sections %}
+          {% include job.html title=section.title content=section.content %}
+        {% endfor %}
       </div>
     </div>
   </section>
+  {% endif %}
 </div>
