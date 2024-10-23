@@ -153,6 +153,19 @@ christopher-setzer:
   current: true
   section: Staff
 
+christian-smith:
+  name: Christian Smith
+  sort_name: Smith
+  role: Software Engineering Manager
+  bio: >-
+    Christian discovered the craft of research when his open source work with cryptography led to academic collaboration and an engineering role at MIT. Years prior he witnessed the impact of technology on law as a student at Berklee College of Music, when dotcom era file-sharing networks disrupted the music industry. At LIL, he aims to empower the engineering team, help invent breakthrough library tools, and improve access to justice.
+  email: csmith@law.harvard.edu
+  github_account_name: christiansmith
+  image: christian-smith.jpg
+  affiliated: true
+  current: true
+  section: Staff
+
 clare-stanton:
   name: Clare Stanton
   sort_name: Stanton
