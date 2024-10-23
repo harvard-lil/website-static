@@ -1,3 +1,4 @@
+{% if include.title.size > 0%}
 <lil-marquee class="block marquee bg-purple py-6 md:py-10 px-20 uppercase font-mono text-14 md:text-16 leading-120 tracking-[0.02em] md:tracking-[0.07em] text-announcement whitespace-nowrap overflow-hidden relative z-[100]">
   <a href="{{ site.baseurl }}/jobs/" class="marquee__inner">
     <div class="marquee__part inline-block">* We’re hiring — {{ include.title }} </div>
@@ -6,3 +7,4 @@
     {% endfor %}
   </a>
 </lil-marquee>
+{% endif %}
