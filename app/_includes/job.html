@@ -1,0 +1,14 @@
+<lil-expandable class="expandable">
+  <div class="expandable__toggle">
+    <h3 id="{{ include.title | slugify }}" class="expandable__toggle--title">{{ include.title }}</h3>
+    <button type="button" class="expandable__icon" aria-expanded="false" aria-labelledby="{{ include.title | slugify }}">
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="expandable__content">
+    <div class="expandable__content--inner">
+      {{ include.content }}
+    </div>
+  </div>
+</lil-expandable>
