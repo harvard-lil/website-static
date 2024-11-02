@@ -6,7 +6,7 @@ layout: project
 
 ### PROJECT METADATA ###
 # Required
-title: Stack Life
+title: StackLife
 
 # Optional
 project_website: http://stacklife.harvard.edu
