@@ -330,14 +330,14 @@ lil-header.expanded .nav-menu__inner {
 }
 
 .page-hero__title {
-  font-size: clamp(52px, 12vw, 140px);
+  font-size: clamp(52px, 12vw, 84px);
   font-weight: 500;
   line-height: 100%;
   padding-bottom: 36px;
 }
 
 .page-hero__subtitle {
-  font-size: 48px;
+  font-size: 36px;
   line-height: 120%;
   max-width: 950px;
 }
