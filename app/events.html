@@ -38,7 +38,7 @@ layout: default
           <div class="label">Next Event</div>
           <div class="flex flex-col md:grid md:grid-cols-3 md:gap-36 pb-36 md:pb-48">
             <h1 class="h2">{{ next_event.title }} - {{ next_event.date_informal }}</h1>
-            <div class="md:col-span-2 body-text md:max-w-[700px] pt-20 flex flex-col items-start gap-20">
+            <div class="md:col-span-2 body-text md:max-w-[700px] flex flex-col items-start gap-20">
               {{ next_event.excerpt }}
               {% capture linkLabel %}
                 <span class="sr-only">{{ next_event.title }},</span> More Info
