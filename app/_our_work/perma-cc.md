@@ -71,13 +71,17 @@ who_contributed:
   - harmony-eidolon
   - brett-johnson
   - timothy-mcallister
+  - kristi-mukk
   - matt-phillips
   - greg-leppert
   - loren-newman
+  - christopher-setzer
+  - dakota-sexton
   - clare-stanton
   - ben-steinberg
   - shailin-thomas
   - dano-williams
+  - ebru-yucesar
   - adam-ziegler
   - jonathan-zittrain
 
