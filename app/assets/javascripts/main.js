@@ -43,15 +43,15 @@ class jekyllSearch {
       this.resultsSummary = document.querySelector(resultsSummary)
       this.clearButton = document.querySelector(clearButton)
       this.form = form
-  
+
       this.displayResults = this.displayResults.bind(this)
     }
-  
+
     fetchedData() {
       return fetch(this.dataSource)
         .then(blob => blob.json())
     }
-  
+
     async findResults() {
       const data = await this.fetchedData()
       return data.filter(item => {
@@ -60,7 +60,7 @@ class jekyllSearch {
         return (title && title.match(regex)) || item.content.match(regex)
       })
     }
-  
+
     async displayResults() {
       const results = await this.findResults()
       const cycler = createCycler(1,6);
@@ -99,7 +99,7 @@ class jekyllSearch {
         window.history.pushState('', '', url);
         this.searchField.focus()
     }
-  
+
     init() {
       const url = new URL(document.location)
       if (url.searchParams.get("search")) {
@@ -150,11 +150,15 @@ class LilSearch extends HTMLElement {
         this.search.init();
     }
 }
-  
+
 
 class LilHeader extends HTMLElement {
     constructor() {
         super();
+
+        // Be sure to also set --animation-speed in main.css so it matches this
+        this.animationSpeed = 1.0;
+
         this.expanded = false;
         this.menuButton = this.querySelector('.menu-button');
         this.overlay = this.querySelector('.nav-menu__overlay');
@@ -222,7 +226,7 @@ class LilHeader extends HTMLElement {
         gsap.to(this.menu, {duration: 0, display: 'flex'})
 
         gsap.to(this.menu, {
-            duration: safeDuration(0.95),
+            duration: safeDuration(0.95 * this.animationSpeed),
             ease: 'expo.inOut',
             clipPath: 'inset(0% 0% 0% 0%)',
         })
@@ -231,28 +235,28 @@ class LilHeader extends HTMLElement {
             opacity: 0,
             y: -80,
         }, {
-            duration: safeDuration(1.2),
+            duration: safeDuration(1.2 * this.animationSpeed),
             ease: 'power3.out',
             opacity: 1,
             y: 0,
-            stagger: 0.03,
+            stagger: 0,
         })
 
         gsap.fromTo('.nav-menu__socials', {
             opacity: 0,
             y: -10,
         }, {
-            duration: safeDuration(1),
+            duration: safeDuration(1 * this.animationSpeed),
             ease: 'power3.out',
             opacity: 1,
-            delay: 0.55,
+            delay: 0.55 * this.animationSpeed,
             y: 0,
         })
     }
 
     menuCloseAnimation() {
         gsap.to(this.menu, {
-            duration: safeDuration(0.8),
+            duration: safeDuration(0.8 * this.animationSpeed),
             ease: 'expo.inOut',
             clipPath: 'inset(0% 0% 100% 0%)',
         })
@@ -261,24 +265,24 @@ class LilHeader extends HTMLElement {
             opacity: 1,
             y: 0,
         }, {
-            duration: safeDuration(0.4),
+            duration: safeDuration(0.4 * this.animationSpeed),
             ease: 'power3.in',
             opacity: 0,
             y: -30,
-            stagger: 0.001,
+            stagger: 0,
         })
 
         gsap.fromTo('.nav-menu__socials', {
             opacity: 1,
             y: 0,
         }, {
-            duration: safeDuration(0.4),
+            duration: safeDuration(0.4 * this.animationSpeed),
             ease: 'power3.in',
             opacity: 0,
             y: -40,
         })
 
-        gsap.to(this.menu, {duration: safeDuration(0.6), display: 'none'})
+        gsap.to(this.menu, {duration: safeDuration(0.6 * this.animationSpeed), display: 'none'})
     }
 }
 
