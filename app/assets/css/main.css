@@ -190,7 +190,7 @@ lil-header.expanded svg {
   display: grid;
   grid-template-columns: repeat(2, minmax(min(100%, 300px), 1fr));
   gap: 15px;
-  font-size: clamp(24px, 5vw, 90px);
+  font-size: clamp(24px, 5vw, 84px);
   line-height: 1;
   font-weight: 500;
 }
