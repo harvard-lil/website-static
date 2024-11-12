@@ -52,7 +52,7 @@ layout: default
   </section>
 
   <section class="container ">
-    <h2 class="h2 mt-12 mb-48 md:mb-72">The People at the Lab</h2>
+    <h2 class="h2 mt-12 mb-48 md:mb-72">People at the Lab</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120 pb-48 md:pb-72">
       {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
       {% assign sections = "Faculty Director, Staff" | split: ", " %}
