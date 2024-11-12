@@ -27,7 +27,7 @@ layout: default
     </figure>
   </section>
 
-  <section class="container flex flex-col gap-24 md:gap-40">
+  <section class="container flex flex-col gap-24 md:gap-40{% if site.jobs.size == 0 %} pb-66{% endif %}">
     <h2 class="h2">Background</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
@@ -41,7 +41,7 @@ layout: default
 
   {% assign staff_sections = site.jobs | where:"category","staff" | sort: "order" %}
   {% if staff_sections.size > 0 %}
-  <section class="container flex flex-col gap-24 md:gap-40">
+  <section class="container flex flex-col gap-24 md:gap-40{% if staff_sections.size == site.jobs.size %} pb-66{% endif %}">
     <h2 class="h2">Staff Positions</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
@@ -55,7 +55,7 @@ layout: default
 
   {% assign research_sections = site.jobs | where:"category","research" | sort: "order" %}
   {% if research_sections.size > 0 %}
-  <section class="container flex flex-col gap-24 md:gap-40">
+  <section class="container flex flex-col gap-24 md:gap-40 pb-66">
     <h2 class="h2">Research Positions</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
