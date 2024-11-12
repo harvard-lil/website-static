@@ -357,8 +357,12 @@ lil-header.expanded .nav-menu__inner {
 }
 
 .page-hero.project .page-hero__title {
-  margin-left: -8px;
   padding-bottom: 16px;
+}
+
+/* Align large heading text flush with left side of page content */
+.page-hero__title {
+  margin-left: -0.05em;
 }
 
 .page-hero.events {
