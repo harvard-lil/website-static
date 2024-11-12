@@ -157,7 +157,7 @@ class LilHeader extends HTMLElement {
         super();
 
         // Be sure to also set --animation-speed in main.css so it matches this
-        this.animationSpeed = 1.0;
+        this.animationSpeed = 0.3;
 
         this.expanded = false;
         this.menuButton = this.querySelector('.menu-button');

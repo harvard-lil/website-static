@@ -56,7 +56,7 @@ html {
   scrollbar-gutter: stable;
 
   /* Be sure to also set animationSpeed in main.js so it matches this */
-  --animation-speed: 1.0;
+  --animation-speed: 0.3;
 }
 
 .nav-container {
