@@ -280,7 +280,7 @@ lil-header.expanded .nav-menu__inner {
   background-position: 0 100%;
   background-size: 100% 0;
   background-repeat: no-repeat;
-  transition: background-size calc(0.2s * var(--animation-speed)) ease;
+  transition: background-size 0.2s ease;
 }
 
 .interactive-link:hover, .interactive-link-inline:hover {
