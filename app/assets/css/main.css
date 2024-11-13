@@ -325,7 +325,7 @@ lil-header.expanded .nav-menu__inner {
 .page-hero {
   padding-bottom: 72px;
   border-bottom: 1px solid #121212;
-  margin-bottom: 60px;
+  margin-bottom: 72px;
   padding-top: 120px;
 }
 
@@ -367,6 +367,14 @@ lil-header.expanded .nav-menu__inner {
 
 .page-hero.events .page-hero__title {
   padding-bottom: 72px;
+}
+
+.our_work .page-hero {
+  padding-bottom: 72px;
+}
+
+.our_work .page-hero__title {
+  padding-bottom: 0;
 }
 
 .body-text, .expandable__content {
