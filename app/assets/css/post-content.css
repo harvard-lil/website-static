@@ -110,3 +110,7 @@
 .post-content a:hover {
   background-size: 100% 0;
 }
+
+.post-content blockquote {
+  margin: 0.5em 0 1em 2em;
+}
