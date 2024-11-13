@@ -6,7 +6,8 @@ tags:
 - ai research
 ---
 
-> The Library Innovation Lab welcomes a range of research assistants and fellows to our team to conduct independently-driven research which intersects in some way to our core work.<br>
+> The Library Innovation Lab welcomes a range of research assistants and fellows to our team to conduct independently-driven research which intersects in some way to our core work.
+
 > The following is a reflection written by [Chris Shen](/about/#chris-shen), a Research Assistant who collaborated with members of LIL in the spring semester of 2024. Chris is a sophomore at Harvard College studying Statistics and Government.
 
 From poetry to Python, LLMs have the potential to drastically influence human productivity. Could AI also revolutionize legal education and streamline case understanding? 
