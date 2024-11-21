@@ -382,6 +382,17 @@ function setupSwup() {
           event.url?.contains('blog') || event.state?.source !== 'swup'
         },
     });
+
+    const lilMarqueeHandler = (visit) => {
+      let isHomepage = visit.to.url === '/';
+      let elements = document.getElementsByTagName('lil-marquee');
+      Array.from(elements).map(element => {
+        isHomepage ? element.classList.remove('hidden') : element.classList.add('hidden');
+      });
+    };
+
+    // Register handler to hide marquee if user navigates away from homepage
+    swup.hooks.on('content:replace', lilMarqueeHandler);
 }
 
 const setup = () => {
