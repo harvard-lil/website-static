@@ -22,7 +22,7 @@
   <body class="bg-white font-sans font-normal">
     {% include header.html %}
     <div id="swup" class="transition-main">
-      <main class="{{ page.type }} {{ page.slug }}">
+      <main class="{{- page.type }} {{ page.slug -}}">
         {{ content }}
       </main>
       {% include footer.html %}
