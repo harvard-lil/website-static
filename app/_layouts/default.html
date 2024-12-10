@@ -19,10 +19,10 @@
     <script src="{{ site.baseurl }}/assets/lib/swup-head-plugin@2.2.0/index.umd.js"></script>
     {% include custom-css.html %}
   </head>
-  <body class="{{ page.type }} {{ page.slug }} bg-white font-sans font-normal">
+  <body class="bg-white font-sans font-normal">
     {% include header.html %}
     <div id="swup" class="transition-main">
-      <main>
+      <main class="{{ page.type }} {{ page.slug }}">
         {{ content }}
       </main>
       {% include footer.html %}
