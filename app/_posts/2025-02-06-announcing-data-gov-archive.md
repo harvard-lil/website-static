@@ -2,6 +2,8 @@
 title: Announcing the Data.gov Archive
 guest-author: Library Innovation Lab Team
 ---
+![](https://lil-blog-media.s3.amazonaws.com/Blog_datagovarchive.jpg)
+
 Today we released our [archive of data.gov](https://source.coop/repositories/harvard-lil/gov-data/description) on Source Cooperative. The 16TB collection includes over 311,000 datasets harvested during 2024 and 2025, a complete archive of federal public datasets linked by data.gov. It will be updated daily as new datasets are added to data.gov.
 
 This is the first release in our new [data vault project](https://lil.law.harvard.edu/blog/2025/01/30/preserving-public-u-s-federal-data/) to preserve and authenticate vital public datasets for academic research, policymaking, and public use.
