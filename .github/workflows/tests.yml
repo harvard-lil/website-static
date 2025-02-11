@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     # don't run on pushes to forks
     if: github.event_name == 'pull_request' || github.repository == 'harvard-lil/website-static'
 
