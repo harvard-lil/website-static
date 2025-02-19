@@ -16,4 +16,4 @@ As a first step, we have collected the metadata and primary contents for over 30
 
 In coming weeks we will share full data and metadata for our collection so far. We look forward to seeing how our archive will be used by scholarly researchers and the public. 
 
-To notify us of data you believe should be part of this collection please contact us at [lil@law.harvard.edu](mailto:lil@law.harvard.edu). 
+To notify us of data you believe should be part of this collection please contact us at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu). 
