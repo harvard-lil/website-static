@@ -12,6 +12,6 @@ We’ve built this project on our long-standing commitment to preserving governm
 
 In addition to the data collection, we are releasing [open source software and documentation](https://github.com/harvard-lil/data-vault) for replicating our work and creating similar repositories. With these tools, we aim not only to preserve knowledge ourselves but also to empower others to save and access the data that matters to them.
 
-For suggestions and collaboration on future releases, please contact us at lil@law.harvard.edu.
+For suggestions and collaboration on future releases, please contact us at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu).
 
 This project builds on our work with the [Perma.cc](https://perma.cc) web archiving tool used by courts, law journals, and law firms; the [Caselaw Access Project](https://case.law), sharing all precedential cases of the United States; and our research on [Century Scale Storage](https://lil.law.harvard.edu/century-scale-storage/). This work is made possible with support from the Filecoin Foundation for the Decentralized Web and the Rockefeller Brothers Fund.
