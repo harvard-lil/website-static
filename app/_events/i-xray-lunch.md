@@ -7,11 +7,24 @@ banner: i-xray-banner-sml.png
 banner_large: i-xray-banner-lrg.png
 ---
 
-**This event was recorded. Video coming soon.**
-
 By combining Ray-Ban Meta smart glasses, face search engines, LLMs, and public databases, AnhPhu Nguyen and Caine Ardayfio have started to raise awareness about the current capabilities of everyday surveillance. Their viral project, I-XRAY, is a pair of glasses that reveal to the wearer anyone’s personal details—home address, name, phone number, and more—just by looking at them.
 
 I-XRAY was built here at Harvard and tested out around campus. Instead of releasing the technology itself, Nguyen and Ardayfio have documented how people can remove themselves from the databases that made it possible. They sat down with Professor Jonathan Zittrain to discuss the project and how it unfolded.
+
+
+<figure style="max-width: 100%; padding: 0px 0px 0px 0px; position:relative;">
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/8DEvsaVJwpM?si=5xz2Z1YfJMbP8l-n"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</figure>
+
 
 You can read <a href="https://www.nytimes.com/2024/10/24/technology/facial-recognition-glasses-privacy-harvard.html">more about their project</a> in <i>The New York Times</i>.
 
