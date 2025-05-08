@@ -1,6 +1,6 @@
 ---
 title: IIPC Web Archiving Conference 2025 Recap
-author: kristi-mukk, clare-stanton
+author: [kristi-mukk, clare-stanton]
 ---
 The Perma team has landed back in the US after our trip to the [International Internet Preservation Consortium](https://netpreserve.org/)’s Web Archiving Conference. This year the IIPC met in Oslo at the National Library of Norway, and the conference's theme was “Towards Best Practices.” 
 
