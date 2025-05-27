@@ -4,17 +4,23 @@ paths:
   uploads: uploads
   static: ''
 collections_config:
-  pages:
-    path: ''
-    name: Pages
-    icon: wysiwyg
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  drafts:
+  Data (People, Additional Research, Etc.):
+    path: _data
+    name: Data
+    icon: list
+    disable_url: true
+    description: ''
+    _enabled_editors:
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
+  Draft Blog Posts:
     path: _drafts
     name: Drafts
-    icon: event
+    icon: psychology_alt
+    disable_url: false
+    description: ''
+    _enabled_editors:
     _inputs:
       categories:
         type: multiselect
@@ -36,24 +42,13 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  events:
-    path: _events
-    name: Events
-    icon: event
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  our_work:
-    path: _our_work
-    name: Our Work
-    icon: group_work
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-  posts:
+  Blog Posts:
     path: _posts
     name: Posts
-    icon: event_available
+    icon: newspaper
+    disable_url: false
+    description: ''
+    _enabled_editors:
     _inputs:
       categories:
         type: multiselect
@@ -79,24 +74,51 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  data:
-    path: _data
-    name: Data
-    icon: data_usage
-    disable_add: true
-    disable_add_folder: true
-    disable_file_actions: true
-  jobs:
-    path: _jobs
-    name: Jobs
-    icon: sos
+  Events:
+    path: _events
+    name: Events
+    icon: event
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  our_work_pageless:
+  Jobs:
+    path: _jobs
+    name: Jobs
+    icon: person_search
+    disable_url: true
+    description: ''
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  Our Work (listed, but no project page):
     path: _our_work_pageless
     name: Our Work Pageless
-    icon: workspaces
+    icon: work_off
+    disable_url: true
+    description: ''
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  Our Work:
+    path: _our_work
+    name: Our Work
+    icon: work_outline
+    disable_url: false
+    description: ''
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  Other Pages:
+    path: ''
+    name: Other Pages (Home, About, 404, etc.)
+    icon: toc
+    disable_url: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
