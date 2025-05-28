@@ -166,27 +166,6 @@ clare-stanton:
   current: true
   section: Staff
 
-ben-steinberg:
-  name: Ben Steinberg
-  sort_name: Steinberg
-  role: DevOps
-  bio: >
-    Ben has been a bookseller, an editorial assistant, and a
-    cataloger, but the largest part of his work life has been as a
-    reference librarian in a public library, where he was also a shop
-    steward and treasurer of his local. Since then, he's become a
-    software developer, at first in support of Harvard's open-access
-    policies at the Office for Scholarly Communication; he now works
-    on the infrastructure for all of LIL's projects.
-  email:  bsteinberg@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name: bensteinberg
-  image: ben-steinberg.jpg
-  affiliated: true
-  current: true
-  section: Staff
-
 ebru-yucesar:
   name: Ebru Yucesar
   sort_name: Yucesar
@@ -1066,6 +1045,14 @@ carli-spina:
   sort_name: Spina
   role: Emerging Technologies and Research Librarian
   affiliated: false
+
+  ben-steinberg:
+  name: Ben Steinberg
+  sort_name: Steinberg
+  role: DevOps
+  email:
+  github_account_name: bensteinberg
+  affiliated: true
 
 sam-stites:
   name: Sam Stites
