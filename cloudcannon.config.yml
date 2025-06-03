@@ -3,6 +3,15 @@ source: /app/
 paths:
   uploads: uploads
   static: ''
+
+_defaults:
+  posts:
+    layout: post
+    author: rebecca-cremona
+    title: ""
+    categories: []
+    tags: []
+
 collections_config:
   Data (People, Additional Research, Etc.):
     path: _data
@@ -22,6 +31,30 @@ collections_config:
     description: ''
     _enabled_editors:
     _inputs:
+      title:
+        type: text
+        label: Post Title
+      author:
+        type: select
+        label: Author
+        options:
+          values:
+            - value: rebecca-cremona
+              label: "Rebecca Cremona - Senior Software Engineer"
+            - value: jack-cushman
+              label: "Jack Cushman - Director"
+            - value: harmony-eidolon
+              label: "Harmony Eidolon - Program Coordinator"
+            - value: kristi-mukk
+              label: "Kristi Mukk - User Support Coordinator"
+            - value: jacob-rhoades
+              label: "Jacob Rhoades - Senior Product Designer"
+      layout:
+        type: select
+        options:
+          values:
+            - post
+        hidden: true
       categories:
         type: multiselect
         options:
@@ -39,6 +72,12 @@ collections_config:
     create:
       path: ''
       publish_to: posts
+      extra_data:
+        layout: post
+        author: rebecca-cremona
+        title: ""
+        categories: []
+        tags: []
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -53,34 +92,29 @@ collections_config:
       title:
         type: text
         label: Post Title
-        comment: The main title of your blog post
       author:
         type: select
         label: Author
-        comment: Select the post author from team members
         options:
-          values: data.people
-          value_key: key
-          preview:
-            text: 
-              - key: name  # This displays the full name in the dropdown
+          values:
+            - value: rebecca-cremona
+              label: "Rebecca Cremona - Senior Software Engineer"
+            - value: jack-cushman
+              label: "Jack Cushman - Director"
+            - value: harmony-eidolon
+              label: "Harmony Eidolon - Program Coordinator"
+            - value: kristi-mukk
+              label: "Kristi Mukk - User Support Coordinator"
+            - value: jacob-rhoades
+              label: "Jacob Rhoades - Senior Product Designer"
       layout:
         type: select
-        label: Layout
-        comment: Choose the layout template for this post
         options:
           values:
             - post
-            - default
-        hidden: true  # Hide this since "post" is the standard for blog posts
-      date:
-        type: datetime
-        label: Publish Date
-        timezone: America/New_York
+        hidden: true
       categories:
         type: multiselect
-        label: Categories
-        comment: Add categories to organize your posts
         options:
           allow_create: true
           empty_type: array
@@ -88,17 +122,11 @@ collections_config:
         cascade: true
       tags:
         type: multiselect
-        label: Tags
-        comment: Add tags for better discoverability
         options:
           allow_create: true
           empty_type: array
           values: collections.posts[*].tags
         cascade: true
-      guest-author:
-        type: text
-        label: Guest Author
-        comment: For posts by non-team members (optional)
     add_options:
       - name: Add Post
       - name: Add Draft
@@ -106,6 +134,12 @@ collections_config:
     create:
       path: >-
         [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+      extra_data:
+        layout: post
+        author: rebecca-cremona
+        title: ""
+        categories: []
+        tags: []
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -157,6 +191,7 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+
 _snippets_imports:
   jekyll: true
 timezone: America/New_York
