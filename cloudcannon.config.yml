@@ -50,8 +50,37 @@ collections_config:
     description: ''
     _enabled_editors:
     _inputs:
+      title:
+        type: text
+        label: Post Title
+        comment: The main title of your blog post
+      author:
+        type: select
+        label: Author
+        comment: Select the post author from team members
+        options:
+          values: data.people
+          value_key: key
+          preview:
+            text: 
+              - key: name  # This displays the full name in the dropdown
+      layout:
+        type: select
+        label: Layout
+        comment: Choose the layout template for this post
+        options:
+          values:
+            - post
+            - default
+        hidden: true  # Hide this since "post" is the standard for blog posts
+      date:
+        type: datetime
+        label: Publish Date
+        timezone: America/New_York
       categories:
         type: multiselect
+        label: Categories
+        comment: Add categories to organize your posts
         options:
           allow_create: true
           empty_type: array
@@ -59,11 +88,17 @@ collections_config:
         cascade: true
       tags:
         type: multiselect
+        label: Tags
+        comment: Add tags for better discoverability
         options:
           allow_create: true
           empty_type: array
           values: collections.posts[*].tags
         cascade: true
+      guest-author:
+        type: text
+        label: Guest Author
+        comment: For posts by non-team members (optional)
     add_options:
       - name: Add Post
       - name: Add Draft
