@@ -3,15 +3,6 @@ source: /app/
 paths:
   uploads: uploads
   static: ''
-
-_defaults:
-  posts:
-    layout: post
-    author: rebecca-cremona
-    title: ""
-    categories: []
-    tags: []
-
 collections_config:
   Data (People, Additional Research, Etc.):
     path: _data
@@ -31,30 +22,6 @@ collections_config:
     description: ''
     _enabled_editors:
     _inputs:
-      title:
-        type: text
-        label: Post Title
-      author:
-        type: select
-        label: Author
-        options:
-          values:
-            - value: rebecca-cremona
-              label: "Rebecca Cremona - Senior Software Engineer"
-            - value: jack-cushman
-              label: "Jack Cushman - Director"
-            - value: harmony-eidolon
-              label: "Harmony Eidolon - Program Coordinator"
-            - value: kristi-mukk
-              label: "Kristi Mukk - User Support Coordinator"
-            - value: jacob-rhoades
-              label: "Jacob Rhoades - Senior Product Designer"
-      layout:
-        type: select
-        options:
-          values:
-            - post
-        hidden: true
       categories:
         type: multiselect
         options:
@@ -72,12 +39,6 @@ collections_config:
     create:
       path: ''
       publish_to: posts
-      extra_data:
-        layout: post
-        author: rebecca-cremona
-        title: ""
-        categories: []
-        tags: []
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -89,30 +50,6 @@ collections_config:
     description: ''
     _enabled_editors:
     _inputs:
-      title:
-        type: text
-        label: Post Title
-      author:
-        type: select
-        label: Author
-        options:
-          values:
-            - value: rebecca-cremona
-              label: "Rebecca Cremona - Senior Software Engineer"
-            - value: jack-cushman
-              label: "Jack Cushman - Director"
-            - value: harmony-eidolon
-              label: "Harmony Eidolon - Program Coordinator"
-            - value: kristi-mukk
-              label: "Kristi Mukk - User Support Coordinator"
-            - value: jacob-rhoades
-              label: "Jacob Rhoades - Senior Product Designer"
-      layout:
-        type: select
-        options:
-          values:
-            - post
-        hidden: true
       categories:
         type: multiselect
         options:
@@ -134,12 +71,6 @@ collections_config:
     create:
       path: >-
         [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
-      extra_data:
-        layout: post
-        author: rebecca-cremona
-        title: ""
-        categories: []
-        tags: []
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -191,7 +122,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-
 _snippets_imports:
   jekyll: true
 timezone: America/New_York
