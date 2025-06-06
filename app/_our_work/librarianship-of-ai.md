@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory:
+subcategory: Democratizing Open Knowledge
 retired: false
 retired_date:
 title: Librarianship of AI
