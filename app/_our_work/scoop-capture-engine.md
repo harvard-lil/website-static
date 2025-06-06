@@ -1,12 +1,10 @@
 ---
 category: research
-subcategory: Perma Tools
+subcategory: Web Archiving
 retired: false
 retired_date:
-
-title: "Scoop Capture Engine"
+title: Scoop Capture Engine
 ---
-
 [Part of Perma Tools](https://tools.perma.cc/)
 
 Because we wondered: What would a browser-based capture engine look like if its main goal was to create evidence for an article, court case, or fact check?
