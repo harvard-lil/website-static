@@ -1,27 +1,14 @@
-# Profile pics are served up in the browser using the srcset attribute #
-# on the html5 img element. the different image sizes in the srcset #
-# need to be created when adding a person and placed in the thumbs dir #
-
-# When adding a current team member, add three sizes - 216x216, 432x432, 648x648 #
-# see https://github.com/harvard-lil/website-static?tab=readme-ov-file#adding-current-Fellows #
-
-
-# Currently affiliated #
-# set "affiliated: true", "current: true"
-
-# LIL staff
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
   role: Senior Software Engineer
   bio: >
-    Becky was a student of physics and religion before becoming a
-    faculty assistant in the Harvard SEAS Artificial Intelligence
-    group. She moved on to support Harvard's open-access policies at
-    the Office for Scholarly Communication, where she got the bug for
-    web development. She now spends most of her time working on
-    Perma.cc, advocating for web accessibility, and assisting with
-    other LIL projects.
+    Becky was a student of physics and religion before becoming a faculty
+    assistant in the Harvard SEAS Artificial Intelligence group. She moved on to
+    support Harvard's open-access policies at the Office for Scholarly
+    Communication, where she got the bug for web development. She now spends
+    most of her time working on Perma.cc, advocating for web accessibility, and
+    assisting with other LIL projects.
   email: rcremona@law.harvard.edu
   website:
   twitter_account_name: RebeccaCremona
@@ -30,55 +17,66 @@ rebecca-cremona:
   affiliated: true
   current: true
   section: Staff
-
 jack-cushman:
   name: Jack Cushman
   sort_name: Cushman
   role: Director
-  bio: |
-    Jack worked as an appellate litigator before coming to write code at LIL. His proudest case was
-    [Finch v. Commonwealth](https://cite.case.law/mass/461/232/), which returned health insurance
-    coverage to tens of thousands of Massachusetts immigrants — and now lives on at case.law, the American caselaw
+  bio: >
+    Jack worked as an appellate litigator before coming to write code at LIL.
+    His proudest case was
+
+    [Finch v. Commonwealth](https://cite.case.law/mass/461/232/), which returned
+    health insurance
+
+    coverage to tens of thousands of Massachusetts immigrants — and now lives on
+    at case.law, the American caselaw
+
     database Jack helps to run.
 
-    Jack has served as a board member of the ACLU of Massachusetts and as a fellow of the Berkman Klein Center
-    for Internet and Society. He also teaches the Programming for Lawyers course at Harvard Law School.
+
+    Jack has served as a board member of the ACLU of Massachusetts and as a
+    fellow of the Berkman Klein Center
+
+    for Internet and Society. He also teaches the Programming for Lawyers course
+    at Harvard Law School.
   email: jcushman@law.harvard.edu
   twitter_account_name:
-  github_account_name:  jcushman
+  github_account_name: jcushman
   image: jack-cushman.jpg
   affiliated: true
   current: true
   section: Staff
-
 harmony-eidolon:
   name: Harmony Eidolon
   sort_name: Eidolon
   role: Program Coordinator
   bio: >
-    Harmony joins LIL with 20+ years of project management and event
-    experience. While navigating city and state law complexity, she
-    helped pioneer the mobile cocktail catering industry utilizing
-    urban and local farm ingredients with sustainable practices. She
-    has worked closely with organizations to cultivate events for a
-    good cause, focusing on LGBTQIA++ rights, food justice and
-    homelessness, youth safety, environmental and peace initiatives,
-    reproductive freedom, deafness/communication disorder research and
-    the arts. This passion for human rights has led her to LIL, where
-    she enthusiastically works on efforts to advance and democratize
-    open knowledge.
+    Harmony joins LIL with 20+ years of project management and event experience.
+    While navigating city and state law complexity, she helped pioneer the
+    mobile cocktail catering industry utilizing urban and local farm ingredients
+    with sustainable practices. She has worked closely with organizations to
+    cultivate events for a good cause, focusing on LGBTQIA++ rights, food
+    justice and homelessness, youth safety, environmental and peace initiatives,
+    reproductive freedom, deafness/communication disorder research and the arts.
+    This passion for human rights has led her to LIL, where she enthusiastically
+    works on efforts to advance and democratize open knowledge.
   email: heidolon@law.harvard.edu
   image: harmony-eidolon.jpg
   affiliated: true
   current: true
   section: Staff
-
 kristi-mukk:
   name: Kristi Mukk
   sort_name: Mukk
   role: User Support Coordinator
   bio: >
-    Kristi has worked as an instructional designer and adjunct faculty at Simmons University. In previous roles at the New Bedford Whaling Museum, Smithsonian Institute, and University of Richmond, Kristi focused on digital humanities projects that explore how we connect the past to the present in order to imagine a more equitable future. She is passionate about empowering marginalized communities to actively shape cultural memory for future generations in a way that represents all voices.
+    Kristi has worked as an instructional designer and adjunct faculty at
+    Simmons University. In previous roles at the New Bedford Whaling Museum,
+    Smithsonian Institute, and University of Richmond, Kristi focused on digital
+    humanities projects that explore how we connect the past to the present in
+    order to imagine a more equitable future. She is passionate about empowering
+    marginalized communities to actively shape cultural memory for future
+    generations in a way that represents all voices.
   email: kmukk@law.harvard.edu
   website:
   twitter_account_name:
@@ -87,76 +85,90 @@ kristi-mukk:
   affiliated: true
   current: true
   section: Staff
-
 jacob-rhoades:
   name: Jacob Rhoades
   sort_name: Rhoades
   role: Senior Product Designer
   bio: >
-    Jacob is a seasoned graphic designer with over a decade of experience in branding, illustration, and UI design. His portfolio includes collaborations with companies in travel, tech, architecture, and wellness. When not immersed in design, Jacob finds joy in family life and exploring the world on his bike.
+    Jacob is a seasoned graphic designer with over a decade of experience in
+    branding, illustration, and UI design. His portfolio includes collaborations
+    with companies in travel, tech, architecture, and wellness. When not
+    immersed in design, Jacob finds joy in family life and exploring the world
+    on his bike.
   email: jrhoades@law.harvard.edu
   website: https://jacobrhoades.com/
   image: jacob-rhoades.jpg
-  affiliated: True
-  current: True
+  affiliated: true
+  current: true
   section: Staff
-
 aristana-scourtas:
   name: Aristana Scourtas
   sort_name: Scourtas
   role: Product and Research Manager
   bio: >-
-    Ari comes to LIL from the world of applied AI and scientific software engineering, where she tackled topics such as wildfire smoke detection, AI reproducibility, and building open-source contributor communities. She’s held many roles in the past, including software engineer, project manager, community organizer, library assistant, and research scientist, and is thrilled to combine all of these in her new role at LIL to create tools for just access to information. She is especially excited about the intersections of information, justice, and technology.
+    Ari comes to LIL from the world of applied AI and scientific software
+    engineering, where she tackled topics such as wildfire smoke detection, AI
+    reproducibility, and building open-source contributor communities. She’s
+    held many roles in the past, including software engineer, project manager,
+    community organizer, library assistant, and research scientist, and is
+    thrilled to combine all of these in her new role at LIL to create tools for
+    just access to information. She is especially excited about the
+    intersections of information, justice, and technology.
   email: ascourtas@law.harvard.edu
   website:
   github_account_name: ascourtas
   image: aristana-scourtas.jpg
-  affiliated: True
-  current: True
+  affiliated: true
+  current: true
   section: Staff
-
 christopher-setzer:
   name: Christopher Setzer
   sort_name: Setzer
   role: Senior Software Engineer
   bio: >
     Chris is a programmer and writer whose professional history includes
-    projects with NOAA's emergency oil spill response team, the New Mexico
-    state judiciary, and an effort to recover Arctic climate data from
-    historic ships' logs. Prior to joining LIL, he built tools and
-    infrastructure to help government organizations share open data. Outside
-    of work, Chris enjoys backpacking and exploring the Pacific Northwest in
-    the company of his mutt.
+    projects with NOAA's emergency oil spill response team, the New Mexico state
+    judiciary, and an effort to recover Arctic climate data from historic ships'
+    logs. Prior to joining LIL, he built tools and infrastructure to help
+    government organizations share open data. Outside of work, Chris enjoys
+    backpacking and exploring the Pacific Northwest in the company of his mutt.
   email: csetzer@law.harvard.edu
   github_account_name: cmsetzer
   image: christopher-setzer.jpg
   affiliated: true
   current: true
   section: Staff
-
 christian-smith:
   name: Christian Smith
   sort_name: Smith
   role: Software Engineering Manager
   bio: >-
-    Christian discovered the craft of research when his open source work with cryptography led to academic collaboration and an engineering role at MIT. Years prior he witnessed the impact of technology on law as a student at Berklee College of Music, when dotcom era file-sharing networks disrupted the music industry. At LIL, he aims to empower the engineering team, help invent breakthrough library tools, and improve access to justice.
+    Christian discovered the craft of research when his open source work with
+    cryptography led to academic collaboration and an engineering role at MIT.
+    Years prior he witnessed the impact of technology on law as a student at
+    Berklee College of Music, when dotcom era file-sharing networks disrupted
+    the music industry. At LIL, he aims to empower the engineering team, help
+    invent breakthrough library tools, and improve access to justice.
   email: csmith@law.harvard.edu
   github_account_name: christiansmith
   image: christian-smith.jpg
   affiliated: true
   current: true
   section: Staff
-
 clare-stanton:
   name: Clare Stanton
   sort_name: Stanton
   role: Product and Research Director
   bio: >
-    Clare's true occupation is as a milliner, creating multiple hats for herself everywhere she goes.
-    She's worked in every department of a photography gallery, as the event coordinator/alumni liaison/substitute teacher
-    at a small independent school, as the database maintainer/research assistant/calendar
-    keeper for a group of innovation and management researchers, as the compost watchdog/vinyl cutter
-    whisperer/side-project logistics manager at LIL, the outreach and communications lead for Perma.cc, and now LIL's Product and Research Director. She has an MLIS from Simmons University.
+    Clare's true occupation is as a milliner, creating multiple hats for herself
+    everywhere she goes. She's worked in every department of a photography
+    gallery, as the event coordinator/alumni liaison/substitute teacher at a
+    small independent school, as the database maintainer/research
+    assistant/calendar keeper for a group of innovation and management
+    researchers, as the compost watchdog/vinyl cutter whisperer/side-project
+    logistics manager at LIL, the outreach and communications lead for Perma.cc,
+    and now LIL's Product and Research Director. She has an MLIS from Simmons
+    University.
   email: cstanton@law.harvard.edu
   website:
   twitter_account_name: clare__stanton
@@ -165,19 +177,17 @@ clare-stanton:
   affiliated: true
   current: true
   section: Staff
-
 ebru-yucesar:
   name: Ebru Yucesar
   sort_name: Yucesar
   role: Senior Software Engineer
   bio: >
-    Ebru is a copywriter-turned-coder with a passion for flying
-    plastic. She has been working in tech for over a decade, including
-    stints in retail and e-commerce spaces as a coder, and in
-    advertising agencies as a copywriter. Her work at LIL focuses on
-    backend development and data engineering. Outside of work, Ebru
-    enjoys playing ultimate frisbee.
-  email:  eyucesar@law.harvard.edu
+    Ebru is a copywriter-turned-coder with a passion for flying plastic. She has
+    been working in tech for over a decade, including stints in retail and
+    e-commerce spaces as a coder, and in advertising agencies as a copywriter.
+    Her work at LIL focuses on backend development and data engineering. Outside
+    of work, Ebru enjoys playing ultimate frisbee.
+  email: eyucesar@law.harvard.edu
   website:
   twitter_account_name:
   github_account_name: teovin
@@ -185,16 +195,14 @@ ebru-yucesar:
   affiliated: true
   current: true
   section: Staff
-
 jonathan-zittrain:
   name: Jonathan Zittrain
   sort_name: Zittrain
   role: Harvard Faculty and Law School Library Director
-  bio: >
-    JZ directs the Law School Library,
-    co-created the Berkman Center, is an EFF board member, and is
-    faculty in the Law School, School of Engineering and Applied
-    Sciences, and the Kennedy School.
+  bio: >-
+    JZ directs the Law School Library, co-created the Berkman Klein Center for
+    Internet & Society, is an EFF board member, and is faculty in the Law
+    School, School of Engineering and Applied Sciences, and the Kennedy School.
   email: a2jz@law.harvard.edu
   website: http://jz.org
   twitter_account_name: zittrain
@@ -203,15 +211,20 @@ jonathan-zittrain:
   affiliated: true
   current: true
   section: Faculty Director
-
-# Fellows and others
-
 matteo-cargnelutti:
   name: Matteo Cargnelutti
   sort_name: Cargnelutti
   role: Fellow
   bio: >
-    Matteo is a software engineer specializing in digital preservation and open knowledge. Currently serving as Principal Engineer at the Institutional Data Initiative, Matteo previously worked as a Senior Software Engineer at LIL. During his time at the lab, he contributed to the design and implementation of web archiving technologies that now power Perma.cc, and spearheaded technical research into how artificial intelligence is changing our relationship to knowledge. Through his ongoing fellowship, Matteo continues to contribute to LIL’s web archiving and “Librarianship of AI” research efforts.
+    Matteo is a software engineer specializing in digital preservation and open
+    knowledge. Currently serving as Principal Engineer at the Institutional Data
+    Initiative, Matteo previously worked as a Senior Software Engineer at LIL.
+    During his time at the lab, he contributed to the design and implementation
+    of web archiving technologies that now power Perma.cc, and spearheaded
+    technical research into how artificial intelligence is changing our
+    relationship to knowledge. Through his ongoing fellowship, Matteo continues
+    to contribute to LIL’s web archiving and “Librarianship of AI” research
+    efforts.
   email: mcargnelutti@law.harvard.edu
   website: https://matteocargnelutti.dev
   github_account_name: matteocargnelutti
@@ -219,26 +232,36 @@ matteo-cargnelutti:
   affiliated: true
   current: true
   section: Affiliates
-
 jim-cowie:
   name: Jim Cowie
   sort_name: Cowie
   role: Fellow
   bio: >-
-    Jim is a data scientist and entrepreneur, and a dual fellow with the Berkman Klein Center for Internet & Society.  After an early career in DARPA-sponsored high performance computing, Jim founded Renesys, the Internet Intelligence Authority, and later served as Chief Scientist at DynDNS. His current research focuses on the Internet History Initiative, a noncommercial effort to preserve and curate the historical datasets that document the Internet’s regional evolution, making their stories accessible to future historians and other audiences beyond the Internet’s traditional technical core community.
+    Jim is a data scientist and entrepreneur, and a dual fellow with the Berkman
+    Klein Center for Internet & Society.  After an early career in
+    DARPA-sponsored high performance computing, Jim founded Renesys, the
+    Internet Intelligence Authority, and later served as Chief Scientist at
+    DynDNS. His current research focuses on the Internet History Initiative, a
+    noncommercial effort to preserve and curate the historical datasets that
+    document the Internet’s regional evolution, making their stories accessible
+    to future historians and other audiences beyond the Internet’s traditional
+    technical core community.
   website: https://internethistoryinitiative.org/
   mastodon_url: https://social.secret-wg.org/@jimcowie
   image: jim-cowie.jpg
   affiliated: true
   current: true
   section: Affiliates
-
 maxwell-neely-cohen:
   name: Maxwell Neely-Cohen
   sort_name: Neely-Cohen
   role: Fellow
   bio: >-
-    Max is a novelist, essayist, and editor who loves figuring out how to write about emerging fields, tools, and practices. Outside of his literary ventures, his work with design, code, and performance has been acclaimed by _The New York Times_, _Frieze_, and _The Financial Times_. He is obsessed with libraries and archives.
+    Max is a novelist, essayist, and editor who loves figuring out how to write
+    about emerging fields, tools, and practices. Outside of his literary
+    ventures, his work with design, code, and performance has been acclaimed by
+    _The New York Times_, _Frieze_, and _The Financial Times_. He is obsessed
+    with libraries and archives.
   email:
   website: https://maxy.world/
   twitter_account_name: nhyphenc
@@ -247,12 +270,6 @@ maxwell-neely-cohen:
   affiliated: true
   current: true
   section: Affiliates
-
-
-# Former Fellows, and single-project collaborators
-# Entries should not have a "current:" key
-# Former LIL staff, fellows, RAs should have "affiliated: true"
-
 zena-agha:
   name: Zena Agha
   sort_name: Agha
@@ -260,14 +277,12 @@ zena-agha:
   website: https://zenaagha.com/about/
   twitter_account_name: Zena_Agha
   affiliated: true
-
 neel-agrawal:
   name: Neel Agrawal
   sort_name: Agrawal
   role: 2016 Summer Fellow
   website: http://neelagrawal.com
   affiliated: true
-
 anastasia-aizman:
   name: Anastasia Aizman
   sort_name: Aizman
@@ -276,7 +291,6 @@ anastasia-aizman:
   twitter_account_name:
   github_account_name: anastasia
   affiliated: true
-
 kendra-albert:
   name: Kendra Albert
   sort_name: Albert
@@ -284,7 +298,6 @@ kendra-albert:
   website: https://kendraalbert.com/
   affiliated: false
   twitter_account_name: KendraSerra
-
 rachel-auslander:
   name: Rachel Auslander
   sort_name: Auslander
@@ -293,81 +306,70 @@ rachel-auslander:
   twitter_account_name: rachelauslander
   github_account_name: rachelaus
   affiliated: true
-
 samantha-bates:
   name: Samantha Bates
   sort_name: Bates
   role: Research Associate
   bio: >
-    Samantha worked as a research associate for Professor Zittrain and
-    helped out with Lab projects. She previously worked in the legal
-    department at Google and enjoys running, baking bread, and reading
-    British literature.
+    Samantha worked as a research associate for Professor Zittrain and helped
+    out with Lab projects. She previously worked in the legal department at
+    Google and enjoys running, baking bread, and reading British literature.
   email: sbates@cyber.law.harvard.edu
   website:
   twitter_account_name:
   github_account_name:
   affiliated: false
-
 matthew-battles:
   name: Matthew Battles
   sort_name: Battles
   role: Associate Director at metaLAB
   website: http://mbattl.es
   affiliated: false
-
 karen-beck:
   name: Karen Beck
   sort_name: Beck
   role: Manager, Historical & Special Collections
   affiliated: false
-
 sankalp-bhatnagar:
   name: Sankalp Bhatnagar
   sort_name: Bhatnagar
   role: 2022-2024 Research Fellow
   website: http://www.linkedin.com/in/sankalpbisme
   affiliated: true
-
 anna-bialas:
   name: Anna Bialas
   sort_name: Bialas
   role: 2017 LIL and Berkman Summer Intern
   github_account_name: annabialas
   affiliated: true
-
 rachel-binx:
   name: Rachel Binx
   sort_name: Binx
   website: http://rachelbinx.com/
   affiliated: false
-
 zachary-bodnar:
   name: Zachary Bodnar
   sort_name: Bodnar
   role: Digitization Specialist
   affiliated: false
-
 tom-boone:
   name: Tom Boone
   sort_name: Boone
   role: Faculty Services Librarian
   affiliated: false
-
 john-bowers:
   name: John Bowers
   sort_name: Bowers
   role: Research Associate
   bio: >
     John worked as a research associate for Professor Zittrain. He likes
-    cooking, statistics, and historical nonfiction, and once legally named
-    his pet cat "Bitcoin" after losing a bet.
+    cooking, statistics, and historical nonfiction, and once legally named his
+    pet cat "Bitcoin" after losing a bet.
   email: jobowers@law.harvard.edu
   website:
   twitter_account_name:
   github_account_name: john-bowers
   affiliated: false
-
 carrie-bly:
   name: Carrie Bly
   sort_name: Bly
@@ -377,7 +379,6 @@ carrie-bly:
   twitter_account_name:
   github_account_name:
   affiliated: true
-
 hannah-brinkmann:
   name: Hannah Brinkmann
   sort_name: Brinkmann
@@ -388,32 +389,27 @@ hannah-brinkmann:
   twitter_account_name:
   github_account_name:
   affiliated: true
-
 catherine-brobston:
   name: Catherine Brobston
   sort_name: Brobston
   role: Product and Research Manager
   affiliated: true
-
 annie-cain:
   name: Annie Cain
   sort_name: Cain
   role: Developer
   github_account_name: anniejocain
   affiliated: true
-
 june-casey:
   name: June Casey
   sort_name: Casey
   role: Librarian for Open Access Initiatives & Scholarly Communication
   affiliated: false
-
 mathew-cha:
   name: Mathew Dongkyun Cha
   sort_name: Cha
   role: 2022 Summer Research Assistant
   affiliated: true
-
 stephen-chapman:
   name: Stephen Chapman
   sort_name: Chapman
@@ -421,20 +417,17 @@ stephen-chapman:
   email: schapman@law.harvard.edu
   twitter_account_name: schapman50
   affiliated: true
-
 deborah-chase:
   name: Deborah Chase
   sort_name: Chase
   role: Digitization Specialist
   affiliated: false
-
 brennan-chesley:
   name: Brennan Chesley
   sort_name: Chesley
   role: Developer
   github_account_name: holtchesley
   affiliated: true
-
 franny-corry:
   name: Franny Corry
   sort_name: Corry
@@ -445,19 +438,16 @@ franny-corry:
   twitter_account_name:
   github_account_name:
   affiliated: true
-
 kyle-courtney:
   name: Kyle K. Courtney
   sort_name: Courtney
   role: Copyright Advisor and Program Manager, HL Office for Scholarly Communication
   affiliated: false
-
 emma-cushman:
   name: Emma Cushman
   sort_name: Cushman
   role: Contributing developer
   affiliated: false
-
 liza-daly:
   name: Liza Daly
   sort_name: Daly
@@ -467,7 +457,6 @@ liza-daly:
   mastodon_url: https://post.lurk.org/@liza
   github_account_name: lizadaly
   affiliated: true
-
 julian-degroot-lutzner:
   name: Julian DeGroot-Lutzner
   sort_name: DeGroot-Lutzner
@@ -478,71 +467,62 @@ julian-degroot-lutzner:
   twitter_account_name:
   github_account_name: jdegrootlutzner
   affiliated: true
-
 michael-della-bitta:
   name: Michael Della Bitta
   sort_name: Della Bitta
   role: Engineering Manager
   github_account_name: mdellabitta
   affiliated: true
-
 claire-demarco:
   name: Claire DeMarco
   sort_name: DeMarco
   role: Research Librarian
   affiliated: false
-
 paul-deschner:
   name: Paul Deschner
   sort_name: Deschner
   role: Developer
   bio: >
-    Paul swims, skis, speaks multiple languages, and likes Finnish
-    literature. He's worked at Harvard since 1990.
+    Paul swims, skis, speaks multiple languages, and likes Finnish literature.
+    He's worked at Harvard since 1990.
   email: deschner@law.harvard.edu
   website:
   twitter_account_name:
   github_account_name:
   affiliated: true
-
 alexandra-dolan-mescal:
   name: Alexandra Dolan-Mescal
   sort_name: Dolan-Mescal
   role: 2018 Summer Fellow
   bio: >
-    Alex is an artist and archivist focused on projects for social good.
-    She teaches archival theory, consults for archives
-    of marginalized communities, and paints in encaustic wax, causing many burns.
+    Alex is an artist and archivist focused on projects for social good. She
+    teaches archival theory, consults for archives of marginalized communities,
+    and paints in encaustic wax, causing many burns.
   email: adolanmescal@law.harvard.edu
   twitter_account_name: fromadmwithlove
   github_account_name:
   affiliated: true
-
 kim-dulin:
   name: Kim Dulin
   sort_name: Dulin
   role: Library Innovation Lab Director
   affiliated: true
-
 lindsay-dumas:
   name: Lindsay Dumas
   sort_name: Dumas
   role: Digital Projects Archivist
   affiliated: false
-
 frances-duncan:
   name: Frances Duncan
   sort_name: Duncan
   role: Contributing designer
   website: http://francesduncan.com
   affiliated: false
-
 kate-edrington:
   name: Kate Edrington
   sort_name: Edrington
   role: Digitization Specialist
   affiliated: false
-
 jay-edwards:
   name: Jay Edwards
   sort_name: Edwards
@@ -553,7 +533,6 @@ jay-edwards:
   twitter_account_name: meangrape
   github_account_name:
   affiliated: true
-
 jake-effoduh:
   name: Jake Effoduh
   sort_name: Effoduh
@@ -561,7 +540,6 @@ jake-effoduh:
   affiliated: true
   twitter_account_name: effodu
   website: http://www.law2go.org/
-
 nayun-eom:
   name: Nayun Eom
   sort_name: Eom
@@ -570,7 +548,6 @@ nayun-eom:
   website:
   github_account_name:
   affiliated: true
-
 ashley-fan:
   name: Ashley Fan
   sort_name: Fan
@@ -578,7 +555,6 @@ ashley-fan:
   email: ashley.fan@yale.edu
   twitter_account_name: fashleyaan
   affiliated: true
-
 shira-feldman:
   name: Shira Feldman
   sort_name: Feldman
@@ -589,49 +565,46 @@ shira-feldman:
   twitter_account_name: shirarbira
   github_account_name: shirarbira
   affiliated: true
-
 kelly-fitzpatrick:
   name: Kelly Fitzpatrick
   sort_name: Fitzpatrick
   role: Research Associate
   bio: >
-    Kelly connects researchers with the Caselaw Access Project and leads project outreach and communications. She also supports work on open casebooks as part of the H2O project. Before joining LIL, Kelly worked on open access at the Berkman Klein Center for Internet & Society.
+    Kelly connects researchers with the Caselaw Access Project and leads project
+    outreach and communications. She also supports work on open casebooks as
+    part of the H2O project. Before joining LIL, Kelly worked on open access at
+    the Berkman Klein Center for Internet & Society.
   email: lfitzpatrick@cyber.harvard.edu
   website: http://lkfitz.tumblr.com/
   twitter_account_name: fitzbub
   github_account_name: lkfitz
   affiliated: true
-
 kerri-fleming:
   name: Kerri Fleming
   sort_name: Fleming
   role: Digital Projects Archivist
   bio: >
-    Kerri is a history nerd who loves color-coding, ice cream and the
-    Backstreet Boys. In her spare time she is either giving her niece
-    horsie rides or teaching exercise classes at nursing homes.
-  email:  kfleming@law.harvard.edu
+    Kerri is a history nerd who loves color-coding, ice cream and the Backstreet
+    Boys. In her spare time she is either giving her niece horsie rides or
+    teaching exercise classes at nursing homes.
+  email: kfleming@law.harvard.edu
   affiliated: true
-
 gerard-fowke:
   name: Gerard Fowke
   sort_name: Fowke
   role: 2018 Harvard Law School Library Intern
   affiliated: false
-
 sara-frug:
   name: Sara Frug
   sort_name: Frug
   role: 2017 Summer Fellow
   twitter_account_name: ssfrug
   affiliated: true
-
 ben-gaucherin:
   name: Ben Gaucherin
   sort_name: Gaucherin
   website: https://bengaucherin.wordpress.com
   affiliated: false
-
 katy-ilonka-gero:
   name: Katy Ilonka Gero
   sort_name: Gero
@@ -640,7 +613,6 @@ katy-ilonka-gero:
   website: https://www.katygero.com/
   twitter_account_name: katyilonka
   affiliated: true
-
 sarah-glassmeyer:
   name: Sarah Glassmeyer
   sort_name: Glassmeyer
@@ -649,13 +621,11 @@ sarah-glassmeyer:
   twitter_account_name: sglassmeyer
   github_account_name: sglassmeyer
   affiliated: true
-
 jeff-goldenson:
   name: Jeff Goldenson
   sort_name: Goldenson
   role: Designer
   affiliated: true
-
 kendra-greene:
   name: Kendra Greene
   sort_name: Greene
@@ -664,26 +634,23 @@ kendra-greene:
   email: akendragreene@gmail.com
   website: http://akendragreene.com
   affiliated: true
-
 hans-christian-gregerson:
   name: Hans Christian Gregerson
   sort_name: Gregerson
   role: 2016 LIL and Berkman Summer Intern
   affiliated: true
-
 casey-gruppioni:
   name: Casey Gruppioni
   sort_name: Gruppioni
   role: Developer
   bio: >
-    Casey likes power yoga, curating playlists, paddleboarding and pinball.
-    She enjoys working on projects for the greater good.
+    Casey likes power yoga, curating playlists, paddleboarding and pinball. She
+    enjoys working on projects for the greater good.
   email: cgruppioni@law.harvard.edu
   website:
   twitter_account_name: cgruppioni
   github_account_name: cgruppioni
   affiliated: true
-
 andy-gu:
   name: Andy Gu
   sort_name: Gu
@@ -692,7 +659,6 @@ andy-gu:
   twitter_account_name: andy__gu
   github_account_name: 4ndygu
   affiliated: true
-
 george-he:
   name: George He
   sort_name: He
@@ -700,7 +666,6 @@ george-he:
   website: https://georgehe.me/
   github_account_name: georgehe4
   affiliated: true
-
 evelin-heidel:
   name: Evelin Heidel
   sort_name: Heidel
@@ -710,14 +675,12 @@ evelin-heidel:
   twitter_account_name: scannopolis
   github_account_name: scannopolis
   affiliated: true
-
 keith-hartwig:
   name: Keith Hartwig
   sort_name: Hartwig
   website: http://keithhartwig.com
   affiliated: false
   role: FK Productions
-
 alison-head:
   name: Alison Head
   sort_name: Head
@@ -725,88 +688,77 @@ alison-head:
   twitter_account_name: alisonjhead
   affiliated: true
   role: 2011 visiting researcher
-
 davis-henderson:
   name: Davis Henderson
   sort_name: Henderson
   role: 2022 Summer Research Assistant
   affiliated: true
-
 sha-hwang:
   name: Sha Hwang
   sort_name: Hwang
   website: http://postarchitectural.com/
   twitter_account_name: shashashasha
   affiliated: false
-
 adaeze-ibeanu:
   name: Adaeze Ibeanu
   sort_name: Ibeanu
   role: 2021 Summer Research Assistant
   email: aibeanu@live.unc.edu
   affiliated: true
-
 varun-iyer:
   name: Varun Iyer
   sort_name: Iyer
   role: 2022 Summer Research Assistant
   affiliated: true
-
 michael-jimenez:
   name: Michael Jimenez
   sort_name: Jimenez
   affiliated: false
-
 brett-johnson:
   name: Brett Johnson
   sort_name: Johnson
   role: Outreach and Support
   bio: >
-    Brett's a human who'd prefer identifying as a mammal that talks. He's interested in things working and not working and used to unjam printers as IT at an art school but doesn't have the body for that anymore.
-  email:  bjohnson@law.harvard.edu
-  website:  http://forrealdude.tumblr.com
+    Brett's a human who'd prefer identifying as a mammal that talks. He's
+    interested in things working and not working and used to unjam printers as
+    IT at an art school but doesn't have the body for that anymore.
+  email: bjohnson@law.harvard.edu
+  website: http://forrealdude.tumblr.com
   twitter_account_name:
   github_account_name:
   affiliated: true
-
 dan-jones:
   name: Dan Jones
   sort_name: Jones
   role: Digital Media Producer, Berkman Klein Center for Internet & Society
   affiliated: false
-
 rachel-karasick:
   name: Rachel Karasick
   sort_name: Karasick
   role: 2017 Summer Fellow
   affiliated: true
   twitter_account_name: rkarasick
-
 jane-kelly:
   name: Jane Kelly
   sort_name: Kelly
   role: Historical & Special Collections Assistant
   affiliated: false
-
 jocelyn-kennedy:
   name: Jocelyn Kennedy
   sort_name: Kennedy
-  role: Executive Director of the Harvard Law School Library 
+  role: Executive Director of the Harvard Law School Library
   affiliated: true
-
 rebecca-kilberg:
   name: Rebecca Kilberg
   sort_name: Kilberg
   role: Technologist in Residence
   github_account_name: kilbergr
   affiliated: true
-
 alisa-kolot:
   name: Alisa Kolot
   sort_name: Kolot
   role: Sound artist, musician
   affiliated: false
-
 ilya-kreymer:
   name: Ilya Kreymer
   sort_name: Kreymer
@@ -814,16 +766,14 @@ ilya-kreymer:
   twitter_account_name: IlyaKreymer
   github_account_name: ikreymer
   affiliated: true
-
 aadi-kulkarni:
   name: Aadi Kulkarni
   sort_name: Kulkarni
   role: 2021 Summer Research Assistant
   email: ak2354@cornell.edu
-  website:  https://www.linkedin.com/in/aadik/
+  website: https://www.linkedin.com/in/aadik/
   github_account_name: aadik23
   affiliated: true
-
 caitlin-laughlin:
   name: Caitlin Laughlin
   sort_name: Laughlin
@@ -837,27 +787,23 @@ caitlin-laughlin:
   twitter_account_name:
   github_account_name:
   affiliated: true
-
 doyung-lee:
   name: Doyung Lee
   sort_name: Lee
   role: 2017 LIL and Berkman Summer Intern
   website: https://doyunglee.github.io/
   affiliated: true
-
 seonghee-lee:
   name: Seonghee Lee
   sort_name: Lee
   role: 2022 Summer Research Assistant
   website: https://seungheelee.net/
   affiliated: true
-
 erica-leeman:
   name: Erica Leeman
   sort_name: Leeman
   role: Digitization Specialist
   affiliated: false
-
 greg-leppert:
   name: Greg Leppert
   sort_name: Leppert
@@ -867,7 +813,6 @@ greg-leppert:
   twitter_account_name: leppert
   github_account_name: leppert
   affiliated: true
-
 dustin-lewis:
   name: Dustin Lewis
   sort_name: Lewis
@@ -875,44 +820,37 @@ dustin-lewis:
   website: http://pilac.law.harvard.edu/dustin-a-lewis
   twitter_account_name: dustin_a_lewis
   affiliated: true
-
 andrew-mactaggart:
   name: Andrew MacTaggart
   sort_name: MacTaggart
   role: Senior Digitization Specialist
   affiliated: true
-
 emily-magagnosc:
   name: Emily Magagnosc
   sort_name: Magagnosc
   role: Digitization Specialist
   affiliated: false
-
 petar-maymounkov:
   name: Petar Maymounkov
   sort_name: Maymounkov
   twitter_account_name: maymounkov
   affiliated: false
-
 kate-mays:
   name: Kate Mays
   sort_name: Mays
   role: LIL and Berkman Summer Intern
   affiliated: true
-
 timothy-mcallister:
   name: Timothy McAllister
   sort_name: McAllister
   role: Reference Librarian, Perma.cc
   affiliated: false
-
 muira-mccammon:
   name: Muira McCammon
   sort_name: McCammon
   role: 2016 Summer Fellow
   twitter_account_name: muira_mccammon
   affiliated: true
-
 sabelo-mhlambi:
   name: Sabelo Mhlambi
   sort_name: Mhlambi
@@ -921,7 +859,6 @@ sabelo-mhlambi:
   twitter_account_name: sabelonow
   github_account_name: sabzo
   affiliated: true
-
 matt-miller:
   name: Matt Miller
   sort_name: Miller
@@ -929,7 +866,6 @@ matt-miller:
   affiliated: true
   website: http://thisismattmiller.com/
   twitter_account_name: thisismmiller
-
 miglena-minkova:
   name: Miglena Minkova
   sort_name: Minkova
@@ -938,13 +874,11 @@ miglena-minkova:
   website: http://miglenaminkova.com/
   twitter_account_name: miglenaminkova
   github_account_name: MMinkova
-
 loren-newman:
   name: Loren Newman
   sort_name: Newman
   role: Intern
   affiliated: true
-
 alexander-nwala:
   name: Alexander Nwala
   sort_name: Nwala
@@ -952,22 +886,19 @@ alexander-nwala:
   twitter_account_name: acnwala
   github_account_name: anwala
   affiliated: true
-
 margaret-peachy:
   name: Margaret Peachy
   sort_name: Peachy
   role: Curator of Digital Collections
   affiliated: false
-
 matt-phillips:
   name: Matt Phillips
   sort_name: Phillips
   website: http://mattphillips.info
   twitter_account_name: this_phillips
-  github_account_name:  phillipsm
+  github_account_name: phillipsm
   role: Lead Developer
   affiliated: true
-
 michelle-quin:
   name: Michelle Quin
   sort_name: Quin
@@ -978,27 +909,23 @@ michelle-quin:
   twitter_account_name:
   github_account_name: michellequin
   affiliated: true
-
 tim-riser:
   name: Tim Riser
   sort_name: Riser
   role: 2016 LIL and Berkman Summer Intern
   affiliated: true
-
 lori-schulsinger:
   name: Lori Schulsinger
   sort_name: Schulsinger
   role: Collection Development Coordinator
   affiliated: false
-
 dakota-sexton:
   name: Dakota Sexton
   sort_name: Sexton
   role: Senior Software Engineer
   website: https://tinykitelab.com/
   github_account_name: tinykite
-  affiliated: True
-
+  affiliated: true
 chris-shen:
   name: Chris Shen
   sort_name: Shen
@@ -1007,7 +934,6 @@ chris-shen:
   website:
   twitter_account_name:
   affiliated: true
-
 satvik-shukla:
   name: Satvik Shukla
   sort_name: Shukla
@@ -1015,7 +941,6 @@ satvik-shukla:
   twitter_account_name:
   github_account_name: satvikshukla
   affiliated: true
-
 andy-silva:
   name: Drew (Andy) Silva
   sort_name: Silva
@@ -1023,63 +948,50 @@ andy-silva:
   bio:
   email: dl@drewadesign.com
   website: https://drewadesign.com
-  twitter_account_name: 
-  github_account_name: 
+  twitter_account_name:
+  github_account_name:
   affiliated: true
-
 carli-spina:
-  name: Carli Spina
-  sort_name: Spina
-  role: Emerging Technologies and Research Librarian
-  affiliated: false
-
-  ben-steinberg:
   name: Ben Steinberg
   sort_name: Steinberg
   role: DevOps
+  affiliated: true
+  ben-steinberg:
   email:
   github_account_name: bensteinberg
-  affiliated: true
-
 sam-stites:
   name: Sam Stites
   sort_name: Stites
   affiliated: false
   twitter_account_name: samstites
   role: Machine Learning Engineer at Sentenai
-
 oren-tamir:
   name: Oren Tamir
   sort_name: Tamir
   role: Fellow
   affiliated: true
-
 zach-tan:
   name: Zach Tan
   sort_name: Tan
   role: 2017 LIL and Berkman Summer Intern
   affiliated: true
-
 emily-teng:
   name: Emily Teng
   sort_name: Teng
   role: 2022 Summer Research Assistant
   affiliated: true
-
 shailin-thomas:
   name: Shailin Thomas
   sort_name: Thomas
   role: Affiliate, Berkman Center for Internet & Society
   twitter_account_name: shailinthomas
   affiliated: true
-
 caleb-troughton:
   name: Caleb Troughton
   sort_name: Troughton
   website: http://imakewebthings.com/
   twitter_account_name: foodgoesinmouth
   affiliated: false
-
 tiff-tseng:
   name: Tiff Tseng
   sort_name: Tseng
@@ -1087,7 +999,6 @@ tiff-tseng:
   website: http://spin.media.mit.edu
   twitter_account_name: scientiffic
   affiliated: true
-
 tessa-walsh:
   name: Tessa Walsh
   sort_name: Walsh
@@ -1101,13 +1012,11 @@ tessa-walsh:
   twitter_account_name: bitarchivist
   github_account_name: tw4l
   affiliated: true
-
 caroline-walters:
   name: Caroline Walters
   sort_name: Walters
   role: Collection Development Librarian for U.S. Law
   affiliated: false
-
 david-weinberger:
   name: David Weinberger
   sort_name: Weinberger
@@ -1115,7 +1024,6 @@ david-weinberger:
   twitter_account_name: dweinberger
   role: Co-Director
   affiliated: true
-
 jordi-weinstock:
   name: Jordi Weinstock
   sort_name: Weinstock
@@ -1126,7 +1034,6 @@ jordi-weinstock:
   twitter_account_name:
   github_account_name:
   affiliated: true
-
 jessamyn-west:
   name: Jessamyn West
   sort_name: West
@@ -1137,14 +1044,12 @@ jessamyn-west:
   twitter_account_name: jessamyn
   github_account_name:
   affiliated: true
-
 reid-whitaker:
   name: Reid Whitaker
   sort_name: Whitaker
   role: 2017 Summer Fellow
   affiliated: true
   twitter_account_name: reidmwhitaker
-
 molly-white:
   name: Molly White
   sort_name: White
@@ -1153,7 +1058,6 @@ molly-white:
   twitter_account_name: molly0xfff
   github_account_name: molly
   affiliated: true
-
 dano-williams:
   name: Dano Williams
   sort_name: Williams
@@ -1162,14 +1066,12 @@ dano-williams:
   twitter_account_name: thisisdano
   github_account_name: thisisdano
   affiliated: true
-
 suzanne-wones:
   name: Suzanne Wones
   sort_name: Wones
   role: Executive Director, Harvard Law School Library
   twitter_account_name: onlywones
   affiliated: true
-
 rosten-woo:
   name: Rosten Woo
   sort_name: Woo
@@ -1177,23 +1079,20 @@ rosten-woo:
   twitter_account_name: rstnrstn
   role: Contributing designer
   affiliated: true
-
 yunhan-xu:
   name: Yunhan Xu
   sort_name: Xu
   role: Contributing statistician
   affiliated: false
-
 jessica-yurkofsky:
   name: Jessica Yurkofsky
   sort_name: Yurkofsky
   role: Creative Technologist at metaLAB
   affiliated: false
-
 adam-ziegler:
   name: Adam Ziegler
   sort_name: Ziegler
   role: Director
   twitter_account_name: abziegler
-  github_account_name:  abziegler
+  github_account_name: abziegler
   affiliated: true
