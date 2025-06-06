@@ -1,12 +1,10 @@
 ---
 category: research
-subcategory: AI Explorations
+subcategory: Democratizing Open Knowledge
 retired: false
 retired_date:
-
-title: "Open Legal AI Workbench (OLAW)"
+title: Open Legal AI Workbench (OLAW)
 ---
-
 We want academics and nonprofits at the table in discovering the next generation of legal interfaces and helping to close the justice gap. It is not at all clear yet which legal AI tools and interfaces will work effectively for people with different levels of skill, what kind of guardrails they need, and what kind of matters they can help with.
 
 That’s why we’re releasing OLAW, a common framework for scholarly researchers to build novel interfaces and run experiments. In technical terms, OLAW is a simple, well-documented, and extensible framework for legal AI researchers to build services using tool-based retrieval-augmented generation.
