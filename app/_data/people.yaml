@@ -233,34 +233,12 @@ jim-cowie:
   current: true
   section: Affiliates
 
-katy-ilonka-gero:
-  name: Katy Ilonka Gero
-  sort_name: Gero
-  role: Fellow
-  bio: >-
-    Katy is a computer scientist and creative writer. Her PhD focused
-    on how creative writers make use of language models to support
-    their writing; she is now a research fellow at LIL investigating
-    how writers feel about the use of their writing to train large
-    language models. She studies the ethical and responsible use of AI
-    technologies, and thinking through how technology can support,
-    rather than supplant, people as writers. In addition to “normal”
-    writing, she’s dallied in computational and experimental poetry,
-    and likes to play around with the web as a medium for creativity.
-  email: katy@g.harvard.edu
-  website: https://www.katygero.com/
-  twitter_account_name: katyilonka
-  image: katy-ilonka-gero.jpg
-  affiliated: true
-  current: true
-  section: Affiliates
-
 maxwell-neely-cohen:
   name: Maxwell Neely-Cohen
   sort_name: Neely-Cohen
   role: Fellow
   bio: >-
-    Max is a novelist, essayist, and editor who loves figuring out how to write about emerging fields, tools, and practices. Outside of his literary ventures, his work with design, code, and performance have been acclaimed by _The New York Times_, _Frieze_, and _The Financial Times_. He is obsessed with libraries and archives.
+    Max is a novelist, essayist, and editor who loves figuring out how to write about emerging fields, tools, and practices. Outside of his literary ventures, his work with design, code, and performance has been acclaimed by _The New York Times_, _Frieze_, and _The Financial Times_. He is obsessed with libraries and archives.
   email:
   website: https://maxy.world/
   twitter_account_name: nhyphenc
@@ -653,6 +631,15 @@ ben-gaucherin:
   sort_name: Gaucherin
   website: https://bengaucherin.wordpress.com
   affiliated: false
+
+katy-ilonka-gero:
+  name: Katy Ilonka Gero
+  sort_name: Gero
+  role: Fellow
+  email: katy@g.harvard.edu
+  website: https://www.katygero.com/
+  twitter_account_name: katyilonka
+  affiliated: true
 
 sarah-glassmeyer:
   name: Sarah Glassmeyer
