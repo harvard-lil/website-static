@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory: Generational Data
+subcategory: Democratizing Open Knowledge
 retired: false
 retired_date:
 title: Creative Writing LLMs
