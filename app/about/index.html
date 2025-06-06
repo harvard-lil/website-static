@@ -2,6 +2,7 @@
 title: About Us
 slug: about
 description: Our mission is to grow knowledge and community by bringing library principles to technological frontiers.
+jobs-link-label: View Open Positions
 layout: default
 ---
 
@@ -16,8 +17,8 @@ layout: default
 
   <section class="container md:mb-12">
     <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40 items-baseline">
-      <h2 class="h2">Who We Are</h2>
-      <div class="md:col-span-2 body-text flex flex-col gap-24 max-w-[700px]">
+      <h2 class="h2 editable">Who We Are</h2>
+      <div class="md:col-span-2 body-text flex flex-col gap-24 max-w-[700px] editable">
         <p>We are a team of librarians, technologists, lawyers, designers, and more, and we work out of the Harvard Law School Library.</p>
         <p>We believe that libraries play a fundamental role in humanity as open, privacy-respecting, and sustainable information spaces. We also believe technology holds great power to break down barriers to information creation, preservation, and use.</p>
       </div>
@@ -32,17 +33,17 @@ layout: default
             class="img-full-width aspect-[1/.45] object-cover overflow-hidden">
       </picture>
       <figcaption class="block container text-16 py-8">
-        <strong>Credit: Bob O’Connor</strong>
+        <strong class="editable">Credit: Bob O’Connor</strong>
       </figcaption>
     </figure>
   </section>
 
   <section class="bg-green py-48 md:py-72 w-full">
     <div class="container flex flex-col md:grid md:grid-cols-2 gap-32 md:gap-100 md:items-center">
-      <h2 class="h2">Library principles can manifest in any technology and provide a roadmap to mindful building.</h2>
+      <h2 class="h2 editable">Library principles can manifest in any technology and provide a roadmap to mindful building.</h2>
       <div class="flex flex-col gap-20 md:gap-30 body-text">
-        <h3 class="label">We strive to cultivate</h3>
-        <div class="flex flex-col gap-16 md:gap-24 max-w-[520px]">
+        <h3 class="label editable">We strive to cultivate</h3>
+        <div class="flex flex-col gap-16 md:gap-24 max-w-[520px] editable">
           <p>Collection, curation, and preservation of knowledge and its provenance</p>
           <p>Equal and private access to knowledge</p>
           <p>Community service, building, and empowerment through knowledge</p>
@@ -52,7 +53,7 @@ layout: default
   </section>
 
   <section class="container ">
-    <h2 class="h2 mt-12 mb-48 md:mb-72">People at the Lab</h2>
+    <h2 class="h2 mt-12 mb-48 md:mb-72 editable">People at the Lab</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120 pb-48 md:pb-72">
       {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
       {% assign sections = "Faculty Director, Staff" | split: ", " %}
@@ -70,7 +71,7 @@ layout: default
       {% endfor %}
     </div>
     <div class="pt-48 md:pt-72 border-t-1 border-black">
-      <h2 class="h2">Affiliates</h2>
+      <h2 class="h2 editable">Affiliates</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
         {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
         {% assign sections = "Affiliates" | split: ", " %}
@@ -92,14 +93,14 @@ layout: default
         {% include header-splash-logo.html %}
       </div>
       <div>
-        {% include arrow-link.html label="View Open Positions" href="/jobs/" %}
+        {% include arrow-link.html label=page.jobs-link-label href="/jobs/" %}
       </div>
       <div class="w-40">
       </div>
     </div>
     <section class="bg-gray pt-48 pb-6 tbl:pt-60 tbl:pb-24 w-full">
       <div class="container">
-        <h2 class="h2 tbl:mt-12 tbl:mb-24">Past Affiliates</h2>
+        <h2 class="h2 tbl:mt-12 tbl:mb-24 editable">Past Affiliates</h2>
         <div class="flex flex-col items-start w-full">
           {% assign old_friends = affiliates | where: "current", nil %}
           {% for person in old_friends %}
@@ -111,8 +112,8 @@ layout: default
   </section>
 
   <section class="container">
-    <h2 class="h2 mt-12 md:mt-0 mb-48 tbl:mb-36 md:mb-60">Supported By</h2>
-    <p class="body-text mb-48">We gratefully acknowledge support from, and collaboration with, these organizations.</p>
+    <h2 class="h2 mt-12 md:mt-0 mb-48 tbl:mb-36 md:mb-60 editable">Supported By</h2>
+    <p class="body-text mb-48 editable">We gratefully acknowledge support from, and collaboration with, these organizations.</p>
     
     {% include about-sponsor-group.html supporters=site.data.supporters.institutions %}
     <hr class="w-[200px] mx-auto my-12 border-t-4 border-gray-300">
