@@ -9,4 +9,4 @@ We want academics and nonprofits at the table in discovering the next generation
 
 She will be conducting interviews within literary communities and their adjacent fields, with a secondary goal of producing a data set and releasing it based on the findings from contributing authors. If time allows, the data set could be used to train a Transformer model and begin investigations into its utility compared to other available models.
 
-If you are interested in speaking with Katy or hearing more about her research, reach out to us at [{{ site.email }}](mailto:<span%20data-cms-snippet-type=&quot;inline&quot;%20data-cms-snippet-id=&quot;fab5d674-086d-4df1-a540-277d39c2233d&quot;%20data-cms-snippet-data=&quot;eyJ0cmltX2xlZnQiOmZhbHNlLCJ0ZW1wbGF0ZSI6IiBzaXRlLmVtYWlsICIsInRyaW1fcmlnaHQiOmZhbHNlLCJfaGlkZGVuIjp0cnVlLCJfc25pcHBldF90eXBlIjoiX2NjX2pla3lsbF90ZW1wbGF0ZSIsIl9tZXRhIjp7InRyaW1fbGVmdCI6e30sInRlbXBsYXRlIjp7Im9yaWdpbmFsRGF0YSI6W3siX3R5cGUiOiJ0ZXh0IiwidGV4dCI6IiBzaXRlLmVtYWlsICJ9XX0sInRyaW1fcmlnaHQiOnt9fX0=&quot;></span>).
+If you are interested in speaking with Katy or hearing more about her research, reach out to us at [{{ site.email }}](mailto:{{ site.email }}).
