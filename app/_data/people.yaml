@@ -1,3 +1,26 @@
+# Profile pics are served up in the browser using the srcset attribute #
+
+# on the html5 img element. the different image sizes in the srcset #
+
+# need to be created when adding a person and placed in the thumbs dir #
+
+
+
+# When adding a current team member, add three sizes - 216x216, 432x432, 648x648 #
+
+# see https://github.com/harvard-lil/website-static?tab=readme-ov-file#adding-current-Fellows #
+
+
+
+
+
+# Currently affiliated #
+
+# set "affiliated: true", "current: true"
+
+
+
+# LIL staff
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
@@ -211,6 +234,10 @@ jonathan-zittrain:
   affiliated: true
   current: true
   section: Faculty Director
+
+
+# Fellows and others
+
 matteo-cargnelutti:
   name: Matteo Cargnelutti
   sort_name: Cargnelutti
