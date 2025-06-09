@@ -3,7 +3,7 @@ category: research
 subcategory: Ongoing
 retired: false
 retired_date:
-title: ' Democratizing Open Knowledge Research Agenda'
+title: Democratizing Open Knowledge Research Agenda
 ---
 Democratizing Open Knowledge is a three-year program at the Library Innovation Lab to explore the goals articulated in Harvard Library’s [Advancing Open Knowledge](https://library.harvard.edu/about/news/2021-03-24/harvard-library-advancing-open-knowledge) strategy from a decentralized and generative perspective. If you like what you see here and want to collaborate, &lt;a href=”{{ site.baseurl }}/about”&gt;get in touch&lt;/a&gt;!
 
