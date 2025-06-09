@@ -5,7 +5,7 @@ retired: false
 retired_date:
 title: Democratizing Open Knowledge Research Agenda
 ---
-Democratizing Open Knowledge is a three-year program at the Library Innovation Lab to explore the goals articulated in Harvard Library’s [Advancing Open Knowledge](https://library.harvard.edu/about/news/2021-03-24/harvard-library-advancing-open-knowledge) strategy from a decentralized and generative perspective. If you like what you see here and want to collaborate, &lt;a href=”{{ site.baseurl }}/about”&gt;get in touch&lt;/a&gt;!
+Democratizing Open Knowledge is a three-year program at the Library Innovation Lab to explore the goals articulated in Harvard Library’s [Advancing Open Knowledge](https://library.harvard.edu/about/news/2021-03-24/harvard-library-advancing-open-knowledge) strategy from a decentralized and generative perspective. If you like what you see here and want to collaborate, [get in touch]({{ site.baseurl }}/about)!
 
 In “Advancing Open Knowledge,” Harvard Library outlines three strategic goals for libraries:
 
@@ -39,4 +39,4 @@ What communities are currently underrepresented in centralized archives, and how
 
 What aspects of cultural memory and cultural preservation are best served by centralized institutions with long memories, and what roles by self-governing stakeholders? How can the “decentralized” technology represented by public libraries be updated for new internet communities?<br> *Example research outputs: civic infrastructure tools for online towns.*
 
-To stay up-to-date on our work, [join our newsletter](https://law.us3.list-manage.com/subscribe?u=4290964398813d739f2398db0&amp;id=e097736c6f), and if you have thoughts about this program, &lt;a href=”{{ site.baseurl }}/about”&gt;get in touch&lt;/a&gt;!
+To stay up-to-date on our work, [join our newsletter](https://law.us3.list-manage.com/subscribe?u=4290964398813d739f2398db0&amp;id=e097736c6f), and if you have thoughts about this program, [get in touch]({{ site.baseurl }}/about)!
