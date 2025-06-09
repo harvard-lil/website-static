@@ -952,11 +952,15 @@ andy-silva:
   github_account_name:
   affiliated: true
 carli-spina:
+  name: Carli Spina
+  sort_name: Spina
+  role: Emerging Technologies and Research Librarian
+  affiliated: false
+ben-steinberg:
   name: Ben Steinberg
   sort_name: Steinberg
   role: DevOps
   affiliated: true
-  ben-steinberg:
   email:
   github_account_name: bensteinberg
 sam-stites:
