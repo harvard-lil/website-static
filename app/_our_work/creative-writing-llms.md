@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory: Democratizing Open Knowledge
+subcategory: Ongoing
 retired: false
 retired_date:
 title: Creative Writing LLMs

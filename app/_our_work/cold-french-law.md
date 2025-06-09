@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory: Democratizing Open Knowledge
+subcategory: Recent
 retired: false
 retired_date:
 title: COLD French Law

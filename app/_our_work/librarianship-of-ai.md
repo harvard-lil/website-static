@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory: AI and Legal Practice
+subcategory: Ongoing
 retired: false
 retired_date:
 title: Librarianship of AI

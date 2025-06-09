@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory: Web Archiving
+subcategory: Ongoing
 retired: false
 retired_date:
 title: Scoop Capture Engine

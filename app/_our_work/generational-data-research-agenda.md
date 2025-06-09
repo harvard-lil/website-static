@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory: Generational Data
+subcategory: Ongoing
 retired: false
 retired_date:
 title: ' Generational Data Research Agenda'
