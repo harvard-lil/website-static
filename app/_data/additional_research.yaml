@@ -1,24 +1,24 @@
-
-- title: Banned Books
+- title: LLMs and Banned Books
   url: /blog/2023/09/25/ai-book-bans-freedom-to-read-case-study/
-  subcategory: AI Explorations
+  subcategory: Recent
   order:
-
 - title: WARC-GPT
-  url: /blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/
-  subcategory: AI Explorations
+  url: >-
+    /blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/
+  subcategory: Recent
   order:
-
 - title: Century Scale Storage
   url: /century-scale-storage/
-  subcategory: Access to Knowledge
-  order: 
+  subcategory: Recent
+  order:
   no-swup: true
-
 - title: Open French Law RAG
   url: /open-french-law-rag/
-  subcategory: AI Explorations
-  order: 
+  subcategory: Recent
+  order:
   no-swup: true
-
-
+- title: Data.gov Archive
+  url: /blog/2025/02/06/announcing-data-gov-archive/
+  subcategory: Ongoing
+  order:
+  no-swup: true

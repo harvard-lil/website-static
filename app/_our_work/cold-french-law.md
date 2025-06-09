@@ -1,12 +1,10 @@
 ---
 category: research
-subcategory: AI Explorations
+subcategory: Recent
 retired: false
 retired_date:
-
-title: "COLD French Law"
+title: COLD French Law
 ---
-
 Part of the Collaborative Open Legal Data collection, the COLD French Law dataset contains over 800,000 articles extracted from the LEGI dataset, one of France’s official open law repositories, that were programmatically identified as “currently applicable French law” by our pipeline.
 
 This dataset—formatted into a single CSV file and openly available on Hugging Face—contains original texts from the LEGI dataset as well as machine-generated French to English translations thanks to the participation of the CoCounsel team at Casetext, part of Thomson Reuters.

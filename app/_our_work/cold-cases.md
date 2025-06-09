@@ -1,12 +1,10 @@
 ---
 category: research
-subcategory: AI Explorations
+subcategory: Recent
 retired: false
 retired_date:
-
-title: "Collaborative Open Legal Data (COLD) Data Set"
+title: Collaborative Open Legal Data (COLD) Data Set
 ---
-
 Generative AI offers a defining moment where information archives gain the ability to answer questions about themselves; to act without human intervention; and even to simulate the processes that created them. From our perspective at the lab - where we bring library principles to technological frontiers - anyone who is concerned with information, access, and the law should be aware of and feel empowered to influence the use of generative AIs. We have embarked upon a series of projects in support of that belief. This is one example:
 
 COLD Cases is a research data set for the open law community.
