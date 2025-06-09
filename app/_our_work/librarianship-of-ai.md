@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory: Democratizing Open Knowledge
+subcategory: AI and Legal Practice
 retired: false
 retired_date:
 title: Librarianship of AI
