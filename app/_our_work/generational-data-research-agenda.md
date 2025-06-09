@@ -3,7 +3,7 @@ category: research
 subcategory: Ongoing
 retired: false
 retired_date:
-title: ' Generational Data Research Agenda'
+title: Generational Data Research Agenda
 ---
 A research area at the Library Innovation Lab that focuses on weaving together technological solutions, distribution philosophies, and professional practice to create a more resilient digital history.
 
