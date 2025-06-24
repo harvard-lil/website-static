@@ -1,7 +1,6 @@
 name: Test, Build, and Deploy
 
-on:
-   workflow_dispatch
+on: [push, pull_request]
 
 permissions:
   id-token: write  # Required for OIDC
