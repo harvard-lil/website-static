@@ -58,6 +58,20 @@ jobs:
         with:
           name: site-build
           path: build/
+     
+      - name: Generate cache-busting strings
+        run: |
+          echo "CSS_BUST=$(date +%s)" >> $GITHUB_ENV
+          echo "JS_BUST=$(date +%s)" >> $GITHUB_ENV
+
+      - name: Replace cache-busting placeholders
+        run: |
+          find build -name '*.html' -exec sed -i "s/CSS_BUST/${{ env.CSS_BUST }}/g" {} +
+          find build -name '*.html' -exec sed -i "s/JS_BUST/${{ env.JS_BUST }}/g" {} +
+      
+      - name: Confirm cache-busting strings applied
+        run: |
+          grep -q 'v=' build/index.html && echo "Cache busting applied ✅" || (echo "❌ Cache busting missing" && exit 1)
 
       - name: Configure AWS credentials via OIDC
         uses: aws-actions/configure-aws-credentials@v4
