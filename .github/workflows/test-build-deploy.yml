@@ -49,7 +49,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: test-build
-    # if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
     steps:
       - uses: actions/checkout@v4
       
