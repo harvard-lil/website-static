@@ -7,6 +7,6 @@ At LIL, Product and Research Managers are the backbone of a varied and wide reac
 
 PRMs at LIL maintain a personal and collaborative research agenda and project portfolio. Additionally, in partnership with the other Product and Research Manager, they own the processes and procedures for the Lab, and assist the Product and Research Director with quarterly planning and the execution of quarterly meetings.
 
-For more information and to apply, fill out an [application form](https://careers.harvard.edu/job/product-and-research-manager-in-cambridge-ma-united-states-jid-317){: target="_blank" rel="noopener"} on Harvard’s career portal.
+For more information and to apply, fill out an <a href="https://careers.harvard.edu/job/product-and-research-manager-in-cambridge-ma-united-states-jid-317" class="interactive-link dark reverse">applictaion form</a> on Harvard’s career portal.
 
 In addition to Harvard’s standard application form, please provide a short cover letter explaining how your career trajectory and interests align with our work and mission.
