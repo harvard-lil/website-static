@@ -96,4 +96,36 @@ jobs:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE_ID }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
+      - name: Notify Slack
+        uses: slackapi/slack-github-action@v2.1.1
+        with:
+          webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
+          webhook-type: incoming-webhook
+          payload: |
+              {
+                "blocks": [
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "*LIL Website deployed successfully!*"
+                    }
+                  },
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                                    "text": "*Repo:*\n<https://github.com/${{ github.repository }}|`${{ github.repository }}`>\n*Branch:*\n<https://github.com/${{ github.repository }}/tree/${{ github.ref_name }}|`${{ github.ref_name }}`>\n*Commit:*\n<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|`${{ github.sha }}`>"
+                    } 
+                  },
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "*View the site:* <https://lil.law.harvard.edu|https://lil.law.harvard.edu>"
+                    }
+                  }
+                ]
+              }
+
           
