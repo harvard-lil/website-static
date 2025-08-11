@@ -1,7 +1,8 @@
 ---
 title: Fellows
-category:
+category: research
 order: 2
+published: false
 ---
 The Library Innovation Lab offers a small number of
 stipended fellowships to people developing tools and

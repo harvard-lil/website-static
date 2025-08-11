@@ -1,7 +1,8 @@
 ---
 title: Research assistant / student fellow
-category:
+category: research
 order: 1
+published: false
 ---
 Thinking about legal tech, civic tech, or cultural memory? We have options.
 
