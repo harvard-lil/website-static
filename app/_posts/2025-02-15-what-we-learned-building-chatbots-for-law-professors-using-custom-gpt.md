@@ -17,7 +17,7 @@ In response, as part of our “[librarianship of AI](https://lil.law.harvard.edu
 
 In this post—in very long form!—we’ll tour everything we learned, from how to run a library service that builds chatbots for professors, to tips and tricks about how to get a Custom GPT to work well right now, to the hints we saw of how chatbots might affect legal education and scholarship.
 
-[*Why build a Custom GPT?*](#why-build-a-custom-gpt)*<br>*[*Overall process*](#overall-process)*<br>*[*How to set up a Custom GPT*](#how-to-set-up-a-custom-gpt)*<br>* [*Strategies for iterating, testing, and evaluating*](#strategies)*<br>*[*Sharing a Custom GPT with faculty*](#sharing-a-custom-gpt-with-faculty) *<br>*[*Sharing a Custom GPT with students*](#sharing-a-custom-gpt-with-students)*<br>*[*Conclusion*](#conclusion)
+[*Why build a Custom GPT?*](#why-build-a-custom-gpt)*<br>*[*Overall process*](#overall-process)*<br>*[*How to set up a Custom GPT*](#how-to-set-up-a-custom-gpt)*<br>* [*Strategies for iterating, testing, and evaluating*](#strategies-for-iterating-testing-and-evaluating)*<br>*[*Sharing a Custom GPT with faculty*](#sharing-a-custom-gpt-with-faculty) *<br>*[*Sharing a Custom GPT with students*](#sharing-a-custom-gpt-with-students)*<br>*[*Conclusion*](#conclusion)
 
 ## Why build a Custom GPT?
 
