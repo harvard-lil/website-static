@@ -22,5 +22,4 @@ discuss.
 with a preference for students at Harvard Law School and
 Harvard University.
 
-**To apply:** send a statement of interest to
-&lt;a href=”mailto:{{ site.email }}?subject=Research%20Assistant%20position” class=”interactive-link dark reverse”&gt;{{ site.email }}&lt;/a&gt;.
+**To apply:** send a statement of interest to [{{ site.email }}](mailto:{{ site.email }}?subject=Research%20Assistant%20position){: .interactive-link.dark.reverse}.

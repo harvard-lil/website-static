@@ -35,4 +35,4 @@ prorated depending on time commitment and other sources of
 support.
 
 **To apply:** Email a résumé and statement of interest to
-&lt;a href=”mailto:{{ site.email }}?subject=Fellowship” class=”interactive-link dark reverse”&gt;{{ site.email }}&lt;/a&gt;.
+[{{ site.email }}](mailto:{{ site.email }}?subject=Fellowship){: .interactive-link.dark.reverse}.
