@@ -34,7 +34,7 @@ And so, we are both overwhelmed and forgetful. We save too much but know too lit
 
 > *“Not everything that is dead is meant to be alive.”*
 
-In the world of digital archiving, we often feel pressure to rescue every bit of data from entropy. But what if some data is just refuse, never meant to be remembered? In libraries and archives, we don't retain every book, document, or scrap of marginalia. We acquire with purpose, discard with care, organize, and provide access with users in mind. Digitally, we’ve largely abandoned these filters. Everything is captured whether it be texts, searches, or half-finished notes. Some of it may be precious, some useful, some exploitable.
+In the world of digital archiving, we often feel pressure to rescue every bit of data from entropy. But what if some data is just refuse, never meant to be remembered? In libraries and archives, we don’t retain every book, document, or scrap of marginalia. We acquire with purpose, discard with care, organize, and provide access with users in mind. Digitally, we’ve largely abandoned these filters. Everything is captured whether it be texts, searches, or half-finished notes. Some of it may be precious, some useful, some exploitable.
 
 The challenge is thus cultural as much as technical. What deserves preservation? Whose job is it to decide? And how can we create tools that align with people’s values, rather than simply saving everything?
 
@@ -86,6 +86,14 @@ The following resources helped shape our thinking and approach to intentional cu
 * [Information maintenance as a practice of care](https://themaintainers.org/information-maintenance-as-a-practice-of-care-an-invitation-to-reflect-and-share/)
 * [Personal Archiving: Preserving Your Digital Memories](https://www.digitalpreservation.gov/personalarchiving/index.html)
 * [Programmed Visions: Software and Memory](https://direct.mit.edu/books/oa-monograph/3341/Programmed-VisionsSoftware-and-Memory)
-* [The Global 'Bit List' of Endangered Digital Species](https://www.dpconline.org/digipres/champion-digital-preservation/bit-list)
+* [The Global ‘Bit List’ of Endangered Digital Species](https://www.dpconline.org/digipres/champion-digital-preservation/bit-list)
 * [The Race to Save Our Online Lives From a Digital Dark Age](https://www.technologyreview.com/2024/08/19/1096284/data-archives-archeologists-tiktok-future-wayback-machine/)
 * [Your Memories. Their Cloud.](https://www.nytimes.com/2022/12/31/technology/cloud-data-storage-google-apple-meta.html)
+
+## Acknowledgements
+
+We would like to thank our colleagues **Clare Stanton**, **Ben Steinberg**, **Aristana Scourtas**, and **Christian Smith** for the ideas that emerged from our conversations together.
+
+Visual by **Jacob Rhoades**.
+
+&nbsp;
