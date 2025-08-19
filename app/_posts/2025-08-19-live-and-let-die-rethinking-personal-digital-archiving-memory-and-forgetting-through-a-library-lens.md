@@ -79,6 +79,7 @@ At the Library Innovation Lab, we are continuing to explore what it means to hel
 The following resources helped shape our thinking and approach to intentional curation of personal archives in the digital age:
 
 * [After Disruption: A Future for Cultural Memory](https://www.fulcrum.org/concern/monographs/p8418r08x)
+* [Archivists Aren’t Ready for the ‘Very Online’ Era](https://www.theatlantic.com/culture/archive/2025/06/digital-archives-internet-history/683031/)
 * [‘Born-Digital Collections, Archives & Memory’ Reflections](https://www.flickr.org/born-digital-collections-archives-memory-reflections/)
 * [Data Lifeboat Project](https://www.flickr.org/programs/content-mobility/data-lifeboat/)
 * [Fragilities: Essays on the Politics, Ethics, and Aesthetics of Maintenance and Repair](https://direct.mit.edu/books/oa-edited-volume/5957/FragilitiesEssays-on-the-Politics-Ethics-and)
