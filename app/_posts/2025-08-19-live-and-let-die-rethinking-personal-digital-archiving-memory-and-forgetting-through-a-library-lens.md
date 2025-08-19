@@ -47,7 +47,7 @@ Integral to memory work is appraisal, deciding what is *worth* keeping. In archi
 
 &nbsp;In digital systems, forgetting often has to be engineered. Systems are designed to store and resurface, not to decay. But decay, entropy, and obsolescence are part of the natural order of memory. If we accept that not everything needs to be held forever, we move into the realm of intentional digital gardening.
 
-> *What if forever isn’t the goal? What’s the appropriate level of preservation for a given context?*
+> *“What if forever isn’t the goal? What’s the appropriate level of preservation for a given context?”*
 
 Preservation need not be permanent in all cases. It can be revisited, adjusted, revised with time as people, contexts, and values change. Our tools should reflect that. What if temporary preservation was the more humane, more appropriate goal? What if the idea of a time capsule was not just novelty, but instead core to a practice of ethical personal archiving, where materials are sealed for a time, viewed in context, then allowed to disappear?
 
