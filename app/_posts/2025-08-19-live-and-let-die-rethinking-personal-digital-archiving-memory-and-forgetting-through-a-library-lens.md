@@ -25,13 +25,13 @@ We live in a time of radical abundance when it comes to digital storage. Cloud p
 
 But this archive is oddly inhospitable. It’s difficult to find things we didn’t intentionally label or remember existed. Search functions help us find known items, but struggle with the forgotten. Search is great for pinpointing known things like names or keywords, but lost among our buried folders and data dumps are materials we didn’t deliberately catalog for the long-term (like screenshots in your photos app). One distinction that emerged in our work is the difference between long-term access and discovery or searchability. You might have full-text search capability over an inbox or drive, but without memory of what you’re looking for or why it mattered, it won’t appear. Similarly, even when content resurfaces through algorithmic recommendation, it often lacks appropriate context.
 
-And so, we are both overwhelmed and forgetful. We save too much, but know too little about what we’ve saved. Digital infrastructure has trained many of us to believe that “saving” is synonymous with “remembering," but this is a design fiction. People commonly assume that “they can keep track of everything,” “they can recognize the good stuff,” and most of all, “they’re going to remember what they have!” But in practice, these assumptions rarely hold true. The more we accumulate, the less we can truly remember. Not because the memories aren’t saved, but because they are fundamentally disconnected from context.
+And so, we are both overwhelmed and forgetful. We save too much, but know too little about what we’ve saved. Digital infrastructure has trained many of us to believe that “saving” is synonymous with “remembering,” but this is a design fiction. People commonly assume that “they can keep track of everything,” “they can recognize the good stuff,” and most of all, “they’re going to remember what they have!” But in practice, these assumptions rarely hold true. The more we accumulate, the less we can truly remember. Not because the memories aren’t saved, but because they are fundamentally disconnected from context.
 
 ## A library lens on everyday personal digital archives
 
 > *“Not everything that is dead is meant to be alive.”*
 
-In the world of digital archiving, we often feel pressure to rescue every bit of data from entropy. But what if some data is just refuse, never meant to be remembered? In libraries and archives, we don’t retain every book, document, or scrap of marginalia. We acquire with purpose, discard with care, organize, and provide access with users in mind. Digitally, we’ve largely abandoned these filters. Everything is captured whether it be texts, searches, or half-finished notes. Some of it may be precious, some useful, and some exploitable.
+In the world of digital archiving, we often feel pressure to rescue every bit of data from entropy. But what if some data is just refuse, never meant to be remembered? In libraries and archives, we don’t retain every book, document, or scrap of marginalia. We acquire with purpose, discard items and weed our collections with care, organize our collections, and provide access with users in mind. Digitally, we’ve largely abandoned these filters. Everything is captured whether it be texts, searches, or half-finished notes. Some of it may be precious, some useful, and some exploitable.
 
 The challenge is thus cultural as much as technical. What deserves preservation? Whose job is it to decide? And how can we create tools that align with people’s values, rather than simply saving everything?
 
@@ -53,7 +53,7 @@ There’s a growing recognition in library and archival science that resurfacing
 
 ## Designing for memory: limits as creative force
 
-Designing for memory is ultimately a human-centered challenge. Limitation can be a tool, not a hindrance, and constraints can force deliberate choice and more intentional engagement.
+Designing for memory is ultimately a human-centered challenge. Limitations can be a tool, not a hindrance, and constraints can cultivate new values, behaviors, and practices that prioritize deliberate choice and intentional engagement.
 
 Imagine creating a digital time capsule designed for temporality and impermanence. You can only choose 10 items to encapsulate for future reflection. What would you choose? What story would those items tell? Would they speak to your accomplishments? Your values? Your curiosities? Would they evoke joy or loss?
 
