@@ -55,7 +55,7 @@ There’s a growing recognition in library and archival science that resurfacing
 
 Designing for memory is ultimately a human-centered challenge. Limitations can be a tool, not a hindrance, and constraints can cultivate new values, behaviors, and practices that prioritize deliberate choice and intentional engagement.
 
-Imagine creating a digital time capsule designed for temporality and impermanence. You can only choose 10 items to encapsulate for future reflection. What would you choose? What story would those items tell? Would they speak to your accomplishments? Your values? Your curiosities? Would they evoke joy or loss?
+Imagine creating a digital time capsule designed for memory re-encountering, temporality, and impermanence. You can only choose 10 items to encapsulate for future reflection. What would you choose? What story would those items tell? Would they speak to your accomplishments? Your values? Your curiosities? Would they evoke joy or loss?
 
 Capsules could be shaped around reflective prompts to aid selection and curation:
 
@@ -63,10 +63,11 @@ Capsules could be shaped around reflective prompts to aid selection and curation
 * Who is your audience: your future self, family, a future researcher, a larger community?
 * What context needs to be retained for future understanding?
 * What kind of media captures this best: text, photo, audio, video, artifacts? Why did you choose what you did?
+* What items would you miss the most if digital platforms went down or the items became unavailable? (Make a list).
 * Should these items be available immediately, or unlocked after a certain amount of time?
 * Once opened, should the capsule remain accessible, or eventually disappear?
 
-Engaging in reflection like this can help individuals perform the difficult and deeply human work of curating your personal digital archive without being overwhelmed by the totality of your digital footprint. The result is an intentional experience that encourages curation, self-reflection, and aids the process of choosing what not to keep. It is memory with intention.
+Engaging in reflection like this can help individuals perform the difficult and deeply human work of curating your personal digital archive without being overwhelmed by the totality of your digital footprint. Making this kind of digital housekeeping part of your established maintenance routine (like spring cleaning) helps make memory work an intentional and active process that encourages curation, self-reflection, and aids the process of choosing what not to keep. It is memory with intention.
 
 ## Memory craft: A call to action
 
