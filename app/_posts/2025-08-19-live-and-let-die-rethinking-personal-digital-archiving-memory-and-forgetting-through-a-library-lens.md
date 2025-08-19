@@ -1,5 +1,8 @@
 ---
-author: kristi-mukk, rebecca-cremona, christopher-setzer
+author:
+  - kristi-mukk
+  - rebecca-cremona
+  - christopher-setzer
 date: 2025-08-19T19:06:00-04:00
 title: >-
   Live and Let Die: Rethinking Personal Digital Archiving, Memory, and
