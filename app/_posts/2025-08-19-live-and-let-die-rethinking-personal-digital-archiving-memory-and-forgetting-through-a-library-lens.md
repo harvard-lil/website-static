@@ -3,7 +3,7 @@ author:
   - kristi-mukk
   - rebecca-cremona
   - christopher-setzer
-date: 2025-08-19T19:06:00-04:00
+date: 2025-08-20T19:06:00-04:00
 title: >-
   Live and Let Die: Rethinking Personal Digital Archiving, Memory, and
   Forgetting Through a Library Lens
