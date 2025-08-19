@@ -11,8 +11,6 @@ wordpress_id: 20
 categories:
   - Library Principles
 ---
-# Live and Let Die: Rethinking Personal Digital Archiving, Memory, and Forgetting Through a Library Lens
-
 ![A collage featuring various overlapping images and textures, including a close-up of a human eye, hands handling archival materials, a person sitting in water, vintage books, a computer file folder icon, flowers, clouds, and a grid sketch of a building. Repeated words &quot;More&quot; appear on the left, while years from 2004 to 2022 are listed vertically in the center. The composition uses muted tones with occasional pastel highlights—blue, purple, yellow, and olive green—and is overlaid with torn paper and photographic effects.](https://lil-blog-media.s3.amazonaws.com/LIL_DigitalArchiveCollageBlog.png)
 
 In today’s world, each moment generates a digital trace. Between the photos we take, the texts we send, and the troves of cloud-stored documents, we create and accumulate more digital matter each day. As individuals, we hold immense archives on our devices, and yet we rarely pause to ask: *What of this is worth keeping? And for how long?* Each text we send, document we save, or photo we upload quietly accumulates in the digital margins of our daily routines. Almost always, we intend to return to these traces later. Almost never do we actually return to them.
