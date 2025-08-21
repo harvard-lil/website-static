@@ -88,6 +88,25 @@ harmony-eidolon:
   affiliated: true
   current: true
   section: Staff
+molly-hardy:
+  name: Molly Hardy
+  sort_name: Hardy
+  role: Project Lead for Public Data
+  bio: >
+    Molly has worked on both sides of the library reference desk for over twenty
+    years. While earning her PhD in book history, she cut her teeth in special
+    collections at UT Austin's Harry Ransom Center. After researching and working
+    at national and local libraries, she managed the program that produces
+    Chronicling America for the National Endowment for the Humanities. She has a
+    passion for radical preservation of data, collections, and land. In the summer,
+    she can be found in community gardens, working with free plants; in the winter,
+    she can be found in front of a sewing machine, piecing together unconventional
+    fabrics.
+  email: mhardy@law.harvard.edu
+  image: molly-hardy.jpg
+  affiliated: true
+  current: true
+  section: Staff
 kristi-mukk:
   name: Kristi Mukk
   sort_name: Mukk
