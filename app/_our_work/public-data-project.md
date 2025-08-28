@@ -1,6 +1,6 @@
 ---
 category: research
-subcategory: Ongoing
+subcategory: ongoing
 retired: false
 retired_date:
 project_website: https://source.coop/repositories/harvard-lil/gov-data/description
