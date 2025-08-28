@@ -31,10 +31,10 @@ why_does_it_exist: >-
   discovering and broadcasting best practices along the way. Our approach
   emphasizes library-quality digital preservation through:
 
-  - Cryptographic provenance to verify authenticity  - Comprehensive metadata
-  for discoverability  - Rigorous collection practices Robust client-side
-  discovery layers  - Prioritization based on public needs Archives designed for
-  resilient duplication 
+  - Cryptographic provenance to verify authenticity  
+  - Comprehensive metadata for discoverability  
+  - Rigorous collection practices Robust client-side discovery layers  
+  - Prioritization based on public needs Archives designed for resilient duplication 
 
   Involving a mix of technical, social, economic, and educational interventions,
   we are preserving datasets in immediate danger through creation of new tools
@@ -44,7 +44,8 @@ why_does_it_exist: >-
   that can robustly store information against global shocks. 
 
   Check this page, as well as our blog, for updates to this project. Please
-  contact us at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu).
+  contact us at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu). 
+  
 who_contributed:
   - molly-hardy
   - jack-cushman
