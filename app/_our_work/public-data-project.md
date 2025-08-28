@@ -53,5 +53,5 @@ who_contributed:
   - molly-hardy
   - jack-cushman
   - christopher-setzer
-title-tag: PubData
+title-tag: Public Data Project
 ---
