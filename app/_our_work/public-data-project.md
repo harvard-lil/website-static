@@ -30,11 +30,14 @@ why_does_it_exist: >-
   while also building deep ties with historic libraries and archives,
   discovering and broadcasting best practices along the way. Our approach
   emphasizes library-quality digital preservation through:
-
-  - Cryptographic provenance to verify authenticity  
-  - Comprehensive metadata for discoverability  
-  - Rigorous collection practices Robust client-side discovery layers  
-  - Prioritization based on public needs Archives designed for resilient duplication 
+  
+  1. Cryptographic provenance to verify authenticity  
+  
+  2. Comprehensive metadata for discoverability  
+  
+  3. Rigorous collection practices Robust client-side discovery layers  
+  
+  4. Prioritization based on public needs Archives designed for resilient duplication 
 
   Involving a mix of technical, social, economic, and educational interventions,
   we are preserving datasets in immediate danger through creation of new tools
