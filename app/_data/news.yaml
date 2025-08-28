@@ -171,11 +171,11 @@
   type: press
   title: 'The Awesome Box: Letting libraries be awesome since 2012'
   publication: Harvard Gazette
-  date: May 09, 2013
+  date: 2013-05-08T20:00:00-04:00
   url: >-
     http://news.harvard.edu/gazette/story/newsplus/the-awesome-box-letting-libraries-be-awesome-since-2012/
   archived_url: https://perma.cc/M6DF-MDMJ
-  archived_date: July 10, 2019
+  archived_date: 2019-07-09T20:00:00-04:00
 - project: awesome-box
   type: blog
   title: Some show and tell
@@ -204,7 +204,7 @@
   archived_url: https://perma.cc/DQ93-87F7
   archived_date: July 19, 2019
 - project: public-data-project
-  type: media
+  type: press
   title: >-
     Archivists Work to Identify and Save the Thousands of Datasets Disappearing
     From Data.gov
@@ -214,3 +214,29 @@
     https://www.404media.co/archivists-work-to-identify-and-save-the-thousands-of-datasets-disappearing-from-data-gov/
   archived_url: https://perma.cc/L5JP-KYMN
   archived_date: 2025-08-21T00:00:00-04:00
+- project: public-data-project
+  type: press
+  title: Harvard law library acts to preserve government data amid sweeping purges
+  publication: Reuters
+  date: 2025-02-06T00:00:00-05:00
+  url: >-
+    https://www.reuters.com/world/us/harvard-law-library-acts-preserve-government-data-amid-sweeping-purges-2025-02-06/
+  archived_url: https://perma.cc/8BH7-AEWK
+  archived_date: 2025-08-28T00:00:00-04:00
+- project: public-data-project
+  type: press
+  title: Harvard Law School Library Innovation Lab Launches U.S. Federal Data Vault
+  publication: The Crimson
+  date: 2025-02-06T00:00:00-05:00
+  url: https://www.thecrimson.com/article/2025/2/6/hls-federal-data-vault-launch/
+  archived_url: https://perma.cc/BWE3-WR7T
+  archived_date: 2025-08-28T00:00:00-04:00
+- project: public-data-project
+  type: press
+  title: The cost of losing government webpages and public data
+  publication: Marketplace Tech
+  date: 2025-02-19T00:00:00-05:00
+  url: >-
+    https://www.marketplace.org/episode/2025/02/19/the-cost-of-losing-government-webpages-and-public-data
+  archived_url: https://perma.cc/5T43-UTDU?type=image
+  archived_date: 2025-08-28T00:00:00-04:00
