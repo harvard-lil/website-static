@@ -6,7 +6,6 @@ retired_date:
 layout: project
 title: Public Data Project
 logo: 
-background_class: bg-yellow
 description: Preserving civic ground truth
 project_website: https://source.coop/repositories/harvard-lil/gov-data/description
 what_does_it_do: Preserving Civic Ground Truth
