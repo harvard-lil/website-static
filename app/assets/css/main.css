@@ -612,3 +612,11 @@ html.is-animating .transition-main {
     transition: none !important;
   }
 }
+
+.why-does-it-exist > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  list-style: disc;
+  padding-left: 20px;
+}
