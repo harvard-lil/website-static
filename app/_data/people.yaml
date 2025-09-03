@@ -69,6 +69,22 @@ jack-cushman:
   affiliated: true
   current: true
   section: Staff
+michael-durkin:
+  name: Michael Durkin
+  sort_name: Durkin
+  role: Senior Software Engineer
+  bio: >
+    Mike is a programmer who began his career supporting research initiatives at
+    Harvard Medical School, developing tools and managing systems that enabled
+    collaboration across campus. Since then, his work has encompassed embedded systems,
+    network programming, and audio software development. At LIL, he uses emerging
+    technologies to build tools that are transforming the landscape of legal research.
+    Outside of work, Mike enjoys filmmaking and exploring different cuisines in NYC.
+  email: mdurkin@law.harvard.edu
+  image: michael-durkin.jpg
+  affiliated: true
+  current: true
+  section: Staff
 harmony-eidolon:
   name: Harmony Eidolon
   sort_name: Eidolon
@@ -88,6 +104,23 @@ harmony-eidolon:
   affiliated: true
   current: true
   section: Staff
+jenevieve-haggard:
+  name: Jenevieve Haggard
+  sort_name: Haggard
+  role: Principal Software Engineer
+  bio: >
+    Jenny combines engineering expertise with legal practice to advance access to
+    justice initiatives. She has worked on cutting-edge renewable energy projects
+    for DARPA, DOE, and Sandia National Labs. In her legal practice, Jenny has provided
+    representation in domestic violence, family law, and consumer credit cases, actively
+    engaging with the Florida Access to Justice Commission. As co-founder of SavvySuit,
+    she contributed to multiple mechanical patents, developed AI/ML products, and created
+    a pro bono SaaS platform that connects volunteer attorneys with vulnerable clients. 
+  email: jhaggard@law.harvard.edu
+  image: jenevieve-haggard.jpg
+  affiliated: true
+  current: true
+  section: Staff
 molly-hardy:
   name: Molly Hardy
   sort_name: Hardy
@@ -104,6 +137,23 @@ molly-hardy:
     fabrics.
   email: mhardy@law.harvard.edu
   image: molly-hardy.jpg
+  affiliated: true
+  current: true
+  section: Staff
+shaban-mohammedsaani-hassan:
+  name: Shaban Mohammedsaani Hassan
+  sort_name: Hassan
+  role: Senior DevOps Engineer
+  bio: >
+    Shaban Mohammedsaani brings extensive experience in cybersecurity and system
+    architecture to LIL's infrastructure initiatives. Before joining the team, he
+    founded Bitsy, a comprehensive URL management and link-in-bio platform that
+    addressed gaps in existing shortening and bio services. His background spans
+    telecommunications infrastructure at MTN Ghana, where he worked as an IMS engineer
+    on services like VoLTE/VoBB/VoWi-Fi. At LIL, he aims to design and implement
+    automated deployment pipelines, manage infrastructure, and ensure system reliability.
+  email: smhassan@law.harvard.edu
+  image: shaban-mohammedsaani-hassan.jpg
   affiliated: true
   current: true
   section: Staff
