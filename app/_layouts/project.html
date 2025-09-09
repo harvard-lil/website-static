@@ -40,6 +40,23 @@ layout: default
     {% include project-hero.html %}
   {% endif %}
 
+  {% assign updates = site.posts | where: "project", page.slug | slice: 0, 5 | sort: "date" | reverse %}
+  {% if updates.size > 0 %}
+    <section class="container flex flex-col items-start gap-12">
+      <h2 class="h2">Updates</h2>
+      <div class="flex flex-col items-start w-full">
+        {% for post in updates %}
+          <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} flex grid grid-cols-12 gap-24 relative">
+            <span class="label col-span-3">
+              <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
+            </span>
+            <span class="col-span-6">{% include arrow-link-inline.html label=post.title href=post.url %}</span>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
   {% assign news = site.data.news | where: "project", page.slug | sort: "date" | reverse %}
   {% if news.size > 0 %}
     <section class="container flex flex-col items-start gap-12">
@@ -47,7 +64,6 @@ layout: default
       <div class="flex flex-col items-start w-full">
         {% for article in news %}
           <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} flex grid grid-cols-12 gap-24 relative">
-            <!-- format date as 02.12.24 -->
             <span class="label col-span-3">
               <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
             </span>
