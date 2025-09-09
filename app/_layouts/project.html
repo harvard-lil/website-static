@@ -47,7 +47,6 @@ layout: default
       <div class="flex flex-col items-start w-full">
         {% for post in updates %}
           <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} flex grid grid-cols-12 gap-24 relative">
-            <!-- format date as 02.12.24 -->
             <span class="label col-span-3">
               <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
             </span>
@@ -65,7 +64,6 @@ layout: default
       <div class="flex flex-col items-start w-full">
         {% for article in news %}
           <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} flex grid grid-cols-12 gap-24 relative">
-            <!-- format date as 02.12.24 -->
             <span class="label col-span-3">
               <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
             </span>
