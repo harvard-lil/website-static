@@ -35,6 +35,9 @@ why_does_it_exist: >-
 
   Check this page, as well as our blog, for updates to this project. Please contact us at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu).
 
+
+  We are grateful for the support of the John D. and Catherine T. MacArthur Foundation.
+
 who_contributed:
   - molly-hardy
   - jack-cushman
