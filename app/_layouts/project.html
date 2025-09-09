@@ -50,7 +50,7 @@ layout: default
             <span class="label col-span-3">
               <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
             </span>
-            <span class="col-span-6">{% include arrow-link-inline.html label=post.title href=post.url target="_blank"%}</span>
+            <span class="col-span-6">{% include arrow-link-inline.html label=post.title href=post.url %}</span>
           </div>
         {% endfor %}
       </div>
