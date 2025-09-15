@@ -36,7 +36,7 @@ why_does_it_exist: >-
   Check this page, as well as our blog, for updates to this project. Please contact us at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu).
 
 
-  We are grateful for the support of the John D. and Catherine T. MacArthur Foundation.
+  We are grateful for the support of the John D. and Catherine T. MacArthur Foundation and the Rockefeller Brothers Fund (RBF). The opinions and views of the authors do not necessarily state or reflect those of the RBF.
 
 who_contributed:
   - molly-hardy
