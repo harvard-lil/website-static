@@ -13,12 +13,12 @@ The Smithsonian has had the mission, since its founding in 1846, to pursue “th
 
 Our initial collection includes some 5.1 million collection items and 710 TB of data. As is always our practice, we have cryptographically signed these items to ensure provenance and are exploring resilient techniques to share access to them, which we plan to launch in the future.
 
-<figure>
+<figure style="align-items: center;">
   <img src="/uploads/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" />
   <figcaption>From the National Museum of American History. Creative Commons 0 License</figcaption>
 </figure>
 
-<figure>
+<figure style="align-items: center;">
   <iframe name="Smithsonian Voyager" src="https://3d-api.si.edu/voyager/3d_package:f9ce2f58-1d64-4958-9f18-721ed916858a" width="800" height="450" allow="xr; xr-spatial-tracking; fullscreen"></iframe>
   <figcaption>From the National Museum of African American History and Culture. Creative Commons 0 License</figcaption>
 </figure>
