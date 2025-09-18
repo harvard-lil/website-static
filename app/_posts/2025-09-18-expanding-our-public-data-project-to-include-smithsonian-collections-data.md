@@ -5,11 +5,11 @@ date: 2025-09-18T12:00:00-04:00
 title: Expanding Our Public Data Project to Include Smithsonian Collections Data
 project: public-data-project
 ---
-<figure style="align-items: center;">
+<figure style="align-items: center; margin-bottom: unset;">
   <img src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." style="width: fit-content;" />
 </figure>
 
-We are excited to announce today that the Library Innovation Lab has expanded our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/) beyond [datasets available through Data.gov](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) to include 710 TB of data from the Smithsonian Institute — the complete open access portion of the Smithsonian’s collections. This marks an important step in our long-running mission to preserve large scale public collections both for our patrons and for posterity.
+We are excited to announce today that the Library Innovation Lab has expanded our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/) beyond [datasets available through Data.gov](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) to include 710 TB of data from the Smithsonian Institution — the complete open access portion of the Smithsonian’s collections. This marks an important step in our long-running mission to preserve large scale public collections both for our patrons and for posterity.
 
 The Smithsonian has an incredible [157\.5 million items and specimens](https://dashboard.si.edu/national-collections), of which 18.4 million are [searchable](https://collections.si.edu/search/) and 5.1 are released under a public domain license, offering an extraordinary view of the American experience — everything from [Thomas Jefferson’s own compilation of Bible verses](https://n2t.net/ark:/65665/ng49ca746a0-e29a-704b-e053-15f76fa0b4fa) to 3D images of [the grand piano owned and used by Thelonious Monk](https://n2t.net/ark:/65665/fd527481cda-7a75-4789-b739-2570d1f070fe), from [Samuel Morse’s transcription of the first telegraph message sent in 1844](https://n2t.net/ark:/65665/ng49ca746a5-48b8-704b-e053-15f76fa0b4fa) to the [Women’s Suffragette Ribbon](https://n2t.net/ark:/65665/ng49ca746a3-1c87-704b-e053-15f76fa0b4fa).
 
