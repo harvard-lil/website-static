@@ -5,15 +5,15 @@ date: 2025-09-18T12:00:00-04:00
 title: Expanding Our Public Data Project to Include Smithsonian Collections Data
 project: public-data-project
 ---
-<figure style="align-items: center;">
-  <img src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." style="width: fit-content; margin-bottom: unset;" />
+<figure class="items-center text-center">
+  <img class="h-[400px] w-fit mb-0" src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." />
   <figcaption>Smithsonian Institution building, from Wikimedia Commons</figcaption>
 </figure>
 
 We are excited to announce today that the Library Innovation Lab has expanded our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/) beyond [datasets available through Data.gov](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) to include 710 TB of data from the Smithsonian Institution — the complete open access portion of the Smithsonian’s collections. This marks an important step in our long-running mission to preserve large scale public collections both for our patrons and for posterity.
 
-<figure style="align-items: center; text-align: center; float: right; width: 300px; margin-left: 20px;">
-  [<img src="/uploads/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" style="height: 400px; width: fit-content; margin-bottom: unset;" />](https://n2t.net/ark:/65665/ng49ca746a3-1c87-704b-e053-15f76fa0b4fa)
+<figure class="items-center text-center float-right w-[300px] sm:w-full ml-5">
+  [<img class="h-[400px] w-fit mb-0" src="/uploads/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" />](https://n2t.net/ark:/65665/ng49ca746a3-1c87-704b-e053-15f76fa0b4fa)
   <figcaption>From the National Museum of American History. Creative Commons 0 License</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ The Smithsonian has had the mission, since its founding in 1846, to pursue “th
 
 Our initial collection includes some 5.1 million collection items and 710 TB of data. As is always our practice, we have cryptographically signed these items to ensure provenance and are exploring resilient techniques to share access to them, which we plan to launch in the future.
 
-<figure style="align-items: center;">
-  <iframe name="Smithsonian Voyager" src="https://3d-api.si.edu/voyager/3d_package:f9ce2f58-1d64-4958-9f18-721ed916858a" width="800" height="450" allow="xr; xr-spatial-tracking; fullscreen"></iframe>
+<figure class="items-center text-center">
+  <iframe class="w-full h-[450px]" name="Smithsonian Voyager" src="https://3d-api.si.edu/voyager/3d_package:f9ce2f58-1d64-4958-9f18-721ed916858a" allow="xr; xr-spatial-tracking; fullscreen"></iframe>
   <figcaption>From the National Museum of African American History and Culture. Creative Commons 0 License</figcaption>
 </figure>
