@@ -6,7 +6,7 @@ title: Expanding Our Public Data Project to Include Smithsonian Collections Data
 project: public-data-project
 ---
 <figure style="align-items: center;">
-  <img src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." style="height: 450px; width: content-fit;" />
+  <img src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." style="width: fit-content;" />
 </figure>
 
 We are excited to announce today that the Library Innovation Lab has expanded our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/) beyond [datasets available through Data.gov](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) to include 710 TB of data from the Smithsonian Institute — the complete open access portion of the Smithsonian’s collections. This marks an important step in our long-running mission to preserve large scale public collections both for our patrons and for posterity.
@@ -18,7 +18,7 @@ The Smithsonian has had the mission, since its founding in 1846, to pursue “th
 Our initial collection includes some 5.1 million collection items and 710 TB of data. As is always our practice, we have cryptographically signed these items to ensure provenance and are exploring resilient techniques to share access to them, which we plan to launch in the future.
 
 <figure style="align-items: center;">
-  <img src="/uploads/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" style="height: 400px; width: content-fit; margin-bottom: unset;" />
+  <img src="/uploads/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" style="height: 400px; width: fit-content; margin-bottom: unset;" />
   <figcaption>From the National Museum of American History. Creative Commons 0 License</figcaption>
 </figure>
 
