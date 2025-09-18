@@ -6,14 +6,14 @@ title: Expanding Our Public Data Project to Include Smithsonian Collections Data
 project: public-data-project
 ---
 <figure class="items-center text-center">
-  <img class="h-[400px] w-fit mb-0" src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." />
+  <img class="h-fit w-full !mb-0" src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." />
   <figcaption>Smithsonian Institution building, from Wikimedia Commons</figcaption>
 </figure>
 
 We are excited to announce today that the Library Innovation Lab has expanded our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/) beyond [datasets available through Data.gov](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) to include 710 TB of data from the Smithsonian Institution — the complete open access portion of the Smithsonian’s collections. This marks an important step in our long-running mission to preserve large scale public collections both for our patrons and for posterity.
 
-<figure class="items-center text-center sm:w-[300px] sm:float-right ml-5">
-  <a href="https://n2t.net/ark:/65665/ng49ca746a3-1c87-704b-e053-15f76fa0b4fa"><img class="h-[400px] w-fit mb-0" src="/uploads/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" /></a>
+<figure class="float-right items-center text-center w-full sm:!w-[300px] sm:!ml-5 ">
+  <img class="h-[400px] w-fit !mb-0" src="/uploads/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" />
   <figcaption>From the National Museum of American History. Creative Commons 0 License</figcaption>
 </figure>
 
