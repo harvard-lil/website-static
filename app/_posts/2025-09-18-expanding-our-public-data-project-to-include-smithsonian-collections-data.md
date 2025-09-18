@@ -5,8 +5,9 @@ date: 2025-09-18T12:00:00-04:00
 title: Expanding Our Public Data Project to Include Smithsonian Collections Data
 project: public-data-project
 ---
-<figure style="align-items: center; margin-bottom: unset;">
-  <img src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." style="width: fit-content;" />
+<figure style="align-items: center;">
+  <img src="/uploads/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." style="width: fit-content; margin-bottom: unset;" />
+  <figcaption>Smithsonian Institution building, from Wikimedia Commons</figcaption>
 </figure>
 
 We are excited to announce today that the Library Innovation Lab has expanded our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/) beyond [datasets available through Data.gov](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) to include 710 TB of data from the Smithsonian Institution — the complete open access portion of the Smithsonian’s collections. This marks an important step in our long-running mission to preserve large scale public collections both for our patrons and for posterity.
