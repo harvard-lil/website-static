@@ -55,6 +55,9 @@ collections:
     permalink: /events/:slug/
   jobs:
     output: false
+  interviews:
+    output: true
+    permalink: /generational-data-interviews/:name/
 
 # Plugins
 news_feed_for:
@@ -77,6 +80,12 @@ defaults:
     values:
       layout: event
       type: event
+  - scope:
+      path: ""
+      type: interviews
+    values:
+      layout: interview
+      type: interview
   - scope:
       path: ""
       type: posts

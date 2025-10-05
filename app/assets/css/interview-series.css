@@ -1,0 +1,756 @@
+/* Generational Data Interviews - Custom Styles */
+
+/* Landing Page Styles */
+.interview-landing {
+    min-height: 100vh;
+}
+
+/* Hero Section with Dark Background and Graphic Collage */
+.hero-section {
+    background: #1a1a1a;
+    color: white;
+    padding: 120px 0 80px 0;
+    margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.timeline-graphic {
+    width: 100%;
+    height: 2px;
+    background: repeating-linear-gradient(
+        to right,
+        white 0px,
+        white 20px,
+        transparent 20px,
+        transparent 40px
+    );
+    margin: 40px 0;
+}
+
+.graphic-collage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    opacity: 0.8;
+}
+
+/* Question Section */
+.question-section {
+    background: #1a1a1a;
+    color: white;
+    padding: 80px 0;
+}
+
+.question-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.question-left h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.question-right p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: white;
+    margin: 0;
+}
+
+/* Interviews Section */
+.interviews-section {
+    background: #1a1a1a;
+    color: white;
+    padding: 80px 0;
+}
+
+.interviews-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.interviewees-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.interviewees-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.interviewee-name {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.quote-cards {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding: 20px 0;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.quote-cards::-webkit-scrollbar {
+    height: 8px;
+}
+
+.quote-cards::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.quote-cards::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.quote-cards::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.quote-card {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    color: #333;
+    flex: 0 0 300px;
+    min-width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quote-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.quote-mark {
+    margin-bottom: 20px;
+}
+
+.quote-mark img {
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+}
+
+.quote-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.quote-attribution {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.quote-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* Context Section */
+.context-section {
+    background: #f8f9fa;
+    color: #333;
+    padding: 80px 0;
+}
+
+.context-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.context-left p,
+.context-right p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.context-divider {
+    width: 100%;
+    height: 1px;
+    background: repeating-linear-gradient(
+        to right,
+        #dee2e6 0px,
+        #dee2e6 20px,
+        transparent 20px,
+        transparent 40px
+    );
+    margin: 60px 0;
+}
+
+/* Interviewer Section */
+.interviewer-section {
+    background: #f8f9fa;
+    color: #333;
+    padding: 80px 0;
+}
+
+.interviewer-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.interviewer-profile {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.interviewer-image {
+    flex-shrink: 0;
+}
+
+.interviewer-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.interviewer-info h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.interviewer-info p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* Individual Interview Page Styles */
+.interview-page {
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #EFEEEB;
+    color: #121212;
+}
+
+/* Force header background on interview pages */
+body:has(.interview-page) lil-header,
+body:has(.interview-page) header,
+body:has(.interview-page) .nav-container {
+    background-color: #EFEEEB !important;
+}
+
+/* Force body and all elements background on interview pages */
+body:has(.interview-page) {
+    background-color: #EFEEEB !important;
+}
+
+body:has(.interview-page) * {
+    background-color: #EFEEEB !important;
+}
+
+/* Header background for interview landing page */
+body:has(.interview-landing) lil-header,
+body:has(.interview-landing) header,
+body:has(.interview-landing) .nav-container {
+    background-color: #EFEEEB !important;
+}
+
+/* Force body and all elements background on interview landing page */
+body:has(.interview-landing) {
+    background-color: #EFEEEB !important;
+    color: #121212 !important;
+}
+
+body:has(.interview-landing) * {
+    background-color: #EFEEEB !important;
+    color: #121212 !important;
+}
+
+/* Black hamburger menu styling on interview pages */
+body:has(.interview-page) .menu-button,
+body:has(.interview-page) .menu-button__bar {
+    background-color: transparent !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+body:has(.interview-page) .menu-button:hover,
+body:has(.interview-page) .menu-button:focus {
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+
+/* Black hamburger menu styling on landing page */
+body:has(.interview-landing) .menu-button,
+body:has(.interview-landing) .menu-button__bar {
+    background-color: transparent !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+body:has(.interview-landing) .menu-button:hover,
+body:has(.interview-landing) .menu-button:focus {
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+
+/* Black navigation menu background and white text */
+body:has(.interview-page) nav,
+body:has(.interview-page) .nav,
+body:has(.interview-page) .navigation {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+body:has(.interview-page) nav a,
+body:has(.interview-page) .nav a,
+body:has(.interview-page) .navigation a {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+body:has(.interview-landing) nav,
+body:has(.interview-landing) .nav,
+body:has(.interview-landing) .navigation {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+body:has(.interview-landing) nav a,
+body:has(.interview-landing) .nav a,
+body:has(.interview-landing) .navigation a {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+/* Header background for interview pages */
+.interview-page header,
+.interview-page .header,
+.interview-page lil-header,
+.interview-page .nav-container,
+.interview-page .pt-24,
+.interview-page .md\\:pt-36 {
+    background-color: #EFEEEB !important;
+}
+
+/* More specific header targeting */
+.interview-page lil-header .nav-container {
+    background-color: #EFEEEB !important;
+}
+
+.interview-page header.nav-container {
+    background-color: #EFEEEB !important;
+}
+
+/* Profile Section */
+.interview-profile {
+    background: #EFEEEB;
+    padding: 120px 0 80px 0;
+    margin-top: 0;
+    border-bottom: 1px solid #dee2e6;
+    position: relative;
+}
+
+
+.profile-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px 0 20px;
+}
+
+.profile-image {
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    border: 3px solid #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.interviewee-name {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: #121212;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.navigation-arrows {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-arrow {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid #dee2e6;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-arrow:hover {
+    background: #495057;
+    color: white;
+    border-color: #495057;
+}
+
+.interviewee-bio {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #121212;
+    font-style: italic;
+    font-weight: 400;
+    max-width: 600px;
+}
+
+
+/* Content Section */
+.interview-content {
+    padding: 60px 0;
+    background: #EFEEEB;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Sidebar (Left Column) */
+.interview-sidebar {
+    background: transparent;
+    padding: 0;
+    height: fit-content;
+}
+
+.interview-date {
+    font-size: 1.4rem;
+    color: #121212;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #121212;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.sidebar-section h3 {
+    display: none;
+}
+
+.interview-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.interview-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 400;
+    padding: 4px 0;
+    transition: color 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.interview-link:hover {
+    color: #121212;
+}
+
+.interview-link.current {
+    color: #121212;
+    font-weight: 700;
+    position: relative;
+    padding-left: 20px;
+}
+
+.interview-link.current::before {
+    content: '■';
+    position: absolute;
+    left: 0;
+    color: #121212;
+    font-weight: 700;
+}
+
+/* Interview Text (Right Column) */
+.interview-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #121212;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.interview-text h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 40px 0 20px 0;
+    color: #121212;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.interview-text p {
+    margin-bottom: 24px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.interview-text strong {
+    font-weight: 700;
+    color: #121212;
+}
+
+.speaker-label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 8px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .content-wrapper {
+        grid-template-columns: 250px 1fr;
+        gap: 40px;
+    }
+    
+    .quote-card {
+        flex: 0 0 280px;
+        min-width: 280px;
+    }
+    
+    .interviewees-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .question-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .context-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .interviewees-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .quote-card {
+        flex: 0 0 250px;
+        min-width: 250px;
+    }
+    
+    .interviewer-profile {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .profile-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .profile-header {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .profile-image img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .interviewee-name {
+        font-size: 2rem;
+    }
+    
+    .navigation-arrows {
+        justify-content: center;
+    }
+    
+    .content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .interview-sidebar {
+        order: -1;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 120px 0 60px 0;
+        margin-top: 40px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .question-left h2 {
+        font-size: 1.8rem;
+    }
+    
+    .question-right p {
+        font-size: 1.1rem;
+    }
+    
+    .profile-content {
+        padding: 120px 15px 0 15px;
+    }
+    
+    .content-wrapper {
+        padding: 0 15px;
+    }
+    
+    .interviewee-name {
+        font-size: 1.75rem;
+    }
+    
+    .interviewee-bio {
+        font-size: 1.1rem;
+    }
+}
