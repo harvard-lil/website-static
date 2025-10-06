@@ -24,7 +24,10 @@ custom-css: ['interview-series']
 <p>Can you give an example of a grassroots data practice you're interested in?</p>
 
 <div class="speaker-label">Katie Mackinnon</div>
-<p>Take for example the data purges in the US over the last year from databases like data.gov, and the surge of archiving practices like the Data Rescue Project and others, each operating separately within their own institutions while also being part of this decentralized umbrella. I found this type of emergency response to the systematic removal of scientific data from government databases with the emergence of a new presidency really striking. An event that triggers a response, an archival response, and the ability of people to do something about a crisis in a very short amount of time with the resources that they have.</p>
+<p>Take for example the data purges in the US over the last year from databases like data.gov, and the surge of archiving practices like the <a href="/generational-data-interviews/ian-milligan" class="editor-note-link">Data Rescue Project</a><span class="editor-note">
+    <span class="sr-only">Editor Note: </span>
+    The Data Rescue Project was a grassroots effort to preserve federal climate and environmental data that was at risk of being removed from government websites. Click to read Ian Milligan's interview about similar data preservation efforts.
+</span> and others, each operating separately within their own institutions while also being part of this decentralized umbrella. I found this type of emergency response to the systematic removal of scientific data from government databases with the emergence of a new presidency really striking. An event that triggers a response, an archival response, and the ability of people to do something about a crisis in a very short amount of time with the resources that they have.</p>
 
 <p>I think there's something really interesting in the types of communication approaches they have used. Some of it was very public on platforms like Blue Sky, but also emergency town halls, Zoom calls, organizing through Google Docs and spreadsheets, and using chat room-style infrastructures to discuss and coordinate which types of data needed to be targeted or not. It is a type of transparency and clarity. I personally enjoy what I'd call a forensic scrappiness.</p>
 
