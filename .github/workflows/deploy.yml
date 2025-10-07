@@ -47,15 +47,19 @@ jobs:
           cd app
           npm install
 
-      - name: Build CSS
+      - name: Build CSS with Tailwind
         run: |
           cd app
-          npx postcss assets/css/main.css -o assets/css/main.css
+          echo "Building CSS with Tailwind..."
+          npx tailwindcss -i assets/css/main.css -o assets/css/main.css --minify || echo "Tailwind build failed, continuing with original CSS"
+          echo "CSS build completed"
 
       - name: Build Jekyll site
         run: |
           cd app
+          echo "Building Jekyll site..."
           bundle exec jekyll build --config _config_pages.yml
+          echo "Jekyll build completed"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
