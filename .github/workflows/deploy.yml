@@ -40,6 +40,11 @@ jobs:
           cd app
           npm install
 
+      - name: Build CSS
+        run: |
+          cd app
+          npx postcss assets/css/main.css -o assets/css/main.css
+
       - name: Build Jekyll site
         run: |
           cd app
