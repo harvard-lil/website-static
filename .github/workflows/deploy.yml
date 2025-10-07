@@ -25,8 +25,15 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true
+          bundler-cache: false
           working-directory: app
+
+      - name: Install Ruby dependencies
+        run: |
+          cd app
+          gem install bundler
+          cp Gemfile_pages Gemfile
+          bundle install
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -35,7 +42,7 @@ jobs:
           cache: 'npm'
           cache-dependency-path: app/package-lock.json
 
-      - name: Install dependencies
+      - name: Install Node dependencies
         run: |
           cd app
           npm install
@@ -48,7 +55,7 @@ jobs:
       - name: Build Jekyll site
         run: |
           cd app
-          bundle exec jekyll build
+          bundle exec jekyll build --config _config_pages.yml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
