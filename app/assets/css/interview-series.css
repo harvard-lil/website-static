@@ -124,12 +124,6 @@
     text-align: right;
 }
 
-/* Responsive positioning for smaller screens */
-@media (max-width: 1024px) {
-    .editor-note {
-        left: -270px;
-    }
-}
 
 /* Screen reader only text for accessibility */
 .sr-only {
@@ -308,8 +302,6 @@
     color: var(--interview-accent-secondary);
 }
 
-/* Remove this general selector as it was overriding the specific column styles */
-
 .interview-landing__hero-subtitle {
     font-family: var(--font-primary);
     font-size: clamp(0.8rem, calc(65vw / 47), 1.5rem);
@@ -320,6 +312,7 @@
     letter-spacing: 0.05em;
     flex: 0 0 auto;
     white-space: nowrap;
+    padding-left: 20px;
 }
 
 .interview-landing__hero-timeline {
@@ -355,7 +348,7 @@
     right: 0;
     bottom: 0;
     z-index: 1;
-    background: transparent !important;
+    background: transparent;
     opacity: 0;
 }
 
@@ -502,7 +495,7 @@
 }
 
 .interview-landing__quote-card {
-    background: #EFEEEB;
+    background: var(--interview-bg-primary);
     padding: var(--spacing-sm);
     border-radius: 8px 8px 0 8px;
     position: relative;
@@ -519,7 +512,7 @@
 .interview-landing__quote-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px var(--interview-shadow);
-    background: #EFEEEB;
+    background: var(--interview-bg-primary);
     border-color: var(--interview-accent);
 }
 
@@ -597,7 +590,7 @@
     max-width: var(--container-max-width);
     margin: 0 auto;
     padding: 0 var(--container-padding);
-    background: transparent !important;
+    background: transparent;
 }
 
 .interview-landing__introduction-left p,
@@ -632,7 +625,7 @@
     max-width: var(--container-max-width);
     margin: 0 auto;
     padding: 0 var(--container-padding);
-    background: transparent !important;
+    background: transparent;
 }
 
 .interview-landing__interviewer-image {
@@ -986,6 +979,10 @@ body:has(.interview-landing) .menu-button:focus {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+    .editor-note {
+        left: -270px;
+    }
+    
     .interview-landing__hero-title-container {
         width: calc(100vw - 50px);
         margin-left: 50px;
@@ -1104,6 +1101,7 @@ body:has(.interview-landing) .menu-button:focus {
     
     .interview-landing__hero-subtitle {
         font-size: clamp(0.8rem, calc(80vw / 47), 1.1rem);
+        padding-left: 50px;
     }
     
     .interview-landing__hero-timeline {
@@ -1383,6 +1381,7 @@ body:has(.interview-landing) .menu-button:focus {
     
     .interview-landing__hero-subtitle {
         font-size: clamp(0.8rem, calc(85vw / 47), 1rem);
+        padding-left: 30px;
     }
     
     .interview-landing__hero-timeline {
@@ -1515,5 +1514,6 @@ body:has(.interview-landing) .menu-button:focus {
     
     .interview-landing__hero-subtitle {
         font-size: clamp(0.7rem, calc(90vw / 50), 0.9rem);
+        padding-left: 20px;
     }
 }
