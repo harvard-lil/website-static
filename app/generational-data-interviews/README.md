@@ -1,92 +1,247 @@
 # Generational Data Interviews
 
-This directory contains the interview series for the Library Innovation Lab website.
+A comprehensive interview series system for the Library Innovation Lab website, featuring dynamic content loading, responsive design, and smooth navigation.
 
-## Structure
+## 🏗️ System Architecture
 
-- `index.html` - Landing page for the interview series
-- `interviews/` - Folder containing all individual interview pages
-  - `example-interview.html` - Sample individual interview page
-  - `katie-mackinnon.html` - Katie Mackinnon interview
-  - `lori-emerson.html` - Lori Emerson interview
-- `main.js` - Main JavaScript file for all interview series functionality
-- `assets/` - Images and other assets for interviews
-- `README.md` - This file
+### Core Components
 
-## Adding a New Interview
+| Component | Location | Purpose |
+|-----------|----------|---------|
+| **Landing Page** | `generational-data-interviews/index.html` | Main entry point with interviewees grid and quote cards |
+| **Interview Pages** | `app/_interviews/*.md` | Individual interview content using Jekyll markdown |
+| **Layout Template** | `app/_layouts/interview.html` | Jekyll layout for interview pages |
+| **JavaScript Engine** | `generational-data-interviews/main.js` | Dynamic content loading, navigation, and interactions |
+| **Styling** | `app/assets/css/interview-series.css` | Complete visual design system |
+| **Assets** | `generational-data-interviews/assets/` | Images, fonts, and graphics |
 
-### Step 1: Create the Interview HTML File
+### Data Flow
 
-1. Copy `interviews/example-interview.html` to create a new interview page
-2. Name it following the pattern: `[interviewee-name].html`
-3. Place it in the `interviews/` folder
-4. Update the front matter and content
+```
+Jekyll Markdown Files → Layout Template → JavaScript Processing → Dynamic UI
+```
 
-### Step 2: Update the Template
+## 📁 File Structure
 
-Replace the following placeholders in your new interview file:
+```
+app/
+├── generational-data-interviews/    # Interview series folder
+│   ├── index.html                   # Landing page
+│   ├── main.js                      # JavaScript engine
+│   ├── assets/                      # Images and graphics
+│   │   ├── *.png                   # Interview headshots
+│   │   ├── fonts/                  # Custom fonts
+│   │   └── *.png                   # Hero images and graphics
+│   └── README.md                   # This documentation
+│
+├── _interviews/                     # Interview content (Jekyll)
+│   ├── amelia-acker.md
+│   ├── martin-kunze-steffen-hellmold.md
+│   ├── frank-cifaldi.md
+│   └── [other-interviews].md
+│
+├── _layouts/
+│   └── interview.html               # Jekyll layout template
+│
+└── assets/css/
+    └── interview-series.css          # Complete styling system
+```
 
-- **Title**: Update the `title` in the front matter
-- **Interviewee Name**: Replace "EXAMPLE INTERVIEWEE" with the actual name
-- **Image**: Update the image path in the profile section
-- **Bio**: Replace the bio text with the interviewee's biographical information
-- **Date**: Update the interview date
-- **Content**: Replace the Q&A content with the actual interview
-- **Navigation**: Update the navigation links
+## 🎯 Key Functionality
 
-### Step 3: Add to Dynamic List
+### Landing Page Features
+- **Dynamic Interviewees Grid**: Auto-generated from JavaScript data
+- **Quote Cards**: Pull quotes with smooth scrolling
+- **Responsive Design**: Desktop grid → Mobile dropdown
+- **Hero Section**: Custom typography and graphics
 
-1. Open `main.js`
-2. Add the new interview to the `existingInterviews` array in the `loadInterviewees()` function
-3. The interview will automatically appear on the landing page
+### Interview Page Features
+- **Profile Section**: Headshot, bio, navigation arrows
+- **Two-Column Layout**: Sidebar navigation + main content
+- **Mobile Dropdown**: Collapsible navigation for mobile
+- **Smooth Transitions**: Swup.js integration for seamless navigation
 
-**Example:**
+### JavaScript Engine (`main.js`)
+- **Centralized Data**: Single source of truth for all interviews
+- **Dynamic Loading**: Content generated from data arrays
+- **Responsive Handling**: Automatic mobile/desktop switching
+- **Navigation**: Previous/next interview arrows
+- **Swup Integration**: Smooth page transitions
+
+## 🛠️ Adding a New Interview
+
+### Step 1: Create Interview Content
+
+1. **Create markdown file** in `app/_interviews/`:
+   ```bash
+   # Example: app/_interviews/new-interview.md
+   ```
+
+2. **Add front matter**:
+   ```yaml
+   ---
+   layout: interview
+   title: Interviewee Name
+   slug: new-interview
+   image: new-interview.png
+   bio: >
+     Brief biographical description of the interviewee.
+   date: 2025-01-30
+   pull-quote: "A compelling quote from the interview."
+   custom-css: ['interview-series']
+   ---
+   ```
+
+3. **Add interview content**:
+   ```markdown
+   <div class="speaker-label">Interviewer</div>
+   <p>Your interview questions and responses here...</p>
+   ```
+
+### Step 2: Add Headshot Image
+
+1. **Place image** in `app/generational-data-interviews/assets/`
+2. **Name it** following the pattern: `[slug].png`
+3. **Recommended size**: 400x400px or larger
+4. **Format**: PNG or JPG
+
+### Step 3: Update JavaScript Data
+
+1. **Open** `generational-data-interviews/main.js`
+2. **Find** the `INTERVIEWS` array (around line 6)
+3. **Add** your interview, alphabetical by last name:
+   ```javascript
+   const INTERVIEWS = [
+       // ... existing interviews ...
+       { 
+           name: 'NEW INTERVIEWEE', 
+           file: 'new-interview', 
+           pullQuote: "A compelling quote from the interview." 
+       }
+   ];
+   ```
+
+### Step 4: Test and Verify
+
+1. **Check landing page**: Interview should appear in grid
+2. **Test navigation**: Previous/next arrows should work
+3. **Verify mobile**: Dropdown should include new interview
+4. **Check styling**: Headshot should display correctly
+
+## 🎨 Managing Styling
+
+### CSS Architecture (`interview-series.css`)
+
+The styling system uses **BEM methodology** and **CSS custom properties**:
+
+```css
+/* CSS Custom Properties */
+:root {
+  --interview-bg-primary: #EFEEEB;
+  --interview-text-primary: #121212;
+  --font-primary: 'NeueHaasGrotesk', sans-serif;
+  /* ... more variables */
+}
+
+/* BEM Class Structure */
+.interview-landing__hero-title { }
+.interview-page__profile-image { }
+.interview-landing__quote-card { }
+```
+
+### Key Styling Areas
+
+| Component | CSS Classes | Purpose |
+|-----------|-------------|---------|
+| **Hero Section** | `.interview-landing__hero-*` | Landing page hero area |
+| **Interviewees Grid** | `.interview-landing__interviewees-*` | Dynamic grid system |
+| **Quote Cards** | `.interview-landing__quote-*` | Pull quote display |
+| **Profile Section** | `.interview-page__profile-*` | Individual interview page hero area |
+| **Navigation** | `.interview-page__nav-*` | Previous/next arrows |
+| **Mobile Dropdown** | `.interview-landing__mobile-dropdown-*` | Mobile navigation |
+
+### Responsive Breakpoints
+
+- **Desktop**: `> 1024px` - Full grid layout
+- **Tablet**: `≤ 1024px` - 2-column grid
+- **Mobile**: `≤ 768px` - Dropdown navigation
+- **Small Mobile**: `≤ 480px` - Single column
+- **Extra Small**: `≤ 360px` - Compact layout
+
+## 🔧 JavaScript Management
+
+### Core Functions
+
+| Function | Purpose | Location |
+|----------|---------|----------|
+| `initInterviewSeries()` | Main initialization | Line 36 |
+| `loadInterviewees()` | Generate interviewees grid | Line 255 |
+| `loadQuoteCards()` | Generate quote cards | Line 370 |
+| `loadInterviewSidebar()` | Generate sidebar navigation | Line 526 |
+| `setupCyclingNavigation()` | Previous/next arrows | Line 654 |
+| `handleResize()` | Responsive behavior | Line 216 |
+
+### Data Management
+
+**Centralized Interview Data** (Line 6-21):
 ```javascript
-const existingInterviews = [
-    { name: 'EXAMPLE INTERVIEW', file: 'interviews/example-interview' },
-    { name: 'KATIE MACKINNON', file: 'interviews/katie-mackinnon' }
+const INTERVIEWS = [
+    { 
+        name: 'INTERVIEWEE NAME', 
+        file: 'interview-slug', 
+        pullQuote: "Compelling quote..." 
+    }
 ];
 ```
 
-### Step 4: Add Profile Image
+### Swup Integration
 
-1. Place the interviewee's profile image in the `assets/` directory
-2. Update the image path in the interview HTML file
-3. Recommended image size: 400x400px or larger
-4. Images will be automatically styled as circular and grayscale
+The system uses **Swup.js** for smooth page transitions:
 
-## Example Interview Card
+- **`content:replace`**: Triggers on page navigation
+- **`page:view`**: Handles sidebar updates
+- **Automatic initialization**: Runs on page load
 
-```html
-<div class="interview-card">
-    <h3>Interviewee Name</h3>
-    <div class="date">January 15, 2025</div>
-    <div class="bio">Brief biographical description of the interviewee.</div>
-    <a href="/generational-data-interviews/interviews/interviewee-name/" class="read-more">Read Interview →</a>
-</div>
-```
+## 📱 Responsive Behavior
 
-## CSS Styling
+### Desktop (> 1024px)
+- **3-column interviewees grid**
+- **Sidebar navigation**
+- **Full quote cards display**
 
-The interview series uses a dedicated CSS file (`interview-series.css`) that includes:
+### Tablet (≤ 1024px)
+- **2-column interviewees grid**
+- **Compressed sidebar**
+- **Adjusted quote cards**
 
-- **Landing page styles** - Hero section, about section, interviews grid
-- **Individual interview styles** - Profile section, two-column layout, sidebar
-- **Responsive design** - Mobile and desktop layouts
-- **Consistent typography** - Font sizes, weights, and spacing
-- **Interactive elements** - Hover effects and transitions
+### Mobile (≤ 768px)
+- **Dropdown navigation** for interviewees
+- **Collapsible sidebar** for interview pages
+- **Single-column quote cards**
 
-## Assets
 
-- Place interview images in the `assets/` directory
-- Use descriptive filenames (e.g., `interviewee-name.jpg`)
-- Recommended image size: 400x400px or larger
-- Images will be automatically styled as circular and grayscale
+## 🚀 Deployment
 
-## Notes
+### File Dependencies
 
-- Each interview page is a standalone HTML file
-- The landing page uses the site's default layout (header/footer)
-- Individual interview pages also use the default layout
-- All styling is managed through the external `interview-series.css` file
-- The system is designed to be simple and maintainable
+1. **Jekyll Layout**: `app/_layouts/interview.html`
+2. **CSS File**: `app/assets/css/interview-series.css`
+3. **JavaScript**: `generational-data-interviews/main.js`
+4. **Assets**: `generational-data-interviews/assets/`
+
+### Build Process
+
+The system integrates with Jekyll's build process:
+- **Markdown files** → **HTML pages**
+- **Layout template** → **Rendered interviews**
+- **JavaScript** → **Dynamic functionality**
+- **CSS** → **Visual styling**
+
+## 🔍 Troubleshooting
+
+### Common Issues
+
+1. **Interview not appearing**: Check `INTERVIEWS` array in `main.js`
+2. **Headshot not loading**: Verify image path and filename
+3. **Mobile dropdown not working**: Check JavaScript console for errors
+4. **Styling issues**: Verify CSS file is loaded and classes match

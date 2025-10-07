@@ -2,7 +2,7 @@
 layout: interview
 title: Martin Kunze & Steffen Hellmold
 slug: martin-kunze-steffen-hellmold
-image: martin-kunze-steffen-hellmold.png
+image: cerabyte.png
 bio: >
   Martin Kunze (President) and Steffen Hellmold (Founder) work at Cerabyte, a company developing Ceramic Nano Memory.
 date: 2025-01-20
