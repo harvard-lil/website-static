@@ -867,11 +867,6 @@ function loadQuoteCards() {
         }
         
         
-        // Debug: Show all elements with class names containing "quote"
-        const allElements = document.querySelectorAll('*');
-        const quoteElements = Array.from(allElements).filter(el => 
-            el.className && el.className.includes && el.className.includes('quote')
-        );
         
         // Find quote cards container
         const quoteCardsContainer = document.querySelector('.interview-landing__quote-cards-content');
@@ -975,9 +970,6 @@ function loadQuoteCardsWithContainer(quoteCardsContainer) {
         });
         
         // Report results
-        
-        if (errors.length > 0) {
-        }
         
         // Return success status
         return successCount > 0;
@@ -1201,25 +1193,9 @@ function setupCyclingNavigation() {
     prevArrow.href = prevUrl;
     nextArrow.href = nextUrl;
     
-    
-    // Test that the links are clickable
-    
-    // Set the href attributes - let the browser handle navigation naturally
-    // This works with Swup's page transitions without needing special handling
-    
     // Set the href attributes - Swup will handle the transitions automatically
     prevArrow.href = prevUrl;
     nextArrow.href = nextUrl;
-    
-    
-    // Test that the links are actually clickable
-    
-    // Add simple click listeners for debugging
-    prevArrow.addEventListener('click', (e) => {
-    });
-    
-    nextArrow.addEventListener('click', (e) => {
-    });
     
     
     // Return success status
