@@ -4,9 +4,9 @@ title: Rebecca Frank
 slug: rebecca-frank
 image: rebecca-frank.png
 bio: >
-  Rebecca Frank is an Assistant Professor at the University of Michigan School of Information. Her research examines the social construction of risk in digital repository systems, open data, digital preservation, digital curation, and data reuse.
+  <a href="https://www.si.umich.edu/people/rebecca-frank" target="_blank">Rebecca Frank</a> is an Assistant Professor at the University of Michigan School of Information. Her research examines the social construction of risk in digital repository systems, open data, digital preservation, digital curation, and data reuse.
 date: 2025-01-20
-pull-quote: "The glib answer is the money itself would be the solution."
+quote-card: "The glib answer is the money itself would be the solution."
 custom-css: ['interview-series']
 ---
 
@@ -33,6 +33,8 @@ custom-css: ['interview-series']
 <p>BitRot is a disaster because it requires restoration of some kind. That's an answer nobody likes to hear, but I think it's very practical. What happens is we get caught up in the idea of big disasters. This is something that like risk research has sort of borne out over the years, we have this bias towards exciting, flashy events. People tend to view big disasters as more likely to happen. They tend to view big disasters as more likely and more impactful, and then you overlook the small everyday things that are much more likely to happen and that you actually need to be prepared for on a more regular basis. Like not having enough money. Losing your funding is also a disaster.</p>
 
 <p>If data is lost, it doesn't matter how it came to that point.</p>
+
+<div class="pull-quote">If data is lost, it doesn't matter how it came to that point.</div>
 
 <div class="speaker-label">Interviewer</div>
 <p>It's a little unfair to ask you for the answer, but what do you think are the viable long-term financial models for digital preservations efforts?</p>

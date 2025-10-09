@@ -46,6 +46,25 @@ layout: default
                 <!-- Right Column: Interview Content -->
                 <div class="interview-page__text">
                     {{ content }}
+                    
+                    <!-- Bottom Navigation -->
+                    <div class="interview-page__text-nav">
+                        <div class="interview-page__text-nav-prev">
+                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--prev" id="text-prev-arrow">
+                                <span>←</span>
+                            </a>
+                            <span class="interview-page__text-nav-name" id="text-prev-name"></span>
+                        </div>
+                        <div class="interview-page__text-nav-center">
+                            <a href="/generational-data-interviews/" class="interview-page__text-nav-return">Return to series</a>
+                        </div>
+                        <div class="interview-page__text-nav-next">
+                            <span class="interview-page__text-nav-name" id="text-next-name"></span>
+                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--next" id="text-next-arrow">
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,10 @@
 /* Generational Data Interviews - Custom Styles */
 
-/* Font Declarations */
+/* ========================================
+   TYPOGRAPHY & FONTS
+   ======================================== */
+
+/* Custom Font Declarations */
 @font-face {
     font-family: 'Teletext Bold';
     src: url('/generational-data-interviews/fonts/Teletext Bold.otf') format('opentype'),
@@ -10,7 +14,6 @@
     font-display: swap;
 }
 
-/* Neue Haas Grotesk Font Declarations */
 @font-face {
     font-family: "NeueHaasGrotesk";
     src: url('../fonts/NeueHaasGroteskTextPro55Roman.woff2') format('woff2'), 
@@ -39,8 +42,13 @@
 }
 
 
+/* ========================================
+   DESIGN SYSTEM & VARIABLES
+   ======================================== */
+
 /* CSS Custom Properties for Consistent Theming */
 :root {
+  /* Color System */
   --interview-bg-primary: #EFEEEB;
   --interview-bg-secondary: #f8f9fa;
   --interview-text-primary: #121212;
@@ -51,79 +59,60 @@
   --interview-border: #dee2e6;
   --interview-shadow: rgba(0, 0, 0, 0.1);
   
-  /* Typography */
+  /* Additional semantic colors */
+  --interview-overlay: rgba(0, 0, 0, 0.5);
+  --interview-scrollbar-track: #f1f1f1;
+  --interview-scrollbar-thumb: #888;
+  --interview-scrollbar-thumb-hover: #555;
+  --interview-button-bg: var(--interview-accent);
+  --interview-footer-bg: #000000;
+  --interview-footer-text: #ffffff;
+  --interview-editor-note-hover: #e0b0ff;
+  
+  /* Typography System */
   --font-primary: 'NeueHaasGrotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-display: 'NeueHaasGrotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-serif: 'NeueHaasGrotesk', Georgia, 'Times New Roman', serif;
   --font-teletext: 'Teletext Bold', 'Courier New', monospace;
   
-  /* Spacing */
+  /* Typography Scale */
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.1rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2.2rem;
+  --text-3xl: 2.5rem;
+  --text-4xl: 3rem;
+  
+  /* Spacing Scale */
+  --spacing-xxs: 4px;
   --spacing-xs: 8px;
   --spacing-sm: 16px;
   --spacing-md: 24px;
   --spacing-lg: 40px;
   --spacing-xl: 60px;
   --spacing-xxl: 80px;
+  --spacing-profile: 120px;
+  --spacing-hero-margin: 30px;
   
   /* Layout */
   --container-max-width: 1200px;
   --container-padding: 20px;
+  
+  /* Component-specific values */
+  --editor-note-padding: 2px 4px;
+  --editor-note-radius: 3px;
+  --modal-padding: 20px;
+  --profile-padding: 120px 0 var(--spacing-lg) 0;
 }
 
-/* Editor Notes and Hover Tooltips */
-.interview-page__text .editor-note-link,
-.interview-page__content .editor-note-link,
-.editor-note-link {
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
-    color: var(--interview-text-primary);
-    position: relative;
-    background-color: var(--interview-accent);
-    padding: 2px 4px;
-    border-radius: 3px;
-    transition: all 0.2s ease;
-    display: inline;
-    box-decoration-break: clone;
-}
 
-.editor-note-link:hover + .editor-note, .editor-note-link:focus + .editor-note {
-    opacity: 1;
-    visibility: visible;
-}
 
-.editor-note-link:hover {
-    background-color: #e0b0ff;
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(240, 208, 255, 0.3);
-}
 
-.editor-note-link:hover sup {
-    background: var(--interview-text-primary);
-    color: var(--interview-bg-primary);
-}
-
-.editor-note {
-    font-family: var(--font-teletext);
-    font-style: normal;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    display: block;
-    transition: all 300ms;
-    font-size: 1rem;
-    padding: var(--spacing-xs) 12px;
-    margin-top: -1.4687rem;
-    line-height: 120%;
-    position: absolute;
-    background: var(--interview-bg-primary);
-    border: 1px solid var(--interview-border);
-    border-radius: 4px;
-    box-shadow: 0 2px 8px var(--interview-shadow);
-    z-index: 1000;
-    max-width: 300px;
-    text-align: right;
-}
-
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
 
 /* Screen reader only text for accessibility */
 .sr-only {
@@ -138,7 +127,259 @@
     border-width: 0;
 }
 
-/* Landing Page Styles */
+
+/* ========================================
+   INTERACTIVE COMPONENTS
+   ======================================== */
+
+/* Pull Quote Styling - Base responsive sizing, will be overridden by JavaScript */
+.interview-page .pull-quote {
+    font-family: var(--font-teletext);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    line-height: 1.2;
+    color: var(--interview-text-primary);
+    border-left: 4px solid var(--interview-accent);
+    padding: var(--modal-padding);
+    margin: var(--spacing-md) 0;
+    font-weight: 700;
+    text-align: left;
+    background: none;
+    border: none;
+    border-left: 4px solid var(--interview-accent);
+}
+
+/* Link Styling */
+.interview-page .interview-page__interviewee-bio a:not(.editor-note-link) {
+    text-decoration: underline;
+    color: var(--interview-text-primary);
+}
+
+.interview-page .interview-page__interviewee-bio a:not(.editor-note-link):hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* Editor's Notes Styling */
+.editor-note-link {
+    background-color: var(--interview-accent);
+    padding: var(--editor-note-padding);
+    border-radius: var(--editor-note-radius);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--interview-text-primary);
+    position: relative;
+    display: inline;
+    box-decoration-break: clone;
+}
+
+.editor-note-link:hover {
+    background-color: var(--interview-editor-note-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(240, 208, 255, 0.3);
+}
+
+.editor-note {
+    position: absolute;
+    left: -320px;
+    width: 280px;
+    top: 0;
+    background: var(--interview-bg-primary);
+    border: 1px solid var(--interview-border);
+    border-radius: 4px;
+    box-shadow: 0 4px 12px var(--interview-shadow);
+    padding: var(--spacing-sm);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.editor-note.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Make paragraphs with editor notes positioning contexts */
+.interview-page__text p:has(.editor-note-link) {
+    position: relative;
+}
+
+.editor-note__label {
+    font-family: var(--font-teletext);
+    font-weight: bold;
+    font-size: var(--text-sm);
+    color: var(--interview-text-primary);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.editor-note__content {
+    font-family: var(--font-primary);
+    font-size: var(--text-sm);
+    line-height: 1.4;
+    color: var(--interview-text-primary);
+    margin-bottom: 12px;
+}
+
+.editor-note__link {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--interview-text-muted);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    border-top: 1px solid var(--interview-border);
+    padding-top: 8px;
+}
+
+.editor-note__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--interview-text-muted);
+    cursor: pointer;
+    padding: 4px;
+    line-height: 1;
+    transition: color 0.2s ease;
+    z-index: 1001;
+}
+
+.editor-note__close:hover {
+    color: var(--interview-text-primary);
+}
+
+/* Mobile Modal Styling */
+.editor-note-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--interview-overlay);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--modal-padding);
+    opacity: 1;
+    visibility: visible;
+}
+
+.editor-note-modal__content {
+    background: var(--interview-bg-primary);
+    border: 1px solid var(--interview-border);
+    border-radius: 8px;
+    padding: var(--spacing-md);
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.editor-note-modal__content:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px var(--interview-shadow);
+}
+
+
+/* Text Navigation Styles */
+.interview-page__text-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-lg);
+}
+
+.interview-page__text-nav-prev,
+.interview-page__text-nav-next {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+
+.interview-page__text-nav-name {
+    font-family: var(--font-teletext);
+    font-weight: 500;
+    color: var(--interview-text-primary);
+    font-size: var(--text-sm);
+}
+
+.interview-page__text-nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interview-page__text-nav-return {
+    font-family: var(--font-teletext);
+    font-weight: 700;
+    color: var(--interview-text-primary);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-bottom: 2px dashed var(--interview-text-primary);
+    transition: all 0.2s ease;
+}
+
+.interview-page__text-nav-return:hover {
+    color: var(--interview-text-muted);
+    border-bottom-color: var(--interview-text-muted);
+}
+
+/* Hide navigation arrows when no prev/next available */
+.interview-page__nav-arrow[href="#"] {
+    display: none;
+}
+
+/* Hide the entire nav section if both arrows are hidden */
+.interview-page__text-nav:has(.interview-page__nav-arrow[href="#"]:only-child) {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .editor-note {
+        display: none; /* Hide desktop notes on mobile */
+    }
+    
+    .interview-page__text-nav {
+        flex-direction: row;
+        gap: var(--spacing-sm);
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .interview-page__text-nav-name {
+        display: none; /* Hide interview names on mobile */
+    }
+    
+    .interview-page__text-nav-prev,
+    .interview-page__text-nav-next {
+        flex: 0 0 auto;
+        justify-content: center;
+    }
+    
+    .interview-page__text-nav-return {
+        font-size: 0.8rem;
+        padding: var(--spacing-xs);
+    }
+}
+
+/* ========================================
+   LANDING PAGE STYLES
+   ======================================== */
 .interview-landing {
     min-height: 100vh;
     background-color: var(--interview-bg-primary);
@@ -341,47 +582,6 @@
     object-fit: contain;
 }
 
-.graphic-collage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    background: transparent;
-    opacity: 0;
-}
-
-/* Question Section */
-.interview-landing__question {
-    background: var(--interview-bg-primary);
-    color: var(--interview-text-primary);
-    padding: var(--spacing-xxl) 0;
-}
-
-.interview-landing__question-content {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: var(--spacing-xl);
-    max-width: var(--container-max-width);
-    margin: 0 auto;
-    padding: 0 var(--container-padding);
-}
-
-.interview-landing__question-left h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--interview-text-primary);
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.interview-landing__question-right p {
-    font-size: 1.25rem;
-    line-height: 1.6;
-    color: var(--interview-text-primary);
-    margin: 0;
-}
 
 /* Interviews Section */
 .interview-landing__interviews {
@@ -398,7 +598,7 @@
 }
 
 .interview-landing__interviews-title h2 {
-    font-size: 2.5rem;
+    font-size: var(--text-3xl);
     font-weight: 700;
     color: var(--interview-text-secondary);
     text-transform: uppercase;
@@ -422,7 +622,7 @@
 
 .interview-landing__interviewee-name {
     font-family: var(--font-teletext);
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     color: var(--interview-text-primary);
     font-weight: 700;
     text-transform: uppercase;
@@ -481,17 +681,17 @@
 }
 
 .interview-landing__quote-cards-content::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--interview-scrollbar-track);
     border-radius: 4px;
 }
 
 .interview-landing__quote-cards-content::-webkit-scrollbar-thumb {
-    background: #888;
+    background: var(--interview-scrollbar-thumb);
     border-radius: 4px;
 }
 
 .interview-landing__quote-cards-content::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: var(--interview-scrollbar-thumb-hover);
 }
 
 .interview-landing__quote-card {
@@ -548,7 +748,7 @@
 
 .interview-landing__quote-attribution {
     font-family: var(--font-teletext);
-    font-size: 0.9rem;
+    font-size: var(--text-sm);
     color: var(--interview-text-muted);
     font-weight: 500;
     position: absolute;
@@ -564,21 +764,22 @@
     right: 0;
     width: 32px;
     height: 32px;
-    background: #F0D0FF;
+    background: var(--interview-button-bg);
     color: black;
     border-radius: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.9rem;
+    font-size: var(--text-sm);
     font-weight: 700;
 }
 
-/* Introduction Section */
-.interview-landing__introduction {
-    background: var(--interview-bg-primary) !important;
-    color: var(--interview-text-primary) !important;
-    padding: 0 0 var(--spacing-xxl) 0 !important;
+/* Introduction and Interviewer Sections */
+.interview-landing__introduction,
+.interview-landing__interviewer {
+    background: var(--interview-bg-primary);
+    color: var(--interview-text-primary);
+    padding: 0 0 var(--spacing-xxl) 0;
 }
 
 
@@ -595,23 +796,18 @@
 
 .interview-landing__introduction-left p,
 .interview-landing__introduction-right p {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     line-height: 1.7;
     color: var(--interview-text-muted);
     margin-bottom: var(--spacing-sm);
 }
 
 
-/* Interviewer Section */
-.interview-landing__interviewer {
-    background: var(--interview-bg-primary) !important;
-    color: var(--interview-text-primary) !important;
-    padding: 0 0 var(--spacing-xxl) 0 !important;
-}
 
 
+.interview-landing__introduction h2,
 .interview-landing__interviewer h2 {
-    font-size: 2.5rem;
+    font-size: var(--text-3xl);
     font-weight: 700;
     margin-bottom: var(--spacing-lg);
     color: var(--interview-text-primary);
@@ -642,7 +838,7 @@
 
 .interview-landing__interviewer-info h3 {
     font-family: var(--font-teletext);
-    font-size: 1.5rem;
+    font-size: var(--text-xl);
     font-weight: 700;
     color: var(--interview-text-primary);
     margin-bottom: var(--spacing-sm);
@@ -650,12 +846,14 @@
 }
 
 .interview-landing__interviewer-info p {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     line-height: 1.7;
     color: var(--interview-text-muted);
 }
 
-/* Individual Interview Page Styles */
+/* ========================================
+   INTERVIEW PAGE STYLES
+   ======================================== */
 .interview-page {
     min-height: 100vh;
     font-family: var(--font-primary);
@@ -673,22 +871,8 @@ body:has(.interview-landing) .nav-container {
     background-color: var(--interview-bg-primary);
 }
 
-/* Force styling for introduction and interviewer sections */
-.interview-landing__introduction,
-.interview-landing__interviewer {
-    background-color: var(--interview-bg-primary) !important;
-    color: var(--interview-text-primary) !important;
-}
 
-.interview-landing__introduction h2,
-.interview-landing__interviewer h2 {
-    color: var(--interview-text-primary) !important;
-}
 
-.interview-landing__introduction p,
-.interview-landing__interviewer p {
-    color: var(--interview-text-primary) !important;
-}
 
 body:has(.interview-page),
 body:has(.interview-landing) {
@@ -701,8 +885,8 @@ body:has(.interview-page) footer,
 body:has(.interview-landing) footer,
 body:has(.interview-page) footer *,
 body:has(.interview-landing) footer * {
-    background-color: #000000 !important;
-    color: #ffffff !important;
+    background-color: var(--interview-footer-bg) !important;
+    color: var(--interview-footer-text) !important;
 }
 
 /* Navigation menu styling */
@@ -747,7 +931,7 @@ body:has(.interview-landing) .menu-button:focus {
 /* Profile Section */
 .interview-page__profile {
     background: var(--interview-bg-primary);
-    padding: 120px 0 var(--spacing-lg) 0;
+    padding: var(--profile-padding);
     margin-top: 0;
     position: relative;
 }
@@ -827,7 +1011,7 @@ body:has(.interview-landing) .menu-button:focus {
     text-decoration: none;
     color: var(--interview-text-primary);
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     transition: all 0.2s ease;
     display: flex;
     align-items: center;
@@ -843,7 +1027,7 @@ body:has(.interview-landing) .menu-button:focus {
 }
 
 .interview-page__interviewee-bio {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     line-height: 1.6;
     color: var(--interview-text-primary);
     font-style: italic;
@@ -876,7 +1060,7 @@ body:has(.interview-landing) .menu-button:focus {
 }
 
 .interview-page__date {
-    font-size: 0.9rem;
+    font-size: var(--text-sm);
     color: var(--interview-text-primary);
     font-weight: 700;
     margin-bottom: var(--spacing-sm);
@@ -927,7 +1111,7 @@ body:has(.interview-landing) .menu-button:focus {
 
 /* Interview Text (Right Column) */
 .interview-page__text {
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     line-height: 1.8;
     color: var(--interview-text-primary);
     font-family: var(--font-serif);
@@ -935,14 +1119,14 @@ body:has(.interview-landing) .menu-button:focus {
 
 .speaker-label {
     font-family: var(--font-teletext);
-    font-size: 1.5rem;
+    font-size: var(--text-xl);
     font-weight: 700;
     color: var(--interview-text-primary);
     margin-bottom: var(--spacing-xs);
 }
 
 .interview-page__text h2 {
-    font-size: 1.5rem;
+    font-size: var(--text-xl);
     font-weight: 700;
     margin: var(--spacing-lg) 0 var(--spacing-sm) 0;
     color: var(--interview-text-primary);
@@ -953,7 +1137,7 @@ body:has(.interview-landing) .menu-button:focus {
 
 .interview-page__text p {
     margin-bottom: var(--spacing-md);
-    font-size: 1.1rem;
+    font-size: var(--text-lg);
     line-height: 1.8;
 }
 
@@ -964,7 +1148,7 @@ body:has(.interview-landing) .menu-button:focus {
 
 .interview-page__speaker-label {
     font-family: var(--font-teletext);
-    font-size: 0.9rem;
+    font-size: var(--text-sm);
     font-weight: 700;
     color: var(--interview-text-primary);
     margin-bottom: var(--spacing-xs);
@@ -977,11 +1161,10 @@ body:has(.interview-landing) .menu-button:focus {
     padding: 0 var(--container-padding);
 }
 
-/* Responsive Design */
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
 @media (max-width: 1024px) {
-    .editor-note {
-        left: -270px;
-    }
     
     .interview-landing__hero-title-container {
         width: calc(100vw - 50px);
@@ -1079,7 +1262,7 @@ body:has(.interview-landing) .menu-button:focus {
         text-decoration: none;
         color: var(--interview-text-primary);
         font-family: var(--font-teletext);
-        font-size: 0.9rem;
+        font-size: var(--text-sm);
         font-weight: 700;
         text-transform: uppercase;
         transition: background-color 0.2s ease;
@@ -1205,10 +1388,6 @@ body:has(.interview-landing) .menu-button:focus {
         color: var(--interview-bg-primary);
     }
     
-    .interview-landing__question-content {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-lg);
-    }
     
     .interview-landing__introduction-content {
         grid-template-columns: 1fr;
@@ -1345,7 +1524,7 @@ body:has(.interview-landing) .menu-button:focus {
         text-decoration: none;
         color: var(--interview-text-primary);
         font-family: var(--font-teletext);
-        font-size: 0.9rem;
+        font-size: var(--text-sm);
         font-weight: 700;
         text-transform: uppercase;
         transition: background-color 0.2s ease;
@@ -1472,13 +1651,6 @@ body:has(.interview-landing) .menu-button:focus {
         color: var(--interview-bg-primary);
     }
     
-    .interview-landing__question-left h2 {
-        font-size: 1.8rem;
-    }
-    
-    .interview-landing__question-right p {
-        font-size: 1.1rem;
-    }
     
     .interview-page__profile-content {
         padding: 120px 15px 0 15px;
@@ -1493,7 +1665,7 @@ body:has(.interview-landing) .menu-button:focus {
     }
     
     .interview-page__interviewee-bio {
-        font-size: 1.1rem;
+        font-size: var(--text-lg);
     }
 }
 

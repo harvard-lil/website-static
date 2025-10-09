@@ -4,9 +4,9 @@ title: Katie Mackinnon
 slug: katie-mackinnon
 image: katie-mackinnon.png
 bio: >
-  Katie Mackinnon is a Postdoctoral Fellow at the Data Loss (DALOSS): The Politics of Disappearance, Destruction, and Dispossession in Digital Societies group at the University of Copenhagen.
+  <a href="https://katiemackinnon.xyz" target="_blank">Katie Mackinnon</a> is a Postdoctoral Fellow at the <a href="https://artsandculturalstudies.ku.dk/research/daloss/" target="_blank">Data Loss (DALOSS): The Politics of Disappearance, Destruction, and Dispossession in Digital Societies</a> group at the University of Copenhagen.
 date: 2025-01-20
-pull-quote: "I would devote a lot of the funding to the decision-making processes around what gets to last for 100 years, who gets to decide, and why?"
+quote-card: "I'd devote a lot of the funding to the decision-making processes around what gets to last for 100 years, who gets to decide, and why?"
 custom-css: ['interview-series']
 ---
 
@@ -20,14 +20,13 @@ custom-css: ['interview-series']
 
 <p>I'm also really interested right now in community-oriented grassroots data preservation projects that are completely underfunded. How distributed they can be, part of wider networks where they share their innovations, ideas, and approaches. I would like to see them brought into these institutional conversations around keeping data forever.</p>
 
+<div class="pull-quote">We are living in an era of accumulation.</div>
+
 <div class="speaker-label">Interviewer</div>
 <p>Can you give an example of a grassroots data practice you're interested in?</p>
 
 <div class="speaker-label">Katie Mackinnon</div>
-<p>Take for example the data purges in the US over the last year from databases like data.gov, and the surge of archiving practices like the <a href="/generational-data-interviews/ian-milligan" class="editor-note-link">Data Rescue Project</a><span class="editor-note">
-    <span class="sr-only">Editor Note: </span>
-    The Data Rescue Project was a grassroots effort to preserve federal climate and environmental data that was at risk of being removed from government websites. Click to read Ian Milligan's interview about similar data preservation efforts.
-</span> and others, each operating separately within their own institutions while also being part of this decentralized umbrella. I found this type of emergency response to the systematic removal of scientific data from government databases with the emergence of a new presidency really striking. An event that triggers a response, an archival response, and the ability of people to do something about a crisis in a very short amount of time with the resources that they have.</p>
+<p>Take for example the data purges in the US over the last year from databases like data.gov, and the surge of archiving practices like the <a href="/generational-data-interviews/ian-milligan" class="editor-note-link" target="_blank">Data Rescue Project</a><span class="editor-note">The Data Rescue Project was a grassroots effort to preserve federal climate and environmental data that was at risk of being removed from government websites.</span> and others, each operating separately within their own institutions while also being part of this decentralized umbrella. I found this type of emergency response to the systematic removal of scientific data from government databases with the emergence of a new presidency really striking. An event that triggers a response, an archival response, and the ability of people to do something about a crisis in a very short amount of time with the resources that they have.</p>
 
 <p>I think there's something really interesting in the types of communication approaches they have used. Some of it was very public on platforms like Blue Sky, but also emergency town halls, Zoom calls, organizing through Google Docs and spreadsheets, and using chat room-style infrastructures to discuss and coordinate which types of data needed to be targeted or not. It is a type of transparency and clarity. I personally enjoy what I'd call a forensic scrappiness.</p>
 

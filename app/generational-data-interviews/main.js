@@ -5,23 +5,40 @@
 // Centralized interview data - single source of truth
 const INTERVIEWS = [
     { name: 'AMELIA ACKER', file: 'amelia-acker', pullQuote: "I probably wouldn't build a system. I'd build a bureaucracy." },
-    { name: 'MATTEO CARGNELUTTI', file: 'matteo-cargnelutti', pullQuote: "I think the first thing I would focus on is expanding the new storage formats that exist right now at the lab stage." },
+    { name: 'MATTEO CARGNELUTTI', file: 'matteo-cargnelutti', pullQuote: "If we were able to have this sort of technology, designed from the beginning to store things for centuries and more, it would need to be broadly accessible, and cheap." },
     { name: 'FRANK CIFALDI', file: 'frank-cifaldi', pullQuote: "I would have the best copyright lawyers in the country figuring out how we can actually make this work." },
-    { name: 'REBECCA CREMONA', file: 'rebecca-cremona', pullQuote: "I think that if you have everything, you have nothing. It's all the grains of sand at the beach." },
-    { name: 'LORI EMERSON', file: 'lori-emerson', pullQuote: "I'm going to give you the most boring and predictable answer possible." },
+    { name: 'REBECCA CREMONA', file: 'rebecca-cremona', pullQuote: "I would assemble a huge panel of staff from all kinds of backgrounds and all kinds of geographies to try and curate what we were trying to save for a century or not." },
+    { name: 'LORI EMERSON', file: 'lori-emerson', pullQuote: "The book is the most beautiful invention I can think of." },
     { name: 'REBECCA FRANK', file: 'rebecca-frank', pullQuote: "The glib answer is the money itself would be the solution." },
-    { name: 'MARTIN KUNZE & STEFFEN HELLMOLD', file: 'martin-kunze-steffen-hellmold', pullQuote: "I want to say exactly what we are doing at the moment." },
-    { name: 'MARK LANTZ', file: 'mark-lantz', pullQuote: "There's two critical aspects to that question. The first part of it is just preserving bits." },
-    { name: 'MICHELLE LEE', file: 'michelle-lee', pullQuote: "I would have the best copyright lawyers in the country figuring out how we can actually make this work." },
-    { name: 'KATIE MACKINNON', file: 'katie-mackinnon', pullQuote: "I would devote a lot of the funding to the decision-making processes around what gets to last for 100 years, who gets to decide, and why?" },
-    { name: 'TYLER MCMULLEN', file: 'tyler-mcmullen', pullQuote: "My first step is to take that money and turn it into a self-sustaining fund." },
-    { name: 'IAN MILLIGAN', file: 'ian-milligan', pullQuote: "People think it failed because of beautiful Renaissance paintings of marauding armies burning down the Library of Alexandria, but it fundamentally died because people stopped caring." },
-    { name: 'TREVOR OWENS', file: 'trevor-owens', pullQuote: "The more that information is touched, the more that it's handled, the more that it's forward migrated, the more that it's engaged with, the safer it is." },
-    { name: 'CHE-WEI WANG & TAYLOR LEVY', file: 'che-wei-wang-taylor-levy', pullQuote: "I would do two things, both where I'm not following instructions. First, I would think about storing for 20 years and 500 years, not 100." }
+    { name: 'MARTIN KUNZE & STEFFEN HELLMOLD', file: 'martin-kunze-steffen-hellmold', pullQuote: "So this was the idea- to store digital information in an analog archive" },
+    { name: 'MARK LANTZ', file: 'mark-lantz', pullQuote: "Even if I have a punch card reader from 1940 that can still read my punch cards, I can't find a computer that supports the interface it has...I would work on that neglected part of the problem." },
+    { name: 'MICHELLE LEE', file: 'michelle-lee', pullQuote: "I would do two things, both where I'm not following instructions." },
+    { name: 'KATIE MACKINNON', file: 'katie-mackinnon', pullQuote: "I'd devote a lot of the funding to the decision-making processes around what gets to last for 100 years, who gets to decide, and why?" },
+    { name: 'TYLER MCMULLEN', file: 'tyler-mcmullen', pullQuote: "Where is the next generation going to come from? Where is the funding for that next generation going to come from as well?" },
+    { name: 'IAN MILLIGAN', file: 'ian-milligan', pullQuote: "I don't think there's a technological solution that's going to achieve that goal." },
+    { name: 'TREVOR OWENS', file: 'trevor-owens', pullQuote: "There's a technical way to answer the question, focusing on redundancy or what kind of media to use, but my sense is that those are largely solved problems at this point." },
+    { name: 'CHE-WEI WANG & TAYLOR LEVY', file: 'che-wei-wang-taylor-levy', pullQuote: "Wait, only a hundred years?" }
 ];
 
 // Track initialization to prevent multiple runs
 let isInitialized = false;
+
+// Track editor notes event listeners for cleanup
+let editorNotesEventListeners = {
+    click: null,
+    keydown: null,
+    scroll: null
+};
+
+// Track dropdown event listeners for cleanup
+let dropdownEventListeners = {
+    landingPage: null,
+    interviewPage: null,
+    centralized: null
+};
+
+// Centralized dropdown management
+let activeDropdowns = new Set();
 
 // Initialize when DOM is ready
 function initializeWhenReady() {
@@ -34,7 +51,6 @@ function initializeWhenReady() {
 
 // Initialize interview series functionality
 function initInterviewSeries() {
-    
     // Reset initialization flag for each page load
     isInitialized = false;
     
@@ -42,17 +58,23 @@ function initInterviewSeries() {
     const intervieweesGrid = document.getElementById('interviewees-grid');
     const isLandingPage = intervieweesGrid !== null;
     
+    // Set up centralized dropdown management
+    setupCentralizedDropdownManagement();
+    
     // Load interviewees for landing page (only if on landing page)
     if (isLandingPage) {
         try {
+            // Clean up any existing dropdown listeners before creating new ones
+            cleanupDropdownEventListeners();
+            setupCentralizedDropdownManagement(); // Re-setup after cleanup
             loadInterviewees();
             // Add a small delay to ensure DOM is ready
             setTimeout(() => {
                 loadQuoteCards();
             }, 100);
         } catch (error) {
+            console.error('Error loading interviewees:', error);
         }
-    } else {
     }
     
     // Load interviewees for individual interview pages (only if on interview page)
@@ -62,14 +84,28 @@ function initInterviewSeries() {
     if (isInterviewPage) {
         
         try {
+            // Clean up any existing dropdown listeners before creating new ones
+            cleanupDropdownEventListeners();
+            setupCentralizedDropdownManagement(); // Re-setup after cleanup
             // Try to load sidebar immediately
             const sidebarLoaded = loadInterviewSidebar();
+            
+            // Adjust pull quote sizes based on content length
+            const pullQuotes = document.querySelectorAll('.pull-quote');
+            pullQuotes.forEach(adjustPullQuoteSize);
             
             // Set up cycling navigation arrows
             try {
                 const navResult = setupCyclingNavigation();
             } catch (error) {
             }
+            
+            // Initialize editor's notes
+            initEditorsNotes();
+            
+            // Initialize bottom navigation
+            initBottomNavigation();
+            
             
             // If sidebar didn't load successfully, try again with multiple attempts
             if (!sidebarLoaded) {
@@ -130,6 +166,8 @@ function setupSwupIntegration() {
                             if (interviewLinks) {
                                 loadInterviewSidebar();
                                 setupCyclingNavigation();
+                                initEditorsNotes();
+                                initBottomNavigation();
                             }
                         }, 100);
                     }
@@ -144,6 +182,18 @@ function setupSwupIntegration() {
                                 loadQuoteCards();
                             }
                         }, 100);
+                    }
+                });
+                
+                // Dedicated hook for editor's notes reinitialization
+                window.swup.hooks.on('page:view', () => {
+                    if (isInterviewSeriesPage()) {
+                        setTimeout(() => {
+                            const editorNoteLinks = document.querySelectorAll('.editor-note-link');
+                            if (editorNoteLinks.length > 0) {
+                                initEditorsNotes();
+                            }
+                        }, 150); // Slightly longer delay for editor notes
                     }
                 });
             } else if (retryCount < maxSwupRetries) {
@@ -170,6 +220,12 @@ function setupSwupIntegration() {
                 if (quoteCardsContainer && quoteCardsContainer.children.length === 0) {
                     loadQuoteCards();
                 }
+                
+                // Check for missing interview grid
+                const intervieweesGrid = document.getElementById('interviewees-grid');
+                if (intervieweesGrid && intervieweesGrid.children.length === 0) {
+                    loadInterviewees();
+                }
             }
             
             // Check for interview page sidebar
@@ -188,6 +244,36 @@ function setupSwupIntegration() {
                 if (needsUpdate) {
                     loadInterviewSidebar();
                     setupCyclingNavigation();
+                    initBottomNavigation();
+                }
+            }
+            
+            // Check for editor's notes on interview pages
+            const editorNoteLinks = document.querySelectorAll('.editor-note-link');
+            if (editorNoteLinks.length > 0) {
+                // Check if editor notes need reinitialization (no event listeners or processed links)
+                const hasUnprocessedLinks = Array.from(editorNoteLinks).some(link => !link.dataset.processed);
+                if (hasUnprocessedLinks) {
+                    initEditorsNotes();
+                }
+            }
+            
+            // Check for bottom navigation arrows
+            const textPrevArrow = document.getElementById('text-prev-arrow');
+            const textNextArrow = document.getElementById('text-next-arrow');
+            if (textPrevArrow && textNextArrow) {
+                // Check if bottom navigation needs updating (empty hrefs or wrong links)
+                const currentPath = window.location.pathname;
+                const pathParts = currentPath.split('/').filter(part => part.length > 0);
+                const currentSlug = pathParts[pathParts.length - 1];
+                
+                const needsBottomUpdate = !textPrevArrow.href || 
+                                        textPrevArrow.href === '#' ||
+                                        !textNextArrow.href || 
+                                        textNextArrow.href === '#';
+                
+                if (needsBottomUpdate) {
+                    initBottomNavigation();
                 }
             }
         }
@@ -197,13 +283,15 @@ function setupSwupIntegration() {
 // Check if we're on an interview series page
 function isInterviewSeriesPage() {
     const path = window.location.pathname;
-    return path.includes('/generational-data-interviews/');
+    const result = path.includes('/generational-data-interviews/');
+    return result;
 }
 
 // Check if we're on the landing page specifically
 function isLandingPage() {
     const path = window.location.pathname;
-    return path === '/generational-data-interviews/' || path === '/generational-data-interviews';
+    const result = path === '/generational-data-interviews/' || path === '/generational-data-interviews';
+    return result;
 }
 
 // Start Swup integration for sidebar, simple navigation
@@ -223,10 +311,12 @@ function handleResize() {
         
         if (isMobile && !hasDropdown) {
             // Switch to mobile dropdown
+            unregisterDropdown(intervieweesGrid); // Unregister old dropdown
             intervieweesGrid.innerHTML = '';
             createMobileIntervieweesDropdown(intervieweesGrid, INTERVIEWS);
         } else if (!isMobile && hasDropdown) {
             // Switch to desktop grid
+            unregisterDropdown(intervieweesGrid); // Unregister old dropdown
             intervieweesGrid.innerHTML = '';
             createDesktopIntervieweesGrid(intervieweesGrid, INTERVIEWS);
         }
@@ -239,10 +329,12 @@ function handleResize() {
         
         if (isMobile && !hasDropdown) {
             // Switch to mobile dropdown
+            unregisterDropdown(interviewLinks); // Unregister old dropdown
             interviewLinks.innerHTML = '';
             createMobileDropdown(interviewLinks);
         } else if (!isMobile && hasDropdown) {
             // Switch to desktop sidebar
+            unregisterDropdown(interviewLinks); // Unregister old dropdown
             interviewLinks.innerHTML = '';
             createDesktopSidebar(interviewLinks);
         }
@@ -252,9 +344,415 @@ function handleResize() {
 // Add single resize event listener
 window.addEventListener('resize', handleResize);
 
+// Reinitialize editor notes on resize
+window.addEventListener('resize', () => {
+    if (document.querySelector('.interview-page__links')) {
+        initEditorsNotes();
+    }
+});
+
+// Cleanup function for editor notes event listeners
+function cleanupEditorNotesEventListeners() {
+    // Remove existing event listeners
+    if (editorNotesEventListeners.click) {
+        document.removeEventListener('click', editorNotesEventListeners.click);
+        editorNotesEventListeners.click = null;
+    }
+    
+    if (editorNotesEventListeners.keydown) {
+        document.removeEventListener('keydown', editorNotesEventListeners.keydown);
+        editorNotesEventListeners.keydown = null;
+    }
+    
+    if (editorNotesEventListeners.scroll) {
+        window.removeEventListener('scroll', editorNotesEventListeners.scroll);
+        editorNotesEventListeners.scroll = null;
+    }
+}
+
+// Cleanup function for dropdown event listeners
+function cleanupDropdownEventListeners() {
+    
+    // Remove existing dropdown event listeners
+    if (dropdownEventListeners.landingPage) {
+        document.removeEventListener('click', dropdownEventListeners.landingPage);
+        dropdownEventListeners.landingPage = null;
+    }
+    
+    if (dropdownEventListeners.interviewPage) {
+        document.removeEventListener('click', dropdownEventListeners.interviewPage);
+        dropdownEventListeners.interviewPage = null;
+    }
+    
+    if (dropdownEventListeners.centralized) {
+        document.removeEventListener('click', dropdownEventListeners.centralized);
+        dropdownEventListeners.centralized = null;
+    }
+    
+    // Clear active dropdowns
+    activeDropdowns.clear();
+}
+
+// Centralized dropdown management system
+function setupCentralizedDropdownManagement() {
+    // Remove any existing centralized listener
+    if (dropdownEventListeners.centralized) {
+        document.removeEventListener('click', dropdownEventListeners.centralized);
+    }
+    
+    // Create a single document click handler for all dropdowns
+    const centralizedClickHandler = function(event) {
+        // Check each active dropdown individually
+        activeDropdowns.forEach(dropdownContainer => {
+            const toggle = dropdownContainer.querySelector('.interview-landing__mobile-dropdown-toggle, .interview-page__dropdown-toggle');
+            const menu = dropdownContainer.querySelector('.interview-landing__mobile-dropdown-menu, .interview-page__dropdown-menu');
+            
+            // Only check if this dropdown is actually open
+            if (toggle && menu && (toggle.classList.contains('open') || menu.classList.contains('open'))) {
+                // If click is outside this specific dropdown, close it
+                if (!dropdownContainer.contains(event.target)) {
+                    toggle.classList.remove('open');
+                    menu.classList.remove('open');
+                }
+            }
+        });
+    };
+    
+    document.addEventListener('click', centralizedClickHandler);
+    dropdownEventListeners.centralized = centralizedClickHandler;
+}
+
+// Register a dropdown with the centralized system
+function registerDropdown(container) {
+    activeDropdowns.add(container);
+}
+
+// Unregister a dropdown from the centralized system
+function unregisterDropdown(container) {
+    activeDropdowns.delete(container);
+}
+
+// Close all active dropdowns
+function closeAllDropdowns() {
+    activeDropdowns.forEach(container => {
+        const toggle = container.querySelector('.interview-landing__mobile-dropdown-toggle, .interview-page__dropdown-toggle');
+        const menu = container.querySelector('.interview-landing__mobile-dropdown-menu, .interview-page__dropdown-menu');
+        
+        if (toggle && menu) {
+            toggle.classList.remove('open');
+            menu.classList.remove('open');
+        }
+    });
+}
+
+// Editor's Notes Functionality
+function initEditorsNotes() {
+    // Clean up existing event listeners first
+    cleanupEditorNotesEventListeners();
+    
+    const editorNoteLinks = document.querySelectorAll('.editor-note-link');
+    
+    editorNoteLinks.forEach(link => {
+        const note = link.nextElementSibling;
+        
+        if (note && note.classList.contains('editor-note')) {
+            // Check if this link has already been processed
+            if (link.dataset.processed) {
+                return;
+            }
+            
+            // Mark as processed
+            link.dataset.processed = 'true';
+            
+            // Extract interview name from href
+            const href = link.getAttribute('href');
+            const interviewName = extractInterviewName(href);
+            
+            // Set up the note content
+            setupEditorNote(note, interviewName, href);
+            
+            // Add event listeners - check viewport size dynamically
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (window.innerWidth <= 768) {
+                    // Mobile: show modal
+                    showMobileEditorNote(note);
+                } else {
+                    // Desktop: close note and navigate
+                    hideEditorNote(note);
+                    // Navigate to the interview
+                    window.open(href, '_blank');
+                }
+            });
+            
+            // Desktop hover behavior
+            link.addEventListener('mouseenter', () => {
+                if (window.innerWidth > 768) {
+                    showEditorNote(link, note);
+                }
+            });
+        }
+    });
+    
+    // Add global event listeners for closing notes
+    setupEditorNoteGlobalListeners();
+}
+
+function setupEditorNoteGlobalListeners() {
+    
+    // Close notes when clicking outside
+    const clickHandler = (e) => {
+        const visibleNotes = document.querySelectorAll('.editor-note.visible');
+        if (visibleNotes.length > 0) {
+            const clickedNote = e.target.closest('.editor-note');
+            const clickedLink = e.target.closest('.editor-note-link');
+            
+            if (!clickedNote && !clickedLink) {
+                hideAllEditorNotes();
+            }
+        }
+    };
+    document.addEventListener('click', clickHandler);
+    editorNotesEventListeners.click = clickHandler;
+    
+    // Close notes when pressing Escape
+    const keydownHandler = (e) => {
+        if (e.key === 'Escape') {
+            hideAllEditorNotes();
+        }
+    };
+    document.addEventListener('keydown', keydownHandler);
+    editorNotesEventListeners.keydown = keydownHandler;
+    
+    // Close notes when scrolling away from highlighted text
+    let scrollTimeout;
+    const scrollHandler = () => {
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            const visibleNotes = document.querySelectorAll('.editor-note.visible');
+            visibleNotes.forEach(note => {
+                const link = note.previousElementSibling;
+                if (link && link.classList.contains('editor-note-link')) {
+                    const linkRect = link.getBoundingClientRect();
+                    const viewportHeight = window.innerHeight;
+                    
+                    // If the link is not visible in the viewport, hide the note
+                    if (linkRect.bottom < 0 || linkRect.top > viewportHeight) {
+                        hideEditorNote(note);
+                    }
+                }
+            });
+        }, 100); // Debounce scroll events
+    };
+    window.addEventListener('scroll', scrollHandler);
+    editorNotesEventListeners.scroll = scrollHandler;
+}
+
+function extractInterviewName(href) {
+    if (!href) return '';
+    const pathParts = href.split('/').filter(part => part.length > 0);
+    const slug = pathParts[pathParts.length - 1];
+    return slug.split('-').map(word => 
+        word.charAt(0).toUpperCase() + word.slice(1)
+    ).join(' ');
+}
+
+function setupEditorNote(note, interviewName, href) {
+    // Check if the note has already been processed
+    if (note.querySelector('.editor-note__label')) {
+        return; // Already processed
+    }
+    
+    // Get the original note content before modifying the HTML
+    const noteContent = note.textContent.trim();
+    
+    // Create the structured note HTML with close button for desktop only
+    note.innerHTML = `
+        <button class="editor-note__close" aria-label="Close editor note">×</button>
+        <div class="editor-note__label">Editor's note:</div>
+        <div class="editor-note__content">${noteContent}</div>
+        <div class="editor-note__link">Click to read ${interviewName}'s interview next</div>
+    `;
+    
+    // Add close button functionality (desktop only)
+    const closeBtn = note.querySelector('.editor-note__close');
+    closeBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        hideEditorNote(note);
+    });
+    
+    // Make the note clickable to open interview
+    note.addEventListener('click', (e) => {
+        // Don't open if clicking the close button
+        if (e.target.classList.contains('editor-note__close')) {
+            return;
+        }
+        window.open(href, '_blank');
+    });
+}
+
+function showEditorNote(link, note) {
+    // Hide any other visible notes
+    hideAllEditorNotes();
+    
+    // Position the note relative to the link
+    positionEditorNote(link, note);
+    
+    // Show the note
+    note.classList.add('visible');
+}
+
+function hideEditorNote(note) {
+    note.classList.remove('visible');
+}
+
+function hideAllEditorNotes() {
+    const visibleNotes = document.querySelectorAll('.editor-note.visible');
+    visibleNotes.forEach(note => hideEditorNote(note));
+}
+
+function positionEditorNote(link, note) {
+    const paragraph = link.closest('p');
+    const paragraphRect = paragraph.getBoundingClientRect();
+    const linkRect = link.getBoundingClientRect();
+    
+    // Position relative to paragraph, not viewport
+    const left = -320; // Fixed left margin position (300px sidebar + 20px gap)
+    const top = linkRect.top - paragraphRect.top; // Relative to paragraph start
+    
+    // Position the note
+    note.style.position = 'absolute';
+    note.style.left = `${left}px`;
+    note.style.top = `${top}px`;
+    note.style.right = 'auto';
+}
+
+function showMobileEditorNote(note) {
+    // Remove any existing modals first
+    const existingModals = document.querySelectorAll('.editor-note-modal');
+    existingModals.forEach(modal => modal.remove());
+    
+    // Get the link that triggered this modal
+    const link = note.previousElementSibling;
+    const href = link ? link.getAttribute('href') : null;
+    
+    // Create modal overlay
+    const modal = document.createElement('div');
+    modal.className = 'editor-note-modal';
+    
+    // Create content div
+    const content = document.createElement('div');
+    content.className = 'editor-note-modal__content';
+    
+    // Add note content to modal (remove close button for mobile)
+    const noteContent = note.innerHTML;
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = noteContent;
+    
+    // Remove the close button from mobile modal
+    const closeBtn = tempDiv.querySelector('.editor-note__close');
+    if (closeBtn) {
+        closeBtn.remove();
+    }
+    
+    content.innerHTML = tempDiv.innerHTML;
+    modal.appendChild(content);
+    
+    // Add modal to body
+    document.body.appendChild(modal);
+    
+    // Make modal content clickable to open interview
+    if (href) {
+        content.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            window.open(href, '_blank');
+            modal.remove(); // Close modal after opening link
+        });
+        
+        // Add cursor pointer to indicate clickability
+        content.style.cursor = 'pointer';
+    }
+    
+    // Close on overlay click (but not on content)
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.remove();
+        }
+    });
+    
+    // Close on escape key
+    const handleEscape = (e) => {
+        if (e.key === 'Escape') {
+            modal.remove();
+            document.removeEventListener('keydown', handleEscape);
+        }
+    };
+    document.addEventListener('keydown', handleEscape);
+}
+
+// Text Navigation Functionality
+function initBottomNavigation() {
+    const currentInterview = getCurrentInterview();
+    if (!currentInterview) return;
+    
+    const interviews = getInterviewsList();
+    const currentIndex = interviews.findIndex(interview => 
+        interview.slug === currentInterview.slug
+    );
+    
+    if (currentIndex === -1) return;
+    
+    // Set up previous interview
+    const prevInterview = currentIndex > 0 ? interviews[currentIndex - 1] : null;
+    const prevArrow = document.getElementById('text-prev-arrow');
+    const prevName = document.getElementById('text-prev-name');
+    
+    if (prevInterview && prevArrow && prevName) {
+        prevArrow.href = `/generational-data-interviews/${prevInterview.slug}`;
+        prevName.textContent = prevInterview.name;
+    } else if (prevArrow) {
+        prevArrow.style.display = 'none';
+    }
+    
+    // Set up next interview
+    const nextInterview = currentIndex < interviews.length - 1 ? interviews[currentIndex + 1] : null;
+    const nextArrow = document.getElementById('text-next-arrow');
+    const nextName = document.getElementById('text-next-name');
+    
+    if (nextInterview && nextArrow && nextName) {
+        nextArrow.href = `/generational-data-interviews/${nextInterview.slug}`;
+        nextName.textContent = nextInterview.name;
+    } else if (nextArrow) {
+        nextArrow.style.display = 'none';
+    }
+}
+
+function getCurrentInterview() {
+    const currentPath = window.location.pathname;
+    const pathParts = currentPath.split('/').filter(part => part.length > 0);
+    const currentSlug = pathParts[pathParts.length - 1];
+    
+    if (!currentSlug || currentSlug === 'generational-data-interviews') {
+        return null;
+    }
+    
+    // Find the interview in the interviews list
+    const interviews = getInterviewsList();
+    return interviews.find(interview => interview.slug === currentSlug);
+}
+
+function getInterviewsList() {
+    // Return the same interviews list used by the cycling navigation
+    // Convert INTERVIEWS array to match the expected format
+    return INTERVIEWS.map(interview => ({
+        slug: interview.file,
+        name: interview.name
+    }));
+}
+
+
 function loadInterviewees() {
-    
-    
     // Generate the HTML for the interviewees grid
     generateIntervieweesGrid(INTERVIEWS);
 }
@@ -264,7 +762,6 @@ function generateIntervieweesGrid(interviews) {
     if (!grid) {
         return;
     }
-    
     
     // Check if grid is already populated to avoid re-running
     if (grid.children.length > 0 && grid.querySelector('.interviewees-column')) {
@@ -284,7 +781,6 @@ function generateIntervieweesGrid(interviews) {
         // Create desktop grid
         createDesktopIntervieweesGrid(grid, interviews);
     }
-    
 }
 
 function createDesktopIntervieweesGrid(grid, interviews) {
@@ -352,18 +848,14 @@ function createMobileIntervieweesDropdown(grid, interviews) {
     
     
     // Add click handler for toggle
-    toggle.addEventListener('click', function() {
+    toggle.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevent event from bubbling to document listeners
         toggle.classList.toggle('open');
         menu.classList.toggle('open');
     });
     
-    // Close dropdown when clicking outside
-    document.addEventListener('click', function(event) {
-        if (!grid.contains(event.target)) {
-            toggle.classList.remove('open');
-            menu.classList.remove('open');
-        }
-    });
+    // Register this dropdown with the centralized system
+    registerDropdown(grid);
 }
 
 function loadQuoteCards() {
@@ -410,12 +902,15 @@ function loadQuoteCardsWithContainer(quoteCardsContainer) {
             return false;
         }
         
+        // Create a shuffled copy of the interviews array
+        const shuffledInterviews = [...INTERVIEWS].sort(() => Math.random() - 0.5);
+        
         // Track successful card creation
         let successCount = 0;
         const errors = [];
         
         // Create quote cards for each interview
-        INTERVIEWS.forEach((interview, index) => {
+        shuffledInterviews.forEach((interview, index) => {
             try {
                 // Validate interview data
                 if (!interview || !interview.name || !interview.file) {
@@ -522,6 +1017,27 @@ function adjustQuoteTextSize(quoteCard) {
     quoteText.style.fontSize = fontSize;
 }
 
+// Helper function to adjust pull quote text size based on content length
+function adjustPullQuoteSize(pullQuote) {
+    const text = pullQuote.textContent.trim();
+    const textLength = text.length;
+    
+    // Calculate optimal font size based on text length - larger scale for pull quotes
+    let fontSize;
+    if (textLength <= 60) {
+        fontSize = 'clamp(2.5rem, 6vw, 4rem)';  // Large for short quotes
+    } else if (textLength <= 100) {
+        fontSize = 'clamp(2rem, 5vw, 3.5rem)';  // Medium for medium quotes
+    } else if (textLength <= 150) {
+        fontSize = 'clamp(1.8rem, 4.5vw, 3rem)'; // Smaller for longer quotes
+    } else {
+        fontSize = 'clamp(1.5rem, 4vw, 2.5rem)'; // Smallest for very long quotes
+    }
+    
+    // Apply the calculated font size
+    pullQuote.style.fontSize = fontSize;
+}
+
 function loadInterviewSidebar() {
     
     // Get the sidebar links container
@@ -604,18 +1120,14 @@ function createMobileDropdown(container) {
     });
     
     // Add click handler for toggle
-    toggle.addEventListener('click', function() {
+    toggle.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevent event from bubbling to document listeners
         toggle.classList.toggle('open');
         menu.classList.toggle('open');
     });
     
-    // Close dropdown when clicking outside
-    document.addEventListener('click', function(event) {
-        if (!container.contains(event.target)) {
-            toggle.classList.remove('open');
-            menu.classList.remove('open');
-        }
-    });
+    // Register this dropdown with the centralized system
+    registerDropdown(container);
     
 }
 

@@ -4,9 +4,9 @@ title: Mark Lantz
 slug: mark-lantz
 image: mark-lantz.png
 bio: >
-  Dr. Mark Lantz is a Distinguished Research Scientist and the manager of the Tape Research Group in the IBM Research Europe– Zurich laboratory. He has been an IBM Master Inventor since 2011, is co-inventor on over 200 patents and a co-author of over 130 publications. His current research interests include storage technology, computational storage, storage system reliability and performance modeling.
+  <a href="https://research.ibm.com/people/mark-lantz" target="_blank">Dr. Mark Lantz</a> is a Distinguished Research Scientist and the manager of the Tape Research Group in the IBM Research Europe– Zurich laboratory. He has been an IBM Master Inventor since 2011, is co-inventor on over 200 patents and a co-author of over 130 publications. His current research interests include storage technology, computational storage, storage system reliability and performance modeling.
 date: 2025-01-30
-pull-quote: "There's two critical aspects to that question. The first part of it is just preserving bits."
+quote-card: "Even if I have a punch card reader from 1940 that can still read my punch cards, I can't find a computer that supports the interface it has...I would work on that neglected part of the problem."
 custom-css: ['interview-series']
 ---
 
@@ -47,3 +47,5 @@ custom-css: ['interview-series']
 
 <div class="speaker-label">Mark Lantz</div>
 <p>The tape industry has this very long history of ups and downs. When I first started working on tape technology, it was the standard technology for backup and restore. But hard disk drive based backup with deduplication technology made HTD much more efficient. It's fast compared to tape for recovering a small number of objects. That technology basically started to eat away at the tape backup market. So the industry was kind of in decline for, for quite a long time. But then, with the continued kind of exponential growth in data, which is an overused term, but it's reality. Data is really growing at 40% compound annual growth rates, doubling, you know, every couple of years. That has driven a need for cost effective archive solutions, especially because the scaling of HTD technology has slowed down so much in the last few years. A lot of our customers are looking for technology to cost effectively archive data. And that has created a renaissance in interest in tape technology. So for me, this is probably the most exciting time to be working on tape, even though it has this 75 year history of storage technology. It's crazy to me that it's still actively used, let alone that I'm doing research on this topic. What is even more fascinating and what I am really excited about is how much potential tape technology still has to continue scaling its capacity and data rate. Eventually tape technology will face similar challenges to what the HDD industry is currently struggling with, at which point tape scaling will also have to slow down, but for the next decade or two we have a path to continue scaling tape at a similar rate to past scaling. It won't be easy. There are lots of technical challenges to overcome and a need for lots of new innovation and inventions to address these challenges, which is what makes working on tape so interesting and exciting.</p>
+
+<div class="pull-quote">This is probably the most exciting time to be working on tape, even though it has this 75 year history of storage technology.</div>

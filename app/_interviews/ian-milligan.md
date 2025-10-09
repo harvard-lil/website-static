@@ -4,9 +4,9 @@ title: Ian Milligan
 slug: ian-milligan
 image: ian-milligan.png
 bio: >
-  Ian Milligan is Associate Vice-President, Research Oversight and Analysis at the University of Waterloo, where he is also professor of history. He is the author of "Averting the Digital Dark Age: How Archivists, Librarians, and Technologists Built the Web a Memory."
+  <a href="https://www.ianmilligan.ca/" target="_blank">Ian Milligan</a> is Associate Vice-President, Research Oversight and Analysis at the University of Waterloo, where he is also professor of history. He is the author of <a href="https://www.press.jhu.edu/books/title/53671/averting-digital-dark-age" target="_blank">"Averting the Digital Dark Age: How Archivists, Librarians, and Technologists Built the Web a Memory."</a>
 date: 2025-02-10
-pull-quote: "People think it failed because of beautiful Renaissance paintings of marauding armies burning down the Library of Alexandria, but it fundamentally died because people stopped caring."
+quote-card: "I don't think there's a technological solution that's going to achieve that goal."
 custom-css: ['interview-series']
 ---
 
@@ -17,6 +17,8 @@ custom-css: ['interview-series']
 <p>That's interesting. So if I had unlimited money to design a system to preserve information for at least 100 years, my answer would be that I don't think there's a technological solution that's going to achieve that goal.</p>
 
 <p>The example I often come back to when I'm talking to students is the Library of Alexandria. We think of this great library that amassed this unparalleled collection during the antiquity period, and then it failed. People think it failed because of beautiful Renaissance paintings of marauding armies burning down the Library of Alexandria, but it fundamentally died because people stopped caring. If people stop caring about information, no matter how well your system is designed, it's going to degrade. So I think if I had unlimited money, it would all be dedicated to building an apparatus that does community outreach, building an infrastructure that provides access to collections and integrates collections into the everyday life of people. So that the public can use that information, see the value of it, and they can advocate for the continued preservation of it.</p>
+
+<div class="pull-quote">People think it failed because of beautiful Renaissance paintings of marauding armies burning down the Library of Alexandria, but it fundamentally died because people stopped caring.</div>
 
 <p>With traditional physical holdings, every time information is used or touched you worry a little bit. But with digital information, the more that information is touched, the more that it's handled, the more that it's forward migrated, the more that it's engaged with, the safer it is.</p>
 

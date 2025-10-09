@@ -4,9 +4,9 @@ title: Frank Cifaldi
 slug: frank-cifaldi
 image: frank-cifaldi.png
 bio: >
-  Frank Cifaldi is the Founder and Director of the Video Game History Foundation.
+  Frank Cifaldi is the Founder and Director of the <a href="https://gamehistory.org/" target="_blank">Video Game History Foundation</a>.
 date: 2025-01-20
-pull-quote: "I would have the best copyright lawyers in the country figuring out how we can actually make this work."
+quote-card: "I would have the best copyright lawyers in the country figuring out how we can actually make this work."
 custom-css: ['interview-series']
 ---
 
@@ -49,6 +49,8 @@ But the institutional knowledge that was lost was physical. We had games where t
 A lot of that knowledge gets lost, and it's already lost even for things that were within my lifetime. That scares me. I think taking games out of their context like that is a huge disservice to a lot of these titles. Thankfully the concept of a museum and physical archive exists, and that's how we preserve the intent of these things, but that doesn't really solve the access problem.
 
 For the most part, for offline discrete games, the ability to play them is not that hard of a problem to solve. The ongoing availability of that data and context around them is under question and is sometimes one Internet Archive away from disappearing from the world.
+
+<div class="pull-quote">The ongoing availability of that data and context around them is under question and is sometimes one Internet Archive away from disappearing from the world.</div>
 
 <div class="speaker-label">Interviewer</div>
 <p>At least in archival time, the Video Game History Foundation is pretty new. What's it like being actively involved in building an institution in a field that quite recently had almost none? Right now VGHS is just two full-time employees, but in 200 years, it might not be that way.</p>

@@ -4,9 +4,9 @@ title: Tyler McMullen
 slug: tyler-mcmullen
 image: tyler-mcmullen.png
 bio: >
-  Tyler McMullen is a co-founder and Fellow at Fastly, a cloud computing company that focuses on content delivery network services and infrastructure.
+  Tyler McMullen is a co-founder and Fellow at <a href="https://www.fastly.com/" target="_blank">Fastly</a>, a cloud computing company that focuses on content delivery network services and infrastructure.
 date: 2025-01-30
-pull-quote: "My first step is to take that money and turn it into a self-sustaining fund."
+quote-card: "Where is the next generation going to come from? Where is the funding for that next generation going to come from as well?"
 custom-css: ['interview-series']
 ---
 
@@ -43,6 +43,8 @@ custom-css: ['interview-series']
 
 <div class="speaker-label">Tyler McMullen</div>
 <p>I think this might be a weird answer, but it seems to me that outside of major metropolitan areas, the future of the internet is almost certainly satellite based.</p>
+
+<div class="pull-quote">It seems to me that outside of major metropolitan areas, the future of the internet is almost certainly satellite based.</div>
 
 <p>That technology is growing and changing rapidly. It will bring the modern internet experience to huge parts of the global population that don't have it at the moment. It's super interesting to me because I can target population centers in San Francisco and in New York and in London and so on, but even geographically close places, like rural Montana, or most of Canada, there's not really a good way for me to get real infrastructure to them. Getting high speed internet infrastructure there is incredibly expensive and almost certainly never going to pay for itself.</p>
 

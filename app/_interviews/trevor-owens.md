@@ -4,9 +4,9 @@ title: Trevor Owens
 slug: trevor-owens
 image: trevor-owens.png
 bio: >
-  Trevor Owens is Chief Research Officer of the American Institute of Physics and the author of four books including "After Disruption: A Future for Cultural Memory" and "The Theory and Craft of Digital Preservation."
+  <a href="https://trevorowens.org/" target="_blank">Trevor Owens</a> is Chief Research Officer of the American Institute of Physics and the author of four books including <a href="https://press.umich.edu/Books/A/After-Disruption" target="_blank">"After Disruption: A Future for Cultural Memory"</a> and <a href="https://www.press.jhu.edu/books/title/11947/theory-and-craft-digital-preservation" target="_blank">"The Theory and Craft of Digital Preservation."</a>
 date: 2025-02-15
-pull-quote: "The more that information is touched, the more that it's handled, the more that it's forward migrated, the more that it's engaged with, the safer it is."
+quote-card: "There's a technical way to answer the question, focusing on redundancy or what kind of media to use, but my sense is that those are largely solved problems at this point."
 custom-css: ['interview-series']
 ---
 
@@ -35,6 +35,8 @@ custom-css: ['interview-series']
 
 <div class="speaker-label">Trevor Owens</div>
 <p>Preservation is access in the future. There's a fair number of situations where dark archiving is important. We have to accept embargoes sometimes.</p>
+
+<div class="pull-quote">Preservation is access in the future.</div>
 
 <p>The way we frame this within the American Institute of Physics research team is one of our core areas of focus is ensuring that records of 20th and 21st century physical science are both preserved and used at the same time.</p>
 

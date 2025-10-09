@@ -4,9 +4,9 @@ title: Michelle Lee
 slug: michelle-lee
 image: michelle-lee.png
 bio: >
-  Michelle Lee is product lead at Protocol Labs and Executive Director of the IPFS Foundation.
+  Michelle Lee is product lead at <a href="https://www.protocol.ai/" target="_blank">Protocol Labs</a> and Executive Director of the <a href="https://ipfs.tech/" target="_blank">IPFS Foundation</a>.
 date: 2025-02-05
-pull-quote: "I would have the best copyright lawyers in the country figuring out how we can actually make this work."
+quote-card: "I would do two things, both where I'm not following instructions."
 custom-css: ['interview-series']
 ---
 
@@ -25,6 +25,8 @@ custom-css: ['interview-series']
 
 <div class="speaker-label">Michelle Lee</div>
 <p>IPFS as a project is 10 years old. In terms of software, it's time to have a midlife crisis. In the very beginning, Juan Bennett, its inventor, had this vision of if you create these primitives that are self-certifying, then you can recombine them in this global peer-to-peer network and have this fully alternate network for sharing information across the internet. I think what we're seeing more recently is developers and community members using these primitives and recombining them in hybrid architectures.</p>
+
+<div class="pull-quote">IPFS as a project is 10 years old. In terms of software, it's time to have a midlife crisis.</div>
 
 <p>And I think what we're coming around to is transitions take time and transitions often pass through a messy middle. Now a lot of our energy is put into making sure these primitives are interoperable and self-certifying and easy to use in whatever architecture you choose. BlueSky, for example, uses the IPFS content addressing tooling, but it's run on traditional web servers. And that's why what is important is the interoperability of the data and being able to reuse it in other systems and other networks, rather than dictating that the only way to exchange information is peer-to-peer.</p>
 

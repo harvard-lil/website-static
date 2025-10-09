@@ -4,9 +4,9 @@ title: Matteo Cargnelutti
 slug: matteo-cargnelutti
 image: matteo-cargnelutti.png
 bio: >
-  Matteo Cargnelutti is Principal Engineer at the Institutional Data Initiative at Harvard Law School Library and a fellow at the Harvard Library Innovation Lab. His work focuses on digital preservation, open knowledge, and the data that underpins AI.
+  <a href="https://matteocargnelutti.dev/" target="_blank">Matteo Cargnelutti</a> is Principal Engineer at the Institutional Data Initiative at Harvard Law School Library and a fellow at the Harvard Library Innovation Lab. His work focuses on digital preservation, open knowledge, and the data that underpins AI.
 date: 2025-01-30
-pull-quote: "I think the first thing I would focus on is expanding the new storage formats that exist right now at the lab stage."
+quote-card: "If we were able to have this sort of technology, designed from the beginning to store things for centuries and more, it would need to be broadly accessible, and cheap."
 custom-css: ['interview-series']
 ---
 
@@ -25,6 +25,8 @@ custom-css: ['interview-series']
 
 <div class="speaker-label">Matteo Cargnelutti</div>
 <p>For me, the user in an archiving system can be the archivist and it could be the institution holding archives. That's a core use case, and we need to keep that in mind. But we've also seen more and more homegrown archives, especially since the mid-2010s. So I also think of the user as the amateur archivist preserving things just because it matters to them personally. Eventually, what they preserved might matter for society in general, sometimes even for the whole of humanity.</p>
+
+<div class="pull-quote">I also think of the user as the amateur archivist preserving things just because it matters to them personally. Eventually, what they preserved might matter for society in general, sometimes even for the whole of humanity.</div>
 
 <p>So I don't think I have a precise answer to that question. It's more about how many different use cases you want to enable as opposed to just focusing on one. In my work in general, I try to make sure I don't over-optimize for a single use case. I try to be as use case agnostic as possible, which is a major challenge.</p>
 

@@ -4,9 +4,9 @@ title: Martin Kunze & Steffen Hellmold
 slug: martin-kunze-steffen-hellmold
 image: cerabyte.png
 bio: >
-  Martin Kunze (President) and Steffen Hellmold (Founder) work at Cerabyte, a company developing Ceramic Nano Memory.
+  Martin Kunze (President) and Steffen Hellmold (Founder) work at <a href="https://www.cerabyte.com/" target="_blank">Cerabyte</a>, a company developing Ceramic Nano Memory.
 date: 2025-01-20
-pull-quote: "I want to say exactly what we are doing at the moment."
+quote-card: "So this was the idea- to store digital information in an analog archive"
 custom-css: ['interview-series']
 ---
 
@@ -39,6 +39,8 @@ custom-css: ['interview-series']
 <p>Well, I would say it started as an art project or cultural project with the time perspective of a time horizon of hundreds or thousands of years.</p>
 
 <p>There is a track record of thousands of years on Babylonian cuneiform tablets. The solution was already there, it's ceramics. This is just a modern form. And seeing the need to leave something permanent, because digital records will not endure. So probably the question is the other way around. How do you get a business out of something which you think should last for thousands of years?</p>
+
+<div class="pull-quote">The question is the other way around. How do you get a business out of something which you think should last for thousands of years?</div>
 
 <div class="speaker-label">Steffen Hellmold</div>
 <p>I think something that a lot of people are very familiar with is having a long term vision. While you're seeking to do something greater for mankind, you have to find economic digestible milestones that you can iterate yourself towards that long term goal. You somehow have to create value along the way, in order to sustainably and continuously secure additional funding for the work that you do. In a market driven economy, you have to find someone that you can convince, who will provide the capital for that.</p>

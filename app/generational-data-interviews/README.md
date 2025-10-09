@@ -87,7 +87,7 @@ app/
    bio: >
      Brief biographical description of the interviewee.
    date: 2025-01-30
-   pull-quote: "A compelling quote from the interview."
+   quote-card: "A compelling quote from the interview."
    custom-css: ['interview-series']
    ---
    ```
@@ -120,13 +120,6 @@ app/
        }
    ];
    ```
-
-### Step 4: Test and Verify
-
-1. **Check landing page**: Interview should appear in grid
-2. **Test navigation**: Previous/next arrows should work
-3. **Verify mobile**: Dropdown should include new interview
-4. **Check styling**: Headshot should display correctly
 
 ## 🎨 Managing Styling
 

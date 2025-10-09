@@ -4,9 +4,9 @@ title: Rebecca Cremona
 slug: rebecca-cremona
 image: rebecca-cremona.png
 bio: >
-  Rebecca Cremona is Senior Software Engineer at the Library Innovation Lab at Harvard Law School and lead engineer of the Perma.cc project.
+  Rebecca Cremona is Senior Software Engineer at the Library Innovation Lab at Harvard Law School and lead engineer of the <a href="http://Perma.cc" target="_blank">Perma.cc</a> project.
 date: 2025-01-20
-pull-quote: "I think that if you have everything, you have nothing. It's all the grains of sand at the beach."
+quote-card: "I would assemble a huge panel of staff from all kinds of backgrounds and all kinds of geographies to try and curate what we were trying to save for a century or not."
 custom-css: ['interview-series']
 ---
 
@@ -43,5 +43,7 @@ custom-css: ['interview-series']
 
 <div class="speaker-label">Rebecca Cremona</div>
 <p>A website, we call it a site, you know, a place. It's not really like a page. Every web thing is a live performance of actors for you in the moment. It can never be repeated. It can be the same script, the same venue, but it's never the same.</p>
+
+<div class="pull-quote">Every web thing is a live performance of actors for you in the moment. It can never be repeated.</div>
 
 <p>That's what most people want right now when they visit a web archive, another performance of exactly what they saw. Something that Perma does that I really like is inside the artifact that we produce, we try to stuff other file formats. So, you can get the page, but you also get a screenshot. So, you can't interact with it, but it's at least an exact visual, that's what it looked like in our headless browser at that instant in time. You also get a PDF, you also get a DOM snapshot, the HTML all written out, how it was rendered. Live replay is a complicated thing. It's probably not going to last a hundred years in a lot of cases. What you're trying to preserve is the memory, not the artifact. You don't need the thing, you need the memory of the thing.</p>

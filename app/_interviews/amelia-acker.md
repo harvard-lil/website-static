@@ -4,9 +4,9 @@ title: Amelia Acker
 slug: amelia-acker
 image: amelia-acker.png
 bio: >
-  Amelia Acker is an Associate Professor in the School of Communication & Information at Rutgers, The State University of New Jersey. Her research is concerned with the emergence, standardization, and preservation of information. Her book Archiving Machines is forthcoming from MIT Press in November 2025.
+  <a href="https://www.ameliaacker.com/" target="_blank">Amelia Acker</a> is an Associate Professor in the School of Communication & Information at Rutgers, The State University of New Jersey. Her research is concerned with the emergence, standardization, and preservation of information. Her book <a href="https://mitpress.mit.edu/9780262553247/archiving-machines/" target="_blank">Archiving Machines</a> is forthcoming from MIT Press in November 2025.
 date: 2025-01-30
-pull-quote: "I probably wouldn't build a system. I'd build a bureaucracy."
+quote-card: "I probably wouldn't build a system. I'd build a bureaucracy."
 custom-css: ['interview-series']
 ---
 
@@ -21,6 +21,8 @@ custom-css: ['interview-series']
 <p>Right now the plan to preserve most digital cultural memory is through rents. It's only a business plan. The few options that aren't are still public-private partnerships. They're still very limited. Most of those business plans are about providing second and third-party access that is for platforms or for ads or for AI strip mining and not necessarily for cultural heritage or posterity.</p>
 
 <p>Do you know the Digital Public Library of America? They had this really great API that I teach with in class. If you just do a quick search, a lotto search for S3, all the S3 records are all The Smithsonian, the National Archives, all from what I think of as the biggest and best and brightest information institutions that our country has built. We need an S3 bucket that is not built by Amazon.</p>
+
+<div class="pull-quote">We need an S3 bucket that is not built by Amazon.</div>
 
 <div class="speaker-label">Interviewer</div>
 <p>What do you think about grassroots community archival efforts? It's obviously different than what can happen on a governmental or institutional level, but there's some examples, particularly in the arts, that have done quite well even over hundreds of years.</p>

@@ -4,9 +4,9 @@ title: Lori Emerson
 slug: lori-emerson
 image: lori-emerson.png
 bio: >
-  Lori Emerson is the Founding Director of the Media Archaeology Lab and a Professor of Media Studies at the University of Colorado Boulder. Her most recent book is "Other Networks: A Radical Technology Sourcebook"
+  <a href="https://loriemerson.net/" target="_blank">Lori Emerson</a> is the Founding Director of the <a href="https://www.mediaarchaeologylab.com/" target="_blank">Media Archaeology Lab</a> and a Professor of Media Studies at the University of Colorado Boulder. Her most recent book is <a href="https://shop.mexicansummer.com/merch/495898-lori-emerson-other-networks-a-radical-technology-sourcebook" target="_blank">"Other Networks: A Radical Technology Sourcebook"</a>
 date: 2025-01-25
-pull-quote: "I'm going to give you the most boring and predictable answer possible."
+quote-card: "The book is the most beautiful invention I can think of."
 custom-css: ['interview-series']
 ---
 
@@ -39,6 +39,8 @@ custom-css: ['interview-series']
 
 <div class="speaker-label">Lori Emerson</div>
 <p>I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass. If a teenager were to go to a museum and look at a typewriter under glass, how on earth could they possibly be excited or engaged with that object just by looking at it?</p>
+
+<div class="pull-quote">I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass.</div>
 
 <div class="speaker-label">Interviewer</div>
 <p>Preserving digital media involves objects in multiple formats and media. Some of those objects are mass produced and there might be copies, but some are single copies. Some are replicable as recipes or through emulation. Is there a difference between preserving software versus hardware versus these paper documents? How do you think through all those differences and nuances?</p>
