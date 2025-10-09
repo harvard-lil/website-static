@@ -29,6 +29,8 @@ custom-css: ['interview-series']
 
 <p>So a lot of money would help get this done faster.</p>
 
+<div class="pull-quote">The question is the other way around. How do you get a business out of something which you think should last for thousands of years?</div>
+
 <div class="speaker-label">Steffen Hellmold</div>
 <p>While we have the starting point with lasers, the ultimate scale would be similar to making silicon chips today with a semiconductor manufacturing process, if you could use and leverage this entire foundational infrastructure, you could write information onto glass in a very enduring way. Keep in mind that semiconductor chips last much longer than they may operate. So when you think about that, that's truly the integral part in how you make storage a part of the overall high-tech ecosystem.</p>
 
@@ -39,8 +41,6 @@ custom-css: ['interview-series']
 <p>Well, I would say it started as an art project or cultural project with the time perspective of a time horizon of hundreds or thousands of years.</p>
 
 <p>There is a track record of thousands of years on Babylonian cuneiform tablets. The solution was already there, it's ceramics. This is just a modern form. And seeing the need to leave something permanent, because digital records will not endure. So probably the question is the other way around. How do you get a business out of something which you think should last for thousands of years?</p>
-
-<div class="pull-quote">The question is the other way around. How do you get a business out of something which you think should last for thousands of years?</div>
 
 <div class="speaker-label">Steffen Hellmold</div>
 <p>I think something that a lot of people are very familiar with is having a long term vision. While you're seeking to do something greater for mankind, you have to find economic digestible milestones that you can iterate yourself towards that long term goal. You somehow have to create value along the way, in order to sustainably and continuously secure additional funding for the work that you do. In a market driven economy, you have to find someone that you can convince, who will provide the capital for that.</p>
@@ -55,7 +55,7 @@ custom-css: ['interview-series']
 <p>With the media I always like to say it is like cuneiform tablets shrunk down to the nanoscale or like ceramic punch cards at nanoscale. People can connect to that. When you think about the writing process, this is like maskless lithography, right? This is how you edge or you write a semiconductor. At least in the tech world, people can connect to that. So you need to break down the technology into parts that you can anchor in something that people are familiar with because otherwise they don't know where to start.</p>
 
 <div class="speaker-label">Martin Kunze</div>
-<p>And it depends really on who we are talking to and what's the specific background. If someone is not familiar with the topic at all, I will start to explain that today's media has a limited lifetime. The disks installed in 2019 are now being dismissed or discarded or commissioned. According to the numbers of drives which were delivered or shipped in 2019, there are 600,000 hard drives per single day that need to be decommissioned. People understand it's very unsustainable. And then I say we are making something which doesn't need to be replaced.</p>
+<p>And it depends really on who we are talking to and what's the specific background. If someone is not familiar with the topic at all, I will start to explain that today's media has a limited lifetime. The disks installed in 2019 are now being dismissed or discarded or commissioned. According to the numbers of drives which were delivered or shipped in 2019, <a href="/generational-data-interviews/mark-lantz/" class="editor-note-link" target="_blank">there are 600,000 hard drives per single day that need to be decommissioned. People understand it's very unsustainable. And then I say we are making something which doesn't need to be replaced.</a><span class="editor-note">Despite being a novel physical storage approach, Cerabyte's route to sustainable longevity involves pulling an old technology into the present. Mark Lantz, who we also spoke with, has dedicated much of his career to incrementally evolving a technology that was always intended for long term storage: tape.</span></p>
 
 <div class="speaker-label">Steffen Hellmold</div>
 <p>You've got to find the anchor point to your audience. We have a media that is useful for digital preservation, but also enables AI, because it's accessible capacity storage. Now, the problem is that both of these audiences cannot be addressed with the same message. And that's why we had to come up with the split tagline of saving the past and enabling the future. To try to build that bridge. This is the other problem that we're facing is when you have the broadest possible use of what you're developing, how do you touch all the audiences and make sure they can connect to that? Because in the world of AI, they don't necessarily care about forever storage, so the needs are different.</p>

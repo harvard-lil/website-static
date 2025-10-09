@@ -20,13 +20,13 @@ custom-css: ['interview-series']
 
 <p>Institutions have a critical role to play in archiving things "forever" and "lots of copies keep stuff safe." But if I'm thinking about storing things for the long term, I would want as many copies as possible. So if we were able to have this sort of technology, designed from the beginning to store things for centuries and more, it would need to be broadly accessible, and cheap. This is where I would start. I think this is a massive undertaking, because it's research and development for something that is extremely challenging. Practices have changed and the cloud is the default for many people. But I would want as many actors as possible involved in archiving things and making their own curatorial decisions. So I would want this type of technology to be broadly available.</p>
 
+<div class="pull-quote">I also think of the user as the amateur archivist preserving things just because it matters to them personally.</div>
+
 <div class="speaker-label">Interviewer</div>
 <p>How do you think about users when designing or considering an archival system or tool? It's such a different use-case than many other types of software and hardware.</p>
 
 <div class="speaker-label">Matteo Cargnelutti</div>
-<p>For me, the user in an archiving system can be the archivist and it could be the institution holding archives. That's a core use case, and we need to keep that in mind. But we've also seen more and more homegrown archives, especially since the mid-2010s. So I also think of the user as the amateur archivist preserving things just because it matters to them personally. Eventually, what they preserved might matter for society in general, sometimes even for the whole of humanity.</p>
-
-<div class="pull-quote">I also think of the user as the amateur archivist preserving things just because it matters to them personally. Eventually, what they preserved might matter for society in general, sometimes even for the whole of humanity.</div>
+<p>For me, the user in an archiving system can be the archivist and it could be the institution holding archives. That's a core use case, and we need to keep that in mind. But we've also seen more and more homegrown archives, especially since the mid-2010s. <a href="/generational-data-interviews/trevor-owens/" class="editor-note-link" target="_blank">So I also think of the user as the amateur archivist preserving things just because it matters to them personally. Eventually, what they preserved might matter for society in general, sometimes even for the whole of humanity.</a><span class="editor-note">The work of an amateur archivist making it to 100 years in the future is not a given. We also spoke with Trevor Owens, whose work considers how individual collecting can interact with institutional stewardship.</span></p>
 
 <p>So I don't think I have a precise answer to that question. It's more about how many different use cases you want to enable as opposed to just focusing on one. In my work in general, I try to make sure I don't over-optimize for a single use case. I try to be as use case agnostic as possible, which is a major challenge.</p>
 

@@ -785,24 +785,68 @@
 
 
 .interview-landing__introduction-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-xl);
+    column-count: 2;
+    column-gap: var(--spacing-xl);
     max-width: var(--container-max-width);
     margin: 0 auto;
     padding: 0 var(--container-padding);
     background: transparent;
 }
 
-.interview-landing__introduction-left p,
-.interview-landing__introduction-right p {
+/* Auto-distribute paragraphs into columns */
+.interview-landing__introduction-content p {
+    break-inside: avoid;
+    margin-bottom: var(--spacing-sm);
+    page-break-inside: avoid;
+}
+
+/* Responsive column balancing */
+@media (min-width: 768px) {
+    .interview-landing__introduction-content {
+        column-count: 2;
+        column-gap: var(--spacing-xl);
+    }
+}
+
+/* Advanced responsive balancing - adjust column widths based on content */
+@media (min-width: 1024px) {
+    .interview-landing__introduction-content {
+        column-count: 2;
+        column-gap: var(--spacing-xl);
+    }
+    
+    /* Ensure paragraphs can wrap and flow naturally */
+    .interview-landing__introduction-content p {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+}
+
+/* Mobile: single column */
+@media (max-width: 767px) {
+    .interview-landing__introduction-content {
+        column-count: 1;
+        column-gap: 0;
+    }
+}
+
+.interview-landing__introduction-content p {
     font-size: var(--text-lg);
     line-height: 1.7;
-    color: var(--interview-text-muted);
+    color: var(--interview-text-primary);
     margin-bottom: var(--spacing-sm);
 }
 
+.interview-landing__introduction a {
+    text-decoration: underline;
+    color: var(--interview-text-primary);
+}
 
+.interview-landing__introduction a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
 
 
 .interview-landing__introduction h2,

@@ -24,7 +24,7 @@ custom-css: ['interview-series']
 
 Second, from a tech perspective, I would invest in the ability for researchers to tinker with, build, and play historical video games, to gain a better understanding of what makes them click, what makes them unique.
 
-This is something I personally did for an article on our website, about The Secret of Monkey Island. That's a game that is very informed in its design by its tools. I learned the SCUMM scripting language it was made with to be able to get in there, tinker, build, and restore cut content. I have a better understanding of that game and where it came from than I would have from just playing it. I would love to be able to share unique experiences like that.
+This is something I personally did for an article on our website, about The Secret of Monkey Island. That's a game that is very informed in its design by its tools. I learned the SCUMM scripting language it was made with to be able to get in there, tinker, build, and restore cut content. <a href="/generational-data-interviews/katie-mackinnon/" class="editor-note-link" target="_blank">I have a better understanding of that game and where it came from than I would have from just playing it. I would love to be able to share unique experiences like that.</a><span class="editor-note">Understanding where a piece of memory or culture sits in context has just as much to do with its ability to be preserved as its physical existence. We heard from Katie Mackinnon about how thinking of data in a ecological sense could be a key to longevity.</span>
 
 <div class="speaker-label">Interviewer</div>
 <p>There are a lot of different types of media in your collection, both digital and physical. There are handwritten notes on paper, there's code, there's software, there's graphical assets, the breadth is large. How do you think about processing, storing, and preserving it all, especially over long periods?</p>
@@ -46,11 +46,11 @@ There's an institutional knowledge to games. To your point, how a game is suppos
 
 But the institutional knowledge that was lost was physical. We had games where the original input mechanism was a joystick that you twisted to rotate your character. We had games where the original feel was that you had three of your fingers resting on three buttons, and you could rapidly press any combination of them. That's not how we hold a modern controller, we have a thumb over two buttons. So we had to reference grainy YouTube videos to see what the actual play field was supposed to look like, to determine how the industrial designers expected your hands to rest in order to adapt that as best we could to the controllers of an Xbox One or a Switch or whatever.
 
+<div class="pull-quote">The ongoing availability of that data and context around them is under question and is sometimes one Internet Archive away from disappearing from the world.</div>
+
 A lot of that knowledge gets lost, and it's already lost even for things that were within my lifetime. That scares me. I think taking games out of their context like that is a huge disservice to a lot of these titles. Thankfully the concept of a museum and physical archive exists, and that's how we preserve the intent of these things, but that doesn't really solve the access problem.
 
 For the most part, for offline discrete games, the ability to play them is not that hard of a problem to solve. The ongoing availability of that data and context around them is under question and is sometimes one Internet Archive away from disappearing from the world.
-
-<div class="pull-quote">The ongoing availability of that data and context around them is under question and is sometimes one Internet Archive away from disappearing from the world.</div>
 
 <div class="speaker-label">Interviewer</div>
 <p>At least in archival time, the Video Game History Foundation is pretty new. What's it like being actively involved in building an institution in a field that quite recently had almost none? Right now VGHS is just two full-time employees, but in 200 years, it might not be that way.</p>

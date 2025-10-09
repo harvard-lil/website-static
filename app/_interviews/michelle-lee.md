@@ -20,13 +20,13 @@ custom-css: ['interview-series']
 
 <p>The long-term value of data lies in our ability to read and learn from it, whether it's processing, or replicating, or porting to other formats. And so that's the credible exit lens on data preservation. I think there's a lot of fantastic and very thorough ways to keep data around, but if you look at what practitioners want to do with that data, that's where the ecosystem is weaker.</p>
 
+<div class="pull-quote">IPFS as a project is 10 years old. In terms of software, it's time to have a midlife crisis.</div>
+
 <div class="speaker-label">Interviewer</div>
 <p>Obviously, this is a part of your everyday work but it also relates to this conversation, how are you currently thinking about the trade-offs between decentralization and centralization?</p>
 
 <div class="speaker-label">Michelle Lee</div>
 <p>IPFS as a project is 10 years old. In terms of software, it's time to have a midlife crisis. In the very beginning, Juan Bennett, its inventor, had this vision of if you create these primitives that are self-certifying, then you can recombine them in this global peer-to-peer network and have this fully alternate network for sharing information across the internet. I think what we're seeing more recently is developers and community members using these primitives and recombining them in hybrid architectures.</p>
-
-<div class="pull-quote">IPFS as a project is 10 years old. In terms of software, it's time to have a midlife crisis.</div>
 
 <p>And I think what we're coming around to is transitions take time and transitions often pass through a messy middle. Now a lot of our energy is put into making sure these primitives are interoperable and self-certifying and easy to use in whatever architecture you choose. BlueSky, for example, uses the IPFS content addressing tooling, but it's run on traditional web servers. And that's why what is important is the interoperability of the data and being able to reuse it in other systems and other networks, rather than dictating that the only way to exchange information is peer-to-peer.</p>
 
@@ -36,7 +36,7 @@ custom-css: ['interview-series']
 <div class="speaker-label">Michelle Lee</div>
 <p>With IPFS, we talk about the data life cycle of finding and then retrieving and then verifying. Finding continues to be a challenge across the whole data preservation world, right? Like you have these long respected institutions like Harvard, for example, that can keep an archive. You have organizations like the Internet Archive. But there's a lot of other institutions and communities out there who have downloaded YouTube videos or public health data sets or whatever they're preserving, fanfic writers are archiving tons and tons of content. There are very few ways to find that data and find where it exists and have it come with some sort of reputation, its lineage and how it was archived, where it came from.</p>
 
-<p>As a space evolves some subsets of a field become more mature and less mature. I think right now, discoverability is a big challenge, the biggest barrier to practical access to preserved data. It's so interesting thinking about the challenges for different types of preservers in this context.</p>
+<p>As a space evolves some subsets of a field become more mature and less mature. <a href="/generational-data-interviews/ian-milligan/" class="editor-note-link" target="_blank">I think right now, discoverability is a big challenge, the biggest barrier to practical access to preserved data.</a><span class="editor-note">Ian Milligan talked about the symbiotic relationship between different web archiving organizations - and how discoverability and legability of those artifacts is a huge challenge.</span> It's so interesting thinking about the challenges for different types of preservers in this context.</p>
 
 <div class="speaker-label">Interviewer</div>
 <p>I'd love to hear more about how you think about longevity and how you think about creating and fostering systems, environments, and cultures that can deal with stewardship and governance over long periods.</p>

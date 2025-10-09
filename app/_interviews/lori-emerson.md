@@ -26,6 +26,8 @@ custom-css: ['interview-series']
 
 <p>The objects themselves are entrenched in larger ways of life. It's very clear to me that that's the case when we have parents or grandparents of students come into the lab and suddenly light up when they see an object that they might have grown up with in the 1970s. Someone walks up to the Altair 8800B computer from 1976 and it's like playing the piano. It's muscle memory, they suddenly remember how to use these switches. And that is coupled with, as you just reminded me of, all of the ephemera. The ephemera is really wonderful, hand-drawn maps of early video games, little notations at the backs of books, stickers, notepads, floppy disks with divorce agreements on them, all kinds of things.</p>
 
+<div class="pull-quote">I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass.</div>
+
 <div class="speaker-label">Interviewer</div>
 <p>How do you approach assembling the collection? So much of the lab's work is grounded in the practice of archaeology, of being a place for rediscovery or resurrection.</p>
 
@@ -38,9 +40,7 @@ custom-css: ['interview-series']
 <p>MAL has always seemed extremely conscious of accessibility. Even the website itself is an unusually open portal into your collections, so that a random member of the public 10,000 miles away can really look at the work you're doing. What role does access play in the Lab and its practice?</p>
 
 <div class="speaker-label">Lori Emerson</div>
-<p>I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass. If a teenager were to go to a museum and look at a typewriter under glass, how on earth could they possibly be excited or engaged with that object just by looking at it?</p>
-
-<div class="pull-quote">I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass.</div>
+<p>I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass. <a href="/generational-data-interviews/martin-kunze-steffen-hellmold/" class="editor-note-link" target="_blank">If a teenager were to go to a museum and look at a typewriter under glass, how on earth could they possibly be excited or engaged with that object just by looking at it?</a><span class="editor-note">Being able to touch and feel culture from the past builds our ability to care, and preserve. Martin and Steffen at Cerabyte have a reverence for the materiality of clay and ceramics that grounds their approach to digital storage.</span></p>
 
 <div class="speaker-label">Interviewer</div>
 <p>Preserving digital media involves objects in multiple formats and media. Some of those objects are mass produced and there might be copies, but some are single copies. Some are replicable as recipes or through emulation. Is there a difference between preserving software versus hardware versus these paper documents? How do you think through all those differences and nuances?</p>
