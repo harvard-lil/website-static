@@ -17,8 +17,8 @@
   subcategory: Recent
   order:
   no-swup: true
-- title: Generational Data Interviews
-  url: /generational-data-interviews/
-  subcategory: Recent
-  order:
-  no-swup: true
+# - title: Generational Data Interviews
+#   url: /generational-data-interviews/
+#   subcategory: Recent
+#   order:
+#   no-swup: true

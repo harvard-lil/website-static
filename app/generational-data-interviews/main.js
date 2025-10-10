@@ -1,23 +1,24 @@
 // Generational Data Interviews - Main JavaScript File
 // Handles all interview series functionality
+// Note: these files were generated in part by Cursor, the AI coding assistant.
 
 
 // Centralized interview data - single source of truth
 const INTERVIEWS = [
     { name: 'AMELIA ACKER', file: 'amelia-acker', pullQuote: "I probably wouldn't build a system. I'd build a bureaucracy." },
-    { name: 'MATTEO CARGNELUTTI', file: 'matteo-cargnelutti', pullQuote: "If we were able to have this sort of technology, designed from the beginning to store things for centuries and more, it would need to be broadly accessible, and cheap." },
+    { name: 'CHE-WEI WANG & TAYLOR LEVY', file: 'che-wei-wang-taylor-levy', pullQuote: "Wait, only a hundred years?" },
     { name: 'FRANK CIFALDI', file: 'frank-cifaldi', pullQuote: "I would have the best copyright lawyers in the country figuring out how we can actually make this work." },
     { name: 'REBECCA CREMONA', file: 'rebecca-cremona', pullQuote: "I would assemble a huge panel of staff from all kinds of backgrounds and all kinds of geographies to try and curate what we were trying to save for a century or not." },
     { name: 'LORI EMERSON', file: 'lori-emerson', pullQuote: "The book is the most beautiful invention I can think of." },
     { name: 'REBECCA FRANK', file: 'rebecca-frank', pullQuote: "The glib answer is the money itself would be the solution." },
-    { name: 'MARTIN KUNZE & STEFFEN HELLMOLD', file: 'martin-kunze-steffen-hellmold', pullQuote: "So this was the idea- to store digital information in an analog archive" },
+    { name: 'IAN MILLIGAN', file: 'ian-milligan', pullQuote: "I don't think there's a technological solution that's going to achieve that goal." },
     { name: 'MARK LANTZ', file: 'mark-lantz', pullQuote: "Even if I have a punch card reader from 1940 that can still read my punch cards, I can't find a computer that supports the interface it has...I would work on that neglected part of the problem." },
     { name: 'MICHELLE LEE', file: 'michelle-lee', pullQuote: "I would do two things, both where I'm not following instructions." },
     { name: 'KATIE MACKINNON', file: 'katie-mackinnon', pullQuote: "I'd devote a lot of the funding to the decision-making processes around what gets to last for 100 years, who gets to decide, and why?" },
-    { name: 'TYLER MCMULLEN', file: 'tyler-mcmullen', pullQuote: "Where is the next generation going to come from? Where is the funding for that next generation going to come from as well?" },
-    { name: 'IAN MILLIGAN', file: 'ian-milligan', pullQuote: "I don't think there's a technological solution that's going to achieve that goal." },
+    { name: 'MARTIN KUNZE & STEFFEN HELLMOLD', file: 'martin-kunze-steffen-hellmold', pullQuote: "So this was the idea- to store digital information in an analog archive" },
+    { name: 'MATTEO CARGNELUTTI', file: 'matteo-cargnelutti', pullQuote: "If we were able to have this sort of technology, designed from the beginning to store things for centuries and more, it would need to be broadly accessible, and cheap." },
     { name: 'TREVOR OWENS', file: 'trevor-owens', pullQuote: "There's a technical way to answer the question, focusing on redundancy or what kind of media to use, but my sense is that those are largely solved problems at this point." },
-    { name: 'CHE-WEI WANG & TAYLOR LEVY', file: 'che-wei-wang-taylor-levy', pullQuote: "Wait, only a hundred years?" }
+    { name: 'TYLER MCMULLEN', file: 'tyler-mcmullen', pullQuote: "Where is the next generation going to come from? Where is the funding for that next generation going to come from as well?" }
 ];
 
 // Track initialization to prevent multiple runs
@@ -61,6 +62,9 @@ function initInterviewSeries() {
     // Set up centralized dropdown management
     setupCentralizedDropdownManagement();
     
+    // Set up blockquote observer
+    setupBlockquoteObserver();
+    
     // Load interviewees for landing page (only if on landing page)
     if (isLandingPage) {
         try {
@@ -90,9 +94,8 @@ function initInterviewSeries() {
             // Try to load sidebar immediately
             const sidebarLoaded = loadInterviewSidebar();
             
-            // Adjust pull quote sizes based on content length
-            const pullQuotes = document.querySelectorAll('.pull-quote');
-            pullQuotes.forEach(adjustPullQuoteSize);
+            // Adjust blockquote sizes based on content length
+            resizeAllBlockquotes();
             
             // Set up cycling navigation arrows
             try {
@@ -168,6 +171,9 @@ function setupSwupIntegration() {
                                 setupCyclingNavigation();
                                 initEditorsNotes();
                                 initBottomNavigation();
+                                
+                                // Adjust blockquote sizes based on content length
+                                resizeAllBlockquotes();
                             }
                         }, 100);
                     }
@@ -236,7 +242,7 @@ function setupSwupIntegration() {
                 const pathParts = currentPath.split('/').filter(part => part.length > 0);
                 const currentSlug = pathParts[pathParts.length - 1];
                 
-                const currentLink = interviewLinks.querySelector('.current');
+                const currentLink = interviewLinks.querySelector('.interview-page__link--current');
                 const needsUpdate = interviewLinks.children.length === 0 || 
                                  !currentLink || 
                                  !currentLink.href.includes(currentSlug);
@@ -571,7 +577,7 @@ function setupEditorNote(note, interviewName, href) {
         <button class="editor-note__close" aria-label="Close editor note">×</button>
         <div class="editor-note__label">Editor's note:</div>
         <div class="editor-note__content">${noteContent}</div>
-        <div class="editor-note__link">Click to read ${interviewName}'s interview next</div>
+        <div class="editor-note__link">Read ${interviewName}'s interview next</div>
     `;
     
     // Add close button functionality (desktop only)
@@ -807,10 +813,10 @@ function createDesktopIntervieweesGrid(grid, interviews) {
         
         intervieweeDiv.appendChild(link);
         
-        // Distribute across columns (roughly equal)
-        if (index % 3 === 0) {
+        // Distribute across columns sequentially
+        if (index < 5) {
             column1.appendChild(intervieweeDiv);
-        } else if (index % 3 === 1) {
+        } else if (index < 10) {
             column2.appendChild(intervieweeDiv);
         } else {
             column3.appendChild(intervieweeDiv);
@@ -1010,24 +1016,55 @@ function adjustQuoteTextSize(quoteCard) {
 }
 
 // Helper function to adjust pull quote text size based on content length
-function adjustPullQuoteSize(pullQuote) {
-    const text = pullQuote.textContent.trim();
+function adjustBlockquoteSize(blockquote) {
+    const text = blockquote.textContent.trim();
     const textLength = text.length;
     
-    // Calculate optimal font size based on text length - larger scale for pull quotes
+    // Calculate optimal font size based on text length - slightly smaller scale for blockquotes
     let fontSize;
     if (textLength <= 60) {
-        fontSize = 'clamp(2.5rem, 6vw, 4rem)';  // Large for short quotes
+        fontSize = 'clamp(2rem, 5vw, 3.5rem)';  // Large for short quotes
     } else if (textLength <= 100) {
-        fontSize = 'clamp(2rem, 5vw, 3.5rem)';  // Medium for medium quotes
+        fontSize = 'clamp(1.8rem, 4.5vw, 3rem)';  // Medium for medium quotes
     } else if (textLength <= 150) {
-        fontSize = 'clamp(1.8rem, 4.5vw, 3rem)'; // Smaller for longer quotes
+        fontSize = 'clamp(1.5rem, 4vw, 2.5rem)'; // Smaller for longer quotes
     } else {
-        fontSize = 'clamp(1.5rem, 4vw, 2.5rem)'; // Smallest for very long quotes
+        fontSize = 'clamp(1.2rem, 3.5vw, 2rem)'; // Smallest for very long quotes
     }
     
     // Apply the calculated font size
-    pullQuote.style.fontSize = fontSize;
+    blockquote.style.fontSize = fontSize;
+}
+
+// Dedicated function to resize all blockquotes
+function resizeAllBlockquotes() {
+    const blockquotes = document.querySelectorAll('blockquote p, blockquote');
+    console.log('Resizing blockquotes:', blockquotes.length);
+    blockquotes.forEach(adjustBlockquoteSize);
+}
+
+// Set up a MutationObserver to watch for blockquotes being added
+function setupBlockquoteObserver() {
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            if (mutation.type === 'childList') {
+                mutation.addedNodes.forEach((node) => {
+                    if (node.nodeType === 1) { // Element node
+                        if (node.tagName === 'BLOCKQUOTE' || node.querySelector('blockquote')) {
+                            setTimeout(() => {
+                                resizeAllBlockquotes();
+                            }, 50);
+                        }
+                    }
+                });
+            }
+        });
+    });
+    
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
 }
 
 function loadInterviewSidebar() {
