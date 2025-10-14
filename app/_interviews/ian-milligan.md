@@ -5,7 +5,7 @@ slug: ian-milligan
 image: ian-milligan.png
 bio: >
   <a href="https://www.ianmilligan.ca/" target="_blank">Ian Milligan</a> is Associate Vice-President, Research Oversight and Analysis at the University of Waterloo, where he is also professor of history. He is the author of <a href="https://www.press.jhu.edu/books/title/53671/averting-digital-dark-age" target="_blank">"Averting the Digital Dark Age: How Archivists, Librarians, and Technologists Built the Web a Memory."</a>
-date: 2025-02-10
+date: 2025-10-14
 quote-card: "I don't think there's a technological solution that's going to achieve that goal."
 custom-css: ['interview-series']
 ---
@@ -16,7 +16,7 @@ If you were given unlimited funding to design a system for storing and preservin
 ## Ian Milligan
 That's interesting. So if I had unlimited money to design a system to preserve information for at least 100 years, my answer would be that I don't think there's a technological solution that's going to achieve that goal.
 
-> It fundamentally died because people stopped caring.
+> [The Library of Alexandira] fundamentally died because people stopped caring.
 
 The example I often come back to when I'm talking to students is the Library of Alexandria. We think of this great library that amassed this unparalleled collection during the antiquity period, and then it failed. People think it failed because of beautiful Renaissance paintings of marauding armies burning down the Library of Alexandria, but it fundamentally died because people stopped caring. If people stop caring about information, no matter how well your system is designed, it's going to degrade. So I think if I had unlimited money, it would all be dedicated to building an apparatus that does community outreach, building an infrastructure that provides access to collections and integrates collections into the everyday life of people. So that the public can use that information, see the value of it, and they can advocate for the continued preservation of it.
 
@@ -44,7 +44,7 @@ When considering access and combating neglect, how do you think about materials 
 ## Ian Milligan
 I've been in rooms with stakeholders of traditional archives and people start talking about metrics of access on digital collections. I've always pushed back in these conversations, because we don't always hold traditional archives to the same level of metrics scrutiny as we do digital collections. Part of that is a lot of archives are still providing physical access to print collections. It's fairly low volume. It's human to human. You email the archivist, you make an appointment, they get the boxes out. Whereas with digital collections, the team usually provides some kind of Google Analytics dashboard and managers can measure that more easily than they can measure traditional access. It's especially tricky right now, because we're collecting a lot of information. We are collecting the petabyte scale of information and usage may be low in many places. I think the example of Vivaldi is a good one. It takes time for materials to become part of the historical record.
 
-In terms of access, it's been really tricky to use web archives so far, especially for anything approaching scholarly rigor. You can use replay engines if you know what you're looking for and what you're doing, but <a href="/generational-data-interviews/che-wei-wang-taylor-levy/" class="editor-note-link" target="_blank">I've seen historians sometimes struggle to even use the Wayback Machine, let alone other mechanisms.</a><span class="editor-note">Interfaces, interfaces, interfaces!</span> We need to build capacity amongst researchers, historians, journalists, and social scientists to begin thinking of the web as a historical document. It's not really new media anymore. It's been the cultural record of our society for 20 years. But access continues to be critical. It's important both for users of the information and also for collectors. Access is the way that we can find gaps, see what is not already collected, and fill those areas to create a richer record.
+In terms of access, it's been really tricky to use web archives so far, especially for anything approaching scholarly rigor. You can use replay engines if you know what you're looking for and what you're doing, but <a href="/generational-data-interviews/che-wei-wang-taylor-levy/" class="editor-note-link" target="_blank">I've seen historians sometimes struggle to even use the Wayback Machine, let alone other mechanisms.</a><span class="editor-note">Che-Wei and Taylor agreed: interfaces, interfaces, interfaces!</span> We need to build capacity amongst researchers, historians, journalists, and social scientists to begin thinking of the web as a historical document. It's not really new media anymore. It's been the cultural record of our society for 20 years. But access continues to be critical. It's important both for users of the information and also for collectors. Access is the way that we can find gaps, see what is not already collected, and fill those areas to create a richer record.
 
 ## Interviewer
 Where do you wish copyright would go in the future?

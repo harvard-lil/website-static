@@ -5,7 +5,7 @@ slug: rebecca-frank
 image: rebecca-frank.png
 bio: >
   <a href="https://www.si.umich.edu/people/rebecca-frank" target="_blank">Rebecca Frank</a> is an Assistant Professor at the University of Michigan School of Information. Her research examines the social construction of risk in digital repository systems, open data, digital preservation, digital curation, and data reuse.
-date: 2025-01-20
+date: 2025-10-14
 quote-card: "The glib answer is the money itself would be the solution."
 custom-css: ['interview-series']
 ---

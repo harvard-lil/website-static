@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<!-- Skip Links for Accessibility -->
+<div class="skip-links">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#interview-text" class="skip-link">Skip to interview text</a>
+    <a href="#navigation" class="skip-link">Skip to navigation</a>
+</div>
+
 <div class="interview-page">
     <!-- Profile Section -->
     <section class="interview-page__profile" style="padding-top: 120px; background: #EFEEEB;">
@@ -14,11 +21,11 @@ layout: default
                     <div class="interview-page__profile-header">
                         <h1 class="interview-page__interviewee-name">{{ page.title | upcase }}</h1>
                         <div class="interview-page__navigation-arrows">
-                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--prev" id="prev-arrow">
-                                <span>←</span>
+                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--prev" id="prev-arrow" aria-label="Go to previous interview">
+                                <span aria-hidden="true">←</span>
                             </a>
-                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--next" id="next-arrow">
-                                <span>→</span>
+                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--next" id="next-arrow" aria-label="Go to next interview">
+                                <span aria-hidden="true">→</span>
                             </a>
                         </div>
                     </div>
@@ -29,11 +36,11 @@ layout: default
     </section>
 
     <!-- Content Section -->
-    <section class="interview-page__content">
+    <section class="interview-page__content" id="main-content">
         <div class="container">
             <div class="interview-page__content-wrapper">
                 <!-- Left Sidebar -->
-                <div class="interview-page__sidebar">
+                <div class="interview-page__sidebar" id="navigation">
                     <div class="interview-page__sidebar-section">
                         <div class="interview-page__date">{{ page.date | date: "%B %d, %Y" }}</div>
                         <h3>Other Interviews</h3>
@@ -44,14 +51,14 @@ layout: default
                 </div>
                 
                 <!-- Right Column: Interview Content -->
-                <div class="interview-page__text">
+                <div class="interview-page__text" id="interview-text">
                     {{ content }}
                     
                     <!-- Bottom Navigation -->
-                    <div class="interview-page__text-nav">
+                    <nav class="interview-page__text-nav" aria-label="Interview navigation">
                         <div class="interview-page__text-nav-prev">
-                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--prev" id="text-prev-arrow">
-                                <span>←</span>
+                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--prev" id="text-prev-arrow" aria-label="Go to previous interview">
+                                <span aria-hidden="true">←</span>
                             </a>
                             <span class="interview-page__text-nav-name" id="text-prev-name"></span>
                         </div>
@@ -60,11 +67,11 @@ layout: default
                         </div>
                         <div class="interview-page__text-nav-next">
                             <span class="interview-page__text-nav-name" id="text-next-name"></span>
-                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--next" id="text-next-arrow">
-                                <span>→</span>
+                            <a href="#" class="interview-page__nav-arrow interview-page__nav-arrow--next" id="text-next-arrow" aria-label="Go to next interview">
+                                <span aria-hidden="true">→</span>
                             </a>
                         </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
