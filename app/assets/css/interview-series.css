@@ -128,6 +128,65 @@
     border-width: 0;
 }
 
+/* Skip Links for Accessibility */
+.skip-links {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: 10000;
+}
+
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--interview-text-primary);
+    color: var(--interview-bg-primary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: var(--text-sm);
+    border: 2px solid var(--interview-text-primary);
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+    outline: 2px solid var(--interview-accent);
+    outline-offset: 2px;
+}
+
+/* Focus indicators for accessibility */
+.interview-page__nav-arrow:focus,
+.interview-landing__quote-card:focus,
+.editor-note-link:focus {
+    outline: 2px solid var(--interview-accent);
+    outline-offset: 2px;
+}
+
+/* Ensure interactive elements are keyboard accessible */
+.interview-page__nav-arrow,
+.interview-landing__quote-card,
+.editor-note-link {
+    cursor: pointer;
+}
+
+/* Mobile dropdown focus styles */
+.interview-landing__mobile-dropdown-toggle:focus,
+.interview-page__dropdown-toggle:focus {
+    outline: 2px solid var(--interview-accent);
+    outline-offset: 2px;
+}
+
+/* Menu item focus styles */
+.interview-landing__mobile-dropdown-menu .interview-landing__interviewee-name:focus,
+.interview-page__dropdown-menu .interview-page__link:focus {
+    outline: 2px solid var(--interview-accent);
+    outline-offset: 1px;
+    background-color: var(--interview-accent);
+}
+
 
 /* ========================================
    INTERACTIVE COMPONENTS
@@ -298,6 +357,37 @@
     align-items: center;
     margin-top: var(--spacing-xl);
     padding-top: var(--spacing-lg);
+    background-color: var(--interview-bg-primary);
+    color: var(--interview-text-primary);
+}
+
+/* Ensure navigation elements maintain proper background */
+.interview-page__text-nav * {
+    background-color: transparent;
+}
+
+.interview-page__text-nav .interview-page__nav-arrow {
+    background: var(--interview-bg-primary);
+}
+
+/* Specific overrides for bottom navigation elements */
+.interview-page .interview-page__text-nav {
+    background-color: var(--interview-bg-primary);
+}
+
+.interview-page .interview-page__text-nav .interview-page__nav-arrow {
+    background-color: var(--interview-bg-primary);
+    color: var(--interview-text-primary);
+}
+
+.interview-page .interview-page__text-nav .interview-page__text-nav-return {
+    background-color: transparent;
+    color: var(--interview-text-primary);
+}
+
+.interview-page .interview-page__text-nav .interview-page__text-nav-name {
+    background-color: transparent;
+    color: var(--interview-text-primary);
 }
 
 .interview-page__text-nav-prev,

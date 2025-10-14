@@ -5,7 +5,7 @@ slug: amelia-acker
 image: amelia-acker.png
 bio: >
   <a href="https://www.ameliaacker.com/" target="_blank">Amelia Acker</a> is an Associate Professor in the School of Communication & Information at Rutgers, The State University of New Jersey. Her research is concerned with the emergence, standardization, and preservation of information. Her book <a href="https://mitpress.mit.edu/9780262553247/archiving-machines/" target="_blank">Archiving Machines</a> is forthcoming from MIT Press in November 2025.
-date: 2025-01-30
+date: 2025-10-14
 quote-card: "I probably wouldn't build a system. I'd build a bureaucracy."
 custom-css: ['interview-series']
 ---

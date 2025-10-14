@@ -5,7 +5,7 @@ slug: katie-mackinnon
 image: katie-mackinnon.png
 bio: >
   <a href="https://katiemackinnon.xyz" target="_blank">Katie Mackinnon</a> is a Postdoctoral Fellow at the <a href="https://artsandculturalstudies.ku.dk/research/daloss/" target="_blank">Data Loss (DALOSS): The Politics of Disappearance, Destruction, and Dispossession in Digital Societies</a> group at the University of Copenhagen.
-date: 2025-01-20
+date: 2025-10-14
 quote-card: "I'd devote a lot of the funding to the decision-making processes around what gets to last for 100 years, who gets to decide, and why?"
 custom-css: ['interview-series']
 ---
@@ -40,7 +40,7 @@ Another area that I am working on is software preservation. I am looking not at 
 
 I think that these endings are actually fine, and also worth noticing because there's so many different reasons why software ends. It's not just about the code not being operable, but all these other factors. It invites us to think about the afterlives of these systems where it's not really about preserving what it was, but rather thinking of it more ecologically. What networks did it sit within? What social relationships were influenced by its presence?
 
-We are playing around with this idea of hospicing software, a metabolic literacy of how to think about the emergence and ending of software. This is not a data-centric vision, but something else. <a href="/generational-data-interviews/tyler-mcmullen/" class="editor-note-link" target="_blank">This also includes when people age, because that's often why things don't get updated or maintained. The person who was doing it isn't there anymore.</a><span class="editor-note">How do we know when something is meant to end? And when it's not time, how to write the next chapter. Tyler McMullen wonders, for example, where the next generation of leaders for still-important web governance organizations will come from.</span> Every single archiving operation is attached to the people working on it. You're always going to have this type of aging process. Instead of trying to fight against that, it's figuring out the best way for it to end.
+We are playing around with this idea of hospicing software, a metabolic literacy of how to think about the emergence and ending of software. This is not a data-centric vision, but something else. <a href="/generational-data-interviews/tyler-mcmullen/" class="editor-note-link" target="_blank">This also includes when people age, because that's often why things don't get updated or maintained. The person who was doing it isn't there anymore.</a><span class="editor-note">In his interview, Tyler McMullen wondered where the next generation of leaders for still-important web governance organizations will come from.</span> Every single archiving operation is attached to the people working on it. You're always going to have this type of aging process. Instead of trying to fight against that, it's figuring out the best way for it to end.
 
 ## Interviewer
 What in your life and work informed your answer to these questions?

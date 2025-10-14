@@ -5,7 +5,7 @@ slug: frank-cifaldi
 image: frank-cifaldi.png
 bio: >
   Frank Cifaldi is the Founder and Director of the <a href="https://gamehistory.org/" target="_blank">Video Game History Foundation</a>.
-date: 2025-01-20
+date: 2025-10-14
 quote-card: "I would have the best copyright lawyers in the country figuring out how we can actually make this work."
 custom-css: ['interview-series']
 ---
@@ -24,7 +24,7 @@ I would have the best copyright lawyers in the country figuring out how we can a
 
 Second, from a tech perspective, I would invest in the ability for researchers to tinker with, build, and play historical video games, to gain a better understanding of what makes them click, what makes them unique.
 
-This is something I personally did for an article on our website, about The Secret of Monkey Island. That's a game that is very informed in its design by its tools. I learned the SCUMM scripting language it was made with to be able to get in there, tinker, build, and restore cut content. <a href="/generational-data-interviews/katie-mackinnon/" class="editor-note-link" target="_blank">I have a better understanding of that game and where it came from than I would have from just playing it. I would love to be able to share unique experiences like that.</a><span class="editor-note">Understanding where a piece of memory or culture sits in context has just as much to do with its ability to be preserved as its physical existence. We heard from Katie Mackinnon about how thinking of data in a ecological sense could be a key to longevity.</span>
+This is something I personally did for an article on our website, about The Secret of Monkey Island. That's a game that is very informed in its design by its tools. I learned the SCUMM scripting language it was made with to be able to get in there, tinker, build, and restore cut content. <a href="/generational-data-interviews/katie-mackinnon/" class="editor-note-link" target="_blank">I have a better understanding of that game and where it came from than I would have from just playing it. I would love to be able to share unique experiences like that.</a><span class="editor-note">We heard from Katie Mackinnon about how thinking of data in a ecological sense could be a key to longevity.</span>
 
 ## Interviewer
 There are a lot of different types of media in your collection, both digital and physical. There are handwritten notes on paper, there's code, there's software, there's graphical assets, the breadth is large. How do you think about processing, storing, and preserving it all, especially over long periods?
