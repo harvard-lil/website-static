@@ -87,6 +87,7 @@ function initInterviewSeries() {
             cleanupDropdownEventListeners();
             setupCentralizedDropdownManagement(); // Re-setup after cleanup
             loadInterviewees();
+            window.interviewsLoaded = true;
             // Add a small delay to ensure DOM is ready
             setTimeout(() => {
                 loadQuoteCards();
