@@ -5,7 +5,7 @@ slug: rebecca-cremona
 image: rebecca-cremona.png
 bio: >
   Rebecca Cremona is Senior Software Engineer at the Library Innovation Lab at Harvard Law School and lead engineer of the <a href="http://Perma.cc" target="_blank">Perma.cc</a> project.
-date: 2025-01-20
+date: 2025-10-14
 quote-card: "I would assemble a huge panel of staff from all kinds of backgrounds and all kinds of geographies to try and curate what we were trying to save for a century or not."
 custom-css: ['interview-series']
 ---
@@ -24,7 +24,7 @@ If we're talking about a century, we're talking about humans taking care of some
 You've spent a fair amount of time designing, making and maintaining tools intended for preservation, which is a very particular use case. How do you approach designing and maintaining software where preservation is the end product?
 
 ## Rebecca Cremona
-<a href="/generational-data-interviews/che-wei-wang-taylor-levy/" class="editor-note-link" target="_blank">My career in working with this kind of software has been as a maintainer and enhancer.</a><span class="editor-note">Maintainers - people who tend to the systems, tools, and artifacts of our memories - were often pointed to as a key part of 100 years of storage. Habitual work to keep software going is almost a ritual. Che-Wei and Taylor talked about other ways ritual could increase our chances of keeping history for centuries.</span> Other people have started a thing, they've had the spark, they've had the magic, they've had the mandate and the money, and then they get it to a certain point. They get it so that it does a thing but then you have to spend a lot of time making that process reliable, making it dependable, making not just the demonstration, but the rest of it. I've been primarily doing that. With Perma.cc, that means reading a lot of weird stack traces and, or finding out that like Equifax has a specific way of doing SSL that they sold, and then the result means that 8% of websites can be captured that weren't before. I've been doing much less of the designing how it ought to be and much more of the filling in the cracks.
+<a href="/generational-data-interviews/che-wei-wang-taylor-levy/" class="editor-note-link" target="_blank">My career in working with this kind of software has been as a maintainer and enhancer.</a><span class="editor-note">Habitual work to keep software going is almost a ritual. Che-Wei and Taylor talked about other ways ritual could increase our chances of keeping history for centuries.</span> Other people have started a thing, they've had the spark, they've had the magic, they've had the mandate and the money, and then they get it to a certain point. They get it so that it does a thing but then you have to spend a lot of time making that process reliable, making it dependable, making not just the demonstration, but the rest of it. I've been primarily doing that. With Perma.cc, that means reading a lot of weird stack traces and, or finding out that like Equifax has a specific way of doing SSL that they sold, and then the result means that 8% of websites can be captured that weren't before. I've been doing much less of the designing how it ought to be and much more of the filling in the cracks.
 
 Something that LIL has been doing a bit differently than some other web archives is really focusing on library values when producing our software. So, for instance, if you want a really good high fidelity playback of a YouTube video, you can't just record what you got from YouTube, you have to change it to play it back.
 

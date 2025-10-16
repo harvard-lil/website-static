@@ -5,7 +5,7 @@ slug: matteo-cargnelutti
 image: matteo-cargnelutti.png
 bio: >
   <a href="https://matteocargnelutti.dev/" target="_blank">Matteo Cargnelutti</a> is Principal Engineer at the Institutional Data Initiative at Harvard Law School Library and a fellow at the Harvard Library Innovation Lab. His work focuses on digital preservation, open knowledge, and the data that underpins AI.
-date: 2025-01-30
+date: 2025-10-14
 quote-card: "If we were able to have this sort of technology, designed from the beginning to store things for centuries and more, it would need to be broadly accessible, and cheap."
 custom-css: ['interview-series']
 ---
@@ -26,7 +26,7 @@ Institutions have a critical role to play in archiving things "forever" and "lot
 How do you think about users when designing or considering an archival system or tool? It's such a different use-case than many other types of software and hardware.
 
 ## Matteo Cargnelutti
-For me, the user in an archiving system can be the archivist and it could be the institution holding archives. That's a core use case, and we need to keep that in mind. But we've also seen more and more homegrown archives, especially since the mid-2010s. <a href="/generational-data-interviews/trevor-owens/" class="editor-note-link" target="_blank">So I also think of the user as the amateur archivist preserving things just because it matters to them personally. Eventually, what they preserved might matter for society in general, sometimes even for the whole of humanity.</a><span class="editor-note">The work of an amateur archivist making it to 100 years in the future is not a given. We also spoke with Trevor Owens, whose work considers how individual collecting can interact with institutional stewardship.</span>
+For me, the user in an archiving system can be the archivist and it could be the institution holding archives. That's a core use case, and we need to keep that in mind. But we've also seen more and more homegrown archives, especially since the mid-2010s. <a href="/generational-data-interviews/trevor-owens/" class="editor-note-link" target="_blank">So I also think of the user as the amateur archivist preserving things just because it matters to them personally. Eventually, what they preserved might matter for society in general, sometimes even for the whole of humanity.</a><span class="editor-note">We also spoke with Trevor Owens, whose work considers how individual collecting can interact with institutional stewardship.</span>
 
 So I don't think I have a precise answer to that question. It's more about how many different use cases you want to enable as opposed to just focusing on one. In my work in general, I try to make sure I don't over-optimize for a single use case. I try to be as use case agnostic as possible, which is a major challenge.
 

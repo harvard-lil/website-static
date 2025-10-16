@@ -393,6 +393,20 @@ function setupSwup() {
 
     // Register handler to hide marquee if user navigates away from homepage
     swup.hooks.on('content:replace', lilMarqueeHandler);
+
+    // Register handler to load interviews on Generational Data Interviews page
+    swup.hooks.on('content:replace', () => {
+        const isInterviewsLandingPage = window.location.pathname === '/generational-data-interviews/' || window.location.pathname === '/generational-data-interviews';
+        if (isInterviewsLandingPage) {
+            const script = document.querySelector('script[src*="generational-data-interviews"]');
+            if (!window.interviewsLoaded) {
+                const newScript = document.createElement('script');
+                newScript.src = script.src;
+                document.head.appendChild(newScript);
+                window.interviewsLoaded = true;
+            }
+        }
+    });
 }
 
 const setup = () => {

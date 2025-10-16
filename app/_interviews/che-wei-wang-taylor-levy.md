@@ -5,7 +5,7 @@ slug: che-wei-wang-taylor-levy
 image: cw-tl.png
 bio: >
   Che-Wei Wang and Taylor Levy, aka <a href="https://cwandt.com/" target="_blank">CW&T</a>, are designers, fabricators, and artists. They received the 2022 National Design Award from Cooper Hewitt, Smithsonian Design Museum, and have taught at Pratt Institute, New York University and the School for Poetic Computation.
-date: 2025-01-30
+date: 2025-10-14
 quote-card: "Wait, only a hundred years?"
 custom-css: ['interview-series']
 ---
@@ -42,7 +42,7 @@ How do each of you think about approaching stewardship and access to knowledge t
 ## Taylor Levy
 One thing that comes to mind is having access to diverse ways of experiencing archives and their collections.
 
-I went last week to my 20 year college reunion, and the school that I went to has a super beautiful library. I went there with my friend and my friend's kid. We were mucking around in the basements and pulling these big racks from side to side and then discovering these old books that were so amazing. We felt like we had no business touching and opening them. It's such a privilege to have access to that, to your public library, to have an hour there, you find stuff every single time that's interesting. <a href="/generational-data-interviews/lori-emerson" class="editor-note-link" target="_blank">Making sure people have permission to explore and wander these places is important, especially in a way that isn't just fed to you on the computer.</a><span class="editor-note">Creating an experience that sparks joy can also be a driving force for creating a collection in the first place. Lori Emerson's organization prioritizes visitors' ability to interact with objects from the past.</span>
+I went last week to my 20 year college reunion, and the school that I went to has a super beautiful library. I went there with my friend and my friend's kid. We were mucking around in the basements and pulling these big racks from side to side and then discovering these old books that were so amazing. We felt like we had no business touching and opening them. It's such a privilege to have access to that, to your public library, to have an hour there, you find stuff every single time that's interesting. <a href="/generational-data-interviews/lori-emerson" class="editor-note-link" target="_blank">Making sure people have permission to explore and wander these places is important, especially in a way that isn't just fed to you on the computer.</a><span class="editor-note">We also spoke with Lori Emerson, whose organization prioritizes sparking visitors' joy and their ability to interact with objects from the past.</span>
 
 ## Che-Wei Wang
 The big problem in my head of archives and institutions holding knowledge is maintaining these things is essentially an interface problem. The Library of Congress does an amazing job of archiving everything, but I don't know that many people who are accessing it. And it's the same with all libraries. I worry people are quite lazy. People want to use an interface that has the least amount of friction. If there's any amount of friction to getting the information, that's like a barrier that steers you towards getting that information some other way or maybe not even getting the information at all or getting some other version of the information, it's avoided.

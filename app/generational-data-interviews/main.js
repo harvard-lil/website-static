@@ -24,6 +24,21 @@ const INTERVIEWS = [
 // Track initialization to prevent multiple runs
 let isInitialized = false;
 
+// Track if this is the initial page load to skip Swup hooks for quote cards
+let isInitialPageLoad = true;
+
+// Store the shuffled order to maintain consistency
+let shuffledInterviewsOrder = null;
+
+// Store calculated font sizes to prevent recalculation
+let quoteCardFontSizes = new Map();
+
+// Function to reset the shuffle order (useful for page navigation)
+function resetQuoteCardShuffle() {
+    shuffledInterviewsOrder = null;
+    quoteCardFontSizes.clear();
+}
+
 // Track editor notes event listeners for cleanup
 let editorNotesEventListeners = {
     click: null,
@@ -72,9 +87,12 @@ function initInterviewSeries() {
             cleanupDropdownEventListeners();
             setupCentralizedDropdownManagement(); // Re-setup after cleanup
             loadInterviewees();
+            window.interviewsLoaded = true;
             // Add a small delay to ensure DOM is ready
             setTimeout(() => {
                 loadQuoteCards();
+                // Mark initial page load as complete after quote cards are loaded
+                isInitialPageLoad = false;
             }, 100);
         } catch (error) {
             console.error('Error loading interviewees:', error);
@@ -179,9 +197,11 @@ function setupSwupIntegration() {
                     }
                 });
                 
-                // Specific hook for landing page to reload quote cards
+                // Specific hook for landing page to reload quote cards (skip on initial load)
                 window.swup.hooks.on('page:view', () => {
-                    if (isLandingPage()) {
+                    if (isLandingPage() && !isInitialPageLoad) {
+                        // Reset shuffle order for new page navigation
+                        resetQuoteCardShuffle();
                         setTimeout(() => {
                             const quoteCardsContainer = document.querySelector('.interview-landing__quote-cards-content');
                             if (quoteCardsContainer) {
@@ -189,6 +209,8 @@ function setupSwupIntegration() {
                             }
                         }, 100);
                     }
+                    // Mark that initial page load is complete
+                    isInitialPageLoad = false;
                 });
                 
                 // Dedicated hook for editor's notes reinitialization
@@ -220,8 +242,8 @@ function setupSwupIntegration() {
     // Also set up a more aggressive approach - check periodically for interview pages
     setInterval(() => {
         if (isInterviewSeriesPage()) {
-            // Check for landing page quote cards
-            if (isLandingPage()) {
+            // Check for landing page quote cards (skip on initial load)
+            if (isLandingPage() && !isInitialPageLoad) {
                 const quoteCardsContainer = document.querySelector('.interview-landing__quote-cards-content');
                 if (quoteCardsContainer && quoteCardsContainer.children.length === 0) {
                     loadQuoteCards();
@@ -491,6 +513,19 @@ function initEditorsNotes() {
                 }
             });
             
+            // Add keyboard support
+            link.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    if (window.innerWidth <= 768) {
+                        showMobileEditorNote(note);
+                    } else {
+                        hideEditorNote(note);
+                        window.open(href, '_blank');
+                    }
+                }
+            });
+            
             // Desktop hover behavior
             link.addEventListener('mouseenter', () => {
                 if (window.innerWidth > 768) {
@@ -575,10 +610,15 @@ function setupEditorNote(note, interviewName, href) {
     // Create the structured note HTML with close button for desktop only
     note.innerHTML = `
         <button class="editor-note__close" aria-label="Close editor note">×</button>
-        <div class="editor-note__label">Editor's note:</div>
-        <div class="editor-note__content">${noteContent}</div>
+        <div class="editor-note__label" id="editor-note-label">Editor's note:</div>
+        <div class="editor-note__content" id="editor-note-content">${noteContent}</div>
         <div class="editor-note__link">Read ${interviewName}'s interview next</div>
     `;
+    
+    // Add ARIA attributes to the note
+    note.setAttribute('role', 'dialog');
+    note.setAttribute('aria-labelledby', 'editor-note-label');
+    note.setAttribute('aria-describedby', 'editor-note-content');
     
     // Add close button functionality (desktop only)
     const closeBtn = note.querySelector('.editor-note__close');
@@ -606,10 +646,15 @@ function showEditorNote(link, note) {
     
     // Show the note
     note.classList.add('visible');
+    
+    // Set focus to the note for screen readers
+    note.setAttribute('aria-hidden', 'false');
+    note.focus();
 }
 
 function hideEditorNote(note) {
     note.classList.remove('visible');
+    note.setAttribute('aria-hidden', 'true');
 }
 
 function hideAllEditorNotes() {
@@ -836,11 +881,18 @@ function createMobileIntervieweesDropdown(grid, interviews) {
     const toggle = document.createElement('button');
     toggle.className = 'interview-landing__mobile-dropdown-toggle';
     toggle.textContent = 'Select Interview';
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-haspopup', 'true');
+    toggle.setAttribute('aria-controls', 'interviewees-dropdown-menu');
+    toggle.setAttribute('aria-label', 'Select an interview to read');
     grid.appendChild(toggle);
     
     // Create dropdown menu
     const menu = document.createElement('div');
     menu.className = 'interview-landing__mobile-dropdown-menu';
+    menu.id = 'interviewees-dropdown-menu';
+    menu.setAttribute('role', 'menu');
+    menu.setAttribute('aria-labelledby', 'interviewees-dropdown-toggle');
     grid.appendChild(menu);
     
     // Add each interview link
@@ -849,6 +901,8 @@ function createMobileIntervieweesDropdown(grid, interviews) {
         link.href = `/generational-data-interviews/${interview.file}/`;
         link.className = 'interview-landing__interviewee-name';
         link.textContent = interview.name;
+        link.setAttribute('role', 'menuitem');
+        link.setAttribute('aria-label', `Read interview with ${interview.name}`);
         menu.appendChild(link);
     });
     
@@ -856,8 +910,10 @@ function createMobileIntervieweesDropdown(grid, interviews) {
     // Add click handler for toggle
     toggle.addEventListener('click', function(event) {
         event.stopPropagation(); // Prevent event from bubbling to document listeners
+        const isOpen = toggle.classList.contains('open');
         toggle.classList.toggle('open');
         menu.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', !isOpen);
     });
     
     // Register this dropdown with the centralized system
@@ -903,8 +959,11 @@ function loadQuoteCardsWithContainer(quoteCardsContainer) {
             return false;
         }
         
-        // Create a shuffled copy of the interviews array
-        const shuffledInterviews = [...INTERVIEWS].sort(() => Math.random() - 0.5);
+        // Use stored shuffle order or create new one if not exists
+        if (!shuffledInterviewsOrder) {
+            shuffledInterviewsOrder = [...INTERVIEWS].sort(() => Math.random() - 0.5);
+        }
+        const shuffledInterviews = shuffledInterviewsOrder;
         
         // Track successful card creation
         let successCount = 0;
@@ -927,6 +986,9 @@ function loadQuoteCardsWithContainer(quoteCardsContainer) {
                 // Create quote card element
                 const quoteCard = document.createElement('div');
                 quoteCard.className = 'interview-landing__quote-card';
+                quoteCard.setAttribute('role', 'button');
+                quoteCard.setAttribute('tabindex', '0');
+                quoteCard.setAttribute('aria-label', `Read interview with ${interview.name}: ${pullQuote}`);
                 
                 // Set up card content with error handling
                 try {
@@ -943,13 +1005,20 @@ function loadQuoteCardsWithContainer(quoteCardsContainer) {
                     return;
                 }
                 
-                // Add click handler with error handling
+                // Add click and keyboard handlers with error handling
                 try {
-                    quoteCard.addEventListener('click', (e) => {
+                    const handleActivation = (e) => {
                         e.preventDefault();
                         try {
                             window.location.href = `/generational-data-interviews/${interview.file}/`;
                         } catch (navError) {
+                        }
+                    };
+                    
+                    quoteCard.addEventListener('click', handleActivation);
+                    quoteCard.addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            handleActivation(e);
                         }
                     });
                 } catch (eventError) {
@@ -960,10 +1029,8 @@ function loadQuoteCardsWithContainer(quoteCardsContainer) {
                 try {
                     quoteCardsContainer.appendChild(quoteCard);
                     
-                    // Adjust font size based on text length
-                    setTimeout(() => {
-                        adjustQuoteTextSize(quoteCard);
-                    }, 100);
+                    // Adjust font size based on text length (apply immediately)
+                    adjustQuoteTextSize(quoteCard);
                     
                     successCount++;
                 } catch (appendError) {
@@ -1001,17 +1068,27 @@ function adjustQuoteTextSize(quoteCard) {
     const text = quoteText.textContent.trim();
     const textLength = text.length;
     
-    // Calculate optimal font size based on text length - three simple categories
-    let fontSize;
-    if (textLength <= 80) {
-        fontSize = '1.3rem';  // Larger for short quotes
-    } else if (textLength <= 120) {
-        fontSize = '1.1rem';  // Standard size for medium quotes
-    } else {
-        fontSize = '0.95rem'; // Smaller for long quotes
+    // Create a cache key based on text length
+    const cacheKey = `length_${textLength}`;
+    
+    // Check if we already calculated this font size
+    let fontSize = quoteCardFontSizes.get(cacheKey);
+    
+    if (!fontSize) {
+        // Calculate optimal font size based on text length - three simple categories
+        if (textLength <= 80) {
+            fontSize = '1.3rem';  // Larger for short quotes
+        } else if (textLength <= 120) {
+            fontSize = '1.1rem';  // Standard size for medium quotes
+        } else {
+            fontSize = '0.95rem'; // Smaller for long quotes
+        }
+        
+        // Cache the calculated font size
+        quoteCardFontSizes.set(cacheKey, fontSize);
     }
     
-    // Apply the calculated font size
+    // Apply the font size immediately (no delay needed)
     quoteText.style.fontSize = fontSize;
 }
 
@@ -1115,11 +1192,18 @@ function createMobileDropdown(container) {
     const toggle = document.createElement('button');
     toggle.className = 'interview-page__dropdown-toggle';
     toggle.textContent = 'Select Interview';
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-haspopup', 'true');
+    toggle.setAttribute('aria-controls', 'interview-dropdown-menu');
+    toggle.setAttribute('aria-label', 'Select an interview to read');
     container.appendChild(toggle);
     
     // Create dropdown menu
     const menu = document.createElement('div');
     menu.className = 'interview-page__dropdown-menu';
+    menu.id = 'interview-dropdown-menu';
+    menu.setAttribute('role', 'menu');
+    menu.setAttribute('aria-labelledby', 'interview-dropdown-toggle');
     container.appendChild(menu);
     
     // Add "Back to Series" link
@@ -1127,6 +1211,8 @@ function createMobileDropdown(container) {
     backLink.href = '/generational-data-interviews/';
     backLink.className = 'interview-page__link';
     backLink.textContent = 'Back to Series';
+    backLink.setAttribute('role', 'menuitem');
+    backLink.setAttribute('aria-label', 'Return to interview series homepage');
     menu.appendChild(backLink);
     
     // Add each interview link
@@ -1135,6 +1221,8 @@ function createMobileDropdown(container) {
         link.href = `/generational-data-interviews/${interview.file}/`;
         link.className = 'interview-page__link';
         link.textContent = interview.name;
+        link.setAttribute('role', 'menuitem');
+        link.setAttribute('aria-label', `Read interview with ${interview.name}`);
         
         // Check if this is the current page
         const currentPath = window.location.pathname;
@@ -1142,6 +1230,7 @@ function createMobileDropdown(container) {
         const currentSlug = pathParts[pathParts.length - 1];
         if (currentSlug === interview.file) {
             link.classList.add('interview-page__link--current');
+            link.setAttribute('aria-current', 'page');
             toggle.textContent = interview.name; // Update toggle text to current interview
         }
         
@@ -1151,8 +1240,10 @@ function createMobileDropdown(container) {
     // Add click handler for toggle
     toggle.addEventListener('click', function(event) {
         event.stopPropagation(); // Prevent event from bubbling to document listeners
+        const isOpen = toggle.classList.contains('open');
         toggle.classList.toggle('open');
         menu.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', !isOpen);
     });
     
     // Register this dropdown with the centralized system

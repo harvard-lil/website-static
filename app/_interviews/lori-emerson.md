@@ -5,7 +5,7 @@ slug: lori-emerson
 image: lori-emerson.png
 bio: >
   <a href="https://loriemerson.net/" target="_blank">Lori Emerson</a> is the Founding Director of the <a href="https://www.mediaarchaeologylab.com/" target="_blank">Media Archaeology Lab</a> and a Professor of Media Studies at the University of Colorado Boulder. Her most recent book is <a href="https://shop.mexicansummer.com/merch/495898-lori-emerson-other-networks-a-radical-technology-sourcebook" target="_blank">"Other Networks: A Radical Technology Sourcebook"</a>
-date: 2025-01-25
+date: 2025-10-14
 quote-card: "The book is the most beautiful invention I can think of."
 custom-css: ['interview-series']
 ---
@@ -40,7 +40,7 @@ On a more serious note, more and more as the years go by, I see how limited a no
 MAL has always seemed extremely conscious of accessibility. Even the website itself is an unusually open portal into your collections, so that a random member of the public 10,000 miles away can really look at the work you're doing. What role does access play in the Lab and its practice?
 
 ## Lori Emerson
-I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass. <a href="/generational-data-interviews/martin-kunze-steffen-hellmold/" class="editor-note-link" target="_blank">If a teenager were to go to a museum and look at a typewriter under glass, how on earth could they possibly be excited or engaged with that object just by looking at it?</a><span class="editor-note">Being able to touch and feel culture from the past builds our ability to care, and preserve. Martin and Steffen at Cerabyte have a reverence for the materiality of clay and ceramics that grounds their approach to digital storage.</span>
+I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass. <a href="/generational-data-interviews/martin-kunze-steffen-hellmold/" class="editor-note-link" target="_blank">If a teenager were to go to a museum and look at a typewriter under glass, how on earth could they possibly be excited or engaged with that object just by looking at it?</a><span class="editor-note">Martin and Steffen at Cerabyte have a reverence for the actual materiality of clay and ceramics that grounds their approach to digital storage.</span>
 
 ## Interviewer
 Preserving digital media involves objects in multiple formats and media. Some of those objects are mass produced and there might be copies, but some are single copies. Some are replicable as recipes or through emulation. Is there a difference between preserving software versus hardware versus these paper documents? How do you think through all those differences and nuances?

@@ -5,7 +5,7 @@ slug: michelle-lee
 image: michelle-lee.png
 bio: >
   Michelle Lee is product lead at <a href="https://www.protocol.ai/" target="_blank">Protocol Labs</a> and Executive Director of the <a href="https://ipfs.tech/" target="_blank">IPFS Foundation</a>.
-date: 2025-02-05
+date: 2025-10-14
 quote-card: "I would do two things, both where I'm not following instructions."
 custom-css: ['interview-series']
 ---

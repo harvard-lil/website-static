@@ -5,7 +5,7 @@ slug: tyler-mcmullen
 image: tyler-mcmullen.png
 bio: >
   Tyler McMullen is a co-founder and Fellow at <a href="https://www.fastly.com/" target="_blank">Fastly</a>, a cloud computing company that focuses on content delivery network services and infrastructure.
-date: 2025-01-30
+date: 2025-10-14
 quote-card: "Where is the next generation going to come from? Where is the funding for that next generation going to come from as well?"
 custom-css: ['interview-series']
 ---
@@ -18,7 +18,7 @@ My first step is to take that money and turn it into a self-sustaining fund. Thi
 
 I can think of lots of really cool ways to store data. Most of them look like very large-scale distributed systems that are based in multiple countries, based in space, based everywhere. With all the data stored in a bunch of different ways, error-correcting codes throughout, all sorts of constant low-level background processes, making sure everything is still correct. But the problem, of course, is that no one wants to pay for it. I can't see a way for it to become viable without that sort of long-term self-sustaining funding. And it's not clear to me who wants it, other than everybody, but no one wants to pay for it.
 
-One of the things that was popping around my head a little bit before we got on the phone was <a href="/generational-data-interviews/michelle-lee/" class="editor-note-link" target="_blank">this idea of distributed systems being kind of the only reliable way to store data over a very long period of time. One of the reasons that I say that is it kind of relates it to ancient oral storytelling traditions.</a><span class="editor-note">We also spoke with Michelle Lee, product lead at Protocol Labs and Executive Director of the IPFS Foundation. Her perspective on where distributed solutions are at might surprise you.</span> Because stories are passed down, they go through many, many generations. The number of stories we have from a thousand years ago or two thousand years ago or four thousand years ago seems significantly higher than the number of written documents that have actually been able to be preserved. Distributed systems are kind of like that.
+One of the things that was popping around my head a little bit before we got on the phone was <a href="/generational-data-interviews/michelle-lee/" class="editor-note-link" target="_blank">this idea of distributed systems being kind of the only reliable way to store data over a very long period of time. One of the reasons that I say that is it kind of relates it to ancient oral storytelling traditions.</a><span class="editor-note">We also spoke with Michelle Lee, product lead at Protocol Labs and Executive Director of the IPFS Foundation. Her perspective on the state of distributed solutions might surprise you.</span> Because stories are passed down, they go through many, many generations. The number of stories we have from a thousand years ago or two thousand years ago or four thousand years ago seems significantly higher than the number of written documents that have actually been able to be preserved. Distributed systems are kind of like that.
 
 ## Interviewer
 I'm curious now, in 2025, how you think about the state of, for lack of a better term, the cloud? So much human culture and production is being held in this particular business/technology arrangement. How resilient or long-lived can it be in its current configuration?
