@@ -19,8 +19,8 @@ You can read more about the [acquisition of vLex](https://www.businessinsider.co
 
 ### [**Zoom registration**](https://harvard.zoom.us/meeting/register/iYhF0u5xQ4C0u9CPIuKVrw)
 
-Ed Walters is a co-founder and former CEO of Fastcase, a pioneering legal publishing company that invented many of the modern tools for legal research and post-merger chief strategy officer at vLex. He is also an adjunct professor at Georgetown Law, Cornell Law School, and The University of Chicago Law.
+Ed Walters is a co-founder and former CEO of Fastcase, a pioneering legal publishing company that invented many of the modern tools for legal research and post-merger chief strategy officer at vLex. He is also an adjunct professor at Georgetown Law, Cornell Law School, and the University of Chicago Law School.
 
 Phil Rosenthal is a co-founder and longtime president of Fastcase, which revolutionized legal research while democratizing the law and the post-merger chief growth officer at vLex.
 
-Please reach out to lil@law.harvard.edu with any questions.
+Please reach out to [lil@law.harvard.edu](mailto:lil@law.harvard.edu) with any questions.
