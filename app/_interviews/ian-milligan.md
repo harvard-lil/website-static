@@ -16,7 +16,7 @@ If you were given unlimited funding to design a system for storing and preservin
 ## Ian Milligan
 That's interesting. So if I had unlimited money to design a system to preserve information for at least 100 years, my answer would be that I don't think there's a technological solution that's going to achieve that goal.
 
-> [The Library of Alexandira] fundamentally died because people stopped caring.
+> [The Library of Alexandria] fundamentally died because people stopped caring.
 
 The example I often come back to when I'm talking to students is the Library of Alexandria. We think of this great library that amassed this unparalleled collection during the antiquity period, and then it failed. People think it failed because of beautiful Renaissance paintings of marauding armies burning down the Library of Alexandria, but it fundamentally died because people stopped caring. If people stop caring about information, no matter how well your system is designed, it's going to degrade. So I think if I had unlimited money, it would all be dedicated to building an apparatus that does community outreach, building an infrastructure that provides access to collections and integrates collections into the everyday life of people. So that the public can use that information, see the value of it, and they can advocate for the continued preservation of it.
 
