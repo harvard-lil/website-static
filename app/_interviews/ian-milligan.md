@@ -22,7 +22,7 @@ The example I often come back to when I'm talking to students is the Library of 
 
 With traditional physical holdings, every time information is used or touched you worry a little bit. But with digital information, the more that information is touched, the more that it's handled, the more that it's forward migrated, the more that it's engaged with, the safer it is.
 
-So I think it wouldn't be a magical vault that could be locked away for 100 years. It needs to be some way to provide access to information to people so that they continue to see the value and relevance of it.
+So I think it wouldn't be a magical vault that could be locked away for 100 years. There needs to be some way to provide access to information to people so that they continue to see the value and relevance of it.
 
 ## Interviewer
 Both for this question and in your everyday work, how do you think about and experience the stewardship and governance of collections? How do you balance the inherent tradeoffs between different types of organizations that are engaged in collecting and preservation?
@@ -34,9 +34,9 @@ For a lot of institutions, when we get into digital collecting and web archiving
 
 I like working with the Internet Archive because they are willing to take on risk, but they're also willing to partner. They take these leaps on the edge, but they also partner with the Library of Congress, with Library and Archives Canada. They can provide the technical infrastructure and expertise so that other types of institutions can collect materials on their own.
 
-It's been those partnerships that balance the Internet Archive pushing the envelope, and they're always pushing the envelope on the legal side, while typical educational and governmental institutions are more risk adverse, but safer in certain ways. Of course, you hope both types of institutions will still be there, but there's a difference there. The world is changing, but if the Library of Congress doesn't exist, the United States and the world is in deep trouble.
+It's been those partnerships that balance the Internet Archive pushing the envelope, and they're always pushing the envelope on the legal side, while typical educational and governmental institutions are more risk-averse, but safer in certain ways. Of course, you hope both types of institutions will still be there, but there's a difference there. The world is changing, but if the Library of Congress doesn't exist, the United States and the world are in deep trouble.
 
-It's in these partnerships between different types of organizations that you can have long term stewardship. It can be a symbiotic relationship.
+It's in these partnerships between different types of organizations that you can have long-term stewardship. It can be a symbiotic relationship.
 
 ## Interviewer
 When considering access and combating neglect, how do you think about materials that do not sustain interest for long periods, but then are "rediscovered" and valued highly later on? For example, interest in the musical works of Vivaldi basically goes dormant for a couple centuries.

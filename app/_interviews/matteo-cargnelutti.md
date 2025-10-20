@@ -42,7 +42,7 @@ The other is that a lot of the work we do at IDI aims to help users, to the exte
 
 We think that getting insight into the nature of a collection is extremely important for that purpose. What I find challenging, on top of just getting the data and interpreting it, is that we're all also necessarily making choices in that process in terms of what insight to get, how to collect that information, how to refine it, and how to publish it. This is also a sort of curatorial process by itself.
 
-There's always humans in the loop when assembling collections and datasets. Trying to get signal about the contents of the collection is also a humans-in-the-loop process, and the product of collective decisions about what needs to be reflected, and what could help end users make decisions.
+There are always humans in the loop when assembling collections and datasets. Trying to get signal about the contents of the collection is also a humans-in-the-loop process, and the product of collective decisions about what needs to be reflected, and what could help end users make decisions.
 
 ## Interviewer
 How do you approach the stewardship of these collections at IDI?
@@ -68,7 +68,7 @@ I know that everyone talks about AI, but something that is top of mind for me is
 
 There are two things that come to mind when I think about the interaction of AI with archives and access to those archives.
 
-There's of course using machine learning models to improve transcriptions of source materials, and that's something that I'm focusing on a daily basis and I do see there's new use cases for that.
+There's of course using machine learning models to improve transcriptions of source materials, and that's something that I'm focusing on a daily basis and I do see there are new use cases for that.
 
 In terms of access, I also see that people are asking more and more questions to LLMs and increasingly relying on those generated responses. What I find interesting here is that it's still somewhat unclear how LLMs learn, retain and recall information. I know prompt engineering is no longer trendy, but there's something about this in my mind: if you ask the question "right" you might get the information you're looking for because it might be present in the model's weights and biases.
 

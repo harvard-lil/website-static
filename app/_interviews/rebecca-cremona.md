@@ -38,7 +38,7 @@ Unlike the Internet Archive, or unlike some of the National Archives, Harvard Un
 
 > Every web thing is a live performance of actors for you in the moment. It can never be repeated.
 
-We have public links and private links. You can see private links if you have the right credentials to do so you can preserve ugly things. Maybe that's the point of your study. That's trusting users. So, if we're working with a trusted partner who says I enable my scholars to save what they need for their research, if they are preserving porn, it's for a reason, it's for a publication purpose. So we'll hold that in our collection, and therefore will hold it in the Harvard Libraries collection in perpetuity, just like the Harvard Widener library has an excellent sex and drugs book collection. It's there for a reason.
+We have public links and private links. You can see private links if you have the right credentials to do so you can preserve ugly things. Maybe that's the point of your study. That's trusting users. So, if we're working with a trusted partner who says I enable my scholars to save what they need for their research, if they are preserving porn, it's for a reason, it's for a publication purpose. So we'll hold that in our collection, and therefore will hold it in the Harvard Libraries collection in perpetuity, just like the Harvard Widener Library has an excellent sex and drugs book collection. It's there for a reason.
 
 ## Interviewer
 How do we preserve the web specifically for long periods of time? It's an unusual artifact, because it isn't just the individual pages, it's the connections to everything else at that moment. It seems impossible to preserve the experience of how all these things related to each other at a precise moment in time.
