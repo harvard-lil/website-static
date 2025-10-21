@@ -22,7 +22,7 @@ The example I often come back to when I'm talking to students is the Library of 
 
 With traditional physical holdings, every time information is used or touched you worry a little bit. But with digital information, the more that information is touched, the more that it's handled, the more that it's forward migrated, the more that it's engaged with, the safer it is.
 
-So I think it wouldn't be a magical vault that could be locked away for 100 years. There needs to be some way to provide access to information to people so that they continue to see the value and relevance of it.
+So I think it wouldn't be a magical vault that could be locked away for 100 years. It needs to be some way to provide access to information to people so that they continue to see the value and relevance of it.
 
 ## Interviewer
 Both for this question and in your everyday work, how do you think about and experience the stewardship and governance of collections? How do you balance the inherent tradeoffs between different types of organizations that are engaged in collecting and preservation?

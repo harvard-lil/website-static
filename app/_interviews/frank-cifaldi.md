@@ -27,7 +27,7 @@ Second, from a tech perspective, I would invest in the ability for researchers t
 This is something I personally did for an article on our website, about The Secret of Monkey Island. That's a game that is very informed in its design by its tools. I learned the SCUMM scripting language it was made with to be able to get in there, tinker, build, and restore cut content. <a href="/generational-data-interviews/katie-mackinnon/" class="editor-note-link" target="_blank">I have a better understanding of that game and where it came from than I would have from just playing it. I would love to be able to share unique experiences like that.</a><span class="editor-note">We heard from Katie Mackinnon about how thinking of data in an ecological sense could be a key to longevity.</span>
 
 ## Interviewer
-There are a lot of different types of media in your collection, both digital and physical. There are handwritten notes on paper, there's code, there's software, there are graphical assets, the breadth is large. How do you think about processing, storing, and preserving it all, especially over long periods?
+There are a lot of different types of media in your collection, both digital and physical. There are handwritten notes on paper, there's code, there's software, there's graphical assets, the breadth is large. How do you think about processing, storing, and preserving it all, especially over long periods?
 
 ## Frank Cifaldi
 We are still learning as we go. We have to figure out how to prioritize what in the collection is having the most impact on the world. Part of that is responding to direct community asks, or recognizing when someone's doing something we could help with.
