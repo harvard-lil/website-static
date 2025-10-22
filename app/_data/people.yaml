@@ -365,6 +365,23 @@ maxwell-neely-cohen:
   affiliated: true
   current: true
   section: Affiliates
+christopher-dick:
+  name: Christopher Dick
+  sort_name: Dick
+  role: Fellow
+  bio: >-
+    Chris is a data scientist, demographer, and founder of the company Demographic
+    Analytics Advisors. He began his career as a statistician and demographer at the
+    United States Census Bureau as well as the United States Citizenship and Immigration
+    Services. He later served as the managing director for public sector data science for
+    the tech startup Civis Analytics. His current work focuses on building tools to monitor
+    the federal data ecosystem at dataindex.us, telling the story of federal data at
+    essentialdata.us, and building tools to enhance decision-making in the public and
+    nonprofit sectors.
+  image: christopher-dick.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
 zena-agha:
   name: Zena Agha
   sort_name: Agha
