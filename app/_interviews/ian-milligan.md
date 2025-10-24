@@ -16,7 +16,7 @@ If you were given unlimited funding to design a system for storing and preservin
 ## Ian Milligan
 That's interesting. So if I had unlimited money to design a system to preserve information for at least 100 years, my answer would be that I don't think there's a technological solution that's going to achieve that goal.
 
-> [The Library of Alexandira] fundamentally died because people stopped caring.
+> [The Library of Alexandria] fundamentally died because people stopped caring.
 
 The example I often come back to when I'm talking to students is the Library of Alexandria. We think of this great library that amassed this unparalleled collection during the antiquity period, and then it failed. People think it failed because of beautiful Renaissance paintings of marauding armies burning down the Library of Alexandria, but it fundamentally died because people stopped caring. If people stop caring about information, no matter how well your system is designed, it's going to degrade. So I think if I had unlimited money, it would all be dedicated to building an apparatus that does community outreach, building an infrastructure that provides access to collections and integrates collections into the everyday life of people. So that the public can use that information, see the value of it, and they can advocate for the continued preservation of it.
 
@@ -34,9 +34,9 @@ For a lot of institutions, when we get into digital collecting and web archiving
 
 I like working with the Internet Archive because they are willing to take on risk, but they're also willing to partner. They take these leaps on the edge, but they also partner with the Library of Congress, with Library and Archives Canada. They can provide the technical infrastructure and expertise so that other types of institutions can collect materials on their own.
 
-It's been those partnerships that balance the Internet Archive pushing the envelope, and they're always pushing the envelope on the legal side, while typical educational and governmental institutions are more risk adverse, but safer in certain ways. Of course, you hope both types of institutions will still be there, but there's a difference there. The world is changing, but if the Library of Congress doesn't exist, the United States and the world is in deep trouble.
+It's been those partnerships that balance the Internet Archive pushing the envelope, and they're always pushing the envelope on the legal side, while typical educational and governmental institutions are more risk-averse, but safer in certain ways. Of course, you hope both types of institutions will still be there, but there's a difference there. The world is changing, but if the Library of Congress doesn't exist, the United States and the world are in deep trouble.
 
-It's in these partnerships between different types of organizations that you can have long term stewardship. It can be a symbiotic relationship.
+It's in these partnerships between different types of organizations that you can have long-term stewardship. It can be a symbiotic relationship.
 
 ## Interviewer
 When considering access and combating neglect, how do you think about materials that do not sustain interest for long periods, but then are "rediscovered" and valued highly later on? For example, interest in the musical works of Vivaldi basically goes dormant for a couple centuries.

@@ -43,7 +43,7 @@ MAL has always seemed extremely conscious of accessibility. Even the website its
 I dislike the hoarding of collections behind closed doors. Even museums, who of course I love and adore and cherish, have to put things behind glass. <a href="/generational-data-interviews/martin-kunze-steffen-hellmold/" class="editor-note-link" target="_blank">If a teenager were to go to a museum and look at a typewriter under glass, how on earth could they possibly be excited or engaged with that object just by looking at it?</a><span class="editor-note">Martin and Steffen at Cerabyte have a reverence for the actual materiality of clay and ceramics that grounds their approach to digital storage.</span>
 
 ## Interviewer
-Preserving digital media involves objects in multiple formats and media. Some of those objects are mass produced and there might be copies, but some are single copies. Some are replicable as recipes or through emulation. Is there a difference between preserving software versus hardware versus these paper documents? How do you think through all those differences and nuances?
+Preserving digital media involves objects in multiple formats and media. Some of those objects are mass-produced and there might be copies, but some are single copies. Some are replicable as recipes or through emulation. Is there a difference between preserving software versus hardware versus these paper documents? How do you think through all those differences and nuances?
 
 ## Lori Emerson
 We are always driven just by what is practical. We have to look at labor limitations, financial limitations, space limitations, know-how limitations. I think that the degree to which we think about preserving anything is just about what is feasible.
