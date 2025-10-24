@@ -38,6 +38,10 @@
   margin-bottom: 40px;
 }
 
+.post-content figure > img {
+  margin: 0;
+}
+
 .post-content iframe {
   width: 100%;
   height: auto;
