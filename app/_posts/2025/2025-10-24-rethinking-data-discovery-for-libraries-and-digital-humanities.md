@@ -50,7 +50,7 @@ This experiment has not been without obstacles. Getting good performance out of 
 Still, we're pleased with the result: an inexpensive, low-maintenance static discovery platform that allows users to browse, search, and filter Data.gov Archive records entirely in the browser.
 
 <figure class="items-center text-center">
-  <img class="h-fit w-full" src="/uploads/data_gov_archive_search.jpg" alt="Screenshot of Data.gov Archive Search" />
+  <img class="h-fit w-full border-1" src="/uploads/data_gov_archive_search.jpg" alt="Screenshot of Data.gov Archive Search" />
   <figcaption>Screenshot of <a href="https://lil.law.harvard.edu/data-gov-archive/">Data.gov Archive Search</a>.</figcaption>
 </figure>
 
