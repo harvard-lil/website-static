@@ -8,7 +8,7 @@ title: Public Data Project
 title_uses_definite_article: true
 logo:
 description: Preserving civic ground truth
-project_website: https://source.coop/repositories/harvard-lil/gov-data/description
+project_website: https://lil.law.harvard.edu/data-gov-archive/
 what_does_it_do: Preserving Civic Ground Truth
 why_does_it_exist: >-
   Between November and January 2025, we launched a government data vault to download, sign, and share copies of the public federal data that is most valuable to researchers, scholars, civil society, and the public. This work is part of Harvard Law School Library’s centuries-long role in preserving and sharing accurate copies of federal documents, ensuring that vital resources remain accessible notwithstanding any change in funding, priorities, or accidental loss.
