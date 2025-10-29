@@ -37,7 +37,7 @@ CAP includes some 11 TB of data; the Data.gov Archive represents nearly 18 TB, w
 
 ## Our Experiment: Rich Discovery, No Server Required
 
-Recent advancements in client-side data analysis led us to try something new. Tools like [DuckDB-Wasm](https://duckdb.org/docs/api/wasm/) and [sql.js-httpvfs](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/), powered by standards such as WebAssembly, web workers, and HTTP range requests, allow users to efficiently query large remote datasets in the browser. Rather than downloading a 2 GB data file into memory, these tools can incrementally retrieve only the relevant parts of the file and process query results locally.
+Recent advancements in client-side data analysis led us to try something new. Tools like [DuckDB-Wasm](https://duckdb.org/docs/api/wasm/), [sql.js-httpvfs](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/), and [Protomaps](https://protomaps.com), powered by standards such as WebAssembly, web workers, and HTTP range requests, allow users to efficiently query large remote datasets in the browser. Rather than downloading a 2 GB data file into memory, these tools can incrementally retrieve only the relevant parts of the file and process query results locally.
 
 We developed Data.gov Archive Search on the same model. Here's how it works:
 
