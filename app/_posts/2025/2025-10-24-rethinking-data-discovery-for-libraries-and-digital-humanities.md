@@ -7,7 +7,7 @@ title: Rethinking Data Discovery for Libraries and Digital Humanities
 project: public-data-project
 ---
 <figure class="items-center text-center">
-  <img class="h-fit w-full" src="/uploads/macey_vertical_filing_cabinet_1903.jpg" alt="Illustration of a woman using a Macey vertical filing cabinet, from a 1903 catalogue" />
+  <img class="h-fit w-full" src="https://lil-blog-media.s3.amazonaws.com/macey_vertical_filing_cabinet_1903.jpg" alt="Illustration of a woman using a Macey vertical filing cabinet, from a 1903 catalogue" />
   <figcaption>Woman using a Macey vertical filing cabinet (detail, 1903). Source: <a href="https://commons.wikimedia.org/wiki/File:Macey_Vertical_Filing_Cabinet_1903.jpg">Wikimedia Commons</a>.</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ This experiment has not been without obstacles. Getting good performance out of 
 Still, we're pleased with the result: an inexpensive, low-maintenance static discovery platform that allows users to browse, search, and filter Data.gov Archive records entirely in the browser.
 
 <figure class="items-center text-center">
-  <img class="h-fit w-full border-1" src="/uploads/data_gov_archive_search.jpg" alt="Screenshot of Data.gov Archive Search" />
+  <img class="h-fit w-full border-1" src="https://lil-blog-media.s3.amazonaws.com/data_gov_archive_search.jpg" alt="Screenshot of Data.gov Archive Search" />
   <figcaption>Screenshot of <a href="https://lil.law.harvard.edu/data-gov-archive/">Data.gov Archive Search</a>.</figcaption>
 </figure>
 
