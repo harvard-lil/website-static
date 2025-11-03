@@ -347,24 +347,6 @@ jim-cowie:
   affiliated: true
   current: true
   section: Affiliates
-maxwell-neely-cohen:
-  name: Maxwell Neely-Cohen
-  sort_name: Neely-Cohen
-  role: Fellow
-  bio: >-
-    Max is a novelist, essayist, and editor who loves figuring out how to write
-    about emerging fields, tools, and practices. Outside of his literary
-    ventures, his work with design, code, and performance has been acclaimed by
-    _The New York Times_, _Frieze_, and _The Financial Times_. He is obsessed
-    with libraries and archives.
-  email:
-  website: https://maxy.world/
-  twitter_account_name: nhyphenc
-  github_account_name: mncmncmnc
-  image: maxwell-neely-cohen.jpg
-  affiliated: true
-  current: true
-  section: Affiliates
 christopher-dick:
   name: Christopher Dick
   sort_name: Dick
@@ -986,6 +968,14 @@ miglena-minkova:
   website: http://miglenaminkova.com/
   twitter_account_name: miglenaminkova
   github_account_name: MMinkova
+maxwell-neely-cohen:
+  name: Maxwell Neely-Cohen
+  sort_name: Neely-Cohen
+  role: Fellow
+  website: https://maxy.world/
+  twitter_account_name: maxnc
+  github_account_name: mncmncmnc
+  affiliated: true
 loren-newman:
   name: Loren Newman
   sort_name: Newman
