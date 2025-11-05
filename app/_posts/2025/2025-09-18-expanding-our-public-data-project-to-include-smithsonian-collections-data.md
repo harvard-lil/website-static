@@ -4,6 +4,8 @@ author:
 date: 2025-09-18T12:00:00-04:00
 title: Expanding Our Public Data Project to Include Smithsonian Collections Data
 project: public-data-project
+tags:
+  - Public Data
 ---
 <figure class="items-center text-center">
   <img class="h-fit w-full !mb-0" src="https://lil-blog-media.s3.amazonaws.com/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." />

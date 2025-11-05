@@ -5,6 +5,8 @@ author:
 date: 2025-10-24T16:00:00-04:00
 title: Rethinking Data Discovery for Libraries and Digital Humanities
 project: public-data-project
+tags:
+  - Public Data
 ---
 <figure class="items-center text-center">
   <img class="h-fit w-full" src="https://lil-blog-media.s3.amazonaws.com/macey_vertical_filing_cabinet_1903.jpg" alt="Illustration of a woman using a Macey vertical filing cabinet, from a 1903 catalogue" />
