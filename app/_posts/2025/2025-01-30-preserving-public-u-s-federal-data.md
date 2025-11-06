@@ -2,6 +2,8 @@
 title: Preserving Public U.S. Federal Data
 guest-author: Library Innovation Lab Team
 project: public-data-project
+tags:
+  - Public Data
 ---
 ![](https://lil-blog-media.s3.amazonaws.com/Screenshot_2025-01-30_at_4.06.13_PM.png)
 

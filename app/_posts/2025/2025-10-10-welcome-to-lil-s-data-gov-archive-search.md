@@ -5,6 +5,8 @@ author:
 date: 2025-10-10T16:00:00-04:00
 title: Welcome to LIL’s Data.gov Archive Search
 project: public-data-project
+tags:
+  - Public Data
 ---
 <figure class="items-center text-center">
   <img class="h-fit w-full !mb-0" src="https://lil-blog-media.s3.amazonaws.com/card_division_of_the_library_of_congress.jpg" alt="Photograph of people working in the Card Division of the Library of Congress, circa 1900–1920" />
