@@ -1,6 +1,6 @@
 <div>
 {% if include.author %}
-  <h2>Authors:</h2>
+  <h2>Author{% if include.author.size > 1 %}s{% endif %}:</h2>
   <span class="post-author">
   {% for author in include.author %}
     {% assign person_record = site.data.people[author] %}
