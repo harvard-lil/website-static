@@ -42,6 +42,11 @@
   margin: 0;
 }
 
+.post-content figure > figcaption {
+  font-size: 0.65em;
+  line-height: 140%;
+}
+
 .post-content iframe {
   width: 100%;
   height: auto;
