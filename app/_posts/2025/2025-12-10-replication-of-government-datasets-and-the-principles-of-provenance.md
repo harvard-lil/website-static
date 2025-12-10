@@ -9,7 +9,7 @@ tags:
   - Public Data
 ---
 
-_As part of our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/), LIL recently launched [Data.gov Archive Search](https://lil.law.harvard.edu/data-gov-archive/). In this post, we consider the importance of provenance for large, replicated government datasets._
+_As part of our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/), LIL recently launched [Data.gov Archive Search](https://lil.law.harvard.edu/data-gov-archive/). In this post, we consider the importance of provenance for large, replicated government datasets. This post is the third in a three-part series; [the first introduces Data.gov Archive Search](https://lil.law.harvard.edu/blog/2025/10/10/welcome-to-lil-s-data-gov-archive-search/) and [the second explores its architecture](https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/)._
 
 ---
 

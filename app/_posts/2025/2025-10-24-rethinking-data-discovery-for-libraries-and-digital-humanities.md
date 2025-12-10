@@ -13,7 +13,7 @@ tags:
   <figcaption>Woman using a Macey vertical filing cabinet (detail, 1903). Source: <a href="https://commons.wikimedia.org/wiki/File:Macey_Vertical_Filing_Cabinet_1903.jpg">Wikimedia Commons</a>.</figcaption>
 </figure>
 
-_As part of our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/), LIL recently launched [Data.gov Archive Search](https://lil.law.harvard.edu/data-gov-archive/). In this post, we look under the hood and reflect on how and why we built this project the way we did._
+_As part of our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/), LIL recently launched [Data.gov Archive Search](https://lil.law.harvard.edu/data-gov-archive/). Here, we look under the hood and reflect on how and why we built this project the way we did. This post is the second in a three-part series; [the first introduces Data.gov Archive Search](https://lil.law.harvard.edu/blog/2025/10/10/welcome-to-lil-s-data-gov-archive-search/) and [the third considers the importance of provenance for government datasets](https://lil.law.harvard.edu/blog/2025/12/10/replication-of-government-datasets-and-the-principles-of-provenance/)._
 
 ---
 

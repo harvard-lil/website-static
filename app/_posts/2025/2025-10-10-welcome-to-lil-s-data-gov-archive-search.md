@@ -9,7 +9,7 @@ tags:
   - Public Data
 ---
 <figure class="items-center text-center">
-  <img class="h-fit w-full !mb-0" src="https://lil-blog-media.s3.amazonaws.com/card_division_of_the_library_of_congress.jpg" alt="Photograph of people working in the Card Division of the Library of Congress, circa 1900–1920" />
+  <img class="h-fit w-full" src="https://lil-blog-media.s3.amazonaws.com/card_division_of_the_library_of_congress.jpg" alt="Photograph of people working in the Card Division of the Library of Congress, circa 1900–1920" />
   <figcaption>Card Division of the Library of Congress, ca. 1900–1920. Source: <a href="https://commons.wikimedia.org/wiki/File:Card_Division_of_the_Library_of_Congress_3c18631u_original.jpg">Wikimedia Commons</a>.</figcaption>
 </figure>
 
