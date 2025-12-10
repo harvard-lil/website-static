@@ -1,7 +1,7 @@
 ---
 author:
   - molly-hardy
-date: 2025-12-08T16:00:00-04:00
+date: 2025-12-10T16:00:00-04:00
 title: Replication of Government Datasets and the Principles of Provenance
 project: public-data-project
 thumbnail: https://lil-blog-media.s3.amazonaws.com/Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse.jpg
