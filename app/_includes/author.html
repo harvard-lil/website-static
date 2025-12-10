@@ -1,13 +1,13 @@
 <div>
-{% if include.author %}
-  <h2>Author{% if include.author.size > 1 %}s{% endif %}:</h2>
-  <span class="post-author">
-  {% for author in include.author %}
-    {% assign person_record = site.data.people[author] %}
-    {% if forloop.last and forloop.length > 1 %} and {% endif %}
-    <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}" class="interactive-link dark reverse">{{ person_record.name }}</a>{% if forloop.last != true and forloop.length > 2 %}, {% endif %}
-  {% endfor %}
-  </span>
+  {% if include.author %}
+    <h2>Author{% if include.author.size > 1 %}s{% endif %}:</h2>
+    <span class="post-author">
+      {% for author in include.author %}
+        {% assign person_record = site.data.people[author] %}
+        {% if forloop.last and forloop.length > 1 %} and {% endif %}
+          <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}" class="interactive-link dark reverse">{{ person_record.name }}</a>{% if forloop.last != true and forloop.length > 2 %}, {% endif %}
+      {% endfor %}
+    </span>
   {% elsif include.guest-author %}
     <span class="post-author">{{ include.guest-author }}</span>
   {% endif %}
