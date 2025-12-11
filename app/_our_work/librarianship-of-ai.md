@@ -19,9 +19,8 @@ The inherent variability of generative AI output is a challenge, and metacogniti
 * How can I effectively calibrate trust in AI output?
 * Who made this tool and how trustworthy are they?
 * What “problem” is this tool trying to solve or not solve?
-* How might AI change how we communicate, learn, and make sense of the world?
-
-How might AI impact search, research, and learning processes?
+* How might AI change how we communicate, learn, and make sense of the world
+* How might AI impact search, research, and learning processes?
 
 In order to lower the barrier to entry for librarians, legal researchers, students, and others to understand AI in their particular domains, we are building human-centered AI tools that recenter user agency; additionally, we’re developing artifacts to articulate how we apply techniques and outlooks common in the library and literacy world. Librarians should be collaborating with technologists, domain experts, patrons, and stakeholders in the building, evaluation, and stewardship of AI tools.
 
@@ -29,7 +28,7 @@ Above all, we need to adopt the same mindset libraries had when adapting to the 
 
 The projects listed below enable different communities to understand AI in their particular contexts, and empower them to form their own opinions and frameworks for thinking about AI and new ways to discover knowledge.
 
-### Projects
+### Featured Projects
 
 * [What We Learned Building Chatbots for Law Professors Using Custom GPT](https://lil.law.harvard.edu/blog/2025/02/15/what-we-learned-building-chatbots-for-law-professors-using-custom-gpt/)
 * [Open French Law RAG: Using AI for Cross-Language Legal Information Retrieval](https://lil.law.harvard.edu/blog/2025/01/21/open-french-law-rag/)
