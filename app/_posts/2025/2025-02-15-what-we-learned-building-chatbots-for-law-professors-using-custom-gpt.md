@@ -7,7 +7,7 @@ author:
 tags:
   - AI Research
 ---
-![Abstract illustration featuring a blue human head with a neural network pattern inside, a yellow house shape, a pink globe, and a yellow pencil, representing concepts of learning, education, and knowledge. Geometric shapes and lines connect the elements, symbolizing interconnected ideas.](https://lil-blog-media.s3.amazonaws.com/Blog_CustomGPTs.png)
+![Abstract illustration featuring a blue human head with a neural network pattern inside, a yellow house shape, a pink globe, and a yellow pencil, representing concepts of learning, education, and knowledge. Geometric shapes and lines connect the elements, symbolizing interconnected ideas.](https://lil-blog-media.s3.amazonaws.com/Blog_CustomGPTs.jpg)
 
 ## Building chatbots for Harvard Law School professors
 

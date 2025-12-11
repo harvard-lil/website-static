@@ -4,7 +4,7 @@ author:
 date: 2025-12-10T16:00:00-04:00
 title: Replication of Government Datasets and the Principles of Provenance
 project: public-data-project
-thumbnail: https://lil-blog-media.s3.amazonaws.com/Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse.jpg
+thumbnail: https://lil-blog-media.s3.amazonaws.com/Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse-P7X.jpg
 tags:
   - Public Data
 ---
@@ -32,7 +32,7 @@ There could be a time in the future when we are just as interested in the change
 
 <div class="flex gap-24 flex-col sm:flex-row">
   <figure class="flex-1">
-    <img src="https://lil-blog-media.s3.amazonaws.com/Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse.jpg" alt="Photograph of a wax seal marked 'De Twentsche Bank' in the Netherlands" />
+    <img src="https://lil-blog-media.s3.amazonaws.com/Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse-P7X.jpg" alt="Photograph of a wax seal marked 'De Twentsche Bank' in the Netherlands" />
     <figcaption>Wax seal of “De Twentsche Bank” in the Netherlands. Source: <a href="https://commons.wikimedia.org/wiki/File:Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse.jpg">Wikimedia Commons</a>.</figcaption>
   </figure>
 
