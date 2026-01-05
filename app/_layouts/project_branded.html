@@ -8,8 +8,8 @@ custom-css: ["post-content"]
     <nav aria-label="breadcrumbs" class="page-hero__eyebrow">
       <a href="{{ site.baseurl }}/our-work/" class="interactive-link dark reverse">Our Work</a>
     </nav>
-    {% if page.logo %}
-      <img class="h-144 mb-10 page-hero__title" src="{{ page.logo }}" alt="{{ page.title }}" />
+    {% if page.title_image %}
+      <img class="h-144 mb-10 page-hero__title" src="{{ page.title_image }}" alt="{{ page.title }}" />
     {% else %}
       <h1 class="page-hero__title">{{ page.title }}</h1>
     {% endif %}

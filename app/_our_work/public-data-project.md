@@ -1,14 +1,18 @@
 ---
-category: research
-subcategory: Ongoing
+category: platforms
+order: 2
 retired: false
 retired_date:
 layout: project_branded
+featured: true
+
 title: Public Data Project
 title_uses_definite_article: true
-logo: /assets/images/pdp-primary-logo.svg
-description: Preserving civic ground truth
-project_website: https://lil.law.harvard.edu/data-gov-archive/
+logo: pdp-circle-mark.svg
+background_class: bg-green
+title_image: /assets/images/pdp-primary-logo.svg
+description: The Public Data Project is preserving civic ground truth by creating tools to save vulnerable datasets and building communities of librarians and technologists.
+project_website:
 what_does_it_do: Preserving Civic Ground Truth
 tools_and_resources:
   Data.gov Archive Search: https://lil.law.harvard.edu/data-gov-archive/
