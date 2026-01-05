@@ -23,19 +23,19 @@ who_contributed:
 title-tag: Public Data Project
 ---
 
-Between November 2024 and January 2025, we launched a government data vault to download, sign, and share copies of the public federal data that is most valuable to researchers, scholars, civil society, and the public. This work is part of Harvard Law School Library’s centuries-long role in preserving and sharing accurate copies of federal documents, ensuring that vital resources remain accessible notwithstanding any change in funding, priorities, or accidental loss.
+In early 2025, the Library Innovation Lab launched the Public Data Project, a major effort to collect and publish federal datasets with proof of authenticity and provenance. Our work began with [copying 311,000 datasets from Data.gov between November 2024 and January 2025](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/). More recently, we moved to [capture all public domain Smithsonian data](https://lil.law.harvard.edu/blog/2025/09/18/expanding-our-public-data-project-to-include-smithsonian-collections-data/).
 
-Our approach is to rapidly build cutting edge archiving and playback software, while also building deep ties with historic libraries and archives, discovering and broadcasting best practices along the way. Our preservation methods include:
+The driving focus for this work is the “one copy problem.” Simply put, information that exists in a single location, or is supported by a single funding stream, or administered by a single entity, is at considerable risk of disappearing — or worse, being changed without notice. This problem, which has [long been](https://medium.com/galleys/why-libraries-still-matter-3df27e7522cb) an [area of focus](https://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-collective-hallucination/619320/) and advocacy for us, threatens our cultural memory, our ability to access the data we need to know what has happened so we can plan where we are going. The sweeping loss of public data on the federal web beginning in 2025 is only the latest, and largest, demonstration of the internet’s mass fragility and vulnerability to shocks.
 
-* Cryptographic provenance to verify authenticity
-* Comprehensive metadata for discoverability
-* Rigorous collection practices
-* Robust client-side discovery layers
-* Prioritization based on public needs
-* Archives designed for resilient duplication.
+The Public Data Project is equipping a nationwide network of libraries, archives, and nonprofits with the tools they need to safeguard the most vulnerable U.S. federal data and to build the technical, organizational, and human infrastructure required for long-term, low-cost stewardship of public information. The Public Data Project builds on our history with large-scale data and digital preservation projects, such as the [Caselaw Access Project](https://case.law) and [Perma.cc](https://perma.cc).
 
-Involving a mix of technical, social, economic, and educational interventions, we are preserving datasets in immediate danger through creation of new tools and technologies. We are also building communities of librarians and technologists who can solve the many challenges of high quality public data preservation by fostering affordable, incentive-aligned preservation networks that can robustly store information against global shocks.
+The Public Data Project’s current work includes:
 
-Check this page, as well as our blog, for updates to this project. Please contact us at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu).
+* Producing open-source data monitoring tools in collaboration with [America’s Data Index](https://dataindex.us);
+* Enhancing federal data access and visualization in collaboration with [Radiant Earth](https://radiant.earth);
+* Developing graduate-level training curriculum for the next generation of librarians;
+* Rethinking inter-governmental and inter-institutional frameworks for digital mutual aid to preserve cultural memory.
+
+Check this page, as well as our [blog](https://lil.law.harvard.edu/blog/), for updates to this project. Please contact us at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu).
 
 We are grateful for the support of the John D. and Catherine T. MacArthur Foundation and the Rockefeller Brothers Fund (RBF). The opinions and views do not necessarily state or reflect those of the contributors.
