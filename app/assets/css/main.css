@@ -613,7 +613,7 @@ html.is-animating .transition-main {
   }
 }
 
-.why-does-it-exist > ul {
+.content-with-lists > ul {
   display: flex;
   flex-direction: column;
   gap: 14px;
