@@ -28,23 +28,6 @@ custom-css: ["post-content"]
     </div>
   </section>
 
-  {% if page.tools_and_resources %}
-    <section class="container">
-      <div class="flex flex-col lg:grid lg:grid-cols-3 gap-24 lg:gap-36 items-baseline">
-        <h2 class="h2">Tools and Resources</h2>
-
-        <div class="post-content lg:col-span-2 body-text lg:max-w-[750px]">
-          <p>{% if page.title_uses_definite_article %}The {% endif %}{{page.title}} includes the following tools and resources:</p>
-          <ul>
-            {% for key_value in page.tools_and_resources %}
-              <li><a href="{{ key_value[1] }}" target="_blank">{{ key_value[0] }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </section>
-  {% endif %}
-
   {% assign updates = site.posts | where: "project", page.slug | slice: 0, 5 | sort: "date" | reverse %}
   {% if updates.size > 0 %}
     <section class="container flex flex-col items-start gap-12">

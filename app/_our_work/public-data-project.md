@@ -14,8 +14,6 @@ title_image: /assets/images/pdp-primary-logo.svg
 description: The Public Data Project is preserving civic ground truth by creating tools to save vulnerable datasets and building communities of librarians and technologists.
 project_website:
 what_does_it_do: Preserving Civic Ground Truth
-tools_and_resources:
-  Data.gov Archive Search: https://lil.law.harvard.edu/data-gov-archive/
 who_contributed:
   - molly-hardy
   - jack-cushman
