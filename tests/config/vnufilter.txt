@@ -3,3 +3,4 @@
 .*margin.*
 .*scrolling.*
 .*Duplicate ID.*
+.*skipping \d heading level.*
