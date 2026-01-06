@@ -1,5 +1,6 @@
 ---
 layout: default
+custom-css: ["post-content"]
 ---
 
 <section class="container">
@@ -7,7 +8,11 @@ layout: default
     <nav aria-label="breadcrumbs" class="page-hero__eyebrow">
       <a href="{{ site.baseurl }}/our-work/" class="interactive-link dark reverse">Our Work</a>
     </nav>
-    <h1 class="page-hero__title">{{ page.title }}</h1>
+    {% if page.title_image %}
+      <img class="h-144 mb-10 page-hero__title" src="{{ page.title_image }}" alt="{{ page.title }}" />
+    {% else %}
+      <h1 class="page-hero__title">{{ page.title }}</h1>
+    {% endif %}
     <h2 class="page-hero__subtitle">{{page.what_does_it_do}}</h2>
   </div>
 </section>
@@ -16,29 +21,12 @@ layout: default
 
   <section class="container flex flex-col gap-36 md:gap-72">
     <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
-      <h2 class="h2">Where can I find {% if page.title_uses_definite_article %}the {% endif %}{{page.title}}?</h2>
-      <div class="md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
-        {% if page.project_website %}
-          {% include arrow-link.html label=page.project_website href=page.project_website target="_blank" %}
-        {% endif %}
-        {% if page.github_repo %}
-          {% include arrow-link.html label="GitHub" href=page.github_repo target="_blank" %}
-        {% endif %}
+      <h2 class="h2">What is {% if page.title_uses_definite_article %}the {% endif %}{{page.title}}?</h2>
+      <div class="post-content md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
+        {{ content }}
       </div>
     </div>
-    {% if page.why_does_it_exist %}
-      <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
-        <h2 class="h2">Why does {% if page.title_uses_definite_article %}the {% endif %}{{page.title}} exist?</h2>
-        <div class="content-with-lists md:col-span-2 body-text flex flex-col gap-20 xl:max-w-[700px]">
-          {{ page.why_does_it_exist | markdownify }}
-        </div>
-      </div>
-    {% endif %}
   </section>
-
-  {% if page.hero_image %}
-    {% include project-hero.html %}
-  {% endif %}
 
   {% assign updates = site.posts | where: "project", page.slug | slice: 0, 5 | sort: "date" | reverse %}
   {% if updates.size > 0 %}
