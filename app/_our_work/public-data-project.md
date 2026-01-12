@@ -10,7 +10,7 @@ title: Public Data Project
 title_uses_definite_article: true
 logo: pdp-circle-mark.svg
 background_class: bg-green
-title_image: /assets/images/pdp-primary-logo.svg
+title_image: /assets/images/pdp-primary-logo-hls.svg
 hero_image:
 description: The Public Data Project is preserving civic ground truth by creating tools to save vulnerable datasets and building communities of librarians and technologists.
 project_website:
