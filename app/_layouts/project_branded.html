@@ -9,7 +9,7 @@ custom-css: ["post-content"]
       <a href="{{ site.baseurl }}/our-work/" class="interactive-link dark reverse">Our Work</a>
     </nav>
     {% if page.title_image %}
-      <img class="h-144 mb-10 page-hero__title" src="{{ page.title_image }}" alt="{{ page.title }}" />
+      <img class="max-h-144 mb-10 page-hero__title" src="{{ page.title_image }}" alt="{{ page.title }}" />
     {% else %}
       <h1 class="page-hero__title">{{ page.title }}</h1>
     {% endif %}
@@ -21,12 +21,27 @@ custom-css: ["post-content"]
 
   <section class="container flex flex-col gap-36 md:gap-72">
     <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
-      <h2 class="h2">What is {% if page.title_uses_definite_article %}the {% endif %}{{page.title}}?</h2>
+      <h2 class="h2">What Is {% if page.title_uses_definite_article %}the {% endif %}{{page.title}}?</h2>
       <div class="post-content md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
         {{ content }}
       </div>
     </div>
   </section>
+
+  {% if page.about_us %}
+  <section class="container flex flex-col gap-36 md:gap-72">
+    <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
+      <h2 class="h2">About Us</h2>
+      <div class="post-content md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
+        {{ page.about_us | markdownify }}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.hero_image %}
+    {% include project-hero.html %}
+  {% endif %}
 
   {% assign updates = site.posts | where: "project", page.slug | slice: 0, 5 | sort: "date" | reverse %}
   {% if updates.size > 0 %}
@@ -34,7 +49,7 @@ custom-css: ["post-content"]
       <h2 class="h2">Updates</h2>
       <div class="flex flex-col items-start w-full">
         {% for post in updates %}
-          <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} flex grid grid-cols-12 gap-24 relative">
+          <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} grid grid-cols-12 gap-24 relative">
             <span class="label col-span-3">
               <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
             </span>
@@ -51,7 +66,7 @@ custom-css: ["post-content"]
       <h2 class="h2">News</h2>
       <div class="flex flex-col items-start w-full">
         {% for article in news %}
-          <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} flex grid grid-cols-12 gap-24 relative">
+          <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} grid grid-cols-12 gap-24 relative">
             <span class="label col-span-3">
               <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
             </span>
@@ -67,7 +82,7 @@ custom-css: ["post-content"]
     </section>
   {% endif %}
 
-  {% if page.who_contributed %}
+  {% if page.who_contributed and page.about_us == empty %}
     <section class="container">
       <div class="flex flex-col lg:grid lg:grid-cols-3 gap-24 lg:gap-36 items-baseline">
         <h2 class="h2">Project Contributors</h2>
