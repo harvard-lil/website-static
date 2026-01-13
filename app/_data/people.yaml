@@ -21,6 +21,21 @@
 
 
 # LIL staff
+halle-burns:
+  name: Halle Burns
+  sort_name: Burns
+  role: Product and Research Manager
+  bio: >
+    Halle comes to LIL from librarianship, with extensive experience in data and
+    project management, curation, and instructional design. She has a passion for
+    digital preservation, accessibility, and federal data rescue. Outside of work,
+    she can be found petting dogs, experimenting with new crafts and hobbies,
+    or reading a new graphic novel.
+  email: hburns@law.harvard.edu
+  image: halle-burns.jpg
+  affiliated: true
+  current: true
+  section: Staff
 rebecca-cremona:
   name: Rebecca Cremona
   sort_name: Cremona
