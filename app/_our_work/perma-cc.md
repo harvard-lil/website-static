@@ -4,7 +4,7 @@ order: 1
 retired: false
 retired_date:
 layout: project
-featured: true
+featured:
 
 ### PROJECT METADATA ###
 # Required
