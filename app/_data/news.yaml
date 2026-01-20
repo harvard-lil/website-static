@@ -242,9 +242,25 @@
   archived_date: 2025-08-28T00:00:00-04:00
 - project: public-data-project
   type: press
+  title: The Data Hoarders Resisting Trump’s Purge
+  publication: The New Yorker
+  date: 2025-03-04T12:00:00-04:00
+  url: https://www.newyorker.com/news/the-lede/the-data-hoarders-resisting-trumps-purge
+  archived_url: https://perma.cc/F4MN-WA9U
+  archived_date: 2025-10-10T12:00:00-04:00
+- project: public-data-project
+  type: press
   title: Inside Harvard’s Data.gov Archive – A Conversation with Jack Cushman
   publication: Great Data Products
   date: 2025-11-19T14:00:00-04:00
   url: https://luma.com/tazk1k8e?tk=jykhQ511%2F19%2F25
   archived_url: https://perma.cc/NB78-Y88A
   archived_date: 2025-11-23T00:00:00-04:00
+- project: public-data-project
+  type: press
+  title: The Women Saving America’s Climate Data
+  publication: Time
+  date: 2026-01-17T12:00:00-04:00
+  url: https://time.com/7344773/women-saving-federal-climate-data/
+  archived_url: https://perma.cc/GZ9K-RPJS
+  archived_date: 2025-11-20T13:29:00-04:00
