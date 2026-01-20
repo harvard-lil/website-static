@@ -40,7 +40,7 @@ layout: default
     {% include project-hero.html %}
   {% endif %}
 
-  {% assign updates = site.posts | where: "project", page.slug | slice: 0, 5 | sort: "date" | reverse %}
+  {% assign updates = site.posts | where: "project", page.slug | sort: "date" | reverse | slice: 0, 10 %}
   {% if updates.size > 0 %}
     <section class="container flex flex-col items-start gap-12">
       <h2 class="h2">Updates</h2>
@@ -57,7 +57,7 @@ layout: default
     </section>
   {% endif %}
 
-  {% assign news = site.data.news | where: "project", page.slug | sort: "date" | reverse %}
+  {% assign news = site.data.news | where: "project", page.slug | sort: "date" | reverse | slice: 0, 10 %}
   {% if news.size > 0 %}
     <section class="container flex flex-col items-start gap-12">
       <h2 class="h2">News</h2>
