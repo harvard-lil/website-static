@@ -1,6 +1,6 @@
 ---
 title: "GovScape: Multimodal Search & Discovery for 10+ Million Government PDFs"
-date: 2026-01-26T11:30:00-04:00
+date: 2026-01-29T12:30:00-04:00
 short_description: >-
   Presentation of GovScape, a new tool offering an opportunity to study the history of the 21st century through the End of Term Web Archive.
 description: >-
