@@ -4,9 +4,9 @@ author: jack-cushman
 tags:
 - Tools
 ---
-[![Agent Protocols Tech Tree](https://lil-blog-media.s3.amazonaws.com/aptt.png)](https://jcushman.github.io/agent-protocols/)
+[![Agent Protocols Tech Tree](https://lil-blog-media.s3.amazonaws.com/aptt.png)](https://harvard-lil.github.io/agent-protocols/)
 
-Today I am sharing the [Agent Protocols Tech Tree](https://jcushman.github.io/agent-protocols/). APTT is a visual, videogame-style tech tree of the evolving protocols supporting AI agents.
+Today I am sharing the [Agent Protocols Tech Tree](https://harvard-lil.github.io/agent-protocols/). APTT is a visual, videogame-style tech tree of the evolving protocols supporting AI agents.
 
 **Where did this come from?**
 
@@ -40,9 +40,9 @@ To be sure, protocols aren't the only way to influence technological development
 
 APTT is designed to be helpful whether you're a less-technical person who just wants to understand what agents are, or a more technical person who wants to understand exactly what's getting built.
 
-Either way the pile of agent technologies is confusing, so I recommend starting at the beginning with "[Inference API](https://jcushman.github.io/agent-protocols/#inference-api)."
+Either way the pile of agent technologies is confusing, so I recommend starting at the beginning with "[Inference API](https://harvard-lil.github.io/agent-protocols/#inference-api)."
 
-[![Inference API](https://lil-blog-media.s3.amazonaws.com/inference-api.png)](https://jcushman.github.io/agent-protocols/#inference-api)
+[![Inference API](https://lil-blog-media.s3.amazonaws.com/inference-api.png)](https://harvard-lil.github.io/agent-protocols/#inference-api)
 
 Video games are often designed so you start with a simple feature unlocked and then progressively unlock more and more complex options as you learn the game. The same approach works here: imagine that you have just unlocked "Inference API" in this game, and once you're comfortable with that, explore off to the right to see how each protocol enables or necessitates the next.
 
@@ -66,4 +66,4 @@ APTT is a work in progress, and to be honest in many ways is a whiteboard sketch
 
 (This is a weird thing about the agentic moment — my coding agent has made this tool look more polished and complete than it may really deserve. Think napkin sketch with fancy graphics.)
 
-If you think I got things wrong or missed part of the story, please [open an issue on the GitHub repository](https://github.com/jcushman/agent-protocols/issues). I plan to keep this rough and opinionated, and focused on consensus-driven protocols as a lens for understanding what's happening — so I'll either pull contributions into the main tool, or just leave them as discussions to represent the range of opinions about how all of this works. I hope it's fun to play with either way.
+If you think I got things wrong or missed part of the story, please [open an issue on the GitHub repository](https://github.com/harvard-lil/agent-protocols/issues). I plan to keep this rough and opinionated, and focused on consensus-driven protocols as a lens for understanding what's happening — so I'll either pull contributions into the main tool, or just leave them as discussions to represent the range of opinions about how all of this works. I hope it's fun to play with either way.
