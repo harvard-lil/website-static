@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Harvard Library Innovation Lab Website",
   "scripts": {
-    "css:build": "postcss app/assets/css/main.css -o build/assets/css/main.css",
-    "css:watch": "postcss app/assets/css/main.css -o build/assets/css/main.css --watch",
-    "start": "npm run css:build && npx concurrently \"npm run css:watch\" \"npx @11ty/eleventy --serve\"",
-    "build": "npm run css:build && npx @11ty/eleventy",
+    "css:build": "tailwindcss -i app/assets/css/main.css -o build/assets/css/main.css",
+    "css:watch": "tailwindcss -i app/assets/css/main.css -o build/assets/css/main.css --watch",
+    "start": "npm run css:build && concurrently \"npm run css:watch\" \"eleventy --serve\"",
+    "build": "npm run css:build && eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,15 +19,10 @@
     "url": "https://github.com/harvard-lil/website-static/issues"
   },
   "homepage": "https://github.com/harvard-lil/website-static#readme",
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "autoprefixer": "^10.4.19",
     "concurrently": "^9.1.0",
     "markdown-it": "^14.1.0",
-    "postcss": "^8.4.45",
-    "postcss-cli": "^11.0.0",
-    "postcss-import": "^16.1.0",
-    "postcss-scss": "^4.0.9",
     "tailwindcss": "^3.4.3"
   }
 }
