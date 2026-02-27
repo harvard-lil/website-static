@@ -6,8 +6,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addDataExtension("yaml,yml", (contents) => yaml.load(contents));
 
-  // Respect Jekyll's `published: false` convention
   eleventyConfig.addGlobalData("eleventyComputed", {
+    slug: (data) => data.slug || data.page.fileSlug,
     eleventyExcludeFromCollections: (data) => {
       if (data.published === false) return true;
       return data.eleventyExcludeFromCollections;
