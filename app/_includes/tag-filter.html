@@ -1,16 +1,16 @@
-{% assign current = page.autopages.display_name|strip | default: 'all' %}
+{% assign current = current_tag | default: 'all' %}
 
 {% if site.show_blog_featured_tags %}
 
 <div>
   <nav aria-label="Featured Tags">
     <ul class="flex flex-wrap flex-col sm:flex-row gap-10 mt-12 sm:mt-0">
-      {% for tag in site.data.featured_tags %}
+      {% for tag in featured_tags %}
         {% assign isActive = false  %}
         {% if current == tag %}
           {% assign isActive = true %}
         {% endif %}
-        {% for includedTag in include.tags %}
+        {% for includedTag in tags %}
           {% if tag == includedTag %}
             {% assign isActive = true %}
           {% endif %}

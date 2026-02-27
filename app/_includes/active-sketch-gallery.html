@@ -1,30 +1,27 @@
 <div class="gallery-crl">
   {% comment %}
-    {% assign active_projects = site.sketches_active | sort: "start_date" | reverse %}
+    {% assign active_projects = collections.sketches_active | sort: "start_date" | reverse %}
   {% endcomment %}
-  {% assign active_projects = site.sketches_active | sort_natural: "title" %}
+  {% assign active_projects = collections.sketches_active | sort_natural: "title" %}
 
   {% for project in active_projects %}
     <a class="gallery-item" href="{{ project.url }}">
       <figure>
-        <img src="{{ site.baseurl }}/assets/thumbs/432x432r/{{ project.sketch_thumbnail_image }}"
-             srcset=" {{ site.baseurl }}/assets/thumbs/216x216r/{{ project.sketch_thumbnail_image }} 216w,
-                      {{ site.baseurl }}/assets/thumbs/432x432r/{{ project.sketch_thumbnail_image }} 432w,
-                      {{ site.baseurl }}/assets/thumbs/648x648r/{{ project.sketch_thumbnail_image }} 648w"
+        <img src="{{ site.baseurl }}/assets/thumbs/432x432r/{{ project.data.sketch_thumbnail_image }}"
+             srcset=" {{ site.baseurl }}/assets/thumbs/216x216r/{{ project.data.sketch_thumbnail_image }} 216w,
+                      {{ site.baseurl }}/assets/thumbs/432x432r/{{ project.data.sketch_thumbnail_image }} 432w,
+                      {{ site.baseurl }}/assets/thumbs/648x648r/{{ project.data.sketch_thumbnail_image }} 648w"
               sizes=" (min-width:1049px) 268px,
                       (min-width:640px) 184px,
                        50vw"
               alt=""
               class="img-full-width">
       </figure>
-      <strong class="title">{{ project.title }}</strong>
+      <strong class="title">{{ project.data.title }}</strong>
       <ul>
-        <li class="logline">{{ project.what_does_it_do | strip }}</li>
-        {% if project.start_date %}<li class="date">{{ project.start_date }}</li>{% endif %}
+        <li class="logline">{{ project.data.what_does_it_do | strip }}</li>
+        {% if project.data.start_date %}<li class="date">{{ project.data.start_date }}</li>{% endif %}
       </ul>
     </a>
   {% endfor %}
 </div>
-
-
-

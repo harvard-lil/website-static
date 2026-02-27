@@ -14,8 +14,8 @@ what_does_it_do: >
 
 <div class="embed-container"><iframe title="meet the 2016 summer fellows" allowfullscreen="" frameborder="0" height="360" mozallowfullscreen="" src="https://player.vimeo.com/video/182402655" webkitallowfullscreen="" width="640"></iframe></div>
 
-{% for fellow in site.data.fellows_summer_2016 %}
-  {% assign person_record = site.data.people[fellow.fellow] %}
+{% for fellow in fellows_summer_2016 %}
+  {% assign person_record = people[fellow.fellow] %}
   <div id="{{ person_record.name | slugify }}">
     <h2>{{ person_record.name }}</h2>
     <div class="italic">{{ fellow.logline | strip | markdownify }}</div>

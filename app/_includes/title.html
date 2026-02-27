@@ -1,10 +1,10 @@
 {% capture title %}
-  {% if page.title-tag-complete %}
-    {{ page.title-tag-complete }}
-  {% elsif page.title-tag %}
-    {{ page.title-tag | append: " | Library Innovation Lab" }}
-  {% elsif page.title %}
-    {{ page.title | append: " | Library Innovation Lab" }}
+  {% if title-tag-complete %}
+    {{ title-tag-complete }}
+  {% elsif title-tag %}
+    {{ title-tag | append: " | Library Innovation Lab" }}
+  {% elsif title %}
+    {{ title | append: " | Library Innovation Lab" }}
   {% else %}
     {{ site.title }}
   {% endif %}

@@ -1,0 +1,20 @@
+title: The Library Innovation Lab at Harvard University
+description: The Library Innovation Lab is growing knowledge and community by bringing library principles to technological frontiers.
+baseurl: ""
+url: https://lil.law.harvard.edu
+sharing-image: thumbs/800x800r/lil-primary-black.png
+email: lil@law.harvard.edu
+twitter_account_name: HarvardLIL
+twitter_url: https://twitter.com/harvardlil
+linkedin_account_name: libraryinnovationlab
+linkedin_url: https://www.linkedin.com/company/libraryinnovationlab/
+facebook_url: https://www.facebook.com/HarvardLibraryInnovationLab/
+github_account_name: harvard-lil
+github_url: https://github.com/harvard-lil
+address_name: The Library Innovation Lab
+address_street1: The Reginald F. Lewis Law Center
+address_street2: 1557 Massachusetts Avenue
+address_map_url: https://www.google.com/maps/place/1557+Massachusetts+Ave,+Cambridge,+MA+02138/@42.3782483,-71.1213313,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37741bde17be1:0xf64e9368998f6967!8m2!3d42.3782444!4d-71.1191426
+address_city_state: Cambridge, MA 02138
+blog_feed_title: The Harvard Library Innovation Lab
+show_blog_featured_tags: true

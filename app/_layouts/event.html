@@ -11,7 +11,7 @@ custom-css: ['post-content']
       </nav>
       <div class="w-full flex flex-col md:grid gap-32 pb-40 border-b-1 border-black">
         <h1 class="h2">
-          {{page.title}}
+          {{title}}
           <br>
           <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         </h1>
@@ -22,8 +22,8 @@ custom-css: ['post-content']
 <section class="container post">
   <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-24 md:grid md:grid-cols-12 body-text">
     <div class="md:col-span-8 md:col-start-3" itemprop="articleBody">
-        {% if page.banner %}
-          <img src="{{ site.baseurl }}/assets/images/events/{{ page.banner }}"
+        {% if banner %}
+          <img src="{{ site.baseurl }}/assets/images/events/{{ banner }}"
             alt=""
             class="img-full-width mb-40">
         {% endif %}

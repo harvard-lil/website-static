@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% include title.html %}
-    {% include description.html %}
-    {% include sharing-image.html %}
+    {% include "title.html" %}
+    {% include "description.html" %}
+    {% include "sharing-image.html" %}
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
     <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico" sizes="32x32">
     <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.svg" type="image/svg+xml">
@@ -18,17 +18,17 @@
     <script src="{{ site.baseurl }}/assets/lib/gsap@3.12.5/gsap.min.js?v=JS_BUST"></script>
     <script src="{{ site.baseurl }}/assets/lib/swup@4.7.0/Swup.umd.js?v=JS_BUST"></script>
     <script src="{{ site.baseurl }}/assets/lib/swup-head-plugin@2.2.0/index.umd.js?v=JS_BUST"></script>
-    {% include custom-css.html %}
+    {% include "custom-css.html" %}
   </head>
   <body class="bg-white font-sans font-normal">
-    {% include header.html %}
+    {% include "header.html" %}
     <div id="swup" class="transition-main">
-      <main class="{{- page.type }} {{ page.slug -}}">
+      <main class="{{- type }} {{ slug -}}">
         {{ content }}
       </main>
-      {% include footer.html %}
+      {% include "footer.html" %}
     </div>
     <script src="{{ site.baseurl }}/assets/javascripts/main.js?js-cache-buster=1"></script>
-    {% include custom-scripts.html %}
+    {% include "custom-scripts.html" %}
   </body>
 </html>

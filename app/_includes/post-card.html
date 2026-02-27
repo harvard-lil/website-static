@@ -13,20 +13,20 @@
 <!-- NB: this HTML is not used when rendering search results. That markup is in a string in main.js  -->
 <article itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-14 relative">
   <header class="aspect-square w-full bg-gray relative">
-    {% if include.post.thumbnail %}
-      <img src="{{ include.post.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="" />
+    {% if post.data.thumbnail %}
+      <img src="{{ post.data.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="" />
     {% elsif first_img_src != '' %}
       <object data="{{ first_img_src }}" class="w-full h-full object-cover absolute inset-0">
-        <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
+        <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
       </object>
     {% else %}
-      <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ include.thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
+      <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
     {% endif %}
   </header>
   <div class="flex flex-col gap-8">
     <h2 class="text-16 md:text-18 leading-120 font-medium" itemprop="headline">
-      <a href="{{ include.post.url}}" class="card-link">{{ include.post.title | smartify }}</a>
+      <a href="{{ post.url}}" class="card-link">{{ post.data.title | smartify }}</a>
     </h2>
-    <time class="text-16 md:text-18 leading-100" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+    <time class="text-16 md:text-18 leading-100" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
   </div>
 </article>

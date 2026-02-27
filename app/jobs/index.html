@@ -6,7 +6,7 @@ layout: default
 
 <section class="container">
   <div class="page-hero simple">
-    <h1 class="page-hero__title">{{ page.title }}</h1>
+    <h1 class="page-hero__title">{{ title }}</h1>
     <div class="page-hero__subtitle editable">
       Joining our team means standing at the intersection of law, librarianship, and technology within an academic context. We offer a low-pressure, self-directed environment with lots of room to explore, learn, collaborate, and teach.
     </div>
@@ -27,20 +27,20 @@ layout: default
     </figure>
   </section>
 
-  <section class="container flex flex-col gap-24 md:gap-40{% if site.jobs.size == 0 %} pb-66{% endif %}">
+  <section class="container flex flex-col gap-24 md:gap-40{% if collections.jobs.size == 0 %} pb-66{% endif %}">
     <h2 class="h2 editable">Background</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
-      {% assign background_sections = site.jobs | where:"category","background" | sort: "order" %}
+      {% assign background_sections = collections.jobs | where:"category","background" | sort: "order" %}
         {% for section in background_sections %}
-          {% include job.html title=section.title content=section.content %}
+          {% include "job.html", title: section.data.title, job_content: section.content %}
         {% endfor %}
       </div>
     </div>
   </section>
 
-  {% assign staff_sections = site.jobs | where:"category","staff" | sort: "order" %}
-  {% assign research_sections = site.jobs | where:"category","research" | sort: "order" %}
+  {% assign staff_sections = collections.jobs | where:"category","staff" | sort: "order" %}
+  {% assign research_sections = collections.jobs | where:"category","research" | sort: "order" %}
 
   {% if staff_sections.size > 0 %}
   <section class="container flex flex-col gap-24 md:gap-40{% if research_sections.size == 0 %} pb-66{% endif %}">
@@ -48,7 +48,7 @@ layout: default
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
         {% for section in staff_sections %}
-          {% include job.html title=section.title content=section.content %}
+          {% include "job.html", title: section.data.title, job_content: section.content %}
         {% endfor %}
       </div>
     </div>
@@ -57,11 +57,11 @@ layout: default
 
   {% if research_sections.size > 0 %}
   <section class="container flex flex-col gap-24 md:gap-40 pb-66">
-    <h2 class="h2 edtiable">Research Positions</h2>
+    <h2 class="h2 editable">Research Positions</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
         {% for section in research_sections %}
-          {% include job.html title=section.title content=section.content %}
+          {% include "job.html", title: section.data.title, job_content: section.content %}
         {% endfor %}
       </div>
     </div>

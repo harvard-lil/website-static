@@ -1,0 +1,7 @@
+node_modules
+package.json
+package-lock.json
+postcss.config.js
+tailwind.config.js
+eleventy.config.js
+README.md

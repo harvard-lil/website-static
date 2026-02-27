@@ -15,31 +15,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/cache@v4
+      - uses: actions/setup-node@v4
         with:
-          path: bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('app/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
 
-      - name: Info
-        run: |
-          docker compose version
-          docker version
-          npm --version
+      - name: Install vnu-jar
+        run: npm install vnu-jar
 
-      - name: Setup
-        run: |
-          npm install vnu-jar
-          sudo mkdir -m 777 build
-          ls bundle || sudo mkdir -m 777 bundle
-          sudo mkdir -m 777 app/.jekyll-cache
-          docker compose run jekyll npm install
+      - name: Install dependencies
+        working-directory: app
+        run: npm ci
+
+      - name: Setup build directory
+        run: mkdir -p build
 
       - name: Test and build
-        run: |
-          bash ./scripts/run-tests.sh
-      
+        run: bash ./scripts/run-tests.sh
+
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
@@ -127,4 +121,3 @@ jobs:
                 ]
               }
 
-          

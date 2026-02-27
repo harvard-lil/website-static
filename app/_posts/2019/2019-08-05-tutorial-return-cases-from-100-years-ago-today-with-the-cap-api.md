@@ -11,15 +11,15 @@ Let’s start by building our call to the CAP API using the parameters `decision
 
 * Open a text editor and paste:
 
-{% highlight shell %}
+```shell
 curl "https://api.case.law/v1/cases/?decision_date_min=(year)-(month)-(day)&decision_date_max=(year)-(month)-(day)"
-{% endhighlight %}
+```
 
 * Update `(year)-(month)-(day)` with today’s date in this format and update 2019 to 1919. Once you’re set, it should look something like this:
 
-{% highlight shell %}
+```shell
 curl "https://api.case.law/v1/cases/?decision_date_min=1919-08-05&decision_date_max=1919-08-05"
-{% endhighlight %}
+```
 
 ## Use Your API Call
 Next, we’ll continue this tutorial in MacOS using Terminal.
@@ -34,9 +34,9 @@ Now, what do the content of those cases look like? Time to add a new piece to th
 
 * To view the full text of all cases returned, add `&full_case=true` to the end of your original API call. It should look like this:
 
-{% highlight shell %}
+```shell
 curl "https://api.case.law/v1/cases/?decision_date_min=1919-08-05&decision_date_max=1919-08-05&full_case=true"
-{% endhighlight %}
+```
 
 * Run your new API call in Terminal.
 

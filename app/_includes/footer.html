@@ -1,8 +1,8 @@
-<footer aria-label="page footer" class="bg-black text-white pt-24 pb-24 sm:pt-60 sm:pb-40 {% unless page.slug == 'our-work' or page.slug == 'jobs' %} mt-[theme(footerPadding.sm)] md:mt-[theme(footerPadding.md)] {% endunless %}">
+<footer aria-label="page footer" class="bg-black text-white pt-24 pb-24 sm:pt-60 sm:pb-40 {% unless slug == 'our-work' or slug == 'jobs' %} mt-[theme(footerPadding.sm)] md:mt-[theme(footerPadding.md)] {% endunless %}">
   <div class="nav-container flex flex-wrap sm:grid sm:grid-cols-12 sm:gap-x-20 sm:gap-y-26">
     <a href="/" class="block relative w-full max-w-[160px] sm:col-span-4 sm:max-w-[340px]">
       <span class="sr-only">Home</span>
-      <span aria-hidden="true">{% include footer-logo.html %}</span>
+      <span aria-hidden="true">{% include "footer-logo.html" %}</span>
     </a>
     <ul class="footer-nav flex-1 text-right sm:text-left sm:col-span-6 sm:col-start-7 sm:text-right sm:grid sm:grid-cols-2 sm:gap-x-20 sm:gap-y-10 text-28 md:text-50 leading-[120%] sm:leading-[100%] font-medium">
       <li>
@@ -27,15 +27,15 @@
     <div class="sm:col-span-12 flex items-center justify-end gap-15 w-full self-end pt-32 pb-40 sm:pt-0 sm:pb-0">
       <a href="{{ site.github_url}}" target="_blank">
         <span class="sr-only">LIL on Github</span>
-        <span aria-hidden="true">{% include icon-github.html %}</span>
+        <span aria-hidden="true">{% include "icon-github.html" %}</span>
       </a>
       <a href="{{ site.twitter_url }}" target="_blank">
         <span class="sr-only">LIL on Twitter</span>
-        <span aria-hidden="true">{% include icon-x.html %}</span>
+        <span aria-hidden="true">{% include "icon-x.html" %}</span>
       </a>
       <a href="{{ site.linkedin_url }}" target="_blank">
         <span class="sr-only">LIL on LinkedIn</span>
-        <span aria-hidden="true">{% include icon-linkedin.html %}</span>
+        <span aria-hidden="true">{% include "icon-linkedin.html" %}</span>
       </a>
     </div>
     <div class="w-full flex flex-col sm:flex-row sm:items-center sm:justify-between sm:gap-20 pt-24 border-t-1 border-white sm:col-span-12 text-12 sm:text-16">

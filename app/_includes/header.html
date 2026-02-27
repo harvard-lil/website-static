@@ -1,6 +1,6 @@
 <lil-header class="block relative z-header">
    <!-- {% if page.slug == "home" %}
-    {% include hiring-banner.html title="User Support Coordinator" %}
+    {% include "hiring-banner.html", title: "User Support Coordinator" %}
   {% endif %} -->
   <header class="pt-24 md:pt-36 nav-container">
     <div class="flex items-center justify-between">
@@ -8,7 +8,7 @@
       <a href="/" class="logo">
         <span class="sr-only">Home</span>
         <span aria-hidden="true">
-          {% include header-splash-logo.html %}
+          {% include "header-splash-logo.html" %}
         </span>
       </a>
       <button class="menu-button" aria-haspopup="menu" aria-expanded="false" aria-label="Open naviation">
@@ -16,6 +16,6 @@
         <span class="menu-button__bar"></span>
       </button>
     </div>
-    {% include nav.html %}
+    {% include "nav.html" %}
   </header>
 </lil-header>

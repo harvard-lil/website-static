@@ -5,7 +5,7 @@ title: Ars Electronica Highlights 2
 wordpress_id: 2435
 ---
 
-I'm sharing more highlights from this year's [Ars Electronica Festival](http://www.aec.at/festival/en/). See [part one]({{ site.baseurl }}{% post_url 2016/2016-09-12-ars-electronica-festival-highlights %}) for more highlights.
+I'm sharing more highlights from this year's [Ars Electronica Festival](http://www.aec.at/festival/en/). See [part one]({{ site.baseurl }}/blog/2016/09/12/ars-electronica-festival-highlights/) for more highlights.
 
 <iframe title="Animated restroom sign" height="700" width="394" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://player.vimeo.com/video/184709526?title=0&byline=0&portrait=0" webkitallowfullscreen=""></iframe>
 

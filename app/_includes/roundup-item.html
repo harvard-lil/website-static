@@ -1,18 +1,18 @@
 <div class="roundup-item">
   <p class="roundup-title">
-    <a href="{{ include.link }}">{{ include.title }}</a>
+    <a href="{{ link }}">{{ title }}</a>
   </p>
-  {% if include.screenshot %}
+  {% if screenshot %}
   <div class="screenshot">
-    <a href="{{ include.link }}">
-      <img alt="{{ include.alt }}" src="{{ include.screenshot }}">
+    <a href="{{ link }}">
+      <img alt="{{ alt }}" src="{{ screenshot }}">
     </a>
   </div>
   {% endif %}
   <div class="metadata">
     <div class="text-frame">
-      {% if include.text %}<p>{{ include.text }}</p>{% endif %}
-      <p class="submitted-by">{{ include.by }}</p>
+      {% if text %}<p>{{ text }}</p>{% endif %}
+      <p class="submitted-by">{{ by }}</p>
     </div>
   </div>
 </div>

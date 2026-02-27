@@ -1,17 +1,17 @@
 <div class="gallery-sq">
-  {% assign active_projects = site.projects_active | sort: "order" %}
+  {% assign active_projects = collections.projects_active | sort: "order" %}
   {% for project in active_projects %}
 
     <a class="gallery-item" href="{{ project.url }}">
       <figure>
-        <img src="{{ site.baseurl }}/assets/thumbs/400x300r/{{  project.thumbnail_image }}"
-             srcset="{{ site.baseurl }}/assets/thumbs/400x300r/{{  project.thumbnail_image }} 1x,
-                     {{ site.baseurl }}/assets/thumbs/800x600r/{{  project.thumbnail_image }} 2x"
+        <img src="{{ site.baseurl }}/assets/thumbs/400x300r/{{ project.data.thumbnail_image }}"
+             srcset="{{ site.baseurl }}/assets/thumbs/400x300r/{{ project.data.thumbnail_image }} 1x,
+                     {{ site.baseurl }}/assets/thumbs/800x600r/{{ project.data.thumbnail_image }} 2x"
              alt=""
              class="img-full-width">
       </figure>
-      <strong class="title">{{ project.title }}</strong>
-      <span class="logline">{{ project.what_does_it_do | strip }}</span>
+      <strong class="title">{{ project.data.title }}</strong>
+      <span class="logline">{{ project.data.what_does_it_do | strip }}</span>
     </a>
   {% endfor %}
 </div>

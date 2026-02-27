@@ -18,7 +18,7 @@ validate_frontmatter () {
 
 if validate_frontmatter
 then
-    docker compose run -e JEKYLL_ENV=production jekyll jekyll build --trace
+    cd app && ELEVENTY_ENV=production npm run build && cd ..
     java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt build/
     echo "$(find ./build -type f -name "*.html" | wc -l) files validated"
 else

@@ -7,8 +7,8 @@ layout: default
     <nav aria-label="breadcrumbs" class="page-hero__eyebrow">
       <a href="{{ site.baseurl }}/our-work/" class="interactive-link dark reverse">Our Work</a>
     </nav>
-    <h1 class="page-hero__title">{{ page.title }}</h1>
-    <h2 class="page-hero__subtitle">{{page.what_does_it_do}}</h2>
+    <h1 class="page-hero__title">{{ title }}</h1>
+    <h2 class="page-hero__subtitle">{{what_does_it_do}}</h2>
   </div>
 </section>
 
@@ -16,31 +16,31 @@ layout: default
 
   <section class="container flex flex-col gap-36 md:gap-72">
     <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
-      <h2 class="h2">Where can I find {% if page.title_uses_definite_article %}the {% endif %}{{page.title}}?</h2>
+      <h2 class="h2">Where can I find {% if title_uses_definite_article %}the {% endif %}{{title}}?</h2>
       <div class="md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
-        {% if page.project_website %}
-          {% include arrow-link.html label=page.project_website href=page.project_website target="_blank" %}
+        {% if project_website %}
+          {% include "arrow-link.html", label: project_website, href: project_website, target: "_blank" %}
         {% endif %}
-        {% if page.github_repo %}
-          {% include arrow-link.html label="GitHub" href=page.github_repo target="_blank" %}
+        {% if github_repo %}
+          {% include "arrow-link.html", label: "GitHub", href: github_repo, target: "_blank" %}
         {% endif %}
       </div>
     </div>
-    {% if page.why_does_it_exist %}
+    {% if why_does_it_exist %}
       <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
-        <h2 class="h2">Why does {% if page.title_uses_definite_article %}the {% endif %}{{page.title}} exist?</h2>
+        <h2 class="h2">Why does {% if title_uses_definite_article %}the {% endif %}{{title}} exist?</h2>
         <div class="content-with-lists md:col-span-2 body-text flex flex-col gap-20 xl:max-w-[700px]">
-          {{ page.why_does_it_exist | markdownify }}
+          {{ why_does_it_exist | markdownify }}
         </div>
       </div>
     {% endif %}
   </section>
 
-  {% if page.hero_image %}
-    {% include project-hero.html %}
+  {% if hero_image %}
+    {% include "project-hero.html" %}
   {% endif %}
 
-  {% assign updates = site.posts | where: "project", page.slug | sort: "date" | reverse | slice: 0, 10 %}
+  {% assign updates = collections.posts | where: "project", slug | sort: "date" | reverse | slice: 0, 10 %}
   {% if updates.size > 0 %}
     <section class="container flex flex-col items-start gap-12">
       <h2 class="h2">Updates</h2>
@@ -50,24 +50,24 @@ layout: default
             <span class="label col-span-3">
               <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
             </span>
-            <span class="col-span-6">{% include arrow-link-inline.html label=post.title href=post.url %}</span>
+            <span class="col-span-6">{% include "arrow-link-inline.html", label: post.data.title, href: post.url %}</span>
           </div>
         {% endfor %}
       </div>
     </section>
   {% endif %}
 
-  {% assign news = site.data.news | where: "project", page.slug | sort: "date" | reverse | slice: 0, 10 %}
-  {% if news.size > 0 %}
+  {% assign filtered_news = news | where: "project", slug | sort: "date" | reverse | slice: 0, 10 %}
+  {% if filtered_news.size > 0 %}
     <section class="container flex flex-col items-start gap-12">
       <h2 class="h2">News</h2>
       <div class="flex flex-col items-start w-full">
-        {% for article in news %}
+        {% for article in filtered_news %}
           <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} grid grid-cols-12 gap-24 relative">
             <span class="label col-span-3">
               <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
             </span>
-            <span class="col-span-6">{% include arrow-link-inline.html label=article.title href=article.url target="_blank"%}</span>
+            <span class="col-span-6">{% include "arrow-link-inline.html", label: article.title, href: article.url, target: "_blank" %}</span>
             {% if article.archived_url %}
               <span class="col-span-3">
                 <a class="interactive-link float-right" href="{{ article.archived_url}}"><img class="inline h-[20px]" src="{{ site.baseurl }}/assets/images/perma-logo.svg" alt="Archived at Perma.cc: {{ article.title | xml_escape }}"></a>
@@ -79,14 +79,14 @@ layout: default
     </section>
   {% endif %}
 
-  {% if page.who_contributed %}
+  {% if who_contributed %}
     <section class="container">
       <div class="flex flex-col lg:grid lg:grid-cols-3 gap-24 lg:gap-36 items-baseline">
         <h2 class="h2">Project Contributors</h2>
 
         <div class="slice-body additional-contributors lg:col-span-2 body-text lg:max-w-[750px]">
-          {% for name in page.who_contributed %}
-            {% assign person = site.data.people[name] %}
+          {% for name in who_contributed %}
+            {% assign person = people[name] %}
             <strong class="name">{{ person.name }}</strong>
             <span class="role">{{ person.role }}</span>
           {% endfor %}

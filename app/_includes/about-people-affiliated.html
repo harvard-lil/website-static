@@ -1,12 +1,10 @@
-{% assign person = include.person %}
-
-  <div class="flex flex-col gap-24 relative pt-32 lg:pt-48" id="{{ person.name | slugify }}">
-    {% if include.border == 'true' %}
+<div class="flex flex-col gap-24 relative pt-32 lg:pt-48" id="{{ person.name | slugify }}">
+    {% if border == 'true' %}
       <div class="hidden md:block absolute md:-right-30 lg:-right-60 -top-10 md:top-0 w-1 h-full bg-black"></div>
     {% endif %}
 
-    {% if include.tag != 'false' %}
-      <h3 class="label absolute -top-10 md:top-0 left-0">{{ include.tag }}</h3>
+    {% if tag != 'false' %}
+      <h3 class="label absolute -top-10 md:top-0 left-0">{{ tag }}</h3>
     {% endif %}
 
     <figure>
@@ -36,7 +34,7 @@
           <li>
             <a href="mailto:{{ person.email }}" target="_blank">
               <span class="sr-only">{{ person.name }}'s email</span>
-              <span aria-hidden="true">{% include icon-email.html %}</span>
+              <span aria-hidden="true">{% include "icon-email.html" %}</span>
             </a>
           </li>
         {% endif %}
@@ -44,7 +42,7 @@
           <li>
             <a href="{{ person.website}}" target="_blank">
               <span class="sr-only">{{ person.name }}'s website</span>
-              <span aria-hidden="true">{% include icon-website.html %}</span>
+              <span aria-hidden="true">{% include "icon-website.html" %}</span>
             </a>
           </li>
         {% endif %}
@@ -52,7 +50,7 @@
           <li>
             <a href="https://www.twitter.com/{{ person.twitter_account_name}}" target="_blank">
               <span class="sr-only">{{ person.name }} on Twitter</span>
-              <span aria-hidden="true">{% include icon-x.html %}</span>
+              <span aria-hidden="true">{% include "icon-x.html" %}</span>
             </a>
           </li>
         {% endif %}
@@ -60,7 +58,7 @@
           <li>
             <a href="{{ person.mastodon_url }}" target="_blank">
               <span class="sr-only">{{ person.mastodon_url | to_handle }} on Mastodon</span>
-              <span aria-hidden="true">{% include icon-mastodon.html %}</span>
+              <span aria-hidden="true">{% include "icon-mastodon.html" %}</span>
             </a>
           </li>
         {% endif %}
@@ -68,7 +66,7 @@
           <li>
             <a href="https://www.github.com/{{ person.github_account_name }}" target="_blank">
               <span class="sr-only">{{ person.name }} on Github</span>
-              <span aria-hidden="true">{% include icon-github.html %}</span>
+              <span aria-hidden="true">{% include "icon-github.html" %}</span>
             </a>
           </li>
         {% endif %}

@@ -5,7 +5,7 @@ title: Ars Electronica Highlights 3
 wordpress_id: 2541
 ---
 
-I'm sharing more highlights from this year's Ars Electronica Festival. See parts [one]({{ site.baseurl }}{% post_url 2016/2016-09-12-ars-electronica-festival-highlights %}) and [two]({{ site.baseurl }}{% post_url 2016/2016-09-28-ars-electronica-festival-highlights-2 %}) for even more.
+I'm sharing more highlights from this year's Ars Electronica Festival. See parts [one]({{ site.baseurl }}/blog/2016/09/12/ars-electronica-festival-highlights/) and [two]({{ site.baseurl }}/blog/2016/09/28/ars-electronica-festival-highlights-2/) for even more.
 
 ![](https://lil-blog-media.s3.amazonaws.com/2016/10/sign.jpg)
 

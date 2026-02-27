@@ -11,31 +11,30 @@
 
 <channel>
     <title>{{ site.blog_feed_title | xml_escape }}</title>
-    <atom:link href="{{ site.url }}/{{ page.path | remove: "index.xml"}}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url }}{{ page.url }}" rel="self" type="application/rss+xml" />
     <link>{{ site.url }}/blog/</link>
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
     <language>en-US</language>
-    {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
-    {% for post in posts %}
+    {% for post in collections.posts %}
     <item>
-        <title>{{ post.title | xml_escape }}</title>
+        <title>{{ post.data.title | xml_escape }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        {% if post.author %}
-            {% assign person_record = site.data.people[post.author] %}
+        {% if post.data.author %}
+            {% assign person_record = people[post.data.author] %}
             <dc:creator><![CDATA[{{ person_record.name }}]]></dc:creator>
-        {% elsif post.guest-author %}
-            <dc:creator><![CDATA[{{ post.guest-author }}]]></dc:creator>
+        {% elsif post.data["guest-author"] %}
+            <dc:creator><![CDATA[{{ post.data["guest-author"] }}]]></dc:creator>
         {% endif %}
-        {% if post.wordpress_id %}
-            <guid isPermaLink="false">{{ site.url }}/blog/?p={{ post.wordpress_id }}</guid>
+        {% if post.data.wordpress_id %}
+            <guid isPermaLink="false">{{ site.url }}/blog/?p={{ post.data.wordpress_id }}</guid>
         {% else %}
             <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         {% endif %}
-        {% if post.excerpt %}
-            <description><![CDATA[{{ post.excerpt | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]></description>
+        {% if post.data.excerpt %}
+            <description><![CDATA[{{ post.data.excerpt | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]></description>
         {% endif %}
-        <content:encoded><![CDATA[{{ post.content | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]></content:encoded>
+        <content:encoded><![CDATA[{{ post.templateContent | replace: 'site.baseurl', 'site.url' | liquify }}]]></content:encoded>
     </item>
     {% endfor %}
 

@@ -8,8 +8,8 @@ layout: default
 
 <section class="container">
   <div class="page-hero">
-    <h1 class="page-hero__title">{{ page.title }}</h1>
-    <div class="page-hero__subtitle">{{page.description}}</div>
+    <h1 class="page-hero__title">{{ title }}</h1>
+    <div class="page-hero__subtitle">{{description}}</div>
   </div>
 </section>
 
@@ -55,7 +55,7 @@ layout: default
   <section class="container ">
     <h2 class="h2 mt-12 mb-48 md:mb-72 editable">People at the Lab</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120 pb-48 md:pb-72">
-      {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
+      {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}
       {% assign sections = "Faculty Director, Staff" | split: ", " %}
       {% for section in sections %}
         {% assign border = 'false' %}
@@ -65,7 +65,7 @@ layout: default
           {% for person in section_people %}
             {% assign tag = 'false' %}
             {% if forloop.index0 == 0 %}{% assign tag = section %}{% endif %}
-            {% include about-people-affiliated.html person=person tag=tag border=border %}
+            {% include "about-people-affiliated.html", person: person, tag: tag, border: border %}
           {% endfor %}
         {% endif %}
       {% endfor %}
@@ -73,13 +73,13 @@ layout: default
     <div class="pt-48 md:pt-72 border-t-1 border-black">
       <h2 class="h2 editable">Affiliates</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
-        {% assign affiliates = site.data.people | where: "affiliated", true | sort: "sort_name" %}
+        {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}
         {% assign sections = "Affiliates" | split: ", " %}
         {% for section in sections %}
           {% assign affiliated_people = affiliates | where: "current", true | where: "section", section %}
-          {% if affiliatated_people != empty %}
+          {% if affiliated_people != empty %}
             {% for person in affiliated_people %}
-              {% include about-people-affiliated.html person=person %}
+              {% include "about-people-affiliated.html", person: person %}
             {% endfor %}
           {% endif %}
         {% endfor %}
@@ -90,10 +90,10 @@ layout: default
   <section class="w-full bg-purple">
     <div class="container flex items-center justify-between gap-20 py-24">
       <div>
-        {% include header-splash-logo.html %}
+        {% include "header-splash-logo.html" %}
       </div>
       <div>
-        {% include arrow-link.html label=page.jobs-link-label href="/jobs/" %}
+        {% include "arrow-link.html", label: jobs-link-label, href: "/jobs/" %}
       </div>
       <div class="w-40">
       </div>
@@ -104,7 +104,7 @@ layout: default
         <div class="flex flex-col items-start w-full">
           {% assign old_friends = affiliates | where: "current", nil %}
           {% for person in old_friends %}
-            {% include about-people-unaffiliated.html person=person %}
+            {% include "about-people-unaffiliated.html", person: person %}
           {% endfor %}
         </div>
       </div>
@@ -115,13 +115,13 @@ layout: default
     <h2 class="h2 mt-12 md:mt-0 mb-48 tbl:mb-36 md:mb-60 editable">Supported By</h2>
     <p class="body-text mb-48 editable">We gratefully acknowledge support from, and collaboration with, these organizations.</p>
     
-    {% include about-sponsor-group.html supporters=site.data.supporters.institutions %}
+    {% include "about-sponsor-group.html", supporters: supporters.institutions %}
     <hr class="w-[200px] mx-auto my-12 border-t-4 border-gray-300">
-    {% include about-sponsor-group.html supporters=site.data.supporters.foundations %}
+    {% include "about-sponsor-group.html", supporters: supporters.foundations %}
     <hr class="w-[200px] mx-auto my-12 border-t-4 border-gray-300">
-    {% include about-sponsor-group.html supporters=site.data.supporters.nonprofits %}
+    {% include "about-sponsor-group.html", supporters: supporters.nonprofits %}
     <hr class="w-[200px] mx-auto my-12 border-t-4 border-gray-300">
-    {% include about-sponsor-group.html supporters=site.data.supporters.companies %}
+    {% include "about-sponsor-group.html", supporters: supporters.companies %}
   </section>
 
 </div>
