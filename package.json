@@ -7,19 +7,11 @@
     "css:build": "tailwindcss -i app/assets/css/main.css -o build/assets/css/main.css",
     "css:watch": "tailwindcss -i app/assets/css/main.css -o build/assets/css/main.css --watch",
     "start": "npm run css:build && concurrently \"npm run css:watch\" \"eleventy --serve\"",
-    "build": "npm run css:build && eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run css:build && eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/harvard-lil/website-static.git"
-  },
-  "author": "Harvard LIL",
+  "author": "Harvard Library Innovation Lab",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/harvard-lil/website-static/issues"
-  },
-  "homepage": "https://github.com/harvard-lil/website-static#readme",
+  "homepage": "https://github.com/harvard-lil/website-static",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "concurrently": "^9.1.0",
