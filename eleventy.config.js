@@ -1,5 +1,4 @@
 const markdownIt = require("markdown-it");
-const { DateTime } = require("luxon");
 const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
@@ -51,34 +50,6 @@ module.exports = function (eleventyConfig) {
       .replace(/^-+|-+$/g, "");
   });
 
-  eleventyConfig.addFilter("jsonify", (obj) => JSON.stringify(obj));
-
-  eleventyConfig.addFilter("xml_escape", (str) => {
-    if (!str) return "";
-    return String(str)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&apos;");
-  });
-
-  eleventyConfig.addFilter("escape_once", (str) => {
-    if (!str) return "";
-    const unescaped = String(str)
-      .replace(/&amp;/g, "&")
-      .replace(/&lt;/g, "<")
-      .replace(/&gt;/g, ">")
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'");
-    return unescaped
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
-  });
-
   eleventyConfig.addFilter("smartify", (str) => {
     if (!str) return "";
     return String(str)
@@ -87,26 +58,6 @@ module.exports = function (eleventyConfig) {
       .replace(/(^|[-\u2014/\[(\u2018\s])"/g, "$1\u201c")
       .replace(/"/g, "\u201d")
       .replace(/--/g, "\u2014");
-  });
-
-  eleventyConfig.addFilter("normalize_whitespace", (str) => {
-    if (!str) return "";
-    return String(str).replace(/\s+/g, " ").trim();
-  });
-
-  eleventyConfig.addFilter("strip_html", (str) => {
-    if (!str) return "";
-    return String(str).replace(/<[^>]*>/g, "");
-  });
-
-  eleventyConfig.addFilter("strip_newlines", (str) => {
-    if (!str) return "";
-    return String(str).replace(/\n/g, "");
-  });
-
-  eleventyConfig.addFilter("lstrip", (str) => {
-    if (!str) return "";
-    return String(str).replace(/^\s+/, "");
   });
 
   eleventyConfig.addFilter("map", (arr, key) => {
@@ -129,13 +80,6 @@ module.exports = function (eleventyConfig) {
     if (!url) return base;
     if (url.startsWith("http")) return url;
     return base + url;
-  });
-
-  eleventyConfig.addFilter("relative_url", function (url) {
-    const siteData = this.ctx?.site || {};
-    const baseurl = siteData.baseurl || "";
-    if (!url) return baseurl;
-    return baseurl + url;
   });
 
   eleventyConfig.addFilter("where", (arr, key, value) => {
@@ -207,48 +151,6 @@ module.exports = function (eleventyConfig) {
       const bVal = String(b.data ? b.data[key] : b[key]).toLowerCase();
       return aVal.localeCompare(bVal);
     });
-  });
-
-  eleventyConfig.addFilter("group_by", (arr, key) => {
-    if (!arr) return [];
-    const groups = {};
-    arr.forEach((item) => {
-      const val = item.data ? item.data[key] : item[key];
-      if (!groups[val]) groups[val] = { name: val, items: [] };
-      groups[val].items.push(item);
-    });
-    return Object.values(groups);
-  });
-
-  eleventyConfig.addFilter("date_to_xmlschema", (date) => {
-    if (!date) return "";
-    return DateTime.fromJSDate(new Date(date)).toISO();
-  });
-
-  eleventyConfig.addFilter("date_to_rfc822", (date) => {
-    if (!date) return "";
-    return DateTime.fromJSDate(new Date(date)).toRFC2822();
-  });
-
-  eleventyConfig.addFilter("date", (date, format) => {
-    if (!date) return "";
-    if (date === "now") date = new Date();
-    const dt = DateTime.fromJSDate(new Date(date));
-    // Convert Ruby strftime to Luxon
-    const luxonFormat = format
-      .replace("%-d", "d")
-      .replace("%d", "dd")
-      .replace("%m", "MM")
-      .replace("%B", "MMMM")
-      .replace("%b", "MMM")
-      .replace("%Y", "yyyy")
-      .replace("%y", "yy")
-      .replace("%H", "HH")
-      .replace("%M", "mm")
-      .replace("%S", "ss")
-      .replace("%Z", "ZZZZ")
-      .replace("%z", "ZZ");
-    return dt.toFormat(luxonFormat);
   });
 
   // --- Custom filters (replacing Ruby plugins) ---

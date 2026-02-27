@@ -1,4 +1,4 @@
-<div class="body-text w-full py-30 {% unless forloop.first %}border-t-1{% endunless %} border-black flex grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-24 relative" id="{{ person.name | slugify }}">
+<div class="body-text w-full py-30 {% unless forloop.first %}border-t-1{% endunless %} border-black grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-24 relative" id="{{ person.name | slugify }}">
   <div class="label md:col-span-3">{{person.name}}</div>
   <div class="md:col-span-6">{{person.role}}</div>
   {% if person.website or person.twitter_account_name or person.github_account_name %}
