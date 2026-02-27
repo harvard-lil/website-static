@@ -101,14 +101,18 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("sort", (arr, key, order) => {
     if (!arr) return [];
-    const sorted = [...arr].sort((a, b) => {
+    return [...arr].sort((a, b) => {
       const aVal = a.data ? a.data[key] : a[key];
       const bVal = b.data ? b.data[key] : b[key];
+      const aNil = aVal == null || aVal === "";
+      const bNil = bVal == null || bVal === "";
+      if (aNil && bNil) return 0;
+      if (aNil) return -1;
+      if (bNil) return 1;
       if (aVal < bVal) return -1;
       if (aVal > bVal) return 1;
       return 0;
     });
-    return sorted;
   });
 
   eleventyConfig.addFilter("sort_natural", (arr, key) => {
