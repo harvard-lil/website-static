@@ -18,7 +18,7 @@ validate_frontmatter () {
 
 if validate_frontmatter
 then
-    cd app && ELEVENTY_ENV=production npm run build && cd ..
+    ELEVENTY_ENV=production npm run build
     java -jar node_modules/vnu-jar/build/dist/vnu.jar --skip-non-html --errors-only --filterfile tests/config/vnufilter.txt build/
     echo "$(find ./build -type f -name "*.html" | wc -l) files validated"
 else

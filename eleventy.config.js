@@ -20,19 +20,19 @@ module.exports = function (eleventyConfig) {
   });
 
   // --- Passthrough copy ---
-  eleventyConfig.addPassthroughCopy("assets/images");
-  eleventyConfig.addPassthroughCopy("assets/fonts");
-  eleventyConfig.addPassthroughCopy("assets/thumbs");
-  eleventyConfig.addPassthroughCopy("assets/lib");
-  eleventyConfig.addPassthroughCopy("assets/javascripts");
-  eleventyConfig.addPassthroughCopy("assets/css/post-content.css");
-  eleventyConfig.addPassthroughCopy("assets/css/blog-search.css");
-  eleventyConfig.addPassthroughCopy("assets/css/interview-series.css");
-  eleventyConfig.addPassthroughCopy("century-scale-storage");
-  eleventyConfig.addPassthroughCopy("open-french-law-rag");
-  eleventyConfig.addPassthroughCopy("data-gov-archive");
-  eleventyConfig.addPassthroughCopy("generational-data-interviews/assets");
-  eleventyConfig.addPassthroughCopy("generational-data-interviews/main.js");
+  eleventyConfig.addPassthroughCopy("app/assets/images");
+  eleventyConfig.addPassthroughCopy("app/assets/fonts");
+  eleventyConfig.addPassthroughCopy("app/assets/thumbs");
+  eleventyConfig.addPassthroughCopy("app/assets/lib");
+  eleventyConfig.addPassthroughCopy("app/assets/javascripts");
+  eleventyConfig.addPassthroughCopy("app/assets/css/post-content.css");
+  eleventyConfig.addPassthroughCopy("app/assets/css/blog-search.css");
+  eleventyConfig.addPassthroughCopy("app/assets/css/interview-series.css");
+  eleventyConfig.addPassthroughCopy("app/century-scale-storage");
+  eleventyConfig.addPassthroughCopy("app/open-french-law-rag");
+  eleventyConfig.addPassthroughCopy("app/data-gov-archive");
+  eleventyConfig.addPassthroughCopy("app/generational-data-interviews/assets");
+  eleventyConfig.addPassthroughCopy("app/generational-data-interviews/main.js");
 
   // --- Jekyll-compatible Liquid filters ---
 
@@ -390,12 +390,12 @@ module.exports = function (eleventyConfig) {
   });
 
   // --- Watch targets ---
-  eleventyConfig.addWatchTarget("assets/css/");
+  eleventyConfig.addWatchTarget("app/assets/css/");
 
   return {
     dir: {
-      input: ".",
-      output: "../build",
+      input: "app",
+      output: "build",
       includes: "_includes",
       layouts: "_layouts",
       data: "_data",

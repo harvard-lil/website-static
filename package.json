@@ -2,10 +2,9 @@
   "name": "harvard-lil",
   "version": "1.0.0",
   "description": "Harvard Library Innovation Lab Website",
-  "main": "assets/javascripts/main.js",
   "scripts": {
-    "css:build": "postcss assets/css/main.css -o ../build/assets/css/main.css",
-    "css:watch": "postcss assets/css/main.css -o ../build/assets/css/main.css --watch",
+    "css:build": "postcss app/assets/css/main.css -o build/assets/css/main.css",
+    "css:watch": "postcss app/assets/css/main.css -o build/assets/css/main.css --watch",
     "start": "npm run css:build && npx concurrently \"npm run css:watch\" \"npx @11ty/eleventy --serve\"",
     "build": "npm run css:build && npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"

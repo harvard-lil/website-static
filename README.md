@@ -7,7 +7,7 @@ Install and Run
 
 2. `git clone https://github.com/harvard-lil/website-static.git`
 
-3. `cd website-static/app`
+3. `cd website-static`
 
 4. `npm install`
 
@@ -15,7 +15,7 @@ Install and Run
 
 6. Visit http://localhost:8080
 
-7. Make changes to the app directory.
+7. Make changes to the `app/` directory.
 
   Eleventy will automatically detect changes and rebuild the site. Your browser will reload automatically when the rebuild completes.
 
