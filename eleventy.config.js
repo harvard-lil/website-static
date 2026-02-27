@@ -1,7 +1,7 @@
-const markdownIt = require("markdown-it");
-const yaml = require("js-yaml");
+import markdownIt from "markdown-it";
+import yaml from "js-yaml";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   const md = markdownIt({ html: true, linkify: true, typographer: true });
 
   eleventyConfig.addDataExtension("yaml,yml", (contents) => yaml.load(contents));
