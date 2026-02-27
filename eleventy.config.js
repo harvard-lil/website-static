@@ -205,11 +205,15 @@ module.exports = function (eleventyConfig) {
   );
 
   eleventyConfig.addCollection("events", (collectionApi) =>
-    collectionApi.getFilteredByTag("events")
+    collectionApi
+      .getFilteredByTag("events")
+      .filter((item) => item.inputPath.startsWith("./app/_events/"))
   );
 
   eleventyConfig.addCollection("jobs", (collectionApi) =>
-    collectionApi.getFilteredByTag("jobs")
+    collectionApi
+      .getFilteredByTag("jobs")
+      .filter((item) => item.inputPath.startsWith("./app/_jobs/"))
   );
 
   eleventyConfig.addCollection("interviews", (collectionApi) =>
