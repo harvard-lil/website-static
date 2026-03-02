@@ -17,10 +17,10 @@
       <img src="{{ post.data.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="" />
     {% elsif first_img_src != '' %}
       <object data="{{ first_img_src }}" class="w-full h-full object-cover absolute inset-0">
-        <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
+        <img src="/assets/images/blog-thumbnail-{{ thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
       </object>
     {% else %}
-      <img src="{{ site.baseurl }}/assets/images/blog-thumbnail-{{ thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
+      <img src="/assets/images/blog-thumbnail-{{ thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
     {% endif %}
   </header>
   <div class="flex flex-col gap-8">

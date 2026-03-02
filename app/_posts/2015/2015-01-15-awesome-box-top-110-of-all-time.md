@@ -5,7 +5,7 @@ title: Awesome Box top 110 of all time
 wordpress_id: 2040
 ---
 
-It's been almost two years since [Somerville Public Library helped us launch the Awesome Box to public libraries]({{ site.baseurl }}/blog/2013/02/12/awesome-boxes-at-somerville-public-library/) and beyond.
+It's been almost two years since [Somerville Public Library helped us launch the Awesome Box to public libraries]({{ site.url }}/blog/2013/02/12/awesome-boxes-at-somerville-public-library/) and beyond.
 
 There are now **364 Awesome libraries** around the world.
 

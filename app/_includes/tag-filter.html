@@ -18,7 +18,7 @@
         <li>
           <a
             class="block text-14 tbl:text-16 px-10 py-6 tbl:px-24 tbl:py-12 border-1 border-black text-black active:text-white active:bg-black tbl:hover:text-white md:hover:bg-black transition-colors duration-300 ease {% if isActive %}bg-black text-white{% endif %}"
-            href="{% if current == tag %}{{ site.baseurl }}/blog{% else %}{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/{% endif %}"{% if current == tag %} aria-current="true"{% endif %}
+            href="{% if current == tag %}/blog{% else %}/blog/tag/{{ tag | slugify}}/{% endif %}"{% if current == tag %} aria-current="true"{% endif %}
             data-no-swup
           >
           {{ tag }}

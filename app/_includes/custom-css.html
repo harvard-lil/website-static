@@ -1,5 +1,5 @@
 {% if custom-css %}
   {% for file in custom-css %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ file | strip }}.css?v=CSS_BUST">
+    <link rel="stylesheet" href="/assets/css/{{ file | strip }}.css?v=CSS_BUST">
   {% endfor %}
 {% endif %}

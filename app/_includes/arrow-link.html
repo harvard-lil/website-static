@@ -1,7 +1,7 @@
 {% assign is_relative = href  | startswith: "/" %}
 {% capture resolved_href %}
   {% if is_relative %}
-    {{ site.baseurl }}{{ href }}
+    {{ href }}
   {% else %}
     {{ href }}
   {% endif %}

@@ -44,11 +44,10 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("absolute_url", function (url) {
-    const siteData = this.ctx?.site || {};
-    const base = (siteData.url || "") + (siteData.baseurl || "");
-    if (!url) return base;
+    const siteUrl = this.ctx?.site?.url || "";
+    if (!url) return siteUrl;
     if (url.startsWith("http")) return url;
-    return base + url;
+    return siteUrl + url;
   });
 
   eleventyConfig.addFilter("where", (arr, key, value) => {
@@ -148,9 +147,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("liquify", function (input) {
     if (!input) return "";
-    const siteData = this.ctx?.site || {};
-    return String(input)
-      .replace(/\{\{\s*site\.baseurl\s*\}\}/g, siteData.baseurl || "")
-      .replace(/\{\{\s*site\.url\s*\}\}/g, siteData.url || "");
+    const siteUrl = this.ctx?.site?.url || "";
+    return String(input).replace(/\{\{\s*site\.url\s*\}\}/g, siteUrl);
   });
 }

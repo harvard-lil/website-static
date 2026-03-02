@@ -32,9 +32,9 @@
             <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         {% endif %}
         {% if post.data.excerpt %}
-            <description><![CDATA[{{ post.data.excerpt | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]></description>
+            <description><![CDATA[{{ post.data.excerpt | liquify | markdownify }}]]></description>
         {% endif %}
-        <content:encoded><![CDATA[{{ post.templateContent | replace: 'site.baseurl', 'site.url' | liquify }}]]></content:encoded>
+        <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
     </item>
     {% endfor %}
 

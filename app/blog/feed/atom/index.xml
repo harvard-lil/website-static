@@ -31,7 +31,7 @@
       {% endif %}
 
       <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">
-        <![CDATA[{{ post.templateContent | replace: 'site.baseurl', 'site.url' | liquify }}]]>
+        <![CDATA[{{ post.templateContent }}]]>
       </content>
 
       <author>
@@ -53,7 +53,7 @@
 
       {% if post.data.excerpt and post.data.excerpt != empty %}
         <summary type="html">
-          <![CDATA[{{ post.data.excerpt | replace: 'site.baseurl', 'site.url' | liquify | markdownify }}]]>
+          <![CDATA[{{ post.data.excerpt | liquify | markdownify }}]]>
         </summary>
       {% endif %}
 

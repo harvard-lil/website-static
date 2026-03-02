@@ -24,7 +24,7 @@ sitemap: false
       "title": {{ doc.data.title | jsonify }},
       "date": {{ doc.date | date: "%B %-d, %Y" | jsonify }},
       "content": {{ doc.templateContent | strip_html | jsonify }},
-      "url": {{ site.baseurl | append: doc.url | jsonify }},
+      "url": {{ doc.url | jsonify }},
       "image": {% if first_img_src != '' %}"{{ first_img_src }}"{% else %}{% if doc.data.thumbnail %}{{ doc.data.thumbnail | jsonify }}{% else %}"/assets/images/blog-thumbnail-{{ random_number }}.png"{% endif %}{% endif %}
     }{% unless forloop.last %},{% endunless %}
     {% assign last_random_number = random_number %}
