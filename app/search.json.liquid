@@ -1,12 +1,13 @@
 ---
 layout: null
 sitemap: false
+permalink: /search.json
 ---
 
 {% capture json %}
 [
   {% assign last_random_number = nil %}
-  {% for doc in collections.posts %}
+  {% for doc in collections.posts reversed %}
     {% assign random_number = 5 | random_number: last_random_number %}
 
     {% assign content_parts = doc.templateContent | split: '<img' %}
@@ -21,10 +22,10 @@ sitemap: false
       {% endif %}
     {% endif %}
     {
-      "title": {{ doc.data.title | jsonify }},
+      "title": {{ doc.data.title | default: "" | jsonify }},
       "date": {{ doc.date | date: "%B %-d, %Y" | jsonify }},
-      "content": {{ doc.templateContent | strip_html | jsonify }},
-      "url": {{ doc.url | jsonify }},
+      "content": {{ doc.templateContent | strip_html | default: "" | jsonify }},
+      "url": {{ doc.url | default: "" | jsonify }},
       "image": {% if first_img_src != '' %}"{{ first_img_src }}"{% else %}{% if doc.data.thumbnail %}{{ doc.data.thumbnail | jsonify }}{% else %}"/assets/images/blog-thumbnail-{{ random_number }}.png"{% endif %}{% endif %}
     }{% unless forloop.last %},{% endunless %}
     {% assign last_random_number = random_number %}
