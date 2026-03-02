@@ -2,6 +2,9 @@ import yaml from "js-yaml";
 import filters from "./config/filters.js";
 import collections from "./config/collections.js";
 
+// Prevent dates without timezone (e.g., in blog posts) from getting mangled
+process.env.TZ = "UTC";
+
 export default function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml,yml", (contents) => yaml.load(contents));
 
