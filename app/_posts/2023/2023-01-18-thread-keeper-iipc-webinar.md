@@ -5,10 +5,10 @@ excerpt_separator: <!--more-->
 tags:
 - Tools
 ---
-I was invited by the [International Internet Preservation Consortium (IIPC)](https://netpreserve.org/) 
+I was invited by the [International Internet Preservation Consortium (IIPC)](https://netpreserve.org/)
 to give a webinar on the topic of _"Archiving Twitter"_ on January 12.
 
-During this talk, I presented what we've learned building [thread-keeper](/sketches/thread-keeper/), the experimental open-source software behind [social.perma.cc](https://social.perma.cc) which allows for making high-fidelity captures of twitter.com urls as _"sealed"_ PDFs.
+During this talk, I presented what we've learned building [thread-keeper](https://lil.law.harvard.edu/our-work/thread-keeper/), the experimental open-source software behind [social.perma.cc](https://social.perma.cc) which allows for making high-fidelity captures of twitter.com urls as _"sealed"_ PDFs.
 
 <!--more-->
 

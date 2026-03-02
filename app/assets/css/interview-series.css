@@ -8,8 +8,8 @@
 /* Custom Font Declarations */
 @font-face {
     font-family: 'Teletext Bold';
-    src: url('/generational-data-interviews/fonts/Teletext Bold.otf') format('opentype'),
-         url('/generational-data-interviews/fonts/Teletext Bold.ttf') format('truetype');
+    src: url('../fonts/Teletext-Bold.otf') format('opentype'),
+         url('../fonts/Teletext-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: "NeueHaasGrotesk";
-    src: url('../fonts/NeueHaasGroteskTextPro55Roman.woff2') format('woff2'), 
+    src: url('../fonts/NeueHaasGroteskTextPro55Roman.woff2') format('woff2'),
          url('../fonts/NeueHaasGroteskTextPro55Roman.woff') format('woff');
     font-weight: 400;
     font-style: normal;
@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: "NeueHaasGrotesk";
-    src: url('../fonts/NeueHaasGroteskDisplayPro56Italic.woff2') format('woff2'), 
+    src: url('../fonts/NeueHaasGroteskDisplayPro56Italic.woff2') format('woff2'),
          url('../fonts/NeueHaasGroteskDisplayPro56Italic.woff') format('woff');
     font-weight: 400;
     font-style: italic;
@@ -35,7 +35,7 @@
 
 @font-face {
     font-family: "NeueHaasGrotesk";
-    src: url('../fonts/NeueHaasGroteskDisplayPro65Medium.woff2') format('woff2'), 
+    src: url('../fonts/NeueHaasGroteskDisplayPro65Medium.woff2') format('woff2'),
          url('../fonts/NeueHaasGroteskDisplayPro65Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
@@ -59,23 +59,23 @@
   --interview-accent-secondary: #FFF069;
   --interview-border: #dee2e6;
   --interview-shadow: rgba(0, 0, 0, 0.1);
-  
+
   /* Additional semantic colors */
   --interview-overlay: rgba(0, 0, 0, 0.5);
   --interview-scrollbar-track: #f1f1f1;
   --interview-scrollbar-thumb: #888;
-  --interview-scrollbar-thumb-hover: #555;
+  --interview-scrollbar-thumb-hover: #534747;
   --interview-button-bg: var(--interview-accent);
   --interview-footer-bg: #000000;
   --interview-footer-text: #ffffff;
   --interview-editor-note-hover: #e0b0ff;
-  
+
   /* Typography System */
   --font-primary: 'NeueHaasGrotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-display: 'NeueHaasGrotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-serif: 'NeueHaasGrotesk', Georgia, 'Times New Roman', serif;
   --font-teletext: 'Teletext Bold', 'Courier New', monospace;
-  
+
   /* Typography Scale */
   --text-xs: 0.8rem;
   --text-sm: 0.9rem;
@@ -85,7 +85,7 @@
   --text-2xl: 2.2rem;
   --text-3xl: 2.5rem;
   --text-4xl: 3rem;
-  
+
   /* Spacing Scale */
   --spacing-xxs: 4px;
   --spacing-xs: 8px;
@@ -96,11 +96,11 @@
   --spacing-xxl: 80px;
   --spacing-profile: 120px;
   --spacing-hero-margin: 30px;
-  
+
   /* Layout */
   --container-max-width: 1200px;
   --container-padding: 20px;
-  
+
   /* Component-specific values */
   --editor-note-padding: 2px 4px;
   --editor-note-radius: 3px;
@@ -444,24 +444,24 @@
     .editor-note {
         display: none; /* Hide desktop notes on mobile */
     }
-    
+
     .interview-page__text-nav {
         flex-direction: row;
         gap: var(--spacing-sm);
         align-items: center;
         justify-content: center;
     }
-    
+
     .interview-page__text-nav-name {
         display: none; /* Hide interview names on mobile */
     }
-    
+
     .interview-page__text-nav-prev,
     .interview-page__text-nav-next {
         flex: 0 0 auto;
         justify-content: center;
     }
-    
+
     .interview-page__text-nav-return {
         font-size: 0.8rem;
         padding: var(--spacing-xs);
@@ -931,7 +931,7 @@
         column-count: 2;
         column-gap: var(--spacing-xl);
     }
-    
+
     /* Ensure paragraphs can wrap and flow naturally */
     .interview-landing__introduction-content p {
         word-wrap: break-word;
@@ -1314,33 +1314,33 @@ body:has(.interview-landing) .menu-button:focus {
    RESPONSIVE DESIGN
    ======================================== */
 @media (max-width: 1024px) {
-    
+
     .interview-landing__hero-title-container {
         width: calc(100vw - 50px);
         margin-left: 50px;
         margin-right: 0;
     }
-    
+
     .interview-page__content-wrapper {
         grid-template-columns: 250px 1fr;
         gap: var(--spacing-lg);
     }
-    
+
     .interview-landing__quote-card {
         flex: 0 0 280px;
         min-width: 280px;
         min-height: 410px;
     }
-    
+
     .interview-landing__quote-text {
         font-size: clamp(0.9rem, 2.2vw, 1.05rem);
     }
-    
+
     .interview-landing__interviews-layout {
         grid-template-columns: 1fr 2fr;
         gap: var(--spacing-lg);
     }
-    
+
     .interview-landing__interviewees-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1352,13 +1352,13 @@ body:has(.interview-landing) .menu-button:focus {
         margin-left: 50px;
         margin-right: 0;
     }
-    
+
     /* Mobile dropdown for interviewees */
     .interview-landing__interviewees-grid {
         display: block;
         margin: var(--spacing-lg) 0;
     }
-    
+
     .interview-landing__mobile-dropdown-toggle {
         display: block;
         width: 100%;
@@ -1374,7 +1374,7 @@ body:has(.interview-landing) .menu-button:focus {
         position: relative;
         margin-bottom: 0;
     }
-    
+
     .interview-landing__mobile-dropdown-toggle::after {
         content: '▼';
         position: absolute;
@@ -1383,11 +1383,11 @@ body:has(.interview-landing) .menu-button:focus {
         transform: translateY(-50%);
         transition: transform 0.2s ease;
     }
-    
+
     .interview-landing__mobile-dropdown-toggle.open::after {
         transform: translateY(-50%) rotate(180deg);
     }
-    
+
     .interview-landing__mobile-dropdown-menu {
         position: absolute;
         top: 100%;
@@ -1400,11 +1400,11 @@ body:has(.interview-landing) .menu-button:focus {
         display: none;
         flex-direction: column;
     }
-    
+
     .interview-landing__mobile-dropdown-menu.open {
         display: flex;
     }
-    
+
     .interview-landing__mobile-dropdown-menu .interview-landing__interviewee-name {
         display: block;
         padding: var(--spacing-sm);
@@ -1417,26 +1417,26 @@ body:has(.interview-landing) .menu-button:focus {
         text-transform: uppercase;
         transition: background-color 0.2s ease;
     }
-    
+
     .interview-landing__mobile-dropdown-menu .interview-landing__interviewee-name:hover {
         background-color: var(--interview-accent);
     }
-    
+
     .interview-landing__mobile-dropdown-menu .interview-landing__interviewee-name:last-child {
         border-bottom: none;
     }
-    
+
     .interview-landing__hero-title {
         font-size: clamp(1.2rem, calc(80vw / 12), 4rem);
         line-height: 1.1;
         word-spacing: 0.1em;
     }
-    
+
     .interview-landing__hero-subtitle {
         font-size: clamp(0.8rem, calc(80vw / 47), 1.1rem);
         padding-left: 50px;
     }
-    
+
     .interview-landing__hero-timeline {
         flex-direction: column;
         align-items: flex-start;
@@ -1444,16 +1444,16 @@ body:has(.interview-landing) .menu-button:focus {
         margin-left: 0;
         padding-left: 0;
     }
-    
+
     .interview-landing__timeline-graphic img {
         height: 1.1rem;
     }
-    
+
     .interview-landing__hero-subtitle {
         text-align: left;
         margin-left: 0;
     }
-    
+
     .interview-landing__hero-images {
         margin: 30px 0;
         display: flex;
@@ -1465,7 +1465,7 @@ body:has(.interview-landing) .menu-button:focus {
         margin-left: -50vw;
         margin-right: -50vw;
     }
-    
+
     /* Show only hero-image_01 as full-width background */
     .interview-landing__hero-image:first-child {
         order: 1;
@@ -1476,13 +1476,13 @@ body:has(.interview-landing) .menu-button:focus {
         margin-left: -50vw;
         margin-right: -50vw;
     }
-    
+
     .interview-landing__hero-image:first-child img {
         width: 100vw;
         height: auto;
         display: block;
     }
-    
+
     /* Hide hero-image_02 and use it as background for text */
     .interview-landing__hero-image:last-child {
         order: 2;
@@ -1496,11 +1496,11 @@ body:has(.interview-landing) .menu-button:focus {
         align-items: center;
         justify-content: center;
     }
-    
+
     .interview-landing__hero-image:last-child img {
         display: none; /* Hide the actual image */
     }
-    
+
     .interview-landing__hero-text {
         position: static;
         transform: none;
@@ -1510,12 +1510,12 @@ body:has(.interview-landing) .menu-button:focus {
         padding: var(--spacing-lg);
         background: transparent;
     }
-    
+
     .interview-landing__hero-text-columns {
         grid-template-columns: 1fr;
         gap: var(--spacing-md);
     }
-    
+
     .interview-landing__hero-text-left p,
     .interview-landing__hero-text-right p {
         font-size: clamp(0.8rem, 2vw, 1.2rem);
@@ -1524,104 +1524,104 @@ body:has(.interview-landing) .menu-button:focus {
         font-weight: 500;
         line-height: 1.4;
     }
-    
+
     .interview-landing__hero-text-left p {
         font-family: var(--font-teletext);
         font-size: clamp(1.1rem, 2.8vw, 1.8rem);
         line-height: 1.2;
     }
-    
+
     .interview-landing__hero-text-right p {
         font-family: var(--font-primary);
         font-size: clamp(0.8rem, 2vw, 1.4rem);
         line-height: 1.4;
         color: var(--interview-bg-primary);
     }
-    
-    
+
+
     .interview-landing__introduction-content {
         grid-template-columns: 1fr;
         gap: var(--spacing-lg);
     }
-    
+
     .interview-landing__interviews-layout {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    
+
     .interview-landing__interviewees-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .interview-landing__quote-card {
         flex: 0 0 250px;
         min-width: 250px;
         min-height: 370px;
     }
-    
+
     .interview-landing__quote-text {
         font-size: clamp(0.8rem, 2vw, 1rem);
     }
-    
+
     .interview-landing__interviewer-profile {
         flex-direction: column;
         text-align: center;
         gap: 30px;
         align-items: center;
     }
-    
+
     .interview-landing__interviewer-image {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .interview-page__profile-content {
         flex-direction: column;
         text-align: center;
         gap: 30px;
     }
-    
+
     .interview-page__profile-header {
         flex-direction: column;
         gap: var(--spacing-sm);
         align-items: center;
     }
-    
+
     .interview-page__profile-image {
         display: flex;
         justify-content: center;
         width: 100%;
     }
-    
+
     .interview-page__profile-image img {
         width: 167px;
         height: 167px;
     }
-    
+
     .interview-page__interviewee-name {
         font-size: 2rem;
     }
-    
+
     .interview-page__navigation-arrows {
         justify-content: center;
     }
-    
+
     .interview-page__content-wrapper {
         grid-template-columns: 1fr;
         gap: var(--spacing-lg);
     }
-    
+
     .interview-page__sidebar {
         order: -1;
     }
-    
+
     /* Mobile dropdown for interview links */
     .interview-page__links {
         position: relative;
         margin-bottom: var(--spacing-md);
     }
-    
+
     .interview-page__dropdown-toggle {
         display: block;
         width: 100%;
@@ -1637,7 +1637,7 @@ body:has(.interview-landing) .menu-button:focus {
         text-align: left;
         position: relative;
     }
-    
+
     .interview-page__dropdown-toggle::after {
         content: '▼';
         position: absolute;
@@ -1646,11 +1646,11 @@ body:has(.interview-landing) .menu-button:focus {
         transform: translateY(-50%);
         transition: transform 0.2s ease;
     }
-    
+
     .interview-page__dropdown-toggle.open::after {
         transform: translateY(-50%) rotate(180deg);
     }
-    
+
     .interview-page__dropdown-menu {
         position: absolute;
         top: 100%;
@@ -1663,11 +1663,11 @@ body:has(.interview-landing) .menu-button:focus {
         display: none;
         flex-direction: column;
     }
-    
+
     .interview-page__dropdown-menu.open {
         display: flex;
     }
-    
+
     .interview-page__dropdown-menu .interview-page__link {
         display: block;
         padding: var(--spacing-sm);
@@ -1680,11 +1680,11 @@ body:has(.interview-landing) .menu-button:focus {
         text-transform: uppercase;
         transition: background-color 0.2s ease;
     }
-    
+
     .interview-page__dropdown-menu .interview-page__link:hover {
         background-color: var(--interview-accent);
     }
-    
+
     .interview-page__dropdown-menu .interview-page__link:last-child {
         border-bottom: none;
     }
@@ -1695,29 +1695,29 @@ body:has(.interview-landing) .menu-button:focus {
         padding: 0 0 60px 0;
         margin-top: 40px;
     }
-    
+
     .interview-landing__hero-title-container {
         width: calc(100vw - 30px);
         margin-left: 30px;
         margin-right: 0;
     }
-    
+
     .interview-landing__hero-title {
         font-size: clamp(1rem, calc(85vw / 10), 3rem);
         line-height: 1.2;
         word-spacing: 0.05em;
         letter-spacing: 0.02em;
     }
-    
+
     .interview-landing__hero-subtitle {
         font-size: clamp(0.8rem, calc(85vw / 47), 1rem);
         padding-left: 30px;
     }
-    
+
     .interview-landing__hero-timeline {
         gap: 15px;
     }
-    
+
     .interview-landing__hero-images {
         margin: 20px 0;
         display: flex;
@@ -1729,7 +1729,7 @@ body:has(.interview-landing) .menu-button:focus {
         margin-left: -50vw;
         margin-right: -50vw;
     }
-    
+
     /* Ensure hero-image_01 is full-width */
     .interview-landing__hero-image:first-child {
         order: 1;
@@ -1740,13 +1740,13 @@ body:has(.interview-landing) .menu-button:focus {
         margin-left: -50vw;
         margin-right: -50vw;
     }
-    
+
     .interview-landing__hero-image:first-child img {
         width: 100vw;
         height: auto;
         display: block;
     }
-    
+
     /* Use hero-image_02 as background for text */
     .interview-landing__hero-image:last-child {
         order: 2;
@@ -1760,11 +1760,11 @@ body:has(.interview-landing) .menu-button:focus {
         align-items: center;
         justify-content: center;
     }
-    
+
     .interview-landing__hero-image:last-child img {
         display: none;
     }
-    
+
     .interview-landing__hero-text {
         position: static;
         transform: none;
@@ -1774,12 +1774,12 @@ body:has(.interview-landing) .menu-button:focus {
         padding: var(--spacing-md);
         background: transparent;
     }
-    
+
     .interview-landing__hero-text-columns {
         grid-template-columns: 1fr;
         gap: var(--spacing-sm);
     }
-    
+
     .interview-landing__hero-text-left p,
     .interview-landing__hero-text-right p {
         font-size: clamp(0.7rem, 1.8vw, 1rem);
@@ -1788,33 +1788,33 @@ body:has(.interview-landing) .menu-button:focus {
         font-weight: 500;
         line-height: 1.4;
     }
-    
+
     .interview-landing__hero-text-left p {
         font-family: var(--font-teletext);
         font-size: clamp(1rem, 2.5vw, 1.6rem);
         line-height: 1.2;
     }
-    
+
     .interview-landing__hero-text-right p {
         font-family: var(--font-primary);
         font-size: clamp(0.7rem, 1.8vw, 1.2rem);
         line-height: 1.4;
         color: var(--interview-bg-primary);
     }
-    
-    
+
+
     .interview-page__profile-content {
         padding: 120px 15px 0 15px;
     }
-    
+
     .interview-page__content-wrapper {
         padding: 0 15px;
     }
-    
+
     .interview-page__interviewee-name {
         font-size: 1.75rem;
     }
-    
+
     .interview-page__interviewee-bio {
         font-size: var(--text-lg);
     }
@@ -1827,14 +1827,14 @@ body:has(.interview-landing) .menu-button:focus {
         margin-left: 20px;
         margin-right: 0;
     }
-    
+
     .interview-landing__hero-title {
         font-size: clamp(0.9rem, calc(90vw / 12), 2.5rem);
         line-height: 1.1;
         word-spacing: 0.02em;
         letter-spacing: 0.01em;
     }
-    
+
     .interview-landing__hero-subtitle {
         font-size: clamp(0.7rem, calc(90vw / 50), 0.9rem);
         padding-left: 20px;
