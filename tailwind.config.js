@@ -40,10 +40,6 @@ export default {
       normal: 400,
       medium: 500,
     },
-    letterSpacing: {
-      2: '0.02em',
-      8: '0.08em',
-    },
     screens: {
       'sm': '586px',
       'tbl': '860px',
