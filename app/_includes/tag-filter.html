@@ -20,7 +20,7 @@
         {% endfor %}
         <li>
           <a
-            class="block text-14 tbl:text-16 px-10 py-6 tbl:px-24 tbl:py-12 border-1 border-black text-black active:text-white active:bg-black tbl:hover:text-white md:hover:bg-black transition-colors duration-300 ease {% if isActive %}bg-black text-white{% endif %}"
+            class="block text-sm tbl:text-base px-10 py-6 tbl:px-24 tbl:py-12 border-1 border-black text-black active:text-white active:bg-black tbl:hover:text-white md:hover:bg-black transition-colors duration-300 ease {% if isActive %}bg-black text-white{% endif %}"
             href="{% if current_slug == tag_slug %}/blog{% else %}/blog/tag/{{ tag_slug }}/{% endif %}"{% if current_slug == tag_slug %} aria-current="true"{% endif %}
             data-no-swup
           >

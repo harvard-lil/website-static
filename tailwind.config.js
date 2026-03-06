@@ -19,6 +19,7 @@ export default {
     'app/404.html',
     'app/*.md',
     'app/*.html',
+    'app/assets/javascripts/main.js',
   ],
   theme: {
     colors: {
@@ -61,15 +62,6 @@ export default {
       '2xl': '1520px'
     },
     extend: {
-      fontSize: {
-        ...new Array(401)
-          .fill()
-          .map((_, i) => i)
-          .reduce((acc, val) => {
-            acc[val] = `${val}px`
-            return acc
-          }, {}),
-      },
       borderWidth: {
         0: '0px',
         1: '1px',

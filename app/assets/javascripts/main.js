@@ -73,10 +73,10 @@ class blogSearch {
                  </object>`
               ) : ''}
             </header>
-            <h2 class="text-18 leading-115 font-medium" itemprop="headline">
+            <h2 class="text-lg leading-115 font-medium" itemprop="headline">
               <a href="${item.url}" class="card-link">${item.title}</a>
             </h2>
-            <time class="text-18 leading-00" datetime="${item.date}">${item.date}</time>
+            <time class="text-lg leading-100" datetime="${item.date}">${item.date}</time>
           </article>`
         }).join('')
       if(this.searchField.value === '') {
