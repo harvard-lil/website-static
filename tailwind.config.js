@@ -36,10 +36,6 @@ export default {
       sans: ["NeueHaasGrotesk", "sans-serif"],
       mono: ["DMMono", "monospace"],
     },
-    fontWeight: {
-      normal: 400,
-      medium: 500,
-    },
     screens: {
       'sm': '586px',
       'tbl': '860px',
@@ -47,11 +43,6 @@ export default {
       'lg': '1030px',
       'xl': '1300px',
       '2xl': '1520px'
-    },
-    extend: {
-      zIndex: {
-        header: 100
-      },
     },
     keyframes: {
       'rotate': {
@@ -73,4 +64,3 @@ export default {
     'bg-gray',
   ]
 }
-
