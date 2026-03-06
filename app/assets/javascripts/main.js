@@ -65,7 +65,7 @@ class blogSearch {
       const cycler = createCycler(1,6);
       const html = results.map(item => {
         return `
-          <article class="flex flex-col gap-8 relative">
+          <article class="flex flex-col gap-2 relative">
             <header class="aspect-square w-full bg-gray relative">
               ${item.image && item.image !== null && item.image !== '' ? (
                 `<object data="${item.image}" class="w-full h-full object-cover absolute inset-0">

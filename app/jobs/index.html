@@ -13,7 +13,7 @@ layout: default
   </div>
 </section>
 
-<div class="flex flex-col gap-50 md:gap-80">
+<div class="flex flex-col gap-12 md:gap-20">
   <section aria-label="Photo of the Reginald F. Lewis Center at Harvard University">
     <figure>
       <picture>
@@ -21,13 +21,13 @@ layout: default
             alt="Photo of the Reginald F. Lewis Center at Harvard University"
             class="img-full-width aspect-[1/.45] object-cover overflow-hidden">
       </picture>
-      <figcaption class="block container text-base py-8">
+      <figcaption class="block container text-base py-2">
         <strong class="editable">Credit: Bob O’Connor</strong>
       </figcaption>
     </figure>
   </section>
 
-  <section class="container flex flex-col gap-24 md:gap-40{% if collections.jobs.size == 0 %} pb-66{% endif %}">
+  <section class="container flex flex-col gap-6 md:gap-10{% if collections.jobs.size == 0 %} pb-16{% endif %}">
     <h2 class="h2 editable">Background</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
@@ -43,7 +43,7 @@ layout: default
   {% assign research_sections = collections.jobs | where:"category","research" | sort: "order" %}
 
   {% if staff_sections.size > 0 %}
-  <section class="container flex flex-col gap-24 md:gap-40{% if research_sections.size == 0 %} pb-66{% endif %}">
+  <section class="container flex flex-col gap-6 md:gap-10{% if research_sections.size == 0 %} pb-16{% endif %}">
     <h2 class="h2 editable">Staff Positions</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
@@ -56,7 +56,7 @@ layout: default
   {% endif %}
 
   {% if research_sections.size > 0 %}
-  <section class="container flex flex-col gap-24 md:gap-40 pb-66">
+  <section class="container flex flex-col gap-6 md:gap-10 pb-16">
     <h2 class="h2 editable">Research Positions</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">

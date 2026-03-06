@@ -69,16 +69,6 @@ export default {
       zIndex: {
         header: 100
       },
-      // Auto generate spacing values up to 200px, will be purged if not used
-      spacing: {
-        ...new Array(401)
-          .fill()
-          .map((_, i) => i)
-          .reduce((acc, val) => {
-            acc[val] = `${val}px`
-            return acc
-          }, {}),
-      },
       footerPadding: {
         sm: '72px',
         md: '96px'

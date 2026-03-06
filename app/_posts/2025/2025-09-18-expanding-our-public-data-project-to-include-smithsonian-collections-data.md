@@ -14,8 +14,8 @@ tags:
 
 We are excited to announce today that the Library Innovation Lab has expanded our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/) beyond [datasets available through Data.gov](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) to include 710 TB of data from the Smithsonian Institution — the complete open access portion of the Smithsonian’s collections. This marks an important step in our long-running mission to preserve large scale public collections both for our patrons and for posterity.
 
-<figure class="float-right items-center text-center w-full sm:!w-[300px] sm:!ml-5 ">
-  <img class="h-400 !mb-0" src="https://lil-blog-media.s3.amazonaws.com/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" />
+<figure class="float-right items-center text-center w-full sm:!w-[300px] sm:!ml-1 ">
+  <img class="h-[400px] !mb-0" src="https://lil-blog-media.s3.amazonaws.com/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" />
   <figcaption>From the National Museum of American History. Creative Commons 0 License</figcaption>
 </figure>
 

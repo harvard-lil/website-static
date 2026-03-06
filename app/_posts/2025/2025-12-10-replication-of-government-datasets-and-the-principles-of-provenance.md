@@ -30,7 +30,7 @@ As we develop the Public Data Project, we have been considering provenance anew:
 
 There could be a time in the future when we are just as interested in the changes and inventions of the people who pass government data from hand to hand as we are in the original, unaltered sources. As stewards of federal data, we must then have a responsibility to trace and report data’s ownership histories. This seems, in some ways, even more true because of the very nature of data: it holds mimetic potential. These datasets not only want to be used, but they want to be reproduced. The Enlightenment tradition that vaunts of originality — of an essence that defines an object and that cannot be replicated — seems misplaced here if the dataset remains unchanged from its source version to its replicated versions. In the spirit of [scholars such as Marcus Boon who write in praise of “copying,”](https://www.hup.harvard.edu/books/9780674072527) we might then say that replications of the data are not denigrated at all, just because they are not the original set.  And yet, at the same time, we want and need data to retain authority, to know its origin stories. How best to do this?
 
-<div class="flex gap-24 flex-col sm:flex-row">
+<div class="flex gap-6 flex-col sm:flex-row">
   <figure class="flex-1">
     <img src="https://lil-blog-media.s3.amazonaws.com/Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse-P7X.jpg" alt="Photograph of a wax seal marked 'De Twentsche Bank' in the Netherlands" />
     <figcaption>Wax seal of “De Twentsche Bank” in the Netherlands. Source: <a href="https://commons.wikimedia.org/wiki/File:Netherlands_1932-10-1_money_letter_NVPH_193_SF_reverse.jpg">Wikimedia Commons</a>.</figcaption>

@@ -1,17 +1,17 @@
-<div class="relative block container {% if featured %}pt-84 tbl:pt-120 md:pt-84{% endif %}">
+<div class="relative block container {% if featured %}pt-[84px] tbl:pt-[120px] md:pt-[84px]{% endif %}">
   {% if featured %}
-    <div class="absolute w-72 h-72 tbl:w-136 tbl:h-136 md:w-165 md:h-165 top-48 left-12 sm:left-0 tbl:top-52 md:top-0 z-[2] motion-safe:animate-spin select-none">
+    <div class="absolute w-[72px] h-[72px] tbl:w-[136px] tbl:h-[136px] md:w-[165px] md:h-[165px] top-12 left-3 sm:left-0 tbl:top-[52px] md:top-0 z-[2] motion-safe:animate-spin select-none">
       <img src="/assets/images/featured-project-text.svg" class="w-full h-full object-contain" alt="Featured Project" />
     </div>
   {% endif %}
-  <div class="{{ background }} pt-36 pb-12 tbl:pt-0 tbl:pb-0 flex flex-col tbl:grid tbl:grid-cols-2 tbl:items-center relative overflow-hidden">
-    <div class="flex items-start justify-start tbl:items-center tbl:justify-center px-24 tbl:px-0">
-      <img class="w-full max-w-[132px] min-h-[132px] max-h-[132px] pb-12 tbl:max-w-[348px] tbl:max-h-[300px] tbl:pb-0 object-contain object-left tbl:object-center" src="/assets/images/{{ logo }}" alt="{{ title }}">
+  <div class="{{ background }} pt-9 pb-3 tbl:pt-0 tbl:pb-0 flex flex-col tbl:grid tbl:grid-cols-2 tbl:items-center relative overflow-hidden">
+    <div class="flex items-start justify-start tbl:items-center tbl:justify-center px-6 tbl:px-0">
+      <img class="w-full max-w-[132px] min-h-[132px] max-h-[132px] pb-3 tbl:max-w-[348px] tbl:max-h-[300px] tbl:pb-0 object-contain object-left tbl:object-center" src="/assets/images/{{ logo }}" alt="{{ title }}">
     </div>
-    <div class="w-full p-24 pt-0 tbl:p-72 flex flex-col gap-18 tbl:gap-32">
+    <div class="w-full p-6 pt-0 tbl:p-[72px] flex flex-col gap-5 tbl:gap-8">
       <h2 class="h2">{{ title }}</h2>
       <p class="body-text">{{ description }}</p>
-      <div class="flex flex-col tbl:flex-row tbl:items-center gap-18 tbl:gap-32 pt-12 tbl:pt-24 whitespace-nowrap">
+      <div class="flex flex-col tbl:flex-row tbl:items-center gap-5 tbl:gap-8 pt-3 tbl:pt-6 whitespace-nowrap">
         {% if linkOne %}
           <span>{% include "arrow-link-inline.html", label: linkOneLabel, href: linkOne, target: "_blank", reverse: true %}</span>
         {% endif %}
