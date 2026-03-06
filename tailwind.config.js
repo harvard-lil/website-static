@@ -56,10 +56,6 @@ export default {
       zIndex: {
         header: 100
       },
-      footerPadding: {
-        sm: '72px',
-        md: '96px'
-      },
     },
     keyframes: {
       'rotate': {
