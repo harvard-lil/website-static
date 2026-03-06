@@ -84,6 +84,5 @@ who_contributed:
   - adam-ziegler
   - jonathan-zittrain
 
-### Override Jekyll Defaults ###
 title-tag: Perma.cc
 ---

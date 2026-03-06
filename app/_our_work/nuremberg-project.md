@@ -63,6 +63,5 @@ who_contributed:
   - andy-silva
   - lindsay-dumas
 
-### Override Jekyll Defaults ###
 title-tag: The Nuremberg Project
 ---

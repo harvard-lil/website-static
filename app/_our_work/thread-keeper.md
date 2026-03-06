@@ -56,7 +56,6 @@ what_does_it_do: >
 
 
 who_contributed:
-    
-### Override Jekyll Defaults ###
+
 
 ---

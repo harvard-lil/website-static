@@ -78,6 +78,5 @@ who_contributed:
   - adam-ziegler
   - jonathan-zittrain
 
-### Override Jekyll Defaults ###
 title-tag: H2O
 ---

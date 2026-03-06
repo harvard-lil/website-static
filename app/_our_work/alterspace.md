@@ -62,7 +62,6 @@ who_contributed:
   - keith-hartwig
   - sam-stites
 
-### Override Jekyll Defaults ###
 title-tag: Alterspace
 
 ---
