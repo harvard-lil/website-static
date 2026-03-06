@@ -46,7 +46,7 @@ layout: default
       <h2 class="h2">Updates</h2>
       <div class="flex flex-col items-start w-full">
         {% for post in updates %}
-          <div class="body-text w-full py-6 md:py-9 {% unless forloop.first %}border-t-1{% endunless %} grid grid-cols-12 gap-6 relative">
+          <div class="body-text w-full py-6 md:py-9 {% unless forloop.first %}border-t{% endunless %} grid grid-cols-12 gap-6 relative">
             <span class="label col-span-3">
               <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
             </span>
@@ -63,7 +63,7 @@ layout: default
       <h2 class="h2">News</h2>
       <div class="flex flex-col items-start w-full">
         {% for article in filtered_news %}
-          <div class="body-text w-full py-6 md:py-9 {% unless forloop.first %}border-t-1{% endunless %} grid grid-cols-12 gap-6 relative">
+          <div class="body-text w-full py-6 md:py-9 {% unless forloop.first %}border-t{% endunless %} grid grid-cols-12 gap-6 relative">
             <span class="label col-span-3">
               <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
             </span>

@@ -53,10 +53,6 @@ export default {
       '2xl': '1520px'
     },
     extend: {
-      borderWidth: {
-        0: '0px',
-        1: '1px',
-      },
       zIndex: {
         header: 100
       },

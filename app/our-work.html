@@ -29,7 +29,7 @@ layout: default
       {% assign subcategories = active_research | map: 'subcategory' | join: ',' | split: ',' | uniq | sort %}
 
       {% for category in subcategories %}
-        <div class="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-12 w-full {% if forloop.last == false %} border-b-1 border-black pb-12 md:pb-[60px]{% endif %} items-baseline">
+        <div class="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-12 w-full {% if forloop.last == false %} border-b border-black pb-12 md:pb-[60px]{% endif %} items-baseline">
           <h3 class="label {% unless forloop.first %} mt-3 md:mt-0 {% endunless %}">{{ category }}</h3>
           <div class="grid grid-cols-2 gap-9 md:col-span-2">
 
@@ -93,7 +93,7 @@ layout: default
         {% assign retired_projects_without_pages = collections.our_work_pageless | where:"retired",true %}
         {% assign retired_projects = retired_projects_with_pages | concat: retired_projects_without_pages | sort: "retired_date" | reverse %}
         {% for project in retired_projects %}
-          <div class="body-text w-full {% if forloop.last %} pt-6 tbl:pt-9 {% else %} py-6 tbl:py-9 {% endif %} {% unless forloop.first %}border-t-1 {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-2 tbl:gap-6 relative">
+          <div class="body-text w-full {% if forloop.last %} pt-6 tbl:pt-9 {% else %} py-6 tbl:py-9 {% endif %} {% unless forloop.first %}border-t {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-2 tbl:gap-6 relative">
             <h3 class="label col-span-3">{% if project.data %}{{ project.data.title }}{% else %}{{ project.title }}{% endif %}</h3>
             <span class="col-span-6">{% if project.data %}{{ project.data.what_does_it_do }}{% else %}{{ project.what_does_it_do }}{% endif %}</span>
             {% if project.data.tags contains 'our_work' %}

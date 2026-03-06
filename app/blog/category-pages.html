@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
 
   <div class="container flex flex-col gap-12 mb-14">
     {% include "tag-filter.html", current_tag: catData.name %}
-    <div class="flex flex-col gap-8 pb-10 border-b-1 border-black">
+    <div class="flex flex-col gap-8 pb-10 border-b border-black">
       <h1 class="page-hero__title">Blog</h1>
       {% include "blog-search.html" %}
     </div>
@@ -45,7 +45,7 @@ eleventyExcludeFromCollections: true
           {% assign finish = catData.totalPosts %}
         {% endif %}
         <nav aria-label="results list pagination" class="container pt-12 md:pt-[60px]">
-          <div class="w-full pt-3.5 md:pt-5 border-t-1 border-black flex items-center justify-between body-text">
+          <div class="w-full pt-3.5 md:pt-5 border-t border-black flex items-center justify-between body-text">
             <span>{{ start }}–{{ finish }} of {{ catData.totalPosts }}</span>
             <div class="flex items-center gap-6">
               {% if catData.href.previous %}

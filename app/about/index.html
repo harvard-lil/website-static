@@ -70,7 +70,7 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
-    <div id="affiliates" class="pt-12 md:pt-[72px] border-t-1 border-black">
+    <div id="affiliates" class="pt-12 md:pt-[72px] border-t border-black">
       <h2 class="h2 editable">Affiliates</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-x-[60px] lg:gap-x-[90px] xl:gap-x-[120px]">
         {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}

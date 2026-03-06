@@ -46,7 +46,7 @@ layout: default
           {% capture linkLabel %}
             <strong>{{ event.data.title }}:</strong> {{ event.data.short_description }}
           {% endcapture %}
-          <div class="body-text w-full {% if forloop.first %} py-6 tbl:py-9 {% else %}py-9 {% endif %} border-black {% unless forloop.first %}border-t-1{% endunless %} {% if forloop.last %}border-b-1{% endif %} flex flex-col md:grid md:grid-cols-12 gap-2 md:gap-6 relative">
+          <div class="body-text w-full {% if forloop.first %} py-6 tbl:py-9 {% else %}py-9 {% endif %} border-black {% unless forloop.first %}border-t{% endunless %} {% if forloop.last %}border-b{% endif %} flex flex-col md:grid md:grid-cols-12 gap-2 md:gap-6 relative">
             <span class="label col-span-3">{{ event.date | date: "%m/%d/%y" }}</span>
             <span class="col-span-7">{% include "arrow-link-inline.html", label: linkLabel, href: event.url %}</span>
           </div>
@@ -64,7 +64,7 @@ layout: default
           {% capture linkLabel %}
             <strong>{{ event.data.title }}:</strong> {{ event.data.short_description }}
           {% endcapture %}
-          <div class="body-text w-full {% if forloop.first %} pt-6 pb-9 tbl:py-9 {% elsif forloop.last %} pt-6 tbl:pt-9 {% else %} py-6 tbl:py-9 {% endif %}{% unless forloop.first %}border-t-1 {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-2 md:gap-6 relative">
+          <div class="body-text w-full {% if forloop.first %} pt-6 pb-9 tbl:py-9 {% elsif forloop.last %} pt-6 tbl:pt-9 {% else %} py-6 tbl:py-9 {% endif %}{% unless forloop.first %}border-t {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-2 md:gap-6 relative">
             <span class="label col-span-3">{{ event.date | date: "%m/%d/%y" }}</span>
             <span class="col-span-7">{% include "arrow-link-inline.html", label: linkLabel, href: event.url %}</span>
           </div>
