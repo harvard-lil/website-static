@@ -25,7 +25,7 @@ layout: default
     <div class="flex flex-col gap-24 md:gap-48">
 
       {% assign research = collections.our_work | where:"category","research" | where:"retired",false %}
-      {% assign active_research =  research | concat: additional_research %}
+      {% assign active_research = research | concat: additional_research %}
       {% assign subcategories = active_research | map: 'subcategory' | join: ',' | split: ',' | uniq | sort %}
 
       {% for category in subcategories %}

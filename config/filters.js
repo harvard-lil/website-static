@@ -101,8 +101,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("sort", (arr, key, order) => {
     if (!arr) return [];
     return [...arr].sort((a, b) => {
-      const aVal = a.data ? a.data[key] : a[key];
-      const bVal = b.data ? b.data[key] : b[key];
+      const aVal = key == null ? a : (a.data ? a.data[key] : a[key]);
+      const bVal = key == null ? b : (b.data ? b.data[key] : b[key]);
       const aNil = aVal == null || aVal === "";
       const bNil = bVal == null || bVal === "";
       if (aNil && bNil) return 0;
