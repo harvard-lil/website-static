@@ -16,7 +16,7 @@ Head to [https://blog-generator.lil.tools/](https://blog-generator.lil.tools/) t
 
 Hit the editor's "Preview/Download" to check your work.
 
-When you are satisfied, hit the "Download" button to download your draft, and follow the simple instructions to upload your draft to Github.
+When you are satisfied, hit the "Download" button to download your draft, and follow the simple instructions to upload your draft to GitHub.
 
 ## Adding current affiliates
 
