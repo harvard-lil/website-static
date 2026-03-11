@@ -53,6 +53,7 @@ export default function (eleventyConfig) {
   );
 
   eleventyConfig.addCollection("tagsList", (collectionApi) => {
+    const PAGE_SIZE = 12;
     const blogPosts = collectionApi.getFilteredByTag("posts");
     const tagMap = new Map();
     blogPosts.forEach((post) => {
@@ -64,15 +65,40 @@ export default function (eleventyConfig) {
         }
       });
     });
-    return [...tagMap.entries()].map(([slug, tag]) => ({
-      name: tag,
-      tagSlug: slug,
-      posts: blogPosts
+
+    const pages = [];
+    tagMap.forEach((tag, tagSlug) => {
+      const tagPosts = blogPosts
         .filter((post) =>
-          (post.data.tags || []).some((t) => slugify(t) === slug)
+          (post.data.tags || []).some((t) => slugify(t) === tagSlug)
         )
-        .reverse(),
-    }));
+        .reverse();
+
+      const totalPages = Math.max(1, Math.ceil(tagPosts.length / PAGE_SIZE));
+
+      for (let i = 0; i < totalPages; i++) {
+        const href = (n) =>
+          n === 0
+            ? `/blog/tag/${tagSlug}/`
+            : `/blog/tag/${tagSlug}/page/${n + 1}/`;
+
+        pages.push({
+          name: tag,
+          tagSlug,
+          posts: tagPosts.slice(i * PAGE_SIZE, (i + 1) * PAGE_SIZE),
+          pageNumber: i,
+          totalPages,
+          totalPosts: tagPosts.length,
+          href: {
+            self: href(i),
+            previous: i > 0 ? href(i - 1) : null,
+            next: i < totalPages - 1 ? href(i + 1) : null,
+          },
+        });
+      }
+    });
+
+    return pages;
   });
 
   eleventyConfig.addCollection("categoriesList", (collectionApi) => {
