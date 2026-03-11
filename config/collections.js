@@ -53,8 +53,9 @@ export default function (eleventyConfig) {
   );
 
   eleventyConfig.addCollection("tagsList", (collectionApi) => {
+    const blogPosts = collectionApi.getFilteredByTag("posts");
     const tagMap = new Map();
-    collectionApi.getFilteredByTag("posts").forEach((post) => {
+    blogPosts.forEach((post) => {
       (post.data.tags || []).forEach((tag) => {
         if (tag === "posts") return;
         const slug = slugify(tag);
@@ -66,7 +67,11 @@ export default function (eleventyConfig) {
     return [...tagMap.entries()].map(([slug, tag]) => ({
       name: tag,
       tagSlug: slug,
-      posts: collectionApi.getFilteredByTag(tag).reverse(),
+      posts: blogPosts
+        .filter((post) =>
+          (post.data.tags || []).some((t) => slugify(t) === slug)
+        )
+        .reverse(),
     }));
   });
 
