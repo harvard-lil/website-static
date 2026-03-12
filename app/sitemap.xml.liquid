@@ -1,0 +1,30 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in collections.all %}
+    {% assign skip = false %}
+    {% if page.url == false %}{% assign skip = true %}{% endif %}
+    {% if page.url == "/404.html" %}{% assign skip = true %}{% endif %}
+    {% if page.url == "/search.json" %}{% assign skip = true %}{% endif %}
+    {% if page.url contains "/blog/feed/" %}{% assign skip = true %}{% endif %}
+    {% unless skip %}
+    <url>
+      <loc>{{ site.url }}{{ page.url }}</loc>
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+    </url>
+    {% endunless %}
+  {% endfor %}
+  {% for tagData in collections.tagsList %}
+    <url>
+      <loc>{{ site.url }}{{ tagData.href.self }}</loc>
+    </url>
+  {% endfor %}
+  {% for catData in collections.categoriesList %}
+    <url>
+      <loc>{{ site.url }}{{ catData.href.self }}</loc>
+    </url>
+  {% endfor %}
+</urlset>

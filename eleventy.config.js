@@ -52,7 +52,6 @@ export default function (eleventyConfig) {
       "html",
       "liquid",
       "md",
-      "xml",
       "json",
       "webmanifest",
       "txt",

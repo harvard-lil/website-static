@@ -5,7 +5,7 @@ pagination:
   data: collections.categoriesList
   size: 1
   alias: catData
-permalink: "/blog/category/{{ catData.catSlug }}/"
+permalink: "{{ catData.href.self }}"
 eleventyExcludeFromCollections: true
 ---
 
@@ -37,6 +37,27 @@ eleventyExcludeFromCollections: true
           {% assign last_random_number = random_number %}
         {% endfor %}
       </div>
+
+      {% if catData.totalPages > 1 %}
+        {% assign start = catData.pageNumber | times: 12 | plus: 1 %}
+        {% assign finish = start | plus: 12 | minus: 1 %}
+        {% if finish > catData.totalPosts %}
+          {% assign finish = catData.totalPosts %}
+        {% endif %}
+        <nav aria-label="results list pagination" class="container pt-50 md:pt-60">
+          <div class="w-full pt-14 md:pt-20 border-t-1 border-black flex items-center justify-between body-text">
+            <span>{{ start }} - {{ finish }} of {{ catData.totalPosts }}</span>
+            <div class="flex items-center gap-24">
+              {% if catData.href.previous %}
+                {% include "arrow-link.html", label: "Previous", href: catData.href.previous, arrow: "back" %}
+              {% endif %}
+              {% if catData.href.next %}
+                {% include "arrow-link.html", label: "Next", href: catData.href.next %}
+              {% endif %}
+            </div>
+          </div>
+        </nav>
+      {% endif %}
     </div>
   </div>
 

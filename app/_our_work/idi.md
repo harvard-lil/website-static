@@ -4,6 +4,7 @@ subcategory: Recent
 retired: false
 retired_date:
 title: Institutional Data Initiative
+slug: idi
 ---
 The [Institutional Data Initiative](https://institutionaldatainitiative.org) (IDI) is a groundbreaking program incubated at LIL that is helping libraries, government agencies, and other knowledge institutions share digital collections with their patrons while improving the accuracy and reliability of AI tools for all.
 

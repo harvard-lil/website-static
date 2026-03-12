@@ -32,7 +32,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("map", (arr, key) => {
     if (!arr) return [];
     return arr.map((item) => {
-      if (item && item.data && item.data[key] !== undefined) return item.data[key];
+      if (item && item.data && item.data[key] !== undefined)
+        return item.data[key];
       return item ? item[key] : undefined;
     });
   });
@@ -54,7 +55,8 @@ export default function (eleventyConfig) {
     if (!arr) return [];
     return arr.filter((item) => {
       const val = item.data ? item.data[key] : item[key];
-      if (value === false) return val === false || val === undefined || val === null;
+      if (value === false)
+        return val === false || val === undefined || val === null;
       if (value === true) return val === true;
       return val === value;
     });
@@ -101,8 +103,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("sort", (arr, key, order) => {
     if (!arr) return [];
     return [...arr].sort((a, b) => {
-      const aVal = key == null ? a : (a.data ? a.data[key] : a[key]);
-      const bVal = key == null ? b : (b.data ? b.data[key] : b[key]);
+      const aVal = key == null ? a : a.data ? a.data[key] : a[key];
+      const bVal = key == null ? b : b.data ? b.data[key] : b[key];
       const aNil = aVal == null || aVal === "";
       const bNil = bVal == null || bVal === "";
       if (aNil && bNil) return 0;
@@ -149,5 +151,15 @@ export default function (eleventyConfig) {
     if (!input) return "";
     const siteUrl = this.ctx?.site?.url || "";
     return String(input).replace(/\{\{\s*site\.url\s*\}\}/g, siteUrl);
+  });
+
+  eleventyConfig.addFilter("post_excerpt", function (post) {
+    if (post.data?.excerpt) return post.data.excerpt;
+    const content = post.templateContent || "";
+    if (content.includes("<!--more-->")) {
+      return content.split("<!--more-->")[0].trim();
+    }
+    const match = content.match(/<p[^>]*>[\s\S]*?<\/p>/i);
+    return match ? match[0] : "";
   });
 }
