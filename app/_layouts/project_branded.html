@@ -13,35 +13,26 @@ custom-css: ["post-content"]
     {% else %}
       <h1 class="page-hero__title">{{ title }}</h1>
     {% endif %}
-    <h2 class="page-hero__subtitle">{{what_does_it_do}}</h2>
+    <h2 class="page-hero__subtitle">{{ what_does_it_do }}</h2>
   </div>
 </section>
 
 <div class="flex flex-col gap-48 md:gap-60 items-start">
 
-  <section class="container flex flex-col gap-36 md:gap-72">
-    <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
-      <h2 class="h2">What Is {% if title_uses_definite_article %}the {% endif %}{{title}}?</h2>
-      <div class="post-content md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
-        {{ content }}
+  {% for section in sections %}
+    <section class="container flex flex-col gap-36 md:gap-72">
+      <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
+        <h2 class="h2">{{ section[0] }}</h2>
+        <div class="post-content md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
+          {{ section[1] | markdownify }}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  {% if about_us %}
-  <section class="container flex flex-col gap-36 md:gap-72">
-    <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
-      <h2 class="h2">About Us</h2>
-      <div class="post-content md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
-        {{ about_us | markdownify }}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if hero_image %}
-    {% include "project-hero.html" %}
-  {% endif %}
+    {% if forloop.first and hero_image %}
+      {% include "project-hero.html" %}
+    {% endif %}
+  {% endfor %}
 
   {% assign updates = collections.posts | where: "project", slug | sort: "date" | reverse | slice: 0, 10 %}
   {% if updates.size > 0 %}
@@ -82,7 +73,7 @@ custom-css: ["post-content"]
     </section>
   {% endif %}
 
-  {% if who_contributed and about_us == empty %}
+  {% if who_contributed and show_who_contributed == true %}
     <section class="container">
       <div class="flex flex-col lg:grid lg:grid-cols-3 gap-24 lg:gap-36 items-baseline">
         <h2 class="h2">Project Contributors</h2>
