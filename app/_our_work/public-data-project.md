@@ -3,7 +3,7 @@ category: platforms
 order: 2
 retired: false
 retired_date:
-layout: project_branded
+layout: project-custom
 featured: true
 
 title: Public Data Project
