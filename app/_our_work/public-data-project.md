@@ -1,6 +1,6 @@
 ---
 category: platforms
-order: 2
+order: 1
 retired: false
 retired_date:
 layout: project-custom
