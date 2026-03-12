@@ -2,7 +2,8 @@
 title: Launching the Agent Protocols Tech Tree
 author: jack-cushman
 tags:
-- Tools
+- tools
+- ai-research
 ---
 [![Agent Protocols Tech Tree](https://lil-blog-media.s3.amazonaws.com/aptt.png)](https://harvard-lil.github.io/agent-protocols/)
 
