@@ -102,7 +102,7 @@ layout: default
       <div class="container">
         <h2 class="h2 tbl:mt-12 tbl:mb-24 editable">Past Affiliates</h2>
         <div class="flex flex-col items-start w-full">
-          {% assign old_friends = affiliates | where: "current", nil %}
+          {% assign old_friends = affiliates | where: "current", false %}
           {% for person in old_friends %}
             {% include "about-people-unaffiliated.html", person: person %}
           {% endfor %}
