@@ -1,4 +1,4 @@
-{% capture title %}
+{% capture page-title-tag %}
   {% if title-tag-complete %}
     {{ title-tag-complete }}
   {% elsif title-tag %}
@@ -9,4 +9,4 @@
     {{ site.title }}
   {% endif %}
 {% endcapture %}
- <title>{{ title | strip }}</title>
+ <title>{{ page-title-tag | strip }}</title>
