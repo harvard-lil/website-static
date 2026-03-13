@@ -36,7 +36,7 @@
   {% endif %}
 {% endcapture %}
 
-<meta name="twitter:card" content="{{ sharing-card-type }}">
+<meta name="twitter:card" content="{{ sharing-card-type | default: "summary" }}">
 <meta name="twitter:site" content="@{{ site.twitter_account_name }}">
 <meta name="twitter:title" content="{{ sharing-title | strip | escape_once }}">
 <meta name="twitter:description" content="{{ sharing-description | strip | escape_once}}">
