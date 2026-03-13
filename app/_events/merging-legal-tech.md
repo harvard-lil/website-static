@@ -1,7 +1,7 @@
 ---
 title: Merging Legal Tech
 date: 2025-10-23T12:15:00-04:00
-short_description: Lunch talk exploring legal AI through the lens of two major business deals
+short_description: Lunch talk exploring legal AI through the lens of two major business deals.
 description: >-
   Co-founders of the legal research platform Fastcase sit down with Library
   Innovation Lab director, Jack Cushman to discuss legal tech’s relationship

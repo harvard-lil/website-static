@@ -5,7 +5,7 @@ title: Hiring! We want your design energy.
 wordpress_id: 1982
 ---
 
-The [Harvard Library Innovation Lab]({{ site.baseurl}}/) and the [Berkman Center for Internet & Society](http://cyber.law.harvard.edu) are looking for a web designer to help us build tools to explore the open Internet and define the future of libraries.
+The [Harvard Library Innovation Lab]({{ site.url }}/) and the [Berkman Center for Internet & Society](http://cyber.law.harvard.edu) are looking for a web designer to help us build tools to explore the open Internet and define the future of libraries.
 
 Our projects range in scope from fast-moving prototypes to long-term innovations. The best way to get a feel for what we do is by looking at some of our current efforts.
 

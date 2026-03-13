@@ -56,7 +56,6 @@ why_does_it_exist:
 
 who_contributed:
 
-### Override Jekyll Defaults ###
 title-tag: CanIFairUse.It
 
 ---

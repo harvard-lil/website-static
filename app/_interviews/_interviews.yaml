@@ -1,0 +1,5 @@
+layout: interview.html
+type: interview
+tags: interviews
+sharing-card-type: summary
+permalink: "/generational-data-interviews/{{ page.fileSlug }}/"

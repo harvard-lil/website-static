@@ -1,3 +1,3 @@
 ---
 ---
-{% assign news = site.data.news | where: "project", page.slug %}news({"news": {{ news | jsonify }}, "date": "{{ site.time }}"})
+{% assign project_news = news | where: "project", page.slug %}news({"news": {{ project_news | jsonify }}, "date": "{{ 'now' | date: '%Y-%m-%d %H:%M:%S' }}"})

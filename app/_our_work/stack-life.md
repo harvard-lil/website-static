@@ -59,5 +59,4 @@ who_contributed:
   - matt-phillips
   - annie-cain
 
-### Override Jekyll Defaults ###
 ---

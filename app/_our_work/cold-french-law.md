@@ -11,4 +11,4 @@ This dataset—formatted into a single CSV file and openly available on Hugging 
 
 COLD French Law was initially compiled to be used in a forthcoming experiment at the Lab. We also released it broadly as part of our commitment to open knowledge. We see this dataset as a contribution to the quickly expanding field of legal AI, and hope it will help researchers, builders, and tinkerers of all kinds in their endeavors.
 
-More info: [Release Post]({{ site.baseurl }}/blog/2024/05/23/announcing-the-cold-french-law-dataset/), [COLD French Law on Hugging Face](https://huggingface.co/datasets/harvard-lil/cold-french-law)
+More info: [Release Post](https://lil.law.harvard.edu/blog/2024/05/23/announcing-the-cold-french-law-dataset/), [COLD French Law on Hugging Face](https://huggingface.co/datasets/harvard-lil/cold-french-law)

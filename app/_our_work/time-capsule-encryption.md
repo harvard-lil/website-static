@@ -62,5 +62,4 @@ who_contributed:
   - jack-cushman
   - jonathan-zittrain
 
-### Override Jekyll Defaults ###
 ---

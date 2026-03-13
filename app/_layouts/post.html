@@ -5,13 +5,13 @@ custom-css: ['post-content']
 
 <section class="container pt-48 md:pt-72">
   <div class="flex flex-col gap-48 mb-36">
-    {% include tag-filter.html tags=page.tags %}
+    {% include "tag-filter.html", tags: tags %}
     <div class="flex flex-col items-start gap-12 md:gap-24">
       <nav aria-label="breadcrumbs">
-        <a href="{{ site.baseurl }}/blog/" class="label interactive-link dark reverse">Blog</a>
+        <a href="/blog/" class="label interactive-link dark reverse">Blog</a>
       </nav>
       <div class="w-full pb-36 border-b-1 border-black">
-        <h1 class="h2">{{page.title}}</h1>
+        <h1 class="h2">{{title}}</h1>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@ custom-css: ['post-content']
   <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-20 md:gap-36 md:grid md:grid-cols-12 body-text">
     <header class="flex flex-col gap-20 md:col-span-3">
       <div>
-        {% include author.html author=page.author guest-author=page.guest-author %}
+        {% include "author.html", author: author, guest-author: guest-author %}
       </div>
       <div>
         <p>Published:</p>

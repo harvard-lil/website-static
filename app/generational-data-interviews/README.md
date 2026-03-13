@@ -4,7 +4,7 @@ Note: these files were generated in part by Cursor, the AI coding assistant.
 
 This interview series was created as a discrete editorial project, and thus has its own styling and information system that is different from other parts of the LIL website. There is a project landing page, and then 14 interviews that are connected via a navigation system as well as editorial notes that bring readers from one interview to another.
 
-To accommodate that while still having the series sit within the LIL website, a new layout and css file were created for Jekyll to use when generating pages. There is now a new folder in /app labeled _interviews, that holds 14 markdown files for each of the 14 interviews conducted.
+To accommodate that while still having the series sit within the LIL website, a new layout and css file were created for Eleventy to use when generating pages. There is now a new folder in /app labeled _interviews, that holds 14 markdown files for each of the 14 interviews conducted.
 
 There is also a new folder, generational-data-interviews, that holds assets like headshots, and graphics used throughout the series; custom fonts; an index.html for the landing page of the series; a custom .js file for the series; and a readme that explains this structure and has instructions for adding new interviews.
 
@@ -25,8 +25,8 @@ Note: This work was assisted by Cursor, the AI coding tool.
 | Component | Location | Purpose |
 |-----------|----------|---------|
 | **Landing Page** | `generational-data-interviews/index.html` | Main entry point with interviewees grid and quote cards |
-| **Interview Pages** | `app/_interviews/*.md` | Individual interview content using Jekyll markdown |
-| **Layout Template** | `app/_layouts/interview.html` | Jekyll layout for interview pages |
+| **Interview Pages** | `app/_interviews/*.md` | Individual interview content using Eleventy markdown |
+| **Layout Template** | `app/_layouts/interview.html` | Eleventy layout for interview pages |
 | **JavaScript Engine** | `generational-data-interviews/main.js` | Dynamic content loading, navigation, and interactions |
 | **Styling** | `app/assets/css/interview-series.css` | Complete visual design system |
 | **Assets** | `generational-data-interviews/assets/` | Images, fonts, and graphics |
@@ -34,7 +34,7 @@ Note: This work was assisted by Cursor, the AI coding tool.
 ### Data Flow
 
 ```
-Jekyll Markdown Files → Layout Template → JavaScript Processing → Dynamic UI
+Eleventy Markdown Files → Layout Template → JavaScript Processing → Dynamic UI
 ```
 
 ## 📁 File Structure
@@ -50,14 +50,14 @@ app/
 │   │   └── *.png                   # Hero images and graphics
 │   └── README.md                   # This documentation
 │
-├── _interviews/                     # Interview content (Jekyll)
+├── _interviews/                     # Interview content (Eleventy)
 │   ├── amelia-acker.md
 │   ├── martin-kunze-steffen-hellmold.md
 │   ├── frank-cifaldi.md
 │   └── [other-interviews].md
 │
 ├── _layouts/
-│   └── interview.html               # Jekyll layout template
+│   └── interview.html               # Eleventy layout template
 │
 └── assets/css/
     └── interview-series.css          # Complete styling system
@@ -233,14 +233,14 @@ The system uses **Swup.js** for smooth page transitions:
 
 ### File Dependencies
 
-1. **Jekyll Layout**: `app/_layouts/interview.html`
+1. **Eleventy Layout**: `app/_layouts/interview.html`
 2. **CSS File**: `app/assets/css/interview-series.css`
 3. **JavaScript**: `generational-data-interviews/main.js`
 4. **Assets**: `generational-data-interviews/assets/`
 
 ### Build Process
 
-The system integrates with Jekyll's build process:
+The system integrates with Eleventy's build process:
 - **Markdown files** → **HTML pages**
 - **Layout template** → **Rendered interviews**
 - **JavaScript** → **Dynamic functionality**

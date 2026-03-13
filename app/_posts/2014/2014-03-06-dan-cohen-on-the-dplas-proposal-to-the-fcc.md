@@ -13,7 +13,7 @@ The FCC is looking for ways to modernize the [E-Rate](http://en.wikipedia.org/wi
 
 I'm excited about this for two reasons beyond the service it would provide.
 
-First, it could be a first step toward providing cloud-based library services, instead of the  proprietary, closed, expensive systems libraries typically use to manage their data. ([Evergreen](evergreen-ils.org/), I'm not talking about you, you open source scamp!)
+First, it could be a first step toward providing cloud-based library services, instead of the  proprietary, closed, expensive systems libraries typically use to manage their data. ([Evergreen](https://evergreen-ils.org/), I'm not talking about you, you open source scamp!)
 
 Second, as libraries build their collections using DPLA Local, their metadata is likely to assume normalized forms, which means that we should get cross-collection discovery and semantic riches.
 

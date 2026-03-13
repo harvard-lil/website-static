@@ -3,7 +3,7 @@ title: "Student Note: ChatGPT Ate My Homework. Can LLMs Generate Compelling Case
 author: chris-shen
 excerpt_separator: <!--more-->
 tags:
-- ai research
+- ai-research
 ---
 
 > The Library Innovation Lab welcomes a range of research assistants and fellows to our team to conduct independently-driven research which intersects in some way to our core work.

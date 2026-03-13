@@ -1,0 +1,11 @@
+---
+pagination:
+  data: collections.our_work
+  size: 1
+  alias: project
+permalink: "/api/news/{{ project.data.slug | default: project.fileSlug }}/index.js"
+eleventyExcludeFromCollections: true
+---
+{% assign project_slug = project.data.slug | default: project.fileSlug %}
+{% assign project_news = news | where: "project", project_slug %}
+news({"news": {{ project_news | jsonify }}, "date": "{{ 'now' | date: '%Y-%m-%d %H:%M:%S' }}"})

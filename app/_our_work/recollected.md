@@ -56,7 +56,6 @@ why_does_it_exist: >
   Attempts to archive stories about our relationships to our things 
 
 who_contributed:
-    
-### Override Jekyll Defaults ###
+
 
 ---
