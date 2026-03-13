@@ -1,10 +1,10 @@
-{% unless include.tags == empty and include.categories == empty %}
+{% unless tags == empty and categories == empty %}
 <footer>
-  {% for tag in include.tags %}
-    <span class="tag"><a href="{{ site.baseurl }}/blog/tag/{{ tag | slugify }}">{{ tag }}</a></span>
+  {% for tag in tags %}
+    <span class="tag"><a href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a></span>
   {% endfor %}
-  {% for category in include.categories %}
-    <span class="category"><a href="{{ site.baseurl }}/blog/category/{{ category | slugify }}">{{ category }}</a></span>
+  {% for category in categories %}
+    <span class="category"><a href="/blog/category/{{ category | slugify }}">{{ category }}</a></span>
   {% endfor %}
 </footer> <!-- end article footer -->
 {% endunless %}

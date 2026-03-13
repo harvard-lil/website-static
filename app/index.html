@@ -11,7 +11,7 @@ sharing-card-type: summary_large_image
   <h1 class="font-medium">Library Innovation Lab at Harvard Law School</h1>
 </div>
 
-<div class="bg-black text-white w-full py-48 md:pt-72 md:pb-120 continer text-center flex flex-col justify-center items-center gap-20 md:gap-32">
+<div class="bg-black text-white w-full py-48 md:pt-72 md:pb-120 text-center flex flex-col justify-center items-center gap-20 md:gap-32">
   <div class="font-mono uppercase tracking-8 text-green text-16 md:text-24 font-normal editable">Our Mission</div>
   <div contenteditable class="text-28 md:text-54 leading-120 max-w-[1200px] mx-12 editable">To grow knowledge and community by bringing <strong>library principles</strong> to <strong>technological frontiers.</strong></div>
 </div>
@@ -21,10 +21,10 @@ sharing-card-type: summary_large_image
     <h2 class="text-14 md:text-18 tracking-8 uppercase font-medium editable">Follow our latest projects</h2>
     <ul class="flex items-center gap-60 text-[24px] leading-[120%]">
       <li>
-        {% include arrow-link.html label="Blog" href="/blog/" reverse=true %}
+        {% include "arrow-link.html", label: "Blog", href: "/blog/", reverse: true %}
       </li>
       <li>
-        {% include arrow-link.html label="Newsletter" href="https://ocb.to/lawvocado" target="_blank" reverse=true %}
+        {% include "arrow-link.html", label: "Newsletter", href: "https://ocb.to/lawvocado", target: "_blank", reverse: true %}
       </li>
     </ul>
   </div>
@@ -37,33 +37,22 @@ sharing-card-type: summary_large_image
       <div class="flex flex-col gap-20 editable">
         <p>Our team combines librarians, technologists, lawyers, and more to build tools and conduct research that empowers access to our shared knowledge and cultural heritage.</p>
       </div>
-      {% include arrow-link.html label="Learn More About Who We Are" href="/about/" reverse=true %}
+      {% include "arrow-link.html", label: "Learn More About Who We Are", href: "/about/", reverse: true %}
     </div>
   </div>
 </div>
 
 <div class="flex flex-col gap-50 md:gap-60 -mt-12 sm:mt-0 md:-mt-18">
-  {% assign featured_projects = site.our_work | where:"featured",true | sort: "order" %}
+  {% assign featured_projects = collections.our_work | where:"featured",true | sort: "order" %}
   <div class="flex flex-col">
     {% for project in featured_projects %}
       {% capture linkOneLabel %}
-        <span class="sr-only">{{ project.title }}, Visit</span> Website
+        <span class="sr-only">{{ project.data.title }}, Visit</span> Website
       {% endcapture %}
       {% capture linkTwoLabel %}
-        <span class="sr-only">{{ project.title }},</span> Learn More
+        <span class="sr-only">{{ project.data.title }},</span> Learn More
       {% endcapture %}
-      {% include
-        project-card.html
-        featured=true
-        background=project.background_class
-        title=project.title
-        description=project.description
-        logo=project.logo
-        linkOne=project.project_website
-        linkOneLabel=linkOneLabel
-        linkTwo=project.url
-        linkTwoLabel=linkTwoLabel
-      %}
+      {% include "project-card.html", featured: true, background: project.data.background_class, title: project.data.title, description: project.data.description, logo: project.data.logo, linkOne: project.data.project_website, linkOneLabel: linkOneLabel, linkTwo: project.url, linkTwoLabel: linkTwoLabel %}
     {% endfor %}
   </div>
 
@@ -74,9 +63,9 @@ sharing-card-type: summary_large_image
         <div class="flex flex-col gap-20 editable">
           <p>Platforms like Perma.cc translate the traditional roles of libraries into the digital age. Explorations like WARC-GPT empower practitioners to learn and leverage new technologies in the context of their field.</p>
         </div>
-        {% include arrow-link.html label="View All Projects" href="/our-work/" reverse=true %}
+        {% include "arrow-link.html", label: "View All Projects", href: "/our-work/", reverse: true %}
       </div>
     </div>
   </div>
-  {% include contact-section.html heading="Contact Us" %}
+  {% include "contact-section.html", heading: "Contact Us" %}
 </div>

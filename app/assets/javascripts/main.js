@@ -34,11 +34,7 @@ function createCycler(min, max) {
     };
 }
 
-/*
-* https://github.com/daviddarnes/jekyll-search-js
-*/
-
-class jekyllSearch {
+class blogSearch {
     constructor(dataSource, searchField, resultsList, resultsSummary, form, clearButton) {
       this.dataSource = dataSource
       this.searchField = document.querySelector(searchField)
@@ -137,7 +133,7 @@ class LilSearch extends HTMLElement {
         this.searchSummarySelector = '#summary'
         this.form = this.querySelector('form');
         this.clearButtonSelector = '[data-clear-button]'
-        this.search = new jekyllSearch(
+        this.search = new blogSearch(
             this.searchFile,
             this.searchInputSelector,
             this.searchResultsSelector,

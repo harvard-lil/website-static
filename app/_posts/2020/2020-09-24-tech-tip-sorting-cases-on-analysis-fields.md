@@ -4,7 +4,7 @@ author: kelly-fitzpatrick
 ---
 
 Last month we
-[announced](/blog/2020/08/26/introducing-cap-case-analysis/) seven
+[announced](https://lil.law.harvard.edu/blog/2020/08/26/introducing-cap-case-analysis/) seven
 [new data fields](https://case.law/api/#analysis-fields) in the
 [Caselaw Access Project](https://case.law/). Here are API calls to the
 [cases endpoint](https://api.case.law/v1/cases/) that demonstrate how

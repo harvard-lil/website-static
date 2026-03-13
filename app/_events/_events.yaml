@@ -1,0 +1,5 @@
+layout: event.html
+type: event
+tags: events
+sharing-card-type: summary
+permalink: "/events/{{ page.fileSlug }}/"

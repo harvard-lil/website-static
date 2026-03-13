@@ -1,7 +1,7 @@
 ---
 category: projects
 retired: true
-retired_date:
+retired_date: 2012-12-31
 layout: project
 
 title: Library Test Kitchen

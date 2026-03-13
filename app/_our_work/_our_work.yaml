@@ -1,0 +1,5 @@
+layout: our_work.html
+type: our_work
+tags: our_work
+sharing-card-type: summary
+permalink: "/our-work/{{ page.fileSlug }}/"

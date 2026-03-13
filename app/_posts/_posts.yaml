@@ -1,0 +1,5 @@
+layout: post.html
+tags: posts
+type: post
+sharing-card-type: summary
+permalink: "/blog/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/"

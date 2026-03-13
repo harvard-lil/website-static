@@ -19,4 +19,4 @@ This implementation:
 
 [wacz-exhibitor on GitHub](https://github.com/harvard-lil/wacz-exhibitor)
 
-See also: [Live Demo](https://warcembed-demo.lil.tools/), [Blog post](/blog/2022/09/15/opportunities-and-challenges-of-client-side-playback/)
+See also: [Live Demo](https://warcembed-demo.lil.tools/), [Blog post](https://lil.law.harvard.edu/blog/2022/09/15/opportunities-and-challenges-of-client-side-playback/)

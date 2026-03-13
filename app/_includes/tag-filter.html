@@ -1,16 +1,16 @@
-{% assign current = page.autopages.display_name|strip | default: 'all' %}
+{% assign current = current_tag | default: 'all' %}
 
 {% if site.show_blog_featured_tags %}
 
 <div>
   <nav aria-label="Featured Tags">
     <ul class="flex flex-wrap flex-col sm:flex-row gap-10 mt-12 sm:mt-0">
-      {% for tag in site.data.featured_tags %}
+      {% for tag in featured_tags %}
         {% assign isActive = false  %}
         {% if current == tag %}
           {% assign isActive = true %}
         {% endif %}
-        {% for includedTag in include.tags %}
+        {% for includedTag in tags %}
           {% if tag == includedTag %}
             {% assign isActive = true %}
           {% endif %}
@@ -18,7 +18,7 @@
         <li>
           <a
             class="block text-14 tbl:text-16 px-10 py-6 tbl:px-24 tbl:py-12 border-1 border-black text-black active:text-white active:bg-black tbl:hover:text-white md:hover:bg-black transition-colors duration-300 ease {% if isActive %}bg-black text-white{% endif %}"
-            href="{% if current == tag %}{{ site.baseurl }}/blog{% else %}{{ site.baseurl }}/blog/tag/{{ tag | slugify}}/{% endif %}"{% if current == tag %} aria-current="true"{% endif %}
+            href="{% if current == tag %}/blog{% else %}/blog/tag/{{ tag | slugify}}/{% endif %}"{% if current == tag %} aria-current="true"{% endif %}
             data-no-swup
           >
           {{ tag }}

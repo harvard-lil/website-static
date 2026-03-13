@@ -1,6 +1,4 @@
-{% assign person = include.person %}
-
-<div class="body-text w-full py-30 {% unless forloop.first %}border-t-1{% endunless %} border-black flex grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-24 relative" id="{{ person.name | slugify }}">
+<div class="body-text w-full py-30 {% unless forloop.first %}border-t-1{% endunless %} border-black grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-24 relative" id="{{ person.name | slugify }}">
   <div class="label md:col-span-3">{{person.name}}</div>
   <div class="md:col-span-6">{{person.role}}</div>
   {% if person.website or person.twitter_account_name or person.github_account_name %}
@@ -10,7 +8,7 @@
           <li class="website">
             <a href="{{ person.website}}">
               <span class="sr-only">{{ person.name }}'s website</span>
-              <span aria-hidden="true">{% include icon-website.html %}</span>
+              <span aria-hidden="true">{% include "icon-website.html" %}</span>
             </a>
           </li>
         {% endif %}
@@ -18,7 +16,7 @@
           <li class="twitter">
             <a href="https://www.twitter.com/{{ person.twitter_account_name }}">
               <span class="sr-only">{{ person.name }} on Twitter</span>
-              <span aria-hidden="true">{% include icon-x.html %}</span>
+              <span aria-hidden="true">{% include "icon-x.html" %}</span>
             </a>
           </li>
         {% endif %}
@@ -26,15 +24,15 @@
           <li class="mastodon">
             <a href="{{ person.mastodon_url }}">
               <span class="sr-only">{{ person.mastodon_url | to_handle }} on Mastodon</span>
-              <span aria-hidden="true">{% include icon-mastodon.html %}</span>
+              <span aria-hidden="true">{% include "icon-mastodon.html" %}</span>
             </a>
           </li>
         {% endif %}
         {% if person.github_account_name %}
           <li class="github">
-            <a href="https://www.github.com/{{ person.github_account_name}}">
-              <span class="sr-only">{{ person.name }} on Github</span>
-              <span aria-hidden="true">{% include icon-github.html %}</span>
+            <a href="https://github.com/{{ person.github_account_name}}">
+              <span class="sr-only">{{ person.name }} on GitHub</span>
+              <span aria-hidden="true">{% include "icon-github.html" %}</span>
             </a>
           </li>
         {% endif %}

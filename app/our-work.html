@@ -9,8 +9,8 @@ layout: default
 <div class="w-full">
   <section class="container">
     <div class="page-hero">
-      <h1 class="page-hero__title">{{ page.title }}</h1>
-      <div class="page-hero__subtitle">{{page.subtitle}}</div>
+      <h1 class="page-hero__title">{{ title }}</h1>
+      <div class="page-hero__subtitle">{{subtitle}}</div>
     </div>
   </section>
 
@@ -24,8 +24,8 @@ layout: default
 
     <div class="flex flex-col gap-24 md:gap-48">
 
-      {% assign research = site.our_work | where:"category","research" | where:"retired",false %}
-      {% assign active_research =  research | concat: site.data.additional_research %}
+      {% assign research = collections.our_work | where:"category","research" | where:"retired",false %}
+      {% assign active_research = research | concat: additional_research %}
       {% assign subcategories = active_research | map: 'subcategory' | join: ',' | split: ',' | uniq | sort %}
 
       {% for category in subcategories %}
@@ -33,7 +33,7 @@ layout: default
           <h3 class="label {% unless forloop.first %} mt-12 md:mt-0 {% endunless %}">{{ category }}</h3>
           <div class="grid grid-cols-2 gap-36 md:col-span-2">
 
-            {% assign this_research = active_research | where:"subcategory",category | sort: 'title' %}
+            {% assign this_research = active_research | where:"subcategory",category | sort: "title" %}
 
             {% assign is_even_length = this_research.size | is_even %}
             {% if is_even_length %}
@@ -47,12 +47,12 @@ layout: default
 
             <div class="flex flex-col items-start gap-24 body-text">
               {% for project in first_half %}
-                <span><a href="{{ project.url }}" class="interactive-link dark reverse" {% if project.no-swup %}data-no-swup="true"{% endif %}>{{ project.title }}</a></span>
+                <span><a href="{{ project.url }}" class="interactive-link dark reverse" {% if project.data.no-swup or project.no-swup %}data-no-swup="true"{% endif %}>{% if project.data %}{{ project.data.title }}{% else %}{{ project.title }}{% endif %}</a></span>
               {% endfor %}
             </div>
             <div class="flex flex-col items-start gap-24 body-text">
               {% for project in second_half %}
-                <span><a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a></span>
+                <span><a href="{{ project.url }}" class="interactive-link dark reverse">{% if project.data %}{{ project.data.title }}{% else %}{{ project.title }}{% endif %}</a></span>
               {% endfor %}
             </div>
           </div>
@@ -73,25 +73,15 @@ layout: default
   </section>
 
   <section class="flex flex-col gap-12 pb-12 tbl:gap-24 tbl:pb-24">
-    {% assign active_platforms = site.our_work | where:"category","platforms" | where:"retired",false | sort: "order" %}
+    {% assign active_platforms = collections.our_work | where:"category","platforms" | where:"retired",false | sort: "order" %}
     {% for platform in active_platforms %}
       {% capture linkOneLabel %}
-        <span class="sr-only">{{ platform.title }}, Visit</span> Website
+        <span class="sr-only">{{ platform.data.title }}, Visit</span> Website
       {% endcapture %}
       {% capture linkTwoLabel %}
-        <span class="sr-only">{{ platform.title }},</span> Learn More
+        <span class="sr-only">{{ platform.data.title }},</span> Learn More
       {% endcapture %}
-      {% include
-        project-card.html
-        background=platform.background_class
-        title=platform.title
-        description=platform.description
-        logo=platform.logo
-        linkOne=platform.project_website
-        linkOneLabel=linkOneLabel
-        linkTwo=platform.url
-        linkTwoLabel=linkTwoLabel
-      %}
+      {% include "project-card.html", background: platform.data.background_class, title: platform.data.title, description: platform.data.description, logo: platform.data.logo, linkOne: platform.data.project_website, linkOneLabel: linkOneLabel, linkTwo: platform.url, linkTwoLabel: linkTwoLabel %}
     {% endfor %}
   </section>
 
@@ -99,19 +89,19 @@ layout: default
     <div class="container flex flex-col gap-12 md:gap-24">
       <h2 class="h2">Past Projects</h2>
       <div class="flex flex-col">
-        {% assign retired_projects_with_pages = site.our_work | where:"retired",true %}
-        {% assign retired_projects_without_pages = site.our_work_pageless | where:"retired",true %}
+        {% assign retired_projects_with_pages = collections.our_work | where:"retired",true %}
+        {% assign retired_projects_without_pages = collections.our_work_pageless | where:"retired",true %}
         {% assign retired_projects = retired_projects_with_pages | concat: retired_projects_without_pages | sort: "retired_date" | reverse %}
         {% for project in retired_projects %}
           <div class="body-text w-full {% if forloop.last %} pt-24 tbl:pt-36 {% else %} py-24 tbl:py-36 {% endif %} {% unless forloop.first %}border-t-1 {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-8 tbl:gap-24 relative">
-            <h3 class="label col-span-3">{{ project.title }}</h3>
-            <span class="col-span-6">{{ project.what_does_it_do }}</span>
-            {% if project.collection == 'our_work' %}
+            <h3 class="label col-span-3">{% if project.data %}{{ project.data.title }}{% else %}{{ project.title }}{% endif %}</h3>
+            <span class="col-span-6">{% if project.data %}{{ project.data.what_does_it_do }}{% else %}{{ project.what_does_it_do }}{% endif %}</span>
+            {% if project.data.tags contains 'our_work' %}
               {% capture linkLabel %}
-                <span class="sr-only">{{ project.title }}, </span>Learn More
+                <span class="sr-only">{% if project.data %}{{ project.data.title }}{% else %}{{ project.title }}{% endif %}, </span>Learn More
               {% endcapture %}
               <span class="col-span-3 flex md:justify-end">
-                {% include arrow-link-inline.html label=linkLabel href=project.url target=target card_link="true" %}
+                {% include "arrow-link-inline.html", label: linkLabel, href: project.url, target: target, card_link: "true" %}
               </span>
             {% endif %}
           </div>

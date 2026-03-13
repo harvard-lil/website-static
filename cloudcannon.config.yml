@@ -1,11 +1,11 @@
 _schema: _schema
-source: /app/
+source: /
 paths:
-  uploads: uploads
+  uploads: app/uploads
   static: ''
 collections_config:
   Data (People, Additional Research, Etc.):
-    path: _data
+    path: app/_data
     name: Data
     icon: list
     disable_url: true
@@ -15,7 +15,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: true
   Draft Blog Posts:
-    path: _drafts
+    path: app/_drafts
     name: Drafts
     icon: psychology_alt
     disable_url: false
@@ -43,7 +43,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   Blog Posts:
-    path: _posts
+    path: app/_posts
     name: Posts
     icon: newspaper
     disable_url: false
@@ -75,7 +75,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   Events:
-    path: _events
+    path: app/_events
     name: Events
     icon: event
     disable_url: false
@@ -83,7 +83,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   Jobs:
-    path: _jobs
+    path: app/_jobs
     name: Jobs
     icon: person_search
     disable_url: true
@@ -93,7 +93,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   Our Work (listed, but no project page):
-    path: _our_work_pageless
+    path: app/_our_work_pageless
     name: Our Work Pageless
     icon: work_off
     disable_url: true
@@ -103,7 +103,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   Our Work:
-    path: _our_work
+    path: app/_our_work
     name: Our Work
     icon: work_outline
     disable_url: false
@@ -113,7 +113,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   Other Pages:
-    path: ''
+    path: app
     name: Other Pages (Home, About, 404, etc.)
     icon: toc
     disable_url: false
@@ -123,30 +123,11 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
 _snippets_imports:
-  jekyll: true
+  eleventy_liquid: true
 timezone: America/New_York
 markdown:
-  engine: kramdown
+  engine: commonmark
   options:
-    xhtml: false
-    breaks: false
-    linkify: false
-    typographer: false
-    spaced_lists: false
-    sentence_per_line: false
-    gfm: false
-    code_block_fences: '```'
-    escape_snippets_in_code_blocks: false
-    treat_indentation_as_code: true
-    table: false
-    strikethrough: false
-    subscript: false
-    superscript: false
-    heading_ids: false
-    attributes: true
-    attribute_elements:
-      inline: right
-      block: below
-      tr: none
-      td: none
-      li: right-of-prefix
+    html: true
+    linkify: true
+    typographer: true

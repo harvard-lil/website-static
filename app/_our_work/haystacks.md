@@ -62,6 +62,5 @@ who_contributed:
   - carli-spina
   - rosten-woo
 
-### Override Jekyll Defaults ###
 
 ---
