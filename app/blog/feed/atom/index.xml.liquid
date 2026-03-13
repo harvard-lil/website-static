@@ -4,9 +4,9 @@ permalink: /blog/feed/atom/index.xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %}xml:lang="{{ site.lang }}"{% endif %}>
   <link href="{{ site.url }}{{ page.url | remove: 'index.xml' }}" rel="self" type="application/atom+xml" />
-  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
+  <link href="{{ site.url }}/" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
   <updated>{{ "now" | date_to_xmlschema }}</updated>
-  <id>{{ '/' | absolute_url | xml_escape }}</id>
+  <id>{{ site.url | append: "/" | xml_escape }}</id>
 
   {% if site.title %}
     <title type="html">{{ site.title | smartify | xml_escape }}</title>
@@ -22,17 +22,17 @@ permalink: /blog/feed/atom/index.xml
   {% for post in recent_posts %}
     <entry{% if post.data.lang %}{{" "}}xml:lang="{{ post.data.lang }}"{% endif %}>
       <title type="html">{{ post.data.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
-      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.data.title | xml_escape }}" />
+      <link href="{{ site.url }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.data.title | xml_escape }}" />
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.data.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
       {% if post.data.wordpress_id %}
         {% assign post_id = site.url | append: "/blog/?p=" | append: post.data.wordpress_id %}
         <id>{{ post_id | xml_escape }}</id>
       {% else %}
-        <id>{{ post.url | absolute_url | xml_escape }}</id>
+        <id>{{ site.url }}{{ post.url | xml_escape }}</id>
       {% endif %}
 
-      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">
+      <content type="html" xml:base="{{ site.url }}{{ post.url | xml_escape }}">
         <![CDATA[{{ post.templateContent }}]]>
       </content>
 
