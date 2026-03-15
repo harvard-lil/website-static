@@ -37,7 +37,7 @@ layout: default
         <div class="flex flex-col items-start gap-12">
           <div class="label">Next Event</div>
           <div class="flex flex-col md:grid md:grid-cols-3 md:gap-36 pb-36 md:pb-48 items-baseline">
-            <h1 class="h2">{{ next_event.data.title }} - {{ next_event.data.date_informal }}</h1>
+            <h1 class="h2">{{ next_event.data.title }}–{{ next_event.data.date_informal }}</h1>
             <div class="md:col-span-2 body-text md:max-w-[700px] flex flex-col items-start gap-20">
               {{ next_event.data.excerpt }}
             {% capture linkLabel %}
@@ -58,7 +58,7 @@ layout: default
 
         {% for event in upcoming_events %}
           {% capture linkLabel %}
-            <strong>{{ event.data.title }}</strong> - {{ event.data.short_description }}
+            <strong>{{ event.data.title }}:</strong> {{ event.data.short_description }}
           {% endcapture %}
           <div class="body-text w-full {% if forloop.first %} py-24 tbl:py-36 {% else %}py-36 {% endif %} border-black {% unless forloop.first %}border-t-1{% endunless %} {% if forloop.last %}border-b-1{% endif %} flex flex-col md:grid md:grid-cols-12 gap-8 md:gap-24 relative">
             <span class="label col-span-3">{{ event.date | date: "%m/%d/%y" }}</span>
@@ -76,7 +76,7 @@ layout: default
       <div class="flex flex-col w-full">
         {% for event in past_events %}
           {% capture linkLabel %}
-            <strong>{{ event.data.title }}</strong> - {{ event.data.short_description }}
+            <strong>{{ event.data.title }}:</strong> {{ event.data.short_description }}
           {% endcapture %}
           <div class="body-text w-full {% if forloop.first %} pt-24 pb-36 tbl:py-36 {% elsif forloop.last %} pt-24 tbl:pt-36 {% else %} py-24 tbl:py-36 {% endif %}{% unless forloop.first %}border-t-1 {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-8 md:gap-24 relative">
             <span class="label col-span-3">{{ event.date | date: "%m/%d/%y" }}</span>
