@@ -13,7 +13,7 @@ title_image: /assets/images/pdp-primary-logo-hls.svg
 hero_image:
 description: The Public Data Project is preserving civic ground truth by creating tools to save vulnerable datasets and building communities of librarians and technologists.
 project_website:
-what_does_it_do: Preserving Civic Ground Truth
+what_does_it_do: Preserving civic ground truth.
 sections:
   What Is the Public Data Project?: |
     In early 2025, the Library Innovation Lab launched the Public Data Project, a major effort to collect and publish federal datasets with proof of authenticity and provenance. Our work began with [copying 311,000 datasets from Data.gov between November 2024 and January 2025](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/). More recently, we moved to [capture all public domain Smithsonian data](https://lil.law.harvard.edu/blog/2025/09/18/expanding-our-public-data-project-to-include-smithsonian-collections-data/).
@@ -35,14 +35,14 @@ sections:
 
     The Project Lead is [Dr. Molly Hardy](/about/#molly-hardy), who works closely with LIL Director [Jack Cushman](/about/#jack-cushman) to guide and administer the project. Senior Software Engineer [Christopher Setzer](/about/#christopher-setzer) is technical lead on the project, and Product and Research Manager [Halle Burns](/about/#halle-burns) oversees tool development and data acquisitions. [Harmony Eidolon](/about/#harmony-eidolon) supports all aspects of the project’s work. To learn more about the LIL team generally, please visit the [About](/about/) page, and please contact the project at [publicdata@law.harvard.edu](mailto:publicdata@law.harvard.edu).
   Advisory Board: |
-    * **Jim Cowie,** Internet History Initiative
-    * **JJ Dearborn,** Data Futures
-    * **Paul Ford,** Aboard
-    * **Gretchen Gehrke,** Environmental Data & Governance Initiative
-    * **James R. Jacobs,** Stanford University Libraries
-    * **Lynda Kellam,** Penn Libraries & Data Rescue Project
-    * **Merrilee Proffitt,** Internet Archive
-    * **Jed Sundwall,** Radiant Earth
+    - **Jim Cowie,** Internet History Initiative
+    - **JJ Dearborn,** Data Futures
+    - **Paul Ford,** Aboard
+    - **Gretchen Gehrke,** Environmental Data & Governance Initiative
+    - **James R. Jacobs,** Stanford University Libraries
+    - **Lynda Kellam,** University of Pennsylvania Libraries & Data Rescue Project
+    - **Merrilee Proffitt,** Internet Archive
+    - **Jed Sundwall,** Radiant Earth
 who_contributed:
   - molly-hardy
   - jack-cushman
