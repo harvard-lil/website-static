@@ -6,7 +6,9 @@ import collections from "./config/collections.js";
 process.env.TZ = "UTC";
 
 export default function (eleventyConfig) {
-  eleventyConfig.addDataExtension("yaml,yml", (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension("yaml,yml", (contents) =>
+    yaml.load(contents),
+  );
 
   eleventyConfig.addGlobalData("eleventyComputed", {
     slug: (data) => data.slug || data.page.fileSlug,
@@ -40,6 +42,8 @@ export default function (eleventyConfig) {
   eleventyConfig.setServerOptions({ showAllHosts: true });
   eleventyConfig.addWatchTarget("app/assets/css/");
 
+  eleventyConfig.ignores.add("**/README.md");
+
   return {
     dir: {
       input: "app",
@@ -48,14 +52,7 @@ export default function (eleventyConfig) {
       layouts: "_layouts",
       data: "_data",
     },
-    templateFormats: [
-      "html",
-      "liquid",
-      "md",
-      "json",
-      "webmanifest",
-      "txt",
-    ],
+    templateFormats: ["html", "liquid", "md", "json", "webmanifest", "txt"],
     htmlTemplateEngine: "liquid",
     markdownTemplateEngine: "liquid",
   };
