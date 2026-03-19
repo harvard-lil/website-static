@@ -61,21 +61,11 @@ jack-cushman:
   role: Director
   bio: >
     Jack worked as an appellate litigator before coming to write code at LIL.
-    His proudest case was
-
-    [Finch v. Commonwealth](https://cite.case.law/mass/461/232/), which returned
-    health insurance
-
-    coverage to tens of thousands of Massachusetts immigrants — and now lives on
-    at case.law, the American caselaw
-
-    database Jack helps to run.
-
-
-    Jack has served as a board member of the ACLU of Massachusetts and as a
-    fellow of the Berkman Klein Center
-
-    for Internet and Society. He also teaches the Programming for Lawyers course
+    His proudest case was [Finch v. Commonwealth](https://cite.case.law/mass/461/232/),
+    which returned health insurance coverage to tens of thousands of Massachusetts immigrants
+    — and now lives on at case.law, the American caselaw database Jack helps to run.
+    Jack has served as a board member of the ACLU of Massachusetts and as a fellow of the Berkman
+    Klein Center for Internet and Society. He also teaches the Programming for Lawyers course
     at Harvard Law School.
   email: jcushman@law.harvard.edu
   twitter_account_name:
@@ -105,15 +95,14 @@ harmony-eidolon:
   sort_name: Eidolon
   role: Program Coordinator
   bio: >
-    Harmony joins LIL with 20+ years of project management and event experience.
-    While navigating city and state law complexity, she helped pioneer the
-    mobile cocktail catering industry utilizing urban and local farm ingredients
-    with sustainable practices. She has worked closely with organizations to
-    cultivate events for a good cause, focusing on LGBTQIA++ rights, food
-    justice and homelessness, youth safety, environmental and peace initiatives,
-    reproductive freedom, deafness/communication disorder research and the arts.
-    This passion for human rights has led her to LIL, where she enthusiastically
-    works on efforts to advance and democratize open knowledge.
+    Harmony joins LIL with 20+ years of project and event management experience. While navigating
+    emerging city and state laws, she helped pioneer the mobile cocktail industry while
+    engaging local farms and sustainable practices. Harmony has worked closely with galleries,
+    non-profits, and human rights organizations in cultivating events for great causes
+    including LGBTQIA++ and civil rights, food and housing justice, youth safety, environmental
+    and peace initiatives, reproductive freedom, deafness/communication disorder research and
+    (not least) the arts. This passion for human rights has led her to LIL, where she
+    enthusiastically supports efforts to advance and democratize open knowledge.
   email: heidolon@law.harvard.edu
   image: harmony-eidolon.jpg
   affiliated: true
@@ -188,6 +177,24 @@ kristi-mukk:
   twitter_account_name:
   github_account_name:
   image: kristi-mukk.jpg
+  affiliated: true
+  current: true
+  section: Staff
+mirabella-pisani:
+  name: Mirabella Pisani
+  sort_name: Pisani
+  role: User Support Coordinator
+  bio: >
+    Bella joins LIL as a traveling jester and amateur sleuth, juggling requests and
+    investigating issues for Perma users. Before LIL, they worked in nonprofit arts
+    and academia coordinating projects, people, and performances. Ever-curious with
+    a love of learning, Bella is a student both in the classroom as an MLIS candidate
+    at Simmons University, and in the world at large.
+  email: mpisani@law.harvard.edu
+  website:
+  twitter_account_name:
+  github_account_name:
+  image: mirabella-pisani.jpg
   affiliated: true
   current: true
   section: Staff
