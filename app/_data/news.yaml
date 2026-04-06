@@ -205,22 +205,18 @@
   archived_date: 2019-07-19
 - project: public-data-project
   type: press
-  title: >-
-    Archivists Work to Identify and Save the Thousands of Datasets Disappearing
-    From Data.gov
+  title: Archivists Work to Identify and Save the Thousands of Datasets Disappearing from Data.gov
   publication: 404 Media
   date: 2025-01-25T00:00:00-05:00
-  url: >-
-    https://www.404media.co/archivists-work-to-identify-and-save-the-thousands-of-datasets-disappearing-from-data-gov/
+  url: https://www.404media.co/archivists-work-to-identify-and-save-the-thousands-of-datasets-disappearing-from-data-gov/
   archived_url: https://perma.cc/L5JP-KYMN
   archived_date: 2025-08-21T00:00:00-04:00
 - project: public-data-project
   type: press
-  title: Harvard law library acts to preserve government data amid sweeping purges
+  title: Harvard Law Library Acts to Preserve Government Data amid Sweeping Purges
   publication: Reuters
   date: 2025-02-06T00:00:00-05:00
-  url: >-
-    https://www.reuters.com/world/us/harvard-law-library-acts-preserve-government-data-amid-sweeping-purges-2025-02-06/
+  url: https://www.reuters.com/world/us/harvard-law-library-acts-preserve-government-data-amid-sweeping-purges-2025-02-06/
   archived_url: https://perma.cc/8BH7-AEWK
   archived_date: 2025-08-28T00:00:00-04:00
 - project: public-data-project
@@ -283,7 +279,7 @@
 - project: public-data-project
   type: press
   title: A Scholarly Ode to Federal Data
-  publication: FAS Current
+  publication: The FAS Current
   date: 2026-03-31T12:00:00-04:00
   url: https://current.fas.harvard.edu/stories/scholarly-ode-federal-data/
   archived_url: https://perma.cc/LTE4-3XHD
