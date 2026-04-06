@@ -233,7 +233,7 @@
   archived_date: 2025-08-28T00:00:00-04:00
 - project: public-data-project
   type: press
-  title: The cost of losing government webpages and public data
+  title: The Cost of Losing Government Webpages and Public Data
   publication: Marketplace Tech
   date: 2025-02-19T00:00:00-05:00
   url: >-
@@ -242,12 +242,28 @@
   archived_date: 2025-08-28T00:00:00-04:00
 - project: public-data-project
   type: press
+  title: Saving Public Data Takes More Than Simple Snapshots
+  publication: IEEE Spectrum
+  date: 2025-02-19T18:30:05+00:00
+  url: https://spectrum.ieee.org/internet-archive-saving-us-data
+  archived_url: https://perma.cc/2NN3-97XF
+  archived_date: 2026-04-06T13:04:00-07:00
+- project: public-data-project
+  type: press
   title: The Data Hoarders Resisting Trump’s Purge
   publication: The New Yorker
   date: 2025-03-04T12:00:00-04:00
   url: https://www.newyorker.com/news/the-lede/the-data-hoarders-resisting-trumps-purge
   archived_url: https://perma.cc/F4MN-WA9U
   archived_date: 2025-10-10T12:00:00-04:00
+- project: public-data-project
+  type: press
+  title: How Digital Archivists Are Saving Public Information from the Memory Hole
+  publication: IEEE Spectrum
+  date: 2025-04-01T17:26:54+00:00
+  url: https://spectrum.ieee.org/digital-archive
+  archived_url: https://perma.cc/NS9L-LU24
+  archived_date: 2026-04-06T14:00:00-07:00
 - project: public-data-project
   type: press
   title: Inside Harvard’s Data.gov Archive – A Conversation with Jack Cushman
