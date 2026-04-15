@@ -72,7 +72,7 @@ layout: default
     </div>
   </section>
 
-  <section class="flex flex-col gap-12 pb-12 tbl:gap-24 tbl:pb-24">
+  <section aria-label="Projects" class="flex flex-col gap-12 pb-12 tbl:gap-24 tbl:pb-24">
     {% assign active_platforms = collections.our_work | where:"category","platforms" | where:"retired",false | sort: "order" %}
     {% for platform in active_platforms %}
       {% capture linkOneLabel %}
