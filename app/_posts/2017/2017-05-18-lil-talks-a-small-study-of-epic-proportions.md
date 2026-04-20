@@ -27,6 +27,8 @@ The presentation dealt with four analytical methodologies applied in the thesis.
 
 \4. _Network Analysis_. By leveraging statistical tools to analyze the coincidence of and interactions between the Aeneid’s many characters, Yunhan generated a number of compelling visualizations mapping narrative progression between books in terms of relationships.
 
-![](https://lil-blog-media.s3.amazonaws.com/big.gif)
+<video controls loop preload="metadata" aria-label="Yunhan Xu's presentation">
+  <source src="https://lil-blog-media.s3.amazonaws.com/big.webm" type="video/webm">
+</video>
 
 In the closing minutes of her presentation, Yunhan reflected on the broader implications of the digital humanities for the study of classics. While some scholars remain skeptical of the digital humanities, Yunhan sees enormous potential for collaboration and coevolution between the new way and the old.

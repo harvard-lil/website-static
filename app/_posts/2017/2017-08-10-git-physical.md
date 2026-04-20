@@ -16,7 +16,9 @@ Last week at LIL, I had the pleasure of running a pilot of **git physical**, the
 
 The participants, a diverse group of fellows and interns, engaged in a simplified version control exercise. Each participant was tasked with designing a postcard about their summer at LIL. Following basic git workflow, they took their designs from the working directory, through the staging index, to the version database, and to the remote repository where they displayed them. In the process they “pushed” five versions of their postcard design, each accompanied by a commit note. Working in this way allowed them to experience the workflow in a familiar setting and learn the basics in an interactive and social environment. By the end of the workshop everyone had ideas on how to implement git in their work and was eager to learn more.
 
-![](https://lil-blog-media.s3.amazonaws.com/s1-smaller-copy.gif)
+<video controls loop preload="metadata" aria-label="Timelapse of git physical workshop">
+  <source src="https://lil-blog-media.s3.amazonaws.com/s1-smaller-copy.webm" type="video/webm">
+</video>
 
 Timelapse gif by Doyung Lee ([doyunglee.github.io](http://doyunglee.github.com/))
 
