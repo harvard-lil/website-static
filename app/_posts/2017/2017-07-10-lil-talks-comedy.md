@@ -23,6 +23,8 @@ As one example, Brett showed and broke down multiple jokes into the core structu
 
 We also explored what it meant to be a comic, and how the immediacy of audience reaction and enjoyment means that stand up comedy is one of the only art forms with an extremely evident (and sometimes, brutal) line between success and failure.
 
-![](https://lil-blog-media.s3.amazonaws.com/Burst_Cover_GIF_Action_20170707141317_sm.gif)
+<video controls loop preload="metadata" aria-label="Brett Johnson's presentation">
+  <source src="https://lil-blog-media.s3.amazonaws.com/Burst_Cover_GIF_Action_20170707141317_sm.webm" type="video/webm">
+</video>
 
 Though the talk was littered with choice jokes and funny bits, we definitely came away with a refreshing look into some aspects of stand-up comedy that rarely goes noticed.

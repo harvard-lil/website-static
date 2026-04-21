@@ -38,6 +38,13 @@
   margin-bottom: 40px;
 }
 
+.post-content video {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
 .post-content figure > img {
   margin: 0;
 }

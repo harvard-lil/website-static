@@ -41,9 +41,18 @@
 <meta name="twitter:title" content="{{ sharing-title | strip | escape_once }}">
 <meta name="twitter:description" content="{{ sharing-description | strip | escape_once}}">
 <meta name="twitter:image" content="{{ site.url }}/assets/{{ sharing-image | strip }}">
+<meta name="twitter:image:alt" content="{{ sharing-title | strip | escape_once }}">
 
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 <meta property="og:title" content="{{ sharing-title | strip | escape_once }}">
 <meta property="og:description" content="{{ sharing-description | strip | escape_once }}">
 <meta property="og:image" content="{{ site.url }}/assets/{{ sharing-image | strip }}">
+{% if sharing-card-type == "summary_large_image" %}
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{% else %}
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="800">
+{% endif %}
