@@ -18,7 +18,9 @@ In last week’s LIL talk, expert witness Adam Ziegler took the stand to explain
 
 First on the docket was a general overview of our country’s judicial structure, specifically noting the similarities between our federal and state systems, which both progress from district courts, to appellate courts, to supreme courts.
 
-![](https://lil-blog-media.s3.amazonaws.com/2_adamated_gif.gif)
+<video controls loop preload="metadata" aria-label="Adam Ziegler's presentation">
+  <source src="https://lil-blog-media.s3.amazonaws.com/2_adamated_gif.webm" type="video/webm">
+</video>
 
 Next, we dissected several cases which would eventually be heard by the US Supreme Court. While some elements, such as a list of attorneys and the opinion text, are standard in all cases, each court individually decides how their cases will be formatted. They are, however, often forced to work within the guidelines and workflows specified by their contracted publishers.
 

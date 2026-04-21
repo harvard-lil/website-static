@@ -7,11 +7,15 @@ tags:
 ---
 With expanded feature capabilities, users may find writing these queries to be more difficult, especially as researchers increase the complexity of their investigations. To make usage easier, we have integrated the [Trends](https://case.law/trends/) query language into the [Search](https://case.law/search/) and [Case View](https://cite.case.law/) features. From a search query, users can click the Trends button, upon which our servers will automatically convert an existing query into a Trends timeline.
 
-![Gif showing search results converted into a Trend timeline.](https://lil-blog-media.s3.amazonaws.com/Post3Figure1.gif)
+<video controls loop preload="metadata" aria-label="Video showing search results converted into a Trend timeline">
+  <source src="https://lil-blog-media.s3.amazonaws.com/Post3Figure1.webm" type="video/webm">
+</video>
 
 Additionally, users can now view the citation history of a particular case from that case's page by clicking the "View citation history in trends" button.
 
-![Gif showing ability to display citation history on a Trend timeline from an individual case](https://lil-blog-media.s3.amazonaws.com/Post3Figure2.gif)
+<video controls loop preload="metadata" aria-label="Video showing ability to display citation history on a Trend timeline from an individual case">
+  <source src="https://lil-blog-media.s3.amazonaws.com/Post3Figure2.webm" type="video/webm">
+</video>
 
 Our exploration of timeline generation for empirical legal scholarship has inspired us to reimagine how people reason about CAP's corpus of American caselaw. In the future, we hope to restructure the search page further and empower people to quickly ask complex questions about American caselaw over time.
 

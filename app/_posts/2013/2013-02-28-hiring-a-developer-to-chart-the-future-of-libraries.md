@@ -28,7 +28,9 @@ The best way to get a feel for what we do is by looking at [our projects]({{ sit
 
 StackLife, our soon-to-launch Library Browser
 
-![LABRARY](https://lil-blog-media.s3.amazonaws.com/2013/02/LABRARY.gif)
+<video controls loop preload="metadata" aria-label="LABRARY">
+  <source src="https://lil-blog-media.s3.amazonaws.com/2013/02/LABRARY.webm" type="video/webm">
+</video>
 
 [Library Test Kitchen](http://librarytestkitchen.org) is a course we run in the Fall, in it we launched LABRARY, a Pop-Up Library Experiment
 
