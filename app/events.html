@@ -18,16 +18,18 @@ layout: default
       <section aria-label="Event banner" class="container mb-30 tbl:mb-60">
         <div class="w-full relative">
           <figure>
-            <picture>
-              {% if next_event.data.banner_large %}
-              <source media="(min-width: 600px)"
-                      srcset="/assets/images/events/{{ next_event.data.banner_large }}">
-              {% endif %}
-              <source srcset="/assets/images/events/{{ next_event.data.banner }}">
-              <img src="/assets/images/events/{{ next_event.data.banner }}"
-                  alt="Banner for {{ next_event.data.title }}"
-                  class="img-full-width">
-            </picture>
+            <a href="{{ next_event.url }}">
+              <picture>
+                {% if next_event.data.banner_large %}
+                <source media="(min-width: 600px)"
+                        srcset="/assets/images/events/{{ next_event.data.banner_large }}">
+                {% endif %}
+                <source srcset="/assets/images/events/{{ next_event.data.banner }}">
+                <img src="/assets/images/events/{{ next_event.data.banner }}"
+                    alt="Banner for {{ next_event.data.title }}"
+                    class="img-full-width">
+              </picture>
+            </a>
           </figure>
         </div>
       </section>
