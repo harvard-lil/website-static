@@ -18,36 +18,22 @@ layout: default
       <section aria-label="Event banner" class="container mb-30 tbl:mb-60">
         <div class="w-full relative">
           <figure>
-            <picture>
-              {% if next_event.data.banner_large %}
-              <source media="(min-width: 600px)"
-                      srcset="/assets/images/events/{{ next_event.data.banner_large }}">
-              {% endif %}
-              <source srcset="/assets/images/events/{{ next_event.data.banner }}">
-              <img src="/assets/images/events/{{ next_event.data.banner }}"
-                  alt="Banner for {{ next_event.data.title }}"
-                  class="img-full-width">
-            </picture>
+            <a href="{{ next_event.url }}">
+              <picture>
+                {% if next_event.data.banner_large %}
+                <source media="(min-width: 600px)"
+                        srcset="/assets/images/events/{{ next_event.data.banner_large }}">
+                {% endif %}
+                <source srcset="/assets/images/events/{{ next_event.data.banner }}">
+                <img src="/assets/images/events/{{ next_event.data.banner }}"
+                    alt="Banner for {{ next_event.data.title }}"
+                    class="img-full-width">
+              </picture>
+            </a>
           </figure>
         </div>
       </section>
-      {% endif %}
-
-      <section class="container">
-        <div class="flex flex-col items-start gap-12">
-          <div class="label">Next Event</div>
-          <div class="flex flex-col md:grid md:grid-cols-3 md:gap-36 pb-36 md:pb-48 items-baseline">
-            <h2 class="h2">{{ next_event.data.title }}–{{ next_event.data.date_informal }}</h2>
-            <div class="md:col-span-2 body-text md:max-w-[700px] flex flex-col items-start gap-20">
-              {{ next_event.data.excerpt }}
-            {% capture linkLabel %}
-              <span class="sr-only">{{ next_event.data.title }},</span> More Info
-            {% endcapture %}
-              {% include "arrow-link.html", label: linkLabel, href: next_event.url, reverse: true %}
-            </div>
-          </div>
-        </div>
-      </section>
+    {% endif %}
   {% endif %}
 
   {% assign upcoming_events = collections.events | where_exp: 'item','item.date > now' | sort: 'date' | reverse %}
