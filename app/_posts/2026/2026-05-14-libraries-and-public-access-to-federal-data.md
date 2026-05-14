@@ -78,7 +78,7 @@ And so when the [Foundations for Evidence-Based Policymaking Act](https://www.co
 
 The Federal Data Catalog is comprised of an aggregation of what are known in the statute, in the [Open Government Data Act,](https://www.congress.gov/bill/115th-congress/house-bill/1770) as agency comprehensive data inventories. This is just an index of every data asset they hold, but not the data themselves.
 
-> That's why there's under-resourcing that agencies are faced with … They're under-resourced in terms of budget and staffing, and it would take an army for every agency to be able to do this comprehensively.
+> … that's why there's under-resourcing that agencies are faced with … They're under-resourced in terms of budget and staffing, and it would take an army for every agency to be able to do this comprehensively.
 
 **Public Data Project:**\
 Okay, so I understand it's not a repository, but I don't understand completely why it's not comprehensive. I mean, the words you just used would make me think that if every agency is submitting their indices, why isn't it comprehensive?
