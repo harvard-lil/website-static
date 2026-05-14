@@ -12,15 +12,15 @@ tags:
 <!-- We don't have any real blockquote styling in the base CSS, hence the following custom CSS for pull quotes -->
 <style>
   .post-content blockquote {
-    margin: 0.5em 0 1em;
+    margin: 1em 0 1.5em;
     padding: 0.5em 1.5em 0;
-    border-left: 1px dotted #555;
+    border-left: 1px dotted #444;
 
     font-size: 1.1em;
     line-height: 1.5em;
     letter-spacing: 0.025em;
     font-style: italic;
-    color: #555;
+    color: #444;
   }
 </style>
 
@@ -30,10 +30,19 @@ tags:
 </div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
-_On May 7, 2026, Molly Hardy, Project Lead for the Public Data Project, sat down for an interview with [Chris Marcum](https://www.chrismarcum.com), Senior Fellow for Data Policy at the [Data Foundation](https://datafoundation.org/news/team/689/689-Christopher-Marcum) and former Senior Statistician at the White House Office of Management and Budget. The following interview transcript has been lightly edited for clarity._
+_On May 7, 2026, Molly Hardy, Project Lead for the Public Data Project, sat down for an interview with [Chris Marcum](https://www.chrismarcum.com), Senior Fellow for Data Policy at the [Data Foundation](https://datafoundation.org/news/team/689/689-Christopher-Marcum) and former Senior Statistician at the White House Office of Management and Budget. Please click the video above to listen and watch; the interview transcript below has been lightly edited for clarity._
+
+---
 
 **Public Data Project:**\
 Hello, my name is Molly Hardy, and I'm here at the Library Innovation Lab's [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/). I'm the director of the project. And I'm very pleased to be welcoming Senior Fellow for Data Policy at the [Data Foundation](https://datafoundation.org/news/team/689/689-Christopher-Marcum) and former Senior Statistician from the White House Office of Management and Budget, [Chris Marcum](https://www.chrismarcum.com). Chris and I are going to have a conversation that'll go about 45 minutes. It centers around a report that Chris recently published, [_The Integrity of Public Access to Federal Data: Evaluating Disruptions to Open Government Data, 2025–2026_](https://www.chrismarcum.com/data-integrity/).
+
+<figure class="items-center text-center">
+  <a class="no-underline border-none bg-none" style="background: none;" href="https://www.chrismarcum.com/data-integrity/">
+    <img class="w-full" style="margin: 0;" src="https://lil-blog-media.s3.amazonaws.com/marcum-report-cover.jpg" alt="Cover of Chris Marcum's report, 'The Integrity of Public Access to Federal Data: Evaluating Disruptions to Open Government Data, 2025–2026'" />
+  </a>
+  <figcaption>Source: <a href="https://www.chrismarcum.com/data-integrity/"><i>The Integrity of Public Access to Federal Data</i></a> (2026).</figcaption>
+</figure>
 
 And through his explanation of the flaws in the evidence cited to assess government data loss since 2025, Chris explains the complexities and intricacies of government data collection and distribution, offering those of us in the library community real insights into how we might move forward in our work to preserve and make accessible government data. Government documents and data librarians have been thinking about the preservation and access to government publications for decades. See, for example, [James A. Jacobs and James R. Jacobs's _Preserving Government Information: Past, Present, and Future_](https://freegovinfo.info/pgi).
 
@@ -41,7 +50,7 @@ And as the Internet Archive's recent [Information Stewardship Forum 2026](https:
 
 So in February 2025, the Library Innovation Lab [announced its archive](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) of the federal data clearinghouse, [Data.gov](https://data.gov), and our Public Data Project emerged from this effort. In October of last year, we shared [Data.gov Archive Search](https://lil.law.harvard.edu/data-gov-archive/), an interface for exploring this important collection of government datasets. This work builds on recent advancements in lightweight, browser-based querying to enable discovery of more than 311,000 datasets comprising almost 18 terabytes of data on topics ranging from automobile recalls to chronic disease indicators.
 
-So, given his illustrious career in advocating for the preservation and access to government data, the Public Data Project has learned a lot from Chris. And we greatly value this recent report that he's issued, again, called _The Integrity of Public Access to Federal Data_. And I'm so pleased today to have a chance to sit down with Chris and ask him to expand on areas of the report that might be of particular interest to the library community. So, welcome, Chris.
+So, given his illustrious career in advocating for the preservation and access to government data, the Public Data Project has learned a lot from Chris. And we greatly value this recent report that he's issued, again, called [_The Integrity of Public Access to Federal Data_](https://www.chrismarcum.com/data-integrity/). And I'm so pleased today to have a chance to sit down with Chris and ask him to expand on areas of the report that might be of particular interest to the library community. So, welcome, Chris.
 
 **Chris Marcum:**\
 Thanks so much, Molly. I'm super excited to be here. I'm just tickled that you all at the Public Data Project have asked me to come and speak with you today about the report. And I'm just really, really honored. Thank you.
@@ -50,7 +59,7 @@ Thanks so much, Molly. I'm super excited to be here. I'm just tickled that you a
 Absolutely. Could you just tell our audience a little bit about your background? I think it's really fascinating, and it would be helpful for folks to understand where you're coming from.
 
 **Chris Marcum:**\
-Yeah, sure. So first and foremost, I'm an open science advocate, and sort of have been steeped in information policy in the U.S. federal government for over the last five or six years.
+Yeah, sure. So first and foremost, I'm an open science advocate, and have been steeped in information policy in the U.S. federal government for over the last five or six years.
 
 But that's not what I was trained in: I have a PhD in sociology, and I did a postdoc in economics and statistics at Rand Corporation, where I was looking at vaccination uptake behavior during the H1N1 potential pandemic that didn't turn out to be a pandemic thanks to high-quality data shared by the CDC. And the late [Dr. Nancy Cox](https://tomfrieden.substack.com/p/the-quiet-expert-who-stood-between) was able to share that data.
 
@@ -58,9 +67,9 @@ So eventually I ended up at the NIH. I was doing basic research as a methodologi
 
 And so I started looking for opportunities to do more policy-related work. And NIH is not a policy-setting agency outside of the NIH itself. And so I wanted to really think about how to cut my teeth in policy.
 
-So I joined some committees in the intramural research program. We have a scientific review committee that's kind of like the Center for Scientific Review for extramural \[research\], where we were reviewing other intramural scientists' research. And then I got involved in the data access committees. And that really accelerated my interest in information policy. I was able to go over to help set up a new program in the Office of the Director at NIAID — National Institute of Allergy and Infectious Diseases — called the Office of Data Science and Emerging Technologies. And that was done right at the start of the pandemic. So work there was done really in data sharing and training, and training people how to share effective data, standing up a new data access committee.
+So I joined some committees in the intramural research program. We have a scientific review committee that's like the Center for Scientific Review for extramural \[research\], where we were reviewing other intramural scientists' research. And then I got involved in the data access committees. And that really accelerated my interest in information policy. I was able to go over to help set up a new program in the Office of the Director at NIAID — National Institute of Allergy and Infectious Diseases — called the Office of Data Science and Emerging Technologies. And that was done right at the start of the pandemic. So work there was done really in data sharing and training, and training people how to share effective data, standing up a new data access committee.
 
-And that kind of launched me into sort of the national stage, where I ended up being invited to President Biden's Fast Track Action Committee on Scientific Integrity. And that led [Alondra Nelson](https://en.wikipedia.org/wiki/Alondra_Nelson) at the White House Office of Science and Technology Policy to invite me to lead science for the Biden-Harris administration, all the way before I got to OMB later on. So it's been a long, winding career road.
+And that launched me into the national stage, where I ended up being invited to President Biden's Fast Track Action Committee on Scientific Integrity. And that led [Alondra Nelson](https://en.wikipedia.org/wiki/Alondra_Nelson) at the White House Office of Science and Technology Policy to invite me to lead science for the Biden-Harris administration, all the way before I got to OMB later on. So it's been a long, winding career road.
 
 **Public Data Project:**\
 That's fascinating. It's such an intersection of direct policy work, as you say, as well as the work that we in libraries are concerned with around preservation and access. It's really great to have your perspective here.
@@ -72,13 +81,13 @@ So I'm wondering: can you tell us what it is then? That is to say, how is it bes
 **Chris Marcum:**\
 Yeah, this is a nuance in federal information policy that is not well understood or appreciated, even by the members of Congress who, ostensibly anyway, should have an interest or a stake here. So the Federal Data Catalog is a statutory requirement in the [Foundations for Evidence-Based Policymaking Act](https://www.govinfo.gov/content/pkg/PLAW-115publ435/html/PLAW-115publ435.htm). It's in Title II, which is also known as the Open Government Data Act. And it basically establishes a centralized catalog or index of every agency's federal data assets.
 
-And previously, there had been an initiative started by the Obama administration that launched [Data.gov](https://data.gov) that is hosted by GSA. Now, Data.gov did not serve as a repository. This is not where data is being deposited in the sense of, like, an institutional repository that many libraries are most familiar with. And instead, it just pulled in the information that agencies were indexing on their own inventories of data.
+And previously, there had been an initiative started by the Obama administration that launched Data.gov that is hosted by GSA. Now, Data.gov did not serve as a repository. This is not where data is being deposited in the sense of, like, an institutional repository that many libraries are most familiar with. And instead, it just pulled in the information that agencies were indexing on their own inventories of data.
 
-And so when the [Foundations for Evidence-Based Policymaking Act](https://www.congress.gov/bill/115th-congress/house-bill/4174) was passed, it just made a lot of sense, right, to take advantage of the infrastructure that Data.gov provided. And so what we like to characterize it as is that Data.gov provides the Federal Data Catalog. And so the relationship is that Data.gov is sort of the landing place for the Federal Data Catalog.
+And so when the [Foundations for Evidence-Based Policymaking Act](https://www.congress.gov/bill/115th-congress/house-bill/4174) was passed, it just made a lot of sense, right, to take advantage of the infrastructure that Data.gov provided. And so what we like to characterize it as is that Data.gov provides the Federal Data Catalog. And so the relationship is that Data.gov is the landing place for the Federal Data Catalog.
 
 The Federal Data Catalog is comprised of an aggregation of what are known in the statute, in the [Open Government Data Act,](https://www.congress.gov/bill/115th-congress/house-bill/1770) as agency comprehensive data inventories. This is just an index of every data asset they hold, but not the data themselves.
 
-> … that's why there's under-resourcing that agencies are faced with … They're under-resourced in terms of budget and staffing, and it would take an army for every agency to be able to do this comprehensively.
+> They [federal agencies] are under-resourced in terms of budget and staffing, and it would take an army for every agency to be able to do this comprehensively.
 
 **Public Data Project:**\
 Okay, so I understand it's not a repository, but I don't understand completely why it's not comprehensive. I mean, the words you just used would make me think that if every agency is submitting their indices, why isn't it comprehensive?
@@ -90,13 +99,13 @@ So today, there are over 500,000 datasets listed on Data.gov. Most of those are 
 
 But the question about why the Federal Data Catalog isn't comprehensive when, in fact, the federal agencies are required by statute to have a comprehensive data inventory.
 
-And if you think about that number, around 500,000, it's probably an order of magnitude lower than the actual number of federal data assets that federal agencies hold. And if you go back and you think about the complexity of all of the types of data and what is defined as a data asset that an agency might hold, you have to sort of think back over the course of the history of that agency, and they might hold on to datasets for a long time. It becomes just a huge challenge to be able to index them, to digitize those. Some of those data assets are probably still on paper. Many of them have probably ended up, to some extent, in the National Archives already. And so there has been a sort of loss of the record of those data.
+And if you think about that number, around 500,000, it's probably an order of magnitude lower than the actual number of federal data assets that federal agencies hold. And if you go back and you think about the complexity of all of the types of data and what is defined as a data asset that an agency might hold, you have to think back over the course of the history of that agency, and they might hold on to datasets for a long time. It becomes just a huge challenge to be able to index them, to digitize those. Some of those data assets are probably still on paper. Many of them have probably ended up, to some extent, in the National Archives already. And so there has been a loss of the record of those data.
 
 And so it's a complicated problem. It's really challenging for an agency to be able to do a comprehensive inventory.
 
 But the hope is that after we, and when I say "we," \[I mean\] the Office of Management and Budget — while I was there, I was one of the leads of the development of an implementation guidance memo known as [M-25-05](https://www.whitehouse.gov/wp-content/uploads/2025/01/M-25-05-Phase-2-Implementation-of-the-Foundations-for-Evidence-Based-Policymaking-Act-of-2018-Open-Government-Data-Access-and-Management-Guidance.pdf), which is where we're trying to translate Congress's intent into an implementation strategy for the agencies to comply with the law on comprehensive data inventories.
 
-And what's really interesting about that is that the hope was that it would guide agencies to make sure that they have a forward-looking perspective. So everything that comes in now should sort of be open by default, and that you should prioritize existing data assets based off of some strategies that you and your privacy officials and your chief information officers might have, and the agencies and your stakeholders might have for all the past data.
+And what's really interesting about that is that the hope was that it would guide agencies to make sure that they have a forward-looking perspective. So everything that comes in now should be open by default, and that you should prioritize existing data assets based off of some strategies that you and your privacy officials and your chief information officers might have, and the agencies and your stakeholders might have for all the past data.
 
 And so really it's a forward-thinking guidance document. And so that's why there's under-resourcing that agencies are faced with, and the chief data officers' staff. They're under-resourced in terms of budget and staffing, and it would take an army for every agency to be able to do this comprehensively.
 
@@ -120,9 +129,7 @@ And when you ask \[about contractors\], let's say a contractor is working with t
 
 But the encumbrances on those data also need to be disclosed very transparently in the metadata. So the comprehensive data inventories have to say whether or not there's copyright associated, and how the public can access it, if the public can access it, for example. I think the biggest component is transparency in that the agency has access to that data.
 
-> …if data is put into an institutional repository, or is regularly used, or accessed via the cloud, there's a good argument to say the federal agency is maintaining that data.
->
-> Certainly data that are being updated, or are being cleaned, or being processed or used are also being maintained. And so that's been a very easy one to handle.
+> If data is put into an institutional repository, or is regularly used, or accessed via the cloud, there's a good argument to say the federal agency is maintaining that data. …
 >
 > Where it becomes more nebulous is on derivative datasets. And so you can imagine that you have a large corpus of data where you'll have a dataset that lots of agencies create sub-datasets from … Are those data assets, and do they count as something being maintained?
 
@@ -171,7 +178,7 @@ Again, the complexities of implementation mean that \[there are exceptions\]. Li
 And so what will happen is these inventories are promulgated at the agency level. They sit on agency servers. And then GSA has a harvesting routine that happens pretty much daily that goes through, crawls those sources, and then pulls in the information, updating its master list, which is the Federal Data Catalog.
 
 **Public Data Project:**\
-Okay, thank you. And so then to return to the Federal Data Catalog, that's sort of the lodestone, the cornerstone of all of this. Thinking back, just to return to our initial conversation about its incompleteness. Were you made information czar, what would you do to make it more complete?
+Okay, thank you. And so then to return to the Federal Data Catalog, that's the lodestone, the cornerstone of all of this. Thinking back, just to return to our initial conversation about its incompleteness. Were you made information czar, what would you do to make it more complete?
 
 If we were to say that it would be a civic good to have a complete catalog, what would we do to get to that completeness?
 
@@ -186,7 +193,7 @@ And that started the process for establishing a comprehensive data inventory wit
 
 Establishing a data governance board that then goes out and makes sure the staff are trained in data access and management best practices, but are also aware of the need for inventorying all the data assets and to make sure the definitions for those data assets are governed — that would be what I would do. And I would make that a requirement for every agency and have the agencies report back up to, say, the Office of Management and Budget or another appropriate office as things evolve in the government.
 
-> There's also, like you said, great expertise in the library community within the federal government. … And so greater interagency coordination is absolutely necessary for the success of this.
+> There's also … great expertise in the library community within the federal government. … And so greater interagency coordination is absolutely necessary for the success of this.
 
 **Public Data Project:**\
 That's great. Thank you. And in that work — you mentioned the National Archives, that some things go there. Of course, we've got our Library of Congress, which I realize has a somewhat complicated history when it comes to this kind of work. But I'm just wondering, are there library/archive institutions within the government already that would play a role here? Or is that a big lack?
@@ -213,7 +220,7 @@ And to have those assets transferred either to the National Archives or probably
 > I think it's worth reflecting for a second on the ways in which the work of the government, when done best, is transparent. And that's another way of saying it is accessible to all. … That is half of the reason that libraries exist: preservation and access, right? And so [between the government and libraries] there's a very natural connection and shared mission in terms of the public good.
 
 **Public Data Project:**\
-For sure. Our conversation has sort of naturally shifted from questions around basic preservation to access. I think it's worth reflecting for a second on the ways in which the work of the government, when done best, is transparent. And that's another way of saying it is accessible to all. And that is the goal. That is half of the reason that libraries exist: preservation and access, right? And so there's a very natural connection and shared mission in terms of the public good. So, yeah, that just all makes a lot of sense to me.
+For sure. Our conversation has naturally shifted from questions around basic preservation to access. I think it's worth reflecting for a second on the ways in which the work of the government, when done best, is transparent. And that's another way of saying it is accessible to all. And that is the goal. That is half of the reason that libraries exist: preservation and access, right? And so there's a very natural connection and shared mission in terms of the public good. So, yeah, that just all makes a lot of sense to me.
 
 I would be remiss were I not to bring up metadata because we always want to talk about metadata. All roads lead to metadata. You note in your report that inaccurate metadata is a major issue, and the misclassification of datasets, and also misleading and rotting URLs, the kind of maintenance work that librarians are quite familiar with.
 
@@ -232,9 +239,7 @@ I think that hopefully M-25-05, the implementation guidance, provides some addit
 
 And again, it's a tough problem. The other part of me is like, I love the fact that I can find, for example, CDC's anti-smoking infographics on the Federal Data Catalog. But I just don't think they belong there. And so it's like, I love that they're preserved and that they're available. But are they data assets?
 
-> And so if you don't preserve that data, then the tools, as you said, are kind of useless, right? Because they don't have the high-quality information that you require.
->
-> On the other hand, I am a strong believer in democratizing data and making it accessible and approachable to people.
+> And so if you don't preserve that data, then the tools, as you said, are kind of useless, right? Because they don't have the high-quality information that you require. On the other hand, I am a strong believer in democratizing data and making it accessible and approachable to people.
 
 **Public Data Project:**\
 Right. You talk in the report in really helpful ways about the distinction between data tools and data sources. And what is it that we need to be advocating for? The tools are amazingly powerful and they're wonderful. And yet without the data behind them, there's no there there.
@@ -244,12 +249,11 @@ Yeah, it's so fascinating because what enables many of the tools that have been 
 
 And so if you don't preserve that data, then the tools, as you said, are kind of useless, right? Because they don't have the high-quality information that you require.
 
-On the other hand, I am a strong believer in democratizing data and making it accessible and approachable to people. [Denice Ross](https://fas.org/expert/denice-ross/) and I recently produced and published a [Federal Data Field Guide](https://www.federaldatafieldguide.us/).
-It helps to make federal data just more approachable. And it is, in effect, a type of data tool because it's like an aggregation of all of these different data types. It provides an ontology.
+On the other hand, I am a strong believer in democratizing data and making it accessible and approachable to people. [Denice Ross](https://fas.org/expert/denice-ross/) and I recently produced and published a [Federal Data Field Guide](https://www.federaldatafieldguide.us/). It helps to make federal data just more approachable. And it is, in effect, a type of data tool because it's like an aggregation of all of these different data types. It provides an ontology.
 
 I really do have an appreciation for democratization. I think the data tools really do provide that accessibility. And I think the _modus operandi_ of this administration is to increase friction in the approachability of publicly accessible data. And so if you take down the tools that help everyday people interpret federal data, I think that's part of the goal — even if you maintain access to the online data itself. So I'm right there with you. And the distinction is really important and it needs to be emphasized. Ultimately, if we're targeting preservation, we definitely have to handle the underlying data because without the data, you don't have the tools.
 
-And I'd also want to add in another nuance and something I think a lot about, as when I was a senior statistician and senior scientist at OMB, is data reports. Data tools, typically, are sort of interactive, and they help you interpret. But a lot of the economy relies on economic reports where the underlying data are confidential statistical data. They're not readily publicly accessible. You have to go through a clearance process to get access to them, either through the Federal Statistical Research Data Center program or through the agency research data centers themselves. And there are costs associated with that. You have to be licensed and get clearance.
+And I'd also want to add in another nuance and something I think a lot about, as when I was a senior statistician and senior scientist at OMB, is data reports. Data tools, typically, are interactive, and they help you interpret. But a lot of the economy relies on economic reports where the underlying data are confidential statistical data. They're not readily publicly accessible. You have to go through a clearance process to get access to them, either through the Federal Statistical Research Data Center program or through the agency research data centers themselves. And there are costs associated with that. You have to be licensed and get clearance.
 
 And so instead, what the agencies do is they create these wonderful aggregated quarterly, monthly, yearly reports that provide aggregated statistical data and information.
 
