@@ -10,7 +10,10 @@ title: Public Data Project
 logo: pdp-circle-mark.svg
 background_class: bg-green
 title_image: /assets/images/pdp-primary-logo-hls.svg
-hero_image:
+hero_image: pubdata-hero-wide.webp
+hero_image_square: pubdata-hero-square.webp
+hero_caption: |
+  Photo credit: [Warren K. Leffler](https://www.loc.gov/item/2016647339/)
 description: The Public Data Project is preserving civic ground truth by creating tools to save vulnerable datasets and building communities of librarians and technologists.
 project_website:
 what_does_it_do: Preserving civic ground truth.
