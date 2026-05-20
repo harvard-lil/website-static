@@ -52,6 +52,7 @@ who_contributed:
   - christopher-setzer
   - halle-burns
   - harmony-eidolon
+  - jacob-rhoades
 show_who_contributed: false
 title-tag: Public Data Project
 ---
