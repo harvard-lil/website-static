@@ -19,7 +19,7 @@
     </picture>
     {% if hero_caption %}
     <figcaption class="block container text-16 py-8">
-      <strong>{{ hero_caption | markdownify }}</strong>
+      <strong>{{ hero_caption | strip | markdownify_inline }}</strong>
     </figcaption>
     {% endif %}
   </figure>
