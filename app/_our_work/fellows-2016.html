@@ -18,7 +18,7 @@ what_does_it_do: >
   {% assign person_record = people[fellow.fellow] %}
   <div id="{{ person_record.name | slugify }}">
     <h2>{{ person_record.name }}</h2>
-    <div class="italic">{{ fellow.logline | strip | markdownify }}</div>
+    <div class="italic">{{ fellow.logline | strip | markdownify_inline }}</div>
     {% if fellow.blog_post %}
       <a href="{{ fellow.blog_post }}">{{fellow.blog_post_label}}</a>
     {% endif %}
@@ -37,7 +37,7 @@ what_does_it_do: >
       <h3> Find Out More </h3>
       <ul>
         {% for link in fellow.find_out_more %}
-          <li>{{ link | strip | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+          <li>{{ link | strip | markdownify_inline }}</li>
         {% endfor %}
       </ul>
     {% endif %}

@@ -9,6 +9,11 @@ export default function (eleventyConfig) {
     return md.render(str);
   });
 
+  eleventyConfig.addFilter("markdownify_inline", (str) => {
+    if (!str) return "";
+    return md.renderInline(str);
+  });
+
   eleventyConfig.addFilter("slugify", (str) => {
     if (!str) return "";
     return str
