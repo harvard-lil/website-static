@@ -11,7 +11,7 @@ A trusted advisor, someone with decades of experience, can help with both small 
 
 The procedural knowledge of an experienced advisor lives in the space between what they say and what they ask, what they cross out and what they leave, what they teach explicitly and what they only ever model.
 
-A great deal of writing, reformatting, and thinking-through is now happening inside AI agents. The agents are general by design. They start from an average of the public web, which means a student asking one to "fix my resume" gets an average resume. An advisor's twenty years of experience are nowhere in that exchange.
+A great deal of writing, reformatting, and thinking-through is now happening inside AI agents. The agents are general by design. They start from an average of the public web, which means a student asking one to "fix my resume" gets an average resume. An advisor's twenty years of experience is nowhere in that exchange.
 
 We built the Law Skills Hub to see if it was possible to capture, preserve, and share relevant procedural expertise with others and with agents, to empower more meaningful work.
 
@@ -21,11 +21,11 @@ The Law Skills Hub is a curated, openly licensed collection of *agentic skills*.
 
 <figure class="items-center text-center">
   <a class="no-underline border-none bg-none" style="background: none;" href="https://lil.law.harvard.edu/lawskills-hub/">
-    <img class="w-full" style="margin: 0;" src="https://lil-blog-media.s3.amazonaws.com/lawskills-hub-instructional.png" alt="Screenshot of the Law Skills Hub, highlighting the \"Law Professor\" or instructional category. />
+    <img class="w-full" style="margin: 0;" src="https://lil-blog-media.s3.amazonaws.com/lawskills-hub-instructional.png" alt='Screenshot of the Law Skills Hub, highlighting the "Law Professor" or instructional category.' />
   </a>
 </figure>
 
-A skill is the codification of a process, a checklist of sorts for: how to coach a student writing a public-interest resume, how to scaffold a syllabus around evidence-based learning, how to reformat instructor feedback so it tracks the rubric. The skill carries the steps, the values to check against, the templates the expert would reach for, and the things they would not do. A skill does not replace expertise. It tries to preserve and apply process.
+A skill is the codification of a process, a checklist of sorts for how to coach a student writing a public-interest resume, how to scaffold a syllabus around evidence-based learning, how to reformat instructor feedback so it tracks the rubric. The skill carries the steps, the values to check against, the templates the expert would reach for, and the things they would not do. A skill does not replace expertise. It tries to preserve and apply process.
 
 We are launching with a small set of skills already in production, several more in progress, and a contributor guide for anyone who wants to add to the collection.
 
@@ -41,7 +41,7 @@ The third is that there is a growing informal economy of skills shared in zip fi
 
 We think there was room for a different kind of hub. A hub grounded in stewardship and reliability.
 
-A Harvard Law–branded hub on the harvard.edu domain, with skills published as readable Markdown rather than zipped bundles, is our attempt to address both problems at once. The address tells you where the software comes from. The format lets you read it before you run it. We've also created "meta skills" which allow people to install one skill that will help them discover and install other skills for them based on their interest.
+A Harvard Law–branded hub on the harvard.edu domain, with skills published as readable Markdown rather than zipped bundles, is our attempt to address both problems at once. The address tells you where the software comes from. The format lets you read it before you run it. We've also created "meta skills" which allow people to install one skill that will help them discover and install other skills for them based on their interests.
 
 **What we won't do**
 
@@ -53,11 +53,11 @@ This is a values boundary, not a technical one. We are a library, and our work h
 
 **A librarian's framing**
 
-There is an older form on campus this hub is descended from, even if it isn't always recognized. The library guide or LibGuide, is the genre librarians have used for a long time to compact the things people keep asking about, the workflows experts reach for, the curated path through a subject. A skill, in our reading, is a LibGuide an agent can execute.
+There is an older form on campus this hub is descended from, even if it isn't always recognized. The library guide, or LibGuide, is the genre librarians have used for a long time to compact the things people keep asking about, the workflows experts reach for, the curated path through a subject. A skill, in our reading, is a LibGuide an agent can execute.
 
 This frames the work for us in a way we have found useful. We are not, primarily, building software. We are doing something closer to journalism, or to archival fieldwork — sitting with experienced practitioners, recording what they do and how they do it, and turning that record into a document a future user (human or otherwise) can consult. The output happens to be machine-readable.
 
-Not every workflow wants to be a skill. Some procedural knowledge is inseparable from the relationship in which it is taught and writing it down would flatten it. Part of the work is knowing the difference.
+Not every workflow wants to be a skill. Some procedural knowledge is inseparable from the relationship in which it is taught, and writing it down would flatten it. Part of the work is knowing the difference.
 
 **What remains uncertain**
 
@@ -69,11 +69,11 @@ We do not know how portable skills are across disciplines. A faculty-feedback sk
 
 These are open questions, not rhetorical ones. The honest answer is that the hub is a hypothesis, and the next year of work is testing it.
 
-**An Invitation**
+**An invitation**
 
-For now, we have a basic site, a public repository, and a small, but growing set of example skills. We are continuing to refine what is already there, add new skills, and learn where the approach holds and where it begins to fray.
+For now, we have a basic site, a public repository, and a small but growing set of example skills. We are continuing to refine what is already there, add new skills, and learn where the approach holds and where it begins to fray.
 
-We are hoping to talk with more people who are willing to share procedural knowledge with us. Sometimes that means a formal contribution. Sometimes it means an issue or a pull request. Sometimes it just means a conversation where we record how someone thinks through a reoccurring task, what they notice, what they warn against, and what they have learned.
+We are hoping to talk with more people who are willing to share procedural knowledge with us. Sometimes that means a formal contribution. Sometimes it means an issue or a pull request. Sometimes it just means a conversation where we record how someone thinks through a recurring task, what they notice, what they warn against, and what they have learned.
 
 If you are an institution thinking about something like this on your own campus, we would rather collaborate than duplicate. The hub's value grows if other libraries are stewarding their own skills.
 
