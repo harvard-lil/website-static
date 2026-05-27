@@ -13,7 +13,7 @@ title_image: /assets/images/pdp-primary-logo-hls.svg
 hero_image: pubdata-hero-wide.webp
 hero_image_square: pubdata-hero-square.webp
 hero_caption: |
-  Photo credit: [Warren K. Leffler](https://www.loc.gov/item/2016647339/)
+  Photo credit: Warren K. Leffler, courtesy [Library of Congress](https://www.loc.gov/item/2016647339/)
 description: The Public Data Project is preserving civic ground truth by creating tools to save vulnerable datasets and building communities of librarians and technologists.
 project_website:
 what_does_it_do: Preserving civic ground truth.
@@ -38,7 +38,7 @@ sections:
   About Us: |
     Born out of the [Harvard Law School Library](https://hls.harvard.edu/library/)'s commitment to stewarding legal history and government documents for centuries in collections ranging from original copies of the Magna Carta to U.S. government documents from the early days of the Federal Depository Library Program, the Public Data Project is part of LIL's mission to bring library principles to technological frontiers.
 
-    The Project Lead is [Dr. Molly Hardy](/about/#molly-hardy), who works closely with LIL Director [Jack Cushman](/about/#jack-cushman) to guide and administer the project. Senior Software Engineer [Christopher Setzer](/about/#christopher-setzer) is technical lead on the project, and Product and Research Manager [Halle Burns](/about/#halle-burns) oversees tool development and data acquisitions. [Harmony Eidolon](/about/#harmony-eidolon) supports all aspects of the project's work, and [Jacob Rhoades](/about/#jacob-rhoades) designs our graphics.
+    Guided by Harvard Faculty and Law School Library Director Professor [Jonathan Zittrain](https://hls.harvard.edu/faculty/jonathan-l-zittrain/) and Assistant Dean [Amanda Watson](https://hls.harvard.edu/library/about-the-library/library-staff/library-administration/), [Dr. Molly Hardy](/about/#molly-hardy) leads the Public Data Project, working closely with LIL Director [Jack Cushman](/about/#jack-cushman). Senior Software Engineer [Christopher Setzer](/about/#christopher-setzer) is technical lead on the project, and Product and Research Manager [Halle Burns](/about/#halle-burns) oversees tool development and data acquisitions. [Harmony Eidolon](/about/#harmony-eidolon) supports all aspects of the project's work, and [Jacob Rhoades](/about/#jacob-rhoades) designs our graphics.
   Advisory Board: |
     - **Jim Cowie,** Internet History Initiative
     - **JJ Dearborn,** Data Futures
@@ -49,6 +49,8 @@ sections:
     - **Merrilee Proffitt,** Internet Archive
     - **Jed Sundwall,** Radiant Earth
 who_contributed:
+  - jonathan-zittrain
+  - amanda-watson
   - molly-hardy
   - jack-cushman
   - christopher-setzer
