@@ -11,7 +11,7 @@ A trusted advisor, someone with decades of experience, can help with both small 
 
 The procedural knowledge of an experienced advisor lives in the space between what they say and what they ask, what they cross out and what they leave, what they teach explicitly and what they only ever model.
 
-A great deal of writing, reformatting, and thinking-through is now happening inside AI agents. The agents are general by design. They start from an average of the public web, which means a student asking one to "fix my resume" gets an average resume. An advisor's twenty years of experience is nowhere in that exchange.
+A great deal of writing, reformatting, and thinking-through is now happening inside AI agents. The agents are general by design. They start from an average of the public web, which means a student asking one to "fix my résumé" gets an average resume. An advisor's twenty years of experience is nowhere in that exchange.
 
 We built the Law Skills Hub to see if it was possible to capture, preserve, and share relevant procedural expertise with others and with agents, to empower more meaningful work.
 
