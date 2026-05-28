@@ -41,7 +41,7 @@ The third is that there is a growing informal economy of skills shared in zip fi
 
 We think there was room for a different kind of hub. A hub grounded in stewardship and reliability.
 
-A Harvard Law–branded hub on the harvard.edu domain, with skills published as readable Markdown rather than zipped bundles, is our attempt to address both problems at once. The address tells you where the software comes from. The format lets you read it before you run it. We've also created "meta skills" which allow people to install one skill that will help them discover and install other skills for them based on their interests.
+A Harvard Law⁠–⁠branded hub on the harvard.edu domain, with skills published as readable Markdown rather than zipped bundles, is our attempt to address both problems at once. The address tells you where the software comes from. The format lets you read it before you run it. We've also created "meta skills" which allow people to install one skill that will help them discover and install other skills for them based on their interests.
 
 **What we won't do**
 
