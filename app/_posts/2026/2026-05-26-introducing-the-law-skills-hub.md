@@ -67,7 +67,7 @@ We do not know how large a skill can be before its consistency degrades. Resume 
 
 We do not know how portable skills are across disciplines. A faculty-feedback skill that works for a 1L torts course may or may not work in a humanities seminar or a wet-lab science. We suspect some skills are portable and some are deeply local; we cannot yet tell you which are which.
 
-These are open questions, not rhetorical ones. The honest answer is that the hub is a hypothesis, and the next year of work is testing it.
+These are open questions, not rhetorical ones. The hub is a hypothesis, and the next year of work is testing it.
 
 **An invitation**
 
