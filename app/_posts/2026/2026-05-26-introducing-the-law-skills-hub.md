@@ -63,7 +63,7 @@ Not every workflow wants to be a skill. Some procedural knowledge is inseparable
 
 We do not yet know how far this approach scales, and we want to say so plainly.
 
-We do not know how large a skill can be before its consistency degrades. Resume coaching is a useful test case: the work for a private-sector clerkship and the work for a public-interest fellowship genuinely diverge. We are running both as a single skill with branching, and as two specialized skills, and we do not yet know which will produce better outcomes at scale.
+We do not know how large a skill can be before its consistency degrades. Résumé coaching is a useful test case: the work for a private-sector clerkship and the work for a public-interest fellowship genuinely diverge. We are running both as a single skill with branching, and as two specialized skills, and we do not yet know which will produce better outcomes at scale.
 
 We do not know how portable skills are across disciplines. A faculty-feedback skill that works for a 1L torts course may or may not work in a humanities seminar or a wet-lab science. We suspect some skills are portable and some are deeply local; we cannot yet tell you which are which.
 
