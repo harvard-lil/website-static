@@ -47,7 +47,7 @@ A Harvard Law–branded hub on the harvard.edu domain, with skills published as 
 
 Replace human cognition.
 
-The hub has a clear scope, and the contributor guide names it. We are not building skills that produce essays, exam answers, or thought labor on the user's behalf. The skills we publish coach, reformat, and scaffold — they presume the user has the source material, the question, the work, and that what they want help with is the procedural part. The mechanical, the administrative, the templated.
+The hub has a clear scope, and the contributor guide names it. We are not building skills that produce essays, exam answers, or thought labor on the user's behalf. The skills we publish coach, reformat, and scaffold—they presume the user has the source material, the question, the work, and that what they want help with is the procedural part. The mechanical, the administrative, the templated.
 
 This is a values boundary, not a technical one. We are a library, and our work has always been about making people more capable of their own thinking, not less.
 
