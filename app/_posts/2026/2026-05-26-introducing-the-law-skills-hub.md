@@ -35,7 +35,7 @@ Three things became clear over the last several months, working with faculty, wi
 
 The first is that AI companies are starting to converge on a standard for agent skill. Anthropic and OpenAI have agreed on a common format and capabilities which you can learn about at [agentskills.io](https://agentskills.io/home).
 
-The second is that, like most things, it is best to meet users where they are at. Many people are working in agent software to create and improve knowledge work. People are not, as a rule, going to abandon the agent and come to a library website or use a bespoke tool. If our procedural knowledge is going to be useful, it must travel into the agent the user is already in and ideally into more than one of them, because the agents are interchangeable and people switch between them.
+The second is that, like most things, it is best to meet users where they are. Many people are working in agent software to create and improve knowledge work. People are not, as a rule, going to abandon the agent and come to a library website or use a bespoke tool. If our procedural knowledge is going to be useful, it must travel into the agent the user is already in and ideally into more than one of them, because the agents are interchangeable and people switch between them.
 
 The third is that there is a growing informal economy of skills shared in zip files, gists, and Discord threads. A non-technical user downloading one of these has no easy way to know what is inside, what values it encodes, or whether the code it runs has been read by anyone they trust. Some of those skills are excellent. Some of them quietly do things their users would not endorse.
 
