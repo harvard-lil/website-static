@@ -55,7 +55,7 @@ This is a values boundary, not a technical one. We are a library, and our work h
 
 There is an older form on campus this hub is descended from, even if it isn't always recognized. The library guide, or LibGuide, is the genre librarians have used for a long time to compact the things people keep asking about, the workflows experts reach for, the curated path through a subject. A skill, in our reading, is a LibGuide an agent can execute.
 
-This frames the work for us in a way we have found useful. We are not, primarily, building software. We are doing something closer to journalism, or to archival fieldwork — sitting with experienced practitioners, recording what they do and how they do it, and turning that record into a document a future user (human or otherwise) can consult. The output happens to be machine-readable.
+This frames the work for us in a way we have found useful. We are not, primarily, building software. We are doing something closer to journalism, or to archival fieldwork—sitting with experienced practitioners, recording what they do and how they do it, and turning that record into a document a future user (human or otherwise) can consult. The output happens to be machine-readable.
 
 Not every workflow wants to be a skill. Some procedural knowledge is inseparable from the relationship in which it is taught, and writing it down would flatten it. Part of the work is knowing the difference.
 
