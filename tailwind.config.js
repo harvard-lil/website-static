@@ -5,7 +5,7 @@ export default {
     'app/_drafts/**/*.html',
     'app/_includes/**/*.html',
     'app/_layouts/**/*.html',
-    'app/_posts/*.md',
+    'app/_posts/**/*.md',
     'app/about/**/*.html',
     'app/about/**/*.md',
     'app/jobs/**/*.html',

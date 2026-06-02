@@ -2,6 +2,7 @@ import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
   const md = markdownIt({ html: true, linkify: true, typographer: true });
+  md.linkify.set({ fuzzyLink: false });
   eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addFilter("markdownify", (str) => {
