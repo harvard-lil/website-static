@@ -3,7 +3,7 @@ title: >-
   Sustaining the Infrastructure of Web Archiving: Takeaways from IIPC Conference
   2026
 author: kristi-mukk
-tags: []
+tags: [Tools]
 ---
 The Perma team recently attended the [International Internet Preservation Consortium](https://netpreserve.org/)’s (IIPC) Web Archiving Conference, held this year at the KBR - Royal Library of Belgium in Brussels. A recurring theme was that web archiving depends on collective stewardship of the open-source tools, institutions, and people that make preservation possible. At a moment when the web is becoming more difficult to archive, the conference offered an assessment of current challenges and a reminder that the sustainability of the field relies heavily on collaboration and shared responsibility.
 
