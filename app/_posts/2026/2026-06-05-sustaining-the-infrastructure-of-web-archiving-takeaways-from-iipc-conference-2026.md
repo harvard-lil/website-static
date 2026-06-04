@@ -1,9 +1,10 @@
 ---
 title: >-
-  Sustaining the Infrastructure of Web Archiving: Takeaways from IIPC Conference
-  2026
+  Sustaining Open-Source Web Archiving Infrastructure: Takeaways from IIPC
+  Conference 2026
 author: kristi-mukk
-tags: [Tools]
+tags:
+  - Tools
 ---
 The Perma team recently attended the [International Internet Preservation Consortium](https://netpreserve.org/)’s (IIPC) Web Archiving Conference, held this year at the KBR - Royal Library of Belgium in Brussels. A recurring theme was that web archiving depends on collective stewardship of the open-source tools, institutions, and people that make preservation possible. At a moment when the web is becoming more difficult to archive, the conference offered an assessment of current challenges and a reminder that the sustainability of the field relies heavily on collaboration and shared responsibility.
 
@@ -35,6 +36,6 @@ There was some cautious optimism about potential sources for more sustainable su
 
 Not surprisingly, AI hovered over much of the discussion. AI-assisted coding may reduce some development overhead, and some panelists described productive uses for code review, bug detection, and scripting assistance. However, the panel was skeptical of the idea that AI meaningfully solves the underlying sustainability problem. Faster code generation does not automatically create maintainable systems, healthy governance, or resilient communities. As Tessa noted, velocity without understanding creates its own risks.
 
-## Open source software is critical preservation infrastructure
+## Open-source software is critical preservation infrastructure
 
 The key takeaway that emerged from the opening keynote was a reframing of open-source web archiving infrastructure not as ancillary technical tooling, but as critical preservation infrastructure. The field behaves as though these systems are indispensable, but there is a significant underinvestment in open-source tools. The harder question, and the one the panel kept circling back to, is whether institutions are willing to fund, maintain, and steward them accordingly.
