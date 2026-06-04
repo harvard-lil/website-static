@@ -14,8 +14,6 @@ The opening keynote panel—"Sustainability for Open Source Web Archiving Tools"
 
 *Clare Stanton (center) discusses Perma.cc during the opening keynote.*
 
-&nbsp;
-
 ## Need for sustained investment in open-source software
 
 The web archiving community no longer has the luxury of treating tool and infrastructure maintenance as someone else’s problem. Nearly every institution in the room relies on these open-source tools, including Perma itself. For example, the replay functionality for Perma.cc is built on [replayweb.page](https://replayweb.page/docs/), part of the software suite developed by our long-time collaborators at [Webrecorder](https://webrecorder.net/). Despite almost everyone using these open-source tools, almost no one is funding them proportionally. Historically, many projects survived on grants and foundation support, but that funding landscape is shrinking. Yves framed open-source work as a shared mission and responsibility, especially for national libraries and cultural heritage institutions whose mandates depend on long-term stewardship. Institutions should be contributing back to the web archiving ecosystem they depend on.
