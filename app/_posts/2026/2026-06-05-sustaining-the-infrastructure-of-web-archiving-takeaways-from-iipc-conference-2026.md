@@ -10,7 +10,7 @@ The Perma team recently attended the [International Internet Preservation Consor
 
 The opening keynote panel—"Sustainability for Open Source Web Archiving Tools"—brought together perspectives from libraries, consortia, and open source service providers: Lauren Ko (University of North Texas Libraries), Tessa Walsh (Webrecorder), Neil Jefferies (Open Preservation Foundation), Yves Maurer (National Library of Luxembourg), and LIL’s very own Clare Stanton (Perma.cc). The conversation focused on the structural pressures now reshaping the digital landscape, and what collective stewardship might realistically look like. Key takeaways from this conversation are outlined below.
 
-*![Five keynote speakers sitting in front of a slide in an auditorium describing the Library Innovation Lab and Perma.cc](/app/uploads/img-1729.jpeg)*
+*![Five keynote speakers sitting in front of a slide in an auditorium describing the Library Innovation Lab and Perma.cc](https://lil-blog-media.s3.amazonaws.com/IMG_1729.jpeg)*
 
 *Clare Stanton (center) discusses Perma.cc during the opening keynote.*
 
