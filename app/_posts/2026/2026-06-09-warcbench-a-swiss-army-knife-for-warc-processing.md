@@ -25,6 +25,8 @@ We don’t know all the ways researchers or web archivists might use WARCbench, 
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQOf38tl_6lBkm3_-5WzAsZgaA3AcXYuzOxHPcDaqCt-CygqwxpB5K2fiMan0R41nrmMy1NYH8uK7eH/pubembed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="592" height="362" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+&nbsp;
+
 ## **Thanks and acknowledgments**
 
 We would like to thank our colleagues **Chris Setzer** and **Ben Steinberg** for their help and support in developing this tool.<br /><br />WARCbench logo by **Jacob Rhoades**.
