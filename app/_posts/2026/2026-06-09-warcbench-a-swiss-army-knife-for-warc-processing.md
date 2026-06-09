@@ -1,6 +1,8 @@
 ---
 title: 'WARCbench: A Swiss Army Knife for WARC Processing'
-author: rebecca-cremona
+author: 
+- kristi-mukk
+- rebecca-cremona
 tags:
   - tools
 ---
