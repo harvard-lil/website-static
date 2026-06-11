@@ -10,14 +10,6 @@ This repository contains the code for the [LIL website](https://lil.law.harvard.
 4. `npm start` to start the dev server
 5. View the dev server at http://localhost:8080
 
-## Writing blog posts
-
-Head to [https://blog-generator.lil.tools/](https://blog-generator.lil.tools/) to write your post in the on-screen editor. Use the editor's buttons, if you want the preview to work correctly. (Manually-entered markdown is fine, but won't render correctly here in the preview.) Detailed instructions are below the editor, if you are into that kind of thing.
-
-Hit the editor's "Preview/Download" to check your work.
-
-When you are satisfied, hit the "Download" button to download your draft, and follow the simple instructions to upload your draft to GitHub.
-
 ## Adding current affiliates
 
 At the moment, current staff and affiliates listed on the About page should have three sizes of photos. The current convention is to take a square, high-resolution grayscale image and convert it using ImageMagick. You can use something like this, assuming that the files are in the current working directory and named something like `firstname-lastname.jpg`:

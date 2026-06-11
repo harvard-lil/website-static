@@ -164,6 +164,7 @@ class LilHeader extends HTMLElement {
         this.menu = this.querySelector('.nav-menu');
         this.links = this.menu.querySelectorAll('a');
         this.inner = this.menu.querySelector('.nav-menu__inner');
+        this.marqueeLink = this.querySelector('.marquee__inner');
 
         this.menuButton.addEventListener('click', this.toggleMenu.bind(this));
         this.overlay.addEventListener('click', this.toggleMenu.bind(this));
@@ -176,6 +177,12 @@ class LilHeader extends HTMLElement {
         });
 
         this.logo?.addEventListener('click', this.closeMenu.bind(this));
+
+        this.marqueeLink?.addEventListener('click', () => {
+            if (this.expanded) {
+                this.closeMenu();
+            }
+        });
     }
 
     closeOnEscape(event) {
@@ -191,7 +198,7 @@ class LilHeader extends HTMLElement {
         document.body.style.overflow = 'auto';
         window.removeEventListener('keydown', this.closeOnEscape.bind(this));
         this.classList.remove('expanded');
-        this.menuButton.setAttribute('aria-label', 'Close navigation');
+        this.menuButton.setAttribute('aria-label', 'Open menu');
         this.menuCloseAnimation()
     }
 
