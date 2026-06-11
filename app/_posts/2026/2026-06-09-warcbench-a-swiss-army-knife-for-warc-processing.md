@@ -5,6 +5,7 @@ author:
 - kristi-mukk
 tags:
   - tools
+thumbnail: https://lil-blog-media.s3.amazonaws.com/WARCbench_Logo_Square.png
 ---
 ![](https://lil-blog-media.s3.amazonaws.com/WARCbench_Logo.png)
 
