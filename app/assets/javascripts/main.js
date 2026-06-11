@@ -191,7 +191,7 @@ class LilHeader extends HTMLElement {
         document.body.style.overflow = 'auto';
         window.removeEventListener('keydown', this.closeOnEscape.bind(this));
         this.classList.remove('expanded');
-        this.menuButton.setAttribute('aria-label', 'Close navigation');
+        this.menuButton.setAttribute('aria-label', 'Open menu');
         this.menuCloseAnimation()
     }
 
