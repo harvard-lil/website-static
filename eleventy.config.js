@@ -32,7 +32,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("app/assets/css/interview-series.css");
   eleventyConfig.addPassthroughCopy("app/century-scale-storage");
   eleventyConfig.addPassthroughCopy("app/open-french-law-rag");
-  eleventyConfig.addPassthroughCopy("app/data-gov-archive");
   eleventyConfig.addPassthroughCopy("app/generational-data-interviews/assets");
   eleventyConfig.addPassthroughCopy("app/generational-data-interviews/main.js");
 
