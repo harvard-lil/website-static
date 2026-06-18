@@ -48,7 +48,6 @@ rebecca-cremona:
     most of her time working on Perma.cc, advocating for web accessibility, and
     assisting with other LIL projects.
   email: rcremona@law.harvard.edu
-  website:
   twitter_account_name: RebeccaCremona
   github_account_name: rebeccacremona
   image: rebecca-cremona.jpg
@@ -68,7 +67,6 @@ jack-cushman:
     Klein Center for Internet and Society. He also teaches the Programming for Lawyers course
     at Harvard Law School.
   email: jcushman@law.harvard.edu
-  twitter_account_name:
   github_account_name: jcushman
   image: jack-cushman.jpg
   affiliated: true
@@ -173,9 +171,6 @@ kristi-mukk:
     the humanities, Kristi can be found crafting her way through a growing list of
     creative projects.
   email: kmukk@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name:
   image: kristi-mukk.jpg
   affiliated: true
   current: true
@@ -191,9 +186,6 @@ mirabella-pisani:
     a love of learning, Bella is a student both in the classroom as an MLIS candidate
     at Simmons University, and in the world at large.
   email: mpisani@law.harvard.edu
-  website:
-  twitter_account_name:
-  github_account_name:
   image: mirabella-pisani.jpg
   affiliated: true
   current: true
@@ -221,14 +213,13 @@ aristana-scourtas:
   bio: >-
     Ari comes to LIL from the world of applied AI and scientific software
     engineering, where she tackled topics such as wildfire smoke detection, AI
-    reproducibility, and building open-source contributor communities. She’s
+    reproducibility, and building open-source contributor communities. She's
     held many roles in the past, including software engineer, project manager,
     community organizer, library assistant, and research scientist, and is
     thrilled to combine all of these in her new role at LIL to create tools for
     just access to information. She is especially excited about the
     intersections of information, justice, and technology.
   email: ascourtas@law.harvard.edu
-  website:
   github_account_name: ascourtas
   image: aristana-scourtas.jpg
   affiliated: true
@@ -283,9 +274,7 @@ clare-stanton:
     and now LIL's Product and Research Director. She has an MLIS from Simmons
     University.
   email: cstanton@law.harvard.edu
-  website:
   twitter_account_name: clare__stanton
-  github_account_name:
   image: clare-stanton.jpg
   affiliated: true
   current: true
@@ -301,8 +290,6 @@ ebru-yucesar:
     Her work at LIL focuses on backend development and data engineering. Outside
     of work, Ebru enjoys playing ultimate frisbee.
   email: eyucesar@law.harvard.edu
-  website:
-  twitter_account_name:
   github_account_name: teovin
   image: ebru-yucesar.jpg
   affiliated: true
@@ -319,7 +306,6 @@ jonathan-zittrain:
   email: a2jz@law.harvard.edu
   website: http://jz.org
   twitter_account_name: zittrain
-  github_account_name:
   image: jonathan-zittrain.jpg
   affiliated: true
   current: true
@@ -340,12 +326,33 @@ matteo-cargnelutti:
     of web archiving technologies that now power Perma.cc, and spearheaded
     technical research into how artificial intelligence is changing our
     relationship to knowledge. Through his ongoing fellowship, Matteo continues
-    to contribute to LIL’s web archiving and “Librarianship of AI” research
+    to contribute to LIL's web archiving and “Librarianship of AI” research
     efforts.
   email: mcargnelutti@law.harvard.edu
   website: https://matteocargnelutti.dev
   github_account_name: matteocargnelutti
   image: matteo-cargnelutti.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
+jennifer-chapman:
+  name: Jennifer Chapman
+  sort_name: Chapman
+  role: Fellow
+  bio: >
+    Jennifer E. Chapman is the foreign, comparative and international law librarian
+    at the University of Virginia (UVA) School of Law. Her scholarship has appeared
+    in law reviews and journals, such as Journal of International and Comparative Law,
+    Fordham Law Review, and the Journal of the Legal Writing Institute, and in the library
+    and information science texts Antiracist Library and Information Science: Racial
+    Justice and Community and The Role of Citation in the Law. Prior to joining UVA Law,
+    she was the research and faculty services librarian at the University of Maryland
+    Carey School of Law. Chapman has a J.D. and M.L.I.S. from the University of Maryland
+    and a B.A. in art history from James Madison University. Prior to law school, she
+    attended culinary school, worked as a pastry chef, served as collections and exhibitions
+    manager and assistant curator at the Washington County Museum of Fine Arts,
+    and performed with Equinox Dance Company (Maryland) for seven seasons.
+  image: jennifer-chapman.jpg
   affiliated: true
   current: true
   section: Affiliates
@@ -360,12 +367,33 @@ jim-cowie:
     Internet Intelligence Authority, and later served as Chief Scientist at
     DynDNS. His current research focuses on the Internet History Initiative, a
     noncommercial effort to preserve and curate the historical datasets that
-    document the Internet’s regional evolution, making their stories accessible
-    to future historians and other audiences beyond the Internet’s traditional
+    document the Internet's regional evolution, making their stories accessible
+    to future historians and other audiences beyond the Internet's traditional
     technical core community.
   website: https://internethistoryinitiative.org/
   mastodon_url: https://social.secret-wg.org/@jimcowie
   image: jim-cowie.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
+jacqueline-dearborn:
+  name: Jacqueline J. Dearborn
+  sort_name: Dearborn
+  role: Fellow
+  bio: >
+    JJ Dearborn is a Strategic Advisor at Data Futures and a PhD student researcher at the
+    University of Glasgow. She works at the intersection of biodiversity informatics, digital
+    humanities, and global knowledge infrastructure, with a particular interest in how AI,
+    semantic systems, and human-in-the-loop methods can help connect people with the richness
+    of biodiversity knowledge hidden in literature, collections, and archives. Her work focuses
+    on translating historic records into structured, reusable data that can support research and
+    discovery at scale. Previously, she served as Secretariat and Data Manager for the Biodiversity
+    Heritage Library at the Smithsonian Institution. For over 15 years, she has worked across
+    international open knowledge and civic data initiatives spanning government, libraries, museums,
+    and public data ecosystems. Her work is motivated by a long-standing commitment to safeguard
+    public research investments and bolster accessible, interoperable, resilient knowledge ecosystems
+    in service of Open Science and a more sustainable relationship with the living world.
+  image: jacqueline-dearborn.jpg
   affiliated: true
   current: true
   section: Affiliates
