@@ -53,7 +53,7 @@ layout: default
   </section>
 
   <section class="container ">
-    <h2 class="h2 mt-12 mb-48 md:mb-72 editable">People at the Lab</h2>
+    <h2 id="staff" class="h2 mt-12 mb-48 md:mb-72 editable">People at the Lab</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120 pb-48 md:pb-72">
       {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}
       {% assign sections = "Faculty Director, Staff" | split: ", " %}
@@ -70,7 +70,7 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
-    <div class="pt-48 md:pt-72 border-t-1 border-black">
+    <div id="affiliates" class="pt-48 md:pt-72 border-t-1 border-black">
       <h2 class="h2 editable">Affiliates</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
         {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}
@@ -99,7 +99,7 @@ layout: default
       </div>
     </div>
     <section class="bg-gray pt-48 pb-6 tbl:pt-60 tbl:pb-24 w-full">
-      <div class="container">
+      <div id="past-affiliates" class="container">
         <h2 class="h2 tbl:mt-12 tbl:mb-24 editable">Past Affiliates</h2>
         <div class="flex flex-col items-start w-full">
           {% assign old_friends = affiliates | where: "current", false %}
