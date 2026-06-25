@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "NeueHaasGrotesk";
-  src: url('../fonts/NeueHaasGroteskDisplayPro56Italic.woff2') format('woff2'), url('../fonts/NeueHaasGroteskDisplayPro56Italic.woff') format('woff');
+  src: url('../fonts/NeueHaasGroteskTextPro56Italic.woff2') format('woff2'), url('../fonts/NeueHaasGroteskTextPro56Italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
 }
