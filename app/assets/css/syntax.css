@@ -44,13 +44,11 @@ pre[class*="language-"] {
 }
 
 pre[class*="language-"] {
+	background: var(--code-bg);
+
 	padding: 1em;
 	margin: 20px 0 40px;
 	overflow: auto;
-}
-
-pre[class*="language-"] {
-	background: var(--code-bg);
 }
 
 .token.comment,
