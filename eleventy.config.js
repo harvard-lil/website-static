@@ -1,4 +1,6 @@
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import yaml from "js-yaml";
+
 import filters from "./config/filters.js";
 import collections from "./config/collections.js";
 
@@ -6,6 +8,7 @@ import collections from "./config/collections.js";
 process.env.TZ = "UTC";
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addDataExtension("yaml,yml", (contents) =>
     yaml.load(contents),
   );
@@ -28,6 +31,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("app/assets/lib");
   eleventyConfig.addPassthroughCopy("app/assets/javascripts");
   eleventyConfig.addPassthroughCopy("app/assets/css/post-content.css");
+  eleventyConfig.addPassthroughCopy("app/assets/css/syntax.css");
   eleventyConfig.addPassthroughCopy("app/assets/css/blog-search.css");
   eleventyConfig.addPassthroughCopy("app/assets/css/interview-series.css");
   eleventyConfig.addPassthroughCopy("app/century-scale-storage");
