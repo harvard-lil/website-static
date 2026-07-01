@@ -3,7 +3,7 @@ title: 'Federal Data Under Review: Changes, Implications, and Opportunities'
 date: 2026-07-16T13:00:00-04:00
 short_description: >-
   Hybrid talk given by Meghan Maury-Fox about the federal governments collection
-  and reporting on under-represented communities. 
+  and reporting on under-represented communities.
 description: >-
   Talk with the former policy director at the National LGBTQ Task Force about
   the implications of the federal government's changes to how it collects and
