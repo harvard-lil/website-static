@@ -130,3 +130,28 @@
 .post-content blockquote {
   margin: 0.5em 0 1em 2em;
 }
+
+.post-content table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.post-content thead th {
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 16px;
+  border-bottom: 2px solid #121212;
+}
+
+.post-content td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #DCE2E5;
+  vertical-align: top;
+}
+
+.post-content tbody tr:last-child td {
+  border-bottom: none;
+}
