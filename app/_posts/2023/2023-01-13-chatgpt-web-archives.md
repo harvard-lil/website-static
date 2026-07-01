@@ -4,6 +4,7 @@ author: matteo-cargnelutti
 excerpt_separator: <!--more-->
 tags:
 - AI Research
+- Web Archiving
 ---
 Chatbots such as [OpenAI's ChatGPT](https://openai.com/blog/chatgpt/) are becoming impressively 
 good at understanding complex requests in "natural" language and generating convincing blocks of 

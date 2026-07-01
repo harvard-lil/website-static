@@ -4,6 +4,7 @@ author: [matteo-cargnelutti,kristi-mukk,clare-stanton]
 excerpt_separator: <!--more-->
 tags:
 - AI Research
+- Web Archiving
 ---
 <img src="https://lil-blog-media.s3.amazonaws.com/warc-gpt-banner.png" alt=""/>
 

@@ -6,6 +6,7 @@ sharing-image: images/warc-gpt-banner.png
 tags:
 - AI Research
 - Tools
+- Web Archiving
 ---
 
 <img src="https://lil-blog-media.s3.amazonaws.com/warc-gpt-banner.png" alt=""/>
