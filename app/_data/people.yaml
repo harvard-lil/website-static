@@ -206,25 +206,6 @@ jacob-rhoades:
   affiliated: true
   current: true
   section: Staff
-aristana-scourtas:
-  name: Aristana Scourtas
-  sort_name: Scourtas
-  role: Product and Research Manager
-  bio: >-
-    Ari comes to LIL from the world of applied AI and scientific software
-    engineering, where she tackled topics such as wildfire smoke detection, AI
-    reproducibility, and building open-source contributor communities. She's
-    held many roles in the past, including software engineer, project manager,
-    community organizer, library assistant, and research scientist, and is
-    thrilled to combine all of these in her new role at LIL to create tools for
-    just access to information. She is especially excited about the
-    intersections of information, justice, and technology.
-  email: ascourtas@law.harvard.edu
-  github_account_name: ascourtas
-  image: aristana-scourtas.jpg
-  affiliated: true
-  current: true
-  section: Staff
 christopher-setzer:
   name: Christopher Setzer
   sort_name: Setzer
@@ -397,6 +378,22 @@ jacqueline-dearborn:
   affiliated: true
   current: true
   section: Affiliates
+kyle-deeds:
+  name: Kyle Deeds
+  sort_name: Deeds
+  role: Fellow
+  bio: >
+    Kyle Deeds is an assistant professor of computer science at Boston University. His work focuses
+    on both core database technology and its applications to open data initiatives. He co-leads the
+    govscape.net project which aims to make every government document searchable and accessible.
+    In addition, he is a lead developer on the Finch sparse array framework where he applies database
+    optimization techniques to new problems. He has been published in a variety of data management
+    conferences including SIGMOD, VLDB, PODS, and ICDT, where he won the best paper award in 2025.
+    He was also a runner-up for the ACM SIGMOD Jim Gray Dissertation Award in 2026.
+  image: kyle-deeds.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
 christopher-dick:
   name: Christopher Dick
   sort_name: Dick
@@ -414,6 +411,28 @@ christopher-dick:
   affiliated: true
   current: true
   section: Affiliates
+benjamin-charles-germain-lee:
+  name: Benjamin Charles Germain Lee
+  sort_name: Lee
+  role: Fellow
+  bio: >
+    Benjamin Charles Germain Lee is an Assistant Professor in the Information School at the
+    University of Washington, where he has started the Lab for Computing Cultural Heritage.
+    Ben's research explores how to re-imagine search and discovery for large-scale digital
+    collections held by libraries, archives, and museums. Previously, Ben has served as an
+    Innovator in Residence as well as a Kluge Fellow in Digital Studies at the Library of
+    Congress. He also was the inaugural Digital Humanities Fellow at the United States Holocaust
+    Memorial Museum, a Visiting Fellow in Harvard's History Department, and the Richard and Ina
+    Willner Memorial Fellow in the Stroum Center for Jewish Studies at the University of Washington.
+    Ben received his Ph.D. in Computer Science & Engineering from the University of Washington,
+    which was supported by a National Science Foundation Graduate Research Fellowship in machine
+    learning. His public writing has appeared in publications including The New Republic, WIRED,
+    and Longreads.
+  image: benjamin-charles-germain-lee.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
+# past affiliates
 zena-agha:
   name: Zena Agha
   sort_name: Agha
@@ -1071,6 +1090,12 @@ lori-schulsinger:
   sort_name: Schulsinger
   role: Collection Development Coordinator
   affiliated: false
+aristana-scourtas:
+  name: Aristana Scourtas
+  sort_name: Scourtas
+  role: Product and Research Manager
+  github_account_name: ascourtas
+  affiliated: true
 dakota-sexton:
   name: Dakota Sexton
   sort_name: Sexton
