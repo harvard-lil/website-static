@@ -4,7 +4,8 @@ author:
 - rebecca-cremona
 - kristi-mukk
 tags:
-  - tools
+  - Tools
+  - Web Archiving
 thumbnail: https://lil-blog-media.s3.amazonaws.com/WARCbench_Logo_Square.png
 ---
 ![](https://lil-blog-media.s3.amazonaws.com/WARCbench_Logo.png)
