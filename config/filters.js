@@ -1,8 +1,55 @@
 import markdownIt from "markdown-it";
 
+function rawHtmlTypographer(md) {
+  const MARKUP_RE = /(<!--[\s\S]*?-->|<[^>]*>)/;
+  const VERBATIM_TAG_RE = /^<\s*(\/?)(pre|code|script|style|textarea)\b/i;
+
+  md.core.ruler.before("replacements", "raw_html_typographer_open", (state) => {
+    if (!state.md.options.typographer) return;
+    let verbatimDepth = 0;
+
+    for (const token of state.tokens) {
+      if (token.type !== "html_block") continue;
+      const children = [];
+
+      token.content.split(MARKUP_RE).forEach((segment, i) => {
+        if (segment === "") return;
+        const isMarkup = i % 2 === 1;
+        if (isMarkup) {
+          const verbatim = segment.match(VERBATIM_TAG_RE);
+          if (verbatim) {
+            verbatimDepth = Math.max(0, verbatimDepth + (verbatim[1] ? -1 : 1));
+          }
+        }
+        const child = new state.Token(
+          isMarkup || verbatimDepth > 0 ? "html_inline" : "text",
+          "",
+          0,
+        );
+        child.content = segment;
+        children.push(child);
+      });
+      token.type = "inline";
+      token.children = children;
+      token.meta = { ...token.meta, rawHtmlTypographer: true };
+    }
+  });
+
+  md.core.ruler.push("raw_html_typographer_close", (state) => {
+    for (const token of state.tokens) {
+      if (!token.meta?.rawHtmlTypographer) continue;
+      token.type = "html_block";
+      token.content = token.children.map((t) => t.content).join("");
+      token.children = null;
+      delete token.meta.rawHtmlTypographer;
+    }
+  });
+}
+
 export default function (eleventyConfig) {
   const md = markdownIt({ html: true, linkify: true, typographer: true });
   md.linkify.set({ fuzzyLink: false });
+  rawHtmlTypographer(md);
   eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addFilter("markdownify", (str) => {
