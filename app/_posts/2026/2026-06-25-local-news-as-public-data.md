@@ -3,6 +3,7 @@ title: Local News as Public Data, Then and Now
 date: 2026-06-25T12:30:00-04:00
 author:
 - molly-hardy
+project: public-data-project
 tags:
 - Public Data
 thumbnail: https://lil-blog-media.s3.amazonaws.com/seeing-washington-thumbnail.webp
