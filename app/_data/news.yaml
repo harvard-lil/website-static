@@ -270,6 +270,14 @@
   archived_date: 2025-11-23T00:00:00-04:00
 - project: public-data-project
   type: press
+  title: The Costs of Trump’s Campaign to Censor Climate Science
+  publication: Financial Times
+  date: 2025-10-20T04:00:07+00:00
+  url: https://www.ft.com/content/2df1e0c5-f347-4cb3-abfb-b97996e24562
+  archived_url: https://perma.cc/99ET-YG3R
+  archived_date: 2026-06-04T22:15:00-04:00
+- project: public-data-project
+  type: press
   title: The Women Saving America’s Climate Data
   publication: Time
   date: 2026-01-17T12:00:00-04:00
