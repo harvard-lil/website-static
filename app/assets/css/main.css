@@ -121,21 +121,21 @@ html {
   padding-inline: 20px;
 }
 
-@media only screen and (min-width: 586px) {
+@media (width >= theme(--breakpoint-sm)) {
   .container {
     max-width: min(60ch, 100vw - 80px);
     padding-inline: 0;
   }
 }
 
-@media only screen and (min-width: 860px) {
+@media (width >= theme(--breakpoint-tbl)) {
   .container {
     max-width: calc(100vw - 80px);
     padding-inline: 0;
   }
 }
 
-@media only screen and (min-width: 1521px) {
+@media (width >= theme(--breakpoint-2xl)) {
   .container {
     max-width: 1440px;
   }
@@ -177,7 +177,7 @@ lil-header.expanded .logo {
 
 lil-header.expanded .menu-button__bar {
   transform: translateY(-50%) rotate(45deg);
-  background-color: white;
+  background-color: var(--color-white);
   transition: background-color calc(300ms * var(--animation-rate)) ease calc(300ms * var(--animation-rate)), transform calc(300ms * var(--animation-rate)) ease;
 }
 
@@ -192,15 +192,15 @@ lil-header.expanded .menu-button .menu-button__bar:nth-child(2) {
 lil-header svg {
   transition: color calc(300ms * var(--animation-rate)) ease;
   transition-delay: calc(400ms * var(--animation-rate));
-  color: #121212;
+  color: var(--color-black);
 }
 
 lil-header a:hover svg {
-  color: #8AAFBA;
+  color: var(--color-green);
 }
 
 lil-header.expanded svg {
-  color: white;
+  color: var(--color-white);
   transition: color calc(300ms * var(--animation-rate)) ease;
   transition-delay: calc(300ms * var(--animation-rate));
 }
@@ -283,7 +283,7 @@ lil-header.expanded .nav-menu__inner {
 }
 
 .interactive-link.dark, .interactive-link-inline.dark {
-  background-image: linear-gradient(#121212, #121212);
+  background-image: linear-gradient(var(--color-black), var(--color-black));
 }
 
 .interactive-link.reverse, .interactive-link-inline.reverse {
@@ -319,7 +319,7 @@ lil-header.expanded .nav-menu__inner {
 
 .page-hero {
   padding-bottom: 72px;
-  border-bottom: 1px solid #121212;
+  border-bottom: 1px solid var(--color-black);
   margin-bottom: 72px;
   padding-top: 120px;
 }
@@ -403,7 +403,7 @@ lil-header.expanded .nav-menu__inner {
 }
 
 .expandable {
-  border-bottom: 1px solid #121212;
+  border-bottom: 1px solid var(--color-black);
   display: block;
 }
 
@@ -435,7 +435,7 @@ lil-header.expanded .nav-menu__inner {
   width: 36px;
   height: 36px;
   border-radius: 36px;
-  border: 1.5px solid #121212;
+  border: 1.5px solid var(--color-black);
   position: relative;
   transition: transform calc(500ms * var(--animation-rate)) ease;
 }
@@ -443,7 +443,7 @@ lil-header.expanded .nav-menu__inner {
 .expandable__icon span {
   width: 18px;
   height: 1.5px;
-  background: #121212;
+  background: var(--color-black);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -495,7 +495,7 @@ html.is-animating .transition-main {
   opacity: 0;
 }
 
-@media (max-width: 859px) {
+@media (width < theme(--breakpoint-tbl)) {
   .page-hero {
     padding-bottom: 36px;
     margin-bottom: 36px;
