@@ -264,7 +264,6 @@ lil-header.expanded svg {
 lil-header.expanded .nav-menu__overlay {
   opacity: 1;
   visibility: visible;
-  transition: opacity calc(500ms * var(--animation-rate)) ease calc(300ms * var(--animation-rate)), visibility calc(500ms * var(--animation-rate)) ease calc(300ms * var(--animation-rate));
 }
 
 lil-header.expanded .nav-menu__inner {
@@ -332,6 +331,8 @@ lil-header.expanded .nav-menu__inner {
   font-weight: 500;
   line-height: 100%;
   padding-bottom: 36px;
+  /* Align large heading text flush with left side of page content */
+  margin-left: -0.05em;
 }
 
 .page-hero__subtitle {
@@ -356,11 +357,6 @@ lil-header.expanded .nav-menu__inner {
 
 .page-hero.project .page-hero__title {
   padding-bottom: 16px;
-}
-
-/* Align large heading text flush with left side of page content */
-.page-hero__title {
-  margin-left: -0.05em;
 }
 
 .page-hero.events {
@@ -456,22 +452,18 @@ lil-header.expanded .nav-menu__inner {
 
 .expandable__icon span:nth-child(1) {
   transform: translate(-50%, -50%) rotate(90deg);
-  transition: transform calc(500ms * var(--animation-rate)) ease;
 }
 
 .expandable__toggle:hover .expandable__icon {
   transform: rotate(90deg);
-  transition: transform calc(500ms * var(--animation-rate)) ease;
 }
 
 .expandable.expanded .expandable__icon {
   transform: rotate(90deg);
-  transition: transform calc(500ms * var(--animation-rate)) ease;
 }
 
 .expandable.expanded .expandable__icon span:nth-child(2) {
   transform: translate(-50%, -50%) rotate(-90deg);
-  transition: transform calc(500ms * var(--animation-rate)) ease;
 }
 
 .expandable__content {
