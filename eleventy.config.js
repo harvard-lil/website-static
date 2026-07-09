@@ -49,8 +49,11 @@ export default function (eleventyConfig) {
   filters(eleventyConfig);
   collections(eleventyConfig);
 
-  eleventyConfig.setServerOptions({ showAllHosts: true });
-  eleventyConfig.addWatchTarget("app/assets/css/");
+  eleventyConfig.setServerOptions({
+    showAllHosts: true,
+    watch: ["build/assets/css/**/*.css"],
+  });
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
   eleventyConfig.ignores.add("**/README.md");
 

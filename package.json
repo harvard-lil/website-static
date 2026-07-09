@@ -6,7 +6,7 @@
   "scripts": {
     "css:build": "tailwindcss -i app/assets/css/main.css -o build/assets/css/main.css --minify",
     "css:watch": "tailwindcss -i app/assets/css/main.css -o build/assets/css/main.css --watch",
-    "start": "npm run css:build && concurrently \"npm run css:watch\" \"eleventy --serve\"",
+    "start": "npm run css:build && concurrently \"npm run css:watch\" \"eleventy --serve --incremental\"",
     "build": "npm run css:build && eleventy"
   },
   "author": "Harvard Library Innovation Lab",
