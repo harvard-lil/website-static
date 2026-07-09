@@ -1,6 +1,6 @@
 <div class="flex flex-col gap-6 relative pt-8 lg:pt-12" id="{{ person.name | slugify }}">
     {% if border == 'true' %}
-      <div class="hidden md:block absolute md:-right-8 lg:-right-[60px] -top-2.5 md:top-0 w-px h-full bg-black"></div>
+      <div class="hidden md:block absolute md:-right-8 lg:right-[-60px] -top-2.5 md:top-0 w-px h-full bg-black"></div>
     {% endif %}
 
     {% if tag != 'false' %}
@@ -8,7 +8,7 @@
     {% endif %}
 
     <figure>
-      <img class="w-full relative overflow-hidden rounded-full max-w-[75%] sm:max-w-[100%] mx-auto" src="/assets/thumbs/432x432c/{{ person.image }}"
+      <img class="w-full relative overflow-hidden rounded-full max-w-[75%] sm:max-w-full mx-auto" src="/assets/thumbs/432x432c/{{ person.image }}"
            srcset="/assets/thumbs/216x216c/{{ person.image }} 216w,
                     /assets/thumbs/432x432c/{{ person.image }} 432w,
                     /assets/thumbs/648x648c/{{ person.image }} 648w"

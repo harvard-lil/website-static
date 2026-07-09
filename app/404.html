@@ -5,16 +5,16 @@ permalink: /404.html
 ---
 
 <section class="container pb-[150px]">
-  <div class="page-hero simple relative z-[1]">
+  <div class="page-hero simple relative z-1">
     <h1 class="page-hero__title editable">Oops!</h1>
-    <h2 class="page-hero__subtitle flex flex-col gap-6 !max-w-[1080px] editable">
+    <h2 class="page-hero__subtitle flex flex-col gap-6 max-w-[1080px]! editable">
       We can’t seem to find the page you are looking for.
     </h2>
     <p class="editable">
       To report a broken link, please <a class="interactive-link dark reverse" href="mailto:{{ site.email }}">contact us.</a>
     </p>
   </div>
-  <div class="w-full -translate-y-[150px] relative z-[0]">
+  <div class="w-full translate-y-[-150px] relative z-0">
     {% include "404.html" %}
   </div>
 </section>

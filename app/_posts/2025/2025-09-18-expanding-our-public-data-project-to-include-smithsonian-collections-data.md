@@ -8,14 +8,14 @@ tags:
   - Public Data
 ---
 <figure class="items-center text-center">
-  <img class="h-fit w-full !mb-0" src="https://lil-blog-media.s3.amazonaws.com/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." />
+  <img class="h-fit w-full" src="https://lil-blog-media.s3.amazonaws.com/smithsonian-building-sunlight.jpg" alt="Photograph of the Smithsonian Institution Building in Washington, D.C." />
   <figcaption>Smithsonian Institution building, from Wikimedia Commons</figcaption>
 </figure>
 
 We are excited to announce today that the Library Innovation Lab has expanded our [Public Data Project](https://lil.law.harvard.edu/our-work/public-data-project/) beyond [datasets available through Data.gov](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/) to include 710 TB of data from the Smithsonian Institution — the complete open access portion of the Smithsonian’s collections. This marks an important step in our long-running mission to preserve large scale public collections both for our patrons and for posterity.
 
-<figure class="float-right items-center text-center w-full sm:!w-[300px] sm:!ml-1 ">
-  <img class="h-[400px] !mb-0" src="https://lil-blog-media.s3.amazonaws.com/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" />
+<figure class="float-right items-center text-center w-full sm:w-75! sm:ml-1!">
+  <img class="h-100" src="https://lil-blog-media.s3.amazonaws.com/nmah-ahb2013q013111-screen.jpg" alt="Scanned image of suffragette ribbon that reads, &quot;Votes for Women — Brooklyn Woman Suffrage Association — 1869 — 'Failure Is Impossible' — S. B. A.&quot;" />
   <figcaption>From the National Museum of American History. Creative Commons 0 License</figcaption>
 </figure>
 
@@ -26,6 +26,6 @@ The Smithsonian has had the mission, since its founding in 1846, to pursue “th
 Our initial collection includes some 5.1 million collection items and 710 TB of data. As is always our practice, we have cryptographically signed these items to ensure provenance and are exploring resilient techniques to share access to them, which we plan to launch in the future.
 
 <figure class="items-center text-center">
-  <iframe class="w-full h-[450px]" name="Smithsonian Voyager" src="https://3d-api.si.edu/voyager/3d_package:f9ce2f58-1d64-4958-9f18-721ed916858a" allow="xr; xr-spatial-tracking; fullscreen"></iframe>
+  <iframe class="w-full h-112.5" name="Smithsonian Voyager" src="https://3d-api.si.edu/voyager/3d_package:f9ce2f58-1d64-4958-9f18-721ed916858a" allow="xr; xr-spatial-tracking; fullscreen"></iframe>
   <figcaption>From the National Museum of African American History and Culture. Creative Commons 0 License</figcaption>
 </figure>

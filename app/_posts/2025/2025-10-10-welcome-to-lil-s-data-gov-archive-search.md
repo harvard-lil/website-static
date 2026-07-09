@@ -22,7 +22,7 @@ This interface joins a host of recent efforts not only to preserve government da
 LIL has chosen [Source Cooperative](http://source.coop) as the ideal repository for its Data.gov archive for a number of reasons. Built on cloud object storage, the repository supports direct publication of massive datasets, making it easy to share the data in its entirety or as discrete objects. Additionally, LIL has used the Library of Congress standard for the transfer of digital files. The “BagIt” principles of archiving ensure that each object is digitally signed and retains detailed metadata for authenticity and provenance. Our hope is that these additional steps will make it easier for researchers and the public to cite and access the information they need over time.
 
 <figure class="items-center text-center">
-  <img class="h-fit w-full !mb-0" src="https://lil-blog-media.s3.amazonaws.com/bagit_video_still.jpg" alt="Still frame depicting a satellite dish transmitting waves into space" />
+  <img class="h-fit w-full" src="https://lil-blog-media.s3.amazonaws.com/bagit_video_still.jpg" alt="Still frame depicting a satellite dish transmitting waves into space" />
   <figcaption>Screenshot from the Library of Congress video <a href="https://www.youtube.com/watch?v=l3p3ao_JSfo">BagIt: Transferring Content for Digital Preservation</a>.</figcaption>
 </figure>
 
