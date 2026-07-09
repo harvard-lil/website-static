@@ -84,11 +84,11 @@ layout: default
       <div class="flex flex-col lg:grid lg:grid-cols-3 gap-6 lg:gap-9 items-baseline">
         <h2 class="h2">Project Contributors</h2>
 
-        <div class="slice-body additional-contributors lg:col-span-2 body-text lg:max-w-[750px]">
+        <div class="lg:col-span-2 body-text lg:max-w-[750px]">
           {% for name in who_contributed %}
             {% assign person = people[name] %}
-            <strong class="name">{{ person.name }}</strong>
-            <span class="role">{{ person.role }}</span>
+            <strong>{{ person.name }}</strong>
+            <span>{{ person.role }}</span>
           {% endfor %}
         </div>
       </div>

@@ -13,13 +13,13 @@ custom-css: ['post-content']
         <h1 class="h2">
           {{title}}
           <br>
-          <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         </h1>
       </div>
     </div>
   </div>
 </section>
-<section class="container post">
+<section class="container">
   <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-6 md:grid md:grid-cols-12 body-text">
     <div class="md:col-span-8 md:col-start-3" itemprop="articleBody">
         {% if banner %}

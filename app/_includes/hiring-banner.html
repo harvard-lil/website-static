@@ -1,5 +1,5 @@
 {% if title.size > 0 %}
-<lil-marquee class="block marquee bg-purple py-1.5 md:py-2.5 px-5 uppercase font-mono font-medium text-sm md:text-base leading-[120%] md:leading-[120%] tracking-[0.02em] md:tracking-[0.07em] text-announcement whitespace-nowrap overflow-hidden relative z-[100]{% unless isHome %} hidden{% endunless %}">
+<lil-marquee class="block bg-purple py-1.5 md:py-2.5 px-5 uppercase font-mono font-medium text-sm md:text-base leading-[120%] md:leading-[120%] tracking-[0.02em] md:tracking-[0.07em] whitespace-nowrap overflow-hidden relative z-[100]{% unless isHome %} hidden{% endunless %}">
   <a href="/jobs/" class="marquee__inner">
     <div class="marquee__part inline-block">* We're hiring — {{ title }} </div>
     {% for i in (1..4) %}

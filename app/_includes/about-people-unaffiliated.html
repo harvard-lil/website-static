@@ -5,7 +5,7 @@
   <div class="pt-1.5 md:pt-0 md:col-span-3 flex md:justify-end">
       <ul class="flex items-center gap-3 md:gap-6">
         {% if person.website %}
-          <li class="website">
+          <li>
             <a href="{{ person.website}}">
               <span class="sr-only">{{ person.name }}'s website</span>
               <span aria-hidden="true">{% include "icon-website.html" %}</span>
@@ -13,7 +13,7 @@
           </li>
         {% endif %}
         {% if person.twitter_account_name %}
-          <li class="twitter">
+          <li>
             <a href="https://www.twitter.com/{{ person.twitter_account_name }}">
               <span class="sr-only">{{ person.name }} on Twitter</span>
               <span aria-hidden="true">{% include "icon-x.html" %}</span>
@@ -21,7 +21,7 @@
           </li>
         {% endif %}
         {% if person.mastodon_url %}
-          <li class="mastodon">
+          <li>
             <a href="{{ person.mastodon_url }}">
               <span class="sr-only">{{ person.mastodon_url | to_handle }} on Mastodon</span>
               <span aria-hidden="true">{% include "icon-mastodon.html" %}</span>
@@ -29,7 +29,7 @@
           </li>
         {% endif %}
         {% if person.github_account_name %}
-          <li class="github">
+          <li>
             <a href="https://github.com/{{ person.github_account_name}}">
               <span class="sr-only">{{ person.name }} on GitHub</span>
               <span aria-hidden="true">{% include "icon-github.html" %}</span>
