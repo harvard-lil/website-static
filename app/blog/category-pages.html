@@ -9,7 +9,7 @@ permalink: "{{ catData.href.self }}"
 eleventyExcludeFromCollections: true
 ---
 
-<section class="pt-12 md:pt-[72px]">
+<section class="pt-12 md:pt-18">
 
   <div class="container flex flex-col gap-12 mb-14">
     {% include "tag-filter.html", current_tag: catData.name %}
@@ -44,7 +44,7 @@ eleventyExcludeFromCollections: true
         {% if finish > catData.totalPosts %}
           {% assign finish = catData.totalPosts %}
         {% endif %}
-        <nav aria-label="results list pagination" class="container pt-12 md:pt-[60px]">
+        <nav aria-label="results list pagination" class="container pt-12 md:pt-15">
           <div class="w-full pt-3.5 md:pt-5 border-t border-black flex items-center justify-between body-text">
             <span>{{ start }}–{{ finish }} of {{ catData.totalPosts }}</span>
             <div class="flex items-center gap-6">

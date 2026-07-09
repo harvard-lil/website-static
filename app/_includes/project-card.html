@@ -1,14 +1,14 @@
-<div class="relative block container {% if featured %}pt-[84px] tbl:pt-[120px] md:pt-[84px]{% endif %}">
+<div class="relative block container {% if featured %}pt-21 tbl:pt-30 md:pt-21{% endif %}">
   {% if featured %}
-    <div class="absolute w-[72px] h-[72px] tbl:w-[136px] tbl:h-[136px] md:w-[165px] md:h-[165px] top-12 left-3 sm:left-0 tbl:top-[52px] md:top-0 z-2 motion-safe:animate-spin select-none">
+    <div class="absolute w-18 h-18 tbl:w-34 tbl:h-34 md:w-41.25 md:h-41.25 top-12 left-3 sm:left-0 tbl:top-13 md:top-0 z-2 motion-safe:animate-spin select-none">
       <img src="/assets/images/featured-project-text.svg" class="w-full h-full object-contain" alt="Featured Project" />
     </div>
   {% endif %}
   <div class="{{ background }} pt-9 pb-3 tbl:pt-0 tbl:pb-0 flex flex-col tbl:grid tbl:grid-cols-2 tbl:items-center relative overflow-hidden">
     <div class="flex items-start justify-start tbl:items-center tbl:justify-center px-6 tbl:px-0">
-      <img class="w-full max-w-[132px] min-h-[132px] max-h-[132px] pb-3 tbl:max-w-[348px] tbl:max-h-[300px] tbl:pb-0 object-contain object-left tbl:object-center" src="/assets/images/{{ logo }}" alt="{{ title }}">
+      <img class="w-full max-w-33 min-h-33 max-h-33 pb-3 tbl:max-w-87 tbl:max-h-75 tbl:pb-0 object-contain object-left tbl:object-center" src="/assets/images/{{ logo }}" alt="{{ title }}">
     </div>
-    <div class="w-full p-6 pt-0 tbl:p-[72px] flex flex-col gap-5 tbl:gap-8">
+    <div class="w-full p-6 pt-0 tbl:p-18 flex flex-col gap-5 tbl:gap-8">
       <h2 class="h2">{{ title }}</h2>
       <p class="body-text">{{ description }}</p>
       <div class="flex flex-col tbl:flex-row tbl:items-center gap-5 tbl:gap-8 pt-3 tbl:pt-6 whitespace-nowrap">
@@ -20,7 +20,7 @@
         {% endif %}
       </div>
     </div>
-    <div aria-hidden="true" class="absolute w-[150px] h-[150px] bg-white top-0 left-0 rotate-45 translate-y-[-75%] translate-x-[-75%] tbl:translate-y-[-60%] tbl:translate-x-[-60%]"></div>
-    <div aria-hidden="true" class="absolute w-[150px] h-[150px] bg-white bottom-0 right-0 rotate-45 translate-x-[75%] translate-y-[75%] tbl:translate-y-[60%] tbl:translate-x-[60%]"></div>
+    <div aria-hidden="true" class="absolute w-37.5 h-37.5 bg-white top-0 left-0 rotate-45 -translate-y-3/4 -translate-x-3/4 tbl:-translate-y-3/5 tbl:-translate-x-3/5"></div>
+    <div aria-hidden="true" class="absolute w-37.5 h-37.5 bg-white bottom-0 right-0 rotate-45 translate-x-3/4 translate-y-3/4 tbl:translate-y-3/5 tbl:translate-x-3/5"></div>
   </div>
 </div>

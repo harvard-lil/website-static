@@ -14,10 +14,10 @@ layout: default
     </div>
   </section>
 
-  <section class="container flex flex-col gap-6 md:gap-9 pb-[72px] md:pb-24">
+  <section class="container flex flex-col gap-6 md:gap-9 pb-18 md:pb-24">
     <h2 class="h2 editable">Research</h2>
     <div class="md:col-span-2 body-text flex flex-col gap-12">
-      <p class="flex flex-col gap-5 max-w-[700px] editable">
+      <p class="flex flex-col gap-5 max-w-175 editable">
         Recent and ongoing explorations in areas relating to access to knowledge, memory, and legal practice.
       </p>
     </div>
@@ -29,7 +29,7 @@ layout: default
       {% assign subcategories = active_research | map: 'subcategory' | join: ',' | split: ',' | uniq | sort %}
 
       {% for category in subcategories %}
-        <div class="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-12 w-full {% if forloop.last == false %} border-b border-black pb-12 md:pb-[60px]{% endif %} items-baseline">
+        <div class="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-12 w-full {% if forloop.last == false %} border-b border-black pb-12 md:pb-15{% endif %} items-baseline">
           <h3 class="label {% unless forloop.first %} mt-3 md:mt-0 {% endunless %}">{{ category }}</h3>
           <div class="grid grid-cols-2 gap-9 md:col-span-2">
 
@@ -65,7 +65,7 @@ layout: default
     <div class="flex flex-col md:grid md:grid-cols-3 gap-7 md:gap-10 items-baseline">
       <h2 class="h2 editable">Projects</h2>
       <div class="md:col-span-2 body-text flex flex-col gap-12">
-        <p class="flex flex-col gap-5 max-w-[700px]">
+        <p class="flex flex-col gap-5 max-w-175">
           <!-- -->
         </p>
       </div>
@@ -85,7 +85,7 @@ layout: default
     {% endfor %}
   </section>
 
-  <section class="bg-yellow pt-12 tbl:pt-[72px] pb-[72px] md:pb-24 md:mt-12">
+  <section class="bg-yellow pt-12 tbl:pt-18 pb-18 md:pb-24 md:mt-12">
     <div class="container flex flex-col gap-3 md:gap-6">
       <h2 class="h2">Past Projects</h2>
       <div class="flex flex-col">

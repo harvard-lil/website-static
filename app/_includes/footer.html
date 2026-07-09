@@ -1,6 +1,6 @@
-<footer aria-label="page footer" class="bg-black text-white pt-6 pb-6 sm:pt-[60px] sm:pb-10 {% unless slug == 'our-work' or slug == 'jobs' %} mt-[72px] md:mt-24 {% endunless %}">
+<footer aria-label="page footer" class="bg-black text-white pt-6 pb-6 sm:pt-15 sm:pb-10 {% unless slug == 'our-work' or slug == 'jobs' %} mt-18 md:mt-24 {% endunless %}">
   <div class="nav-container flex flex-wrap sm:grid sm:grid-cols-12 sm:gap-x-5 sm:gap-y-7">
-    <a href="/" class="block relative w-full max-w-[160px] sm:col-span-4 sm:max-w-[340px]">
+    <a href="/" class="block relative w-full max-w-40 sm:col-span-4 sm:max-w-85">
       <span class="sr-only">Home</span>
       <span aria-hidden="true">{% include "footer-logo.html" %}</span>
     </a>
@@ -39,7 +39,7 @@
       </a>
     </div>
     <div class="w-full flex flex-col sm:flex-row sm:items-center sm:justify-between sm:gap-5 pt-6 border-t border-white sm:col-span-12 text-xs sm:text-base">
-      <div class="flex flex-col sm:flex-row sm:items-center sm:gap-[100px]">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:gap-25">
         <p>&copy; {{ "now" | date: "%Y" }} The President and Fellows of Harvard University</p>
       </div>
       <p><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy">Accessibility</a></p>
