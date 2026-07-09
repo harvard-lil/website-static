@@ -394,20 +394,19 @@ kyle-deeds:
   affiliated: true
   current: true
   section: Affiliates
-christopher-dick:
-  name: Christopher Dick
-  sort_name: Dick
+ying-hsiang-huang:
+  name: Ying-Hsiang Huang
+  sort_name: Huang
   role: Fellow
-  bio: >-
-    Chris is a data scientist, demographer, and founder of the company Demographic
-    Analytics Advisors. He began his career as a statistician and demographer at the
-    United States Census Bureau as well as the United States Citizenship and Immigration
-    Services. He later served as the managing director for public sector data science for
-    the tech startup Civis Analytics. His current work focuses on building tools to monitor
-    the federal data ecosystem at dataindex.us, telling the story of federal data at
-    essentialdata.us, and building tools to enhance decision-making in the public and
-    nonprofit sectors.
-  image: christopher-dick.jpg
+  bio: >
+    Ying-Hsiang is an incoming PhD student at the University of Washington Information School.
+    He earned his MLIS from the University of Washington and brings seven years of software engineering
+    experience across industry and academia, including roles at the University of Washington Libraries,
+    the University of Washington eScience Institute, and King County Library System. His research
+    explores how AI can improve the organization, discovery, and accessibility of digital collections
+    and public knowledge. He develops open-source tools and infrastructure for digital libraries,
+    information retrieval, and linked data.
+  image: ying-hsiang-huang.jpg
   affiliated: true
   current: true
   section: Affiliates
