@@ -12,12 +12,12 @@
     <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/assets/images/apple-touch-favicon.png">
     <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="stylesheet" href="/assets/css/main.css?v=CSS_BUST">
+    <link rel="stylesheet" href="/assets/css/main.css?v={{ assets.hashes['main.css'] }}">
     <link rel="alternate" href="/blog/feed/index.xml" type="application/rss+xml" title="RSS Feed">
     <link rel="alternate" href="/blog/feed/atom/index.xml" type="application/atom+xml" title="Atom Feed">
-    <script src="/assets/lib/gsap@3.12.5/gsap.min.js?v=JS_BUST"></script>
-    <script src="/assets/lib/swup@4.7.0/Swup.umd.js?v=JS_BUST"></script>
-    <script src="/assets/lib/swup-head-plugin@2.2.0/index.umd.js?v=JS_BUST"></script>
+    <script src="/assets/lib/gsap.min.js?v={{ assets.libs.gsap }}"></script>
+    <script src="/assets/lib/Swup.umd.js?v={{ assets.libs.swup }}"></script>
+    <script src="/assets/lib/swup-head-plugin.umd.js?v={{ assets.libs.swupHeadPlugin }}"></script>
     {% include "custom-css.html" %}
   </head>
   <body class="bg-white font-sans font-normal">
@@ -28,7 +28,7 @@
       </main>
       {% include "footer.html" %}
     </div>
-    <script src="/assets/javascripts/main.js?js-cache-buster=1"></script>
+    <script src="/assets/javascripts/main.js?v={{ assets.hashes['main.js'] }}"></script>
     {% include "custom-scripts.html" %}
   </body>
 </html>
