@@ -1,6 +1,27 @@
-@import 'tailwindcss';
+@import 'tailwindcss' source('../../');
 
-@config '../../../tailwind.config.js';
+@theme {
+  --color-black: #121212;
+  --color-white: #ffffff;
+  --color-blue: #A7E2FF;
+  --color-pink: #FFA7A7;
+  --color-yellow: #FFF069;
+  --color-green: #8AAFBA;
+  --color-purple: #F0D0FF;
+  --color-gray: #DCE2E5;
+
+  --font-sans: "NeueHaasGrotesk", sans-serif;
+  --font-mono: "DMMono", monospace;
+
+  --breakpoint-sm: 586px;
+  --breakpoint-tbl: 860px;
+  --breakpoint-md: 992px;
+  --breakpoint-lg: 1030px;
+  --breakpoint-xl: 1300px;
+  --breakpoint-2xl: 1520px;
+
+  --animate-spin: spin 30s linear infinite;
+}
 
 @font-face {
   font-family: "NeueHaasGrotesk";
