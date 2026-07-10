@@ -482,6 +482,19 @@ lil-header.expanded .nav-menu__inner {
   max-width: 800px;
 }
 
+.expandable__content a {
+  position: relative;
+  background-image: linear-gradient(var(--color-black), var(--color-black));
+  background-position: 0 100%;
+  background-size: 100% .1ch;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease;
+}
+
+.expandable__content a:hover {
+  background-size: 100% 0;
+}
+
 html.is-changing .transition-main {
   transition: opacity calc(350ms * var(--animation-rate)) ease-in-out;
 }
