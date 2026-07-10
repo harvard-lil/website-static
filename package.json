@@ -23,5 +23,9 @@
     "markdown-it": "^14.1.0",
     "swup": "^4.9.2",
     "tailwindcss": "^4.3.2"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.5.1": true,
+    "fsevents@2.3.3": true
   }
 }
