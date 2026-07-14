@@ -65,7 +65,7 @@ class blogSearch {
       const cycler = createCycler(1,6);
       const html = results.map(item => {
         return `
-          <article class="flex flex-col gap-8 relative">
+          <article class="flex flex-col gap-2 relative">
             <header class="aspect-square w-full bg-gray relative">
               ${item.image && item.image !== null && item.image !== '' ? (
                 `<object data="${item.image}" class="w-full h-full object-cover absolute inset-0">
@@ -73,10 +73,10 @@ class blogSearch {
                  </object>`
               ) : ''}
             </header>
-            <h2 class="text-18 leading-115 font-medium" itemprop="headline">
+            <h2 class="text-lg leading-[115%] font-medium" itemprop="headline">
               <a href="${item.url}" class="card-link">${item.title}</a>
             </h2>
-            <time class="text-18 leading-00" datetime="${item.date}">${item.date}</time>
+            <time class="text-lg leading-none" datetime="${item.date}">${item.date}</time>
           </article>`
         }).join('')
       if(this.searchField.value === '') {

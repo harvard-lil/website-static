@@ -7,19 +7,19 @@ slug: home
 sharing-card-type: summary_large_image
 ---
 
-<div class="pt-36 pb-32 sm:pt-96 sm:pb-132  md:pt-156 md:pb-228 max-w-[92%] sm:max-w-[88%] xl:max-w-[1190px] m-auto text-[clamp(52px,8.5vw,120px)] leading-[clamp(52px,8.5vw,120px)] sm:text-center">
+<div class="pt-9 pb-8 sm:pt-24 sm:pb-33  md:pt-39 md:pb-57 max-w-[92%] sm:max-w-[88%] xl:max-w-297.5 m-auto text-[clamp(52px,8.5vw,120px)] leading-[clamp(52px,8.5vw,120px)] sm:text-center">
   <h1 class="font-medium">Library Innovation Lab at Harvard Law School</h1>
 </div>
 
-<div class="bg-black text-white w-full py-48 md:pt-72 md:pb-120 text-center flex flex-col justify-center items-center gap-20 md:gap-32">
-  <div class="font-mono uppercase tracking-8 text-green text-16 md:text-24 font-medium editable">Our Mission</div>
-  <div contenteditable class="text-28 md:text-54 leading-120 max-w-[1200px] mx-12 editable">To grow knowledge and community by bringing <strong>library principles</strong> to <strong>technological frontiers.</strong></div>
+<div class="bg-black text-white w-full py-12 md:pt-18 md:pb-30 text-center flex flex-col justify-center items-center gap-5 md:gap-8">
+  <div class="font-mono uppercase tracking-[0.08em] text-green text-base md:text-2xl md:leading-normal font-medium">Our Mission</div>
+  <div class="text-3xl md:text-[54px] text-balance leading-[120%] max-w-300 mx-3 editable">To grow knowledge and community by bringing <strong>library principles</strong> to <strong>technological frontiers.</strong></div>
 </div>
 
-<div class="bg-blue py-32">
-  <div class="container flex flex-col sm:flex-row sm:items-center sm:justify-between gap-12 md:gap-24">
-    <h2 class="text-14 md:text-18 tracking-8 uppercase font-medium editable">Follow our latest projects</h2>
-    <ul class="flex items-center gap-60 text-[24px] leading-[120%]">
+<div class="bg-blue py-8">
+  <div class="container flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 md:gap-6">
+    <h2 class="text-sm md:text-lg tracking-[0.08em] uppercase font-medium editable">Follow our latest projects</h2>
+    <ul class="flex items-center gap-15 text-[24px] leading-[120%]">
       <li>
         {% include "arrow-link.html", label: "Blog", href: "/blog/", reverse: true %}
       </li>
@@ -30,11 +30,11 @@ sharing-card-type: summary_large_image
   </div>
 </div>
 
-<div class="container flex flex-col gap-50 md:gap-100">
-  <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-40 mt-36 sm:mt-48 items-baseline">
+<div class="container flex flex-col gap-12 md:gap-25">
+  <div class="flex flex-col md:grid md:grid-cols-3 gap-7 md:gap-10 mt-9 sm:mt-12 items-baseline">
     <h2 class="h2 editable">Who We Are</h2>
-    <div class="md:col-span-2 body-text flex flex-col gap-28 md:gap-50 z-10">
-      <div class="flex flex-col gap-20 editable">
+    <div class="md:col-span-2 body-text flex flex-col gap-7 md:gap-12 z-10">
+      <div class="flex flex-col gap-5 editable">
         <p>Our team combines librarians, technologists, lawyers, and more to build tools and conduct research that empowers access to our shared knowledge and cultural heritage.</p>
       </div>
       {% include "arrow-link.html", label: "Learn More About Who We Are", href: "/about/", reverse: true %}
@@ -42,7 +42,7 @@ sharing-card-type: summary_large_image
   </div>
 </div>
 
-<div class="flex flex-col gap-50 md:gap-60 -mt-12 sm:mt-0 md:-mt-18">
+<div class="flex flex-col gap-12 md:gap-15 -mt-3 sm:mt-0 md:-mt-5">
   {% assign featured_projects = collections.our_work | where:"featured",true | sort: "order" %}
   <div class="flex flex-col">
     {% for project in featured_projects %}
@@ -56,11 +56,11 @@ sharing-card-type: summary_large_image
     {% endfor %}
   </div>
 
-  <div class="container flex flex-col gap-50 md:gap-100">
-    <div class="flex flex-col md:grid md:grid-cols-3 gap-28 md:gap-50 pb-50 md:pb-72 border-b-1 border-black items-baseline">
+  <div class="container flex flex-col gap-12 md:gap-25">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-7 md:gap-12 pb-12 md:pb-18 border-b border-black items-baseline">
       <h2 class="h2 editable">Our Work</h2>
-      <div class="md:col-span-2 body-text flex flex-col gap-28 md:gap-50">
-        <div class="flex flex-col gap-20 editable">
+      <div class="md:col-span-2 body-text flex flex-col gap-7 md:gap-12">
+        <div class="flex flex-col gap-5 editable">
           <p>Platforms like Perma.cc translate the traditional roles of libraries into the digital age. Explorations like WARC-GPT empower practitioners to learn and leverage new technologies in the context of their field.</p>
         </div>
         {% include "arrow-link.html", label: "View All Projects", href: "/our-work/", reverse: true %}

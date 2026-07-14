@@ -9,7 +9,7 @@ custom-css: ["post-content"]
       <a href="/our-work/" class="interactive-link dark reverse">Our Work</a>
     </nav>
     {% if title_image %}
-      <img class="max-h-144 mb-10 page-hero__title" src="{{ title_image }}" alt="{{ title }}" />
+      <img class="max-h-36 mb-2.5 page-hero__title" src="{{ title_image }}" alt="{{ title }}" />
     {% else %}
       <h1 class="page-hero__title">{{ title }}</h1>
     {% endif %}
@@ -17,13 +17,13 @@ custom-css: ["post-content"]
   </div>
 </section>
 
-<div class="flex flex-col gap-48 md:gap-60 items-start">
+<div class="flex flex-col gap-12 md:gap-15 items-start">
 
   {% for section in sections %}
-    <section class="container flex flex-col gap-36 md:gap-72">
-      <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-48 items-baseline">
+    <section class="container flex flex-col gap-9 md:gap-18">
+      <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-12 items-baseline">
         <h2 class="h2">{{ section[0] }}</h2>
-        <div class="post-content md:col-span-2 body-text flex flex-col gap-12 xl:max-w-[700px]">
+        <div class="post-content md:col-span-2 body-text flex flex-col gap-3 xl:max-w-175">
           {{ section[1] | markdownify }}
         </div>
       </div>
@@ -36,11 +36,11 @@ custom-css: ["post-content"]
 
   {% assign updates = collections.posts | where: "project", slug | sort: "date" | reverse | slice: 0, 5 %}
   {% if updates.size > 0 %}
-    <section class="container flex flex-col items-start gap-12">
+    <section class="container flex flex-col items-start gap-3">
       <h2 class="h2">Updates</h2>
       <div class="flex flex-col items-start w-full">
         {% for post in updates %}
-          <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} grid grid-cols-12 gap-24 relative">
+          <div class="body-text w-full py-6 md:py-9 {% unless forloop.first %}border-t{% endunless %} grid grid-cols-12 gap-6 relative">
             <span class="label col-span-3">
               <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
             </span>
@@ -53,18 +53,18 @@ custom-css: ["post-content"]
 
   {% assign filtered_news = news | where: "project", slug | sort: "date" | reverse | slice: 0, 5 %}
   {% if filtered_news.size > 0 %}
-    <section class="container flex flex-col items-start gap-12">
+    <section class="container flex flex-col items-start gap-3">
       <h2 class="h2">News</h2>
       <div class="flex flex-col items-start w-full">
         {% for article in filtered_news %}
-          <div class="body-text w-full py-24 md:py-36 {% unless forloop.first %}border-t-1{% endunless %} grid grid-cols-12 gap-24 relative">
+          <div class="body-text w-full py-6 md:py-9 {% unless forloop.first %}border-t{% endunless %} grid grid-cols-12 gap-6 relative">
             <span class="label col-span-3">
               <span class="align-middle">{{ article.date | date: "%m/%d/%y" }}</span>
             </span>
             <span class="col-span-6">{% include "arrow-link-inline.html", label: article.title, href: article.url, target: "_blank" %}</span>
             {% if article.archived_url %}
               <span class="col-span-3">
-                <a class="interactive-link float-right" href="{{ article.archived_url}}"><img class="inline h-[20px]" src="/assets/images/perma-logo.svg" alt="Archived at Perma.cc: {{ article.title | xml_escape }}"></a>
+                <a class="interactive-link float-right" href="{{ article.archived_url}}"><img class="inline h-5" src="/assets/images/perma-logo.svg" alt="Archived at Perma.cc: {{ article.title | xml_escape }}"></a>
               </span>
             {% endif %}
           </div>
@@ -75,14 +75,14 @@ custom-css: ["post-content"]
 
   {% if who_contributed and show_who_contributed == true %}
     <section class="container">
-      <div class="flex flex-col lg:grid lg:grid-cols-3 gap-24 lg:gap-36 items-baseline">
+      <div class="flex flex-col lg:grid lg:grid-cols-3 gap-6 lg:gap-9 items-baseline">
         <h2 class="h2">Project Contributors</h2>
 
-        <div class="slice-body additional-contributors lg:col-span-2 body-text lg:max-w-[750px]">
+        <div class="lg:col-span-2 body-text lg:max-w-187.5">
           {% for name in who_contributed %}
             {% assign person = people[name] %}
-            <strong class="name">{{ person.name }}</strong>
-            <span class="role">{{ person.role }}</span>
+            <strong>{{ person.name }}</strong>
+            <span>{{ person.role }}</span>
           {% endfor %}
         </div>
       </div>

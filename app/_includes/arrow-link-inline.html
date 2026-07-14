@@ -2,7 +2,7 @@
   href="{{ href }}"
   target="{% if target %}{{target}}{% else %}_self{% endif %}"
   class="body-text dark">
-    <span class="interactive-link-inline align-middle pr-4 {% if reverse %}reverse{% endif %}">{{ label|strip }}</span>
+    <span class="interactive-link-inline align-middle pr-1 {% if reverse %}reverse{% endif %}">{{ label|strip }}</span>
     {% if arrow == 'back' %}
       {% include "icon-left-arrow.html", inline: true %}
     {% else %}
