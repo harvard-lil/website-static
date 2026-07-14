@@ -5,3 +5,6 @@ short_description: 'This is what its about! '
 description: 'Some longer information about what this event is about! '
 banner: countering-attacks-on-access-to-information-sm.webp
 ---
+Please come to our event!
+
+[Here's a link to follow]()!
