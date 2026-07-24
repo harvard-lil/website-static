@@ -62,16 +62,6 @@ export default function (eleventyConfig) {
     return md.renderInline(str);
   });
 
-  eleventyConfig.addFilter("slugify", (str) => {
-    if (!str) return "";
-    return str
-      .toLowerCase()
-      .trim()
-      .replace(/[^\w\s-]/g, "")
-      .replace(/[\s_]+/g, "-")
-      .replace(/^-+|-+$/g, "");
-  });
-
   eleventyConfig.addFilter("smartify", (str) => {
     if (!str) return "";
     return String(str)

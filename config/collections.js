@@ -1,11 +1,4 @@
-function slugify(s) {
-  return s
-    .toLowerCase()
-    .trim()
-    .replace(/[^\w\s-]/g, "")
-    .replace(/[\s_]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
+import slugify from "@sindresorhus/slugify";
 
 export default function (eleventyConfig) {
   eleventyConfig.addCollection("posts", (collectionApi) =>
@@ -59,7 +52,7 @@ export default function (eleventyConfig) {
     blogPosts.forEach((post) => {
       (post.data.tags || []).forEach((tag) => {
         if (tag === "posts") return;
-        const slug = slugify(tag);
+        const slug = slugify(tag, { decamelize: false });
         if (!tagMap.has(slug)) {
           tagMap.set(slug, tag);
         }
@@ -70,7 +63,7 @@ export default function (eleventyConfig) {
     tagMap.forEach((tag, tagSlug) => {
       const tagPosts = blogPosts
         .filter((post) =>
-          (post.data.tags || []).some((t) => slugify(t) === tagSlug)
+          (post.data.tags || []).some((t) => slugify(t, { decamelize: false }) === tagSlug)
         )
         .reverse();
 
@@ -108,7 +101,7 @@ export default function (eleventyConfig) {
     const catMap = new Map();
     allPosts.forEach((post) => {
       (post.data.categories || []).forEach((cat) => {
-        const slug = slugify(cat);
+        const slug = slugify(cat, { decamelize: false });
         if (!catMap.has(slug)) {
           catMap.set(slug, cat);
         }
