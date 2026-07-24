@@ -31,7 +31,7 @@ layout: default
     <h2 class="h2 editable">Background</h2>
     <div class="md:grid md:grid-cols-12">
       <div class="w-full md:col-span-9 md:col-start-4">
-      {% assign background_sections = collections.jobs | where:"category","background" | sort: "order" %}
+      {% assign background_sections = collections.jobs | where:"data.category","background" | sort: "data.order" %}
         {% for section in background_sections %}
           {% include "job.html", title: section.data.title, job_content: section.content %}
         {% endfor %}
@@ -39,8 +39,8 @@ layout: default
     </div>
   </section>
 
-  {% assign staff_sections = collections.jobs | where:"category","staff" | sort: "order" %}
-  {% assign research_sections = collections.jobs | where:"category","research" | sort: "order" %}
+  {% assign staff_sections = collections.jobs | where:"data.category","staff" | sort: "data.order" %}
+  {% assign research_sections = collections.jobs | where:"data.category","research" | sort: "data.order" %}
 
   {% if staff_sections.size > 0 %}
   <section class="container flex flex-col gap-6 md:gap-10{% if research_sections.size == 0 %} pb-16{% endif %}">

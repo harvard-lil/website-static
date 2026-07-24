@@ -24,16 +24,14 @@ layout: default
 
     <div class="flex flex-col gap-6 md:gap-12">
 
-      {% assign research = collections.our_work | where:"category","research" | where:"retired",false %}
-      {% assign active_research = research | concat: additional_research %}
-      {% assign subcategories = active_research | map: 'subcategory' | join: ',' | split: ',' | uniq | sort %}
+      {% assign subcategories = collections.research | map: 'subcategory' | uniq | sort %}
 
       {% for category in subcategories %}
         <div class="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-12 w-full {% if forloop.last == false %} border-b border-black pb-12 md:pb-15{% endif %} items-baseline">
           <h3 class="label {% unless forloop.first %} mt-3 md:mt-0 {% endunless %}">{{ category }}</h3>
           <div class="grid grid-cols-2 gap-9 md:col-span-2">
 
-            {% assign this_research = active_research | where:"subcategory",category | sort: "title" %}
+            {% assign this_research = collections.research | where:"subcategory",category | sort: "title" %}
 
             {% assign is_even_length = this_research.size | is_even %}
             {% if is_even_length %}
@@ -47,12 +45,12 @@ layout: default
 
             <div class="flex flex-col items-start gap-6 body-text">
               {% for project in first_half %}
-                <span><a href="{{ project.url }}" class="interactive-link dark reverse" {% if project.data.no-swup or project.no-swup %}data-no-swup="true"{% endif %}>{% if project.data %}{{ project.data.title }}{% else %}{{ project.title }}{% endif %}</a></span>
+                <span><a href="{{ project.url }}" class="interactive-link dark reverse" {% if project.no-swup %}data-no-swup="true"{% endif %}>{{ project.title }}</a></span>
               {% endfor %}
             </div>
             <div class="flex flex-col items-start gap-6 body-text">
               {% for project in second_half %}
-                <span><a href="{{ project.url }}" class="interactive-link dark reverse">{% if project.data %}{{ project.data.title }}{% else %}{{ project.title }}{% endif %}</a></span>
+                <span><a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a></span>
               {% endfor %}
             </div>
           </div>
@@ -73,7 +71,7 @@ layout: default
   </section>
 
   <section aria-label="Projects" class="flex flex-col gap-3 pb-3 tbl:gap-6 tbl:pb-6">
-    {% assign active_platforms = collections.our_work | where:"category","platforms" | where:"retired",false | sort: "order" %}
+    {% assign active_platforms = collections.our_work | where:"data.category","platforms" | where:"data.retired",false | sort: "data.order" %}
     {% for platform in active_platforms %}
       {% capture linkOneLabel %}
         <span class="sr-only">{{ platform.data.title }}, Visit</span> Website
@@ -89,9 +87,12 @@ layout: default
     <div class="container flex flex-col gap-3 md:gap-6">
       <h2 class="h2">Past Projects</h2>
       <div class="flex flex-col">
-        {% assign retired_projects_with_pages = collections.our_work | where:"retired",true %}
-        {% assign retired_projects_without_pages = collections.our_work_pageless | where:"retired",true %}
-        {% assign retired_projects = retired_projects_with_pages | concat: retired_projects_without_pages | sort: "retired_date" | reverse %}
+        {% assign retired_projects_with_pages = collections.our_work | where:"data.retired",true %}
+        {% assign retired_projects_without_pages = collections.our_work_pageless | where:"data.retired",true %}
+        {% assign retired_projects_combined = retired_projects_with_pages | concat: retired_projects_without_pages %}
+        {% assign retired_projects_dated = retired_projects_combined | where: "data.retired_date" | sort: "data.retired_date" | reverse %}
+        {% assign retired_projects_undated = retired_projects_combined | reject: "data.retired_date" | reverse %}
+        {% assign retired_projects = retired_projects_dated | concat: retired_projects_undated %}
         {% for project in retired_projects %}
           <div class="body-text w-full {% if forloop.last %} pt-6 tbl:pt-9 {% else %} py-6 tbl:py-9 {% endif %} {% unless forloop.first %}border-t {% endunless %} border-black flex flex-col  md:grid md:grid-cols-12 gap-2 tbl:gap-6 relative">
             <h3 class="label col-span-3">{% if project.data %}{{ project.data.title }}{% else %}{{ project.title }}{% endif %}</h3>

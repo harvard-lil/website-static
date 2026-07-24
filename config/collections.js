@@ -1,4 +1,7 @@
+import fs from "node:fs";
+
 import slugify from "@sindresorhus/slugify";
+import yaml from "js-yaml";
 
 export default function (eleventyConfig) {
   eleventyConfig.addCollection("posts", (collectionApi) =>
@@ -16,6 +19,19 @@ export default function (eleventyConfig) {
     collectionApi.getFilteredByTag("our_work_pageless")
   );
 
+  eleventyConfig.addCollection("research", (collectionApi) => {
+    const additional = yaml.load(
+      fs.readFileSync("app/_data/additional_research.yaml", "utf8")
+    );
+    return [
+      ...collectionApi
+        .getFilteredByTag("our_work")
+        .filter((item) => item.data.category === "research" && !item.data.retired)
+        .map((item) => ({ ...item.data, url: item.url })),
+      ...additional,
+    ];
+  });
+
   eleventyConfig.addCollection("events", (collectionApi) =>
     collectionApi
       .getFilteredByTag("events")
@@ -31,6 +47,19 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("interviews", (collectionApi) =>
     collectionApi.getFilteredByTag("interviews")
   );
+
+  eleventyConfig.addCollection("eventsSplit", (collectionApi) => {
+    const now = new Date();
+    const events = collectionApi
+      .getFilteredByTag("events")
+      .filter((item) => item.inputPath.startsWith("./app/_events/"))
+      .sort((a, b) => a.date - b.date);
+    return {
+      next: events.find((e) => e.date >= now),
+      upcoming: events.filter((e) => e.date > now).reverse(),
+      past: events.filter((e) => e.date < now).reverse(),
+    };
+  });
 
   eleventyConfig.addCollection("projects_active", (collectionApi) =>
     collectionApi

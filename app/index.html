@@ -43,7 +43,7 @@ sharing-card-type: summary_large_image
 </div>
 
 <div class="flex flex-col gap-12 md:gap-15 -mt-3 sm:mt-0 md:-mt-5">
-  {% assign featured_projects = collections.our_work | where:"featured",true | sort: "order" %}
+  {% assign featured_projects = collections.our_work | where:"data.featured",true | sort: "data.order" %}
   <div class="flex flex-col">
     {% for project in featured_projects %}
       {% capture linkOneLabel %}
