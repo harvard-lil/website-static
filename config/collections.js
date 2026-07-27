@@ -61,19 +61,6 @@ export default function (eleventyConfig) {
     };
   });
 
-  eleventyConfig.addCollection("projects_active", (collectionApi) =>
-    collectionApi
-      .getFilteredByTag("our_work")
-      .filter((item) => !item.data.retired)
-      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
-  );
-
-  eleventyConfig.addCollection("sketches_active", (collectionApi) =>
-    collectionApi
-      .getFilteredByTag("our_work_pageless")
-      .filter((item) => !item.data.retired)
-  );
-
   eleventyConfig.addCollection("tagsList", (collectionApi) => {
     const PAGE_SIZE = 12;
     const blogPosts = collectionApi.getFilteredByTag("posts");
