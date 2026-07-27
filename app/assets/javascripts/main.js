@@ -379,8 +379,15 @@ function setupCustomElements() {
 }
 
 function setupSwup() {
+    const ignorePaths = [
+        '/century-scale-storage/',
+        '/open-french-law-rag/'
+    ];
+
     const swup = new Swup({
         plugins: [new SwupHeadPlugin()],
+        ignoreVisit: (url, { el } = {}) =>
+            ignorePaths.some((path) => url.startsWith(path)) || !!el?.closest('[data-no-swup]'),
         skipPopStateHandling: (event) => {
           event.url?.contains('blog') || event.state?.source !== 'swup'
         },

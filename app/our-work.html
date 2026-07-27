@@ -45,7 +45,7 @@ layout: default
 
             <div class="flex flex-col items-start gap-6 body-text">
               {% for project in first_half %}
-                <span><a href="{{ project.url }}" class="interactive-link dark reverse" {% if project.no-swup %}data-no-swup="true"{% endif %}>{{ project.title }}</a></span>
+                <span><a href="{{ project.url }}" class="interactive-link dark reverse">{{ project.title }}</a></span>
               {% endfor %}
             </div>
             <div class="flex flex-col items-start gap-6 body-text">
