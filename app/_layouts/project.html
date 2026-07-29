@@ -40,22 +40,7 @@ layout: default
     {% include "project-hero.html" %}
   {% endif %}
 
-  {% assign updates = collections.posts | where: "project", slug | sort: "date" | reverse | slice: 0, 10 %}
-  {% if updates.size > 0 %}
-    <section class="container flex flex-col items-start gap-3">
-      <h2 class="h2">Updates</h2>
-      <div class="flex flex-col items-start w-full">
-        {% for post in updates %}
-          <div class="body-text w-full py-6 md:py-9 {% unless forloop.first %}border-t{% endunless %} grid grid-cols-12 gap-6 relative">
-            <span class="label col-span-3">
-              <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
-            </span>
-            <span class="col-span-6">{% include "arrow-link-inline.html", label: post.data.title, href: post.url %}</span>
-          </div>
-        {% endfor %}
-      </div>
-    </section>
-  {% endif %}
+  {% include "project-updates.html", slug: slug, limit: 5 %}
 
   {% assign filtered_news = news | where: "project", slug | sort: "date" | reverse | slice: 0, 10 %}
   {% if filtered_news.size > 0 %}
