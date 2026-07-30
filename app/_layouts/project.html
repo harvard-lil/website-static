@@ -16,7 +16,7 @@ layout: default
 
   <section class="container flex flex-col gap-9 md:gap-18">
     <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-12 items-baseline">
-      <h2 class="h2">Where can I find {% if title_uses_definite_article %}the {% endif %}{{title}}?</h2>
+      <h2 class="h2">Where can I find {{title}}?</h2>
       <div class="md:col-span-2 body-text flex flex-col gap-3 xl:max-w-175">
         {% if project_website %}
           {% include "arrow-link.html", label: project_website, href: project_website, target: "_blank" %}
@@ -28,7 +28,7 @@ layout: default
     </div>
     {% if why_does_it_exist %}
       <div class="flex flex-col xl:grid xl:grid-cols-3 xl:gap-12 items-baseline">
-        <h2 class="h2">Why does {% if title_uses_definite_article %}the {% endif %}{{title}} exist?</h2>
+        <h2 class="h2">Why does {{title}} exist?</h2>
         <div class="content-with-lists md:col-span-2 body-text flex flex-col gap-5 xl:max-w-175">
           {{ why_does_it_exist | markdownify }}
         </div>
