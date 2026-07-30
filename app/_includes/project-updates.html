@@ -1,24 +1,24 @@
 {% assign updates = collections.posts | concat: project_updates | where:
-"project", slug | sort: "date" | reverse | slice: 0, limit %} {% if updates.size
-> 0 %}
+"project", slug | sort: "date" | reverse | slice: 0, limit %}
+{% if updates.size > 0 %}
 <section class="container flex flex-col items-start gap-3">
   <h2 class="h2">Updates</h2>
   <div class="flex flex-col items-start w-full">
-    {% for post in updates %} {% assign update_title = post.data.title |
-    default: post.title %} {% assign update_url = post.url | strip %} {% assign
-    update_target = "_self" %} {% unless post.data %}{% assign update_target =
-    "_blank" %}{% endunless %}
-    <div
-      class="body-text w-full py-6 md:py-9 {% unless forloop.first %}border-t{% endunless %} grid grid-cols-12 gap-6 relative"
-    >
-      <span class="label col-span-3">
-        <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
-      </span>
-      <span class="col-span-6">
-        {% include "arrow-link-inline.html", label: update_title, href:
-        update_url, target: update_target %}
-      </span>
-    </div>
+    {% for post in updates %}
+      {% assign update_title = post.data.title | default: post.title %}
+      {% assign update_url = post.url | strip %}
+      {% assign update_target = "_self" %}
+      {% if not post.data %}
+        {% assign update_target = "_blank" %}
+      {% endif %}
+      <div class="body-text w-full py-6 md:py-9 {% if not forloop.first %}border-t {% endif %}grid grid-cols-12 gap-6 relative">
+        <span class="label col-span-3">
+          <span class="align-middle">{{ post.date | date: "%m/%d/%y" }}</span>
+        </span>
+        <span class="col-span-6">
+          {% include "arrow-link-inline.html", label: update_title, href: update_url, target: update_target %}
+        </span>
+      </div>
     {% endfor %}
   </div>
 </section>
