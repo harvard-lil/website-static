@@ -7,8 +7,9 @@
     {% for post in updates %}
       {% assign update_title = post.data.title | default: post.title %}
       {% assign update_url = post.url | strip %}
-      {% assign update_target = "_self" %}
-      {% if not post.data %}
+      {% if post.data %}
+        {% assign update_target = "_self" %}
+      {% else %}
         {% assign update_target = "_blank" %}
       {% endif %}
       <div class="body-text w-full py-6 md:py-9 {% if not forloop.first %}border-t {% endif %}grid grid-cols-12 gap-6 relative">
