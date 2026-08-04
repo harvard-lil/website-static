@@ -12,7 +12,7 @@ layout: default
 
 <div>
 
-  {% assign next_event = collections.events | where_exp: 'item','item.date >= now' | sort: 'date' | first %}
+  {% assign next_event = collections.eventsSplit.next %}
   {% if next_event %}
     {% if next_event.data.banner %}
       <section aria-label="Event banner" class="container mb-8 tbl:mb-15">
@@ -36,7 +36,7 @@ layout: default
     {% endif %}
   {% endif %}
 
-  {% assign upcoming_events = collections.events | where_exp: 'item','item.date > now' | sort: 'date' | reverse %}
+  {% assign upcoming_events = collections.eventsSplit.upcoming %}
   {% if upcoming_events.size > 0 %}
     <section class="container mb-9 md:mb-15">
       <h2 class="h2">Upcoming</h2>
@@ -55,7 +55,7 @@ layout: default
     </section>
   {% endif %}
 
-  {% assign past_events = collections.events | where_exp: 'item','item.date < now' | sort: 'date' | reverse %}
+  {% assign past_events = collections.eventsSplit.past %}
   {% if past_events.size > 0 %}
     <section class="container">
       <h2 class="h2">Past</h2>

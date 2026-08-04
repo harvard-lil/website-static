@@ -1,11 +1,7 @@
-function slugify(s) {
-  return s
-    .toLowerCase()
-    .trim()
-    .replace(/[^\w\s-]/g, "")
-    .replace(/[\s_]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
+import fs from "node:fs";
+
+import slugify from "@sindresorhus/slugify";
+import yaml from "js-yaml";
 
 export default function (eleventyConfig) {
   eleventyConfig.addCollection("posts", (collectionApi) =>
@@ -23,6 +19,19 @@ export default function (eleventyConfig) {
     collectionApi.getFilteredByTag("our_work_pageless")
   );
 
+  eleventyConfig.addCollection("research", (collectionApi) => {
+    const additional = yaml.load(
+      fs.readFileSync("app/_data/additional_research.yaml", "utf8")
+    );
+    return [
+      ...collectionApi
+        .getFilteredByTag("our_work")
+        .filter((item) => item.data.category === "research" && !item.data.retired)
+        .map((item) => ({ ...item.data, url: item.url })),
+      ...additional,
+    ];
+  });
+
   eleventyConfig.addCollection("events", (collectionApi) =>
     collectionApi
       .getFilteredByTag("events")
@@ -39,18 +48,18 @@ export default function (eleventyConfig) {
     collectionApi.getFilteredByTag("interviews")
   );
 
-  eleventyConfig.addCollection("projects_active", (collectionApi) =>
-    collectionApi
-      .getFilteredByTag("our_work")
-      .filter((item) => !item.data.retired)
-      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
-  );
-
-  eleventyConfig.addCollection("sketches_active", (collectionApi) =>
-    collectionApi
-      .getFilteredByTag("our_work_pageless")
-      .filter((item) => !item.data.retired)
-  );
+  eleventyConfig.addCollection("eventsSplit", (collectionApi) => {
+    const now = new Date();
+    const events = collectionApi
+      .getFilteredByTag("events")
+      .filter((item) => item.inputPath.startsWith("./app/_events/"))
+      .sort((a, b) => a.date - b.date);
+    return {
+      next: events.find((e) => e.date >= now),
+      upcoming: events.filter((e) => e.date > now).reverse(),
+      past: events.filter((e) => e.date < now).reverse(),
+    };
+  });
 
   eleventyConfig.addCollection("tagsList", (collectionApi) => {
     const PAGE_SIZE = 12;
@@ -59,7 +68,7 @@ export default function (eleventyConfig) {
     blogPosts.forEach((post) => {
       (post.data.tags || []).forEach((tag) => {
         if (tag === "posts") return;
-        const slug = slugify(tag);
+        const slug = slugify(tag, { decamelize: false });
         if (!tagMap.has(slug)) {
           tagMap.set(slug, tag);
         }
@@ -70,7 +79,7 @@ export default function (eleventyConfig) {
     tagMap.forEach((tag, tagSlug) => {
       const tagPosts = blogPosts
         .filter((post) =>
-          (post.data.tags || []).some((t) => slugify(t) === tagSlug)
+          (post.data.tags || []).some((t) => slugify(t, { decamelize: false }) === tagSlug)
         )
         .reverse();
 
@@ -108,7 +117,7 @@ export default function (eleventyConfig) {
     const catMap = new Map();
     allPosts.forEach((post) => {
       (post.data.categories || []).forEach((cat) => {
-        const slug = slugify(cat);
+        const slug = slugify(cat, { decamelize: false });
         if (!catMap.has(slug)) {
           catMap.set(slug, cat);
         }

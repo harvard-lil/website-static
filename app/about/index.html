@@ -52,7 +52,7 @@ layout: default
     </div>
   </section>
 
-  <section class="container ">
+  <section class="container">
     <h2 id="staff" class="h2 mt-3 mb-12 md:mb-18 editable">People at the Lab</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-x-15 lg:gap-x-22.5 xl:gap-x-30 pb-12 md:pb-18">
       {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}
@@ -73,7 +73,6 @@ layout: default
     <div id="affiliates" class="pt-12 md:pt-18 border-t border-black">
       <h2 class="h2 editable">Affiliates</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-x-15 lg:gap-x-22.5 xl:gap-x-30">
-        {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}
         {% assign sections = "Affiliates" | split: ", " %}
         {% for section in sections %}
           {% assign affiliated_people = affiliates | where: "current", true | where: "section", section %}
@@ -102,7 +101,7 @@ layout: default
       <div id="past-affiliates" class="container">
         <h2 class="h2 tbl:mt-3 tbl:mb-6 editable">Past Affiliates</h2>
         <div class="flex flex-col items-start w-full">
-          {% assign old_friends = affiliates | where: "current", false %}
+          {% assign old_friends = affiliates | reject: "current", true %}
           {% for person in old_friends %}
             {% include "about-people-unaffiliated.html", person: person %}
           {% endfor %}
@@ -114,7 +113,7 @@ layout: default
   <section class="container">
     <h2 class="h2 mt-3 md:mt-0 mb-12 tbl:mb-9 md:mb-15 editable">Supported By</h2>
     <p class="body-text mb-12 editable">We gratefully acknowledge support from, and collaboration with, these organizations.</p>
-    
+
     {% include "about-sponsor-group.html", supporters: supporters.institutions %}
     <hr class="w-50 mx-auto my-3 border-t-4">
     {% include "about-sponsor-group.html", supporters: supporters.foundations %}

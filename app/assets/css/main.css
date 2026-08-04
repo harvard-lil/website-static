@@ -100,9 +100,6 @@ strong {
 
 html {
   scrollbar-gutter: stable;
-
-  /* Be sure to also set variable animationRate in main.js so it matches this value */
-  --animation-rate: 0.3;
 }
 
 .nav-container {
@@ -153,8 +150,8 @@ lil-header.expanded .logo {
   so adding some drop shadow to the logo is the next best thing to handle
   cases where the window is short, the menu is scrolled, and menu items
   overlap the logo */
-  transition: filter calc(0.1s * var(--animation-rate)) ease;
-  transition-delay: calc(1s * var(--animation-rate));
+  transition: filter 0.03s ease;
+  transition-delay: 0.3s;
   filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.6));
 }
 
@@ -175,13 +172,13 @@ lil-header.expanded .logo {
   @apply bg-black;
   height: 4px;
   left: 0;
-  transition: background-color calc(300ms * var(--animation-rate)) ease calc(400ms * var(--animation-rate)), transform calc(300ms * var(--animation-rate)) ease;
+  transition: background-color 90ms ease 120ms, transform 90ms ease;
 }
 
 lil-header.expanded .menu-button__bar {
   transform: translateY(-50%) rotate(45deg);
   background-color: var(--color-white);
-  transition: background-color calc(300ms * var(--animation-rate)) ease calc(300ms * var(--animation-rate)), transform calc(300ms * var(--animation-rate)) ease;
+  transition: background-color 90ms ease 90ms, transform 90ms ease;
 }
 
 .menu-button__bar:nth-child(2) {
@@ -193,8 +190,8 @@ lil-header.expanded .menu-button .menu-button__bar:nth-child(2) {
 }
 
 lil-header svg {
-  transition: color calc(300ms * var(--animation-rate)) ease;
-  transition-delay: calc(400ms * var(--animation-rate));
+  transition: color 90ms ease;
+  transition-delay: 120ms;
   color: var(--color-black);
 }
 
@@ -204,8 +201,8 @@ lil-header a:hover svg {
 
 lil-header.expanded svg {
   color: var(--color-white);
-  transition: color calc(300ms * var(--animation-rate)) ease;
-  transition-delay: calc(300ms * var(--animation-rate));
+  transition: color 90ms ease;
+  transition-delay: 90ms;
 }
 
 .nav-menu {
@@ -217,7 +214,7 @@ lil-header.expanded svg {
   top: 0;
   bottom: 0;
   clip-path: inset(0 0 100% 0);
-  transition: clip-path calc(0.3s * var(--animation-rate)) ease-out, opacity calc(0.3s * var(--animation-rate)) ease-out;
+  transition: clip-path 0.09s ease-out, opacity 0.09s ease-out;
   overflow: auto;
   z-index: 1;
 }
@@ -258,7 +255,7 @@ lil-header.expanded svg {
   z-index: 0;
   opacity: 0;
   visibility: hidden;
-  transition: opacity calc(500ms * var(--animation-rate)) ease calc(300ms * var(--animation-rate)), visibility calc(500ms * var(--animation-rate)) ease calc(300ms * var(--animation-rate));
+  transition: opacity 150ms ease 90ms, visibility 150ms ease 90ms;
 }
 
 lil-header.expanded .nav-menu__overlay {
@@ -268,7 +265,7 @@ lil-header.expanded .nav-menu__overlay {
 
 lil-header.expanded .nav-menu__inner {
   display: flex;
-  transition: display calc(500ms * var(--animation-rate)) ease calc(300ms * var(--animation-rate))
+  transition: display 150ms ease 90ms
 }
 
 .interactive-link, .interactive-link-inline  {
@@ -436,7 +433,7 @@ lil-header.expanded .nav-menu__inner {
   border-radius: 36px;
   border: 1.5px solid var(--color-black);
   position: relative;
-  transition: transform calc(500ms * var(--animation-rate)) ease;
+  transition: transform 150ms ease;
 }
 
 .expandable__icon span {
@@ -447,7 +444,7 @@ lil-header.expanded .nav-menu__inner {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: transform calc(500ms * var(--animation-rate)) ease;
+  transition: transform 150ms ease;
 }
 
 .expandable__icon span:nth-child(1) {
@@ -496,7 +493,7 @@ lil-header.expanded .nav-menu__inner {
 }
 
 html.is-changing .transition-main {
-  transition: opacity calc(350ms * var(--animation-rate)) ease-in-out;
+  transition: opacity 105ms ease-in-out;
 }
 
 html.is-animating .transition-main {
