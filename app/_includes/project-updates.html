@@ -1,5 +1,6 @@
-{% assign updates = collections.posts | concat: project_updates | where:
-"project", slug | sort: "date" | reverse | slice: 0, limit %}
+{% assign matching_posts = collections.posts | where: "data.project", slug %}
+{% assign matching_project_updates = project_updates | where: "project", slug %}
+{% assign updates = matching_posts | concat: matching_project_updates | sort: "date" | reverse | slice: 0, limit %}
 {% if updates.size > 0 %}
 <section class="container flex flex-col items-start gap-3">
   <h2 class="h2">Updates</h2>
