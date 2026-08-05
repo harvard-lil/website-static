@@ -428,6 +428,20 @@ benjamin-charles-germain-lee:
   affiliated: true
   current: true
   section: Affiliates
+akshay-mehta:
+  name: Akshay Mehta
+  sort_name: Mehta
+  role: Fellow
+  bio: >
+    Akshay Mehta is an incoming PhD student in computer science at Boston University. He earned
+    his Bachelor of Science from Brown University in Applied Mathematics-Computer Science. His research
+    focuses on optimizing AI data processing pipelines for large-scale metadata extraction, integration,
+    and search indexing to enable efficient retrieval over document collections. He contributes to
+    govscape.net with Professor Kyle Deeds.
+  image: akshay-mehta.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
 # past affiliates
 zena-agha:
   name: Zena Agha
