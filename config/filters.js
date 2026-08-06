@@ -106,6 +106,18 @@ export default function (eleventyConfig) {
     return n === parseInt(lastNumber, 10) && m > 1 ? (n % m) + 1 : n;
   });
 
+  eleventyConfig.addFilter("latest_update", (posts) => {
+    let latest = null;
+    for (const post of posts || []) {
+      const raw = post.data?.last_modified_at || post.date;
+      const date = raw instanceof Date ? raw : new Date(raw);
+      if (!Number.isNaN(date.valueOf()) && (!latest || date > latest)) {
+        latest = date;
+      }
+    }
+    return latest;
+  });
+
   eleventyConfig.addFilter("is_even", (n) => parseInt(n, 10) % 2 === 0);
 
   eleventyConfig.addFilter("to_handle", (url) => {
