@@ -3,6 +3,17 @@ import fs from "node:fs";
 import slugify from "@sindresorhus/slugify";
 import yaml from "js-yaml";
 
+const slugCache = new Map();
+
+function slug(str) {
+  let cached = slugCache.get(str);
+  if (cached === undefined) {
+    cached = slugify(str, { decamelize: false });
+    slugCache.set(str, cached);
+  }
+  return cached;
+}
+
 export default function (eleventyConfig) {
   eleventyConfig.addCollection("posts", (collectionApi) =>
     collectionApi
@@ -64,24 +75,26 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("tagsList", (collectionApi) => {
     const PAGE_SIZE = 12;
     const blogPosts = collectionApi.getFilteredByTag("posts");
+
     const tagMap = new Map();
     blogPosts.forEach((post) => {
       (post.data.tags || []).forEach((tag) => {
         if (tag === "posts") return;
-        const slug = slugify(tag, { decamelize: false });
-        if (!tagMap.has(slug)) {
-          tagMap.set(slug, tag);
+        const tagSlug = slug(tag);
+        let entry = tagMap.get(tagSlug);
+        if (!entry) {
+          entry = { name: tag, posts: [] };
+          tagMap.set(tagSlug, entry);
+        }
+        if (entry.posts.at(-1) !== post) {
+          entry.posts.push(post);
         }
       });
     });
 
     const pages = [];
-    tagMap.forEach((tag, tagSlug) => {
-      const tagPosts = blogPosts
-        .filter((post) =>
-          (post.data.tags || []).some((t) => slugify(t, { decamelize: false }) === tagSlug)
-        )
-        .reverse();
+    tagMap.forEach(({ name: tag, posts }, tagSlug) => {
+      const tagPosts = [...posts].reverse();
 
       const totalPages = Math.max(1, Math.ceil(tagPosts.length / PAGE_SIZE));
 
@@ -115,20 +128,27 @@ export default function (eleventyConfig) {
     const allPosts = collectionApi.getFilteredByTag("posts");
 
     const catMap = new Map();
+    const postsByCategory = new Map();
     allPosts.forEach((post) => {
       (post.data.categories || []).forEach((cat) => {
-        const slug = slugify(cat, { decamelize: false });
-        if (!catMap.has(slug)) {
-          catMap.set(slug, cat);
+        const catSlug = slug(cat);
+        if (!catMap.has(catSlug)) {
+          catMap.set(catSlug, cat);
+        }
+        let bucket = postsByCategory.get(cat);
+        if (!bucket) {
+          bucket = [];
+          postsByCategory.set(cat, bucket);
+        }
+        if (bucket.at(-1) !== post) {
+          bucket.push(post);
         }
       });
     });
 
     const pages = [];
     catMap.forEach((cat, catSlug) => {
-      const catPosts = allPosts
-        .filter((p) => (p.data.categories || []).includes(cat))
-        .reverse();
+      const catPosts = [...postsByCategory.get(cat)].reverse();
 
       const totalPages = Math.max(1, Math.ceil(catPosts.length / PAGE_SIZE));
 
