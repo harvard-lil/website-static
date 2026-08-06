@@ -1,5 +1,5 @@
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import { load } from "js-yaml";
+import { CORE_SCHEMA, load, timestampTag } from "js-yaml";
 
 import assets from "./config/assets.js";
 import filters from "./config/filters.js";
@@ -22,7 +22,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addDataExtension("yaml,yml", (contents) =>
-    load(contents),
+    load(contents, { schema: CORE_SCHEMA.withTags(timestampTag) }),
   );
 
   eleventyConfig.addGlobalData("assets", assets);
