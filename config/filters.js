@@ -90,13 +90,20 @@ export default function (eleventyConfig) {
     return String(str).startsWith(prefix);
   });
 
-  eleventyConfig.addFilter("random_number", (max, lastNumber) => {
+  eleventyConfig.addFilter("hashed_number", (max, seed, lastNumber) => {
     const m = parseInt(max, 10);
-    let n;
-    do {
-      n = Math.floor(Math.random() * m) + 1;
-    } while (n === parseInt(lastNumber, 10) && m > 1);
-    return n;
+    if (!(m > 0)) return 1;
+
+    let hash = 0x811c9dc5;
+    for (const char of String(seed ?? "")) {
+      hash ^= char.codePointAt(0);
+      hash = Math.imul(hash, 0x01000193) >>> 0;
+    }
+
+    const n = (hash % m) + 1;
+
+    // Don't repeat the last number
+    return n === parseInt(lastNumber, 10) && m > 1 ? (n % m) + 1 : n;
   });
 
   eleventyConfig.addFilter("is_even", (n) => parseInt(n, 10) % 2 === 0);

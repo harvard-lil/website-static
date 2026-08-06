@@ -6,9 +6,9 @@ permalink: /search.json
 
 {% capture json %}
 [
-  {% assign last_random_number = nil %}
+  {% assign last_thumb_index = nil %}
   {% for doc in collections.posts reversed %}
-    {% assign random_number = 5 | random_number: last_random_number %}
+    {% assign thumb_index = 5 | hashed_number: doc.url, last_thumb_index %}
 
     {% assign content_parts = doc.templateContent | split: '<img' %}
     {% assign first_img_src = '' %}
@@ -26,9 +26,9 @@ permalink: /search.json
       "date": {{ doc.date | date: "%B %-d, %Y" | jsonify }},
       "content": {{ doc.templateContent | strip_html | default: "" | jsonify }},
       "url": {{ doc.url | default: "" | jsonify }},
-      "image": {% if first_img_src != '' %}"{{ first_img_src }}"{% else %}{% if doc.data.thumbnail %}{{ doc.data.thumbnail | jsonify }}{% else %}"/assets/images/blog-thumbnail-{{ random_number }}.png"{% endif %}{% endif %}
+      "image": {% if first_img_src != '' %}"{{ first_img_src }}"{% else %}{% if doc.data.thumbnail %}{{ doc.data.thumbnail | jsonify }}{% else %}"/assets/images/blog-thumbnail-{{ thumb_index }}.png"{% endif %}{% endif %}
     }{% unless forloop.last %},{% endunless %}
-    {% assign last_random_number = random_number %}
+    {% assign last_thumb_index = thumb_index %}
   {% endfor %}
 ]
 {% endcapture %}
