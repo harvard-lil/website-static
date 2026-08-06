@@ -1,5 +1,5 @@
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import yaml from "js-yaml";
+import { load } from "js-yaml";
 
 import assets from "./config/assets.js";
 import filters from "./config/filters.js";
@@ -22,7 +22,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addDataExtension("yaml,yml", (contents) =>
-    yaml.load(contents),
+    load(contents),
   );
 
   eleventyConfig.addGlobalData("assets", assets);

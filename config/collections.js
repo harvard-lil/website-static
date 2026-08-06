@@ -1,7 +1,7 @@
 import fs from "node:fs";
 
 import slugify from "@sindresorhus/slugify";
-import yaml from "js-yaml";
+import { load } from "js-yaml";
 
 const slugCache = new Map();
 
@@ -31,7 +31,7 @@ export default function (eleventyConfig) {
   );
 
   eleventyConfig.addCollection("research", (collectionApi) => {
-    const additional = yaml.load(
+    const additional = load(
       fs.readFileSync("app/_data/additional_research.yaml", "utf8")
     );
     return [
