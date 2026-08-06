@@ -2,8 +2,11 @@
 title: Will We Ever Solve the Problem of Losing Data?
 author:
   - jack-cushman
+date: 2026-08-04T12:00:00-04:00
+project: public-data-project
 tags:
   - Library Principles
+  - Public Data
 ---
 For a recent installment of Gizmodo's Giz Asks series, Gayoung Lee asked researchers in computer science, cybersecurity, and libraries: [will we ever solve the problem of losing data?](https://gizmodo.com/will-we-ever-solve-the-problem-of-losing-data-2000792386)
 
