@@ -6,6 +6,7 @@ pagination:
 permalink: "/api/news/{{ project.data.slug | default: project.fileSlug }}/index.js"
 eleventyExcludeFromCollections: true
 ---
-{% assign project_slug = project.data.slug | default: project.fileSlug %}
-{% assign project_news = news | where: "project", project_slug %}
-news({"news": {{ project_news | jsonify }}, "date": "{{ 'now' | date: '%Y-%m-%d %H:%M:%S' }}"})
+{%- assign project_slug = project.data.slug | default: project.fileSlug -%}
+{%- assign project_news = news | where: "project", project_slug -%}
+{%- assign latest_news = project_news | latest_update -%}
+news({"news": {{ project_news | jsonify }}, "date": "{% if latest_news %}{{ latest_news | date: '%Y-%m-%d %H:%M:%S' }}{% endif %}"})

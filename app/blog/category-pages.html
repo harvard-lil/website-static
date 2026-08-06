@@ -30,11 +30,11 @@ eleventyExcludeFromCollections: true
 
     <div class="post-grids__default">
       <div class="container grid grid-cols-2 gap-x-2 gap-y-5 md:gap-y-6 md:gap-x-6 md:grid-cols-4">
-        {% assign last_random_number = nil %}
+        {% assign last_thumb_index = nil %}
         {% for post in catData.posts %}
-          {% assign random_number = 5 | random_number: last_random_number %}
-          {% include "post-card.html", post: post, thumb_index: random_number %}
-          {% assign last_random_number = random_number %}
+          {% assign thumb_index = 5 | hashed_number: post.url, last_thumb_index %}
+          {% include "post-card.html", post: post, thumb_index: thumb_index %}
+          {% assign last_thumb_index = thumb_index %}
         {% endfor %}
       </div>
 

@@ -1,5 +1,5 @@
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import yaml from "js-yaml";
+import { load } from "js-yaml";
 
 import assets from "./config/assets.js";
 import filters from "./config/filters.js";
@@ -9,9 +9,20 @@ import collections from "./config/collections.js";
 process.env.TZ = "UTC";
 
 export default function (eleventyConfig) {
+  // Cache Liquid templates to reduce build time
+  const liquidCache = new Map();
+  eleventyConfig.setLiquidOptions({
+    cache: {
+      read: (key) => liquidCache.get(key),
+      write: (key, value) => liquidCache.set(key, value),
+      remove: (key) => liquidCache.delete(key),
+    },
+  });
+  eleventyConfig.on("eleventy.beforeWatch", () => liquidCache.clear());
+
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addDataExtension("yaml,yml", (contents) =>
-    yaml.load(contents),
+    load(contents),
   );
 
   eleventyConfig.addGlobalData("assets", assets);
