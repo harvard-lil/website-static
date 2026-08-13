@@ -3,20 +3,17 @@
   subcategory: Recent
   order:
 - title: WARC-GPT
-  url: >-
-    https://lil.law.harvard.edu/blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/
+  url: https://lil.law.harvard.edu/blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/
   subcategory: Recent
   order:
 - title: Century Scale Storage
   url: /century-scale-storage/
   subcategory: Recent
   order:
-  no-swup: true
 - title: Open French Law RAG
   url: /open-french-law-rag/
   subcategory: Recent
   order:
-  no-swup: true
 - title: Generational Data Interviews
   url: /generational-data-interviews/
   subcategory: Recent

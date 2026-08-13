@@ -5,7 +5,7 @@
 
 <div>
   <nav aria-label="Featured Tags">
-    <ul class="flex flex-wrap flex-col sm:flex-row gap-10 mt-12 sm:mt-0">
+    <ul class="flex flex-wrap flex-col sm:flex-row gap-2.5 mt-3 sm:mt-0">
       {% for tag in featured_tags %}
         {% assign tag_slug = tag | slugify %}
         {% assign isActive = false  %}
@@ -20,7 +20,7 @@
         {% endfor %}
         <li>
           <a
-            class="block text-14 tbl:text-16 px-10 py-6 tbl:px-24 tbl:py-12 border-1 border-black text-black active:text-white active:bg-black tbl:hover:text-white md:hover:bg-black transition-colors duration-300 ease {% if isActive %}bg-black text-white{% endif %}"
+            class="block text-sm tbl:text-base px-2.5 py-1.5 tbl:px-6 tbl:py-3 border border-black active:text-white active:bg-black tbl:hover:text-white md:hover:bg-black transition-colors duration-300 {% if isActive %}bg-black text-white{% else %}text-black{% endif %}"
             href="{% if current_slug == tag_slug %}/blog{% else %}/blog/tag/{{ tag_slug }}/{% endif %}"{% if current_slug == tag_slug %} aria-current="true"{% endif %}
             data-no-swup
           >

@@ -11,7 +11,7 @@
 {% endif %}
 
 <!-- NB: this HTML is not used when rendering search results. That markup is in a string in main.js  -->
-<article itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-14 relative">
+<article itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-3.5 relative">
   <header class="aspect-square w-full bg-gray relative">
     {% if post.data.thumbnail %}
       <img src="{{ post.data.thumbnail }}" class="w-full h-full object-cover absolute inset-0" alt="" />
@@ -23,10 +23,10 @@
       <img src="/assets/images/blog-thumbnail-{{ thumb_index }}.png" class="w-full h-full object-cover absolute inset-0" alt="" />
     {% endif %}
   </header>
-  <div class="flex flex-col gap-8">
-    <h2 class="text-16 md:text-18 leading-120 font-medium" itemprop="headline">
+  <div class="flex flex-col gap-2">
+    <h2 class="text-base md:text-lg leading-[120%] md:leading-[120%] font-medium" itemprop="headline">
       <a href="{{ post.url}}" class="card-link">{{ post.data.title | smartify }}</a>
     </h2>
-    <time class="text-16 md:text-18 leading-100" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    <time class="text-base md:text-lg leading-none md:leading-none" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
   </div>
 </article>

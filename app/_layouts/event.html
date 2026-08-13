@@ -3,29 +3,29 @@ layout: default
 custom-css: ['post-content']
 ---
 
-<section class="container pt-80">
-  <div class="flex flex-col gap-50 md:gap-120 mb-56">
-    <div class="flex flex-col items-start gap-20">
+<section class="container pt-20">
+  <div class="flex flex-col gap-12 md:gap-30 mb-14">
+    <div class="flex flex-col items-start gap-5">
       <nav aria-label="breadcrumbs">
         <a href="/events" class="label interactive-link dark reverse">Events</a>
       </nav>
-      <div class="w-full flex flex-col md:grid gap-32 pb-40 border-b-1 border-black">
+      <div class="w-full flex flex-col md:grid gap-8 pb-10 border-b border-black">
         <h1 class="h2">
           {{title}}
           <br>
-          <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         </h1>
       </div>
     </div>
   </div>
 </section>
-<section class="container post">
-  <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-24 md:grid md:grid-cols-12 body-text">
+<section class="container">
+  <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-6 md:grid md:grid-cols-12 body-text">
     <div class="md:col-span-8 md:col-start-3" itemprop="articleBody">
         {% if banner %}
           <img src="/assets/images/events/{{ banner }}"
             alt=""
-            class="img-full-width mb-40">
+            class="img-full-width mb-10">
         {% endif %}
         <div class="post-content">
           {{ content }}

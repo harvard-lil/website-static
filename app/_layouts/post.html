@@ -3,28 +3,28 @@ layout: default
 custom-css: ['post-content', 'syntax']
 ---
 
-<section class="container pt-48 md:pt-72">
-  <div class="flex flex-col gap-48 mb-36">
+<section class="container pt-12 md:pt-18">
+  <div class="flex flex-col gap-12 mb-9">
     {% include "tag-filter.html", tags: tags %}
-    <div class="flex flex-col items-start gap-12 md:gap-24">
+    <div class="flex flex-col items-start gap-3 md:gap-6">
       <nav aria-label="breadcrumbs">
         <a href="/blog/" class="label interactive-link dark reverse">Blog</a>
       </nav>
-      <div class="w-full pb-36 border-b-1 border-black">
+      <div class="w-full pb-9 border-b border-black">
         <h1 class="h2">{{title}}</h1>
       </div>
     </div>
   </div>
 </section>
-<section class="container post">
-  <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-20 md:gap-36 md:grid md:grid-cols-12 body-text">
-    <header class="flex flex-col gap-20 md:col-span-3">
+<section class="container">
+  <article role="article" itemscope itemtype="http://schema.org/BlogPosting" class="flex flex-col gap-5 md:gap-9 md:grid md:grid-cols-12 body-text">
+    <header class="flex flex-col gap-5 md:col-span-3">
       <div>
         {% include "author.html", author: author, guest-author: guest-author %}
       </div>
       <div>
         <p>Published:</p>
-        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
       </div>
     </header>
     <div class="md:col-span-7" itemprop="articleBody">

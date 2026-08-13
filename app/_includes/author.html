@@ -1,7 +1,7 @@
 <div>
   {% if author %}
     <h2>Author{% if author.size > 1 %}s{% endif %}:</h2>
-    <span class="post-author">
+    <span>
       {% for auth in author %}
         {% assign person_record = people[auth] %}
         {% if forloop.last and forloop.length > 1 %} and {% endif %}
@@ -9,6 +9,6 @@
       {% endfor %}
     </span>
   {% elsif guest-author %}
-    <span class="post-author">{{ guest-author }}</span>
+    <span>{{ guest-author }}</span>
   {% endif %}
 </div>

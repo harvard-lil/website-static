@@ -1,5 +1,6 @@
 {% if custom-css %}
   {% for file in custom-css %}
-    <link rel="stylesheet" href="/assets/css/{{ file | strip }}.css?v=CSS_BUST">
+    {% assign css_key = file | strip | append: '.css' %}
+    <link rel="stylesheet" href="/assets/css/{{ file | strip }}.css?v={{ assets.hashes[css_key] }}">
   {% endfor %}
 {% endif %}

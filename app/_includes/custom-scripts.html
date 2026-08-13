@@ -1,5 +1,6 @@
 {% if custom-scripts %}
   {% for file in custom-scripts %}
-    <script src="/assets/javascripts/{{ file | strip }}?js-cache-buster=1"></script>
+    {% assign js_key = file | strip %}
+    <script src="/assets/javascripts/{{ js_key }}?v={{ assets.hashes[js_key] }}"></script>
   {% endfor %}
 {% endif %}

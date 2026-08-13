@@ -1,6 +1,7 @@
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import yaml from "js-yaml";
+import { CORE_SCHEMA, load, timestampTag } from "js-yaml";
 
+import assets from "./config/assets.js";
 import filters from "./config/filters.js";
 import collections from "./config/collections.js";
 
@@ -8,10 +9,23 @@ import collections from "./config/collections.js";
 process.env.TZ = "UTC";
 
 export default function (eleventyConfig) {
+  // Cache Liquid templates to reduce build time
+  const liquidCache = new Map();
+  eleventyConfig.setLiquidOptions({
+    cache: {
+      read: (key) => liquidCache.get(key),
+      write: (key, value) => liquidCache.set(key, value),
+      remove: (key) => liquidCache.delete(key),
+    },
+  });
+  eleventyConfig.on("eleventy.beforeWatch", () => liquidCache.clear());
+
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addDataExtension("yaml,yml", (contents) =>
-    yaml.load(contents),
+    load(contents, { schema: CORE_SCHEMA.withTags(timestampTag) }),
   );
+
+  eleventyConfig.addGlobalData("assets", assets);
 
   eleventyConfig.addGlobalData("eleventyComputed", {
     slug: (data) => data.slug || data.page.fileSlug,
@@ -28,7 +42,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("app/assets/images");
   eleventyConfig.addPassthroughCopy("app/assets/fonts");
   eleventyConfig.addPassthroughCopy("app/assets/thumbs");
-  eleventyConfig.addPassthroughCopy("app/assets/lib");
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/gsap/dist/gsap.min.js": "assets/lib/gsap.min.js",
+    "node_modules/swup/dist/Swup.umd.js": "assets/lib/Swup.umd.js",
+    "node_modules/@swup/head-plugin/dist/index.umd.js": "assets/lib/swup-head-plugin.umd.js",
+  });
   eleventyConfig.addPassthroughCopy("app/assets/javascripts");
   eleventyConfig.addPassthroughCopy("app/assets/css/post-content.css");
   eleventyConfig.addPassthroughCopy("app/assets/css/syntax.css");
@@ -42,8 +60,11 @@ export default function (eleventyConfig) {
   filters(eleventyConfig);
   collections(eleventyConfig);
 
-  eleventyConfig.setServerOptions({ showAllHosts: true });
-  eleventyConfig.addWatchTarget("app/assets/css/");
+  eleventyConfig.setServerOptions({
+    showAllHosts: true,
+    watch: ["build/assets/css/**/*.css"],
+  });
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
   eleventyConfig.ignores.add("**/README.md");
 

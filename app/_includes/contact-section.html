@@ -1,8 +1,8 @@
 <section class="container">
-  <div class="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-40 items-baseline">
+  <div class="flex flex-col md:grid md:grid-cols-3 gap-1.5 md:gap-10 items-baseline">
     <h2 class="h2">{{ heading }}</h2>
-    <div class="md:col-span-2 body-text flex flex-col md:grid md:grid-cols-2 gap-32">
-      <div class="flex flex-col gap-28">
+    <div class="md:col-span-2 body-text flex flex-col md:grid md:grid-cols-2 gap-8">
+      <div class="flex flex-col gap-7">
         <div class="label-value">
           <h3 class="label">Email</h3>
           {% capture emailLink %}
@@ -20,10 +20,10 @@
           {% include "arrow-link.html", label: "Map", href: "https://www.google.com/maps/place/1557+Massachusetts+Ave,+Cambridge,+MA+02138/@42.3782483,-71.1213313,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37741bde17be1:0xf64e9368998f6967!8m2!3d42.3782444!4d-71.1191426", target: "_blank", reverse: true %}
         </div>
       </div>
-      <div class="flex flex-col gap-28">
+      <div class="flex flex-col gap-7">
         <div class="label-value">
           <h3 class="label">Newsletter</h3>
-          <p class="value max-w-[330px]">
+          <p class="value max-w-82.5">
             Get updates on our latest projects and research.
           </p>
           {% include "arrow-link.html", label: "Sign Up", href: "https://ocb.to/lawvocado", target: "_blank", reverse: true %}

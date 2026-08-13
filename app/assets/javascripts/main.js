@@ -3,9 +3,6 @@ var _paq = _paq || [];
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 
-// Be sure to also set variable --animation-rate in main.css so it matches this value
-const animationRate = 0.3;
-
 function setVh() {
     const setValue = () => {
         var vh = window.innerHeight * 0.01;
@@ -65,7 +62,7 @@ class blogSearch {
       const cycler = createCycler(1,6);
       const html = results.map(item => {
         return `
-          <article class="flex flex-col gap-8 relative">
+          <article class="flex flex-col gap-2 relative">
             <header class="aspect-square w-full bg-gray relative">
               ${item.image && item.image !== null && item.image !== '' ? (
                 `<object data="${item.image}" class="w-full h-full object-cover absolute inset-0">
@@ -73,10 +70,10 @@ class blogSearch {
                  </object>`
               ) : ''}
             </header>
-            <h2 class="text-18 leading-115 font-medium" itemprop="headline">
+            <h2 class="text-lg leading-[115%] font-medium" itemprop="headline">
               <a href="${item.url}" class="card-link">${item.title}</a>
             </h2>
-            <time class="text-18 leading-00" datetime="${item.date}">${item.date}</time>
+            <time class="text-lg leading-none" datetime="${item.date}">${item.date}</time>
           </article>`
         }).join('')
       if(this.searchField.value === '') {
@@ -229,7 +226,7 @@ class LilHeader extends HTMLElement {
         gsap.to(this.menu, {duration: 0, display: 'flex'})
 
         gsap.to(this.menu, {
-            duration: safeDuration(0.95 * animationRate),
+            duration: safeDuration(0.285),
             ease: 'expo.inOut',
             clipPath: 'inset(0% 0% 0% 0%)',
         })
@@ -238,7 +235,7 @@ class LilHeader extends HTMLElement {
             opacity: 0,
             y: -80,
         }, {
-            duration: safeDuration(1.2 * animationRate),
+            duration: safeDuration(0.36),
             ease: 'power3.out',
             opacity: 1,
             y: 0,
@@ -249,17 +246,17 @@ class LilHeader extends HTMLElement {
             opacity: 0,
             y: -10,
         }, {
-            duration: safeDuration(1 * animationRate),
+            duration: safeDuration(0.3),
             ease: 'power3.out',
             opacity: 1,
-            delay: 0.55 * animationRate,
+            delay: 0.165,
             y: 0,
         })
     }
 
     menuCloseAnimation() {
         gsap.to(this.menu, {
-            duration: safeDuration(0.8 * animationRate),
+            duration: safeDuration(0.24),
             ease: 'expo.inOut',
             clipPath: 'inset(0% 0% 100% 0%)',
         })
@@ -268,7 +265,7 @@ class LilHeader extends HTMLElement {
             opacity: 1,
             y: 0,
         }, {
-            duration: safeDuration(0.4 * animationRate),
+            duration: safeDuration(0.12),
             ease: 'power3.in',
             opacity: 0,
             y: -30,
@@ -279,13 +276,13 @@ class LilHeader extends HTMLElement {
             opacity: 1,
             y: 0,
         }, {
-            duration: safeDuration(0.4 * animationRate),
+            duration: safeDuration(0.12),
             ease: 'power3.in',
             opacity: 0,
             y: -40,
         })
 
-        gsap.to(this.menu, {duration: safeDuration(1 * animationRate), display: 'none'})
+        gsap.to(this.menu, {duration: safeDuration(0.3), display: 'none'})
     }
 }
 
@@ -298,7 +295,7 @@ class LilMarquee extends HTMLElement {
     }
 
     animate() {
-        gsap?.to(this.parts, {xPercent: -100, repeat: -1, duration: safeDuration(60 * animationRate), ease: "linear"}).totalProgress(0.5);
+        gsap?.to(this.parts, {xPercent: -100, repeat: -1, duration: safeDuration(18), ease: "linear"}).totalProgress(0.5);
         gsap?.set(this.inner, {xPercent: -50});
     }
 }
@@ -348,7 +345,7 @@ class LilExpandable extends HTMLElement {
     openExpandableContent() {
         this.content.style.display = 'block';
         gsap.to(this.content, {
-            duration: safeDuration(1 * animationRate),
+            duration: safeDuration(0.3),
             ease: 'power4.inOut',
             height: this.content.scrollHeight,
             opacity: 1,
@@ -357,13 +354,13 @@ class LilExpandable extends HTMLElement {
 
     closeExpandableContent() {
         gsap.to(this.content, {
-            duration: safeDuration(1 * animationRate),
+            duration: safeDuration(0.3),
             ease: 'power4.inOut',
             height: 0,
             opacity: 0,
         })
         gsap.to(this.content, {
-            duration: safeDuration(1 * animationRate),
+            duration: safeDuration(0.3),
             ease: 'power4.inOut',
             display: 'none',
         })
@@ -379,8 +376,15 @@ function setupCustomElements() {
 }
 
 function setupSwup() {
+    const ignorePaths = [
+        '/century-scale-storage/',
+        '/open-french-law-rag/'
+    ];
+
     const swup = new Swup({
         plugins: [new SwupHeadPlugin()],
+        ignoreVisit: (url, { el } = {}) =>
+            ignorePaths.some((path) => url.startsWith(path)) || !!el?.closest('[data-no-swup]'),
         skipPopStateHandling: (event) => {
           event.url?.contains('blog') || event.state?.source !== 'swup'
         },

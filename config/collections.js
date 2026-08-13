@@ -1,10 +1,17 @@
-function slugify(s) {
-  return s
-    .toLowerCase()
-    .trim()
-    .replace(/[^\w\s-]/g, "")
-    .replace(/[\s_]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+import fs from "node:fs";
+
+import slugify from "@sindresorhus/slugify";
+import { load } from "js-yaml";
+
+const slugCache = new Map();
+
+function slug(str) {
+  let cached = slugCache.get(str);
+  if (cached === undefined) {
+    cached = slugify(str, { decamelize: false });
+    slugCache.set(str, cached);
+  }
+  return cached;
 }
 
 export default function (eleventyConfig) {
@@ -23,6 +30,19 @@ export default function (eleventyConfig) {
     collectionApi.getFilteredByTag("our_work_pageless")
   );
 
+  eleventyConfig.addCollection("research", (collectionApi) => {
+    const additional = load(
+      fs.readFileSync("app/_data/additional_research.yaml", "utf8")
+    );
+    return [
+      ...collectionApi
+        .getFilteredByTag("our_work")
+        .filter((item) => item.data.category === "research" && !item.data.retired)
+        .map((item) => ({ ...item.data, url: item.url })),
+      ...additional,
+    ];
+  });
+
   eleventyConfig.addCollection("events", (collectionApi) =>
     collectionApi
       .getFilteredByTag("events")
@@ -39,40 +59,42 @@ export default function (eleventyConfig) {
     collectionApi.getFilteredByTag("interviews")
   );
 
-  eleventyConfig.addCollection("projects_active", (collectionApi) =>
-    collectionApi
-      .getFilteredByTag("our_work")
-      .filter((item) => !item.data.retired)
-      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
-  );
-
-  eleventyConfig.addCollection("sketches_active", (collectionApi) =>
-    collectionApi
-      .getFilteredByTag("our_work_pageless")
-      .filter((item) => !item.data.retired)
-  );
+  eleventyConfig.addCollection("eventsSplit", (collectionApi) => {
+    const now = new Date();
+    const events = collectionApi
+      .getFilteredByTag("events")
+      .filter((item) => item.inputPath.startsWith("./app/_events/"))
+      .sort((a, b) => a.date - b.date);
+    return {
+      next: events.find((e) => e.date >= now),
+      upcoming: events.filter((e) => e.date > now).reverse(),
+      past: events.filter((e) => e.date < now).reverse(),
+    };
+  });
 
   eleventyConfig.addCollection("tagsList", (collectionApi) => {
     const PAGE_SIZE = 12;
     const blogPosts = collectionApi.getFilteredByTag("posts");
+
     const tagMap = new Map();
     blogPosts.forEach((post) => {
       (post.data.tags || []).forEach((tag) => {
         if (tag === "posts") return;
-        const slug = slugify(tag);
-        if (!tagMap.has(slug)) {
-          tagMap.set(slug, tag);
+        const tagSlug = slug(tag);
+        let entry = tagMap.get(tagSlug);
+        if (!entry) {
+          entry = { name: tag, posts: [] };
+          tagMap.set(tagSlug, entry);
+        }
+        if (entry.posts.at(-1) !== post) {
+          entry.posts.push(post);
         }
       });
     });
 
     const pages = [];
-    tagMap.forEach((tag, tagSlug) => {
-      const tagPosts = blogPosts
-        .filter((post) =>
-          (post.data.tags || []).some((t) => slugify(t) === tagSlug)
-        )
-        .reverse();
+    tagMap.forEach(({ name: tag, posts }, tagSlug) => {
+      const tagPosts = [...posts].reverse();
 
       const totalPages = Math.max(1, Math.ceil(tagPosts.length / PAGE_SIZE));
 
@@ -106,20 +128,27 @@ export default function (eleventyConfig) {
     const allPosts = collectionApi.getFilteredByTag("posts");
 
     const catMap = new Map();
+    const postsByCategory = new Map();
     allPosts.forEach((post) => {
       (post.data.categories || []).forEach((cat) => {
-        const slug = slugify(cat);
-        if (!catMap.has(slug)) {
-          catMap.set(slug, cat);
+        const catSlug = slug(cat);
+        if (!catMap.has(catSlug)) {
+          catMap.set(catSlug, cat);
+        }
+        let bucket = postsByCategory.get(cat);
+        if (!bucket) {
+          bucket = [];
+          postsByCategory.set(cat, bucket);
+        }
+        if (bucket.at(-1) !== post) {
+          bucket.push(post);
         }
       });
     });
 
     const pages = [];
     catMap.forEach((cat, catSlug) => {
-      const catPosts = allPosts
-        .filter((p) => (p.data.categories || []).includes(cat))
-        .reverse();
+      const catPosts = [...postsByCategory.get(cat)].reverse();
 
       const totalPages = Math.max(1, Math.ceil(catPosts.length / PAGE_SIZE));
 

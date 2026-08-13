@@ -3,7 +3,7 @@ category: platforms
 order: 1
 retired: false
 retired_date:
-layout: project-custom
+layout: project_custom
 featured: true
 
 title: Public Data Project
@@ -19,7 +19,7 @@ project_website:
 what_does_it_do: Preserving civic ground truth.
 sections:
   What Is the Public Data Project?: |
-    The Public Data Project enhances discovery and monitoring of large government datasets by building cutting-edge tools and interfaces that enable access, discovery, and monitoring of multimodal collections. We preserve and make accessible large datasets in service to this development and in response to risks. We position our work among the collective effort to change the cultural climate around government data, so that it is understood as a resource held in the public trust. Our work began with [copying 311,000 datasets from Data.gov between November 2024 and January 2025](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/). More recently, we [captured all public domain Smithsonian data](https://lil.law.harvard.edu/blog/2025/09/18/expanding-our-public-data-project-to-include-smithsonian-collections-data/).
+    Launched in February 2025, the Public Data Project builds cutting-edge tools and interfaces that enable access, discovery, and monitoring of large government datasets. We are among the collective effort to change the cultural climate around government data, so that it is understood as a resource held in the public trust. We position our work among the collective effort to change the cultural climate around government data, so that it is understood as a resource held in the public trust. Our work began with [copying 311,000 datasets from Data.gov between November 2024 and January 2025](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/). More recently, we [captured all public domain Smithsonian data](https://lil.law.harvard.edu/blog/2025/09/18/expanding-our-public-data-project-to-include-smithsonian-collections-data/).
 
     Through technological innovation, inter-institutional collaboration, and pedagogical development, the Public Data Project is equipping a nationwide network of libraries, archives, and nonprofits with the tools they need to safeguard the most vulnerable U.S. federal data and to build the technical, organizational, and human infrastructure required for long-term, low-cost stewardship of public information. The Public Data Project builds on LIL's history with large-scale data and digital preservation projects, such as the [Caselaw Access Project](https://case.law) and [Perma.cc](https://perma.cc).
 

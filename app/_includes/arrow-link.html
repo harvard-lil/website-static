@@ -1,15 +1,7 @@
-{% assign is_relative = href  | startswith: "/" %}
-{% capture resolved_href %}
-  {% if is_relative %}
-    {{ href }}
-  {% else %}
-    {{ href }}
-  {% endif %}
-{% endcapture %}
 <a
-  href="{{ resolved_href | strip }}"
+  href="{{ href | strip }}"
   target="{% if target %}{{target}}{% else %}_self{% endif %}"
-  class="flex items-center gap-12 body-text {% if card_link %}card-link{% endif %}">
+  class="flex items-center gap-3 body-text {% if card_link %}card-link{% endif %}">
   {% if arrow == 'back' %}
     {% include "icon-left-arrow.html" %}
   {% endif %}

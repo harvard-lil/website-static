@@ -62,16 +62,6 @@ export default function (eleventyConfig) {
     return md.renderInline(str);
   });
 
-  eleventyConfig.addFilter("slugify", (str) => {
-    if (!str) return "";
-    return str
-      .toLowerCase()
-      .trim()
-      .replace(/[^\w\s-]/g, "")
-      .replace(/[\s_]+/g, "-")
-      .replace(/^-+|-+$/g, "");
-  });
-
   eleventyConfig.addFilter("smartify", (str) => {
     if (!str) return "";
     return String(str)
@@ -80,15 +70,6 @@ export default function (eleventyConfig) {
       .replace(/(^|[-\u2014/\[(\u2018\s])"/g, "$1\u201c")
       .replace(/"/g, "\u201d")
       .replace(/--/g, "\u2014");
-  });
-
-  eleventyConfig.addFilter("map", (arr, key) => {
-    if (!arr) return [];
-    return arr.map((item) => {
-      if (item && item.data && item.data[key] !== undefined)
-        return item.data[key];
-      return item ? item[key] : undefined;
-    });
   });
 
   eleventyConfig.addFilter("values", (obj) => {
@@ -104,92 +85,37 @@ export default function (eleventyConfig) {
     return siteUrl + url;
   });
 
-  eleventyConfig.addFilter("where", (arr, key, value) => {
-    if (!arr) return [];
-    return arr.filter((item) => {
-      const val = item.data ? item.data[key] : item[key];
-      if (value === false)
-        return val === false || val === undefined || val === null;
-      if (value === true) return val === true;
-      return val === value;
-    });
-  });
-
-  eleventyConfig.addFilter("where_exp", (arr, itemName, expr) => {
-    if (!arr) return [];
-    const isNow = (part) => part.includes("site.time") || part.includes("now");
-    return arr.filter((item) => {
-      if (expr.includes(">=")) {
-        const parts = expr.split(">=").map((s) => s.trim());
-        const field = parts[0].replace(itemName + ".", "");
-        const itemVal = item.data ? item.data[field] : item[field];
-        if (isNow(parts[1])) {
-          return new Date(itemVal) >= new Date();
-        }
-      }
-      if (expr.includes(">")) {
-        const parts = expr.split(">").map((s) => s.trim());
-        const field = parts[0].replace(itemName + ".", "");
-        const itemVal = item.data ? item.data[field] : item[field];
-        if (isNow(parts[1])) {
-          return new Date(itemVal) > new Date();
-        }
-      }
-      if (expr.includes("<")) {
-        const parts = expr.split("<").map((s) => s.trim());
-        const field = parts[0].replace(itemName + ".", "");
-        const itemVal = item.data ? item.data[field] : item[field];
-        if (isNow(parts[1])) {
-          return new Date(itemVal) < new Date();
-        }
-      }
-      if (expr.includes("!= true")) {
-        const parts = expr.split("!=").map((s) => s.trim());
-        const field = parts[0].replace(itemName + ".", "");
-        const itemVal = item.data ? item.data[field] : item[field];
-        return itemVal !== true;
-      }
-      return true;
-    });
-  });
-
-  eleventyConfig.addFilter("sort", (arr, key, order) => {
-    if (!arr) return [];
-    return [...arr].sort((a, b) => {
-      const aVal = key == null ? a : a.data ? a.data[key] : a[key];
-      const bVal = key == null ? b : b.data ? b.data[key] : b[key];
-      const aNil = aVal == null || aVal === "";
-      const bNil = bVal == null || bVal === "";
-      if (aNil && bNil) return 0;
-      if (aNil) return -1;
-      if (bNil) return 1;
-      if (aVal < bVal) return -1;
-      if (aVal > bVal) return 1;
-      return 0;
-    });
-  });
-
-  eleventyConfig.addFilter("sort_natural", (arr, key) => {
-    if (!arr) return [];
-    return [...arr].sort((a, b) => {
-      const aVal = String(a.data ? a.data[key] : a[key]).toLowerCase();
-      const bVal = String(b.data ? b.data[key] : b[key]).toLowerCase();
-      return aVal.localeCompare(bVal);
-    });
-  });
-
   eleventyConfig.addFilter("startswith", (str, prefix) => {
     if (!str) return false;
     return String(str).startsWith(prefix);
   });
 
-  eleventyConfig.addFilter("random_number", (max, lastNumber) => {
+  eleventyConfig.addFilter("hashed_number", (max, seed, lastNumber) => {
     const m = parseInt(max, 10);
-    let n;
-    do {
-      n = Math.floor(Math.random() * m) + 1;
-    } while (n === parseInt(lastNumber, 10) && m > 1);
-    return n;
+    if (!(m > 0)) return 1;
+
+    let hash = 0x811c9dc5;
+    for (const char of String(seed ?? "")) {
+      hash ^= char.codePointAt(0);
+      hash = Math.imul(hash, 0x01000193) >>> 0;
+    }
+
+    const n = (hash % m) + 1;
+
+    // Don't repeat the last number
+    return n === parseInt(lastNumber, 10) && m > 1 ? (n % m) + 1 : n;
+  });
+
+  eleventyConfig.addFilter("latest_update", (posts) => {
+    let latest = null;
+    for (const post of posts || []) {
+      const raw = post.data?.last_modified_at || post.date;
+      const date = raw instanceof Date ? raw : new Date(raw);
+      if (!Number.isNaN(date.valueOf()) && (!latest || date > latest)) {
+        latest = date;
+      }
+    }
+    return latest;
   });
 
   eleventyConfig.addFilter("is_even", (n) => parseInt(n, 10) % 2 === 0);

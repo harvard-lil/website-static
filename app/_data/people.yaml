@@ -250,10 +250,7 @@ clare-stanton:
     gallery, as the event coordinator/alumni liaison/substitute teacher at a
     small independent school, as the database maintainer/research
     assistant/calendar keeper for a group of innovation and management
-    researchers, as the compost watchdog/vinyl cutter whisperer/side-project
-    logistics manager at LIL, the outreach and communications lead for Perma.cc,
-    and now LIL's Product and Research Director. She has an MLIS from Simmons
-    University.
+    researchers, and as the vinyl cutter whisperer/Perma user historian/Product and Research Director at LIL. She has an MLIS from Simmons University. 
   email: cstanton@law.harvard.edu
   twitter_account_name: clare__stanton
   image: clare-stanton.jpg
@@ -394,20 +391,19 @@ kyle-deeds:
   affiliated: true
   current: true
   section: Affiliates
-christopher-dick:
-  name: Christopher Dick
-  sort_name: Dick
+ying-hsiang-huang:
+  name: Ying-Hsiang Huang
+  sort_name: Huang
   role: Fellow
-  bio: >-
-    Chris is a data scientist, demographer, and founder of the company Demographic
-    Analytics Advisors. He began his career as a statistician and demographer at the
-    United States Census Bureau as well as the United States Citizenship and Immigration
-    Services. He later served as the managing director for public sector data science for
-    the tech startup Civis Analytics. His current work focuses on building tools to monitor
-    the federal data ecosystem at dataindex.us, telling the story of federal data at
-    essentialdata.us, and building tools to enhance decision-making in the public and
-    nonprofit sectors.
-  image: christopher-dick.jpg
+  bio: >
+    Ying-Hsiang is an incoming PhD student at the University of Washington Information School.
+    He earned his MLIS from the University of Washington and brings seven years of software engineering
+    experience across industry and academia, including roles at the University of Washington Libraries,
+    the University of Washington eScience Institute, and King County Library System. His research
+    explores how AI can improve the organization, discovery, and accessibility of digital collections
+    and public knowledge. He develops open-source tools and infrastructure for digital libraries,
+    information retrieval, and linked data.
+  image: ying-hsiang-huang.jpg
   affiliated: true
   current: true
   section: Affiliates
@@ -429,6 +425,20 @@ benjamin-charles-germain-lee:
     learning. His public writing has appeared in publications including The New Republic, WIRED,
     and Longreads.
   image: benjamin-charles-germain-lee.jpg
+  affiliated: true
+  current: true
+  section: Affiliates
+akshay-mehta:
+  name: Akshay Mehta
+  sort_name: Mehta
+  role: Fellow
+  bio: >
+    Akshay Mehta is an incoming PhD student in computer science at Boston University. He earned
+    his Bachelor of Science from Brown University in Applied Mathematics-Computer Science. His research
+    focuses on optimizing AI data processing pipelines for large-scale metadata extraction, integration,
+    and search indexing to enable efficient retrieval over document collections. He contributes to
+    govscape.net with Professor Kyle Deeds.
+  image: akshay-mehta.jpg
   affiliated: true
   current: true
   section: Affiliates
@@ -652,6 +662,11 @@ paul-deschner:
   website:
   twitter_account_name:
   github_account_name:
+  affiliated: true
+christopher-dick:
+  name: Christopher Dick
+  sort_name: Dick
+  role: Fellow
   affiliated: true
 alexandra-dolan-mescal:
   name: Alexandra Dolan-Mescal

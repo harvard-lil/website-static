@@ -13,12 +13,12 @@ layout: default
   </div>
 </section>
 
-<div class="flex flex-col items-start gap-36 md:gap-72">
+<div class="flex flex-col items-start gap-9 md:gap-18">
 
-  <section class="container md:mb-12">
-    <div class="flex flex-col md:grid md:grid-cols-3 gap-24 md:gap-40 items-baseline">
+  <section class="container md:mb-3">
+    <div class="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-10 items-baseline">
       <h2 class="h2 editable">Who We Are</h2>
-      <div class="md:col-span-2 body-text flex flex-col gap-24 max-w-[700px] editable">
+      <div class="md:col-span-2 body-text flex flex-col gap-6 max-w-175 editable">
         <p>We are a team of librarians, technologists, lawyers, designers, and more, and we work out of the Harvard Law School Library.</p>
         <p>We believe that libraries play a fundamental role in humanity as open, privacy-respecting, and sustainable information spaces. We also believe technology holds great power to break down barriers to information creation, preservation, and use.</p>
       </div>
@@ -32,18 +32,18 @@ layout: default
             alt="Photo of the Reginald F. Lewis Center at Harvard University"
             class="img-full-width aspect-[1/.45] object-cover overflow-hidden">
       </picture>
-      <figcaption class="block container text-16 py-8">
+      <figcaption class="block container text-base py-2">
         <strong class="editable">Credit: Bob O’Connor</strong>
       </figcaption>
     </figure>
   </section>
 
-  <section class="bg-green py-48 md:py-72 w-full">
-    <div class="container flex flex-col md:grid md:grid-cols-2 gap-32 md:gap-100 md:items-center">
+  <section class="bg-green py-12 md:py-18 w-full">
+    <div class="container flex flex-col md:grid md:grid-cols-2 gap-8 md:gap-25 md:items-center">
       <h2 class="h2 editable">Library principles can manifest in any technology and provide a roadmap to mindful building.</h2>
-      <div class="flex flex-col gap-20 md:gap-30 body-text">
+      <div class="flex flex-col gap-5 md:gap-8 body-text">
         <h3 class="label editable">We strive to cultivate</h3>
-        <div class="flex flex-col gap-16 md:gap-24 max-w-[520px] editable">
+        <div class="flex flex-col gap-4 md:gap-6 max-w-130 editable">
           <p>Collection, curation, and preservation of knowledge and its provenance</p>
           <p>Equal and private access to knowledge</p>
           <p>Community service, building, and empowerment through knowledge</p>
@@ -52,9 +52,9 @@ layout: default
     </div>
   </section>
 
-  <section class="container ">
-    <h2 id="staff" class="h2 mt-12 mb-48 md:mb-72 editable">People at the Lab</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120 pb-48 md:pb-72">
+  <section class="container">
+    <h2 id="staff" class="h2 mt-3 mb-12 md:mb-18 editable">People at the Lab</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-x-15 lg:gap-x-22.5 xl:gap-x-30 pb-12 md:pb-18">
       {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}
       {% assign sections = "Faculty Director, Staff" | split: ", " %}
       {% for section in sections %}
@@ -70,10 +70,9 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
-    <div id="affiliates" class="pt-48 md:pt-72 border-t-1 border-black">
+    <div id="affiliates" class="pt-12 md:pt-18 border-t border-black">
       <h2 class="h2 editable">Affiliates</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-32 md:gap-x-60 lg:gap-x-90 xl:gap-x-120">
-        {% assign affiliates = people | values | where: "affiliated", true | sort: "sort_name" %}
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-x-15 lg:gap-x-22.5 xl:gap-x-30">
         {% assign sections = "Affiliates" | split: ", " %}
         {% for section in sections %}
           {% assign affiliated_people = affiliates | where: "current", true | where: "section", section %}
@@ -88,21 +87,21 @@ layout: default
   </section>
 
   <section class="w-full bg-purple">
-    <div class="container flex items-center justify-between gap-20 py-24">
+    <div class="container flex items-center justify-between gap-5 py-6">
       <div>
         {% include "header-splash-logo.html" %}
       </div>
       <div>
         {% include "arrow-link.html", label: jobs-link-label, href: "/jobs/" %}
       </div>
-      <div class="w-40">
+      <div class="w-10">
       </div>
     </div>
-    <section class="bg-gray pt-48 pb-6 tbl:pt-60 tbl:pb-24 w-full">
+    <section class="bg-gray pt-12 pb-1.5 tbl:pt-15 tbl:pb-6 w-full">
       <div id="past-affiliates" class="container">
-        <h2 class="h2 tbl:mt-12 tbl:mb-24 editable">Past Affiliates</h2>
+        <h2 class="h2 tbl:mt-3 tbl:mb-6 editable">Past Affiliates</h2>
         <div class="flex flex-col items-start w-full">
-          {% assign old_friends = affiliates | where: "current", false %}
+          {% assign old_friends = affiliates | reject: "current", true %}
           {% for person in old_friends %}
             {% include "about-people-unaffiliated.html", person: person %}
           {% endfor %}
@@ -112,15 +111,15 @@ layout: default
   </section>
 
   <section class="container">
-    <h2 class="h2 mt-12 md:mt-0 mb-48 tbl:mb-36 md:mb-60 editable">Supported By</h2>
-    <p class="body-text mb-48 editable">We gratefully acknowledge support from, and collaboration with, these organizations.</p>
-    
+    <h2 class="h2 mt-3 md:mt-0 mb-12 tbl:mb-9 md:mb-15 editable">Supported By</h2>
+    <p class="body-text mb-12 editable">We gratefully acknowledge support from, and collaboration with, these organizations.</p>
+
     {% include "about-sponsor-group.html", supporters: supporters.institutions %}
-    <hr class="w-[200px] mx-auto my-12 border-t-4 border-gray-300">
+    <hr class="w-50 mx-auto my-3 border-t-4">
     {% include "about-sponsor-group.html", supporters: supporters.foundations %}
-    <hr class="w-[200px] mx-auto my-12 border-t-4 border-gray-300">
+    <hr class="w-50 mx-auto my-3 border-t-4">
     {% include "about-sponsor-group.html", supporters: supporters.nonprofits %}
-    <hr class="w-[200px] mx-auto my-12 border-t-4 border-gray-300">
+    <hr class="w-50 mx-auto my-3 border-t-4">
     {% include "about-sponsor-group.html", supporters: supporters.companies %}
   </section>
 
