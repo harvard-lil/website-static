@@ -12,7 +12,7 @@ description: >-
   Infrastructure R&D effort, investigating new models of resilient, globally
   distributed infrastructure, governance, and mutual-aid arrangements that will
   enable public data to endure across generations.
-banner: LILTalk_JDearborn.png
+banner: LILTalk_JDearborn.jpg
 ---
 **Click to join the event on Zoom:** [**bsy.sh/4PdAt6i**](https://bsy.sh/4PdAt6i)
 
