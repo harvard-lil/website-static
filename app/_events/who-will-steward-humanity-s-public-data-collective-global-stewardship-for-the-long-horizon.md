@@ -4,7 +4,7 @@ title: >-
   Long Horizon
 date: 2026-09-10T13:00:00-04:00
 short_description: >-
-  Virtual talk given by LIL Fellow, JJ Dearborn about Public Data Project's
+  Virtual talk given by LIL Fellow JJ Dearborn about Public Data Project's
   International Data Infrastructure R&D effort.
 description: >-
   Talk with JJ Dearborn, current LIL Fellow and former Secretariat and Data
@@ -39,7 +39,3 @@ We invite you to imagine and build a different future with us: a data ecosystem 
 Her 15+ year career has spanned libraries, museums, government, and open data initiatives, including the Harvard Museum of Comparative Zoology, Harvard Botany Libraries, the Smithsonian, the Harvard-Smithsonian Center for Astrophysics, the Peabody Essex Museum, the State of Massachusetts, and the City of Boston. Formerly she served as Secretariat and Data Manager for the Biodiversity Heritage Library helping to safeguard and advance the interoperability and computational use of more than 64+ million pages of biodiversity literature. As a long-time advocate for the free culture movement, she launched the [BHL-Wikimedia Working Group](https://meta.wikimedia.org/wiki/Biodiversity_Heritage_Library/pt) and authored [Unifying Biodiversity data to Support Life on a Sustainable Planet](https://bhl.pubpub.org/).
 
 Originally from the San Francisco Bay Area, JJ now lives in Portugal with her family, where her interests extend to the physical world – exploring how adaptive reuse, biophilic architecture, local food production, and human economies might better coexist with the living world.
-
-&nbsp;
-
-&nbsp;
