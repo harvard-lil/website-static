@@ -30,7 +30,7 @@ Today we are presented with a fundamental question:
 
 What will it take to steward public data at global scale? And who will do it?
 
-The Harvard Library Innovation Lab is investigating new models of resilient, globally distributed infrastructure, governance, and mutual-aid arrangements that will enable public data to endure across generations.
+The <a href="https://lil.law.harvard.edu/our-work/public-data-project/" title="Public Data Project" target="_blank" rel="noopener">Public Data Project</a> is investigating new models of resilient, globally distributed infrastructure, governance, and mutual-aid arrangements that will enable public data to endure across generations.
 
 We invite you to imagine and build a different future with us: a data ecosystem where stewardship is a shared responsibility, resilience is designed into our systems, and all the world's communities have the opportunity to contribute to and benefit from humanity’s digital commonwealth.
 
