@@ -48,6 +48,14 @@
 }
 
 @font-face {
+  font-family: "NeueHaasGrotesk";
+  src: url("../fonts/NeueHaasGroteskDisplayPro66MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "DMMono";
   font-style: normal;
   font-weight: 300;
