@@ -1,6 +1,7 @@
 ---
 author:
-  - JJ Dearborn and Jennifer Chapman
+  - JJ Dearborn
+  - Jennifer Chapman
 date: 2026-09-01T09:00:00-04:00
 title: >-
   Global Stewardship of Public Data:  A Research & Development Initiative for
