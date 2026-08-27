@@ -6,7 +6,7 @@ title: >-
   Global Stewardship of Public Data:  A Research & Development Initiative for
   Resilient Public Data Infrastructure
 project: public-data-project
-thumbnail: /app/uploads/data-infrastructure.jpg
+thumbnail:
 tags:
   - Public Data
 ---
