@@ -20,13 +20,15 @@ For many of us working with public data we have been in [emergency mode](https:/
 
 We have embarked on a concentrated research and development project to assess the current state of international data infrastructure asking\*\*\*: What will it take to steward humanity’s public data for centuries and at global scale?\*\*\*
 
-Today, the infrastructure supporting public data is fragile: fragmented, geographically concentrated, and [persistently and acutely underfunded](https://investinopen.org/blog/data-resilience-funding-landscape/). Moreover, the human expertise required to sustain decades of investment in infrastructure is also increasingly at risk. When the systems, resources, and people responsible for maintaining public data are unable to sustain that infrastructure over time, data becomes vulnerable to loss. It is a challenge that requires understanding the interactions among multiple factors :
+Today, the infrastructure supporting public data is fragile: fragmented, geographically concentrated, and [persistently and acutely underfunded](https://investinopen.org/blog/data-resilience-funding-landscape/). Moreover, the human expertise required to sustain decades of investment in infrastructure is also increasingly at risk. When the systems, resources, and people responsible for maintaining public data are unable to sustain that infrastructure over time, data becomes vulnerable to loss. It is a challenge that requires understanding the interactions among multiple factors:
 
-*\[Image Caption:* Infrastructure is not simply a technical problem, and data loss is rarely an isolated failure. It is often the final consequence of a series of failures across interrelated dimensions.\]
+![Infrastructure is not simply a technical problem, and data loss is rarely an isolated failure. It is often the final consequence of a series of failures across interrelated dimensions.](/app/uploads/data-infrastructure-1.jpg "Data Infrastructure")*\[Image Caption:* Infrastructure is not simply a technical problem, and data loss is rarely an isolated failure. It is often the final consequence of a series of failures across interrelated dimensions.\]
 
 We are investigating what it will take to make globally distributed stewardship of public knowledge practical. By reviewing the research, interviewing practitioners, prototyping tools, and mapping the existing infrastructure landscape we are identifying gaps, connecting efforts currently operating in isolation, and developing working models for shared stewardship that build on the work already underway across the field.
 
 In particular, we are exploring how the principles of distributed preservation embodied by [LOCKSS](https://www.lockss.org/) ("Lots of Copies Keep Stuff Safe") can move from proven preservation practice to a globally adopted model of distributed stewardship. Specifically, we are asking, could new transnational models–for data storage relationships, replication protocols, interoperable standards, governance commitments, mutual-aid, and collective fiscal responsibility–become durable components of tomorrow’s global data landscape?
+
+![Globe of the world. North and South America. Theodor Horydczak Collection, Library of Congress, Prints and Photographs Division.](/app/uploads/1-globephoneetc.jpg "Globe and phone on book")
 
 \[\*Image Caption: Globe of the world. North and South America. Theodor Horydczak Collection, Library of Congress, Prints and Photographs Division. \*\* \*\*\* [http://loc.gov/item/2019677378/](http://loc.gov/item/2019677378/)\]
 
@@ -41,6 +43,8 @@ Jennifer has been examining the impact of the changing global legal order on acc
 The current disruption of the international legal order and global information systems force us to re-examine what long-term stewardship of public data should look like. In just one generation, public and philanthropic investment has made public data digitally open and accessible, transforming research, technology, and education. It has yielded tremendous societal benefit. With this shared resource under strain, decades of progress are at risk. The question now is whether we are willing to invest to ensure that this common inheritance survives us and continues to serve future generations?
 
 Join us for JJ’s upcoming talk, [Who Will Steward Humanity’s Public Data? Collective Global Stewardship for the Long Horizon](https://lil.law.harvard.edu/events/who-will-steward-humanity-s-public-data-collective-global-stewardship-for-the-long-horizon/) where we invite you to imagine and build a different future with us: a knowledge ecosystem where stewardship is a shared responsibility, resilience is designed into our systems, and communities around the world have the opportunity to contribute to and benefit from humanity’s public data commonwealth.
+
+![Advertisement for JJ Dearborn's upcoming September 10, 2026 talk.](/app/assets/images/events/LILTalk_JDearborn.jpg "LIL Talk: JJ Dearborn")
 
 ---
 
