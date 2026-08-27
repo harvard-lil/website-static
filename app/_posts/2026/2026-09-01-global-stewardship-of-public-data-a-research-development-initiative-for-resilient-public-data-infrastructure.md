@@ -22,13 +22,11 @@ We have embarked on a concentrated research and development project to assess th
 
 Today, the infrastructure supporting public data is fragile: fragmented, geographically concentrated, and [persistently and acutely underfunded](https://investinopen.org/blog/data-resilience-funding-landscape/). Moreover, the human expertise required to sustain decades of investment in infrastructure is also increasingly at risk. When the systems, resources, and people responsible for maintaining public data are unable to sustain that infrastructure over time, data becomes vulnerable to loss. It is a challenge that requires understanding the interactions among multiple factors:
 
-![Infrastructure is not simply a technical problem, and data loss is rarely an isolated failure. It is often the final consequence of a series of failures across interrelated dimensions.](/app/uploads/data-infrastructure-1.jpg "Data Infrastructure")*\[Image Caption:* Infrastructure is not simply a technical problem, and data loss is rarely an isolated failure. It is often the final consequence of a series of failures across interrelated dimensions.\]
+*\[Image Caption:* Infrastructure is not simply a technical problem, and data loss is rarely an isolated failure. It is often the final consequence of a series of failures across interrelated dimensions.\]
 
 We are investigating what it will take to make globally distributed stewardship of public knowledge practical. By reviewing the research, interviewing practitioners, prototyping tools, and mapping the existing infrastructure landscape we are identifying gaps, connecting efforts currently operating in isolation, and developing working models for shared stewardship that build on the work already underway across the field.
 
 In particular, we are exploring how the principles of distributed preservation embodied by [LOCKSS](https://www.lockss.org/) ("Lots of Copies Keep Stuff Safe") can move from proven preservation practice to a globally adopted model of distributed stewardship. Specifically, we are asking, could new transnational models–for data storage relationships, replication protocols, interoperable standards, governance commitments, mutual-aid, and collective fiscal responsibility–become durable components of tomorrow’s global data landscape?
-
-![Globe of the world. North and South America. Theodor Horydczak Collection, Library of Congress, Prints and Photographs Division.](/app/uploads/1-globephoneetc.jpg "Globe and phone on book")
 
 \[\*Image Caption: Globe of the world. North and South America. Theodor Horydczak Collection, Library of Congress, Prints and Photographs Division. \*\* \*\*\* [http://loc.gov/item/2019677378/](http://loc.gov/item/2019677378/)\]
 
