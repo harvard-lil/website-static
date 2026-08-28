@@ -22,7 +22,7 @@ We have embarked on a concentrated research and development project to assess th
 Today, the infrastructure supporting public data is fragile: fragmented, geographically concentrated, and [persistently and acutely underfunded](https://investinopen.org/blog/data-resilience-funding-landscape/). Moreover, the human expertise required to sustain decades of investment in infrastructure is also increasingly at risk. When the systems, resources, and people responsible for maintaining public data are unable to sustain that infrastructure over time, data becomes vulnerable to loss. It is a challenge that requires understanding the interactions among multiple factors:
 
 <figure class="items-center text-center">
-  <img class="w-2/3" src="https://lil-blog-media.s3.amazonaws.com/Data_Infrastructure-OAV.jpg" alt="A diagram outlining the six different elements of infrastructure that support public data." />
+  <img class="w-max" src="https://lil-blog-media.s3.amazonaws.com/Data_Infrastructure-OAV.jpg" alt="A diagram outlining the six different elements of infrastructure that support public data." />
   <figcaption>Infrastructure is not simply a technical problem, and data loss is rarely an isolated failure. It is often the final consequence of a series of failures across interrelated dimensions.</figcaption>
 </figure>
 
