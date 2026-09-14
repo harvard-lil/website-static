@@ -15,15 +15,15 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-    "@sindresorhus/slugify": "^2.2.1",
+    "@sindresorhus/slugify": "^3.0.1",
     "@swup/head-plugin": "^2.3.1",
-    "@tailwindcss/cli": "^4.3.2",
-    "concurrently": "^10.0.4",
+    "@tailwindcss/cli": "^4.3.3",
+    "concurrently": "^10.0.5",
     "gsap": "^3.15.0",
-    "js-yaml": "^5.2.3",
-    "markdown-it": "^14.1.0",
-    "swup": "^4.9.2",
-    "tailwindcss": "^4.3.2"
+    "js-yaml": "^5.4.2",
+    "markdown-it": "^15.0.2",
+    "swup": "^4.10.0",
+    "tailwindcss": "^4.3.3"
   },
   "allowScripts": {
     "@parcel/watcher@2.5.1": true,
