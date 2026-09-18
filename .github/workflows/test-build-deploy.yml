@@ -6,6 +6,10 @@ permissions:
   id-token: write  # Required for OIDC
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   test-build:
     runs-on: ubuntu-latest
