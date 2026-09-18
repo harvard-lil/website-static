@@ -61,6 +61,46 @@ jobs:
           name: site-build
           path: build/
 
+      - name: Add preview banner and block analytics
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('node:fs');
+            const path = require('node:path');
+
+            const repoName = `${context.repo.owner}/${context.repo.repo}`
+            const repoUrl = `${context.serverUrl}/${repoName}`;
+
+            const analyticsBlocker = `<script>(window._paq = window._paq || []).push(['requireConsent']);</script>`;
+            const banner = [
+              '<div style="position: relative; z-index: 101; background: #fff069; color: #121212; padding: 16px 24px; font-size: 18px; line-height: 1.4; text-align: center;">',
+              'This is a temporary preview site generated for ',
+              `<a href="${repoUrl}/pull/${context.issue.number}" style="color: inherit; font-weight: 500; text-decoration: underline;">${repoName}#${context.issue.number}</a>. `,
+              'It is not the production LIL website.',
+              '</div>',
+            ].join('');
+
+            const htmlFiles = fs.readdirSync('build', { recursive: true }).filter((file) => file.endsWith('.html'));
+            let markedCount = 0;
+            for (const file of htmlFiles) {
+              const filePath = path.join('build', file);
+              const html = fs.readFileSync(filePath, 'utf8');
+              const updated = html
+                .replace(/<head(\s[^>]*)?>/i, (tag) => tag + analyticsBlocker)
+                .replace(/<body(\s[^>]*)?>/i, (tag) => tag + banner);
+              if (updated.length === html.length + analyticsBlocker.length + banner.length) {
+                markedCount++;
+              } else {
+                core.warning(`Missing <head> or <body> tag in ${filePath}`);
+              }
+              fs.writeFileSync(filePath, updated);
+            }
+
+            core.info(`Added preview banner to ${markedCount} of ${htmlFiles.length} HTML files`);
+            if (markedCount === 0) {
+              core.setFailed('Failed to add preview banner to any HTML files');
+            }
+
       - name: Deploy preview to Cloudflare Pages
         uses: harvard-lil/lil-actions/cloudflare-pages-deploy@main
         with:
