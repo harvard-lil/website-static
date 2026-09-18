@@ -65,6 +65,7 @@ jobs:
           directory: build
           branch: pr-${{ github.event.pull_request.number }}
         env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
 
       - name: Comment preview link
