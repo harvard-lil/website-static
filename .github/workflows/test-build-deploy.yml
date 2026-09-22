@@ -122,7 +122,7 @@ jobs:
               marker,
               `Preview: ${url}`,
               '',
-              `This is a temporary preview copy of the website built from `${commit}` ([view log](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})). It will be deleted once this PR is merged or closed.`,
+              `This is a temporary preview copy of the website built from \`${commit}\` ([view log](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})). It will be deleted once this PR is merged or closed.`,
             ].join('\n');
 
             const comments = await github.paginate(github.rest.issues.listComments, {
