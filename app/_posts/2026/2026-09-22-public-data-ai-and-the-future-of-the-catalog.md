@@ -1,6 +1,6 @@
 ---
 title: Public Data, AI, and the Future of the Catalog
-date: 2026-09-22T14:00:00-04:00
+date: 2026-09-22T10:00:00-04:00
 author:
   - molly-hardy
 project: public-data-project
@@ -9,6 +9,7 @@ tags:
   - Public Data
 thumbnail: https://lil-blog-media.s3.amazonaws.com/catbriar-and-huckleberry.webp
 ---
+
 <figure class="items-center text-center">
   <img class="w-full object-contain" src="https://lil-blog-media.s3.amazonaws.com/library-bureau-catalog.webp" alt="Illustrations of a library card catalog and two cabinets with drawers sold by the Library Bureau" />
   <figcaption>The catalog of yesteryear. Source: <a href="https://archive.org/details/library_bureau_catalog"><i>Classified Illustrated Catalog of the Library Bureau</i></a> (1899).</figcaption>
