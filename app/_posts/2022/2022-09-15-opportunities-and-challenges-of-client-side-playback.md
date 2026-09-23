@@ -104,9 +104,11 @@ a pre-configured "embed" page, serving an instance of replayweb.page aimed at a 
 Source code and documentation on GitHub: [https://github.com/harvard-lil/wacz-exhibitor](https://github.com/harvard-lil/wacz-exhibitor).
 
 <hr>
+
 <small>These notes have been compiled as part of a new chapter exploring this technology, but the foundation of our insight was built long ago by [Rebecca Cremona](/about/#rebecca-cremona) as she spearheaded the integration of client-side playback into Perma.cc.</small>
 
 <hr>
+
 <small>**2022-10-07 update:** We're happy to report that version 1.7.0 of [Webrecorder's replayweb.page](https://github.com/webrecorder/replayweb.page) implements some of the recommendations outlined in this blog post.</small>
 
 <small>Namely:</small>
@@ -115,4 +117,5 @@ Source code and documentation on GitHub: [https://github.com/harvard-lil/wacz-ex
 - <small>Addition of an optional `requireSubDomainIframe` attribute to ensure the player won't start unless it's embedded in a cross-origin `<iframe>`.</small>
 
 <hr>
-<small>**2023-04-03 update:** <code>warc-embed</code> is now <code>wacz-exhibitor</code>
+
+<small>**2023-04-03 update:** <code>warc-embed</code> is now <code>wacz-exhibitor</code>.
