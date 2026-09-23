@@ -49,7 +49,7 @@ First, we position this work among the larger movement to call attention to the 
 Not only do we position the Public Data Project among such efforts, but — and this gets to the second reason for our work — we position the Smithsonian's public data as an excellent ambassador for this mission. Want to get people to care about public data? Lure them in with the cool stuff … like this ceremonial Chinese wine vessel from the Zhou period at the National Museum of Asian Art, which can be [viewed as a 3D model here](https://source-cooperative.github.io/model-viewer/?url=https%3A%2F%2Fdata.source.coop%2Fharvard-lil%2Fsmithsonian-open-access%2F3d%2Fd8c62f94-4ebc-11ea-b77f-2e728ce88125%2Ff1930_54-combined-100K-2048_std.glb).
 
 <figure class="items-center text-center">
-  <iframe class="w-full" src="https://source-cooperative.github.io/model-viewer/?url=https%3A%2F%2Fdata.source.coop%2Fharvard-lil%2Fsmithsonian-open-access%2F3d%2Fd8c62f94-4ebc-11ea-b77f-2e728ce88125%2Ff1930_54-combined-100K-2048_std.glb" title="Zhou period ceremonial wine container (fangyi) from the National Museum of Asian Art"></iframe>
+  <iframe class="w-full" src="https://source-cooperative.github.io/model-viewer/?url=https%3A%2F%2Fdata.source.coop%2Fharvard-lil%2Fsmithsonian-open-access%2F3d%2Fd8c62f94-4ebc-11ea-b77f-2e728ce88125%2Ff1930_54-combined-100K-2048_std.glb" title="Zhou period ceremonial wine container (fangyi) from the National Museum of Asian Art" allow="fullscreen" loading="lazy"></iframe>
   <figcaption>Zhou period ceremonial wine container (fangyi) from the National Museum of Asian Art. Source: <a href="https://source.coop/harvard-lil/smithsonian-open-access/3d/d8c62f94-4ebc-11ea-b77f-2e728ce88125/f1930_54-combined-100K-2048_std.glb">Smithsonian Open Access Archive</a>.</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ The word "catalog" is Greek, combining the word _kata_, which means "completely,
 
 <figure class="items-center text-center">
   <img class="w-full aspect-4/3 object-cover object-top" src="https://lil-blog-media.s3.amazonaws.com/catbriar-and-huckleberry.webp" alt="Catbriar and huckleberry in the author's backyard" />
-  <figcaption>Catbriar and huckleberry in the author's backyard.</figcaption>
+  <figcaption>Catbriar and huckleberry in the author's backyard. Photograph by Nick Anderson.</figcaption>
 </figure>
 
 But this story is changing. In our networked and media-saturated world, commentary, both expert and amateur, happens beyond the walls of the brick and mortar institutions that house the objects. I am thinking here of [the work of Michelle Caswell](https://michellecaswell.org/research) and the idea of "community archiving" because, I want to posit, such "bottom up" descriptions offer us a challenge — and an opportunity — to reimagine catalogs.
