@@ -63,7 +63,7 @@ The word "catalog" is Greek, combining the word _kata_, which means "completely,
 
 <figure class="items-center text-center">
   <img class="w-full aspect-4/3 object-cover object-top" src="https://lil-blog-media.s3.amazonaws.com/catbriar-and-huckleberry.webp" alt="Catbriar and huckleberry in the author's backyard" />
-  <figcaption>Catbriar and huckleberry in the author's backyard.</figcaption>
+  <figcaption>Catbriar and huckleberry in the author's backyard. Photograph by Nick Anderson.</figcaption>
 </figure>
 
 But this story is changing. In our networked and media-saturated world, commentary, both expert and amateur, happens beyond the walls of the brick and mortar institutions that house the objects. I am thinking here of [the work of Michelle Caswell](https://michellecaswell.org/research) and the idea of "community archiving" because, I want to posit, such "bottom up" descriptions offer us a challenge — and an opportunity — to reimagine catalogs.
