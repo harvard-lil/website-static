@@ -18,7 +18,7 @@ permalink: /blog/feed/index.xml
     <language>en-US</language>
     {% for post in collections.posts reversed %}
     <item>
-        <title>{{ post.data.title | xml_escape }}</title>
+        <title>{{ post.data.title | smartify | xml_escape }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         {% if post.data.author %}
