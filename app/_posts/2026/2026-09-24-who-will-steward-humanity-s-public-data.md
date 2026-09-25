@@ -159,7 +159,7 @@ Now, I realize I have spent quite a bit of time telling you what is going wrong.
 
 And we already have enormous networks of libraries, archives, museums, universities, research organizations, governments, nonprofits, community groups, developers, collectives, and individual experts who care very deeply about keeping public data both sovereign and alive.
 
-**So the problem is not that humanity has no idea how to do this. Because we have many of the pieces. What we have not yet done is connect those pieces into a sufficiently resilient global system.** LOCKSS taught us something incredibly important about data: **Don't depend on one copy.** I think the challenge before us now is to take our learnings from LOCKSS one step further and apply them not just the data but to all of the dimensions of infrastructure:
+**So the problem is not that humanity has no idea how to do this. Because we have many of the pieces. What we have not yet done is connect those pieces into a sufficiently resilient global system.** LOCKSS taught us something incredibly important about data: **Don't depend on one copy.** I think the challenge before us now is to take our learnings from LOCKSS one step further and apply them to not just the data but all of the dimensions of infrastructure:
 
 **Don't depend on one institution. Don't depend on one funder. Don't depend on one platform. Don't depend on one country. Don't depend on one technical team. And certainly don't depend on one person.**
 
