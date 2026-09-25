@@ -21,7 +21,7 @@ _On September 10, 2026, Jacqueline J. Dearborn, Library Innovation Lab Fellow, g
 
 ---
 
-Hello everyone, before I get started, I want to give a shout out to [Molly Hardy](/about/#molly-hardy) and [Jack Cushman](/about/#jack-cushman) at the Harvard Library Innovation Lab for giving me this opportunity to reflect on some of the most pressing challenges of our time.
+Hello everyone, before I get started, I want to give a shout-out to [Molly Hardy](/about/#molly-hardy) and [Jack Cushman](/about/#jack-cushman) at the Harvard Library Innovation Lab for giving me this opportunity to reflect on some of the most pressing challenges of our time.
 
 With [Jennifer Chapman](/about/#jennifer-chapman) as my counterpart, we've spearheaded the Public Data Infrastructure Research and Development project and through this work, we've gotten the chance to zoom way, way, _way_ out and take a look at the global public data landscape.
 
@@ -37,7 +37,7 @@ So while many of you may know me best as a member of the BHL Secretariat and Dat
 
 I suppose the charitable word to describe my career trajectory would be tenacity — or maybe just a stubborn refusal to abandon the work that I believe in. And all this moving around has given me an unusual vantage point. I've spearheaded new initiatives and I've been around projects that are thriving. I've watched others struggle, and heartbreakingly, I've watched some go extinct altogether. I've also seen some reborn and flourish again.
 
-And when you're working on the inside, you tend to measure success by fairly standardized metrics: Did we digitize the collection? How many pages? Did we build the API? Did we transcribe it? Did researchers use it? How many? All of these metrics definitely matter. But lately, I've become interested in different measures of success because data generation and stewardship is so incredibly labor intensive.
+And when you're working on the inside, you tend to measure success by fairly standardized metrics: Did we digitize the collection? How many pages? Did we build the API? Did we transcribe it? Did researchers use it? How many? All of these metrics definitely matter. But lately, I've become interested in different measures of success because data generation and stewardship is so incredibly labor-intensive.
 
 ## Measuring success beyond funding cycles
 
@@ -151,7 +151,7 @@ And I think public knowledge infrastructure needs to start thinking in these ter
 
 That principle has to apply across the entire infrastructure house: **Shared technology. Distributed expertise. Inclusive communities. Diversified funding. Transferable legal arrangements. Adaptive governance.** Not one institution holding all the cards. **Because if an organization has six months of runway left, that's not resilience. That's a countdown.**
 
-Resilience doesn't mean making every component perfect. It means creating a system that is less dependent on perfection. We're not trying to build one house that the wolf can never blow down. We're trying to build an ecosystem where losing one house is a recoverable event—where the wider community has the resources, rights, knowledge, and capacity to carry the work forward.
+Resilience doesn't mean making every component perfect. It means creating a system that is less dependent on perfection. We're not trying to build one house that the wolf can never blow down. We're trying to build an ecosystem where losing one house is a recoverable event — where the wider community has the resources, rights, knowledge, and capacity to carry the work forward.
 
 ## We aren't starting from scratch
 
@@ -159,7 +159,7 @@ Now, I realize I have spent quite a bit of time telling you what is going wrong.
 
 And we already have enormous networks of libraries, archives, museums, universities, research organizations, governments, nonprofits, community groups, developers, collectives, and individual experts who care very deeply about keeping public data both sovereign and alive.
 
-**So the problem is not that humanity has no idea how to do this. Because we have many of the pieces. What we have not yet done is connect those pieces into a sufficiently resilient global system.** LOCKSS taught us something incredibly important about data: **Don't depend on one copy.** I think the challenge before us now is to take our learnings from LOCKSS one step further and apply it not just the data but to all of the dimensions of infrastructure:
+**So the problem is not that humanity has no idea how to do this. Because we have many of the pieces. What we have not yet done is connect those pieces into a sufficiently resilient global system.** LOCKSS taught us something incredibly important about data: **Don't depend on one copy.** I think the challenge before us now is to take our learnings from LOCKSS one step further and apply them not just the data but to all of the dimensions of infrastructure:
 
 **Don't depend on one institution. Don't depend on one funder. Don't depend on one platform. Don't depend on one country. Don't depend on one technical team. And certainly don't depend on one person.**
 
