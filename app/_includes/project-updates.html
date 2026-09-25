@@ -6,7 +6,7 @@
   <h2 class="h2">Updates</h2>
   <div class="flex flex-col items-start w-full">
     {% for post in updates %}
-      {% assign update_title = post.data.title | default: post.title %}
+      {% assign update_title = post.data.title | default: post.title | smartify %}
       {% assign update_url = post.url | strip %}
       {% if post.data %}
         {% assign update_target = "_self" %}

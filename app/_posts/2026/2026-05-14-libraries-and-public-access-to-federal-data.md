@@ -9,21 +9,6 @@ tags:
   - Public Data
 ---
 
-<!-- We don't have any real blockquote styling in the base CSS, hence the following custom CSS for pull quotes -->
-<style>
-  .post-content blockquote {
-    margin: 1em 0 1.5em;
-    padding: 0.5em 1.5em 0;
-    border-left: 1px dotted #444;
-
-    font-size: 1.1em;
-    line-height: 1.5em;
-    letter-spacing: 0.025em;
-    font-style: italic;
-    color: #444;
-  }
-</style>
-
 <!-- Embed code copied from Vimeo, with margin-bottom and background-color added for improved appearance -->
 <div style="padding:56.25% 0 0 0;position:relative;margin-bottom:30px;background-color:black;">
   <iframe src="https://player.vimeo.com/video/1191239035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Libraries and Public Access to Federal Data: Chris Marcum Talks to the Public Data Project"></iframe>

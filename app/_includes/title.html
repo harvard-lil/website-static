@@ -9,4 +9,4 @@
     {{ site.title }}
   {% endif %}
 {% endcapture %}
- <title>{{ page-title-tag | strip }}</title>
+ <title>{{ page-title-tag | strip | smartify }}</title>
