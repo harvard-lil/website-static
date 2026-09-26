@@ -10,17 +10,9 @@ This repository contains the code for the [LIL website](https://lil.law.harvard.
 4. `npm start` to start the dev server
 5. View the dev server at http://localhost:8080
 
-## Adding current affiliates
+## Adding a staff member or affiliate
 
-At the moment, current staff and affiliates listed on the About page should have three sizes of photos. The current convention is to take a square, high-resolution grayscale image and convert it using ImageMagick. You can use something like this, assuming that the files are in the current working directory and named something like `firstname-lastname.jpg`:
+There are two steps to adding a current staff member or affiliate to the website:
 
-```
-for SIZE in 216 432 648 ; do for FILE in *.jpg ; do THUMBDIR=~/Documents/code/website-static/app/assets/thumbs/${SIZE}x${SIZE}c ; cp ${FILE} ${THUMBDIR}/ ; mogrify -scale ${SIZE}x${SIZE} -density 1x1 ${THUMBDIR}/${FILE} ; done ; done
-```
-
-For people who do not want to have an image on the website, we use a placeholder (`image: no-photo.jpg` in `people.yaml`), which was produced like this:
-
-```
-magick -size 1000x1000 xc:lightgray -fill gray -stroke gray -draw "circle 500,400 500,600" -draw "ellipse 500,950 320,400 0,360" no-photo.jpg
-for SIZE in 216 432 648 ; do THUMBDIR=~/Documents/code/website-static/app/assets/thumbs/${SIZE}x${SIZE}c ; cp no-photo.jpg ${THUMBDIR}/ ; mogrify -scale ${SIZE}x${SIZE} -density 1x1 ${THUMBDIR}/no-photo.jpg ; done
-```
+1. Take a square, high-resolution grayscale profile photo and add it to `app/assets/people` using the filename pattern `firstname-lastname.jpg`. (For people who don't want to have a photo on the website, an anonymous placeholder image will be used instead.)
+2. Add a profile entry to the appropriate section in `app/_data/people.yaml`, using the `firstname-lastname.jpg` filename you set in the previous step for the person's image. Be sure to set both `affiliated: true` and `current: true` if this is a current staff member/affiliate.
