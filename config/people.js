@@ -42,6 +42,10 @@ async function resizePhoto(sourcePath, filename) {
 export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget(SOURCE_DIR);
 
+  eleventyConfig.addFilter("with_default_photo", (person) =>
+    person?.current && !person.image ? { ...person, image: "no-photo.jpg" } : person,
+  );
+
   eleventyConfig.on("eleventy.before", async () => {
     const filenames = readdirSync(SOURCE_DIR).filter((file) => file.endsWith(".jpg"));
     for (const filename of filenames) {
