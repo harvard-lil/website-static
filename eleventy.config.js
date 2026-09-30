@@ -2,8 +2,9 @@ import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { CORE_SCHEMA, load, timestampTag } from "js-yaml";
 
 import assets from "./config/assets.js";
-import filters from "./config/filters.js";
 import collections from "./config/collections.js";
+import filters from "./config/filters.js";
+import people from "./config/people.js";
 
 // Prevent dates without timezone (e.g., in blog posts) from getting mangled
 process.env.TZ = "UTC";
@@ -59,6 +60,7 @@ export default function (eleventyConfig) {
 
   filters(eleventyConfig);
   collections(eleventyConfig);
+  people(eleventyConfig);
 
   eleventyConfig.setServerOptions({
     showAllHosts: true,
