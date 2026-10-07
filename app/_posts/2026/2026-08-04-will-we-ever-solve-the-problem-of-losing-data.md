@@ -7,10 +7,16 @@ project: public-data-project
 tags:
   - Library Principles
   - Public Data
+thumbnail: https://lil-blog-media.s3.amazonaws.com/nypl-library-stacks-1911-thumbnail.webp
 ---
 For a recent installment of Gizmodo's Giz Asks series, Gayoung Lee asked researchers in computer science, cybersecurity, and libraries: [will we ever solve the problem of losing data?](https://gizmodo.com/will-we-ever-solve-the-problem-of-losing-data-2000792386)
 
 I love this question because it is core to the work we do at the Lab: as technology changes the global information landscape, how can we remember where we have come from and plan where we are going?
+
+<figure class="items-center text-center">
+  <img class="w-4/5" src="https://lil-blog-media.s3.amazonaws.com/nypl-library-stacks-1911.webp" alt="Cutaway engraving of the New York Public Library showing seven tiers of book stacks beneath the main reading room, with staff retrieving books and a lift shaft carrying them up to readers" />
+  <figcaption>The seven tiers of book stacks beneath the New York Public Library's main reading room. <i>Scientific American</i>, 1911. Source: <a href="https://digitalcollections.nypl.org/items/467b61a0-c55b-012f-caa9-58d385a7bc34">The New York Public Library</a>.</figcaption>
+</figure>
 
 I contributed this answer:
 
