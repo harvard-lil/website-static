@@ -5,6 +5,7 @@ import assets from "./config/assets.js";
 import collections from "./config/collections.js";
 import filters from "./config/filters.js";
 import people from "./config/people.js";
+import projects from "./config/projects.js";
 
 // Prevent dates without timezone (e.g., in blog posts) from getting mangled
 process.env.TZ = "UTC";
@@ -42,7 +43,6 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("app/assets/images");
   eleventyConfig.addPassthroughCopy("app/assets/fonts");
-  eleventyConfig.addPassthroughCopy("app/assets/thumbs");
   eleventyConfig.addPassthroughCopy({
     "node_modules/gsap/dist/gsap.min.js": "assets/lib/gsap.min.js",
     "node_modules/swup/dist/Swup.umd.js": "assets/lib/Swup.umd.js",
@@ -61,6 +61,7 @@ export default function (eleventyConfig) {
   filters(eleventyConfig);
   collections(eleventyConfig);
   people(eleventyConfig);
+  projects(eleventyConfig);
 
   eleventyConfig.setServerOptions({
     showAllHosts: true,
