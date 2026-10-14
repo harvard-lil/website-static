@@ -147,7 +147,7 @@ So when the Library Innovation Lab innovates, when it tries experiments, that’
 *  [Perma.cc](https://perma.cc/), which literally repairs cultural memory by fixing link rot in court decisions and law journals — and now offers tools.perma.cc, which lets any library or archive run their own web archive with the policies that matter to their communities.
 *  [OpenCasebook.org](https://opencasebook.org/), which lets law faculty collaborate on their own open source casebooks to reinvent the legal curriculum.
 *  [Case.law](https://case.law/), which digitized seven million court decisions, and built a wide variety of interfaces around those decisions, to let everyone in the world explore US caselaw.
-*  … and our [new experiments in AI](https://lil.law.harvard.edu/about/ai), which are once again focused on how to guide a new technology to have it help, rather than hurt, our ability to communicate and reason as a society.
+*  … and our [new experiments in AI](/our-work/), which are once again focused on how to guide a new technology to have it help, rather than hurt, our ability to communicate and reason as a society.
 
 We’re a small lab, and the things we can try are a small slice of the many ways libraries can explore novel missions. So for the rest of the talk, I’d like to share a grab bag of things I’ve learned about how to build a team that can respond to sharp changes in the graph and try something new.
 
