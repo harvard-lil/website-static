@@ -72,3 +72,7 @@ DeepSeek V4 Flash was cheapest at $0.17 per dataset; Claude Opus 5.5 was most ex
 ## Looking Ahead
 
 Models are continuously improving, and agreement on a data risk task like this could improve over time with optimized search tooling. DeepSeek V4 Pro maintained the best accuracy at a fraction of the cost of frontier models, illuminating that the most popular agents aren't always best suited to the task. We plan to release further work benchmarking these types of data agents on real-world tasks and empirically comparing them to other modern approaches in academia and industry. Working at the intersections of libraries and technology, we aim to create tools that researchers, journalists, and the public at large can trust and replicate without advanced domain understanding or deep pockets. Please stay tuned for further updates on our Data Monitoring Toolkit.
+
+---
+
+_View the code for the AI Risk Assessment tool here: [harvard-lil/ai-benchmarking-exercise](https://github.com/harvard-lil/ai-benchmarking-exercise/blob/main/agent/run.py)._
