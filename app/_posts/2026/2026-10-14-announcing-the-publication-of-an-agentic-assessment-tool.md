@@ -5,6 +5,7 @@ author:
   - akshay-mehta
 project: public-data-project
 tags:
+  - AI Research
   - Fellows' Research
   - Public Data
   - Tools
