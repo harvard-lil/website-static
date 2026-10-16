@@ -10,7 +10,7 @@ tags:
 
 <img src="https://lil-blog-media.s3.amazonaws.com/olaw-banner.png" alt=""/>
 
-> _This post is part of the Library Innovation Lab’s announcements in the context of [Transform: Justice](https://lil.law.harvard.edu/about/cap-celebration/), celebrating the full, unqualified release of the data from the [Caselaw Access Project](https://case.law)._
+> _This post is part of the Library Innovation Lab’s announcements in the context of [Transform: Justice](/events/transform-justice/), celebrating the full, unqualified release of the data from the [Caselaw Access Project](https://case.law)._
 
 When the Lexis corporation [first launched legal research terminals](https://en.wikipedia.org/wiki/LexisNexis#History) in the 1970s it hoped to “crack the librarian barrier,” allowing lawyers to do their own legal research from their desks instead of sending law firm librarians through paper search indexes. Today something larger is possible: we may be able to “crack the justice barrier,” allowing people to answer a larger and larger number of legal questions for themselves. [According to the Legal Services Corporation](https://justicegap.lsc.gov/), low-income Americans do not receive any or enough legal help for 92% of their civil legal problems, so there would be a huge public benefit to making legal resources more widely available.
 
