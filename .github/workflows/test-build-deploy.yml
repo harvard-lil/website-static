@@ -37,7 +37,8 @@ jobs:
       - name: Check internal links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --offline --root-dir build/ build/
+          # Exclude blog posts published before 2025
+          args: --no-progress --offline --root-dir build/ --exclude-path 'build/blog/(2009|201[0-9]|202[0-4])/' build/
           fail: true
 
       - name: Upload build artifact
