@@ -2,13 +2,6 @@
   <p class="roundup-title">
     <a href="{{ link }}">{{ title }}</a>
   </p>
-  {% if screenshot %}
-  <div class="screenshot">
-    <a href="{{ link }}">
-      <img alt="{{ alt }}" src="{{ screenshot }}">
-    </a>
-  </div>
-  {% endif %}
   <div class="metadata">
     <div class="text-frame">
       {% if text %}<p>{{ text }}</p>{% endif %}

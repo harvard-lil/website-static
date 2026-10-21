@@ -1,9 +1,11 @@
+import { HtmlBasePlugin } from "@11ty/eleventy";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { CORE_SCHEMA, load, timestampTag } from "js-yaml";
 
 import assets from "./config/assets.js";
 import collections from "./config/collections.js";
 import filters from "./config/filters.js";
+import links from "./config/links.js";
 import people from "./config/people.js";
 import projects from "./config/projects.js";
 
@@ -23,6 +25,7 @@ export default function (eleventyConfig) {
   eleventyConfig.on("eleventy.beforeWatch", () => liquidCache.clear());
 
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addDataExtension("yaml,yml", (contents) =>
     load(contents, { schema: CORE_SCHEMA.withTags(timestampTag) }),
   );
@@ -58,8 +61,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("app/generational-data-interviews/assets");
   eleventyConfig.addPassthroughCopy("app/generational-data-interviews/main.js");
 
-  filters(eleventyConfig);
   collections(eleventyConfig);
+  filters(eleventyConfig);
+  links(eleventyConfig);
   people(eleventyConfig);
   projects(eleventyConfig);
 
