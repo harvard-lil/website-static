@@ -21,7 +21,7 @@ We are grateful for the interest the community showed for our work, and for all 
 
 You can view WARC-GPT’s source code and case study at [https://github.com/harvard-lil/warc-gpt](https://github.com/harvard-lil/warc-gpt). 
 
-This project is part of our [ongoing series exploring how artificial intelligence changes our relationship to knowledge](/our-work/).
+This project is part of our [ongoing series exploring how artificial intelligence changes our relationship to knowledge](https://lil.law.harvard.edu/about/ai).
 
 ---
 ## Video

@@ -22,7 +22,7 @@ Using [WARC-GPT](https://github.com/harvard-lil/warc-gpt), you can ask specific 
     <figcaption>Screenshot: WARC-GPT answering a question using a web archives collection as its knowledge base.</figcaption>
 </figure>
 
-This project is part of our [ongoing series exploring how artificial intelligence changes our relationship to knowledge](/our-work/). The release of this experimental software will help us understand whether and how AI can help access and uncover web archives’ contents. Of course, this is simply a prototype – see [our disclaimer](https://github.com/harvard-lil/warc-gpt/blob/main/README.md#disclaimer) in the repo.
+This project is part of our [ongoing series exploring how artificial intelligence changes our relationship to knowledge](https://lil.law.harvard.edu/about/ai). The release of this experimental software will help us understand whether and how AI can help access and uncover web archives’ contents. Of course, this is simply a prototype – see [our disclaimer](https://github.com/harvard-lil/warc-gpt/blob/main/README.md#disclaimer) in the repo.
 
 <figure>
     <a href="https://lil-blog-media.s3.amazonaws.com/warc-gpt-screenshot-02-R3G.webp">

@@ -13,4 +13,4 @@ In her work at the Library Innovation Lab, Molly will further examine goals she 
 
 We are excited for Molly to join the Lab because we share her interest in reinventing traditional institutions to better empower people, while being deeply critical of proposed replacements that may misfire or disempower people. We also admire her skill in translating technical insights into effective advocacy. As libraries continue to rethink our role—as a cultural memory, information network, and social safety net—we have a great deal to learn from her work.
 
-Molly will be joining us for one year, as part of our [Democratizing Open Knowledge](/our-work/democratizing-open-knowledge/) program supported by the Filecoin Foundation for the Decentralized Web. Welcome, Molly!
+Molly will be joining us for one year, as part of our [Democratizing Open Knowledge](https://lil.law.harvard.edu/about/democratizing-open-knowledge) program supported by the Filecoin Foundation for the Decentralized Web. Welcome, Molly!

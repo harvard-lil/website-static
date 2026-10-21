@@ -70,7 +70,7 @@ which arguably makes it even more credible.
 
 ChatGPT appears to know what a WARC file is, and is able to generate an output that resembles one. 
 There are however a few important issues with the output it generated:
-- The `WARC-Target-URI property` is missing, there is therefore no association between the record and the URL it was supposed to originate from, `http://lil.law.harvard.edu/about.html`.
+- The `WARC-Target-URI property` is missing, there is therefore no association between the record and the URL it was supposed to originate from, http://lil.law.harvard.edu/about.html.
 - Every single `Content-Length` property is wrong, making the document impossible to parse correctly.
 - The unique identifiers ChatGPT issues are … not unique. See `WARC-Record-ID` for example.   
 - The hashes are also placeholders, and don't match the payloads they are meant to represent. See `WARC-Block-Digest` for example.
@@ -92,7 +92,7 @@ But can it edit an existing WARC file? Can it identify HTML content in a WARC fi
 
 To figure that out, I took the half-broken web archive ChatGPT generated as the result of my first experiment and asked it to:
 - Add the missing `WARC-Target-URI` property on the first "record" entry of the file
-- Replace the title of the HTML document associated with the url `http://lil.law.harvard.edu/about.html`
+- Replace the title of the HTML document associated with the url http://lil.law.harvard.edu/about.html
 
 These tasks are text-based and ChatGPT was able to complete them on the first try.
 

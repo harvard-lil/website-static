@@ -2,7 +2,7 @@
 title: New Endeavors at the Library Innovation Lab
 author: clare-stanton
 ---
-This month, the Library Innovation Lab celebrated the [full and unqualified release](https://lil.law.harvard.edu/blog/2024/03/26/transitions-for-the-caselaw-access-project/) of the Caselaw Access Project data. We took the opportunity to gather and look to the future at [Transform: Justice on March 8th](/events/transform-justice/). The event reminded us of what we already knew: the open legal data movement is alive and well. 
+This month, the Library Innovation Lab celebrated the [full and unqualified release](https://lil.law.harvard.edu/blog/2024/03/26/transitions-for-the-caselaw-access-project/) of the Caselaw Access Project data. We took the opportunity to gather and look to the future at [Transform: Justice on March 8th](http://lil.law.harvard.edu/about/cap-celebration). The event reminded us of what we already knew: the open legal data movement is alive and well. 
 
 In addition to hearing the story of CAP, librarians, vendors, and advocates had conversations about future paths for accessing the law. Noted open-access activist Carl Malamud made his pitch for a [Full Faith and Credit Act](https://www.youtube.com/watch?v=JTIIfCp1Ufk). 
 
@@ -20,7 +20,7 @@ Here’s some of what’s coming up next at the Library Innovation Lab:
  
 ### Empower everyone – AI, understanding, access to justice
 
-**[Library Innovation Lab Artificial Intelligence Fund](/our-work/)**: LexisNexis is the first funder of our AI fund, which has been set up to support exploration at the edge of law, AI technology, libraries, and society.
+**[Library Innovation Lab Artificial Intelligence Fund](http://lil.law.harvard.edu/about/ai)**: LexisNexis is the first funder of our AI fund, which has been set up to support exploration at the edge of law, AI technology, libraries, and society.
 
 **[Open Legal AI Workbench](https://lil.law.harvard.edu/blog/2024/03/08/announcing-the-open-legal-ai-workbench-olaw/)**: Our recently released Open Legal AI Workbench is a simple, well-documented, and extensible framework for legal AI researchers to build services using tool-based retrieval augmented generation. 
 
