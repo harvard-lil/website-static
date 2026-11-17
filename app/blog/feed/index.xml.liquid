@@ -34,9 +34,9 @@ permalink: /blog/feed/index.xml
         {% endif %}
         {% assign post_excerpt = post | post_excerpt %}
         {% if post_excerpt %}
-            <description><![CDATA[{{ post_excerpt }}]]></description>
+            <description><![CDATA[{{ post_excerpt | transformWithHtmlBase: site.url, post.url }}]]></description>
         {% endif %}
-        <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
+        <content:encoded><![CDATA[{{ post.templateContent | transformWithHtmlBase: site.url, post.url }}]]></content:encoded>
     </item>
     {% endfor %}
 

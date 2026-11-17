@@ -22,7 +22,7 @@
     "concurrently": "^10.0.5",
     "gsap": "^3.15.0",
     "js-yaml": "^5.4.2",
-    "markdown-it": "^15.0.2",
+    "markdown-it": "^15.0.3",
     "swup": "^4.10.0",
     "tailwindcss": "^4.3.3"
   },
